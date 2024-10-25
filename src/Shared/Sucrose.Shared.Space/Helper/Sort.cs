@@ -4,6 +4,7 @@ using SMMRC = Sucrose.Memory.Manage.Readonly.Content;
 using SSDESKT = Sucrose.Shared.Dependency.Enum.SortKindType;
 using SSDESMT = Sucrose.Shared.Dependency.Enum.SortModeType;
 using SSDMMP = Sucrose.Shared.Dependency.Manage.Manager.Portal;
+using SSSHR = Sucrose.Shared.Space.Helper.Regexer;
 using SSTHI = Sucrose.Shared.Theme.Helper.Info;
 
 namespace Sucrose.Shared.Space.Helper
@@ -22,10 +23,6 @@ namespace Sucrose.Shared.Space.Helper
                 if (Directory.Exists(ThemePath) && File.Exists(InfoPath))
                 {
                     SSTHI Info = SSTHI.ReadJson(InfoPath);
-
-                    IEnumerable<string> SearchText = Info.Title.Split(' ')
-                        .Concat(Info.Description.Split(' '))
-                        .Concat(Info.Tags?.SelectMany(Tag => Tag.Split(' ')) ?? Array.Empty<string>());
 
                     if (SSDMMP.LibrarySortMode == SSDESMT.Name)
                     {
@@ -77,7 +74,7 @@ namespace Sucrose.Shared.Space.Helper
                         .Concat(Info.Description.Split(' '))
                         .Concat(Info.Tags?.SelectMany(Tag => Tag.Split(' ')) ?? Array.Empty<string>());
 
-                    Searches.Add(Theme, string.Join(" ", SearchText.Select(Word => Word.ToLowerInvariant()).Distinct()));
+                    Searches.Add(Theme, SSSHR.RemoveExtraSpaces(string.Join(" ", SearchText.Select(Word => SSSHR.RemovePunctuation(Word).ToLowerInvariant()).Distinct())));
 
                     if (SSDMMP.LibrarySortMode == SSDESMT.Name)
                     {

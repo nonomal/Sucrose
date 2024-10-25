@@ -1,4 +1,6 @@
-﻿namespace Sucrose.Portal.Services
+﻿using SSSHR = Sucrose.Shared.Space.Helper.Regexer;
+
+namespace Sucrose.Portal.Services
 {
     internal class SearchService : IDisposable
     {
@@ -44,7 +46,7 @@
 
         private static string[] CleanSpaces(string Text)
         {
-            return Text.Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
+            return SSSHR.RemovePunctuation(Text).Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
         }
 
         public void Dispose()
