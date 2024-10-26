@@ -378,6 +378,11 @@ Portal\Enum\Portal.Enum.NB.xaml,,
 Portal\Enum\Portal.Enum.NB.xaml,Portal.Enum.StoreServerType.GitHub,GitHub
 Portal\Enum\Portal.Enum.NB.xaml,Portal.Enum.StoreServerType.Soferity,Soferity
 Portal\Enum\Portal.Enum.NB.xaml,,
+Portal\Enum\Portal.Enum.NB.xaml,Portal.Enum.UpdateAutoType.Visible,Synlig
+Portal\Enum\Portal.Enum.NB.xaml,Portal.Enum.UpdateAutoType.SemiSilent,Av og til Synlig
+Portal\Enum\Portal.Enum.NB.xaml,Portal.Enum.UpdateAutoType.UpdateSilent,Oppdatering Ikke Synlig
+Portal\Enum\Portal.Enum.NB.xaml,Portal.Enum.UpdateAutoType.CompleteSilent,Fullstendig Ikke Synlig
+Portal\Enum\Portal.Enum.NB.xaml,,
 Portal\Enum\Portal.Enum.NB.xaml,Portal.Enum.UpdateModuleType.Native,Native
 Portal\Enum\Portal.Enum.NB.xaml,Portal.Enum.UpdateModuleType.Downloader,Downloader
 Portal\Enum\Portal.Enum.NB.xaml,,
@@ -951,6 +956,8 @@ Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.NB.xaml,Portal.Other
 Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.NB.xaml,,
 Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.NB.xaml,Portal.OtherSettingPage.Auto,Automatisk Oppdatering
 Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.NB.xaml,Portal.OtherSettingPage.Auto.Description,Om oppdateringsprosessen vil bli sjekket automatisk.
+Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.NB.xaml,,
+Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.NB.xaml,Portal.OtherSettingPage.Auto.Update,Slik Utføres Kontrollen:
 Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.NB.xaml,,
 Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.NB.xaml,Portal.OtherSettingPage.Developer,Utviklerverktøy
 Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.NB.xaml,Portal.OtherSettingPage.Developer.Description,Administrer utviklerverktøy for WebView og CefSharp-motoren.

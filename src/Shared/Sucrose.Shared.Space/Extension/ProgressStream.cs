@@ -4,7 +4,13 @@ namespace Sucrose.Shared.Space.Extension
 {
     internal class ProgressStream(Stream Stream, long TotalBytes, Action<long, long, double> Progress) : Stream
     {
+        private static readonly CancellationTokenSource CancellationTokenSource = new();
+
+        private CancellationToken CancellationToken = CancellationTokenSource.Token;
+
         public event EventHandler<EventArgs>? ProgressCompleted;
+
+        public event EventHandler<EventArgs>? ProgressCanceled;
 
         public event EventHandler<EventArgs>? ProgressStarted;
 
@@ -20,13 +26,39 @@ namespace Sucrose.Shared.Space.Extension
 
         private bool IsProgressComplete = false;
 
+        private bool IsProgressCancel = false;
+
         private bool IsProgressStart = false;
 
         private long BytesTransferred;
 
+        public virtual void Cancel()
+        {
+            if (!IsProgressCancel)
+            {
+                IsProgressCancel = true;
+
+                CancellationTokenSource.Cancel();
+
+                OnProgressCanceled(EventArgs.Empty);
+            }
+        }
+
+        public override void Close()
+        {
+            base.Close();
+            Stream.Close();
+        }
+
         public override void Flush()
         {
             Stream.Flush();
+        }
+
+        public virtual void Dispose()
+        {
+            base.Dispose();
+            Stream.Dispose();
         }
 
         public override long Position
@@ -43,6 +75,11 @@ namespace Sucrose.Shared.Space.Extension
         protected virtual void OnProgressStarted(EventArgs Args)
         {
             ProgressStarted?.Invoke(this, Args);
+        }
+
+        protected virtual void OnProgressCanceled(EventArgs Args)
+        {
+            ProgressCanceled?.Invoke(this, Args);
         }
 
         public override long Seek(long offset, SeekOrigin origin)
@@ -64,6 +101,8 @@ namespace Sucrose.Shared.Space.Extension
         {
             try
             {
+                CancellationToken.ThrowIfCancellationRequested();
+
                 if (!IsProgressStart)
                 {
                     IsProgressStart = true;
@@ -86,6 +125,17 @@ namespace Sucrose.Shared.Space.Extension
 
                 return bytesRead;
             }
+            catch (OperationCanceledException)
+            {
+                if (!IsProgressCancel)
+                {
+                    IsProgressCancel = true;
+
+                    OnProgressCanceled(EventArgs.Empty);
+                }
+
+                throw;
+            }
             catch (Exception Exception)
             {
                 OnProgressFailed(Exception);
@@ -98,6 +148,8 @@ namespace Sucrose.Shared.Space.Extension
         {
             try
             {
+                CancellationToken.ThrowIfCancellationRequested();
+
                 if (!IsProgressStart)
                 {
                     IsProgressStart = true;
@@ -117,6 +169,17 @@ namespace Sucrose.Shared.Space.Extension
 
                     OnProgressCompleted(EventArgs.Empty);
                 }
+            }
+            catch (OperationCanceledException)
+            {
+                if (!IsProgressCancel)
+                {
+                    IsProgressCancel = true;
+
+                    OnProgressCanceled(EventArgs.Empty);
+                }
+
+                throw;
             }
             catch (Exception Exception)
             {

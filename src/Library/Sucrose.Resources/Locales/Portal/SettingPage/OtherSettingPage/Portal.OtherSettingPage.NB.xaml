@@ -46,6 +46,8 @@
     <system:String x:Key="Portal.OtherSettingPage.Auto">Automatisk Oppdatering</system:String>
     <system:String x:Key="Portal.OtherSettingPage.Auto.Description">Om oppdateringsprosessen vil bli sjekket automatisk.</system:String>
 
+    <system:String x:Key="Portal.OtherSettingPage.Auto.Update">Slik Utføres Kontrollen:</system:String>
+
     <system:String x:Key="Portal.OtherSettingPage.Developer">Utviklerverktøy</system:String>
     <system:String x:Key="Portal.OtherSettingPage.Developer.Description">Administrer utviklerverktøy for WebView og CefSharp-motoren.</system:String>
 

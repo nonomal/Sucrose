@@ -378,6 +378,11 @@ Portal\Enum\Portal.Enum.MS.xaml,,
 Portal\Enum\Portal.Enum.MS.xaml,Portal.Enum.StoreServerType.GitHub,GitHub
 Portal\Enum\Portal.Enum.MS.xaml,Portal.Enum.StoreServerType.Soferity,Soferity
 Portal\Enum\Portal.Enum.MS.xaml,,
+Portal\Enum\Portal.Enum.MS.xaml,Portal.Enum.UpdateAutoType.Visible,Terlihat
+Portal\Enum\Portal.Enum.MS.xaml,Portal.Enum.UpdateAutoType.SemiSilent,Kadang-Kadang Terlihat
+Portal\Enum\Portal.Enum.MS.xaml,Portal.Enum.UpdateAutoType.UpdateSilent,Kemas Kini Tidak Terlihat
+Portal\Enum\Portal.Enum.MS.xaml,Portal.Enum.UpdateAutoType.CompleteSilent,Sepenuhnya Tidak Terlihat
+Portal\Enum\Portal.Enum.MS.xaml,,
 Portal\Enum\Portal.Enum.MS.xaml,Portal.Enum.UpdateModuleType.Native,Native
 Portal\Enum\Portal.Enum.MS.xaml,Portal.Enum.UpdateModuleType.Downloader,Downloader
 Portal\Enum\Portal.Enum.MS.xaml,,
@@ -951,6 +956,8 @@ Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.MS.xaml,Portal.Other
 Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.MS.xaml,,
 Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.MS.xaml,Portal.OtherSettingPage.Auto,Kemas Kini Automatik
 Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.MS.xaml,Portal.OtherSettingPage.Auto.Description,Sama ada proses kemas kini akan diperiksa secara automatik.
+Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.MS.xaml,,
+Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.MS.xaml,Portal.OtherSettingPage.Auto.Update,Bagaimana Semakan Akan Dilakukan:
 Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.MS.xaml,,
 Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.MS.xaml,Portal.OtherSettingPage.Developer,Alat Pembangun
 Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.MS.xaml,Portal.OtherSettingPage.Developer.Description,Urus alat pembangun untuk enjin WebView dan CefSharp.

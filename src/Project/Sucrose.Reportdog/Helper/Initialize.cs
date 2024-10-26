@@ -156,6 +156,7 @@ namespace Sucrose.Reportdog.Helper
                             TotalMemory = SSCHM.GetTotalMemory(),
                             EngineInputType = $"{SMME.InputType}",
                             StretchType = $"{SSDMME.StretchType}",
+                            UpdateAutoType = $"{SSDMMU.AutoType}",
                             BackgroundImage = SMMP.BackgroundImage,
                             EngineInputDesktop = SMME.InputDesktop,
                             StorePagination = SMMP.StorePagination,

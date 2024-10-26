@@ -1,6 +1,7 @@
 ﻿using Downloader;
 using Newtonsoft.Json;
 using System.ComponentModel;
+using System.Diagnostics;
 using System.IO;
 using System.Net.Http;
 using System.Runtime.InteropServices;
@@ -33,6 +34,7 @@ using SSCHV = Sucrose.Shared.Core.Helper.Version;
 using SSCMMU = Sucrose.Shared.Core.Manage.Manager.Update;
 using SSDECDT = Sucrose.Shared.Dependency.Enum.CommandType;
 using SSDECYT = Sucrose.Shared.Dependency.Enum.CompatibilityType;
+using SSDEUAT = Sucrose.Shared.Dependency.Enum.UpdateAutoType;
 using SSDEUMT = Sucrose.Shared.Dependency.Enum.UpdateModuleType;
 using SSDEUST = Sucrose.Shared.Dependency.Enum.UpdateServerType;
 using SSDMMU = Sucrose.Shared.Dependency.Manage.Manager.Update;
@@ -40,7 +42,6 @@ using SSESSE = Skylark.Standard.Extension.Storage.StorageExtension;
 using SSHG = Skylark.Standard.Helper.GitHub;
 using SSIIA = Skylark.Standard.Interface.IAssets;
 using SSIIR = Skylark.Standard.Interface.IReleases;
-using SSSEPS = Sucrose.Shared.Space.Extension.ProgressStream;
 using SSSHE = Sucrose.Shared.Space.Helper.Extension;
 using SSSHN = Sucrose.Shared.Space.Helper.Network;
 using SSSHP = Sucrose.Shared.Space.Helper.Processor;
@@ -86,11 +87,11 @@ namespace Sucrose.Update.View
 
         private static int MaxDelay => 5000;
 
-        private bool Silent;
+        private SSDEUAT AutoType;
 
-        public MainWindow(bool Silent)
+        internal MainWindow(SSDEUAT AutoType)
         {
-            this.Silent = Silent;
+            this.AutoType = AutoType;
             InitializeComponent();
         }
 
@@ -118,7 +119,7 @@ namespace Sucrose.Update.View
         {
             try
             {
-                if (!Silent)
+                if (AutoType == SSDEUAT.Visible)
                 {
                     SWNM.DWMWINDOWATTRIBUTE Attribute = SWNM.DWMWINDOWATTRIBUTE.WindowCornerPreference;
                     SWNM.DWM_WINDOW_CORNER_PREFERENCE Preference = SWNM.DWM_WINDOW_CORNER_PREFERENCE.DWMWCP_ROUND;
@@ -159,7 +160,7 @@ namespace Sucrose.Update.View
                                 {
                                     await Task.Delay(MinDelay);
 
-                                    if (!Silent || StepSilent())
+                                    if (AutoType != SSDEUAT.SemiSilent || StepSilent())
                                     {
                                         await Task.Delay(MinDelay);
 
@@ -175,7 +176,7 @@ namespace Sucrose.Update.View
                 }
             }
 
-            if (Silent)
+            if (State && AutoType != SSDEUAT.Visible)
             {
                 Close();
             }
@@ -229,7 +230,7 @@ namespace Sucrose.Update.View
 
                 Opacity = 1;
 
-                Silent = false;
+                AutoType = SSDEUAT.Visible;
 
                 WindowCorner();
 
@@ -267,8 +268,8 @@ namespace Sucrose.Update.View
 
                             SSSMUTD UpdateData = new()
                             {
-                                SilentMode = Silent,
-                                AppVersion = SSCHV.GetText()
+                                AppVersion = SSCHV.GetText(),
+                                UpdateAutoType = $"{AutoType}"
                             };
 
                             StringContent Content = new(JsonConvert.SerializeObject(UpdateData, Formatting.Indented), SMMRS.Encoding, SMMRS.ApplicationJson);
@@ -475,7 +476,7 @@ namespace Sucrose.Update.View
 
                     await Task.Delay(MinDelay);
 
-                    await Task.Run(() => SSSHP.Run(Bundle));
+                    await Task.Run(() => SSSHP.Run(Bundle, SSDMMU.AutoType == SSDEUAT.CompleteSilent ? "/s" : string.Empty, ProcessWindowStyle.Normal, true));
 
                     Message.Text = SRER.GetValue("Update", "MessageText", "Running", "Executed");
                 }
@@ -525,7 +526,7 @@ namespace Sucrose.Update.View
 
                             await Task.Delay(MinDelay);
 
-                            await Task.Run(() => SSSHP.Run(Bundle));
+                            await Task.Run(() => SSSHP.Run(Bundle, SSDMMU.AutoType == SSDEUAT.CompleteSilent ? "/s" : string.Empty, ProcessWindowStyle.Normal, true));
 
                             Message.Text = SRER.GetValue("Update", "MessageText", "Extracting", "Executed");
                         }
@@ -583,11 +584,13 @@ namespace Sucrose.Update.View
 
                             using Stream ContentStream = await Response.Content.ReadAsStreamAsync();
                             using FileStream FileStream = new(Bundle, FileMode.OpenOrCreate, FileAccess.Write, FileShare.None, BufferSize, true);
-                            using SSSEPS ProgressStream = new(ContentStream, TotalBytes, ReportProgress);
 
-                            ProgressStream.ProgressCompleted += ProgressStream_ProgressCompleted;
-                            ProgressStream.ProgressStarted += ProgressStream_ProgressStarted;
-                            ProgressStream.ProgressFailed += ProgressStream_ProgressFailed;
+                            SUMI.ProgressStream = new(ContentStream, TotalBytes, ReportProgress);
+
+                            SUMI.ProgressStream.ProgressCompleted += ProgressStream_ProgressCompleted;
+                            SUMI.ProgressStream.ProgressCanceled += ProgressStream_ProgressCanceled;
+                            SUMI.ProgressStream.ProgressStarted += ProgressStream_ProgressStarted;
+                            SUMI.ProgressStream.ProgressFailed += ProgressStream_ProgressFailed;
 
                             byte[] Buffer = new byte[BufferSize];
                             long BytesDownloadedThisSecond = 0;
@@ -595,9 +598,9 @@ namespace Sucrose.Update.View
                             int BytesRead;
 
 #if NET48_OR_GREATER
-                            while ((BytesRead = await ProgressStream.ReadAsync(Buffer, 0, Buffer.Length)) > 0)
+                            while ((BytesRead = await SUMI.ProgressStream.ReadAsync(Buffer, 0, Buffer.Length)) > 0)
 #else
-                            while ((BytesRead = await ProgressStream.ReadAsync(Buffer)) > 0)
+                            while ((BytesRead = await SUMI.ProgressStream.ReadAsync(Buffer)) > 0)
 #endif
                             {
 #if NET48_OR_GREATER
@@ -656,7 +659,7 @@ namespace Sucrose.Update.View
 
         private async Task Reloader()
         {
-            Silent = false;
+            AutoType = SSDEUAT.Visible;
 
             HasBundle = false;
 
@@ -744,7 +747,15 @@ namespace Sucrose.Update.View
                                     Count = 0;
                                     Value = 0;
 
-                                    await SUMI.DownloadService.CancelTaskAsync();
+                                    if (SUMI.ProgressStream != null)
+                                    {
+                                        SUMI.ProgressStream?.Cancel();
+                                    }
+
+                                    if (SUMI.DownloadService != null)
+                                    {
+                                        await SUMI.DownloadService?.CancelTaskAsync();
+                                    }
                                 }
                             }
                         }
@@ -821,6 +832,8 @@ namespace Sucrose.Update.View
         {
             await Application.Current.Dispatcher.InvokeAsync(async () =>
             {
+                StepSilent();
+
                 Count = 0;
                 Value = 0;
 
@@ -871,6 +884,36 @@ namespace Sucrose.Update.View
                 TaskBarProgress.SetValue(this, TaskBarProgressState.Normal, 0);
 
                 SMMI.UpdateSettingManager.SetSetting(SMMCU.State, true);
+            });
+        }
+
+        private async void ProgressStream_ProgressCanceled(object sender, EventArgs e)
+        {
+            await Application.Current.Dispatcher.InvokeAsync(async () =>
+            {
+                StepSilent();
+
+                Count = 0;
+                Value = 0;
+
+                HasBundle = false;
+
+                SUMI.Trying = true;
+
+                Message.Text = SRER.GetValue("Update", "MessageText", "Downloading", "Complete", "Cancel");
+
+                Ring.Visibility = Visibility.Hidden;
+                Message.Visibility = Visibility.Visible;
+                Progress.Visibility = Visibility.Hidden;
+
+                TaskBarProgress.SetState(this, TaskBarProgressState.Error);
+
+                await Task.Delay(MaxDelay);
+
+                Message.Visibility = Visibility.Hidden;
+                Reload.Visibility = Visibility.Visible;
+
+                TaskBarProgress.SetState(this, TaskBarProgressState.None);
             });
         }
 
@@ -937,6 +980,8 @@ namespace Sucrose.Update.View
             {
                 if (e.Error != null || e.Cancelled)
                 {
+                    StepSilent();
+
                     Count = 0;
                     Value = 0;
 
@@ -993,17 +1038,6 @@ namespace Sucrose.Update.View
             });
         }
 
-        private async void OnDownloadProgressChanged(object sender, DownloadProgressChangedEventArgs e)
-        {
-            await Application.Current.Dispatcher.InvokeAsync(() =>
-            {
-                Ring.Progress = e.ProgressPercentage;
-                Progress.Value = e.ProgressPercentage;
-
-                TaskBarProgress.SetValue(this, TaskBarProgressState.Normal, Convert.ToInt32(e.ProgressPercentage));
-            });
-        }
-
         private async void ReportProgress(long bytesTransferred, long totalBytes, double progress)
         {
             await Application.Current.Dispatcher.InvokeAsync(() =>
@@ -1012,6 +1046,17 @@ namespace Sucrose.Update.View
                 Progress.Value = progress;
 
                 TaskBarProgress.SetValue(this, TaskBarProgressState.Normal, Convert.ToInt32(progress));
+            });
+        }
+
+        private async void OnDownloadProgressChanged(object sender, DownloadProgressChangedEventArgs e)
+        {
+            await Application.Current.Dispatcher.InvokeAsync(() =>
+            {
+                Ring.Progress = e.ProgressPercentage;
+                Progress.Value = e.ProgressPercentage;
+
+                TaskBarProgress.SetValue(this, TaskBarProgressState.Normal, Convert.ToInt32(e.ProgressPercentage));
             });
         }
 

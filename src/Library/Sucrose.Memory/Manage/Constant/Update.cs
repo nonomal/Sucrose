@@ -8,6 +8,8 @@
 
         public const string State = "State";
 
+        public const string AutoType = "AutoType";
+
         public const string LimitType = "LimitType";
 
         public const string LimitValue = "LimitValue";

@@ -378,6 +378,11 @@ Portal\Enum\Portal.Enum.ZH.xaml,,
 Portal\Enum\Portal.Enum.ZH.xaml,Portal.Enum.StoreServerType.GitHub,GitHub
 Portal\Enum\Portal.Enum.ZH.xaml,Portal.Enum.StoreServerType.Soferity,Soferity
 Portal\Enum\Portal.Enum.ZH.xaml,,
+Portal\Enum\Portal.Enum.ZH.xaml,Portal.Enum.UpdateAutoType.Visible,可见
+Portal\Enum\Portal.Enum.ZH.xaml,Portal.Enum.UpdateAutoType.SemiSilent,有时可见
+Portal\Enum\Portal.Enum.ZH.xaml,Portal.Enum.UpdateAutoType.UpdateSilent,更新不可见
+Portal\Enum\Portal.Enum.ZH.xaml,Portal.Enum.UpdateAutoType.CompleteSilent,完全不可见
+Portal\Enum\Portal.Enum.ZH.xaml,,
 Portal\Enum\Portal.Enum.ZH.xaml,Portal.Enum.UpdateModuleType.Native,Native
 Portal\Enum\Portal.Enum.ZH.xaml,Portal.Enum.UpdateModuleType.Downloader,Downloader
 Portal\Enum\Portal.Enum.ZH.xaml,,
@@ -951,6 +956,8 @@ Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.ZH.xaml,Portal.Other
 Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.ZH.xaml,,
 Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.ZH.xaml,Portal.OtherSettingPage.Auto,自动更新
 Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.ZH.xaml,Portal.OtherSettingPage.Auto.Description,是否将自动检查更新过程。
+Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.ZH.xaml,,
+Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.ZH.xaml,Portal.OtherSettingPage.Auto.Update,检查将如何执行：
 Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.ZH.xaml,,
 Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.ZH.xaml,Portal.OtherSettingPage.Developer,开发工具
 Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.ZH.xaml,Portal.OtherSettingPage.Developer.Description,管理 WebView 和 CefSharp 引擎的开发者工具。

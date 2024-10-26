@@ -46,6 +46,8 @@
     <system:String x:Key="Portal.OtherSettingPage.Auto">Автоматическое Обновление</system:String>
     <system:String x:Key="Portal.OtherSettingPage.Auto.Description">Будет ли процесс обновления проверяться автоматически.</system:String>
 
+    <system:String x:Key="Portal.OtherSettingPage.Auto.Update">Как будет Выполнена Проверка:</system:String>
+
     <system:String x:Key="Portal.OtherSettingPage.Developer">Инструменты разработчика</system:String>
     <system:String x:Key="Portal.OtherSettingPage.Developer.Description">Управление инструментами разработчика для движка WebView и CefSharp.</system:String>
 

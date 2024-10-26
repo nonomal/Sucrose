@@ -10,6 +10,8 @@ using SRER = Sucrose.Resources.Extension.Resources;
 using SRHR = Sucrose.Resources.Helper.Resources;
 using SSCEUET = Sucrose.Shared.Core.Enum.UpdateExtensionType;
 using SSCHU = Sucrose.Shared.Core.Helper.Update;
+using SSDEUAT = Sucrose.Shared.Dependency.Enum.UpdateAutoType;
+using SSDMMU = Sucrose.Shared.Dependency.Manage.Manager.Update;
 using SSSHE = Sucrose.Shared.Space.Helper.Extension;
 using SSSHI = Sucrose.Shared.Space.Helper.Instance;
 using SSSHW = Sucrose.Shared.Space.Helper.Watchdog;
@@ -100,11 +102,18 @@ namespace Sucrose.Update
             }
         }
 
-        protected void Configure(bool Silent)
+        protected void Configure(string[] Args)
         {
-            SUVMW MainWindow = new(Silent);
+            SSDEUAT Arg = SSDEUAT.Visible;
 
-            if (Silent)
+            if (Args.Any())
+            {
+                Arg = SSDMMU.AutoType;
+            }
+
+            SUVMW MainWindow = new(Arg);
+
+            if (Arg != SSDEUAT.Visible)
             {
                 MainWindow.Visibility = Visibility.Collapsed;
                 MainWindow.ShowInTaskbar = false;
@@ -138,7 +147,7 @@ namespace Sucrose.Update
             {
                 SMMI.UpdateSettingManager.SetSetting(SMMCU.State, false);
 
-                Configure(e.Args.Any());
+                Configure(e.Args);
             }
             else
             {

@@ -26,6 +26,7 @@ using SSCEUCT = Sucrose.Shared.Core.Enum.UpdateChannelType;
 using SSCEUET = Sucrose.Shared.Core.Enum.UpdateExtensionType;
 using SSCMMU = Sucrose.Shared.Core.Manage.Manager.Update;
 using SSDECT = Sucrose.Shared.Dependency.Enum.CommandType;
+using SSDEUAT = Sucrose.Shared.Dependency.Enum.UpdateAutoType;
 using SSDEUMT = Sucrose.Shared.Dependency.Enum.UpdateModuleType;
 using SSDEUST = Sucrose.Shared.Dependency.Enum.UpdateServerType;
 using SSDMMU = Sucrose.Shared.Dependency.Manage.Manager.Update;
@@ -477,7 +478,7 @@ namespace Sucrose.Portal.ViewModels.Pages
             SPVCEC Auto = new()
             {
                 Margin = new Thickness(0, 10, 0, 0),
-                Expandable = false
+                IsExpand = false
             };
 
             Auto.LeftIcon.Symbol = SymbolRegular.CubeArrowCurveDown20; //Component2DoubleTapSwipeDown24 - ArrowCircleDownDouble24
@@ -493,6 +494,41 @@ namespace Sucrose.Portal.ViewModels.Pages
             AutoState.Unchecked += (s, e) => AutoStateChecked(false);
 
             Auto.HeaderFrame = AutoState;
+
+            StackPanel AutoContent = new()
+            {
+                Orientation = Orientation.Horizontal
+            };
+
+            TextBlock AutoUpdateText = new()
+            {
+                Text = SRER.GetValue("Portal", "OtherSettingPage", "Auto", "Update"),
+                Foreground = SRER.GetResource<Brush>("TextFillColorPrimaryBrush"),
+                VerticalAlignment = VerticalAlignment.Center,
+                Margin = new Thickness(0, 0, 10, 0),
+                FontWeight = FontWeights.SemiBold
+            };
+
+            ComboBox AutoUpdateType = new()
+            {
+                MaxDropDownHeight = 200
+            };
+
+            DynamicScrollViewer.SetVerticalScrollBarVisibility(AutoUpdateType, ScrollBarVisibility.Auto);
+
+            AutoUpdateType.SelectionChanged += (s, e) => AutoUpdateTypeSelected(AutoUpdateType.SelectedIndex);
+
+            foreach (SSDEUAT Type in Enum.GetValues(typeof(SSDEUAT)))
+            {
+                AutoUpdateType.Items.Add(SRER.GetValue("Portal", "Enum", "UpdateAutoType", $"{Type}"));
+            }
+
+            AutoUpdateType.SelectedIndex = (int)SSDMMU.AutoType;
+
+            AutoContent.Children.Add(AutoUpdateText);
+            AutoContent.Children.Add(AutoUpdateType);
+
+            Auto.FooterCard = AutoContent;
 
             Contents.Add(Auto);
 
@@ -683,6 +719,16 @@ namespace Sucrose.Portal.ViewModels.Pages
             }
 
             SMMI.GeneralSettingManager.SetSetting(SMMCG.UserAgent, TextBox.Text);
+        }
+
+        private void AutoUpdateTypeSelected(int Index)
+        {
+            if (Index != (int)SSDMMU.AutoType)
+            {
+                SSDEUAT Type = (SSDEUAT)Index;
+
+                SMMI.UpdateSettingManager.SetSetting(SMMCU.AutoType, Type);
+            }
         }
 
         private void UpdateLimitChanged(double? Value)

@@ -46,6 +46,8 @@
     <system:String x:Key="Portal.OtherSettingPage.Auto">Automatická Aktualizace</system:String>
     <system:String x:Key="Portal.OtherSettingPage.Auto.Description">Zda má být aktualizace automaticky kontrolována.</system:String>
 
+    <system:String x:Key="Portal.OtherSettingPage.Auto.Update">Jak Bude Kontrola Provedena:</system:String>
+
     <system:String x:Key="Portal.OtherSettingPage.Developer">Vývojářské Nástroje</system:String>
     <system:String x:Key="Portal.OtherSettingPage.Developer.Description">Spravujte vývojářské nástroje pro motory WebView a CefSharp.</system:String>
 

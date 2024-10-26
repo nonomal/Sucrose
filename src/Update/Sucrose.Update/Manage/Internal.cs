@@ -5,6 +5,7 @@ using SMMG = Sucrose.Manager.Manage.General;
 using SMMRF = Sucrose.Memory.Manage.Readonly.Folder;
 using SMMRG = Sucrose.Memory.Manage.Readonly.General;
 using SMMRP = Sucrose.Memory.Manage.Readonly.Path;
+using SSSEPS = Sucrose.Shared.Space.Extension.ProgressStream;
 using Timer = System.Timers.Timer;
 
 namespace Sucrose.Update.Manage
@@ -12,6 +13,8 @@ namespace Sucrose.Update.Manage
     internal static class Internal
     {
         public static bool Trying = false;
+
+        public static SSSEPS ProgressStream;
 
         public static string Source = string.Empty;
 

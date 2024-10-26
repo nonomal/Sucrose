@@ -46,6 +46,8 @@
     <system:String x:Key="Portal.OtherSettingPage.Auto">Pembaruan Otomatis</system:String>
     <system:String x:Key="Portal.OtherSettingPage.Auto.Description">Apakah proses pembaruan akan diperiksa secara otomatis.</system:String>
 
+    <system:String x:Key="Portal.OtherSettingPage.Auto.Update">Cara Pemeriksaan Akan Dilakukan:</system:String>
+
     <system:String x:Key="Portal.OtherSettingPage.Developer">Alat Pengembang</system:String>
     <system:String x:Key="Portal.OtherSettingPage.Developer.Description">Mengelola alat pengembang untuk mesin WebView dan CefSharp.</system:String>
 

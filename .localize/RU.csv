@@ -378,6 +378,11 @@ Portal\Enum\Portal.Enum.RU.xaml,,
 Portal\Enum\Portal.Enum.RU.xaml,Portal.Enum.StoreServerType.GitHub,GitHub
 Portal\Enum\Portal.Enum.RU.xaml,Portal.Enum.StoreServerType.Soferity,Soferity
 Portal\Enum\Portal.Enum.RU.xaml,,
+Portal\Enum\Portal.Enum.RU.xaml,Portal.Enum.UpdateAutoType.Visible,Видимый
+Portal\Enum\Portal.Enum.RU.xaml,Portal.Enum.UpdateAutoType.SemiSilent,Иногда Видимый
+Portal\Enum\Portal.Enum.RU.xaml,Portal.Enum.UpdateAutoType.UpdateSilent,Обновление Невидимо
+Portal\Enum\Portal.Enum.RU.xaml,Portal.Enum.UpdateAutoType.CompleteSilent,Полностью Невидимо
+Portal\Enum\Portal.Enum.RU.xaml,,
 Portal\Enum\Portal.Enum.RU.xaml,Portal.Enum.UpdateModuleType.Native,Native
 Portal\Enum\Portal.Enum.RU.xaml,Portal.Enum.UpdateModuleType.Downloader,Downloader
 Portal\Enum\Portal.Enum.RU.xaml,,
@@ -951,6 +956,8 @@ Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.RU.xaml,Portal.Other
 Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.RU.xaml,,
 Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.RU.xaml,Portal.OtherSettingPage.Auto,Автоматическое Обновление
 Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.RU.xaml,Portal.OtherSettingPage.Auto.Description,Будет ли процесс обновления проверяться автоматически.
+Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.RU.xaml,,
+Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.RU.xaml,Portal.OtherSettingPage.Auto.Update,Как будет Выполнена Проверка:
 Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.RU.xaml,,
 Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.RU.xaml,Portal.OtherSettingPage.Developer,Инструменты разработчика
 Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.RU.xaml,Portal.OtherSettingPage.Developer.Description,Управление инструментами разработчика для движка WebView и CefSharp.

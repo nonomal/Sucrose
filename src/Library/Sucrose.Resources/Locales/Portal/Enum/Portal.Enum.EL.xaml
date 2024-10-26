@@ -50,6 +50,11 @@
     <system:String x:Key="Portal.Enum.StoreServerType.GitHub">GitHub</system:String>
     <system:String x:Key="Portal.Enum.StoreServerType.Soferity">Soferity</system:String>
 
+    <system:String x:Key="Portal.Enum.UpdateAutoType.Visible">Ορατό</system:String>
+    <system:String x:Key="Portal.Enum.UpdateAutoType.SemiSilent">Μερικές Φορές Ορατό</system:String>
+    <system:String x:Key="Portal.Enum.UpdateAutoType.UpdateSilent">Αναβάθμιση Αόρατη</system:String>
+    <system:String x:Key="Portal.Enum.UpdateAutoType.CompleteSilent">Πλήρως Αόρατο</system:String>
+
     <system:String x:Key="Portal.Enum.UpdateModuleType.Native">Native</system:String>
     <system:String x:Key="Portal.Enum.UpdateModuleType.Downloader">Downloader</system:String>
 

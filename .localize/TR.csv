@@ -378,6 +378,11 @@ Portal\Enum\Portal.Enum.TR.xaml,,
 Portal\Enum\Portal.Enum.TR.xaml,Portal.Enum.StoreServerType.GitHub,GitHub
 Portal\Enum\Portal.Enum.TR.xaml,Portal.Enum.StoreServerType.Soferity,Soferity
 Portal\Enum\Portal.Enum.TR.xaml,,
+Portal\Enum\Portal.Enum.TR.xaml,Portal.Enum.UpdateAutoType.Visible,Görünür
+Portal\Enum\Portal.Enum.TR.xaml,Portal.Enum.UpdateAutoType.SemiSilent,Bazen Görünür
+Portal\Enum\Portal.Enum.TR.xaml,Portal.Enum.UpdateAutoType.UpdateSilent,Güncelleme Görünmez
+Portal\Enum\Portal.Enum.TR.xaml,Portal.Enum.UpdateAutoType.CompleteSilent,Tamamen Görünmez
+Portal\Enum\Portal.Enum.TR.xaml,,
 Portal\Enum\Portal.Enum.TR.xaml,Portal.Enum.UpdateModuleType.Native,Native
 Portal\Enum\Portal.Enum.TR.xaml,Portal.Enum.UpdateModuleType.Downloader,Downloader
 Portal\Enum\Portal.Enum.TR.xaml,,
@@ -951,6 +956,8 @@ Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.TR.xaml,Portal.Other
 Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.TR.xaml,,
 Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.TR.xaml,Portal.OtherSettingPage.Auto,Otomatik Güncelleme
 Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.TR.xaml,Portal.OtherSettingPage.Auto.Description,Güncelleme işleminin otomatik olarak denetlenip denetlenmeyeceği.
+Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.TR.xaml,,
+Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.TR.xaml,Portal.OtherSettingPage.Auto.Update,Denetlemenin Nasıl Yapılacağı:
 Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.TR.xaml,,
 Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.TR.xaml,Portal.OtherSettingPage.Developer,Geliştirici Araçları
 Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.TR.xaml,Portal.OtherSettingPage.Developer.Description,WebView ve CefSharp motoru için geliştirici araçlarını yönetin.

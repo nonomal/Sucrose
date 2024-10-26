@@ -378,6 +378,11 @@ Portal\Enum\Portal.Enum.EN.xaml,,
 Portal\Enum\Portal.Enum.EN.xaml,Portal.Enum.StoreServerType.GitHub,GitHub
 Portal\Enum\Portal.Enum.EN.xaml,Portal.Enum.StoreServerType.Soferity,Soferity
 Portal\Enum\Portal.Enum.EN.xaml,,
+Portal\Enum\Portal.Enum.EN.xaml,Portal.Enum.UpdateAutoType.Visible,Visible
+Portal\Enum\Portal.Enum.EN.xaml,Portal.Enum.UpdateAutoType.SemiSilent,Sometimes Visible
+Portal\Enum\Portal.Enum.EN.xaml,Portal.Enum.UpdateAutoType.UpdateSilent,Update Invisible
+Portal\Enum\Portal.Enum.EN.xaml,Portal.Enum.UpdateAutoType.CompleteSilent,Completely Invisible
+Portal\Enum\Portal.Enum.EN.xaml,,
 Portal\Enum\Portal.Enum.EN.xaml,Portal.Enum.UpdateModuleType.Native,Native
 Portal\Enum\Portal.Enum.EN.xaml,Portal.Enum.UpdateModuleType.Downloader,Downloader
 Portal\Enum\Portal.Enum.EN.xaml,,
@@ -951,6 +956,8 @@ Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.EN.xaml,Portal.Other
 Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.EN.xaml,,
 Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.EN.xaml,Portal.OtherSettingPage.Auto,Automatic Update
 Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.EN.xaml,Portal.OtherSettingPage.Auto.Description,Whether the update process will be checked automatically.
+Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.EN.xaml,,
+Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.EN.xaml,Portal.OtherSettingPage.Auto.Update,How the Check Will be Performed:
 Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.EN.xaml,,
 Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.EN.xaml,Portal.OtherSettingPage.Developer,Developer Tools
 Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.EN.xaml,Portal.OtherSettingPage.Developer.Description,Manage developer tools for WebView and CefSharp engine.

@@ -142,6 +142,9 @@ namespace Sucrose.Shared.Space.Model
         [JsonProperty("NetworkAdapter", Required = Required.Always)]
         public string NetworkAdapter { get; set; }
 
+        [JsonProperty("UpdateAutoType", Required = Required.Always)]
+        public string UpdateAutoType { get; set; }
+
         [JsonProperty("UserIdentifier", Required = Required.Always)]
         public string UserIdentifier { get; set; }
 

@@ -378,6 +378,11 @@ Portal\Enum\Portal.Enum.JA.xaml,,
 Portal\Enum\Portal.Enum.JA.xaml,Portal.Enum.StoreServerType.GitHub,GitHub
 Portal\Enum\Portal.Enum.JA.xaml,Portal.Enum.StoreServerType.Soferity,Soferity
 Portal\Enum\Portal.Enum.JA.xaml,,
+Portal\Enum\Portal.Enum.JA.xaml,Portal.Enum.UpdateAutoType.Visible,表示
+Portal\Enum\Portal.Enum.JA.xaml,Portal.Enum.UpdateAutoType.SemiSilent,時々表示される
+Portal\Enum\Portal.Enum.JA.xaml,Portal.Enum.UpdateAutoType.UpdateSilent,更新非表示
+Portal\Enum\Portal.Enum.JA.xaml,Portal.Enum.UpdateAutoType.CompleteSilent,完全非表示
+Portal\Enum\Portal.Enum.JA.xaml,,
 Portal\Enum\Portal.Enum.JA.xaml,Portal.Enum.UpdateModuleType.Native,Native
 Portal\Enum\Portal.Enum.JA.xaml,Portal.Enum.UpdateModuleType.Downloader,Downloader
 Portal\Enum\Portal.Enum.JA.xaml,,
@@ -951,6 +956,8 @@ Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.JA.xaml,Portal.Other
 Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.JA.xaml,,
 Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.JA.xaml,Portal.OtherSettingPage.Auto,自動更新
 Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.JA.xaml,Portal.OtherSettingPage.Auto.Description,更新プロセスが自動的にチェックされるかどうか。
+Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.JA.xaml,,
+Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.JA.xaml,Portal.OtherSettingPage.Auto.Update,チェックの実行方法：
 Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.JA.xaml,,
 Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.JA.xaml,Portal.OtherSettingPage.Developer,開発者ツール
 Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.JA.xaml,Portal.OtherSettingPage.Developer.Description,WebView および CefSharp エンジンの開発者ツールを管理します。

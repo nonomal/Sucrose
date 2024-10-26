@@ -378,6 +378,11 @@ Portal\Enum\Portal.Enum.RO.xaml,,
 Portal\Enum\Portal.Enum.RO.xaml,Portal.Enum.StoreServerType.GitHub,GitHub
 Portal\Enum\Portal.Enum.RO.xaml,Portal.Enum.StoreServerType.Soferity,Soferity
 Portal\Enum\Portal.Enum.RO.xaml,,
+Portal\Enum\Portal.Enum.RO.xaml,Portal.Enum.UpdateAutoType.Visible,Vizibil
+Portal\Enum\Portal.Enum.RO.xaml,Portal.Enum.UpdateAutoType.SemiSilent,Uneori Vizibil
+Portal\Enum\Portal.Enum.RO.xaml,Portal.Enum.UpdateAutoType.UpdateSilent,Actualizare Invizibilă
+Portal\Enum\Portal.Enum.RO.xaml,Portal.Enum.UpdateAutoType.CompleteSilent,Complet Invizibil
+Portal\Enum\Portal.Enum.RO.xaml,,
 Portal\Enum\Portal.Enum.RO.xaml,Portal.Enum.UpdateModuleType.Native,Native
 Portal\Enum\Portal.Enum.RO.xaml,Portal.Enum.UpdateModuleType.Downloader,Downloader
 Portal\Enum\Portal.Enum.RO.xaml,,
@@ -951,6 +956,8 @@ Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.RO.xaml,Portal.Other
 Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.RO.xaml,,
 Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.RO.xaml,Portal.OtherSettingPage.Auto,Actualizare Automată
 Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.RO.xaml,Portal.OtherSettingPage.Auto.Description,Dacă procesul de actualizare va fi verificat automat.
+Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.RO.xaml,,
+Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.RO.xaml,Portal.OtherSettingPage.Auto.Update,Cum va fi Efectuat Controlul:
 Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.RO.xaml,,
 Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.RO.xaml,Portal.OtherSettingPage.Developer,Instrumente de Dezvoltare
 Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.RO.xaml,Portal.OtherSettingPage.Developer.Description,Gestionați instrumentele de dezvoltare pentru motorul WebView și CefSharp.

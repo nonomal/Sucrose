@@ -46,6 +46,8 @@
     <system:String x:Key="Portal.OtherSettingPage.Auto">Actualización Automática</system:String>
     <system:String x:Key="Portal.OtherSettingPage.Auto.Description">Si el proceso de actualización se verificará automáticamente.</system:String>
 
+    <system:String x:Key="Portal.OtherSettingPage.Auto.Update">Cómo se Realizará la Verificación:</system:String>
+
     <system:String x:Key="Portal.OtherSettingPage.Developer">Herramientas de Desarrollo</system:String>
     <system:String x:Key="Portal.OtherSettingPage.Developer.Description">Administrar herramientas de desarrollador para el motor WebView y CefSharp.</system:String>
 

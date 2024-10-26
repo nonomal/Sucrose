@@ -378,6 +378,11 @@ Portal\Enum\Portal.Enum.EL.xaml,,
 Portal\Enum\Portal.Enum.EL.xaml,Portal.Enum.StoreServerType.GitHub,GitHub
 Portal\Enum\Portal.Enum.EL.xaml,Portal.Enum.StoreServerType.Soferity,Soferity
 Portal\Enum\Portal.Enum.EL.xaml,,
+Portal\Enum\Portal.Enum.EL.xaml,Portal.Enum.UpdateAutoType.Visible,Ορατό
+Portal\Enum\Portal.Enum.EL.xaml,Portal.Enum.UpdateAutoType.SemiSilent,Μερικές Φορές Ορατό
+Portal\Enum\Portal.Enum.EL.xaml,Portal.Enum.UpdateAutoType.UpdateSilent,Αναβάθμιση Αόρατη
+Portal\Enum\Portal.Enum.EL.xaml,Portal.Enum.UpdateAutoType.CompleteSilent,Πλήρως Αόρατο
+Portal\Enum\Portal.Enum.EL.xaml,,
 Portal\Enum\Portal.Enum.EL.xaml,Portal.Enum.UpdateModuleType.Native,Native
 Portal\Enum\Portal.Enum.EL.xaml,Portal.Enum.UpdateModuleType.Downloader,Downloader
 Portal\Enum\Portal.Enum.EL.xaml,,
@@ -951,6 +956,8 @@ Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.EL.xaml,Portal.Other
 Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.EL.xaml,,
 Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.EL.xaml,Portal.OtherSettingPage.Auto,Αυτόματη Ενημέρωση
 Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.EL.xaml,Portal.OtherSettingPage.Auto.Description,Εάν ο έλεγχος της ενημέρωσης θα γίνεται αυτόματα.
+Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.EL.xaml,,
+Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.EL.xaml,Portal.OtherSettingPage.Auto.Update,Πώς θα Πραγματοποιηθεί ο Ελεγχος:
 Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.EL.xaml,,
 Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.EL.xaml,Portal.OtherSettingPage.Developer,Εργαλεία Προγραμματιστή
 Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.EL.xaml,Portal.OtherSettingPage.Developer.Description,Διαχείριση εργαλείων προγραμματιστή για τον κινητήρα WebView και CefSharp.

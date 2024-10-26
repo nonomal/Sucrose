@@ -46,6 +46,8 @@
     <system:String x:Key="Portal.OtherSettingPage.Auto">Kemas Kini Automatik</system:String>
     <system:String x:Key="Portal.OtherSettingPage.Auto.Description">Sama ada proses kemas kini akan diperiksa secara automatik.</system:String>
 
+    <system:String x:Key="Portal.OtherSettingPage.Auto.Update">Bagaimana Semakan Akan Dilakukan:</system:String>
+
     <system:String x:Key="Portal.OtherSettingPage.Developer">Alat Pembangun</system:String>
     <system:String x:Key="Portal.OtherSettingPage.Developer.Description">Urus alat pembangun untuk enjin WebView dan CefSharp.</system:String>
 

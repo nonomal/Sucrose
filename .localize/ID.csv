@@ -378,6 +378,11 @@ Portal\Enum\Portal.Enum.ID.xaml,,
 Portal\Enum\Portal.Enum.ID.xaml,Portal.Enum.StoreServerType.GitHub,GitHub
 Portal\Enum\Portal.Enum.ID.xaml,Portal.Enum.StoreServerType.Soferity,Soferity
 Portal\Enum\Portal.Enum.ID.xaml,,
+Portal\Enum\Portal.Enum.ID.xaml,Portal.Enum.UpdateAutoType.Visible,Terlihat
+Portal\Enum\Portal.Enum.ID.xaml,Portal.Enum.UpdateAutoType.SemiSilent,Kadang Terlihat
+Portal\Enum\Portal.Enum.ID.xaml,Portal.Enum.UpdateAutoType.UpdateSilent,Pembaruan Tidak Terlihat
+Portal\Enum\Portal.Enum.ID.xaml,Portal.Enum.UpdateAutoType.CompleteSilent,Sepenuhnya Tidak Terlihat
+Portal\Enum\Portal.Enum.ID.xaml,,
 Portal\Enum\Portal.Enum.ID.xaml,Portal.Enum.UpdateModuleType.Native,Native
 Portal\Enum\Portal.Enum.ID.xaml,Portal.Enum.UpdateModuleType.Downloader,Downloader
 Portal\Enum\Portal.Enum.ID.xaml,,
@@ -951,6 +956,8 @@ Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.ID.xaml,Portal.Other
 Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.ID.xaml,,
 Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.ID.xaml,Portal.OtherSettingPage.Auto,Pembaruan Otomatis
 Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.ID.xaml,Portal.OtherSettingPage.Auto.Description,Apakah proses pembaruan akan diperiksa secara otomatis.
+Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.ID.xaml,,
+Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.ID.xaml,Portal.OtherSettingPage.Auto.Update,Cara Pemeriksaan Akan Dilakukan:
 Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.ID.xaml,,
 Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.ID.xaml,Portal.OtherSettingPage.Developer,Alat Pengembang
 Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.ID.xaml,Portal.OtherSettingPage.Developer.Description,Mengelola alat pengembang untuk mesin WebView dan CefSharp.
