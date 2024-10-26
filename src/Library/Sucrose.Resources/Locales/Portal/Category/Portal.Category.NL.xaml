@@ -34,7 +34,7 @@
     <system:String x:Key="Portal.Category.Galaxy">Melkweg</system:String>
     <system:String x:Key="Portal.Category.Game">Spel</system:String>
     <system:String x:Key="Portal.Category.GeometricPatterns">Geometrische Patronen</system:String>
-    <system:String x:Key="Portal.Category.HolidaysandSeasons">Feestdagen en Seizoenen</system:String>
+    <system:String x:Key="Portal.Category.Holidays">Feestdagen</system:String>
     <system:String x:Key="Portal.Category.HorrorandHalloween">Horror en Halloween</system:String>
     <system:String x:Key="Portal.Category.InspirationalQuotes">Inspirerende Citaten</system:String>
     <system:String x:Key="Portal.Category.KidsandCartoon">Kinderen en Cartoons</system:String>
@@ -53,6 +53,7 @@
     <system:String x:Key="Portal.Category.Retro">Retro</system:String>
     <system:String x:Key="Portal.Category.Science">Wetenschap</system:String>
     <system:String x:Key="Portal.Category.ScienceFiction">Sciencefiction</system:String>
+    <system:String x:Key="Portal.Category.Seasons">Seizoenen</system:String>
     <system:String x:Key="Portal.Category.Sky">Lucht</system:String>
     <system:String x:Key="Portal.Category.Software">Software</system:String>
     <system:String x:Key="Portal.Category.Space">Ruimte</system:String>

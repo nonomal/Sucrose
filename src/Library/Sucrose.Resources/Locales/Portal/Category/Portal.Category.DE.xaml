@@ -34,7 +34,7 @@
     <system:String x:Key="Portal.Category.Galaxy">Galaxie</system:String>
     <system:String x:Key="Portal.Category.Game">Spiel</system:String>
     <system:String x:Key="Portal.Category.GeometricPatterns">Geometrische Muster</system:String>
-    <system:String x:Key="Portal.Category.HolidaysandSeasons">Feiertage &amp; Jahreszeiten</system:String>
+    <system:String x:Key="Portal.Category.Holidays">Feiertage</system:String>
     <system:String x:Key="Portal.Category.HorrorandHalloween">Horror &amp; Halloween</system:String>
     <system:String x:Key="Portal.Category.InspirationalQuotes">Inspirierende Zitate</system:String>
     <system:String x:Key="Portal.Category.KidsandCartoon">Kinder &amp; Cartoon</system:String>
@@ -53,6 +53,7 @@
     <system:String x:Key="Portal.Category.Retro">Retro</system:String>
     <system:String x:Key="Portal.Category.Science">Wissenschaft</system:String>
     <system:String x:Key="Portal.Category.ScienceFiction">Science-Fiction</system:String>
+    <system:String x:Key="Portal.Category.Seasons">Jahreszeiten</system:String>
     <system:String x:Key="Portal.Category.Sky">Himmel</system:String>
     <system:String x:Key="Portal.Category.Software">Software</system:String>
     <system:String x:Key="Portal.Category.Space">Weltraum</system:String>

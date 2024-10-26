@@ -296,7 +296,7 @@ Portal\Category\Portal.Category.DE.xaml,Portal.Category.FoodandDrinks,Essen &amp
 Portal\Category\Portal.Category.DE.xaml,Portal.Category.Galaxy,Galaxie
 Portal\Category\Portal.Category.DE.xaml,Portal.Category.Game,Spiel
 Portal\Category\Portal.Category.DE.xaml,Portal.Category.GeometricPatterns,Geometrische Muster
-Portal\Category\Portal.Category.DE.xaml,Portal.Category.HolidaysandSeasons,Feiertage &amp; Jahreszeiten
+Portal\Category\Portal.Category.DE.xaml,Portal.Category.Holidays,Feiertage
 Portal\Category\Portal.Category.DE.xaml,Portal.Category.HorrorandHalloween,Horror &amp; Halloween
 Portal\Category\Portal.Category.DE.xaml,Portal.Category.InspirationalQuotes,Inspirierende Zitate
 Portal\Category\Portal.Category.DE.xaml,Portal.Category.KidsandCartoon,Kinder &amp; Cartoon
@@ -315,6 +315,7 @@ Portal\Category\Portal.Category.DE.xaml,Portal.Category.PixelArt,Pixelkunst
 Portal\Category\Portal.Category.DE.xaml,Portal.Category.Retro,Retro
 Portal\Category\Portal.Category.DE.xaml,Portal.Category.Science,Wissenschaft
 Portal\Category\Portal.Category.DE.xaml,Portal.Category.ScienceFiction,Science-Fiction
+Portal\Category\Portal.Category.DE.xaml,Portal.Category.Seasons,Jahreszeiten
 Portal\Category\Portal.Category.DE.xaml,Portal.Category.Sky,Himmel
 Portal\Category\Portal.Category.DE.xaml,Portal.Category.Software,Software
 Portal\Category\Portal.Category.DE.xaml,Portal.Category.Space,Weltraum

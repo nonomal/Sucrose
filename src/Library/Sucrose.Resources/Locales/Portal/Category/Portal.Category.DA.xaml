@@ -34,7 +34,7 @@
     <system:String x:Key="Portal.Category.Galaxy">Galakse</system:String>
     <system:String x:Key="Portal.Category.Game">Spil</system:String>
     <system:String x:Key="Portal.Category.GeometricPatterns">Geometriske Mønstre</system:String>
-    <system:String x:Key="Portal.Category.HolidaysandSeasons">Ferier og Årstider</system:String>
+    <system:String x:Key="Portal.Category.Holidays">Ferier</system:String>
     <system:String x:Key="Portal.Category.HorrorandHalloween">Gyser og Halloween</system:String>
     <system:String x:Key="Portal.Category.InspirationalQuotes">Inspirerende Citater</system:String>
     <system:String x:Key="Portal.Category.KidsandCartoon">Børn og Tegnefilm</system:String>
@@ -53,6 +53,7 @@
     <system:String x:Key="Portal.Category.Retro">Retro</system:String>
     <system:String x:Key="Portal.Category.Science">Videnskab</system:String>
     <system:String x:Key="Portal.Category.ScienceFiction">Science Fiction</system:String>
+    <system:String x:Key="Portal.Category.Seasons">Årstider</system:String>
     <system:String x:Key="Portal.Category.Sky">Himmel</system:String>
     <system:String x:Key="Portal.Category.Software">Software</system:String>
     <system:String x:Key="Portal.Category.Space">Rummet</system:String>

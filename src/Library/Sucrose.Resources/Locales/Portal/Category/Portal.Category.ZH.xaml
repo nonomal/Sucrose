@@ -34,7 +34,7 @@
     <system:String x:Key="Portal.Category.Galaxy">星系</system:String>
     <system:String x:Key="Portal.Category.Game">游戏</system:String>
     <system:String x:Key="Portal.Category.GeometricPatterns">几何图案</system:String>
-    <system:String x:Key="Portal.Category.HolidaysandSeasons">假期和季节</system:String>
+    <system:String x:Key="Portal.Category.Holidays">假期</system:String>
     <system:String x:Key="Portal.Category.HorrorandHalloween">恐怖和万圣节</system:String>
     <system:String x:Key="Portal.Category.InspirationalQuotes">启发引用</system:String>
     <system:String x:Key="Portal.Category.KidsandCartoon">儿童和卡通</system:String>
@@ -53,6 +53,7 @@
     <system:String x:Key="Portal.Category.Retro">复古</system:String>
     <system:String x:Key="Portal.Category.Science">科学</system:String>
     <system:String x:Key="Portal.Category.ScienceFiction">科幻小说</system:String>
+    <system:String x:Key="Portal.Category.Seasons">季节</system:String>
     <system:String x:Key="Portal.Category.Sky">天空</system:String>
     <system:String x:Key="Portal.Category.Software">软件</system:String>
     <system:String x:Key="Portal.Category.Space">太空</system:String>

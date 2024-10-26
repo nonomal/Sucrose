@@ -34,7 +34,7 @@
     <system:String x:Key="Portal.Category.Galaxy">Γαλαξίας</system:String>
     <system:String x:Key="Portal.Category.Game">Παιχνίδι</system:String>
     <system:String x:Key="Portal.Category.GeometricPatterns">Γεωμετρικά Σχέδια</system:String>
-    <system:String x:Key="Portal.Category.HolidaysandSeasons">Διακοπές και Εποχές</system:String>
+    <system:String x:Key="Portal.Category.Holidays">Διακοπές</system:String>
     <system:String x:Key="Portal.Category.HorrorandHalloween">Τρόμος και Halloween</system:String>
     <system:String x:Key="Portal.Category.InspirationalQuotes">Εμπνευστικές Φράσεις</system:String>
     <system:String x:Key="Portal.Category.KidsandCartoon">Παιδιά και Κινούμενα Σχέδια</system:String>
@@ -53,6 +53,7 @@
     <system:String x:Key="Portal.Category.Retro">Ρετρό</system:String>
     <system:String x:Key="Portal.Category.Science">Επιστήμη</system:String>
     <system:String x:Key="Portal.Category.ScienceFiction">Επιστημονική Φαντασία</system:String>
+    <system:String x:Key="Portal.Category.Seasons">Εποχές</system:String>
     <system:String x:Key="Portal.Category.Sky">Ουρανός</system:String>
     <system:String x:Key="Portal.Category.Software">Λογισμικό</system:String>
     <system:String x:Key="Portal.Category.Space">Διάστημα</system:String>

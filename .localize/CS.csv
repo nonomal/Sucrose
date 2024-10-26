@@ -296,7 +296,7 @@ Portal\Category\Portal.Category.CS.xaml,Portal.Category.FoodandDrinks,Jídlo a N
 Portal\Category\Portal.Category.CS.xaml,Portal.Category.Galaxy,Galaxie
 Portal\Category\Portal.Category.CS.xaml,Portal.Category.Game,Hra
 Portal\Category\Portal.Category.CS.xaml,Portal.Category.GeometricPatterns,Geometrické Vzory
-Portal\Category\Portal.Category.CS.xaml,Portal.Category.HolidaysandSeasons,Svátky a Roční Období
+Portal\Category\Portal.Category.CS.xaml,Portal.Category.Holidays,Svátky
 Portal\Category\Portal.Category.CS.xaml,Portal.Category.HorrorandHalloween,Horor a Halloween
 Portal\Category\Portal.Category.CS.xaml,Portal.Category.InspirationalQuotes,Inspirující Citáty
 Portal\Category\Portal.Category.CS.xaml,Portal.Category.KidsandCartoon,Děti a Kreslený Film
@@ -315,6 +315,7 @@ Portal\Category\Portal.Category.CS.xaml,Portal.Category.PixelArt,Pixel Art
 Portal\Category\Portal.Category.CS.xaml,Portal.Category.Retro,Retro
 Portal\Category\Portal.Category.CS.xaml,Portal.Category.Science,Věda
 Portal\Category\Portal.Category.CS.xaml,Portal.Category.ScienceFiction,Vědeckofantastický
+Portal\Category\Portal.Category.CS.xaml,Portal.Category.Seasons,Roční Období
 Portal\Category\Portal.Category.CS.xaml,Portal.Category.Sky,Obloha
 Portal\Category\Portal.Category.CS.xaml,Portal.Category.Software,Software
 Portal\Category\Portal.Category.CS.xaml,Portal.Category.Space,Vesmír

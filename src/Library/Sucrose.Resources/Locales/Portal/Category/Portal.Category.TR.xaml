@@ -34,7 +34,7 @@
     <system:String x:Key="Portal.Category.Galaxy">Galaksi</system:String>
     <system:String x:Key="Portal.Category.Game">Oyun</system:String>
     <system:String x:Key="Portal.Category.GeometricPatterns">Geometrik Desenler</system:String>
-    <system:String x:Key="Portal.Category.HolidaysandSeasons">Tatiller ve Mevsimler</system:String>
+    <system:String x:Key="Portal.Category.Holidays">Tatiller</system:String>
     <system:String x:Key="Portal.Category.HorrorandHalloween">Korku ve Cadılar Bayramı</system:String>
     <system:String x:Key="Portal.Category.InspirationalQuotes">İlham Verici Alıntılar</system:String>
     <system:String x:Key="Portal.Category.KidsandCartoon">Çocuklar ve Çizgi Film</system:String>
@@ -53,6 +53,7 @@
     <system:String x:Key="Portal.Category.Retro">Retro</system:String>
     <system:String x:Key="Portal.Category.Science">Bilim</system:String>
     <system:String x:Key="Portal.Category.ScienceFiction">Bilim Kurgu</system:String>
+    <system:String x:Key="Portal.Category.Seasons">Mevsimler</system:String>
     <system:String x:Key="Portal.Category.Sky">Gökyüzü</system:String>
     <system:String x:Key="Portal.Category.Software">Yazılım</system:String>
     <system:String x:Key="Portal.Category.Space">Uzay</system:String>

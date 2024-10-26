@@ -34,7 +34,7 @@
     <system:String x:Key="Portal.Category.Galaxy">Galaxie</system:String>
     <system:String x:Key="Portal.Category.Game">Joc</system:String>
     <system:String x:Key="Portal.Category.GeometricPatterns">Modele Geometrice</system:String>
-    <system:String x:Key="Portal.Category.HolidaysandSeasons">Sărbători și Anotimpuri</system:String>
+    <system:String x:Key="Portal.Category.Holidays">Vacanțe</system:String>
     <system:String x:Key="Portal.Category.HorrorandHalloween">Groază și Halloween</system:String>
     <system:String x:Key="Portal.Category.InspirationalQuotes">Citate Inspirante</system:String>
     <system:String x:Key="Portal.Category.KidsandCartoon">Copii și Desene Animate</system:String>
@@ -53,6 +53,7 @@
     <system:String x:Key="Portal.Category.Retro">Retro</system:String>
     <system:String x:Key="Portal.Category.Science">Știință</system:String>
     <system:String x:Key="Portal.Category.ScienceFiction">Științifico-Fantastic</system:String>
+    <system:String x:Key="Portal.Category.Seasons">Sezoane</system:String>
     <system:String x:Key="Portal.Category.Sky">Cer</system:String>
     <system:String x:Key="Portal.Category.Software">Software</system:String>
     <system:String x:Key="Portal.Category.Space">Spațiu</system:String>

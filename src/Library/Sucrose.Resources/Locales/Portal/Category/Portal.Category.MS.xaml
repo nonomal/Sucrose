@@ -34,7 +34,7 @@
     <system:String x:Key="Portal.Category.Galaxy">Galaksi</system:String>
     <system:String x:Key="Portal.Category.Game">Permainan</system:String>
     <system:String x:Key="Portal.Category.GeometricPatterns">Corak Geometri</system:String>
-    <system:String x:Key="Portal.Category.HolidaysandSeasons">Cuti dan Musim</system:String>
+    <system:String x:Key="Portal.Category.Holidays">Cuti</system:String>
     <system:String x:Key="Portal.Category.HorrorandHalloween">Seram dan Halloween</system:String>
     <system:String x:Key="Portal.Category.InspirationalQuotes">Kata-kata Inspirasi</system:String>
     <system:String x:Key="Portal.Category.KidsandCartoon">Kanak-kanak dan Kartun</system:String>
@@ -53,6 +53,7 @@
     <system:String x:Key="Portal.Category.Retro">Retro</system:String>
     <system:String x:Key="Portal.Category.Science">Sains</system:String>
     <system:String x:Key="Portal.Category.ScienceFiction">Fiksyen Sains</system:String>
+    <system:String x:Key="Portal.Category.Seasons">Musim</system:String>
     <system:String x:Key="Portal.Category.Sky">Langit</system:String>
     <system:String x:Key="Portal.Category.Software">Perisian</system:String>
     <system:String x:Key="Portal.Category.Space">Angkasa</system:String>

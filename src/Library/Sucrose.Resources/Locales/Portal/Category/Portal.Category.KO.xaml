@@ -34,7 +34,7 @@
     <system:String x:Key="Portal.Category.Galaxy">은하</system:String>
     <system:String x:Key="Portal.Category.Game">게임</system:String>
     <system:String x:Key="Portal.Category.GeometricPatterns">기하학적 패턴</system:String>
-    <system:String x:Key="Portal.Category.HolidaysandSeasons">휴일 및 계절</system:String>
+    <system:String x:Key="Portal.Category.Holidays">휴일</system:String>
     <system:String x:Key="Portal.Category.HorrorandHalloween">공포 및 할로윈</system:String>
     <system:String x:Key="Portal.Category.InspirationalQuotes">영감을 주는 인용구</system:String>
     <system:String x:Key="Portal.Category.KidsandCartoon">어린이 및 만화</system:String>
@@ -53,6 +53,7 @@
     <system:String x:Key="Portal.Category.Retro">레트로</system:String>
     <system:String x:Key="Portal.Category.Science">과학</system:String>
     <system:String x:Key="Portal.Category.ScienceFiction">과학 소설</system:String>
+    <system:String x:Key="Portal.Category.Seasons">계절</system:String>
     <system:String x:Key="Portal.Category.Sky">하늘</system:String>
     <system:String x:Key="Portal.Category.Software">소프트웨어</system:String>
     <system:String x:Key="Portal.Category.Space">우주</system:String>

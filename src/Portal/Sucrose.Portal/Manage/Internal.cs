@@ -66,6 +66,7 @@ namespace Sucrose.Portal.Manage
             { "Abstract", SymbolRegular.HandDraw24 },
             { "Animals", SymbolRegular.AnimalCat24 },
             { "Cute", SymbolRegular.AnimalRabbit24 },
+            { "Seasons", SymbolRegular.LeafThree24 },
             { "Colorful", SymbolRegular.Lightbulb24 },
             { "Digital Art", SymbolRegular.Tablet24 },
             { "Medieval", SymbolRegular.Hourglass24 },
@@ -76,6 +77,7 @@ namespace Sucrose.Portal.Manage
             { "Dynamic", SymbolRegular.ClockToolbox24 },
             { "System", SymbolRegular.ChartMultiple24 },
             { "Fashion", SymbolRegular.Accessibility24 },
+            { "Holidays", SymbolRegular.SwimmingPool24 },
             { "Animation", SymbolRegular.StarEmphasis24 },
             { "Cities and Places", SymbolRegular.City24 },
             { "Education", SymbolRegular.HatGraduation24 },
@@ -94,7 +96,6 @@ namespace Sucrose.Portal.Manage
             { "Clouds and Skies", SymbolRegular.WeatherCloudy24 },
             { "Enchanted Forests", SymbolRegular.TreeEvergreen20 },
             { "Minimalist", SymbolRegular.ArrowMinimizeVertical24 },
-            { "Holidays and Seasons", SymbolRegular.SwimmingPool24 },
             { "Kids and Cartoon", SymbolRegular.VideoPersonSparkle48 }
         };
     }
