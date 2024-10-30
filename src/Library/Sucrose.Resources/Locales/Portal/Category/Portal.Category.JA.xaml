@@ -34,8 +34,9 @@
     <system:String x:Key="Portal.Category.Galaxy">銀河</system:String>
     <system:String x:Key="Portal.Category.Game">ゲーム</system:String>
     <system:String x:Key="Portal.Category.GeometricPatterns">幾何学的なパターン</system:String>
+    <system:String x:Key="Portal.Category.Halloween">ハロウィン</system:String>
     <system:String x:Key="Portal.Category.Holidays">休暇</system:String>
-    <system:String x:Key="Portal.Category.HorrorandHalloween">ホラーとハロウィン</system:String>
+    <system:String x:Key="Portal.Category.Horror">ホラー</system:String>
     <system:String x:Key="Portal.Category.InspirationalQuotes">インスピレーション引用</system:String>
     <system:String x:Key="Portal.Category.KidsandCartoon">子供とカートゥーン</system:String>
     <system:String x:Key="Portal.Category.Landscape">風景</system:String>

@@ -34,8 +34,9 @@
     <system:String x:Key="Portal.Category.Galaxy">Галактика</system:String>
     <system:String x:Key="Portal.Category.Game">Игры</system:String>
     <system:String x:Key="Portal.Category.GeometricPatterns">Геометрические Узоры</system:String>
+    <system:String x:Key="Portal.Category.Halloween">Хэллоуин</system:String>
     <system:String x:Key="Portal.Category.Holidays">Праздники</system:String>
-    <system:String x:Key="Portal.Category.HorrorandHalloween">Ужасы и Хэллоуин</system:String>
+    <system:String x:Key="Portal.Category.Horror">Ужас</system:String>
     <system:String x:Key="Portal.Category.InspirationalQuotes">Вдохновляющие Цитаты</system:String>
     <system:String x:Key="Portal.Category.KidsandCartoon">Дети и Мультфильм</system:String>
     <system:String x:Key="Portal.Category.Landscape">Пейзаж</system:String>

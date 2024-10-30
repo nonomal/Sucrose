@@ -34,8 +34,9 @@
     <system:String x:Key="Portal.Category.Galaxy">Галактика</system:String>
     <system:String x:Key="Portal.Category.Game">Гра</system:String>
     <system:String x:Key="Portal.Category.GeometricPatterns">Геометричні Візерунки</system:String>
+    <system:String x:Key="Portal.Category.Halloween">Хелловін</system:String>
     <system:String x:Key="Portal.Category.Holidays">Свята</system:String>
-    <system:String x:Key="Portal.Category.HorrorandHalloween">Жахи та Хелловін</system:String>
+    <system:String x:Key="Portal.Category.Horror">Жах</system:String>
     <system:String x:Key="Portal.Category.InspirationalQuotes">Вдохновлюючі Цитати</system:String>
     <system:String x:Key="Portal.Category.KidsandCartoon">Діти та Мультфільми</system:String>
     <system:String x:Key="Portal.Category.Landscape">Пейзаж</system:String>

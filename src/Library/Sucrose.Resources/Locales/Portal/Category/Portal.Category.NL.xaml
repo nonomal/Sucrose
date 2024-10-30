@@ -34,8 +34,9 @@
     <system:String x:Key="Portal.Category.Galaxy">Melkweg</system:String>
     <system:String x:Key="Portal.Category.Game">Spel</system:String>
     <system:String x:Key="Portal.Category.GeometricPatterns">Geometrische Patronen</system:String>
+    <system:String x:Key="Portal.Category.Halloween">Halloween</system:String>
     <system:String x:Key="Portal.Category.Holidays">Feestdagen</system:String>
-    <system:String x:Key="Portal.Category.HorrorandHalloween">Horror en Halloween</system:String>
+    <system:String x:Key="Portal.Category.Horror">Verschrikking</system:String>
     <system:String x:Key="Portal.Category.InspirationalQuotes">Inspirerende Citaten</system:String>
     <system:String x:Key="Portal.Category.KidsandCartoon">Kinderen en Cartoons</system:String>
     <system:String x:Key="Portal.Category.Landscape">Landschap</system:String>

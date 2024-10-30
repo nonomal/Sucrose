@@ -34,8 +34,9 @@
     <system:String x:Key="Portal.Category.Galaxy">Galaxie</system:String>
     <system:String x:Key="Portal.Category.Game">Hra</system:String>
     <system:String x:Key="Portal.Category.GeometricPatterns">Geometrické Vzory</system:String>
+    <system:String x:Key="Portal.Category.Halloween">Halloween</system:String>
     <system:String x:Key="Portal.Category.Holidays">Svátky</system:String>
-    <system:String x:Key="Portal.Category.HorrorandHalloween">Horor a Halloween</system:String>
+    <system:String x:Key="Portal.Category.Horror">Horor</system:String>
     <system:String x:Key="Portal.Category.InspirationalQuotes">Inspirující Citáty</system:String>
     <system:String x:Key="Portal.Category.KidsandCartoon">Děti a Kreslený Film</system:String>
     <system:String x:Key="Portal.Category.Landscape">Krajina</system:String>

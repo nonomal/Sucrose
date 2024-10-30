@@ -34,8 +34,9 @@
     <system:String x:Key="Portal.Category.Galaxy">Galaksi</system:String>
     <system:String x:Key="Portal.Category.Game">Permainan</system:String>
     <system:String x:Key="Portal.Category.GeometricPatterns">Corak Geometri</system:String>
+    <system:String x:Key="Portal.Category.Halloween">Halloween</system:String>
     <system:String x:Key="Portal.Category.Holidays">Cuti</system:String>
-    <system:String x:Key="Portal.Category.HorrorandHalloween">Seram dan Halloween</system:String>
+    <system:String x:Key="Portal.Category.Horror">Seram</system:String>
     <system:String x:Key="Portal.Category.InspirationalQuotes">Kata-kata Inspirasi</system:String>
     <system:String x:Key="Portal.Category.KidsandCartoon">Kanak-kanak dan Kartun</system:String>
     <system:String x:Key="Portal.Category.Landscape">Lanskap</system:String>

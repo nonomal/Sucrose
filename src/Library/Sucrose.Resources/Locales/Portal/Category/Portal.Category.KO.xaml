@@ -34,8 +34,9 @@
     <system:String x:Key="Portal.Category.Galaxy">은하</system:String>
     <system:String x:Key="Portal.Category.Game">게임</system:String>
     <system:String x:Key="Portal.Category.GeometricPatterns">기하학적 패턴</system:String>
+    <system:String x:Key="Portal.Category.Halloween">할로윈</system:String>
     <system:String x:Key="Portal.Category.Holidays">휴일</system:String>
-    <system:String x:Key="Portal.Category.HorrorandHalloween">공포 및 할로윈</system:String>
+    <system:String x:Key="Portal.Category.Horror">공포</system:String>
     <system:String x:Key="Portal.Category.InspirationalQuotes">영감을 주는 인용구</system:String>
     <system:String x:Key="Portal.Category.KidsandCartoon">어린이 및 만화</system:String>
     <system:String x:Key="Portal.Category.Landscape">풍경</system:String>

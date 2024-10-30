@@ -34,8 +34,9 @@
     <system:String x:Key="Portal.Category.Galaxy">गैलेक्सी</system:String>
     <system:String x:Key="Portal.Category.Game">खेल</system:String>
     <system:String x:Key="Portal.Category.GeometricPatterns">ज्यामिति पैटर्न</system:String>
+    <system:String x:Key="Portal.Category.Halloween">हैलोवीन</system:String>
     <system:String x:Key="Portal.Category.Holidays">छुट्टियाँ</system:String>
-    <system:String x:Key="Portal.Category.HorrorandHalloween">डर और हैलोवीन</system:String>
+    <system:String x:Key="Portal.Category.Horror">डरावनी</system:String>
     <system:String x:Key="Portal.Category.InspirationalQuotes">प्रेरणादायक उद्धरण</system:String>
     <system:String x:Key="Portal.Category.KidsandCartoon">बच्चे और कार्टून</system:String>
     <system:String x:Key="Portal.Category.Landscape">दृश्य</system:String>

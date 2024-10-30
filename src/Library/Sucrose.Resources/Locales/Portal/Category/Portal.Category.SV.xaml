@@ -34,8 +34,9 @@
     <system:String x:Key="Portal.Category.Galaxy">Galax</system:String>
     <system:String x:Key="Portal.Category.Game">Spel</system:String>
     <system:String x:Key="Portal.Category.GeometricPatterns">Geometriska Mönster</system:String>
+    <system:String x:Key="Portal.Category.Halloween">Halloween</system:String>
     <system:String x:Key="Portal.Category.Holidays">Helgdagar</system:String>
-    <system:String x:Key="Portal.Category.HorrorandHalloween">Skräck och Halloween</system:String>
+    <system:String x:Key="Portal.Category.Horror">Skräck</system:String>
     <system:String x:Key="Portal.Category.InspirationalQuotes">Inspirerande Citat</system:String>
     <system:String x:Key="Portal.Category.KidsandCartoon">Barn och Tecknat</system:String>
     <system:String x:Key="Portal.Category.Landscape">Landskap</system:String>

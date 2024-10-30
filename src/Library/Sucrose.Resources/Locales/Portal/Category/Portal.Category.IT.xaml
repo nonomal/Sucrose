@@ -34,8 +34,9 @@
     <system:String x:Key="Portal.Category.Galaxy">Galassia</system:String>
     <system:String x:Key="Portal.Category.Game">Gioco</system:String>
     <system:String x:Key="Portal.Category.GeometricPatterns">Pattern Geometrici</system:String>
+    <system:String x:Key="Portal.Category.Halloween">Halloween</system:String>
     <system:String x:Key="Portal.Category.Holidays">Vacanze</system:String>
-    <system:String x:Key="Portal.Category.HorrorandHalloween">Horror e Halloween</system:String>
+    <system:String x:Key="Portal.Category.Horror">Orrore</system:String>
     <system:String x:Key="Portal.Category.InspirationalQuotes">Citazioni Ispiratrici</system:String>
     <system:String x:Key="Portal.Category.KidsandCartoon">Bambini e Cartoni Animati</system:String>
     <system:String x:Key="Portal.Category.Landscape">Paesaggio</system:String>

@@ -34,8 +34,9 @@
     <system:String x:Key="Portal.Category.Galaxy">Galaksi</system:String>
     <system:String x:Key="Portal.Category.Game">Oyun</system:String>
     <system:String x:Key="Portal.Category.GeometricPatterns">Geometrik Desenler</system:String>
+    <system:String x:Key="Portal.Category.Halloween">Cadılar Bayramı</system:String>
     <system:String x:Key="Portal.Category.Holidays">Tatiller</system:String>
-    <system:String x:Key="Portal.Category.HorrorandHalloween">Korku ve Cadılar Bayramı</system:String>
+    <system:String x:Key="Portal.Category.Horror">Korku</system:String>
     <system:String x:Key="Portal.Category.InspirationalQuotes">İlham Verici Alıntılar</system:String>
     <system:String x:Key="Portal.Category.KidsandCartoon">Çocuklar ve Çizgi Film</system:String>
     <system:String x:Key="Portal.Category.Landscape">Manzara</system:String>
