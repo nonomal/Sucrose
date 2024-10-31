@@ -13,6 +13,7 @@
     <system:String x:Key="Portal.Area.Laptop">Laptop</system:String>
     <system:String x:Key="Portal.Area.Support">Sokongan</system:String>
     <system:String x:Key="Portal.Area.Reset">Tetapan Semula</system:String>
+    <system:String x:Key="Portal.Area.Windows">Windows</system:String>
     <system:String x:Key="Portal.Area.Backup">Sandaran</system:String>
     <system:String x:Key="Portal.Area.Priority">Keutamaan</system:String>
     <system:String x:Key="Portal.Area.Engines">Enjin</system:String>
@@ -20,6 +21,7 @@
     <system:String x:Key="Portal.Area.Library">Perpustakaan</system:String>
     <system:String x:Key="Portal.Area.Developer">Pembangun</system:String>
     <system:String x:Key="Portal.Area.Extensions">Sambungan</system:String>
+    <system:String x:Key="Portal.Area.OperatingSystem">Sistem Operasi</system:String>
     <system:String x:Key="Portal.Area.SystemResources">Sumber Sistem</system:String>
     <system:String x:Key="Portal.Area.AppearanceBehavior">Penampilan &amp; Tingkah Laku</system:String>
 </ResourceDictionary>

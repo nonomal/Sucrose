@@ -13,6 +13,7 @@
     <system:String x:Key="Portal.Area.Laptop">노트북</system:String>
     <system:String x:Key="Portal.Area.Support">지원</system:String>
     <system:String x:Key="Portal.Area.Reset">재설정</system:String>
+    <system:String x:Key="Portal.Area.Windows">Windows</system:String>
     <system:String x:Key="Portal.Area.Backup">백업</system:String>
     <system:String x:Key="Portal.Area.Priority">우선 순위</system:String>
     <system:String x:Key="Portal.Area.Engines">엔진</system:String>
@@ -20,6 +21,7 @@
     <system:String x:Key="Portal.Area.Library">라이브러리</system:String>
     <system:String x:Key="Portal.Area.Developer">개발자</system:String>
     <system:String x:Key="Portal.Area.Extensions">확장 기능</system:String>
+    <system:String x:Key="Portal.Area.OperatingSystem">운영 체제</system:String>
     <system:String x:Key="Portal.Area.SystemResources">시스템 자원</system:String>
     <system:String x:Key="Portal.Area.AppearanceBehavior">외관 및 동작</system:String>
 </ResourceDictionary>

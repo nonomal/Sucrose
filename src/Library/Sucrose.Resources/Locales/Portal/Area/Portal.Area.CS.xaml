@@ -13,6 +13,7 @@
     <system:String x:Key="Portal.Area.Laptop">Notebook</system:String>
     <system:String x:Key="Portal.Area.Support">Podpora</system:String>
     <system:String x:Key="Portal.Area.Reset">Resetovat</system:String>
+    <system:String x:Key="Portal.Area.Windows">Windows</system:String>
     <system:String x:Key="Portal.Area.Backup">Zálohování</system:String>
     <system:String x:Key="Portal.Area.Priority">Priorita</system:String>
     <system:String x:Key="Portal.Area.Engines">Motory</system:String>
@@ -20,6 +21,7 @@
     <system:String x:Key="Portal.Area.Library">Knižnice</system:String>
     <system:String x:Key="Portal.Area.Developer">Vývojář</system:String>
     <system:String x:Key="Portal.Area.Extensions">Rozšíření</system:String>
+    <system:String x:Key="Portal.Area.OperatingSystem">Operační Systém</system:String>
     <system:String x:Key="Portal.Area.SystemResources">Systémové Prostředky</system:String>
     <system:String x:Key="Portal.Area.AppearanceBehavior">Vzhled a Chování</system:String>
 </ResourceDictionary>

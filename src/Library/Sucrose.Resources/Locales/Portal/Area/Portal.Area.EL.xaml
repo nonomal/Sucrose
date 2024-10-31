@@ -13,6 +13,7 @@
     <system:String x:Key="Portal.Area.Laptop">Φορητός Υπολογιστής</system:String>
     <system:String x:Key="Portal.Area.Support">Υποστήριξη</system:String>
     <system:String x:Key="Portal.Area.Reset">Επαναφορά</system:String>
+    <system:String x:Key="Portal.Area.Windows">Windows</system:String>
     <system:String x:Key="Portal.Area.Backup">Αντίγραφο Ασφαλείας</system:String>
     <system:String x:Key="Portal.Area.Priority">Προτεραιότητα</system:String>
     <system:String x:Key="Portal.Area.Engines">Μηχανές</system:String>
@@ -20,6 +21,7 @@
     <system:String x:Key="Portal.Area.Library">Βιβλιοθήκη</system:String>
     <system:String x:Key="Portal.Area.Developer">Προγραμματιστής</system:String>
     <system:String x:Key="Portal.Area.Extensions">Επεκτάσεις</system:String>
+    <system:String x:Key="Portal.Area.OperatingSystem">Λειτουργικό Σύστημα</system:String>
     <system:String x:Key="Portal.Area.SystemResources">Συστημικοί Πόροι</system:String>
     <system:String x:Key="Portal.Area.AppearanceBehavior">Εμφάνιση &amp; Συμπεριφορά</system:String>
 </ResourceDictionary>

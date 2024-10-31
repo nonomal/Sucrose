@@ -13,6 +13,7 @@
     <system:String x:Key="Portal.Area.Laptop">Bærbar Computer</system:String>
     <system:String x:Key="Portal.Area.Support">Support</system:String>
     <system:String x:Key="Portal.Area.Reset">Nulstil</system:String>
+    <system:String x:Key="Portal.Area.Windows">Windows</system:String>
     <system:String x:Key="Portal.Area.Backup">Backup</system:String>
     <system:String x:Key="Portal.Area.Priority">Prioritet</system:String>
     <system:String x:Key="Portal.Area.Engines">Motorer</system:String>
@@ -20,6 +21,7 @@
     <system:String x:Key="Portal.Area.Library">Bibliotek</system:String>
     <system:String x:Key="Portal.Area.Developer">Udvikler</system:String>
     <system:String x:Key="Portal.Area.Extensions">Udvidelser</system:String>
+    <system:String x:Key="Portal.Area.OperatingSystem">Operativsystem</system:String>
     <system:String x:Key="Portal.Area.SystemResources">Systemressourcer</system:String>
     <system:String x:Key="Portal.Area.AppearanceBehavior">Udseende og Adfærd</system:String>
 </ResourceDictionary>

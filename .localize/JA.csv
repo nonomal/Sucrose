@@ -255,6 +255,7 @@ Portal\Area\Portal.Area.JA.xaml,Portal.Area.Cache,キャッシュ
 Portal\Area\Portal.Area.JA.xaml,Portal.Area.Laptop,ラップトップ
 Portal\Area\Portal.Area.JA.xaml,Portal.Area.Support,サポート
 Portal\Area\Portal.Area.JA.xaml,Portal.Area.Reset,リセット
+Portal\Area\Portal.Area.JA.xaml,Portal.Area.Windows,Windows
 Portal\Area\Portal.Area.JA.xaml,Portal.Area.Backup,バックアップ
 Portal\Area\Portal.Area.JA.xaml,Portal.Area.Priority,優先度
 Portal\Area\Portal.Area.JA.xaml,Portal.Area.Engines,エンジン
@@ -262,6 +263,7 @@ Portal\Area\Portal.Area.JA.xaml,Portal.Area.Update,更新
 Portal\Area\Portal.Area.JA.xaml,Portal.Area.Library,ライブラリ
 Portal\Area\Portal.Area.JA.xaml,Portal.Area.Developer,開発者
 Portal\Area\Portal.Area.JA.xaml,Portal.Area.Extensions,拡張
+Portal\Area\Portal.Area.JA.xaml,Portal.Area.OperatingSystem,オペレーティングシステム
 Portal\Area\Portal.Area.JA.xaml,Portal.Area.SystemResources,システムリソース
 Portal\Area\Portal.Area.JA.xaml,Portal.Area.AppearanceBehavior,外観と動作
 Portal\Category\Portal.Category.JA.xaml,Portal.Category.All,すべて

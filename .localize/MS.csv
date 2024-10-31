@@ -255,6 +255,7 @@ Portal\Area\Portal.Area.MS.xaml,Portal.Area.Cache,Cache
 Portal\Area\Portal.Area.MS.xaml,Portal.Area.Laptop,Laptop
 Portal\Area\Portal.Area.MS.xaml,Portal.Area.Support,Sokongan
 Portal\Area\Portal.Area.MS.xaml,Portal.Area.Reset,Tetapan Semula
+Portal\Area\Portal.Area.MS.xaml,Portal.Area.Windows,Windows
 Portal\Area\Portal.Area.MS.xaml,Portal.Area.Backup,Sandaran
 Portal\Area\Portal.Area.MS.xaml,Portal.Area.Priority,Keutamaan
 Portal\Area\Portal.Area.MS.xaml,Portal.Area.Engines,Enjin
@@ -262,6 +263,7 @@ Portal\Area\Portal.Area.MS.xaml,Portal.Area.Update,Kemas Kini
 Portal\Area\Portal.Area.MS.xaml,Portal.Area.Library,Perpustakaan
 Portal\Area\Portal.Area.MS.xaml,Portal.Area.Developer,Pembangun
 Portal\Area\Portal.Area.MS.xaml,Portal.Area.Extensions,Sambungan
+Portal\Area\Portal.Area.MS.xaml,Portal.Area.OperatingSystem,Sistem Operasi
 Portal\Area\Portal.Area.MS.xaml,Portal.Area.SystemResources,Sumber Sistem
 Portal\Area\Portal.Area.MS.xaml,Portal.Area.AppearanceBehavior,Penampilan &amp; Tingkah Laku
 Portal\Category\Portal.Category.MS.xaml,Portal.Category.All,Semua

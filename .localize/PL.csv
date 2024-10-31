@@ -255,6 +255,7 @@ Portal\Area\Portal.Area.PL.xaml,Portal.Area.Cache,Pamięć Podręczna
 Portal\Area\Portal.Area.PL.xaml,Portal.Area.Laptop,Laptop
 Portal\Area\Portal.Area.PL.xaml,Portal.Area.Support,Wsparcie
 Portal\Area\Portal.Area.PL.xaml,Portal.Area.Reset,Resetowanie
+Portal\Area\Portal.Area.PL.xaml,Portal.Area.Windows,Windows
 Portal\Area\Portal.Area.PL.xaml,Portal.Area.Backup,Kopia Zapasowa
 Portal\Area\Portal.Area.PL.xaml,Portal.Area.Priority,Priorytet
 Portal\Area\Portal.Area.PL.xaml,Portal.Area.Engines,Silniki
@@ -262,6 +263,7 @@ Portal\Area\Portal.Area.PL.xaml,Portal.Area.Update,Aktualizacja
 Portal\Area\Portal.Area.PL.xaml,Portal.Area.Library,Biblioteka
 Portal\Area\Portal.Area.PL.xaml,Portal.Area.Developer,Deweloper
 Portal\Area\Portal.Area.PL.xaml,Portal.Area.Extensions,Rozszerzenia
+Portal\Area\Portal.Area.PL.xaml,Portal.Area.OperatingSystem,System Operacyjny
 Portal\Area\Portal.Area.PL.xaml,Portal.Area.SystemResources,Zasoby Systemowe
 Portal\Area\Portal.Area.PL.xaml,Portal.Area.AppearanceBehavior,Wygląd i Zachowanie
 Portal\Category\Portal.Category.PL.xaml,Portal.Category.All,Wszystkie

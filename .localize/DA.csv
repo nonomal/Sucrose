@@ -255,6 +255,7 @@ Portal\Area\Portal.Area.DA.xaml,Portal.Area.Cache,Cache
 Portal\Area\Portal.Area.DA.xaml,Portal.Area.Laptop,Bærbar Computer
 Portal\Area\Portal.Area.DA.xaml,Portal.Area.Support,Support
 Portal\Area\Portal.Area.DA.xaml,Portal.Area.Reset,Nulstil
+Portal\Area\Portal.Area.DA.xaml,Portal.Area.Windows,Windows
 Portal\Area\Portal.Area.DA.xaml,Portal.Area.Backup,Backup
 Portal\Area\Portal.Area.DA.xaml,Portal.Area.Priority,Prioritet
 Portal\Area\Portal.Area.DA.xaml,Portal.Area.Engines,Motorer
@@ -262,6 +263,7 @@ Portal\Area\Portal.Area.DA.xaml,Portal.Area.Update,Opdatering
 Portal\Area\Portal.Area.DA.xaml,Portal.Area.Library,Bibliotek
 Portal\Area\Portal.Area.DA.xaml,Portal.Area.Developer,Udvikler
 Portal\Area\Portal.Area.DA.xaml,Portal.Area.Extensions,Udvidelser
+Portal\Area\Portal.Area.DA.xaml,Portal.Area.OperatingSystem,Operativsystem
 Portal\Area\Portal.Area.DA.xaml,Portal.Area.SystemResources,Systemressourcer
 Portal\Area\Portal.Area.DA.xaml,Portal.Area.AppearanceBehavior,Udseende og Adfærd
 Portal\Category\Portal.Category.DA.xaml,Portal.Category.All,Alle

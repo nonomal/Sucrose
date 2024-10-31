@@ -13,6 +13,7 @@
     <system:String x:Key="Portal.Area.Laptop">ラップトップ</system:String>
     <system:String x:Key="Portal.Area.Support">サポート</system:String>
     <system:String x:Key="Portal.Area.Reset">リセット</system:String>
+    <system:String x:Key="Portal.Area.Windows">Windows</system:String>
     <system:String x:Key="Portal.Area.Backup">バックアップ</system:String>
     <system:String x:Key="Portal.Area.Priority">優先度</system:String>
     <system:String x:Key="Portal.Area.Engines">エンジン</system:String>
@@ -20,6 +21,7 @@
     <system:String x:Key="Portal.Area.Library">ライブラリ</system:String>
     <system:String x:Key="Portal.Area.Developer">開発者</system:String>
     <system:String x:Key="Portal.Area.Extensions">拡張</system:String>
+    <system:String x:Key="Portal.Area.OperatingSystem">オペレーティングシステム</system:String>
     <system:String x:Key="Portal.Area.SystemResources">システムリソース</system:String>
     <system:String x:Key="Portal.Area.AppearanceBehavior">外観と動作</system:String>
 </ResourceDictionary>

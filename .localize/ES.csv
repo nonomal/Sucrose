@@ -255,6 +255,7 @@ Portal\Area\Portal.Area.ES.xaml,Portal.Area.Cache,Cache
 Portal\Area\Portal.Area.ES.xaml,Portal.Area.Laptop,Portátil
 Portal\Area\Portal.Area.ES.xaml,Portal.Area.Support,Soporte
 Portal\Area\Portal.Area.ES.xaml,Portal.Area.Reset,Restablecer
+Portal\Area\Portal.Area.ES.xaml,Portal.Area.Windows,Windows
 Portal\Area\Portal.Area.ES.xaml,Portal.Area.Backup,Respaldo
 Portal\Area\Portal.Area.ES.xaml,Portal.Area.Priority,Prioridad
 Portal\Area\Portal.Area.ES.xaml,Portal.Area.Engines,Motores
@@ -262,6 +263,7 @@ Portal\Area\Portal.Area.ES.xaml,Portal.Area.Update,Actualizar
 Portal\Area\Portal.Area.ES.xaml,Portal.Area.Library,Biblioteca
 Portal\Area\Portal.Area.ES.xaml,Portal.Area.Developer,Desarrollador
 Portal\Area\Portal.Area.ES.xaml,Portal.Area.Extensions,Extensiones
+Portal\Area\Portal.Area.ES.xaml,Portal.Area.OperatingSystem,Sistema Operativo
 Portal\Area\Portal.Area.ES.xaml,Portal.Area.SystemResources,Recursos del Sistema
 Portal\Area\Portal.Area.ES.xaml,Portal.Area.AppearanceBehavior,Apariencia y Comportamiento
 Portal\Category\Portal.Category.ES.xaml,Portal.Category.All,Todos

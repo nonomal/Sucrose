@@ -13,6 +13,7 @@
     <system:String x:Key="Portal.Area.Laptop">Ноутбук</system:String>
     <system:String x:Key="Portal.Area.Support">Підтримка</system:String>
     <system:String x:Key="Portal.Area.Reset">Скидання</system:String>
+    <system:String x:Key="Portal.Area.Windows">Windows</system:String>
     <system:String x:Key="Portal.Area.Backup">Резервне Копіювання</system:String>
     <system:String x:Key="Portal.Area.Priority">Пріоритет</system:String>
     <system:String x:Key="Portal.Area.Engines">Двигуни</system:String>
@@ -20,6 +21,7 @@
     <system:String x:Key="Portal.Area.Library">Бібліотека</system:String>
     <system:String x:Key="Portal.Area.Developer">Розробник</system:String>
     <system:String x:Key="Portal.Area.Extensions">Розширення</system:String>
+    <system:String x:Key="Portal.Area.OperatingSystem">Операційна Cистема</system:String>
     <system:String x:Key="Portal.Area.SystemResources">Системні Pесурси</system:String>
     <system:String x:Key="Portal.Area.AppearanceBehavior">Вигляд та Поведінка</system:String>
 </ResourceDictionary>

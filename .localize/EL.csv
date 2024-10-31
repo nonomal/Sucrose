@@ -255,6 +255,7 @@ Portal\Area\Portal.Area.EL.xaml,Portal.Area.Cache,Προσωρινή μνήμη
 Portal\Area\Portal.Area.EL.xaml,Portal.Area.Laptop,Φορητός Υπολογιστής
 Portal\Area\Portal.Area.EL.xaml,Portal.Area.Support,Υποστήριξη
 Portal\Area\Portal.Area.EL.xaml,Portal.Area.Reset,Επαναφορά
+Portal\Area\Portal.Area.EL.xaml,Portal.Area.Windows,Windows
 Portal\Area\Portal.Area.EL.xaml,Portal.Area.Backup,Αντίγραφο Ασφαλείας
 Portal\Area\Portal.Area.EL.xaml,Portal.Area.Priority,Προτεραιότητα
 Portal\Area\Portal.Area.EL.xaml,Portal.Area.Engines,Μηχανές
@@ -262,6 +263,7 @@ Portal\Area\Portal.Area.EL.xaml,Portal.Area.Update,Ενημέρωση
 Portal\Area\Portal.Area.EL.xaml,Portal.Area.Library,Βιβλιοθήκη
 Portal\Area\Portal.Area.EL.xaml,Portal.Area.Developer,Προγραμματιστής
 Portal\Area\Portal.Area.EL.xaml,Portal.Area.Extensions,Επεκτάσεις
+Portal\Area\Portal.Area.EL.xaml,Portal.Area.OperatingSystem,Λειτουργικό Σύστημα
 Portal\Area\Portal.Area.EL.xaml,Portal.Area.SystemResources,Συστημικοί Πόροι
 Portal\Area\Portal.Area.EL.xaml,Portal.Area.AppearanceBehavior,Εμφάνιση &amp; Συμπεριφορά
 Portal\Category\Portal.Category.EL.xaml,Portal.Category.All,Όλα

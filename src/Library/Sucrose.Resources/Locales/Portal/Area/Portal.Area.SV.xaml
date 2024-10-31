@@ -13,6 +13,7 @@
     <system:String x:Key="Portal.Area.Laptop">Laptop</system:String>
     <system:String x:Key="Portal.Area.Support">Support</system:String>
     <system:String x:Key="Portal.Area.Reset">Återställning</system:String>
+    <system:String x:Key="Portal.Area.Windows">Windows</system:String>
     <system:String x:Key="Portal.Area.Backup">Säkerhetskopiering</system:String>
     <system:String x:Key="Portal.Area.Priority">Prioritet</system:String>
     <system:String x:Key="Portal.Area.Engines">Motorer</system:String>
@@ -20,6 +21,7 @@
     <system:String x:Key="Portal.Area.Library">Bibliotek</system:String>
     <system:String x:Key="Portal.Area.Developer">Utvecklare</system:String>
     <system:String x:Key="Portal.Area.Extensions">Tillägg</system:String>
+    <system:String x:Key="Portal.Area.OperatingSystem">Operativsystem</system:String>
     <system:String x:Key="Portal.Area.SystemResources">Systemresurser</system:String>
     <system:String x:Key="Portal.Area.AppearanceBehavior">Utseende &amp; Beteende</system:String>
 </ResourceDictionary>

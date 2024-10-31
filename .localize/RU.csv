@@ -255,6 +255,7 @@ Portal\Area\Portal.Area.RU.xaml,Portal.Area.Cache,Кэш
 Portal\Area\Portal.Area.RU.xaml,Portal.Area.Laptop,Ноутбук
 Portal\Area\Portal.Area.RU.xaml,Portal.Area.Support,Поддержка
 Portal\Area\Portal.Area.RU.xaml,Portal.Area.Reset,Сброс
+Portal\Area\Portal.Area.RU.xaml,Portal.Area.Windows,Windows
 Portal\Area\Portal.Area.RU.xaml,Portal.Area.Backup,Резервное Копирование
 Portal\Area\Portal.Area.RU.xaml,Portal.Area.Priority,Приоритет
 Portal\Area\Portal.Area.RU.xaml,Portal.Area.Engines,Двигатели
@@ -262,6 +263,7 @@ Portal\Area\Portal.Area.RU.xaml,Portal.Area.Update,Обновление
 Portal\Area\Portal.Area.RU.xaml,Portal.Area.Library,Библиотека
 Portal\Area\Portal.Area.RU.xaml,Portal.Area.Developer,Разработчик
 Portal\Area\Portal.Area.RU.xaml,Portal.Area.Extensions,Расширения
+Portal\Area\Portal.Area.RU.xaml,Portal.Area.OperatingSystem,Операционная Cистема
 Portal\Area\Portal.Area.RU.xaml,Portal.Area.SystemResources,Системные Pесурсы
 Portal\Area\Portal.Area.RU.xaml,Portal.Area.AppearanceBehavior,Внешний вид и Поведение
 Portal\Category\Portal.Category.RU.xaml,Portal.Category.All,Все
