@@ -38,12 +38,22 @@ namespace Sucrose.Backgroundog.Helper
                 return;
             }
 
+            if (await LockPerformance())
+            {
+                return;
+            }
+
             if (await FocusPerformance())
             {
                 return;
             }
 
             if (await SaverPerformance())
+            {
+                return;
+            }
+
+            if (await SleepPerformance())
             {
                 return;
             }
@@ -58,7 +68,12 @@ namespace Sucrose.Backgroundog.Helper
                 return;
             }
 
-            if (await VirtualPerformance())
+            if (await BatteryPerformance())
+            {
+                return;
+            }
+
+            if (await ConsolePerformance())
             {
                 return;
             }
@@ -68,7 +83,12 @@ namespace Sucrose.Backgroundog.Helper
                 return;
             }
 
-            if (await BatteryPerformance())
+            if (await SessionPerformance())
+            {
+                return;
+            }
+
+            if (await VirtualPerformance())
             {
                 return;
             }
@@ -216,6 +236,37 @@ namespace Sucrose.Backgroundog.Helper
             return false;
         }
 
+        private static async Task<bool> LockPerformance()
+        {
+            if (SSDMMB.LockPerformance != SSDEPT.Resume)
+            {
+                int Count = 0;
+                int MaxCount = 0;
+                SSDEPT Performance = SSDMMB.LockPerformance;
+
+                while (SBMI.WindowsLock && SSDMMB.LockPerformance == Performance)
+                {
+                    if (Count >= MaxCount)
+                    {
+                        SBMI.Performance = SSDMMB.LockPerformance;
+                        SBMI.CategoryPerformance = SSDECPT.Lock;
+                        SBMI.Condition = true;
+                        Lifecycle();
+
+                        return true;
+                    }
+                    else
+                    {
+                        Count++;
+                    }
+
+                    await Task.Delay(TimeSpan.FromSeconds(1));
+                }
+            }
+
+            return false;
+        }
+
         private static async Task<bool> FocusPerformance()
         {
             if (SSDMMB.FocusPerformance != SSDEPT.Resume)
@@ -278,6 +329,37 @@ namespace Sucrose.Backgroundog.Helper
             return false;
         }
 
+        private static async Task<bool> SleepPerformance()
+        {
+            if (SSDMMB.SleepPerformance != SSDEPT.Resume)
+            {
+                int Count = 0;
+                int MaxCount = 0;
+                SSDEPT Performance = SSDMMB.SleepPerformance;
+
+                while (SBMI.WindowsSleep && SSDMMB.SleepPerformance == Performance)
+                {
+                    if (Count >= MaxCount)
+                    {
+                        SBMI.Performance = SSDMMB.SleepPerformance;
+                        SBMI.CategoryPerformance = SSDECPT.Sleep;
+                        SBMI.Condition = true;
+                        Lifecycle();
+
+                        return true;
+                    }
+                    else
+                    {
+                        Count++;
+                    }
+
+                    await Task.Delay(TimeSpan.FromSeconds(1));
+                }
+            }
+
+            return false;
+        }
+
         private static async Task<bool> MemoryPerformance()
         {
             if (SSDMMB.MemoryPerformance != SSDEPT.Resume)
@@ -323,6 +405,68 @@ namespace Sucrose.Backgroundog.Helper
                     {
                         SBMI.Performance = SSDMMB.RemotePerformance;
                         SBMI.CategoryPerformance = SSDECPT.Remote;
+                        SBMI.Condition = true;
+                        Lifecycle();
+
+                        return true;
+                    }
+                    else
+                    {
+                        Count++;
+                    }
+
+                    await Task.Delay(TimeSpan.FromSeconds(1));
+                }
+            }
+
+            return false;
+        }
+
+        private static async Task<bool> BatteryPerformance()
+        {
+            if (SSDMMB.BatteryPerformance != SSDEPT.Resume)
+            {
+                int Count = 0;
+                int MaxCount = 5;
+                SSDEPT Performance = SSDMMB.BatteryPerformance;
+
+                while (SBMI.BatteryData.State && (SBMI.BatteryData.PowerLineStatus != PowerLineStatus.Online || SBMI.BatteryData.ACPowerStatus != "Online") && SMMB.BatteryUsage > 0 && SBMI.BatteryData.ChargeLevel <= SMMB.BatteryUsage && SSDMMB.BatteryPerformance == Performance)
+                {
+                    if (Count >= MaxCount)
+                    {
+                        SBMI.Performance = SSDMMB.BatteryPerformance;
+                        SBMI.CategoryPerformance = SSDECPT.Battery;
+                        SBMI.Condition = true;
+                        Lifecycle();
+
+                        return true;
+                    }
+                    else
+                    {
+                        Count++;
+                    }
+
+                    await Task.Delay(TimeSpan.FromSeconds(1));
+                }
+            }
+
+            return false;
+        }
+
+        private static async Task<bool> ConsolePerformance()
+        {
+            if (SSDMMB.ConsolePerformance != SSDEPT.Resume)
+            {
+                int Count = 0;
+                int MaxCount = 0;
+                SSDEPT Performance = SSDMMB.ConsolePerformance;
+
+                while (!SBMI.WindowsConsole && SSDMMB.ConsolePerformance == Performance)
+                {
+                    if (Count >= MaxCount)
+                    {
+                        SBMI.Performance = SSDMMB.ConsolePerformance;
+                        SBMI.CategoryPerformance = SSDECPT.Console;
                         SBMI.Condition = true;
                         Lifecycle();
 
@@ -413,20 +557,20 @@ namespace Sucrose.Backgroundog.Helper
             return false;
         }
 
-        private static async Task<bool> BatteryPerformance()
+        private static async Task<bool> SessionPerformance()
         {
-            if (SSDMMB.BatteryPerformance != SSDEPT.Resume)
+            if (SSDMMB.SessionPerformance != SSDEPT.Resume)
             {
                 int Count = 0;
-                int MaxCount = 5;
-                SSDEPT Performance = SSDMMB.BatteryPerformance;
+                int MaxCount = 0;
+                SSDEPT Performance = SSDMMB.SessionPerformance;
 
-                while (SBMI.BatteryData.State && (SBMI.BatteryData.PowerLineStatus != PowerLineStatus.Online || SBMI.BatteryData.ACPowerStatus != "Online") && SMMB.BatteryUsage > 0 && SBMI.BatteryData.ChargeLevel <= SMMB.BatteryUsage && SSDMMB.BatteryPerformance == Performance)
+                while (!SBMI.WindowsSession && SSDMMB.SessionPerformance == Performance)
                 {
                     if (Count >= MaxCount)
                     {
-                        SBMI.Performance = SSDMMB.BatteryPerformance;
-                        SBMI.CategoryPerformance = SSDECPT.Battery;
+                        SBMI.Performance = SSDMMB.SessionPerformance;
+                        SBMI.CategoryPerformance = SSDECPT.Session;
                         SBMI.Condition = true;
                         Lifecycle();
 

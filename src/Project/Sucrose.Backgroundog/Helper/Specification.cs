@@ -3,7 +3,6 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System.Management;
 using System.Net;
-using System.Text;
 using SBEAS = Sucrose.Backgroundog.Extension.AudioSession;
 using SBED = Sucrose.Backgroundog.Extension.Data;
 using SBEG = Sucrose.Backgroundog.Extension.Graphic;
@@ -487,14 +486,11 @@ namespace Sucrose.Backgroundog.Helper
                         {
                             SBMI.FullScreen = false;
 
-                            IntPtr Foreground = SWNM.GetForegroundWindow();
-
-                            StringBuilder Class = new(256);
-                            SWNM.GetClassName((int)Foreground, Class, 256);
-
                             if (!SBMI.FocusDesktop)
                             {
                                 SWUS.Initialize();
+
+                                IntPtr Foreground = SWNM.GetForegroundWindow();
 
                                 foreach (SSMMS Screen in SWUS.Screens)
                                 {
@@ -571,7 +567,7 @@ namespace Sucrose.Backgroundog.Helper
                     {
                         try
                         {
-                            SBMI.RemoteDesktop = SBER.DesktopActive();
+                            SBMI.RemoteDesktop = SBMI.WindowsRemote || SBER.DesktopActive();
 
                             await Task.Delay(SBMI.SpecificationTime);
 

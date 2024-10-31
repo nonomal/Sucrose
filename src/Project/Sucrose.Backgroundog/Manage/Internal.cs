@@ -24,9 +24,9 @@ namespace Sucrose.Backgroundog.Manage
     {
         public static bool Exit = true;
 
-        public static int AppTime = 1000;
-
         public static Process App = null;
+
+        public static int AppTime = 1000;
 
         public static Process Live = null;
 
@@ -48,9 +48,13 @@ namespace Sucrose.Backgroundog.Manage
 
         public static SSDEPPT PausePerformance;
 
-        public static bool FocusDesktop = false;
+        public static bool WindowsLock = false;
 
         public static bool CpuManagement = true;
+
+        public static bool FocusDesktop = false;
+
+        public static bool WindowsSleep = false;
 
         public static bool BiosManagement = true;
 
@@ -59,6 +63,12 @@ namespace Sucrose.Backgroundog.Manage
         public static bool PipeManagement = true;
 
         public static bool RemoteDesktop = false;
+
+        public static bool WindowsConsole = true;
+
+        public static bool WindowsRemote = false;
+
+        public static bool WindowsSession = true;
 
         public static bool AudioManagement = true;
 
@@ -70,27 +80,29 @@ namespace Sucrose.Backgroundog.Manage
 
         public static bool SignalManagement = true;
 
-        public static bool SessionManagement = true;
+        public static bool BatteryManagement = true;
 
         public static bool GraphicManagement = true;
 
         public static bool NetworkManagement = true;
 
-        public static bool BatteryManagement = true;
+        public static bool SessionManagement = true;
+
+        public static bool ComputerManagement = true;
 
         public static bool GraphicManagement2 = true;
 
-        public static string PingHost = string.Empty;
-
         public static bool NetworkManagement2 = true;
 
-        public static bool ComputerManagement = true;
+        public static string PingHost = string.Empty;
 
         public static bool EqualizerManagement = true;
 
         public static bool FullScreenManagement = true;
 
         public static bool VirtualityManagement = true;
+
+        public static int Windows11BuildNumber = 22000;
 
         public static bool MotherboardManagement = true;
 
@@ -114,17 +126,15 @@ namespace Sucrose.Backgroundog.Manage
 
         public static int SpecificationTime = InitializeTime * 20;
 
-        public static int SpecificationMaxTime = InitializeTime * 30;
-
         public static NowPlayingSessionManager SessionManager = null;
+
+        public static int SpecificationMaxTime = InitializeTime * 30;
 
         public static int SpecificationLessTime = InitializeTime * 10;
 
         public static string[] GraphicInterfaces = Array.Empty<string>();
 
         public static string[] NetworkInterfaces = Array.Empty<string>();
-
-        public static bool Windows11_OrGreater = Environment.OSVersion.Version.Build >= 22000;
 
         public static SBSDCS CpuData = new()
         {

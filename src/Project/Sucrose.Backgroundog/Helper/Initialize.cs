@@ -1,4 +1,5 @@
 ﻿using SBEAS = Sucrose.Backgroundog.Extension.AudioSession;
+using SBEW = Sucrose.Backgroundog.Extension.Windows;
 using SBHA = Sucrose.Backgroundog.Helper.Attempt;
 using SBHC = Sucrose.Backgroundog.Helper.Condition;
 using SBHP = Sucrose.Backgroundog.Helper.Performance;
@@ -15,6 +16,8 @@ namespace Sucrose.Backgroundog.Helper
     {
         public void Start()
         {
+            SBEW.Start();
+
             SBMI.Computer.Open();
 
             TimerCallback Callback = InitializeTimer_Callback;
@@ -29,6 +32,8 @@ namespace Sucrose.Backgroundog.Helper
 
         public void Stop()
         {
+            SBEW.Stop();
+
             SBMI.Computer.Close();
 
             SBMI.InitializeTimer.Dispose();

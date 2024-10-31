@@ -150,10 +150,7 @@ namespace Sucrose.XamlAnimatedGif
 
         private static string ToHex(byte[] bytes)
         {
-            return bytes.Aggregate(
-                new StringBuilder(),
-                (sb, b) => sb.Append(b.ToString("X2")),
-                sb => sb.ToString());
+            return bytes.Aggregate(new StringBuilder(), (sb, b) => sb.Append(b.ToString("X2")), sb => sb.ToString());
         }
     }
 }

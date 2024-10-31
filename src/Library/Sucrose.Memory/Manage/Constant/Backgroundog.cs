@@ -36,6 +36,10 @@
 
         public const string SignalRequired = "SignalRequired";
 
+        public const string LockPerformance = "LockPerformance";
+
+        public const string SleepPerformance = "SleepPerformance";
+
         public const string ClosePerformance = "ClosePerformance";
 
         public const string FocusPerformance = "FocusPerformance";
@@ -52,9 +56,13 @@
 
         public const string BatteryPerformance = "BatteryPerformance";
 
+        public const string ConsolePerformance = "ConsolePerformance";
+
         public const string NetworkPerformance = "NetworkPerformance";
 
         public const string PerformanceCounter = "PerformanceCounter";
+
+        public const string SessionPerformance = "SessionPerformance";
 
         public const string VirtualPerformance = "VirtualPerformance";
 

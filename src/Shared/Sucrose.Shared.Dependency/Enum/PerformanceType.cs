@@ -26,13 +26,18 @@
         Not,
         Cpu,
         Gpu,
+        Lock,
         Focus,
         Saver,
+        Sleep,
         Memory,
         Remote,
-        Virtual,
-        Network,
         Battery,
-        FullScreen
+        Console,
+        Network,
+        Session,
+        Virtual,
+        FullScreen,
+        ScreenSaver
     }
 }

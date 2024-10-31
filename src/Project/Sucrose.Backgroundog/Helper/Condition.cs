@@ -47,12 +47,22 @@ namespace Sucrose.Backgroundog.Helper
                     return;
                 }
 
+                if (await LockCondition())
+                {
+                    return;
+                }
+
                 if (await FocusCondition())
                 {
                     return;
                 }
 
                 if (await SaverCondition())
+                {
+                    return;
+                }
+
+                if (await SleepCondition())
                 {
                     return;
                 }
@@ -67,7 +77,12 @@ namespace Sucrose.Backgroundog.Helper
                     return;
                 }
 
-                if (await VirtualCondition())
+                if (await BatteryCondition())
+                {
+                    return;
+                }
+
+                if (await ConsoleCondition())
                 {
                     return;
                 }
@@ -77,7 +92,12 @@ namespace Sucrose.Backgroundog.Helper
                     return;
                 }
 
-                if (await BatteryCondition())
+                if (await SessionCondition())
+                {
+                    return;
+                }
+
+                if (await VirtualCondition())
                 {
                     return;
                 }
@@ -223,6 +243,36 @@ namespace Sucrose.Backgroundog.Helper
             return false;
         }
 
+        private static async Task<bool> LockCondition()
+        {
+            if (SBMI.CategoryPerformance == SSDECPT.Lock)
+            {
+                int Count = 0;
+                int MaxCount = 0;
+
+                while (!SBMI.WindowsLock || SSDMMB.LockPerformance == SSDEPT.Resume)
+                {
+                    if (Count >= MaxCount)
+                    {
+                        Lifecycle();
+                        SBMI.Condition = false;
+                        SBMI.Performance = SSDEPT.Resume;
+                        SBMI.CategoryPerformance = SSDECPT.Not;
+
+                        return true;
+                    }
+                    else
+                    {
+                        Count++;
+                    }
+
+                    await Task.Delay(TimeSpan.FromSeconds(1));
+                }
+            }
+
+            return false;
+        }
+
         private static async Task<bool> FocusCondition()
         {
             if (SBMI.CategoryPerformance == SSDECPT.Focus)
@@ -283,6 +333,36 @@ namespace Sucrose.Backgroundog.Helper
             return false;
         }
 
+        private static async Task<bool> SleepCondition()
+        {
+            if (SBMI.CategoryPerformance == SSDECPT.Sleep)
+            {
+                int Count = 0;
+                int MaxCount = 0;
+
+                while (!SBMI.WindowsSleep || SSDMMB.SleepPerformance == SSDEPT.Resume)
+                {
+                    if (Count >= MaxCount)
+                    {
+                        Lifecycle();
+                        SBMI.Condition = false;
+                        SBMI.Performance = SSDEPT.Resume;
+                        SBMI.CategoryPerformance = SSDECPT.Not;
+
+                        return true;
+                    }
+                    else
+                    {
+                        Count++;
+                    }
+
+                    await Task.Delay(TimeSpan.FromSeconds(1));
+                }
+            }
+
+            return false;
+        }
+
         private static async Task<bool> MemoryCondition()
         {
             if (SBMI.CategoryPerformance == SSDECPT.Memory)
@@ -291,6 +371,96 @@ namespace Sucrose.Backgroundog.Helper
                 int MaxCount = 3;
 
                 while (SMMB.MemoryUsage <= 0 || SBMI.MemoryData.MemoryLoad < SMMB.MemoryUsage || SSDMMB.MemoryPerformance == SSDEPT.Resume)
+                {
+                    if (Count >= MaxCount)
+                    {
+                        Lifecycle();
+                        SBMI.Condition = false;
+                        SBMI.Performance = SSDEPT.Resume;
+                        SBMI.CategoryPerformance = SSDECPT.Not;
+
+                        return true;
+                    }
+                    else
+                    {
+                        Count++;
+                    }
+
+                    await Task.Delay(TimeSpan.FromSeconds(1));
+                }
+            }
+
+            return false;
+        }
+
+        private static async Task<bool> RemoteCondition()
+        {
+            if (SBMI.CategoryPerformance == SSDECPT.Remote)
+            {
+                int Count = 0;
+                int MaxCount = 3;
+
+                while (!SBMI.RemoteDesktop || SSDMMB.RemotePerformance == SSDEPT.Resume)
+                {
+                    if (Count >= MaxCount)
+                    {
+                        Lifecycle();
+                        SBMI.Condition = false;
+                        SBMI.Performance = SSDEPT.Resume;
+                        SBMI.CategoryPerformance = SSDECPT.Not;
+
+                        return true;
+                    }
+                    else
+                    {
+                        Count++;
+                    }
+
+                    await Task.Delay(TimeSpan.FromSeconds(1));
+                }
+            }
+
+            return false;
+        }
+
+        private static async Task<bool> BatteryCondition()
+        {
+            if (SBMI.CategoryPerformance == SSDECPT.Battery)
+            {
+                int Count = 0;
+                int MaxCount = 3;
+
+                while (SMMB.BatteryUsage <= 0 || SBMI.BatteryData.PowerLineStatus == PowerLineStatus.Online || SBMI.BatteryData.ACPowerStatus == "Online" || SBMI.BatteryData.ChargeLevel > SMMB.BatteryUsage || SSDMMB.BatteryPerformance == SSDEPT.Resume)
+                {
+                    if (Count >= MaxCount)
+                    {
+                        Lifecycle();
+                        SBMI.Condition = false;
+                        SBMI.Performance = SSDEPT.Resume;
+                        SBMI.CategoryPerformance = SSDECPT.Not;
+
+                        return true;
+                    }
+                    else
+                    {
+                        Count++;
+                    }
+
+                    await Task.Delay(TimeSpan.FromSeconds(1));
+                }
+            }
+
+            return false;
+        }
+
+        private static async Task<bool> ConsoleCondition()
+        {
+            if (SBMI.CategoryPerformance == SSDECPT.Console)
+            {
+                int Count = 0;
+                int MaxCount = 0;
+
+                while (SBMI.WindowsConsole || SSDMMB.ConsolePerformance == SSDEPT.Resume)
                 {
                     if (Count >= MaxCount)
                     {
@@ -392,44 +562,14 @@ namespace Sucrose.Backgroundog.Helper
             return false;
         }
 
-        private static async Task<bool> RemoteCondition()
+        private static async Task<bool> SessionCondition()
         {
-            if (SBMI.CategoryPerformance == SSDECPT.Remote)
+            if (SBMI.CategoryPerformance == SSDECPT.Session)
             {
                 int Count = 0;
-                int MaxCount = 3;
+                int MaxCount = 0;
 
-                while (!SBMI.RemoteDesktop || SSDMMB.RemotePerformance == SSDEPT.Resume)
-                {
-                    if (Count >= MaxCount)
-                    {
-                        Lifecycle();
-                        SBMI.Condition = false;
-                        SBMI.Performance = SSDEPT.Resume;
-                        SBMI.CategoryPerformance = SSDECPT.Not;
-
-                        return true;
-                    }
-                    else
-                    {
-                        Count++;
-                    }
-
-                    await Task.Delay(TimeSpan.FromSeconds(1));
-                }
-            }
-
-            return false;
-        }
-
-        private static async Task<bool> BatteryCondition()
-        {
-            if (SBMI.CategoryPerformance == SSDECPT.Battery)
-            {
-                int Count = 0;
-                int MaxCount = 3;
-
-                while (SMMB.BatteryUsage <= 0 || SBMI.BatteryData.PowerLineStatus == PowerLineStatus.Online || SBMI.BatteryData.ACPowerStatus == "Online" || SBMI.BatteryData.ChargeLevel > SMMB.BatteryUsage || SSDMMB.BatteryPerformance == SSDEPT.Resume)
+                while (SBMI.WindowsSession || SSDMMB.SessionPerformance == SSDEPT.Resume)
                 {
                     if (Count >= MaxCount)
                     {
