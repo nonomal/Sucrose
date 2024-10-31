@@ -1026,8 +1026,8 @@ PASS⦙219,PASS⦙219,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Port
 Portal.PerformanceSettingPage.Remote,Fjärrskrivbord,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.SV.xaml,
 Portal.PerformanceSettingPage.Remote.Description,Vad som händer med bakgrundsbilden när du använder fjärrskrivbordsprogram.,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.SV.xaml,
 PASS⦙220,PASS⦙220,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.SV.xaml,Please don't touch the translation in this line.
-Portal.PerformanceSettingPage.Fullscreen,Helskärmsläge,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.SV.xaml,
-Portal.PerformanceSettingPage.Fullscreen.Description,Vad som händer med bakgrundsbilden när du använder vilken som helst applikation i helskärmsläge.,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.SV.xaml,
+Portal.PerformanceSettingPage.FullScreen,Helskärmsläge,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.SV.xaml,
+Portal.PerformanceSettingPage.FullScreen.Description,Vad som händer med bakgrundsbilden när du använder vilken som helst applikation i helskärmsläge.,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.SV.xaml,
 PASS⦙221,PASS⦙221,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.SV.xaml,Please don't touch the translation in this line.
 Portal.PerformanceSettingPage.Focus,Fokusläge,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.SV.xaml,
 Portal.PerformanceSettingPage.Focus.Description,Vad som händer med bakgrundsbilden när du har någon annan applikation i fokus.,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.SV.xaml,

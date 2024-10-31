@@ -1026,8 +1026,8 @@ Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.DA.xaml,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.DA.xaml,Portal.PerformanceSettingPage.Remote,Fjernskrivebord
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.DA.xaml,Portal.PerformanceSettingPage.Remote.Description,"Hvad der skal ske med tapetet, når fjernskrivebordsapplikationer kører."
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.DA.xaml,,
-Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.DA.xaml,Portal.PerformanceSettingPage.Fullscreen,Fuldskærmsmodus
-Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.DA.xaml,Portal.PerformanceSettingPage.Fullscreen.Description,"Hvad der skal ske med tapetet, når enhver anden applikation kører i fuldskærmstilstand."
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.DA.xaml,Portal.PerformanceSettingPage.FullScreen,Fuldskærmsmodus
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.DA.xaml,Portal.PerformanceSettingPage.FullScreen.Description,"Hvad der skal ske med tapetet, når enhver anden applikation kører i fuldskærmstilstand."
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.DA.xaml,,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.DA.xaml,Portal.PerformanceSettingPage.Focus,Fokustilstand
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.DA.xaml,Portal.PerformanceSettingPage.Focus.Description,"Hvad der skal ske med tapetet, når der er en anden applikation i fokus."

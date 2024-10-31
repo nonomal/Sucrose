@@ -35,7 +35,7 @@ using SSSHM = Sucrose.Shared.Space.Helper.Management;
 using SSSHN = Sucrose.Shared.Space.Helper.Network;
 using SSSHU = Sucrose.Shared.Space.Helper.User;
 using SSWEW = Sucrose.Shared.Watchdog.Extension.Watch;
-using SWHF = Skylark.Wing.Helper.Fullscreen;
+using SWHFS = Skylark.Wing.Helper.FullScreen;
 using SWNM = Skylark.Wing.Native.Methods;
 using SWUD = Skylark.Wing.Utility.Desktop;
 using SWUP = Skylark.Wing.Utility.Power;
@@ -477,15 +477,15 @@ namespace Sucrose.Backgroundog.Helper
                     });
                 }
 
-                if (SBMI.FullscreenManagement && (SSDMMB.FullscreenPerformance != SSDEPT.Resume || SBMI.CategoryPerformance == SSDECPT.Fullscreen))
+                if (SBMI.FullScreenManagement && (SSDMMB.FullScreenPerformance != SSDEPT.Resume || SBMI.CategoryPerformance == SSDECPT.FullScreen))
                 {
-                    SBMI.FullscreenManagement = false;
+                    SBMI.FullScreenManagement = false;
 
                     _ = Task.Run(async () =>
                     {
                         try
                         {
-                            SBMI.Fullscreen = false;
+                            SBMI.FullScreen = false;
 
                             IntPtr Foreground = SWNM.GetForegroundWindow();
 
@@ -498,9 +498,9 @@ namespace Sucrose.Backgroundog.Helper
 
                                 foreach (SSMMS Screen in SWUS.Screens)
                                 {
-                                    if (SWHF.IsFullscreen(Foreground, Screen.rcMonitor))
+                                    if (SWHFS.IsFullScreen(Foreground, Screen.rcMonitor))
                                     {
-                                        SBMI.Fullscreen = true;
+                                        SBMI.FullScreen = true;
 
                                         break;
                                     }
@@ -509,11 +509,11 @@ namespace Sucrose.Backgroundog.Helper
 
                             await Task.Delay(SBMI.SpecificationLessTime);
 
-                            SBMI.FullscreenManagement = true;
+                            SBMI.FullScreenManagement = true;
                         }
                         catch (Exception Exception)
                         {
-                            SBMI.FullscreenManagement = true;
+                            SBMI.FullScreenManagement = true;
                             await SSWEW.Watch_CatchException(Exception);
                         }
                     });
@@ -541,7 +541,7 @@ namespace Sucrose.Backgroundog.Helper
                     });
                 }
 
-                if (SBMI.FocusManagement && (SSDMMB.FocusPerformance != SSDEPT.Resume || SSDMMB.FullscreenPerformance != SSDEPT.Resume || SBMI.CategoryPerformance == SSDECPT.Focus || SBMI.CategoryPerformance == SSDECPT.Fullscreen))
+                if (SBMI.FocusManagement && (SSDMMB.FocusPerformance != SSDEPT.Resume || SSDMMB.FullScreenPerformance != SSDEPT.Resume || SBMI.CategoryPerformance == SSDECPT.Focus || SBMI.CategoryPerformance == SSDECPT.FullScreen))
                 {
                     SBMI.FocusManagement = false;
 

@@ -59,8 +59,8 @@
     <system:String x:Key="Portal.PerformanceSettingPage.Remote">Vzdálená Plocha</system:String>
     <system:String x:Key="Portal.PerformanceSettingPage.Remote.Description">Určuje, jaký bude výsledek duhovky při použití aplikací pro vzdálenou plochu.</system:String>
 
-    <system:String x:Key="Portal.PerformanceSettingPage.Fullscreen">Režim Celé Obrazovky</system:String>
-    <system:String x:Key="Portal.PerformanceSettingPage.Fullscreen.Description">Určuje, jaký bude výsledek duhovky v režimu celé obrazovky, když běží jakákoli jiná aplikace.</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.FullScreen">Režim Celé Obrazovky</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.FullScreen.Description">Určuje, jaký bude výsledek duhovky v režimu celé obrazovky, když běží jakákoli jiná aplikace.</system:String>
 
     <system:String x:Key="Portal.PerformanceSettingPage.Focus">Režim Fókusu</system:String>
     <system:String x:Key="Portal.PerformanceSettingPage.Focus.Description">Určuje, jaký bude výsledek duhovky, když je aktivní jiná aplikace.</system:String>

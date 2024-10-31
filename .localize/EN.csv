@@ -1026,8 +1026,8 @@ Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.EN.xaml,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.EN.xaml,Portal.PerformanceSettingPage.Remote,Remote Desktop
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.EN.xaml,Portal.PerformanceSettingPage.Remote.Description,What happens to the wallpaper when remote desktop applications are running.
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.EN.xaml,,
-Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.EN.xaml,Portal.PerformanceSettingPage.Fullscreen,Full Screen Mode
-Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.EN.xaml,Portal.PerformanceSettingPage.Fullscreen.Description,What happens to the wallpaper when any application is running in full screen mode.
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.EN.xaml,Portal.PerformanceSettingPage.FullScreen,Full Screen Mode
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.EN.xaml,Portal.PerformanceSettingPage.FullScreen.Description,What happens to the wallpaper when any application is running in full screen mode.
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.EN.xaml,,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.EN.xaml,Portal.PerformanceSettingPage.Focus,Focus Mode
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.EN.xaml,Portal.PerformanceSettingPage.Focus.Description,What happens to the wallpaper when another application has focus.

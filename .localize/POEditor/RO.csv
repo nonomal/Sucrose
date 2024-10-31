@@ -1026,8 +1026,8 @@ PASS⦙219,PASS⦙219,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Port
 Portal.PerformanceSettingPage.Remote,Desktop la Distanță,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RO.xaml,
 Portal.PerformanceSettingPage.Remote.Description,Ce se întâmplă cu fundalul temei dvs. atunci când se utilizează aplicații pentru desktop la distanță.,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RO.xaml,
 PASS⦙220,PASS⦙220,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RO.xaml,Please don't touch the translation in this line.
-Portal.PerformanceSettingPage.Fullscreen,Mod Ecran Complet,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RO.xaml,
-Portal.PerformanceSettingPage.Fullscreen.Description,Ce se întâmplă cu fundalul temei dvs. atunci când se utilizează aplicații în modul ecran complet.,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RO.xaml,
+Portal.PerformanceSettingPage.FullScreen,Mod Ecran Complet,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RO.xaml,
+Portal.PerformanceSettingPage.FullScreen.Description,Ce se întâmplă cu fundalul temei dvs. atunci când se utilizează aplicații în modul ecran complet.,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RO.xaml,
 PASS⦙221,PASS⦙221,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RO.xaml,Please don't touch the translation in this line.
 Portal.PerformanceSettingPage.Focus,Mod Focus,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RO.xaml,
 Portal.PerformanceSettingPage.Focus.Description,Ce se întâmplă cu fundalul temei dvs. atunci când există alte aplicații în prim-plan.,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RO.xaml,

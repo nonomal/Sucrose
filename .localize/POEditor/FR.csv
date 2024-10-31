@@ -1026,8 +1026,8 @@ PASS⦙219,PASS⦙219,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Port
 Portal.PerformanceSettingPage.Remote,Bureau à Distance,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.FR.xaml,
 Portal.PerformanceSettingPage.Remote.Description,Ce qui se passe avec l'arrière-plan lorsque des applications de bureau à distance sont en cours d'exécution.,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.FR.xaml,
 PASS⦙220,PASS⦙220,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.FR.xaml,Please don't touch the translation in this line.
-Portal.PerformanceSettingPage.Fullscreen,Mode Plein Ècran,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.FR.xaml,
-Portal.PerformanceSettingPage.Fullscreen.Description,Ce qui se passe avec l'arrière-plan lorsque n'importe quelle application est en mode plein écran.,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.FR.xaml,
+Portal.PerformanceSettingPage.FullScreen,Mode Plein Ècran,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.FR.xaml,
+Portal.PerformanceSettingPage.FullScreen.Description,Ce qui se passe avec l'arrière-plan lorsque n'importe quelle application est en mode plein écran.,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.FR.xaml,
 PASS⦙221,PASS⦙221,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.FR.xaml,Please don't touch the translation in this line.
 Portal.PerformanceSettingPage.Focus,Mode de Mise au Point,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.FR.xaml,
 Portal.PerformanceSettingPage.Focus.Description,Ce qui se passe avec l'arrière-plan lorsque qu'une autre application est en premier plan.,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.FR.xaml,

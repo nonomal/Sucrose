@@ -277,8 +277,8 @@ namespace Sucrose.Shared.Space.Model
         [JsonProperty("CyclingTransitionType", Required = Required.Always)]
         public string CyclingTransitionType { get; set; }
 
-        [JsonProperty("FullscreenPerformance", Required = Required.Always)]
-        public string FullscreenPerformance { get; set; }
+        [JsonProperty("FullScreenPerformance", Required = Required.Always)]
+        public string FullScreenPerformance { get; set; }
 
         [JsonProperty("ProcessorArchitecture", Required = Required.Always)]
         public string ProcessorArchitecture { get; set; }

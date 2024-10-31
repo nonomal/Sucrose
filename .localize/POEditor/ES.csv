@@ -1026,8 +1026,8 @@ PASS⦙219,PASS⦙219,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Port
 Portal.PerformanceSettingPage.Remote,Escritorio Remoto,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ES.xaml,
 Portal.PerformanceSettingPage.Remote.Description,Qué sucede con el fondo de pantalla cuando se ejecutan aplicaciones de escritorio remoto.,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ES.xaml,
 PASS⦙220,PASS⦙220,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ES.xaml,Please don't touch the translation in this line.
-Portal.PerformanceSettingPage.Fullscreen,Modo Pantalla Completa,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ES.xaml,
-Portal.PerformanceSettingPage.Fullscreen.Description,Qué sucede con el fondo de pantalla cuando se ejecuta cualquier aplicación en modo de pantalla completa.,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ES.xaml,
+Portal.PerformanceSettingPage.FullScreen,Modo Pantalla Completa,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ES.xaml,
+Portal.PerformanceSettingPage.FullScreen.Description,Qué sucede con el fondo de pantalla cuando se ejecuta cualquier aplicación en modo de pantalla completa.,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ES.xaml,
 PASS⦙221,PASS⦙221,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ES.xaml,Please don't touch the translation in this line.
 Portal.PerformanceSettingPage.Focus,Modo de Enfoque,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ES.xaml,
 Portal.PerformanceSettingPage.Focus.Description,Qué sucede con el fondo de pantalla cuando otra aplicación tiene el enfoque.,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ES.xaml,

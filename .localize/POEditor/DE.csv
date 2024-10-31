@@ -1026,8 +1026,8 @@ PASS⦙219,PASS⦙219,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Port
 Portal.PerformanceSettingPage.Remote,Remote Desktop,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.DE.xaml,
 Portal.PerformanceSettingPage.Remote.Description,"Was mit dem Hintergrundbild passiert, wenn Remote-Desktop-Anwendungen ausgeführt werden.",,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.DE.xaml,
 PASS⦙220,PASS⦙220,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.DE.xaml,Please don't touch the translation in this line.
-Portal.PerformanceSettingPage.Fullscreen,Vollbildmodus,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.DE.xaml,
-Portal.PerformanceSettingPage.Fullscreen.Description,"Was mit dem Hintergrundbild passiert, wenn eine Anwendung im Vollbildmodus läuft.",,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.DE.xaml,
+Portal.PerformanceSettingPage.FullScreen,Vollbildmodus,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.DE.xaml,
+Portal.PerformanceSettingPage.FullScreen.Description,"Was mit dem Hintergrundbild passiert, wenn eine Anwendung im Vollbildmodus läuft.",,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.DE.xaml,
 PASS⦙221,PASS⦙221,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.DE.xaml,Please don't touch the translation in this line.
 Portal.PerformanceSettingPage.Focus,Fokusmodus,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.DE.xaml,
 Portal.PerformanceSettingPage.Focus.Description,"Was mit dem Hintergrundbild passiert, wenn eine andere Anwendung im Vordergrund steht.",,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.DE.xaml,

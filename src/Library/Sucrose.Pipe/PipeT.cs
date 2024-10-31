@@ -25,6 +25,16 @@ namespace Sucrose.Pipe
 
                 ClientStarted = true;
             }
+
+            if (!ClientStopped)
+            {
+                if (!PC.IsConnected)
+                {
+                    PC.Dispose();
+
+                    PC.Start(PipeName);
+                }
+            }
         }
 
         public void StartClient(string Message)

@@ -59,8 +59,8 @@
     <system:String x:Key="Portal.PerformanceSettingPage.Remote">Bureau à Distance</system:String>
     <system:String x:Key="Portal.PerformanceSettingPage.Remote.Description">Ce qui se passe avec l'arrière-plan lorsque des applications de bureau à distance sont en cours d'exécution.</system:String>
 
-    <system:String x:Key="Portal.PerformanceSettingPage.Fullscreen">Mode Plein Ècran</system:String>
-    <system:String x:Key="Portal.PerformanceSettingPage.Fullscreen.Description">Ce qui se passe avec l'arrière-plan lorsque n'importe quelle application est en mode plein écran.</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.FullScreen">Mode Plein Ècran</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.FullScreen.Description">Ce qui se passe avec l'arrière-plan lorsque n'importe quelle application est en mode plein écran.</system:String>
 
     <system:String x:Key="Portal.PerformanceSettingPage.Focus">Mode de Mise au Point</system:String>
     <system:String x:Key="Portal.PerformanceSettingPage.Focus.Description">Ce qui se passe avec l'arrière-plan lorsque qu'une autre application est en premier plan.</system:String>

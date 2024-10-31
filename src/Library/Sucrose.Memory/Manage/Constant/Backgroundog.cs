@@ -60,6 +60,6 @@
 
         public const string PausePerformanceType = "PausePerformanceType";
 
-        public const string FullscreenPerformance = "FullscreenPerformance";
+        public const string FullScreenPerformance = "FullScreenPerformance";
     }
 }

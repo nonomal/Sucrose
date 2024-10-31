@@ -59,8 +59,8 @@
     <system:String x:Key="Portal.PerformanceSettingPage.Remote">Extern bureaublad</system:String>
     <system:String x:Key="Portal.PerformanceSettingPage.Remote.Description">Het effect van externe bureaubladtoepassingen op de achtergrondafbeelding.</system:String>
 
-    <system:String x:Key="Portal.PerformanceSettingPage.Fullscreen">Volledig schermmodus</system:String>
-    <system:String x:Key="Portal.PerformanceSettingPage.Fullscreen.Description">Het effect van het uitvoeren van elke toepassing in volledig scherm op de achtergrondafbeelding.</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.FullScreen">Volledig schermmodus</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.FullScreen.Description">Het effect van het uitvoeren van elke toepassing in volledig scherm op de achtergrondafbeelding.</system:String>
 
     <system:String x:Key="Portal.PerformanceSettingPage.Focus">Focusmodus</system:String>
     <system:String x:Key="Portal.PerformanceSettingPage.Focus.Description">Het effect van het hebben van een andere actieve toepassing in de focusmodus op de achtergrondafbeelding.</system:String>

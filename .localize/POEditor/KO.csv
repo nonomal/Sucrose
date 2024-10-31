@@ -1026,8 +1026,8 @@ PASS⦙219,PASS⦙219,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Port
 Portal.PerformanceSettingPage.Remote,원격 데스크톱,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.KO.xaml,
 Portal.PerformanceSettingPage.Remote.Description,원격 데스크톱 응용 프로그램이 실행되는 동안 배경화면이 어떻게 작동할지.,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.KO.xaml,
 PASS⦙220,PASS⦙220,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.KO.xaml,Please don't touch the translation in this line.
-Portal.PerformanceSettingPage.Fullscreen,전체 화면 모드,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.KO.xaml,
-Portal.PerformanceSettingPage.Fullscreen.Description,전체 화면에서 다른 어떤 애플리케이션이 실행 중일 때 배경화면이 어떻게 작동할지.,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.KO.xaml,
+Portal.PerformanceSettingPage.FullScreen,전체 화면 모드,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.KO.xaml,
+Portal.PerformanceSettingPage.FullScreen.Description,전체 화면에서 다른 어떤 애플리케이션이 실행 중일 때 배경화면이 어떻게 작동할지.,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.KO.xaml,
 PASS⦙221,PASS⦙221,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.KO.xaml,Please don't touch the translation in this line.
 Portal.PerformanceSettingPage.Focus,포커스 모드,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.KO.xaml,
 Portal.PerformanceSettingPage.Focus.Description,다른 어플리케이션이 활성화되어 있는 동안 배경화면 행동에 대한 설정입니다.,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.KO.xaml,

@@ -59,8 +59,8 @@
     <system:String x:Key="Portal.PerformanceSettingPage.Remote">Fjärrskrivbord</system:String>
     <system:String x:Key="Portal.PerformanceSettingPage.Remote.Description">Vad som händer med bakgrundsbilden när du använder fjärrskrivbordsprogram.</system:String>
 
-    <system:String x:Key="Portal.PerformanceSettingPage.Fullscreen">Helskärmsläge</system:String>
-    <system:String x:Key="Portal.PerformanceSettingPage.Fullscreen.Description">Vad som händer med bakgrundsbilden när du använder vilken som helst applikation i helskärmsläge.</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.FullScreen">Helskärmsläge</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.FullScreen.Description">Vad som händer med bakgrundsbilden när du använder vilken som helst applikation i helskärmsläge.</system:String>
 
     <system:String x:Key="Portal.PerformanceSettingPage.Focus">Fokusläge</system:String>
     <system:String x:Key="Portal.PerformanceSettingPage.Focus.Description">Vad som händer med bakgrundsbilden när du har någon annan applikation i fokus.</system:String>

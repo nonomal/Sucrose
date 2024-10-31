@@ -1026,8 +1026,8 @@ PASS⦙219,PASS⦙219,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Port
 Portal.PerformanceSettingPage.Remote,Uzak Masaüstü,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.TR.xaml,
 Portal.PerformanceSettingPage.Remote.Description,Uzak masaüstü uygulamaları çalışırken duvar kağıdına ne olacağı.,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.TR.xaml,
 PASS⦙220,PASS⦙220,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.TR.xaml,Please don't touch the translation in this line.
-Portal.PerformanceSettingPage.Fullscreen,Tam Ekran Modu,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.TR.xaml,
-Portal.PerformanceSettingPage.Fullscreen.Description,Tam ekranda her hangi bir uygulama çalışırken duvar kağıdına ne olacağı.,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.TR.xaml,
+Portal.PerformanceSettingPage.FullScreen,Tam Ekran Modu,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.TR.xaml,
+Portal.PerformanceSettingPage.FullScreen.Description,Tam ekranda her hangi bir uygulama çalışırken duvar kağıdına ne olacağı.,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.TR.xaml,
 PASS⦙221,PASS⦙221,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.TR.xaml,Please don't touch the translation in this line.
 Portal.PerformanceSettingPage.Focus,Odaklanma Modu,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.TR.xaml,
 Portal.PerformanceSettingPage.Focus.Description,Odağınızda her hangi başka bir uygulama varken duvar kağıdına ne olacağı.,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.TR.xaml,

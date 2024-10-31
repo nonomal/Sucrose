@@ -33,6 +33,6 @@
         Virtual,
         Network,
         Battery,
-        Fullscreen
+        FullScreen
     }
 }

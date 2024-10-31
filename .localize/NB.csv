@@ -1026,8 +1026,8 @@ Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NB.xaml,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NB.xaml,Portal.PerformanceSettingPage.Remote,Fjernskrivebord
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NB.xaml,Portal.PerformanceSettingPage.Remote.Description,Hvordan tapetet skal reagere når fjernskrivebordprogrammer kjører.
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NB.xaml,,
-Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NB.xaml,Portal.PerformanceSettingPage.Fullscreen,Fullskjermmode
-Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NB.xaml,Portal.PerformanceSettingPage.Fullscreen.Description,Hvordan tapetet skal reagere når en hvilken som helst annen applikasjon kjører i fullskjerm.
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NB.xaml,Portal.PerformanceSettingPage.FullScreen,Fullskjermmode
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NB.xaml,Portal.PerformanceSettingPage.FullScreen.Description,Hvordan tapetet skal reagere når en hvilken som helst annen applikasjon kjører i fullskjerm.
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NB.xaml,,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NB.xaml,Portal.PerformanceSettingPage.Focus,Fokuseringsmodus
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NB.xaml,Portal.PerformanceSettingPage.Focus.Description,Hvordan tapetet skal reagere når en annen applikasjon er i fokus.

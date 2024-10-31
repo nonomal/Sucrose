@@ -8,7 +8,7 @@ namespace Sucrose.Shared.Dependency.Manage.Manager
 {
     internal static class Backgroundog
     {
-        public static SSDEPT FullscreenPerformance => SMMI.BackgroundogSettingManager.GetSetting(SMMCB.FullscreenPerformance, SSDEPT.Resume);
+        public static SSDEPT FullScreenPerformance => SMMI.BackgroundogSettingManager.GetSetting(SMMCB.FullScreenPerformance, SSDEPT.Resume);
 
         public static SSDEPPT PausePerformanceType => SMMI.BackgroundogSettingManager.GetSetting(SMMCB.PausePerformanceType, SSDEPPT.Light);
 

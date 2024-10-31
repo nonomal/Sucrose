@@ -1026,8 +1026,8 @@ PASS⦙219,PASS⦙219,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Port
 Portal.PerformanceSettingPage.Remote,Extern bureaublad,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NL.xaml,
 Portal.PerformanceSettingPage.Remote.Description,Het effect van externe bureaubladtoepassingen op de achtergrondafbeelding.,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NL.xaml,
 PASS⦙220,PASS⦙220,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NL.xaml,Please don't touch the translation in this line.
-Portal.PerformanceSettingPage.Fullscreen,Volledig schermmodus,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NL.xaml,
-Portal.PerformanceSettingPage.Fullscreen.Description,Het effect van het uitvoeren van elke toepassing in volledig scherm op de achtergrondafbeelding.,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NL.xaml,
+Portal.PerformanceSettingPage.FullScreen,Volledig schermmodus,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NL.xaml,
+Portal.PerformanceSettingPage.FullScreen.Description,Het effect van het uitvoeren van elke toepassing in volledig scherm op de achtergrondafbeelding.,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NL.xaml,
 PASS⦙221,PASS⦙221,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NL.xaml,Please don't touch the translation in this line.
 Portal.PerformanceSettingPage.Focus,Focusmodus,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NL.xaml,
 Portal.PerformanceSettingPage.Focus.Description,Het effect van het hebben van een andere actieve toepassing in de focusmodus op de achtergrondafbeelding.,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NL.xaml,

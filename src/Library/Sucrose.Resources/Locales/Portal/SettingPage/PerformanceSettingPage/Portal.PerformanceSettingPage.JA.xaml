@@ -59,8 +59,8 @@
     <system:String x:Key="Portal.PerformanceSettingPage.Remote">リモート デスクトップ</system:String>
     <system:String x:Key="Portal.PerformanceSettingPage.Remote.Description">リモート デスクトップ アプリケーションが実行中の場合の壁紙の動作。</system:String>
 
-    <system:String x:Key="Portal.PerformanceSettingPage.Fullscreen">フルスクリーン モード</system:String>
-    <system:String x:Key="Portal.PerformanceSettingPage.Fullscreen.Description">フルスクリーン モードで他のアプリケーションが実行中の場合の壁紙の動作。</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.FullScreen">フルスクリーン モード</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.FullScreen.Description">フルスクリーン モードで他のアプリケーションが実行中の場合の壁紙の動作。</system:String>
 
     <system:String x:Key="Portal.PerformanceSettingPage.Focus">フォーカス モード</system:String>
     <system:String x:Key="Portal.PerformanceSettingPage.Focus.Description">他のアプリケーションがフォーカスされている場合の壁紙の動作。</system:String>

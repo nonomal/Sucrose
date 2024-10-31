@@ -59,8 +59,8 @@
     <system:String x:Key="Portal.PerformanceSettingPage.Remote">Fjernskrivebord</system:String>
     <system:String x:Key="Portal.PerformanceSettingPage.Remote.Description">Hvad der skal ske med tapetet, når fjernskrivebordsapplikationer kører.</system:String>
 
-    <system:String x:Key="Portal.PerformanceSettingPage.Fullscreen">Fuldskærmsmodus</system:String>
-    <system:String x:Key="Portal.PerformanceSettingPage.Fullscreen.Description">Hvad der skal ske med tapetet, når enhver anden applikation kører i fuldskærmstilstand.</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.FullScreen">Fuldskærmsmodus</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.FullScreen.Description">Hvad der skal ske med tapetet, når enhver anden applikation kører i fuldskærmstilstand.</system:String>
 
     <system:String x:Key="Portal.PerformanceSettingPage.Focus">Fokustilstand</system:String>
     <system:String x:Key="Portal.PerformanceSettingPage.Focus.Description">Hvad der skal ske med tapetet, når der er en anden applikation i fokus.</system:String>

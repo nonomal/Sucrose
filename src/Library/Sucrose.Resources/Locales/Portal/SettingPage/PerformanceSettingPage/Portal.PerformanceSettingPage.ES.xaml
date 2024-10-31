@@ -59,8 +59,8 @@
     <system:String x:Key="Portal.PerformanceSettingPage.Remote">Escritorio Remoto</system:String>
     <system:String x:Key="Portal.PerformanceSettingPage.Remote.Description">Qué sucede con el fondo de pantalla cuando se ejecutan aplicaciones de escritorio remoto.</system:String>
 
-    <system:String x:Key="Portal.PerformanceSettingPage.Fullscreen">Modo Pantalla Completa</system:String>
-    <system:String x:Key="Portal.PerformanceSettingPage.Fullscreen.Description">Qué sucede con el fondo de pantalla cuando se ejecuta cualquier aplicación en modo de pantalla completa.</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.FullScreen">Modo Pantalla Completa</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.FullScreen.Description">Qué sucede con el fondo de pantalla cuando se ejecuta cualquier aplicación en modo de pantalla completa.</system:String>
 
     <system:String x:Key="Portal.PerformanceSettingPage.Focus">Modo de Enfoque</system:String>
     <system:String x:Key="Portal.PerformanceSettingPage.Focus.Description">Qué sucede con el fondo de pantalla cuando otra aplicación tiene el enfoque.</system:String>

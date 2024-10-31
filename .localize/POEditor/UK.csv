@@ -1026,8 +1026,8 @@ PASS⦙219,PASS⦙219,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Port
 Portal.PerformanceSettingPage.Remote,Віддалений робочий стіл,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.UK.xaml,
 Portal.PerformanceSettingPage.Remote.Description,Як робочий стіл віддаленої системи впливає на робочий стіл.,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.UK.xaml,
 PASS⦙220,PASS⦙220,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.UK.xaml,Please don't touch the translation in this line.
-Portal.PerformanceSettingPage.Fullscreen,Повноекранний режим,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.UK.xaml,
-Portal.PerformanceSettingPage.Fullscreen.Description,Як робочий стіл повноекранної програми впливає на робочий стіл.,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.UK.xaml,
+Portal.PerformanceSettingPage.FullScreen,Повноекранний режим,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.UK.xaml,
+Portal.PerformanceSettingPage.FullScreen.Description,Як робочий стіл повноекранної програми впливає на робочий стіл.,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.UK.xaml,
 PASS⦙221,PASS⦙221,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.UK.xaml,Please don't touch the translation in this line.
 Portal.PerformanceSettingPage.Focus,Режим фокусування,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.UK.xaml,
 Portal.PerformanceSettingPage.Focus.Description,Як робочий стіл відображається під час наявності активної програми.,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.UK.xaml,

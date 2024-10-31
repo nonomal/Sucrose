@@ -38,7 +38,7 @@ namespace Sucrose.Backgroundog.Manage
 
         public static bool Processing = true;
 
-        public static bool Fullscreen = false;
+        public static bool FullScreen = false;
 
         public static SBHI Initialize = new();
 
@@ -88,7 +88,7 @@ namespace Sucrose.Backgroundog.Manage
 
         public static bool EqualizerManagement = true;
 
-        public static bool FullscreenManagement = true;
+        public static bool FullScreenManagement = true;
 
         public static bool VirtualityManagement = true;
 

@@ -59,8 +59,8 @@
     <system:String x:Key="Portal.PerformanceSettingPage.Remote">Desktop Remote</system:String>
     <system:String x:Key="Portal.PerformanceSettingPage.Remote.Description">Apa yang terjadi pada wallpaper saat aplikasi desktop remote berjalan.</system:String>
 
-    <system:String x:Key="Portal.PerformanceSettingPage.Fullscreen">Mode Layar Penuh</system:String>
-    <system:String x:Key="Portal.PerformanceSettingPage.Fullscreen.Description">Apa yang terjadi pada wallpaper saat aplikasi apa pun berjalan dalam mode layar penuh.</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.FullScreen">Mode Layar Penuh</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.FullScreen.Description">Apa yang terjadi pada wallpaper saat aplikasi apa pun berjalan dalam mode layar penuh.</system:String>
 
     <system:String x:Key="Portal.PerformanceSettingPage.Focus">Mode Fokus</system:String>
     <system:String x:Key="Portal.PerformanceSettingPage.Focus.Description">Apa yang terjadi pada wallpaper saat ada aplikasi lain yang sedang difokuskan.</system:String>

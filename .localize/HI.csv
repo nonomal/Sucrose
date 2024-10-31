@@ -1026,8 +1026,8 @@ Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.HI.xaml,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.HI.xaml,Portal.PerformanceSettingPage.Remote,दूरस्थ डेस्कटॉप
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.HI.xaml,Portal.PerformanceSettingPage.Remote.Description,दूरस्थ डेस्कटॉप एप्लिकेशन चलते समय वॉलपेपर पर क्या होने वाला है।
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.HI.xaml,,
-Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.HI.xaml,Portal.PerformanceSettingPage.Fullscreen,पूर्णस्क्रीन मोड
-Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.HI.xaml,Portal.PerformanceSettingPage.Fullscreen.Description,किसी भी ऐप्लिकेशन को पूर्णस्क्रीन मोड में चलते समय वॉलपेपर पर क्या होने वाला है।
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.HI.xaml,Portal.PerformanceSettingPage.FullScreen,पूर्णस्क्रीन मोड
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.HI.xaml,Portal.PerformanceSettingPage.FullScreen.Description,किसी भी ऐप्लिकेशन को पूर्णस्क्रीन मोड में चलते समय वॉलपेपर पर क्या होने वाला है।
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.HI.xaml,,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.HI.xaml,Portal.PerformanceSettingPage.Focus,फोकस मोड
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.HI.xaml,Portal.PerformanceSettingPage.Focus.Description,किसी अन्य एप्लिकेशन पर ध्यान केंद्रित करते समय वॉलपेपर पर क्या होने वाला है।

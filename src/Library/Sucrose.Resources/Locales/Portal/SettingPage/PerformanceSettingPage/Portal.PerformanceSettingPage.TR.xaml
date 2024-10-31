@@ -59,8 +59,8 @@
     <system:String x:Key="Portal.PerformanceSettingPage.Remote">Uzak Masaüstü</system:String>
     <system:String x:Key="Portal.PerformanceSettingPage.Remote.Description">Uzak masaüstü uygulamaları çalışırken duvar kağıdına ne olacağı.</system:String>
 
-    <system:String x:Key="Portal.PerformanceSettingPage.Fullscreen">Tam Ekran Modu</system:String>
-    <system:String x:Key="Portal.PerformanceSettingPage.Fullscreen.Description">Tam ekranda her hangi bir uygulama çalışırken duvar kağıdına ne olacağı.</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.FullScreen">Tam Ekran Modu</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.FullScreen.Description">Tam ekranda her hangi bir uygulama çalışırken duvar kağıdına ne olacağı.</system:String>
 
     <system:String x:Key="Portal.PerformanceSettingPage.Focus">Odaklanma Modu</system:String>
     <system:String x:Key="Portal.PerformanceSettingPage.Focus.Description">Odağınızda her hangi başka bir uygulama varken duvar kağıdına ne olacağı.</system:String>

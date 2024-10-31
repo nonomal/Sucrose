@@ -1026,8 +1026,8 @@ PASS⦙219,PASS⦙219,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Port
 Portal.PerformanceSettingPage.Remote,Desktop Remote,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ID.xaml,
 Portal.PerformanceSettingPage.Remote.Description,Apa yang terjadi pada wallpaper saat aplikasi desktop remote berjalan.,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ID.xaml,
 PASS⦙220,PASS⦙220,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ID.xaml,Please don't touch the translation in this line.
-Portal.PerformanceSettingPage.Fullscreen,Mode Layar Penuh,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ID.xaml,
-Portal.PerformanceSettingPage.Fullscreen.Description,Apa yang terjadi pada wallpaper saat aplikasi apa pun berjalan dalam mode layar penuh.,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ID.xaml,
+Portal.PerformanceSettingPage.FullScreen,Mode Layar Penuh,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ID.xaml,
+Portal.PerformanceSettingPage.FullScreen.Description,Apa yang terjadi pada wallpaper saat aplikasi apa pun berjalan dalam mode layar penuh.,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ID.xaml,
 PASS⦙221,PASS⦙221,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ID.xaml,Please don't touch the translation in this line.
 Portal.PerformanceSettingPage.Focus,Mode Fokus,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ID.xaml,
 Portal.PerformanceSettingPage.Focus.Description,Apa yang terjadi pada wallpaper saat ada aplikasi lain yang sedang difokuskan.,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ID.xaml,

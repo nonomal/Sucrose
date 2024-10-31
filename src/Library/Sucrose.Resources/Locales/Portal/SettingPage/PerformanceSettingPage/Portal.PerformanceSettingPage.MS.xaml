@@ -59,8 +59,8 @@
     <system:String x:Key="Portal.PerformanceSettingPage.Remote">Desktop Jarak Jauh</system:String>
     <system:String x:Key="Portal.PerformanceSettingPage.Remote.Description">Apa yang akan berlaku pada dinding semasa aplikasi desktop jarak jauh berjalan.</system:String>
 
-    <system:String x:Key="Portal.PerformanceSettingPage.Fullscreen">Mod Pantas Layar Penuh</system:String>
-    <system:String x:Key="Portal.PerformanceSettingPage.Fullscreen.Description">Apa yang akan berlaku pada dinding semasa aplikasi berjalan dalam mod layar penuh.</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.FullScreen">Mod Pantas Layar Penuh</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.FullScreen.Description">Apa yang akan berlaku pada dinding semasa aplikasi berjalan dalam mod layar penuh.</system:String>
 
     <system:String x:Key="Portal.PerformanceSettingPage.Focus">Mod Fokus</system:String>
     <system:String x:Key="Portal.PerformanceSettingPage.Focus.Description">Apa yang akan berlaku pada dinding semasa aplikasi lain berada dalam fokus.</system:String>

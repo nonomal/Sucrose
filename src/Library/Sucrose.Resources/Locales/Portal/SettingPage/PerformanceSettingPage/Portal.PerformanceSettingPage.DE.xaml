@@ -59,8 +59,8 @@
     <system:String x:Key="Portal.PerformanceSettingPage.Remote">Remote Desktop</system:String>
     <system:String x:Key="Portal.PerformanceSettingPage.Remote.Description">Was mit dem Hintergrundbild passiert, wenn Remote-Desktop-Anwendungen ausgeführt werden.</system:String>
 
-    <system:String x:Key="Portal.PerformanceSettingPage.Fullscreen">Vollbildmodus</system:String>
-    <system:String x:Key="Portal.PerformanceSettingPage.Fullscreen.Description">Was mit dem Hintergrundbild passiert, wenn eine Anwendung im Vollbildmodus läuft.</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.FullScreen">Vollbildmodus</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.FullScreen.Description">Was mit dem Hintergrundbild passiert, wenn eine Anwendung im Vollbildmodus läuft.</system:String>
 
     <system:String x:Key="Portal.PerformanceSettingPage.Focus">Fokusmodus</system:String>
     <system:String x:Key="Portal.PerformanceSettingPage.Focus.Description">Was mit dem Hintergrundbild passiert, wenn eine andere Anwendung im Vordergrund steht.</system:String>

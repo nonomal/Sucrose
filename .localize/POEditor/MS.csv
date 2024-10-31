@@ -1026,8 +1026,8 @@ PASS⦙219,PASS⦙219,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Port
 Portal.PerformanceSettingPage.Remote,Desktop Jarak Jauh,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.MS.xaml,
 Portal.PerformanceSettingPage.Remote.Description,Apa yang akan berlaku pada dinding semasa aplikasi desktop jarak jauh berjalan.,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.MS.xaml,
 PASS⦙220,PASS⦙220,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.MS.xaml,Please don't touch the translation in this line.
-Portal.PerformanceSettingPage.Fullscreen,Mod Pantas Layar Penuh,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.MS.xaml,
-Portal.PerformanceSettingPage.Fullscreen.Description,Apa yang akan berlaku pada dinding semasa aplikasi berjalan dalam mod layar penuh.,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.MS.xaml,
+Portal.PerformanceSettingPage.FullScreen,Mod Pantas Layar Penuh,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.MS.xaml,
+Portal.PerformanceSettingPage.FullScreen.Description,Apa yang akan berlaku pada dinding semasa aplikasi berjalan dalam mod layar penuh.,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.MS.xaml,
 PASS⦙221,PASS⦙221,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.MS.xaml,Please don't touch the translation in this line.
 Portal.PerformanceSettingPage.Focus,Mod Fokus,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.MS.xaml,
 Portal.PerformanceSettingPage.Focus.Description,Apa yang akan berlaku pada dinding semasa aplikasi lain berada dalam fokus.,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.MS.xaml,

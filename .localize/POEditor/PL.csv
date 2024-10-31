@@ -1026,8 +1026,8 @@ PASS⦙219,PASS⦙219,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Port
 Portal.PerformanceSettingPage.Remote,Pulpit Zdalny,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.PL.xaml,
 Portal.PerformanceSettingPage.Remote.Description,Co dzieje się z tapetą podczas działania aplikacji pulpitu zdalnego.,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.PL.xaml,
 PASS⦙220,PASS⦙220,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.PL.xaml,Please don't touch the translation in this line.
-Portal.PerformanceSettingPage.Fullscreen,Tryb Pełnoekranowy,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.PL.xaml,
-Portal.PerformanceSettingPage.Fullscreen.Description,"Co dzieje się z tapetą, gdy dowolna aplikacja działa w trybie pełnoekranowym.",,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.PL.xaml,
+Portal.PerformanceSettingPage.FullScreen,Tryb Pełnoekranowy,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.PL.xaml,
+Portal.PerformanceSettingPage.FullScreen.Description,"Co dzieje się z tapetą, gdy dowolna aplikacja działa w trybie pełnoekranowym.",,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.PL.xaml,
 PASS⦙221,PASS⦙221,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.PL.xaml,Please don't touch the translation in this line.
 Portal.PerformanceSettingPage.Focus,Tryb Skupienia,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.PL.xaml,
 Portal.PerformanceSettingPage.Focus.Description,"Co dzieje się z tapetą, gdy inna aplikacja ma pierwszy plan.",,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.PL.xaml,

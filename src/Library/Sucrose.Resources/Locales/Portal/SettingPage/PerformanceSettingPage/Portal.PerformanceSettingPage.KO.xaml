@@ -59,8 +59,8 @@
     <system:String x:Key="Portal.PerformanceSettingPage.Remote">원격 데스크톱</system:String>
     <system:String x:Key="Portal.PerformanceSettingPage.Remote.Description">원격 데스크톱 응용 프로그램이 실행되는 동안 배경화면이 어떻게 작동할지.</system:String>
 
-    <system:String x:Key="Portal.PerformanceSettingPage.Fullscreen">전체 화면 모드</system:String>
-    <system:String x:Key="Portal.PerformanceSettingPage.Fullscreen.Description">전체 화면에서 다른 어떤 애플리케이션이 실행 중일 때 배경화면이 어떻게 작동할지.</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.FullScreen">전체 화면 모드</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.FullScreen.Description">전체 화면에서 다른 어떤 애플리케이션이 실행 중일 때 배경화면이 어떻게 작동할지.</system:String>
 
     <system:String x:Key="Portal.PerformanceSettingPage.Focus">포커스 모드</system:String>
     <system:String x:Key="Portal.PerformanceSettingPage.Focus.Description">다른 어플리케이션이 활성화되어 있는 동안 배경화면 행동에 대한 설정입니다.</system:String>

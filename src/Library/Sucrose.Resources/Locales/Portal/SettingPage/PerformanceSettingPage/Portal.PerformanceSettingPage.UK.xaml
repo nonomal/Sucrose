@@ -59,8 +59,8 @@
     <system:String x:Key="Portal.PerformanceSettingPage.Remote">Віддалений робочий стіл</system:String>
     <system:String x:Key="Portal.PerformanceSettingPage.Remote.Description">Як робочий стіл віддаленої системи впливає на робочий стіл.</system:String>
 
-    <system:String x:Key="Portal.PerformanceSettingPage.Fullscreen">Повноекранний режим</system:String>
-    <system:String x:Key="Portal.PerformanceSettingPage.Fullscreen.Description">Як робочий стіл повноекранної програми впливає на робочий стіл.</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.FullScreen">Повноекранний режим</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.FullScreen.Description">Як робочий стіл повноекранної програми впливає на робочий стіл.</system:String>
 
     <system:String x:Key="Portal.PerformanceSettingPage.Focus">Режим фокусування</system:String>
     <system:String x:Key="Portal.PerformanceSettingPage.Focus.Description">Як робочий стіл відображається під час наявності активної програми.</system:String>

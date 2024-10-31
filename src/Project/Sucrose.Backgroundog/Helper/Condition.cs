@@ -82,7 +82,7 @@ namespace Sucrose.Backgroundog.Helper
                     return;
                 }
 
-                if (await FullscreenCondition())
+                if (await FullScreenCondition())
                 {
                     return;
                 }
@@ -482,14 +482,14 @@ namespace Sucrose.Backgroundog.Helper
             return false;
         }
 
-        private static async Task<bool> FullscreenCondition()
+        private static async Task<bool> FullScreenCondition()
         {
-            if (SBMI.CategoryPerformance == SSDECPT.Fullscreen)
+            if (SBMI.CategoryPerformance == SSDECPT.FullScreen)
             {
                 int Count = 0;
                 int MaxCount = 3;
 
-                while (!SBMI.Fullscreen || SSDMMB.FullscreenPerformance == SSDEPT.Resume)
+                while (!SBMI.FullScreen || SSDMMB.FullScreenPerformance == SSDEPT.Resume)
                 {
                     if (Count >= MaxCount)
                     {

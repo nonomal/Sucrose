@@ -772,30 +772,30 @@ namespace Sucrose.Portal.ViewModels.Pages
 
             Contents.Add(Remote);
 
-            SPVCEC Fullscreen = new()
+            SPVCEC FullScreen = new()
             {
                 Margin = new Thickness(0, 10, 0, 0),
                 Expandable = false
             };
 
-            Fullscreen.LeftIcon.Symbol = SymbolRegular.FullScreenMaximize24;
-            Fullscreen.Title.Text = SRER.GetValue("Portal", "PerformanceSettingPage", "Fullscreen");
-            Fullscreen.Description.Text = SRER.GetValue("Portal", "PerformanceSettingPage", "Fullscreen", "Description");
+            FullScreen.LeftIcon.Symbol = SymbolRegular.FullScreenMaximize24;
+            FullScreen.Title.Text = SRER.GetValue("Portal", "PerformanceSettingPage", "FullScreen");
+            FullScreen.Description.Text = SRER.GetValue("Portal", "PerformanceSettingPage", "FullScreen", "Description");
 
-            ComboBox FullscreenPerformance = new();
+            ComboBox FullScreenPerformance = new();
 
-            FullscreenPerformance.SelectionChanged += (s, e) => FullscreenPerformanceSelected(FullscreenPerformance.SelectedIndex);
+            FullScreenPerformance.SelectionChanged += (s, e) => FullScreenPerformanceSelected(FullScreenPerformance.SelectedIndex);
 
             foreach (SSDEPT Type in Enum.GetValues(typeof(SSDEPT)))
             {
-                FullscreenPerformance.Items.Add(SRER.GetValue("Portal", "Enum", "PerformanceType", $"{Type}"));
+                FullScreenPerformance.Items.Add(SRER.GetValue("Portal", "Enum", "PerformanceType", $"{Type}"));
             }
 
-            FullscreenPerformance.SelectedIndex = (int)SSDMMB.FullscreenPerformance;
+            FullScreenPerformance.SelectedIndex = (int)SSDMMB.FullScreenPerformance;
 
-            Fullscreen.HeaderFrame = FullscreenPerformance;
+            FullScreen.HeaderFrame = FullScreenPerformance;
 
-            Contents.Add(Fullscreen);
+            Contents.Add(FullScreen);
 
             SPVCEC Focus = new()
             {
@@ -1087,13 +1087,13 @@ namespace Sucrose.Portal.ViewModels.Pages
             }
         }
 
-        private void FullscreenPerformanceSelected(int Index)
+        private void FullScreenPerformanceSelected(int Index)
         {
-            if (Index != (int)SSDMMB.FullscreenPerformance)
+            if (Index != (int)SSDMMB.FullScreenPerformance)
             {
                 SSDEPT Type = (SSDEPT)Index;
 
-                SMMI.BackgroundogSettingManager.SetSetting(SMMCB.FullscreenPerformance, Type);
+                SMMI.BackgroundogSettingManager.SetSetting(SMMCB.FullScreenPerformance, Type);
             }
         }
 

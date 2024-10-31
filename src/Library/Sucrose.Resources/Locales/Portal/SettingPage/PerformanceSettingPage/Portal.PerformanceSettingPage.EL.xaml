@@ -59,8 +59,8 @@
     <system:String x:Key="Portal.PerformanceSettingPage.Remote">Απομακρυσμένη Γραφική Διεπαφή</system:String>
     <system:String x:Key="Portal.PerformanceSettingPage.Remote.Description">Πώς θα επηρεάσει η ρύθμιση της απομακρυσμένης γραφικής διεπαφής το ταπετσαρία όταν είναι ενεργοποιημένη.</system:String>
 
-    <system:String x:Key="Portal.PerformanceSettingPage.Fullscreen">Λειτουργία Πλήρης Οθόνης</system:String>
-    <system:String x:Key="Portal.PerformanceSettingPage.Fullscreen.Description">Πώς θα επηρεάσει η ρύθμιση της λειτουργίας πλήρης οθόνης το ταπετσαρία όταν είναι ενεργοποιημένη.</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.FullScreen">Λειτουργία Πλήρης Οθόνης</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.FullScreen.Description">Πώς θα επηρεάσει η ρύθμιση της λειτουργίας πλήρης οθόνης το ταπετσαρία όταν είναι ενεργοποιημένη.</system:String>
 
     <system:String x:Key="Portal.PerformanceSettingPage.Focus">Λειτουργία Εστίασης</system:String>
     <system:String x:Key="Portal.PerformanceSettingPage.Focus.Description">Πώς θα επηρεάσει η ρύθμιση της λειτουργίας εστίασης το ταπετσαρία όταν υπάρχει εστίαση σε κάποια άλλη εφαρμογή.</system:String>

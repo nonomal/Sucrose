@@ -59,8 +59,8 @@
     <system:String x:Key="Portal.PerformanceSettingPage.Remote">Remote Desktop</system:String>
     <system:String x:Key="Portal.PerformanceSettingPage.Remote.Description">What happens to the wallpaper when remote desktop applications are running.</system:String>
 
-    <system:String x:Key="Portal.PerformanceSettingPage.Fullscreen">Full Screen Mode</system:String>
-    <system:String x:Key="Portal.PerformanceSettingPage.Fullscreen.Description">What happens to the wallpaper when any application is running in full screen mode.</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.FullScreen">Full Screen Mode</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.FullScreen.Description">What happens to the wallpaper when any application is running in full screen mode.</system:String>
 
     <system:String x:Key="Portal.PerformanceSettingPage.Focus">Focus Mode</system:String>
     <system:String x:Key="Portal.PerformanceSettingPage.Focus.Description">What happens to the wallpaper when another application has focus.</system:String>

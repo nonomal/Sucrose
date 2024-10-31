@@ -59,8 +59,8 @@
     <system:String x:Key="Portal.PerformanceSettingPage.Remote">Desktop la Distanță</system:String>
     <system:String x:Key="Portal.PerformanceSettingPage.Remote.Description">Ce se întâmplă cu fundalul temei dvs. atunci când se utilizează aplicații pentru desktop la distanță.</system:String>
 
-    <system:String x:Key="Portal.PerformanceSettingPage.Fullscreen">Mod Ecran Complet</system:String>
-    <system:String x:Key="Portal.PerformanceSettingPage.Fullscreen.Description">Ce se întâmplă cu fundalul temei dvs. atunci când se utilizează aplicații în modul ecran complet.</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.FullScreen">Mod Ecran Complet</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.FullScreen.Description">Ce se întâmplă cu fundalul temei dvs. atunci când se utilizează aplicații în modul ecran complet.</system:String>
 
     <system:String x:Key="Portal.PerformanceSettingPage.Focus">Mod Focus</system:String>
     <system:String x:Key="Portal.PerformanceSettingPage.Focus.Description">Ce se întâmplă cu fundalul temei dvs. atunci când există alte aplicații în prim-plan.</system:String>

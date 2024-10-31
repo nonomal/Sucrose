@@ -206,7 +206,7 @@ namespace Sucrose.Reportdog.Helper
                             NetworkAdapters = string.Join(",", SSSHU.GetNetwork()),
                             VolumeSilentSensitivity = SMME.VolumeSilentSensitivity,
                             DeviceProcessors = string.Join(",", SSSHU.GetProcessor()),
-                            FullscreenPerformance = $"{SSDMMB.FullscreenPerformance}",
+                            FullScreenPerformance = $"{SSDMMB.FullScreenPerformance}",
                             ProcessArchitecture = SSCHOS.GetProcessArchitectureText(),
                             ProcessorArchitecture = SSCHOS.GetProcessorArchitecture(),
                             OperatingSystemArchitecture = SWHSI.GetSystemInfoArchitecture()
