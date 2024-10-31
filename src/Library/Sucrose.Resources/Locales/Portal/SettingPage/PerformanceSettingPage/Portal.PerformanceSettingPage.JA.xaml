@@ -45,6 +45,21 @@
 
     <system:String x:Key="Portal.PerformanceSettingPage.Network.NetworkPing">Ping 値 (ミリ秒):</system:String>
 
+    <system:String x:Key="Portal.PerformanceSettingPage.Lock">セッションロック</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.Lock.Description">セッションがロックされているときに壁紙に何が起こるか。</system:String>
+
+    <system:String x:Key="Portal.PerformanceSettingPage.Sleep">スリープモード</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.Sleep.Description">システムがスリープモードのときに壁紙に何が起こるか。</system:String>
+
+    <system:String x:Key="Portal.PerformanceSettingPage.Console">ユーザー切り替え</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.Console.Description">ユーザーが切り替えられたときに壁紙に何が起こるか。</system:String>
+
+    <system:String x:Key="Portal.PerformanceSettingPage.Session">ログアウト</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.Session.Description">セッションが閉じられたときに壁紙に何が起こるか。</system:String>
+
+    <system:String x:Key="Portal.PerformanceSettingPage.ScreenSaver">スクリーンセーバー</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.ScreenSaver.Description">スクリーンセーバーが起動したときに壁紙に何が起こるか。</system:String>
+
     <system:String x:Key="Portal.PerformanceSettingPage.Battery">バッテリー</system:String>
     <system:String x:Key="Portal.PerformanceSettingPage.Battery.Description">ノートパソコンのバッテリー使用中に壁紙の動作。</system:String>
 

@@ -1014,6 +1014,21 @@ Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RU.xaml,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RU.xaml,,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RU.xaml,Portal.PerformanceSettingPage.Network.NetworkPing,Задержка (мс):
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RU.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RU.xaml,Portal.PerformanceSettingPage.Lock,Блокировка Сеанса
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RU.xaml,Portal.PerformanceSettingPage.Lock.Description,"Что происходит с обоями, когда сеанс заблокирован."
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RU.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RU.xaml,Portal.PerformanceSettingPage.Sleep,Режим Сна
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RU.xaml,Portal.PerformanceSettingPage.Sleep.Description,"Что происходит с обоями, когда система находится в режиме сна."
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RU.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RU.xaml,Portal.PerformanceSettingPage.Console,Смена Пользователя
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RU.xaml,Portal.PerformanceSettingPage.Console.Description,"Что происходит с обоями, когда пользователь меняется."
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RU.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RU.xaml,Portal.PerformanceSettingPage.Session,Выход из Сеанса
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RU.xaml,Portal.PerformanceSettingPage.Session.Description,"Что происходит с обоями, когда сеанс завершается."
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RU.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RU.xaml,Portal.PerformanceSettingPage.ScreenSaver,Заставка
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RU.xaml,Portal.PerformanceSettingPage.ScreenSaver.Description,"Что происходит с обоями, когда запускается заставка."
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RU.xaml,,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RU.xaml,Portal.PerformanceSettingPage.Battery,Заряд батареи
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RU.xaml,Portal.PerformanceSettingPage.Battery.Description,Определяет влияние состояния заряда батареи ноутбука на обои.
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RU.xaml,,

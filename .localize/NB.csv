@@ -1014,6 +1014,21 @@ Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NB.xaml,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NB.xaml,,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NB.xaml,Portal.PerformanceSettingPage.Network.NetworkPing,Ping-verdi (ms):
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NB.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NB.xaml,Portal.PerformanceSettingPage.Lock,Øktlås
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NB.xaml,Portal.PerformanceSettingPage.Lock.Description,Hva som skjer med bakgrunnen når økten er låst.
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NB.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NB.xaml,Portal.PerformanceSettingPage.Sleep,Hvilemodus
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NB.xaml,Portal.PerformanceSettingPage.Sleep.Description,Hva som skjer med bakgrunnen når systemet er i hvilemodus.
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NB.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NB.xaml,Portal.PerformanceSettingPage.Console,Brukerbytte
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NB.xaml,Portal.PerformanceSettingPage.Console.Description,Hva som skjer med bakgrunnen når brukeren byttes.
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NB.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NB.xaml,Portal.PerformanceSettingPage.Session,Logg Ut
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NB.xaml,Portal.PerformanceSettingPage.Session.Description,Hva som skjer med bakgrunnen når økten avsluttes.
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NB.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NB.xaml,Portal.PerformanceSettingPage.ScreenSaver,Skjermbeskytter
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NB.xaml,Portal.PerformanceSettingPage.ScreenSaver.Description,Hva som skjer med bakgrunnen når skjermbeskytteren starter.
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NB.xaml,,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NB.xaml,Portal.PerformanceSettingPage.Battery,Batteristrøm
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NB.xaml,Portal.PerformanceSettingPage.Battery.Description,Hvordan tapetet skal reagere når du bruker batteristrøm på en bærbar datamaskin.
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NB.xaml,,

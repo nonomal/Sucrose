@@ -45,6 +45,21 @@
 
     <system:String x:Key="Portal.PerformanceSettingPage.Network.NetworkPing">Значення Ping (мс):</system:String>
 
+    <system:String x:Key="Portal.PerformanceSettingPage.Lock">Блокування Сеансу</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.Lock.Description">Що відбувається з фоном, коли сеанс заблоковано.</system:String>
+
+    <system:String x:Key="Portal.PerformanceSettingPage.Sleep">Режим Сну</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.Sleep.Description">Що відбувається з фоном, коли система у режимі сну.</system:String>
+
+    <system:String x:Key="Portal.PerformanceSettingPage.Console">Зміна Користувача</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.Console.Description">Що відбувається з фоном, коли користувача змінено.</system:String>
+
+    <system:String x:Key="Portal.PerformanceSettingPage.Session">Вихід із Сеансу</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.Session.Description">Що відбувається з фоном, коли сеанс закрито.</system:String>
+
+    <system:String x:Key="Portal.PerformanceSettingPage.ScreenSaver">Заставка</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.ScreenSaver.Description">Що відбувається з фоном, коли запускається заставка.</system:String>
+
     <system:String x:Key="Portal.PerformanceSettingPage.Battery">Заряд батареї</system:String>
     <system:String x:Key="Portal.PerformanceSettingPage.Battery.Description">Як використання батареї впливає на робочий стіл.</system:String>
 

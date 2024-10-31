@@ -1014,6 +1014,21 @@ Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.DA.xaml,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.DA.xaml,,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.DA.xaml,Portal.PerformanceSettingPage.Network.NetworkPing,Ping-værdi (ms):
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.DA.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.DA.xaml,Portal.PerformanceSettingPage.Lock,Sessionslås
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.DA.xaml,Portal.PerformanceSettingPage.Lock.Description,"Hvad der sker med baggrunden, når sessionen er låst."
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.DA.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.DA.xaml,Portal.PerformanceSettingPage.Sleep,Dvaletilstand
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.DA.xaml,Portal.PerformanceSettingPage.Sleep.Description,"Hvad der sker med baggrunden, når systemet er i dvaletilstand."
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.DA.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.DA.xaml,Portal.PerformanceSettingPage.Console,Brugerskift
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.DA.xaml,Portal.PerformanceSettingPage.Console.Description,"Hvad der sker med baggrunden, når brugeren skiftes."
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.DA.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.DA.xaml,Portal.PerformanceSettingPage.Session,Log Ud
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.DA.xaml,Portal.PerformanceSettingPage.Session.Description,"Hvad der sker med baggrunden, når sessionen afsluttes."
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.DA.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.DA.xaml,Portal.PerformanceSettingPage.ScreenSaver,Skærmbesparer
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.DA.xaml,Portal.PerformanceSettingPage.ScreenSaver.Description,"Hvad der sker med baggrunden, når skærmbespareren starter."
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.DA.xaml,,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.DA.xaml,Portal.PerformanceSettingPage.Battery,Batteristrøm
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.DA.xaml,Portal.PerformanceSettingPage.Battery.Description,"Hvad der skal ske med tapetet, når du bruger en bærbar computer på batteri."
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.DA.xaml,,

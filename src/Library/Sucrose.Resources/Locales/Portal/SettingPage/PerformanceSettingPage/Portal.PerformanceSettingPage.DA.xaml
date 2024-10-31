@@ -45,6 +45,21 @@
 
     <system:String x:Key="Portal.PerformanceSettingPage.Network.NetworkPing">Ping-værdi (ms):</system:String>
 
+    <system:String x:Key="Portal.PerformanceSettingPage.Lock">Sessionslås</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.Lock.Description">Hvad der sker med baggrunden, når sessionen er låst.</system:String>
+
+    <system:String x:Key="Portal.PerformanceSettingPage.Sleep">Dvaletilstand</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.Sleep.Description">Hvad der sker med baggrunden, når systemet er i dvaletilstand.</system:String>
+
+    <system:String x:Key="Portal.PerformanceSettingPage.Console">Brugerskift</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.Console.Description">Hvad der sker med baggrunden, når brugeren skiftes.</system:String>
+
+    <system:String x:Key="Portal.PerformanceSettingPage.Session">Log Ud</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.Session.Description">Hvad der sker med baggrunden, når sessionen afsluttes.</system:String>
+
+    <system:String x:Key="Portal.PerformanceSettingPage.ScreenSaver">Skærmbesparer</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.ScreenSaver.Description">Hvad der sker med baggrunden, når skærmbespareren starter.</system:String>
+
     <system:String x:Key="Portal.PerformanceSettingPage.Battery">Batteristrøm</system:String>
     <system:String x:Key="Portal.PerformanceSettingPage.Battery.Description">Hvad der skal ske med tapetet, når du bruger en bærbar computer på batteri.</system:String>
 

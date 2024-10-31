@@ -45,6 +45,21 @@
 
     <system:String x:Key="Portal.PerformanceSettingPage.Network.NetworkPing">Ping Değeri (MS):</system:String>
 
+    <system:String x:Key="Portal.PerformanceSettingPage.Lock">Oturum Kilidi</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.Lock.Description">Oturum kilitlendiğinde duvar kağıdına ne olacağı.</system:String>
+
+    <system:String x:Key="Portal.PerformanceSettingPage.Sleep">Uyku Modu</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.Sleep.Description">Sistem uyku modundayken duvar kağıdına ne olacağı.</system:String>
+
+    <system:String x:Key="Portal.PerformanceSettingPage.Console">Kullanıcı Değiştirme</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.Console.Description">Kullanıcı değiştirildiğinde duvar kağıdına ne olacağı.</system:String>
+
+    <system:String x:Key="Portal.PerformanceSettingPage.Session">Oturum Kapatma</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.Session.Description">Oturum kapatıldığında duvar kağıdına ne olacağı.</system:String>
+
+    <system:String x:Key="Portal.PerformanceSettingPage.ScreenSaver">Ekran Koruyucu</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.ScreenSaver.Description">Ekran koruyucu başlatıldığında duvar kağıdına ne olacağı.</system:String>
+
     <system:String x:Key="Portal.PerformanceSettingPage.Battery">Pil Gücü</system:String>
     <system:String x:Key="Portal.PerformanceSettingPage.Battery.Description">Dizüstü bilgisayar pil gücünde çalışırken duvar kağıdına ne olacağı.</system:String>
 

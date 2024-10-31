@@ -1014,6 +1014,21 @@ Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.MS.xaml,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.MS.xaml,,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.MS.xaml,Portal.PerformanceSettingPage.Network.NetworkPing,Nilai Ping (MS):
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.MS.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.MS.xaml,Portal.PerformanceSettingPage.Lock,Kunci Sesi
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.MS.xaml,Portal.PerformanceSettingPage.Lock.Description,Apa yang akan terjadi pada latar belakang apabila sesi dikunci.
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.MS.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.MS.xaml,Portal.PerformanceSettingPage.Sleep,Mod Tidur
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.MS.xaml,Portal.PerformanceSettingPage.Sleep.Description,Apa yang akan terjadi pada latar belakang apabila sistem dalam mod tidur.
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.MS.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.MS.xaml,Portal.PerformanceSettingPage.Console,Tukar Pengguna
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.MS.xaml,Portal.PerformanceSettingPage.Console.Description,Apa yang akan terjadi pada latar belakang apabila pengguna ditukar.
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.MS.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.MS.xaml,Portal.PerformanceSettingPage.Session,Log Keluar
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.MS.xaml,Portal.PerformanceSettingPage.Session.Description,Apa yang akan terjadi pada latar belakang apabila sesi ditutup.
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.MS.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.MS.xaml,Portal.PerformanceSettingPage.ScreenSaver,Pengelak Skrin
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.MS.xaml,Portal.PerformanceSettingPage.ScreenSaver.Description,Apa yang akan terjadi pada latar belakang apabila pengelak skrin dimulakan.
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.MS.xaml,,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.MS.xaml,Portal.PerformanceSettingPage.Battery,Kegunaan Bateri
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.MS.xaml,Portal.PerformanceSettingPage.Battery.Description,Apa yang akan berlaku pada dinding semasa menggunakan bateri komputer riba.
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.MS.xaml,,

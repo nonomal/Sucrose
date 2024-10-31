@@ -619,6 +619,141 @@ namespace Sucrose.Portal.ViewModels.Pages
 
             Contents.Add(Network);
 
+            TextBlock OperatingSystemArea = new()
+            {
+                Foreground = SRER.GetResource<Brush>("TextFillColorPrimaryBrush"),
+                Text = SRER.GetValue("Portal", "Area", "OperatingSystem"),
+                Margin = new Thickness(0, 10, 0, 0),
+                FontWeight = FontWeights.Bold
+            };
+
+            Contents.Add(OperatingSystemArea);
+
+            SPVCEC Lock = new()
+            {
+                Margin = new Thickness(0, 10, 0, 0),
+                Expandable = false
+            };
+
+            Lock.LeftIcon.Symbol = SymbolRegular.LockClosed24;
+            Lock.Title.Text = SRER.GetValue("Portal", "PerformanceSettingPage", "Lock");
+            Lock.Description.Text = SRER.GetValue("Portal", "PerformanceSettingPage", "Lock", "Description");
+
+            ComboBox LockPerformance = new();
+
+            LockPerformance.SelectionChanged += (s, e) => LockPerformanceSelected(LockPerformance.SelectedIndex);
+
+            foreach (SSDEPT Type in Enum.GetValues(typeof(SSDEPT)))
+            {
+                LockPerformance.Items.Add(SRER.GetValue("Portal", "Enum", "PerformanceType", $"{Type}"));
+            }
+
+            LockPerformance.SelectedIndex = (int)SSDMMB.LockPerformance;
+
+            Lock.HeaderFrame = LockPerformance;
+
+            Contents.Add(Lock);
+
+            SPVCEC Sleep = new()
+            {
+                Margin = new Thickness(0, 10, 0, 0),
+                Expandable = false
+            };
+
+            Sleep.LeftIcon.Symbol = SymbolRegular.Snooze24;
+            Sleep.Title.Text = SRER.GetValue("Portal", "PerformanceSettingPage", "Sleep");
+            Sleep.Description.Text = SRER.GetValue("Portal", "PerformanceSettingPage", "Sleep", "Description");
+
+            ComboBox SleepPerformance = new();
+
+            SleepPerformance.SelectionChanged += (s, e) => SleepPerformanceSelected(SleepPerformance.SelectedIndex);
+
+            foreach (SSDEPT Type in Enum.GetValues(typeof(SSDEPT)))
+            {
+                SleepPerformance.Items.Add(SRER.GetValue("Portal", "Enum", "PerformanceType", $"{Type}"));
+            }
+
+            SleepPerformance.SelectedIndex = (int)SSDMMB.SleepPerformance;
+
+            Sleep.HeaderFrame = SleepPerformance;
+
+            Contents.Add(Sleep);
+
+            SPVCEC Console = new()
+            {
+                Margin = new Thickness(0, 10, 0, 0),
+                Expandable = false
+            };
+
+            Console.LeftIcon.Symbol = SymbolRegular.PeopleSwap24;
+            Console.Title.Text = SRER.GetValue("Portal", "PerformanceSettingPage", "Console");
+            Console.Description.Text = SRER.GetValue("Portal", "PerformanceSettingPage", "Console", "Description");
+
+            ComboBox ConsolePerformance = new();
+
+            ConsolePerformance.SelectionChanged += (s, e) => ConsolePerformanceSelected(ConsolePerformance.SelectedIndex);
+
+            foreach (SSDEPT Type in Enum.GetValues(typeof(SSDEPT)))
+            {
+                ConsolePerformance.Items.Add(SRER.GetValue("Portal", "Enum", "PerformanceType", $"{Type}"));
+            }
+
+            ConsolePerformance.SelectedIndex = (int)SSDMMB.ConsolePerformance;
+
+            Console.HeaderFrame = ConsolePerformance;
+
+            Contents.Add(Console);
+
+            SPVCEC Session = new()
+            {
+                Margin = new Thickness(0, 10, 0, 0),
+                Expandable = false
+            };
+
+            Session.LeftIcon.Symbol = SymbolRegular.PersonDelete24;
+            Session.Title.Text = SRER.GetValue("Portal", "PerformanceSettingPage", "Session");
+            Session.Description.Text = SRER.GetValue("Portal", "PerformanceSettingPage", "Session", "Description");
+
+            ComboBox SessionPerformance = new();
+
+            SessionPerformance.SelectionChanged += (s, e) => SessionPerformanceSelected(SessionPerformance.SelectedIndex);
+
+            foreach (SSDEPT Type in Enum.GetValues(typeof(SSDEPT)))
+            {
+                SessionPerformance.Items.Add(SRER.GetValue("Portal", "Enum", "PerformanceType", $"{Type}"));
+            }
+
+            SessionPerformance.SelectedIndex = (int)SSDMMB.SessionPerformance;
+
+            Session.HeaderFrame = SessionPerformance;
+
+            Contents.Add(Session);
+
+            SPVCEC ScreenSaver = new()
+            {
+                Margin = new Thickness(0, 10, 0, 0),
+                Expandable = false
+            };
+
+            ScreenSaver.LeftIcon.Symbol = SymbolRegular.ViewDesktop24;
+            ScreenSaver.Title.Text = SRER.GetValue("Portal", "PerformanceSettingPage", "ScreenSaver");
+            ScreenSaver.Description.Text = SRER.GetValue("Portal", "PerformanceSettingPage", "ScreenSaver", "Description");
+
+            ComboBox ScreenSaverPerformance = new();
+
+            ScreenSaverPerformance.SelectionChanged += (s, e) => ScreenSaverPerformanceSelected(ScreenSaverPerformance.SelectedIndex);
+
+            foreach (SSDEPT Type in Enum.GetValues(typeof(SSDEPT)))
+            {
+                ScreenSaverPerformance.Items.Add(SRER.GetValue("Portal", "Enum", "PerformanceType", $"{Type}"));
+            }
+
+            ScreenSaverPerformance.SelectedIndex = (int)SSDMMB.ScreenSaverPerformance;
+
+            ScreenSaver.HeaderFrame = ScreenSaverPerformance;
+
+            Contents.Add(ScreenSaver);
+
             TextBlock LaptopArea = new()
             {
                 Foreground = SRER.GetResource<Brush>("TextFillColorPrimaryBrush"),
@@ -941,13 +1076,13 @@ namespace Sucrose.Portal.ViewModels.Pages
             }
         }
 
-        private void NetworkUploadChanged(double? Value)
+        private void LockPerformanceSelected(int Index)
         {
-            int NewValue = Convert.ToInt32(Value);
-
-            if (NewValue != SMMB.UploadValue)
+            if (Index != (int)SSDMMB.LockPerformance)
             {
-                SMMI.BackgroundogSettingManager.SetSetting(SMMCB.UploadValue, NewValue);
+                SSDEPT Type = (SSDEPT)Index;
+
+                SMMI.BackgroundogSettingManager.SetSetting(SMMCB.LockPerformance, Type);
             }
         }
 
@@ -958,6 +1093,26 @@ namespace Sucrose.Portal.ViewModels.Pages
                 SSDEPT Type = (SSDEPT)Index;
 
                 SMMI.BackgroundogSettingManager.SetSetting(SMMCB.FocusPerformance, Type);
+            }
+        }
+
+        private void NetworkUploadChanged(double? Value)
+        {
+            int NewValue = Convert.ToInt32(Value);
+
+            if (NewValue != SMMB.UploadValue)
+            {
+                SMMI.BackgroundogSettingManager.SetSetting(SMMCB.UploadValue, NewValue);
+            }
+        }
+
+        private void SleepPerformanceSelected(int Index)
+        {
+            if (Index != (int)SSDMMB.SleepPerformance)
+            {
+                SSDEPT Type = (SSDEPT)Index;
+
+                SMMI.BackgroundogSettingManager.SetSetting(SMMCB.SleepPerformance, Type);
             }
         }
 
@@ -1009,31 +1164,13 @@ namespace Sucrose.Portal.ViewModels.Pages
             }
         }
 
-        private void VirtualPerformanceSelected(int Index)
+        private void ConsolePerformanceSelected(int Index)
         {
-            if (Index != (int)SSDMMB.VirtualPerformance)
+            if (Index != (int)SSDMMB.ConsolePerformance)
             {
                 SSDEPT Type = (SSDEPT)Index;
 
-                SMMI.BackgroundogSettingManager.SetSetting(SMMCB.VirtualPerformance, Type);
-            }
-        }
-
-        private void NetworkPingTypeSelected(string Value)
-        {
-            if (Value != SMMB.PingType)
-            {
-                SMMI.BackgroundogSettingManager.SetSetting(SMMCB.PingType, Value);
-            }
-        }
-
-        private void NetworkPerformanceSelected(int Index)
-        {
-            if (Index != (int)SSDMMB.NetworkPerformance)
-            {
-                SSDEPT Type = (SSDEPT)Index;
-
-                SMMI.BackgroundogSettingManager.SetSetting(SMMCB.NetworkPerformance, Type);
+                SMMI.BackgroundogSettingManager.SetSetting(SMMCB.ConsolePerformance, Type);
             }
         }
 
@@ -1054,6 +1191,44 @@ namespace Sucrose.Portal.ViewModels.Pages
             if (NewValue != SMMB.DownloadValue)
             {
                 SMMI.BackgroundogSettingManager.SetSetting(SMMCB.DownloadValue, NewValue);
+            }
+        }
+
+        private void NetworkPerformanceSelected(int Index)
+        {
+            if (Index != (int)SSDMMB.NetworkPerformance)
+            {
+                SSDEPT Type = (SSDEPT)Index;
+
+                SMMI.BackgroundogSettingManager.SetSetting(SMMCB.NetworkPerformance, Type);
+            }
+        }
+
+        private void NetworkPingTypeSelected(string Value)
+        {
+            if (Value != SMMB.PingType)
+            {
+                SMMI.BackgroundogSettingManager.SetSetting(SMMCB.PingType, Value);
+            }
+        }
+
+        private void SessionPerformanceSelected(int Index)
+        {
+            if (Index != (int)SSDMMB.SessionPerformance)
+            {
+                SSDEPT Type = (SSDEPT)Index;
+
+                SMMI.BackgroundogSettingManager.SetSetting(SMMCB.SessionPerformance, Type);
+            }
+        }
+
+        private void VirtualPerformanceSelected(int Index)
+        {
+            if (Index != (int)SSDMMB.VirtualPerformance)
+            {
+                SSDEPT Type = (SSDEPT)Index;
+
+                SMMI.BackgroundogSettingManager.SetSetting(SMMCB.VirtualPerformance, Type);
             }
         }
 
@@ -1084,6 +1259,16 @@ namespace Sucrose.Portal.ViewModels.Pages
                 SSDEPT Type = (SSDEPT)Index;
 
                 SMMI.BackgroundogSettingManager.SetSetting(SMMCB.FullScreenPerformance, Type);
+            }
+        }
+
+        private void ScreenSaverPerformanceSelected(int Index)
+        {
+            if (Index != (int)SSDMMB.ScreenSaverPerformance)
+            {
+                SSDEPT Type = (SSDEPT)Index;
+
+                SMMI.BackgroundogSettingManager.SetSetting(SMMCB.ScreenSaverPerformance, Type);
             }
         }
 

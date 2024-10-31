@@ -1014,6 +1014,21 @@ Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.PL.xaml,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.PL.xaml,,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.PL.xaml,Portal.PerformanceSettingPage.Network.NetworkPing,Wartość Ping (ms):
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.PL.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.PL.xaml,Portal.PerformanceSettingPage.Lock,Blokada Sesji
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.PL.xaml,Portal.PerformanceSettingPage.Lock.Description,"Co się stanie z tapetą, gdy sesja jest zablokowana."
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.PL.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.PL.xaml,Portal.PerformanceSettingPage.Sleep,Tryb Uśpienia
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.PL.xaml,Portal.PerformanceSettingPage.Sleep.Description,"Co się stanie z tapetą, gdy system jest w trybie uśpienia."
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.PL.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.PL.xaml,Portal.PerformanceSettingPage.Console,Zmiana Użytkownika
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.PL.xaml,Portal.PerformanceSettingPage.Console.Description,"Co się stanie z tapetą, gdy zmienia się użytkownik."
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.PL.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.PL.xaml,Portal.PerformanceSettingPage.Session,Wylogowanie
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.PL.xaml,Portal.PerformanceSettingPage.Session.Description,"Co się stanie z tapetą, gdy sesja jest zamykana."
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.PL.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.PL.xaml,Portal.PerformanceSettingPage.ScreenSaver,Wygaszacz Ekranu
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.PL.xaml,Portal.PerformanceSettingPage.ScreenSaver.Description,"Co się stanie z tapetą, gdy włączany jest wygaszacz ekranu."
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.PL.xaml,,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.PL.xaml,Portal.PerformanceSettingPage.Battery,Zasilanie Baterii
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.PL.xaml,Portal.PerformanceSettingPage.Battery.Description,"Co dzieje się z tapetą, gdy działa na zasilaniu baterii laptopa."
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.PL.xaml,,

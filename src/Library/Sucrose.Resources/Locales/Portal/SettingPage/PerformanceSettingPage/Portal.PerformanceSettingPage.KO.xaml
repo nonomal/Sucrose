@@ -45,6 +45,21 @@
 
     <system:String x:Key="Portal.PerformanceSettingPage.Network.NetworkPing">Ping 값 (밀리초):</system:String>
 
+    <system:String x:Key="Portal.PerformanceSettingPage.Lock">세션 잠금</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.Lock.Description">세션이 잠겼을 때 배경화면에 발생하는 일.</system:String>
+
+    <system:String x:Key="Portal.PerformanceSettingPage.Sleep">절전 모드</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.Sleep.Description">시스템이 절전 모드일 때 배경화면에 발생하는 일.</system:String>
+
+    <system:String x:Key="Portal.PerformanceSettingPage.Console">사용자 전환</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.Console.Description">사용자가 전환될 때 배경화면에 발생하는 일.</system:String>
+
+    <system:String x:Key="Portal.PerformanceSettingPage.Session">로그아웃</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.Session.Description">세션이 종료될 때 배경화면에 발생하는 일.</system:String>
+
+    <system:String x:Key="Portal.PerformanceSettingPage.ScreenSaver">스크린 세이버</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.ScreenSaver.Description">스크린 세이버가 시작될 때 배경화면에 발생하는 일.</system:String>
+
     <system:String x:Key="Portal.PerformanceSettingPage.Battery">배터리 전원</system:String>
     <system:String x:Key="Portal.PerformanceSettingPage.Battery.Description">노트북 배터리 전원을 사용하는 동안 배경화면이 어떻게 작동할지.</system:String>
 

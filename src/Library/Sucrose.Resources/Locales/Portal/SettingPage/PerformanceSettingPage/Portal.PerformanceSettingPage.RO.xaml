@@ -45,6 +45,21 @@
 
     <system:String x:Key="Portal.PerformanceSettingPage.Network.NetworkPing">Valoare Ping (ms):</system:String>
 
+    <system:String x:Key="Portal.PerformanceSettingPage.Lock">Blocare Sesiune</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.Lock.Description">Ce se întâmplă cu fundalul când sesiunea este blocată.</system:String>
+
+    <system:String x:Key="Portal.PerformanceSettingPage.Sleep">Mod Repaus</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.Sleep.Description">Ce se întâmplă cu fundalul când sistemul este în modul repaus.</system:String>
+
+    <system:String x:Key="Portal.PerformanceSettingPage.Console">Schimbare Utilizator</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.Console.Description">Ce se întâmplă cu fundalul când utilizatorul este schimbat.</system:String>
+
+    <system:String x:Key="Portal.PerformanceSettingPage.Session">Închidere Sesiune</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.Session.Description">Ce se întâmplă cu fundalul când sesiunea este închisă.</system:String>
+
+    <system:String x:Key="Portal.PerformanceSettingPage.ScreenSaver">Protecție Ecran</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.ScreenSaver.Description">Ce se întâmplă cu fundalul când protecția ecranului este activată.</system:String>
+
     <system:String x:Key="Portal.PerformanceSettingPage.Battery">Baterie</system:String>
     <system:String x:Key="Portal.PerformanceSettingPage.Battery.Description">Ce se întâmplă cu fundalul temei dvs. atunci când funcționează pe baterie.</system:String>
 

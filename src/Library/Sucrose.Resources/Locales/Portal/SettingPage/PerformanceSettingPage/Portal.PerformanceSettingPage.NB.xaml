@@ -45,6 +45,21 @@
 
     <system:String x:Key="Portal.PerformanceSettingPage.Network.NetworkPing">Ping-verdi (ms):</system:String>
 
+    <system:String x:Key="Portal.PerformanceSettingPage.Lock">Øktlås</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.Lock.Description">Hva som skjer med bakgrunnen når økten er låst.</system:String>
+
+    <system:String x:Key="Portal.PerformanceSettingPage.Sleep">Hvilemodus</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.Sleep.Description">Hva som skjer med bakgrunnen når systemet er i hvilemodus.</system:String>
+
+    <system:String x:Key="Portal.PerformanceSettingPage.Console">Brukerbytte</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.Console.Description">Hva som skjer med bakgrunnen når brukeren byttes.</system:String>
+
+    <system:String x:Key="Portal.PerformanceSettingPage.Session">Logg Ut</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.Session.Description">Hva som skjer med bakgrunnen når økten avsluttes.</system:String>
+
+    <system:String x:Key="Portal.PerformanceSettingPage.ScreenSaver">Skjermbeskytter</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.ScreenSaver.Description">Hva som skjer med bakgrunnen når skjermbeskytteren starter.</system:String>
+
     <system:String x:Key="Portal.PerformanceSettingPage.Battery">Batteristrøm</system:String>
     <system:String x:Key="Portal.PerformanceSettingPage.Battery.Description">Hvordan tapetet skal reagere når du bruker batteristrøm på en bærbar datamaskin.</system:String>
 

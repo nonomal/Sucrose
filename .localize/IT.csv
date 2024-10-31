@@ -1014,6 +1014,21 @@ Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.IT.xaml,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.IT.xaml,,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.IT.xaml,Portal.PerformanceSettingPage.Network.NetworkPing,Valore del Ping (ms):
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.IT.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.IT.xaml,Portal.PerformanceSettingPage.Lock,Blocco Sessione
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.IT.xaml,Portal.PerformanceSettingPage.Lock.Description,Cosa succede allo sfondo quando la sessione è bloccata.
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.IT.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.IT.xaml,Portal.PerformanceSettingPage.Sleep,Modalità Sospensione
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.IT.xaml,Portal.PerformanceSettingPage.Sleep.Description,Cosa succede allo sfondo quando il sistema è in modalità sospensione.
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.IT.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.IT.xaml,Portal.PerformanceSettingPage.Console,Cambio Utente
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.IT.xaml,Portal.PerformanceSettingPage.Console.Description,Cosa succede allo sfondo quando si cambia utente.
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.IT.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.IT.xaml,Portal.PerformanceSettingPage.Session,Disconnetti
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.IT.xaml,Portal.PerformanceSettingPage.Session.Description,Cosa succede allo sfondo quando la sessione viene chiusa.
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.IT.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.IT.xaml,Portal.PerformanceSettingPage.ScreenSaver,Salvaschermo
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.IT.xaml,Portal.PerformanceSettingPage.ScreenSaver.Description,Cosa succede allo sfondo quando si avvia il salvaschermo.
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.IT.xaml,,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.IT.xaml,Portal.PerformanceSettingPage.Battery,Stato della Batteria
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.IT.xaml,Portal.PerformanceSettingPage.Battery.Description,Cosa dovrebbe accadere al wallpaper quando si utilizza un laptop con alimentazione a batteria.
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.IT.xaml,,

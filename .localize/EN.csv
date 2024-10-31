@@ -1014,6 +1014,21 @@ Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.EN.xaml,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.EN.xaml,,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.EN.xaml,Portal.PerformanceSettingPage.Network.NetworkPing,Ping Value (MS):
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.EN.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.EN.xaml,Portal.PerformanceSettingPage.Lock,Session Lock
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.EN.xaml,Portal.PerformanceSettingPage.Lock.Description,What happens to the wallpaper when the session is locked.
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.EN.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.EN.xaml,Portal.PerformanceSettingPage.Sleep,Sleep Mode
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.EN.xaml,Portal.PerformanceSettingPage.Sleep.Description,What happens to the wallpaper when the system is in sleep mode.
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.EN.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.EN.xaml,Portal.PerformanceSettingPage.Console,User Switch
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.EN.xaml,Portal.PerformanceSettingPage.Console.Description,What happens to the wallpaper when the user is switched.
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.EN.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.EN.xaml,Portal.PerformanceSettingPage.Session,Log Out
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.EN.xaml,Portal.PerformanceSettingPage.Session.Description,What happens to the wallpaper when the session is closed.
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.EN.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.EN.xaml,Portal.PerformanceSettingPage.ScreenSaver,Screen Saver
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.EN.xaml,Portal.PerformanceSettingPage.ScreenSaver.Description,What happens to the wallpaper when the screen saver starts.
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.EN.xaml,,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.EN.xaml,Portal.PerformanceSettingPage.Battery,Battery Power
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.EN.xaml,Portal.PerformanceSettingPage.Battery.Description,What happens to the wallpaper when running on laptop battery power.
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.EN.xaml,,

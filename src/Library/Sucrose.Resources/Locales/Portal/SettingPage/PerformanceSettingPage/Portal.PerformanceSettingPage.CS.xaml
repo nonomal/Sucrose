@@ -45,6 +45,21 @@
 
     <system:String x:Key="Portal.PerformanceSettingPage.Network.NetworkPing">Ping (ms):</system:String>
 
+    <system:String x:Key="Portal.PerformanceSettingPage.Lock">Zámek Relace</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.Lock.Description">Co se stane s tapetou, když je relace zamčena.</system:String>
+
+    <system:String x:Key="Portal.PerformanceSettingPage.Sleep">Režim Spánku</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.Sleep.Description">Co se stane s tapetou, když je systém v režimu spánku.</system:String>
+
+    <system:String x:Key="Portal.PerformanceSettingPage.Console">Přepnutí Uživatele</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.Console.Description">Co se stane s tapetou, když je uživatel přepnut.</system:String>
+
+    <system:String x:Key="Portal.PerformanceSettingPage.Session">Odhlášení</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.Session.Description">Co se stane s tapetou, když se relace ukončí.</system:String>
+
+    <system:String x:Key="Portal.PerformanceSettingPage.ScreenSaver">Šetřič Obrazovky</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.ScreenSaver.Description">Co se stane s tapetou, když se spustí šetřič obrazovky.</system:String>
+
     <system:String x:Key="Portal.PerformanceSettingPage.Battery">Baterie</system:String>
     <system:String x:Key="Portal.PerformanceSettingPage.Battery.Description">Určuje, jaký bude výsledek duhovky při použití na baterii v notebooku.</system:String>
 

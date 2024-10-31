@@ -1014,184 +1014,199 @@ Portal.PerformanceSettingPage.Network.NetworkDownload,ダウンロード サイ�
 PASS⦙214,PASS⦙214,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.JA.xaml,Please don't touch the translation in this line.
 Portal.PerformanceSettingPage.Network.NetworkPing,Ping 値 (ミリ秒):,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.JA.xaml,
 PASS⦙215,PASS⦙215,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.JA.xaml,Please don't touch the translation in this line.
+Portal.PerformanceSettingPage.Lock,セッションロック,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.JA.xaml,
+Portal.PerformanceSettingPage.Lock.Description,セッションがロックされているときに壁紙に何が起こるか。,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.JA.xaml,
+PASS⦙216,PASS⦙216,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.JA.xaml,Please don't touch the translation in this line.
+Portal.PerformanceSettingPage.Sleep,スリープモード,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.JA.xaml,
+Portal.PerformanceSettingPage.Sleep.Description,システムがスリープモードのときに壁紙に何が起こるか。,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.JA.xaml,
+PASS⦙217,PASS⦙217,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.JA.xaml,Please don't touch the translation in this line.
+Portal.PerformanceSettingPage.Console,ユーザー切り替え,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.JA.xaml,
+Portal.PerformanceSettingPage.Console.Description,ユーザーが切り替えられたときに壁紙に何が起こるか。,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.JA.xaml,
+PASS⦙218,PASS⦙218,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.JA.xaml,Please don't touch the translation in this line.
+Portal.PerformanceSettingPage.Session,ログアウト,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.JA.xaml,
+Portal.PerformanceSettingPage.Session.Description,セッションが閉じられたときに壁紙に何が起こるか。,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.JA.xaml,
+PASS⦙219,PASS⦙219,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.JA.xaml,Please don't touch the translation in this line.
+Portal.PerformanceSettingPage.ScreenSaver,スクリーンセーバー,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.JA.xaml,
+Portal.PerformanceSettingPage.ScreenSaver.Description,スクリーンセーバーが起動したときに壁紙に何が起こるか。,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.JA.xaml,
+PASS⦙220,PASS⦙220,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.JA.xaml,Please don't touch the translation in this line.
 Portal.PerformanceSettingPage.Battery,バッテリー,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.JA.xaml,
 Portal.PerformanceSettingPage.Battery.Description,ノートパソコンのバッテリー使用中に壁紙の動作。,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.JA.xaml,
-PASS⦙216,PASS⦙216,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.JA.xaml,Please don't touch the translation in this line.
+PASS⦙221,PASS⦙221,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.JA.xaml,Please don't touch the translation in this line.
 Portal.PerformanceSettingPage.Battery.BatteryUsage,バッテリー残量 (%):,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.JA.xaml,
-PASS⦙217,PASS⦙217,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.JA.xaml,Please don't touch the translation in this line.
+PASS⦙222,PASS⦙222,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.JA.xaml,Please don't touch the translation in this line.
 Portal.PerformanceSettingPage.BatterySaver,バッテリー節約モード,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.JA.xaml,
 Portal.PerformanceSettingPage.BatterySaver.Description,ノートパソコンのバッテリー節約モード中に壁紙の動作。,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.JA.xaml,
-PASS⦙218,PASS⦙218,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.JA.xaml,Please don't touch the translation in this line.
+PASS⦙223,PASS⦙223,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.JA.xaml,Please don't touch the translation in this line.
 Portal.PerformanceSettingPage.Virtual,仮想化,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.JA.xaml,
 Portal.PerformanceSettingPage.Virtual.Description,仮想化アプリケーションが実行中の場合の壁紙の動作。,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.JA.xaml,
-PASS⦙219,PASS⦙219,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.JA.xaml,Please don't touch the translation in this line.
+PASS⦙224,PASS⦙224,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.JA.xaml,Please don't touch the translation in this line.
 Portal.PerformanceSettingPage.Remote,リモート デスクトップ,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.JA.xaml,
 Portal.PerformanceSettingPage.Remote.Description,リモート デスクトップ アプリケーションが実行中の場合の壁紙の動作。,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.JA.xaml,
-PASS⦙220,PASS⦙220,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.JA.xaml,Please don't touch the translation in this line.
+PASS⦙225,PASS⦙225,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.JA.xaml,Please don't touch the translation in this line.
 Portal.PerformanceSettingPage.FullScreen,フルスクリーン モード,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.JA.xaml,
 Portal.PerformanceSettingPage.FullScreen.Description,フルスクリーン モードで他のアプリケーションが実行中の場合の壁紙の動作。,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.JA.xaml,
-PASS⦙221,PASS⦙221,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.JA.xaml,Please don't touch the translation in this line.
+PASS⦙226,PASS⦙226,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.JA.xaml,Please don't touch the translation in this line.
 Portal.PerformanceSettingPage.Focus,フォーカス モード,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.JA.xaml,
 Portal.PerformanceSettingPage.Focus.Description,他のアプリケーションがフォーカスされている場合の壁紙の動作。,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.JA.xaml,
 Portal.PersonalSettingPage.Title,PersonalSettingPage,,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.JA.xaml,
-PASS⦙222,PASS⦙222,Don't Touch,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.JA.xaml,Please don't touch the translation in this line.
+PASS⦙227,PASS⦙227,Don't Touch,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.JA.xaml,Please don't touch the translation in this line.
 Portal.PersonalSettingPage.Server,ストアサーバー,,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.JA.xaml,
 Portal.PersonalSettingPage.Server.Description,ストアにリストされているテーマを表示するために使用されるサーバーを指定します。,,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.JA.xaml,
-PASS⦙223,PASS⦙223,Don't Touch,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.JA.xaml,Please don't touch the translation in this line.
+PASS⦙228,PASS⦙228,Don't Touch,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.JA.xaml,Please don't touch the translation in this line.
 Portal.PersonalSettingPage.Server.ServerHint,注意：{0} をサーバーとして選択した場合、リクエスト制限を回避するために {2} を入力する必要があります。そうしないと、ストアのテーマへのアクセスに問題が発生する可能性があります。{1} を選択すると、ストアの体験がスムーズになります。,,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.JA.xaml,
-PASS⦙224,PASS⦙224,Don't Touch,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.JA.xaml,Please don't touch the translation in this line.
+PASS⦙229,PASS⦙229,Don't Touch,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.JA.xaml,Please don't touch the translation in this line.
 Portal.PersonalSettingPage.Duration,ストア更新,,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.JA.xaml,
 Portal.PersonalSettingPage.Duration.Description,表示されるテーマが更新されるまでの期間。,,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.JA.xaml,
-PASS⦙225,PASS⦙225,Don't Touch,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.JA.xaml,Please don't touch the translation in this line.
+PASS⦙230,PASS⦙230,Don't Touch,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.JA.xaml,Please don't touch the translation in this line.
 Portal.PersonalSettingPage.StoreStart,自動起動,,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.JA.xaml,
 Portal.PersonalSettingPage.StoreStart.Description,ストアからダウンロードしたテーマが自動的に壁紙に設定されるかどうか。,,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.JA.xaml,
-PASS⦙226,PASS⦙226,Don't Touch,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.JA.xaml,Please don't touch the translation in this line.
+PASS⦙231,PASS⦙231,Don't Touch,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.JA.xaml,Please don't touch the translation in this line.
 Portal.PersonalSettingPage.Adult,成人向けコンテンツ,,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.JA.xaml,
 Portal.PersonalSettingPage.Adult.Description,ストアでNSFW（安全でないコンテンツ）としてマークされたコンテンツを表示するかどうか。,,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.JA.xaml,
-PASS⦙227,PASS⦙227,Don't Touch,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.JA.xaml,Please don't touch the translation in this line.
+PASS⦙232,PASS⦙232,Don't Touch,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.JA.xaml,Please don't touch the translation in this line.
 Portal.PersonalSettingPage.Confirm,削除の確認,,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.JA.xaml,
 Portal.PersonalSettingPage.Confirm.Description,ライブラリ内のテーマを削除する際に確認を求めるかどうか。,,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.JA.xaml,
-PASS⦙228,PASS⦙228,Don't Touch,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.JA.xaml,Please don't touch the translation in this line.
+PASS⦙233,PASS⦙233,Don't Touch,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.JA.xaml,Please don't touch the translation in this line.
 Portal.PersonalSettingPage.Delete,壊れたテーマ,,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.JA.xaml,
 Portal.PersonalSettingPage.Delete.Description,ライブラリ内の壊れたまたは欠落しているテーマを自動的に削除するかどうか。,,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.JA.xaml,
-PASS⦙229,PASS⦙229,Don't Touch,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.JA.xaml,Please don't touch the translation in this line.
+PASS⦙234,PASS⦙234,Don't Touch,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.JA.xaml,Please don't touch the translation in this line.
 Portal.PersonalSettingPage.Delete.DeleteHint,注意: 慎重に操作する必要があります。それ以外の場合、データ損失を引き起こす可能性があります。,,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.JA.xaml,
-PASS⦙230,PASS⦙230,Don't Touch,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.JA.xaml,Please don't touch the translation in this line.
+PASS⦙235,PASS⦙235,Don't Touch,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.JA.xaml,Please don't touch the translation in this line.
 Portal.PersonalSettingPage.LibraryStart,自動起動,,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.JA.xaml,
 Portal.PersonalSettingPage.LibraryStart.Description,作成されたテーマが自動的に壁紙に設定されるかどうか。,,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.JA.xaml,
-PASS⦙231,PASS⦙231,Don't Touch,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.JA.xaml,Please don't touch the translation in this line.
+PASS⦙236,PASS⦙236,Don't Touch,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.JA.xaml,Please don't touch the translation in this line.
 Portal.PersonalSettingPage.Preview,テーマプレビュー,,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.JA.xaml,
 Portal.PersonalSettingPage.Preview.Description,テーマをポイントするとプレビューが表示されるかどうか。,,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.JA.xaml,
-PASS⦙232,PASS⦙232,Don't Touch,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.JA.xaml,Please don't touch the translation in this line.
+PASS⦙237,PASS⦙237,Don't Touch,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.JA.xaml,Please don't touch the translation in this line.
 Portal.PersonalSettingPage.Preview.StorePreview,ストア プレビュー:,,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.JA.xaml,
 Portal.PersonalSettingPage.Preview.StorePreviewHide,詳細を非表示にする:,,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.JA.xaml,
-PASS⦙233,PASS⦙233,Don't Touch,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.JA.xaml,Please don't touch the translation in this line.
+PASS⦙238,PASS⦙238,Don't Touch,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.JA.xaml,Please don't touch the translation in this line.
 Portal.PersonalSettingPage.Preview.LibraryPreview,ライブラリ プレビュー:,,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.JA.xaml,
 Portal.PersonalSettingPage.Preview.LibraryPreviewHide,詳細を非表示にする:,,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.JA.xaml,
-PASS⦙234,PASS⦙234,Don't Touch,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.JA.xaml,Please don't touch the translation in this line.
+PASS⦙239,PASS⦙239,Don't Touch,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.JA.xaml,Please don't touch the translation in this line.
 Portal.PersonalSettingPage.Adaptive,適応型レイアウト,,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.JA.xaml,
 Portal.PersonalSettingPage.Adaptive.Description,表示されるテーマのレイアウトや間隔をカスタマイズします。,,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.JA.xaml,
-PASS⦙235,PASS⦙235,Don't Touch,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.JA.xaml,Please don't touch the translation in this line.
+PASS⦙240,PASS⦙240,Don't Touch,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.JA.xaml,Please don't touch the translation in this line.
 Portal.PersonalSettingPage.Adaptive.AdaptiveMargin,余白のサイズ（ピクセル）:,,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.JA.xaml,
-PASS⦙236,PASS⦙236,Don't Touch,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.JA.xaml,Please don't touch the translation in this line.
+PASS⦙241,PASS⦙241,Don't Touch,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.JA.xaml,Please don't touch the translation in this line.
 Portal.PersonalSettingPage.Adaptive.AdaptiveLayout,レイアウトの順序（個）:,,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.JA.xaml,
-PASS⦙237,PASS⦙237,Don't Touch,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.JA.xaml,Please don't touch the translation in this line.
+PASS⦙242,PASS⦙242,Don't Touch,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.JA.xaml,Please don't touch the translation in this line.
 Portal.PersonalSettingPage.Sort,ライブラリの並べ替え,,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.JA.xaml,
 Portal.PersonalSettingPage.Sort.Description,ライブラリ内のテーマをどのようにどの形式で並べ替えるかを指定します。,,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.JA.xaml,
-PASS⦙238,PASS⦙238,Don't Touch,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.JA.xaml,Please don't touch the translation in this line.
+PASS⦙243,PASS⦙243,Don't Touch,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.JA.xaml,Please don't touch the translation in this line.
 Portal.PersonalSettingPage.Sort.SortMode,並べ替えモード:,,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.JA.xaml,
-PASS⦙239,PASS⦙239,Don't Touch,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.JA.xaml,Please don't touch the translation in this line.
+PASS⦙244,PASS⦙244,Don't Touch,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.JA.xaml,Please don't touch the translation in this line.
 Portal.PersonalSettingPage.Sort.SortKind,並べ替え種類:,,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.JA.xaml,
-PASS⦙240,PASS⦙240,Don't Touch,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.JA.xaml,Please don't touch the translation in this line.
+PASS⦙245,PASS⦙245,Don't Touch,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.JA.xaml,Please don't touch the translation in this line.
 Portal.PersonalSettingPage.Store,ストア ページング,,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.JA.xaml,
 Portal.PersonalSettingPage.Store.Description,各ストアのページに表示されるテーマの数を設定します。,,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.JA.xaml,
-PASS⦙241,PASS⦙241,Don't Touch,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.JA.xaml,Please don't touch the translation in this line.
+PASS⦙246,PASS⦙246,Don't Touch,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.JA.xaml,Please don't touch the translation in this line.
 Portal.PersonalSettingPage.Library,ライブラリ ページング,,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.JA.xaml,
 Portal.PersonalSettingPage.Library.Description,各ライブラリのページに表示されるテーマの数を設定します。,,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.JA.xaml,
 Portal.SystemSettingPage.Title,SystemSettingPage,,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.JA.xaml,
-PASS⦙242,PASS⦙242,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.JA.xaml,Please don't touch the translation in this line.
+PASS⦙247,PASS⦙247,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.JA.xaml,Please don't touch the translation in this line.
 Portal.SystemSettingPage.LogTemporary,ログ ファイル,,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.JA.xaml,
 Portal.SystemSettingPage.LogTemporary.Description,アプリケーションが作成したすべてのログ ファイルを管理します。,,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.JA.xaml,
-PASS⦙243,PASS⦙243,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.JA.xaml,Please don't touch the translation in this line.
+PASS⦙248,PASS⦙248,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.JA.xaml,Please don't touch the translation in this line.
 Portal.SystemSettingPage.LogTemporary.Create,作成,,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.JA.xaml,
-PASS⦙244,PASS⦙244,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.JA.xaml,Please don't touch the translation in this line.
+PASS⦙249,PASS⦙249,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.JA.xaml,Please don't touch the translation in this line.
 Portal.SystemSettingPage.LogTemporary.Delete,クリア,,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.JA.xaml,
-PASS⦙245,PASS⦙245,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.JA.xaml,Please don't touch the translation in this line.
+PASS⦙250,PASS⦙250,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.JA.xaml,Please don't touch the translation in this line.
 Portal.SystemSettingPage.LogTemporary.Hint,注意: ログ ファイル全体のサイズは {0} です。クリア操作を開始すると、すべてのアプリケーションが終了します。,,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.JA.xaml,
-PASS⦙246,PASS⦙246,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.JA.xaml,Please don't touch the translation in this line.
+PASS⦙251,PASS⦙251,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.JA.xaml,Please don't touch the translation in this line.
 Portal.SystemSettingPage.CacheTemporary,キャッシュのクリア,,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.JA.xaml,
 Portal.SystemSettingPage.CacheTemporary.Description,アプリケーションが作成したすべてのキャッシュ ファイルを削除します。,,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.JA.xaml,
-PASS⦙247,PASS⦙247,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.JA.xaml,Please don't touch the translation in this line.
+PASS⦙252,PASS⦙252,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.JA.xaml,Please don't touch the translation in this line.
 Portal.SystemSettingPage.CacheTemporary.Start,クリアを開始,,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.JA.xaml,
-PASS⦙248,PASS⦙248,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.JA.xaml,Please don't touch the translation in this line.
+PASS⦙253,PASS⦙253,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.JA.xaml,Please don't touch the translation in this line.
 Portal.SystemSettingPage.CacheTemporary.Hint,注意: キャッシュ ファイル全体のサイズは {0} です。クリア操作を開始すると、すべてのアプリケーションが終了します。,,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.JA.xaml,
-PASS⦙249,PASS⦙249,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.JA.xaml,Please don't touch the translation in this line.
+PASS⦙254,PASS⦙254,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.JA.xaml,Please don't touch the translation in this line.
 Portal.SystemSettingPage.StoreTemporary,ストアのクリア,,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.JA.xaml,
 Portal.SystemSettingPage.StoreTemporary.Description,アプリケーションが作成したすべてのストア ファイルを削除します。,,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.JA.xaml,
-PASS⦙250,PASS⦙250,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.JA.xaml,Please don't touch the translation in this line.
+PASS⦙255,PASS⦙255,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.JA.xaml,Please don't touch the translation in this line.
 Portal.SystemSettingPage.StoreTemporary.Start,クリアを開始,,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.JA.xaml,
-PASS⦙251,PASS⦙251,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.JA.xaml,Please don't touch the translation in this line.
+PASS⦙256,PASS⦙256,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.JA.xaml,Please don't touch the translation in this line.
 Portal.SystemSettingPage.StoreTemporary.Hint,注意: ストア ファイル全体のサイズは {0} です。クリア操作を開始すると、すべてのアプリケーションが終了します。,,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.JA.xaml,
-PASS⦙252,PASS⦙252,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.JA.xaml,Please don't touch the translation in this line.
+PASS⦙257,PASS⦙257,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.JA.xaml,Please don't touch the translation in this line.
 Portal.SystemSettingPage.LibraryTemporary,ライブラリのクリア,,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.JA.xaml,
 Portal.SystemSettingPage.LibraryTemporary.Description,ライブラリにある、またはアプリケーションが作成したすべてのテーマ ファイルを削除します。,,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.JA.xaml,
-PASS⦙253,PASS⦙253,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.JA.xaml,Please don't touch the translation in this line.
+PASS⦙258,PASS⦙258,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.JA.xaml,Please don't touch the translation in this line.
 Portal.SystemSettingPage.LibraryTemporary.Start,クリアを開始,,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.JA.xaml,
-PASS⦙254,PASS⦙254,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.JA.xaml,Please don't touch the translation in this line.
+PASS⦙259,PASS⦙259,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.JA.xaml,Please don't touch the translation in this line.
 Portal.SystemSettingPage.LibraryTemporary.Hint,注意: ライブラリ内のテーマ全体のサイズは {0} です。クリア操作を開始すると、すべてのアプリケーションが終了します。,,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.JA.xaml,
-PASS⦙255,PASS⦙255,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.JA.xaml,Please don't touch the translation in this line.
+PASS⦙260,PASS⦙260,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.JA.xaml,Please don't touch the translation in this line.
 Portal.SystemSettingPage.SettingBackup,設定ファイル,,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.JA.xaml,
 Portal.SystemSettingPage.SettingBackup.Description,アプリケーションが作成したすべての設定ファイルを管理します。,,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.JA.xaml,
-PASS⦙256,PASS⦙256,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.JA.xaml,Please don't touch the translation in this line.
+PASS⦙261,PASS⦙261,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.JA.xaml,Please don't touch the translation in this line.
 Portal.SystemSettingPage.SettingBackup.Export,バックアップ,,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.JA.xaml,
-PASS⦙257,PASS⦙257,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.JA.xaml,Please don't touch the translation in this line.
+PASS⦙262,PASS⦙262,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.JA.xaml,Please don't touch the translation in this line.
 Portal.SystemSettingPage.SettingBackup.Import,リストア,,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.JA.xaml,
-PASS⦙258,PASS⦙258,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.JA.xaml,Please don't touch the translation in this line.
+PASS⦙263,PASS⦙263,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.JA.xaml,Please don't touch the translation in this line.
 Portal.SystemSettingPage.SettingBackup.Hint,注意: 選択した操作を開始すると、すべてのアプリケーションが終了します。,,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.JA.xaml,
-PASS⦙259,PASS⦙259,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.JA.xaml,Please don't touch the translation in this line.
+PASS⦙264,PASS⦙264,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.JA.xaml,Please don't touch the translation in this line.
 Portal.SystemSettingPage.SettingReset,設定のリセット,,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.JA.xaml,
 Portal.SystemSettingPage.SettingReset.Description,アプリケーションが作成したすべての設定ファイルをリセットします。,,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.JA.xaml,
-PASS⦙260,PASS⦙260,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.JA.xaml,Please don't touch the translation in this line.
+PASS⦙265,PASS⦙265,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.JA.xaml,Please don't touch the translation in this line.
 Portal.SystemSettingPage.SettingReset.Start,リセットを開始,,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.JA.xaml,
-PASS⦙261,PASS⦙261,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.JA.xaml,Please don't touch the translation in this line.
+PASS⦙266,PASS⦙266,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.JA.xaml,Please don't touch the translation in this line.
 Portal.SystemSettingPage.SettingReset.Hint,注意: リセット操作を開始すると、すべてのアプリケーションが終了します。,,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.JA.xaml,
-PASS⦙262,PASS⦙262,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.JA.xaml,Please don't touch the translation in this line.
+PASS⦙267,PASS⦙267,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.JA.xaml,Please don't touch the translation in this line.
 Portal.SystemSettingPage.Log.SaveDialogTitle,ログ ファイルの保存,,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.JA.xaml,
 Portal.SystemSettingPage.Log.SaveDialogFilter,ZIP ファイル (*.zip)|*.zip|すべてのファイル (*.*)|*.*,,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.JA.xaml,
-PASS⦙263,PASS⦙263,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.JA.xaml,Please don't touch the translation in this line.
+PASS⦙268,PASS⦙268,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.JA.xaml,Please don't touch the translation in this line.
 Portal.SystemSettingPage.Access.Close,わかりました,,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.JA.xaml,
 Portal.SystemSettingPage.Access.Title,アクセス警告,,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.JA.xaml,
 Portal.SystemSettingPage.Access.Message,選択した場所にアクセスする権限がありません。,,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.JA.xaml,
 Portal.WallpaperSettingPage.Title,WallpaperSettingPage,,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.JA.xaml,
-PASS⦙264,PASS⦙264,Don't Touch,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.JA.xaml,Please don't touch the translation in this line.
+PASS⦙269,PASS⦙269,Don't Touch,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.JA.xaml,Please don't touch the translation in this line.
 Portal.WallpaperSettingPage.InputMode,インタラクション メソッド,,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.JA.xaml,
 Portal.WallpaperSettingPage.InputMode.Description,サポートされている壁紙とのインタラクションが発生する方法を決定します。,,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.JA.xaml,
-PASS⦙265,PASS⦙265,Don't Touch,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.JA.xaml,Please don't touch the translation in this line.
+PASS⦙270,PASS⦙270,Don't Touch,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.JA.xaml,Please don't touch the translation in this line.
 Portal.WallpaperSettingPage.InputMode.InputModule,インタラクションモジュール：,,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.JA.xaml,
-PASS⦙266,PASS⦙266,Don't Touch,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.JA.xaml,Please don't touch the translation in this line.
+PASS⦙271,PASS⦙271,Don't Touch,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.JA.xaml,Please don't touch the translation in this line.
 Portal.WallpaperSettingPage.InputMode.InputDesktop,デスクトップがフォーカスされている場合にのみインタラクションを処理する,,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.JA.xaml,
-PASS⦙267,PASS⦙267,Don't Touch,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.JA.xaml,Please don't touch the translation in this line.
+PASS⦙272,PASS⦙272,Don't Touch,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.JA.xaml,Please don't touch the translation in this line.
 Portal.WallpaperSettingPage.InputMode.DesktopIcon,デスクトップアイコンを誤って選択しないように非表示にする,,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.JA.xaml,
-PASS⦙268,PASS⦙268,Don't Touch,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.JA.xaml,Please don't touch the translation in this line.
+PASS⦙273,PASS⦙273,Don't Touch,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.JA.xaml,Please don't touch the translation in this line.
 Portal.WallpaperSettingPage.ScreenLayout,画面の配置,,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.JA.xaml,
 Portal.WallpaperSettingPage.ScreenLayout.Description,壁紙の画面上での配置を変更します。,,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.JA.xaml,
-PASS⦙269,PASS⦙269,Don't Touch,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.JA.xaml,Please don't touch the translation in this line.
+PASS⦙274,PASS⦙274,Don't Touch,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.JA.xaml,Please don't touch the translation in this line.
 Portal.WallpaperSettingPage.StretchMode,拡大モード,,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.JA.xaml,
 Portal.WallpaperSettingPage.StretchMode.Description,サポートされる壁紙の拡大モードを変更します。,,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.JA.xaml,
-PASS⦙270,PASS⦙270,Don't Touch,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.JA.xaml,Please don't touch the translation in this line.
+PASS⦙275,PASS⦙275,Don't Touch,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.JA.xaml,Please don't touch the translation in this line.
 Portal.WallpaperSettingPage.LoopMode,ループモード,,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.JA.xaml,
 Portal.WallpaperSettingPage.LoopMode.Description,サポートされる壁紙のループモードを変更します。,,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.JA.xaml,
-PASS⦙271,PASS⦙271,Don't Touch,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.JA.xaml,Please don't touch the translation in this line.
+PASS⦙276,PASS⦙276,Don't Touch,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.JA.xaml,Please don't touch the translation in this line.
 Portal.WallpaperSettingPage.ShuffleMode,シャッフルモード,,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.JA.xaml,
 Portal.WallpaperSettingPage.ShuffleMode.Description,サポートされる壁紙のシャッフルモードを変更します。,,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.JA.xaml,
-PASS⦙272,PASS⦙272,Don't Touch,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.JA.xaml,Please don't touch the translation in this line.
+PASS⦙277,PASS⦙277,Don't Touch,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.JA.xaml,Please don't touch the translation in this line.
 Portal.WallpaperSettingPage.GifPlayer,Gif プレイヤー,,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.JA.xaml,
 Portal.WallpaperSettingPage.GifPlayer.Description,ライブラリ内の Gif 形式のテーマを再生するプラグインを選択します。,,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.JA.xaml,
-PASS⦙273,PASS⦙273,Don't Touch,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.JA.xaml,Please don't touch the translation in this line.
+PASS⦙278,PASS⦙278,Don't Touch,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.JA.xaml,Please don't touch the translation in this line.
 Portal.WallpaperSettingPage.VideoPlayer,Video プレイヤー,,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.JA.xaml,
 Portal.WallpaperSettingPage.VideoPlayer.Description,ライブラリ内の Video 形式のテーマを再生するプラグインを選択します。,,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.JA.xaml,
-PASS⦙274,PASS⦙274,Don't Touch,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.JA.xaml,Please don't touch the translation in this line.
+PASS⦙279,PASS⦙279,Don't Touch,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.JA.xaml,Please don't touch the translation in this line.
 Portal.WallpaperSettingPage.UrlPlayer,Url プレーヤー,,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.JA.xaml,
 Portal.WallpaperSettingPage.UrlPlayer.Description,ライブラリ内の Url 形式のテーマを実行するエンジンを選択します。,,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.JA.xaml,
-PASS⦙275,PASS⦙275,Don't Touch,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.JA.xaml,Please don't touch the translation in this line.
+PASS⦙280,PASS⦙280,Don't Touch,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.JA.xaml,Please don't touch the translation in this line.
 Portal.WallpaperSettingPage.WebPlayer,Web エンジン,,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.JA.xaml,
 Portal.WallpaperSettingPage.WebPlayer.Description,ライブラリ内の Web 形式のテーマを実行するエンジンを選択します。,,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.JA.xaml,
-PASS⦙276,PASS⦙276,Don't Touch,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.JA.xaml,Please don't touch the translation in this line.
+PASS⦙281,PASS⦙281,Don't Touch,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.JA.xaml,Please don't touch the translation in this line.
 Portal.WallpaperSettingPage.YouTubePlayer,YouTube エンジン,,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.JA.xaml,
 Portal.WallpaperSettingPage.YouTubePlayer.Description,ライブラリ内の YouTube 形式のテーマを実行するエンジンを選択します。,,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.JA.xaml,
-PASS⦙277,PASS⦙277,Don't Touch,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.JA.xaml,Please don't touch the translation in this line.
+PASS⦙282,PASS⦙282,Don't Touch,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.JA.xaml,Please don't touch the translation in this line.
 Portal.WallpaperSettingPage.ApplicationPlayer,Application エンジン,,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.JA.xaml,
 Portal.WallpaperSettingPage.ApplicationPlayer.Description,ライブラリ内の Application 形式のテーマを実行するエンジンを選択します。,,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.JA.xaml,
 Portal.BrokenStorePage.Title,BrokenStorePage,,Portal\StorePage\BrokenStorePage\Portal.BrokenStorePage.JA.xaml,
-PASS⦙278,PASS⦙278,Don't Touch,Portal\StorePage\BrokenStorePage\Portal.BrokenStorePage.JA.xaml,Please don't touch the translation in this line.
+PASS⦙283,PASS⦙283,Don't Touch,Portal\StorePage\BrokenStorePage\Portal.BrokenStorePage.JA.xaml,Please don't touch the translation in this line.
 Portal.BrokenStorePage.TitleText,インターネットの光が消えた瞬間,,Portal\StorePage\BrokenStorePage\Portal.BrokenStorePage.JA.xaml,
 Portal.BrokenStorePage.DescriptionText,星のない夜空のように、ここにもインターネットの輝きはありません,,Portal\StorePage\BrokenStorePage\Portal.BrokenStorePage.JA.xaml,
 Portal.FullStorePage.Title,FullStorePage,,Portal\StorePage\FullStorePage\Portal.FullStorePage.JA.xaml,
 Portal.SearchStorePage.Title,SearchStorePage,,Portal\StorePage\SearchStorePage\Portal.SearchStorePage.JA.xaml,
-PASS⦙279,PASS⦙279,Don't Touch,Portal\StorePage\SearchStorePage\Portal.SearchStorePage.JA.xaml,Please don't touch the translation in this line.
+PASS⦙284,PASS⦙284,Don't Touch,Portal\StorePage\SearchStorePage\Portal.SearchStorePage.JA.xaml,Please don't touch the translation in this line.
 Portal.SearchStorePage.TitleText,あなたの探しているものの答えは空に隠れているかもしれません,,Portal\StorePage\SearchStorePage\Portal.SearchStorePage.JA.xaml,
 Portal.SearchStorePage.DescriptionText,結果が期待通りにならない場合、空は新しい体験を提供できるかもしれません,,Portal\StorePage\SearchStorePage\Portal.SearchStorePage.JA.xaml,
 Portal.UnknownStorePage.Title,UnknownStorePage,,Portal\StorePage\UnknownStorePage\Portal.UnknownStorePage.JA.xaml,
-PASS⦙280,PASS⦙280,Don't Touch,Portal\StorePage\UnknownStorePage\Portal.UnknownStorePage.JA.xaml,Please don't touch the translation in this line.
+PASS⦙285,PASS⦙285,Don't Touch,Portal\StorePage\UnknownStorePage\Portal.UnknownStorePage.JA.xaml,Please don't touch the translation in this line.
 Portal.UnknownStorePage.TitleText,ストアでの謎の状況を発見,,Portal\StorePage\UnknownStorePage\Portal.UnknownStorePage.JA.xaml,
 Portal.UnknownStorePage.DescriptionText,未知のものを探求し、ストアで起こった謎の状況を解明する旅に出ましょう,,Portal\StorePage\UnknownStorePage\Portal.UnknownStorePage.JA.xaml,

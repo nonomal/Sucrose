@@ -45,6 +45,21 @@
 
     <system:String x:Key="Portal.PerformanceSettingPage.Network.NetworkPing">Ping时间 (毫秒):</system:String>
 
+    <system:String x:Key="Portal.PerformanceSettingPage.Lock">会话锁定</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.Lock.Description">会话锁定时，壁纸会发生什么变化。</system:String>
+
+    <system:String x:Key="Portal.PerformanceSettingPage.Sleep">睡眠模式</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.Sleep.Description">系统处于睡眠模式时，壁纸会发生什么变化。</system:String>
+
+    <system:String x:Key="Portal.PerformanceSettingPage.Console">用户切换</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.Console.Description">用户切换时，壁纸会发生什么变化。</system:String>
+
+    <system:String x:Key="Portal.PerformanceSettingPage.Session">退出会话</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.Session.Description">退出会话时，壁纸会发生什么变化。</system:String>
+
+    <system:String x:Key="Portal.PerformanceSettingPage.ScreenSaver">屏幕保护程序</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.ScreenSaver.Description">启动屏幕保护程序时，壁纸会发生什么变化。</system:String>
+
     <system:String x:Key="Portal.PerformanceSettingPage.Battery">电池电量</system:String>
     <system:String x:Key="Portal.PerformanceSettingPage.Battery.Description">当笔记本电脑在电池电量状态下运行时，将影响壁纸。</system:String>
 

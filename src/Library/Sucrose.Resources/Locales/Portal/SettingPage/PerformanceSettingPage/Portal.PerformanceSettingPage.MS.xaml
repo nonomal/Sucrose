@@ -45,6 +45,21 @@
 
     <system:String x:Key="Portal.PerformanceSettingPage.Network.NetworkPing">Nilai Ping (MS):</system:String>
 
+    <system:String x:Key="Portal.PerformanceSettingPage.Lock">Kunci Sesi</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.Lock.Description">Apa yang akan terjadi pada latar belakang apabila sesi dikunci.</system:String>
+
+    <system:String x:Key="Portal.PerformanceSettingPage.Sleep">Mod Tidur</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.Sleep.Description">Apa yang akan terjadi pada latar belakang apabila sistem dalam mod tidur.</system:String>
+
+    <system:String x:Key="Portal.PerformanceSettingPage.Console">Tukar Pengguna</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.Console.Description">Apa yang akan terjadi pada latar belakang apabila pengguna ditukar.</system:String>
+
+    <system:String x:Key="Portal.PerformanceSettingPage.Session">Log Keluar</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.Session.Description">Apa yang akan terjadi pada latar belakang apabila sesi ditutup.</system:String>
+
+    <system:String x:Key="Portal.PerformanceSettingPage.ScreenSaver">Pengelak Skrin</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.ScreenSaver.Description">Apa yang akan terjadi pada latar belakang apabila pengelak skrin dimulakan.</system:String>
+
     <system:String x:Key="Portal.PerformanceSettingPage.Battery">Kegunaan Bateri</system:String>
     <system:String x:Key="Portal.PerformanceSettingPage.Battery.Description">Apa yang akan berlaku pada dinding semasa menggunakan bateri komputer riba.</system:String>
 

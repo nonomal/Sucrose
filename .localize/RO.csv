@@ -1014,6 +1014,21 @@ Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RO.xaml,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RO.xaml,,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RO.xaml,Portal.PerformanceSettingPage.Network.NetworkPing,Valoare Ping (ms):
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RO.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RO.xaml,Portal.PerformanceSettingPage.Lock,Blocare Sesiune
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RO.xaml,Portal.PerformanceSettingPage.Lock.Description,Ce se întâmplă cu fundalul când sesiunea este blocată.
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RO.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RO.xaml,Portal.PerformanceSettingPage.Sleep,Mod Repaus
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RO.xaml,Portal.PerformanceSettingPage.Sleep.Description,Ce se întâmplă cu fundalul când sistemul este în modul repaus.
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RO.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RO.xaml,Portal.PerformanceSettingPage.Console,Schimbare Utilizator
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RO.xaml,Portal.PerformanceSettingPage.Console.Description,Ce se întâmplă cu fundalul când utilizatorul este schimbat.
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RO.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RO.xaml,Portal.PerformanceSettingPage.Session,Închidere Sesiune
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RO.xaml,Portal.PerformanceSettingPage.Session.Description,Ce se întâmplă cu fundalul când sesiunea este închisă.
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RO.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RO.xaml,Portal.PerformanceSettingPage.ScreenSaver,Protecție Ecran
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RO.xaml,Portal.PerformanceSettingPage.ScreenSaver.Description,Ce se întâmplă cu fundalul când protecția ecranului este activată.
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RO.xaml,,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RO.xaml,Portal.PerformanceSettingPage.Battery,Baterie
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RO.xaml,Portal.PerformanceSettingPage.Battery.Description,Ce se întâmplă cu fundalul temei dvs. atunci când funcționează pe baterie.
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RO.xaml,,

@@ -45,6 +45,21 @@
 
     <system:String x:Key="Portal.PerformanceSettingPage.Network.NetworkPing">Ping-värde (ms):</system:String>
 
+    <system:String x:Key="Portal.PerformanceSettingPage.Lock">Sessionslås</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.Lock.Description">Vad som händer med bakgrunden när sessionen är låst.</system:String>
+
+    <system:String x:Key="Portal.PerformanceSettingPage.Sleep">Viloläge</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.Sleep.Description">Vad som händer med bakgrunden när systemet är i viloläge.</system:String>
+
+    <system:String x:Key="Portal.PerformanceSettingPage.Console">Användarbyte</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.Console.Description">Vad som händer med bakgrunden när användaren byts.</system:String>
+
+    <system:String x:Key="Portal.PerformanceSettingPage.Session">Logga Ut</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.Session.Description">Vad som händer med bakgrunden när sessionen stängs.</system:String>
+
+    <system:String x:Key="Portal.PerformanceSettingPage.ScreenSaver">Skärmsläckare</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.ScreenSaver.Description">Vad som händer med bakgrunden när skärmsläckaren startar.</system:String>
+
     <system:String x:Key="Portal.PerformanceSettingPage.Battery">Batteriström</system:String>
     <system:String x:Key="Portal.PerformanceSettingPage.Battery.Description">Dina inställningar för batteriström kommer att påverka vad som händer med bakgrundsbilden när du använder en bärbar dator.</system:String>
 

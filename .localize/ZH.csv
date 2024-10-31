@@ -1014,6 +1014,21 @@ Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ZH.xaml,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ZH.xaml,,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ZH.xaml,Portal.PerformanceSettingPage.Network.NetworkPing,Ping时间 (毫秒):
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ZH.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ZH.xaml,Portal.PerformanceSettingPage.Lock,会话锁定
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ZH.xaml,Portal.PerformanceSettingPage.Lock.Description,会话锁定时，壁纸会发生什么变化。
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ZH.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ZH.xaml,Portal.PerformanceSettingPage.Sleep,睡眠模式
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ZH.xaml,Portal.PerformanceSettingPage.Sleep.Description,系统处于睡眠模式时，壁纸会发生什么变化。
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ZH.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ZH.xaml,Portal.PerformanceSettingPage.Console,用户切换
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ZH.xaml,Portal.PerformanceSettingPage.Console.Description,用户切换时，壁纸会发生什么变化。
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ZH.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ZH.xaml,Portal.PerformanceSettingPage.Session,退出会话
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ZH.xaml,Portal.PerformanceSettingPage.Session.Description,退出会话时，壁纸会发生什么变化。
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ZH.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ZH.xaml,Portal.PerformanceSettingPage.ScreenSaver,屏幕保护程序
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ZH.xaml,Portal.PerformanceSettingPage.ScreenSaver.Description,启动屏幕保护程序时，壁纸会发生什么变化。
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ZH.xaml,,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ZH.xaml,Portal.PerformanceSettingPage.Battery,电池电量
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ZH.xaml,Portal.PerformanceSettingPage.Battery.Description,当笔记本电脑在电池电量状态下运行时，将影响壁纸。
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ZH.xaml,,

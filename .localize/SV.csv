@@ -1014,6 +1014,21 @@ Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.SV.xaml,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.SV.xaml,,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.SV.xaml,Portal.PerformanceSettingPage.Network.NetworkPing,Ping-värde (ms):
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.SV.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.SV.xaml,Portal.PerformanceSettingPage.Lock,Sessionslås
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.SV.xaml,Portal.PerformanceSettingPage.Lock.Description,Vad som händer med bakgrunden när sessionen är låst.
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.SV.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.SV.xaml,Portal.PerformanceSettingPage.Sleep,Viloläge
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.SV.xaml,Portal.PerformanceSettingPage.Sleep.Description,Vad som händer med bakgrunden när systemet är i viloläge.
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.SV.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.SV.xaml,Portal.PerformanceSettingPage.Console,Användarbyte
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.SV.xaml,Portal.PerformanceSettingPage.Console.Description,Vad som händer med bakgrunden när användaren byts.
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.SV.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.SV.xaml,Portal.PerformanceSettingPage.Session,Logga Ut
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.SV.xaml,Portal.PerformanceSettingPage.Session.Description,Vad som händer med bakgrunden när sessionen stängs.
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.SV.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.SV.xaml,Portal.PerformanceSettingPage.ScreenSaver,Skärmsläckare
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.SV.xaml,Portal.PerformanceSettingPage.ScreenSaver.Description,Vad som händer med bakgrunden när skärmsläckaren startar.
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.SV.xaml,,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.SV.xaml,Portal.PerformanceSettingPage.Battery,Batteriström
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.SV.xaml,Portal.PerformanceSettingPage.Battery.Description,Dina inställningar för batteriström kommer att påverka vad som händer med bakgrundsbilden när du använder en bärbar dator.
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.SV.xaml,,

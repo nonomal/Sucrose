@@ -1014,6 +1014,21 @@ Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.JA.xaml,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.JA.xaml,,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.JA.xaml,Portal.PerformanceSettingPage.Network.NetworkPing,Ping 値 (ミリ秒):
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.JA.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.JA.xaml,Portal.PerformanceSettingPage.Lock,セッションロック
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.JA.xaml,Portal.PerformanceSettingPage.Lock.Description,セッションがロックされているときに壁紙に何が起こるか。
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.JA.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.JA.xaml,Portal.PerformanceSettingPage.Sleep,スリープモード
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.JA.xaml,Portal.PerformanceSettingPage.Sleep.Description,システムがスリープモードのときに壁紙に何が起こるか。
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.JA.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.JA.xaml,Portal.PerformanceSettingPage.Console,ユーザー切り替え
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.JA.xaml,Portal.PerformanceSettingPage.Console.Description,ユーザーが切り替えられたときに壁紙に何が起こるか。
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.JA.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.JA.xaml,Portal.PerformanceSettingPage.Session,ログアウト
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.JA.xaml,Portal.PerformanceSettingPage.Session.Description,セッションが閉じられたときに壁紙に何が起こるか。
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.JA.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.JA.xaml,Portal.PerformanceSettingPage.ScreenSaver,スクリーンセーバー
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.JA.xaml,Portal.PerformanceSettingPage.ScreenSaver.Description,スクリーンセーバーが起動したときに壁紙に何が起こるか。
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.JA.xaml,,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.JA.xaml,Portal.PerformanceSettingPage.Battery,バッテリー
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.JA.xaml,Portal.PerformanceSettingPage.Battery.Description,ノートパソコンのバッテリー使用中に壁紙の動作。
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.JA.xaml,,

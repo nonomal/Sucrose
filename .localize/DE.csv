@@ -1014,6 +1014,21 @@ Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.DE.xaml,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.DE.xaml,,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.DE.xaml,Portal.PerformanceSettingPage.Network.NetworkPing,Ping-Wert (MS):
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.DE.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.DE.xaml,Portal.PerformanceSettingPage.Lock,Sitzungssperre
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.DE.xaml,Portal.PerformanceSettingPage.Lock.Description,"Was mit dem Hintergrundbild passiert, wenn die Sitzung gesperrt ist."
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.DE.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.DE.xaml,Portal.PerformanceSettingPage.Sleep,Energiesparmodus
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.DE.xaml,Portal.PerformanceSettingPage.Sleep.Description,"Was mit dem Hintergrundbild passiert, wenn das System im Energiesparmodus ist."
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.DE.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.DE.xaml,Portal.PerformanceSettingPage.Console,Benutzerwechsel
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.DE.xaml,Portal.PerformanceSettingPage.Console.Description,"Was mit dem Hintergrundbild passiert, wenn der Benutzer gewechselt wird."
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.DE.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.DE.xaml,Portal.PerformanceSettingPage.Session,Abmelden
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.DE.xaml,Portal.PerformanceSettingPage.Session.Description,"Was mit dem Hintergrundbild passiert, wenn die Sitzung beendet wird."
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.DE.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.DE.xaml,Portal.PerformanceSettingPage.ScreenSaver,Bildschirmschoner
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.DE.xaml,Portal.PerformanceSettingPage.ScreenSaver.Description,"Was mit dem Hintergrundbild passiert, wenn der Bildschirmschoner startet."
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.DE.xaml,,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.DE.xaml,Portal.PerformanceSettingPage.Battery,Akku
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.DE.xaml,Portal.PerformanceSettingPage.Battery.Description,"Was mit dem Hintergrundbild passiert, wenn es mit dem Akku eines Laptops läuft."
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.DE.xaml,,

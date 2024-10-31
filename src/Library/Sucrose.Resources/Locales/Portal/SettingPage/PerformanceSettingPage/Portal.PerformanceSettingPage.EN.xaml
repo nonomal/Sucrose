@@ -45,6 +45,21 @@
 
     <system:String x:Key="Portal.PerformanceSettingPage.Network.NetworkPing">Ping Value (MS):</system:String>
 
+    <system:String x:Key="Portal.PerformanceSettingPage.Lock">Session Lock</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.Lock.Description">What happens to the wallpaper when the session is locked.</system:String>
+
+    <system:String x:Key="Portal.PerformanceSettingPage.Sleep">Sleep Mode</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.Sleep.Description">What happens to the wallpaper when the system is in sleep mode.</system:String>
+
+    <system:String x:Key="Portal.PerformanceSettingPage.Console">User Switch</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.Console.Description">What happens to the wallpaper when the user is switched.</system:String>
+
+    <system:String x:Key="Portal.PerformanceSettingPage.Session">Log Out</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.Session.Description">What happens to the wallpaper when the session is closed.</system:String>
+
+    <system:String x:Key="Portal.PerformanceSettingPage.ScreenSaver">Screen Saver</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.ScreenSaver.Description">What happens to the wallpaper when the screen saver starts.</system:String>
+
     <system:String x:Key="Portal.PerformanceSettingPage.Battery">Battery Power</system:String>
     <system:String x:Key="Portal.PerformanceSettingPage.Battery.Description">What happens to the wallpaper when running on laptop battery power.</system:String>
 

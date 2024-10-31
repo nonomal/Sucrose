@@ -45,6 +45,21 @@
 
     <system:String x:Key="Portal.PerformanceSettingPage.Network.NetworkPing">Valor de Ping (MS):</system:String>
 
+    <system:String x:Key="Portal.PerformanceSettingPage.Lock">Bloqueo de Sesión</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.Lock.Description">Qué sucede con el fondo de pantalla cuando la sesión está bloqueada.</system:String>
+
+    <system:String x:Key="Portal.PerformanceSettingPage.Sleep">Modo de Suspensión</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.Sleep.Description">Qué sucede con el fondo de pantalla cuando el sistema está en modo de suspensión.</system:String>
+
+    <system:String x:Key="Portal.PerformanceSettingPage.Console">Cambio de Usuario</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.Console.Description">Qué sucede con el fondo de pantalla cuando se cambia el usuario.</system:String>
+
+    <system:String x:Key="Portal.PerformanceSettingPage.Session">Cerrar Sesión</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.Session.Description">Qué sucede con el fondo de pantalla cuando se cierra la sesión.</system:String>
+
+    <system:String x:Key="Portal.PerformanceSettingPage.ScreenSaver">Protector de Pantalla</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.ScreenSaver.Description">Qué sucede con el fondo de pantalla cuando se activa el protector de pantalla.</system:String>
+
     <system:String x:Key="Portal.PerformanceSettingPage.Battery">Energía de la Batería</system:String>
     <system:String x:Key="Portal.PerformanceSettingPage.Battery.Description">Qué sucede con el fondo de pantalla cuando se ejecuta con la energía de la batería de la computadora portátil.</system:String>
 

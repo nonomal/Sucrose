@@ -45,6 +45,21 @@
 
     <system:String x:Key="Portal.PerformanceSettingPage.Network.NetworkPing">Valeur de Ping (ms) :</system:String>
 
+    <system:String x:Key="Portal.PerformanceSettingPage.Lock">Verrouillage de Session</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.Lock.Description">Ce qui arrive au fond d'écran lorsque la session est verrouillée.</system:String>
+
+    <system:String x:Key="Portal.PerformanceSettingPage.Sleep">Mode Veille</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.Sleep.Description">Ce qui arrive au fond d'écran lorsque le système est en mode veille.</system:String>
+
+    <system:String x:Key="Portal.PerformanceSettingPage.Console">Changement d'Utilisateur</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.Console.Description">Ce qui arrive au fond d'écran lorsque l'utilisateur est changé.</system:String>
+
+    <system:String x:Key="Portal.PerformanceSettingPage.Session">Déconnexion</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.Session.Description">Ce qui arrive au fond d'écran lorsque la session est fermée.</system:String>
+
+    <system:String x:Key="Portal.PerformanceSettingPage.ScreenSaver">Économiseur d'Écran</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.ScreenSaver.Description">Ce qui arrive au fond d'écran lorsque l'économiseur d'écran démarre.</system:String>
+
     <system:String x:Key="Portal.PerformanceSettingPage.Battery">Alimentation de la Batterie</system:String>
     <system:String x:Key="Portal.PerformanceSettingPage.Battery.Description">Ce qui se passe avec l'arrière-plan lorsqu'il fonctionne sur l'alimentation de la batterie de l'ordinateur portable.</system:String>
 

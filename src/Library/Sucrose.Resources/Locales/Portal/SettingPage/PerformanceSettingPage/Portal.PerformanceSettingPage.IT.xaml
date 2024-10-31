@@ -45,6 +45,21 @@
 
     <system:String x:Key="Portal.PerformanceSettingPage.Network.NetworkPing">Valore del Ping (ms):</system:String>
 
+    <system:String x:Key="Portal.PerformanceSettingPage.Lock">Blocco Sessione</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.Lock.Description">Cosa succede allo sfondo quando la sessione è bloccata.</system:String>
+
+    <system:String x:Key="Portal.PerformanceSettingPage.Sleep">Modalità Sospensione</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.Sleep.Description">Cosa succede allo sfondo quando il sistema è in modalità sospensione.</system:String>
+
+    <system:String x:Key="Portal.PerformanceSettingPage.Console">Cambio Utente</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.Console.Description">Cosa succede allo sfondo quando si cambia utente.</system:String>
+
+    <system:String x:Key="Portal.PerformanceSettingPage.Session">Disconnetti</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.Session.Description">Cosa succede allo sfondo quando la sessione viene chiusa.</system:String>
+
+    <system:String x:Key="Portal.PerformanceSettingPage.ScreenSaver">Salvaschermo</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.ScreenSaver.Description">Cosa succede allo sfondo quando si avvia il salvaschermo.</system:String>
+
     <system:String x:Key="Portal.PerformanceSettingPage.Battery">Stato della Batteria</system:String>
     <system:String x:Key="Portal.PerformanceSettingPage.Battery.Description">Cosa dovrebbe accadere al wallpaper quando si utilizza un laptop con alimentazione a batteria.</system:String>
 

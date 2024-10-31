@@ -45,6 +45,21 @@
 
     <system:String x:Key="Portal.PerformanceSettingPage.Network.NetworkPing">पिंग मान (मिलिसेकंड):</system:String>
 
+    <system:String x:Key="Portal.PerformanceSettingPage.Lock">सत्र लॉक</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.Lock.Description">जब सत्र लॉक होता है, तब वॉलपेपर के साथ क्या होता है।</system:String>
+
+    <system:String x:Key="Portal.PerformanceSettingPage.Sleep">नींद मोड</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.Sleep.Description">जब सिस्टम नींद मोड में होता है, तब वॉलपेपर के साथ क्या होता है।</system:String>
+
+    <system:String x:Key="Portal.PerformanceSettingPage.Console">उपयोगकर्ता परिवर्तन</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.Console.Description">जब उपयोगकर्ता बदलता है, तब वॉलपेपर के साथ क्या होता है।</system:String>
+
+    <system:String x:Key="Portal.PerformanceSettingPage.Session">लॉग आउट</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.Session.Description">जब सत्र बंद होता है, तब वॉलपेपर के साथ क्या होता है।</system:String>
+
+    <system:String x:Key="Portal.PerformanceSettingPage.ScreenSaver">स्क्रीन सेवर</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.ScreenSaver.Description">जब स्क्रीन सेवर शुरू होता है, तब वॉलपेपर के साथ क्या होता है।</system:String>
+
     <system:String x:Key="Portal.PerformanceSettingPage.Battery">बैटरी पावर</system:String>
     <system:String x:Key="Portal.PerformanceSettingPage.Battery.Description">लैपटॉप बैटरी पॉवर पर काम करते समय वॉलपेपर पर क्या होने वाला है।</system:String>
 

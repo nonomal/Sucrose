@@ -1014,184 +1014,199 @@ Portal.PerformanceSettingPage.Network.NetworkDownload,Размер загруз�
 PASS⦙214,PASS⦙214,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RU.xaml,Please don't touch the translation in this line.
 Portal.PerformanceSettingPage.Network.NetworkPing,Задержка (мс):,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RU.xaml,
 PASS⦙215,PASS⦙215,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RU.xaml,Please don't touch the translation in this line.
+Portal.PerformanceSettingPage.Lock,Блокировка Сеанса,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RU.xaml,
+Portal.PerformanceSettingPage.Lock.Description,"Что происходит с обоями, когда сеанс заблокирован.",,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RU.xaml,
+PASS⦙216,PASS⦙216,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RU.xaml,Please don't touch the translation in this line.
+Portal.PerformanceSettingPage.Sleep,Режим Сна,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RU.xaml,
+Portal.PerformanceSettingPage.Sleep.Description,"Что происходит с обоями, когда система находится в режиме сна.",,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RU.xaml,
+PASS⦙217,PASS⦙217,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RU.xaml,Please don't touch the translation in this line.
+Portal.PerformanceSettingPage.Console,Смена Пользователя,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RU.xaml,
+Portal.PerformanceSettingPage.Console.Description,"Что происходит с обоями, когда пользователь меняется.",,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RU.xaml,
+PASS⦙218,PASS⦙218,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RU.xaml,Please don't touch the translation in this line.
+Portal.PerformanceSettingPage.Session,Выход из Сеанса,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RU.xaml,
+Portal.PerformanceSettingPage.Session.Description,"Что происходит с обоями, когда сеанс завершается.",,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RU.xaml,
+PASS⦙219,PASS⦙219,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RU.xaml,Please don't touch the translation in this line.
+Portal.PerformanceSettingPage.ScreenSaver,Заставка,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RU.xaml,
+Portal.PerformanceSettingPage.ScreenSaver.Description,"Что происходит с обоями, когда запускается заставка.",,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RU.xaml,
+PASS⦙220,PASS⦙220,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RU.xaml,Please don't touch the translation in this line.
 Portal.PerformanceSettingPage.Battery,Заряд батареи,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RU.xaml,
 Portal.PerformanceSettingPage.Battery.Description,Определяет влияние состояния заряда батареи ноутбука на обои.,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RU.xaml,
-PASS⦙216,PASS⦙216,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RU.xaml,Please don't touch the translation in this line.
+PASS⦙221,PASS⦙221,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RU.xaml,Please don't touch the translation in this line.
 Portal.PerformanceSettingPage.Battery.BatteryUsage,Уровень заряда батареи (%):,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RU.xaml,
-PASS⦙217,PASS⦙217,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RU.xaml,Please don't touch the translation in this line.
+PASS⦙222,PASS⦙222,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RU.xaml,Please don't touch the translation in this line.
 Portal.PerformanceSettingPage.BatterySaver,Экономия батареи,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RU.xaml,
 Portal.PerformanceSettingPage.BatterySaver.Description,Определяет влияние режима экономии батареи на обои.,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RU.xaml,
-PASS⦙218,PASS⦙218,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RU.xaml,Please don't touch the translation in this line.
+PASS⦙223,PASS⦙223,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RU.xaml,Please don't touch the translation in this line.
 Portal.PerformanceSettingPage.Virtual,Виртуализация,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RU.xaml,
 Portal.PerformanceSettingPage.Virtual.Description,Определяет влияние запущенных виртуальных машин на обои.,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RU.xaml,
-PASS⦙219,PASS⦙219,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RU.xaml,Please don't touch the translation in this line.
+PASS⦙224,PASS⦙224,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RU.xaml,Please don't touch the translation in this line.
 Portal.PerformanceSettingPage.Remote,Удаленный рабочий стол,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RU.xaml,
 Portal.PerformanceSettingPage.Remote.Description,Определяет влияние работы с удаленными рабочими столами на обои.,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RU.xaml,
-PASS⦙220,PASS⦙220,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RU.xaml,Please don't touch the translation in this line.
+PASS⦙225,PASS⦙225,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RU.xaml,Please don't touch the translation in this line.
 Portal.PerformanceSettingPage.FullScreen,Полноэкранный режим,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RU.xaml,
 Portal.PerformanceSettingPage.FullScreen.Description,Определяет влияние запуска приложений в полноэкранном режиме на обои.,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RU.xaml,
-PASS⦙221,PASS⦙221,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RU.xaml,Please don't touch the translation in this line.
+PASS⦙226,PASS⦙226,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RU.xaml,Please don't touch the translation in this line.
 Portal.PerformanceSettingPage.Focus,Режим активности,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RU.xaml,
 Portal.PerformanceSettingPage.Focus.Description,Определяет влияние активности других приложений в фоне на обои.,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RU.xaml,
 Portal.PersonalSettingPage.Title,PersonalSettingPage,,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.RU.xaml,
-PASS⦙222,PASS⦙222,Don't Touch,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.RU.xaml,Please don't touch the translation in this line.
+PASS⦙227,PASS⦙227,Don't Touch,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.RU.xaml,Please don't touch the translation in this line.
 Portal.PersonalSettingPage.Server,Сервер магазина,,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.RU.xaml,
 Portal.PersonalSettingPage.Server.Description,"Указывает, какой сервер будет использоваться для отображения тем, перечисленных в магазине.",,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.RU.xaml,
-PASS⦙223,PASS⦙223,Don't Touch,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.RU.xaml,Please don't touch the translation in this line.
+PASS⦙228,PASS⦙228,Don't Touch,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.RU.xaml,Please don't touch the translation in this line.
 Portal.PersonalSettingPage.Server.ServerHint,"Примечание: Если выбран сервер {0}, необходимо ввести {2}, чтобы избежать ограничений запросов. В противном случае возможны проблемы с доступом к темам в магазине. Если выбран {1}, вы получите более плавный опыт в магазине.",,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.RU.xaml,
-PASS⦙224,PASS⦙224,Don't Touch,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.RU.xaml,Please don't touch the translation in this line.
+PASS⦙229,PASS⦙229,Don't Touch,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.RU.xaml,Please don't touch the translation in this line.
 Portal.PersonalSettingPage.Duration,Обновление магазина,,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.RU.xaml,
 Portal.PersonalSettingPage.Duration.Description,"Продолжительность обновления тем, отображаемых в магазине.",,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.RU.xaml,
-PASS⦙225,PASS⦙225,Don't Touch,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.RU.xaml,Please don't touch the translation in this line.
+PASS⦙230,PASS⦙230,Don't Touch,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.RU.xaml,Please don't touch the translation in this line.
 Portal.PersonalSettingPage.StoreStart,Автоматический запуск,,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.RU.xaml,
 Portal.PersonalSettingPage.StoreStart.Description,Автоматически ли установленные темы из магазина будут использоваться как обои.,,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.RU.xaml,
-PASS⦙226,PASS⦙226,Don't Touch,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.RU.xaml,Please don't touch the translation in this line.
+PASS⦙231,PASS⦙231,Don't Touch,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.RU.xaml,Please don't touch the translation in this line.
 Portal.PersonalSettingPage.Adult,Нецензурный контент,,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.RU.xaml,
 Portal.PersonalSettingPage.Adult.Description,"Показывать или скрывать содержание, отмеченное как ненадежное (NSFW) в магазине.",,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.RU.xaml,
-PASS⦙227,PASS⦙227,Don't Touch,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.RU.xaml,Please don't touch the translation in this line.
+PASS⦙232,PASS⦙232,Don't Touch,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.RU.xaml,Please don't touch the translation in this line.
 Portal.PersonalSettingPage.Confirm,Запрос подтверждения удаления,,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.RU.xaml,
 Portal.PersonalSettingPage.Confirm.Description,Запрашивать подтверждение при удалении тем из вашей библиотеки.,,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.RU.xaml,
-PASS⦙228,PASS⦙228,Don't Touch,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.RU.xaml,Please don't touch the translation in this line.
+PASS⦙233,PASS⦙233,Don't Touch,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.RU.xaml,Please don't touch the translation in this line.
 Portal.PersonalSettingPage.Delete,Удаление битых тем,,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.RU.xaml,
 Portal.PersonalSettingPage.Delete.Description,Удалять автоматически битые или отсутствующие темы из вашей библиотеки.,,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.RU.xaml,
-PASS⦙229,PASS⦙229,Don't Touch,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.RU.xaml,Please don't touch the translation in this line.
+PASS⦙234,PASS⦙234,Don't Touch,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.RU.xaml,Please don't touch the translation in this line.
 Portal.PersonalSettingPage.Delete.DeleteHint,"Примечание: Пожалуйста, будьте осторожны. В противном случае, это может привести к потере данных.",,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.RU.xaml,
-PASS⦙230,PASS⦙230,Don't Touch,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.RU.xaml,Please don't touch the translation in this line.
+PASS⦙235,PASS⦙235,Don't Touch,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.RU.xaml,Please don't touch the translation in this line.
 Portal.PersonalSettingPage.LibraryStart,Автоматический запуск,,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.RU.xaml,
 Portal.PersonalSettingPage.LibraryStart.Description,Автоматически ли созданные темы будут использоваться как обои в вашей библиотеке.,,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.RU.xaml,
-PASS⦙231,PASS⦙231,Don't Touch,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.RU.xaml,Please don't touch the translation in this line.
+PASS⦙236,PASS⦙236,Don't Touch,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.RU.xaml,Please don't touch the translation in this line.
 Portal.PersonalSettingPage.Preview,Предварительный просмотр тем,,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.RU.xaml,
 Portal.PersonalSettingPage.Preview.Description,"Отображать предварительный просмотр тем, когда курсор наводится на них.",,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.RU.xaml,
-PASS⦙232,PASS⦙232,Don't Touch,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.RU.xaml,Please don't touch the translation in this line.
+PASS⦙237,PASS⦙237,Don't Touch,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.RU.xaml,Please don't touch the translation in this line.
 Portal.PersonalSettingPage.Preview.StorePreview,Предварительный просмотр в магазине:,,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.RU.xaml,
 Portal.PersonalSettingPage.Preview.StorePreviewHide,Скрывать детали:,,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.RU.xaml,
-PASS⦙233,PASS⦙233,Don't Touch,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.RU.xaml,Please don't touch the translation in this line.
+PASS⦙238,PASS⦙238,Don't Touch,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.RU.xaml,Please don't touch the translation in this line.
 Portal.PersonalSettingPage.Preview.LibraryPreview,Предварительный просмотр в библиотеке:,,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.RU.xaml,
 Portal.PersonalSettingPage.Preview.LibraryPreviewHide,Скрывать детали:,,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.RU.xaml,
-PASS⦙234,PASS⦙234,Don't Touch,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.RU.xaml,Please don't touch the translation in this line.
+PASS⦙239,PASS⦙239,Don't Touch,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.RU.xaml,Please don't touch the translation in this line.
 Portal.PersonalSettingPage.Adaptive,Адаптивный макет,,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.RU.xaml,
 Portal.PersonalSettingPage.Adaptive.Description,Настройте макет или расстояние отображаемых тем.,,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.RU.xaml,
-PASS⦙235,PASS⦙235,Don't Touch,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.RU.xaml,Please don't touch the translation in this line.
+PASS⦙240,PASS⦙240,Don't Touch,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.RU.xaml,Please don't touch the translation in this line.
 Portal.PersonalSettingPage.Adaptive.AdaptiveMargin,Отступ (пиксели):,,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.RU.xaml,
-PASS⦙236,PASS⦙236,Don't Touch,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.RU.xaml,Please don't touch the translation in this line.
+PASS⦙241,PASS⦙241,Don't Touch,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.RU.xaml,Please don't touch the translation in this line.
 Portal.PersonalSettingPage.Adaptive.AdaptiveLayout,Количество столбцов:,,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.RU.xaml,
-PASS⦙237,PASS⦙237,Don't Touch,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.RU.xaml,Please don't touch the translation in this line.
+PASS⦙242,PASS⦙242,Don't Touch,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.RU.xaml,Please don't touch the translation in this line.
 Portal.PersonalSettingPage.Sort,Сортировка библиотеки,,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.RU.xaml,
 Portal.PersonalSettingPage.Sort.Description,"Определите, как темы в вашей библиотеке будут сортироваться и в каком формате.",,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.RU.xaml,
-PASS⦙238,PASS⦙238,Don't Touch,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.RU.xaml,Please don't touch the translation in this line.
+PASS⦙243,PASS⦙243,Don't Touch,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.RU.xaml,Please don't touch the translation in this line.
 Portal.PersonalSettingPage.Sort.SortMode,Режим сортировки:,,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.RU.xaml,
-PASS⦙239,PASS⦙239,Don't Touch,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.RU.xaml,Please don't touch the translation in this line.
+PASS⦙244,PASS⦙244,Don't Touch,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.RU.xaml,Please don't touch the translation in this line.
 Portal.PersonalSettingPage.Sort.SortKind,Тип сортировки:,,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.RU.xaml,
-PASS⦙240,PASS⦙240,Don't Touch,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.RU.xaml,Please don't touch the translation in this line.
+PASS⦙245,PASS⦙245,Don't Touch,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.RU.xaml,Please don't touch the translation in this line.
 Portal.PersonalSettingPage.Store,Пагинация в магазине,,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.RU.xaml,
 Portal.PersonalSettingPage.Store.Description,Настройте количество тем на каждой странице магазина.,,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.RU.xaml,
-PASS⦙241,PASS⦙241,Don't Touch,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.RU.xaml,Please don't touch the translation in this line.
+PASS⦙246,PASS⦙246,Don't Touch,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.RU.xaml,Please don't touch the translation in this line.
 Portal.PersonalSettingPage.Library,Пагинация в библиотеке,,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.RU.xaml,
 Portal.PersonalSettingPage.Library.Description,Настройте количество тем на каждой странице вашей библиотеки.,,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.RU.xaml,
 Portal.SystemSettingPage.Title,SystemSettingPage,,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.RU.xaml,
-PASS⦙242,PASS⦙242,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.RU.xaml,Please don't touch the translation in this line.
+PASS⦙247,PASS⦙247,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.RU.xaml,Please don't touch the translation in this line.
 Portal.SystemSettingPage.LogTemporary,Файлы журнала,,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.RU.xaml,
 Portal.SystemSettingPage.LogTemporary.Description,"Управление всеми файлами журнала, созданными приложением.",,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.RU.xaml,
-PASS⦙243,PASS⦙243,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.RU.xaml,Please don't touch the translation in this line.
+PASS⦙248,PASS⦙248,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.RU.xaml,Please don't touch the translation in this line.
 Portal.SystemSettingPage.LogTemporary.Create,Создать,,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.RU.xaml,
-PASS⦙244,PASS⦙244,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.RU.xaml,Please don't touch the translation in this line.
+PASS⦙249,PASS⦙249,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.RU.xaml,Please don't touch the translation in this line.
 Portal.SystemSettingPage.LogTemporary.Delete,Очистить,,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.RU.xaml,
-PASS⦙245,PASS⦙245,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.RU.xaml,Please don't touch the translation in this line.
+PASS⦙250,PASS⦙250,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.RU.xaml,Please don't touch the translation in this line.
 Portal.SystemSettingPage.LogTemporary.Hint,Примечание: Общий размер файлов журнала составляет {0}. При начале очистки все приложения будут закрыты.,,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.RU.xaml,
-PASS⦙246,PASS⦙246,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.RU.xaml,Please don't touch the translation in this line.
+PASS⦙251,PASS⦙251,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.RU.xaml,Please don't touch the translation in this line.
 Portal.SystemSettingPage.CacheTemporary,Очистка кэша,,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.RU.xaml,
 Portal.SystemSettingPage.CacheTemporary.Description,"Удаление всех файлов кэша, созданных приложением.",,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.RU.xaml,
-PASS⦙247,PASS⦙247,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.RU.xaml,Please don't touch the translation in this line.
+PASS⦙252,PASS⦙252,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.RU.xaml,Please don't touch the translation in this line.
 Portal.SystemSettingPage.CacheTemporary.Start,Начать очистку,,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.RU.xaml,
-PASS⦙248,PASS⦙248,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.RU.xaml,Please don't touch the translation in this line.
+PASS⦙253,PASS⦙253,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.RU.xaml,Please don't touch the translation in this line.
 Portal.SystemSettingPage.CacheTemporary.Hint,Примечание: Общий размер файлов кэша составляет {0}. При начале очистки все приложения будут закрыты.,,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.RU.xaml,
-PASS⦙249,PASS⦙249,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.RU.xaml,Please don't touch the translation in this line.
+PASS⦙254,PASS⦙254,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.RU.xaml,Please don't touch the translation in this line.
 Portal.SystemSettingPage.StoreTemporary,Очистка магазина,,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.RU.xaml,
 Portal.SystemSettingPage.StoreTemporary.Description,"Удаление всех файлов магазина, созданных приложением.",,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.RU.xaml,
-PASS⦙250,PASS⦙250,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.RU.xaml,Please don't touch the translation in this line.
+PASS⦙255,PASS⦙255,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.RU.xaml,Please don't touch the translation in this line.
 Portal.SystemSettingPage.StoreTemporary.Start,Начать очистку,,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.RU.xaml,
-PASS⦙251,PASS⦙251,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.RU.xaml,Please don't touch the translation in this line.
+PASS⦙256,PASS⦙256,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.RU.xaml,Please don't touch the translation in this line.
 Portal.SystemSettingPage.StoreTemporary.Hint,Примечание: Общий размер файлов магазина составляет {0}. При начале очистки все приложения будут закрыты.,,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.RU.xaml,
-PASS⦙252,PASS⦙252,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.RU.xaml,Please don't touch the translation in this line.
+PASS⦙257,PASS⦙257,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.RU.xaml,Please don't touch the translation in this line.
 Portal.SystemSettingPage.LibraryTemporary,Очистка библиотеки,,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.RU.xaml,
 Portal.SystemSettingPage.LibraryTemporary.Description,"Удаление всех файлов тем, находящихся в вашей библиотеке или созданных вами.",,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.RU.xaml,
-PASS⦙253,PASS⦙253,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.RU.xaml,Please don't touch the translation in this line.
+PASS⦙258,PASS⦙258,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.RU.xaml,Please don't touch the translation in this line.
 Portal.SystemSettingPage.LibraryTemporary.Start,Начать очистку,,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.RU.xaml,
-PASS⦙254,PASS⦙254,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.RU.xaml,Please don't touch the translation in this line.
+PASS⦙259,PASS⦙259,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.RU.xaml,Please don't touch the translation in this line.
 Portal.SystemSettingPage.LibraryTemporary.Hint,Примечание: Общий размер файлов тем в вашей библиотеке составляет {0}. При начале очистки все приложения будут закрыты.,,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.RU.xaml,
-PASS⦙255,PASS⦙255,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.RU.xaml,Please don't touch the translation in this line.
+PASS⦙260,PASS⦙260,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.RU.xaml,Please don't touch the translation in this line.
 Portal.SystemSettingPage.SettingBackup,Файлы настроек,,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.RU.xaml,
 Portal.SystemSettingPage.SettingBackup.Description,"Управление всеми файлами настроек, созданными приложением.",,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.RU.xaml,
-PASS⦙256,PASS⦙256,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.RU.xaml,Please don't touch the translation in this line.
+PASS⦙261,PASS⦙261,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.RU.xaml,Please don't touch the translation in this line.
 Portal.SystemSettingPage.SettingBackup.Export,Создать резервную копию,,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.RU.xaml,
-PASS⦙257,PASS⦙257,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.RU.xaml,Please don't touch the translation in this line.
+PASS⦙262,PASS⦙262,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.RU.xaml,Please don't touch the translation in this line.
 Portal.SystemSettingPage.SettingBackup.Import,Восстановить,,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.RU.xaml,
-PASS⦙258,PASS⦙258,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.RU.xaml,Please don't touch the translation in this line.
+PASS⦙263,PASS⦙263,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.RU.xaml,Please don't touch the translation in this line.
 Portal.SystemSettingPage.SettingBackup.Hint,Примечание: При начале выбранной операции все приложения будут закрыты.,,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.RU.xaml,
-PASS⦙259,PASS⦙259,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.RU.xaml,Please don't touch the translation in this line.
+PASS⦙264,PASS⦙264,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.RU.xaml,Please don't touch the translation in this line.
 Portal.SystemSettingPage.SettingReset,Сброс настроек,,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.RU.xaml,
 Portal.SystemSettingPage.SettingReset.Description,"Сброс всех файлов настроек, созданных приложением.",,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.RU.xaml,
-PASS⦙260,PASS⦙260,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.RU.xaml,Please don't touch the translation in this line.
+PASS⦙265,PASS⦙265,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.RU.xaml,Please don't touch the translation in this line.
 Portal.SystemSettingPage.SettingReset.Start,Начать сброс,,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.RU.xaml,
-PASS⦙261,PASS⦙261,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.RU.xaml,Please don't touch the translation in this line.
+PASS⦙266,PASS⦙266,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.RU.xaml,Please don't touch the translation in this line.
 Portal.SystemSettingPage.SettingReset.Hint,Примечание: При начале сброса все приложения будут закрыты.,,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.RU.xaml,
-PASS⦙262,PASS⦙262,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.RU.xaml,Please don't touch the translation in this line.
+PASS⦙267,PASS⦙267,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.RU.xaml,Please don't touch the translation in this line.
 Portal.SystemSettingPage.Log.SaveDialogTitle,Сохранить файл журнала,,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.RU.xaml,
 Portal.SystemSettingPage.Log.SaveDialogFilter,Файлы ZIP (*.zip)|*.zip|Все файлы (*.*)|*.*,,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.RU.xaml,
-PASS⦙263,PASS⦙263,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.RU.xaml,Please don't touch the translation in this line.
+PASS⦙268,PASS⦙268,Don't Touch,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.RU.xaml,Please don't touch the translation in this line.
 Portal.SystemSettingPage.Access.Close,Понял,,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.RU.xaml,
 Portal.SystemSettingPage.Access.Title,Предупреждение о Доступе,,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.RU.xaml,
 Portal.SystemSettingPage.Access.Message,У вас нет прав доступа к выбранному местоположению.,,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.RU.xaml,
 Portal.WallpaperSettingPage.Title,WallpaperSettingPage,,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,
-PASS⦙264,PASS⦙264,Don't Touch,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,Please don't touch the translation in this line.
+PASS⦙269,PASS⦙269,Don't Touch,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,Please don't touch the translation in this line.
 Portal.WallpaperSettingPage.InputMode,Метод Взаимодействия,,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,
 Portal.WallpaperSettingPage.InputMode.Description,"Определяет методы, с помощью которых может взаимодействовать с поддерживаемыми обоями.",,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,
-PASS⦙265,PASS⦙265,Don't Touch,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,Please don't touch the translation in this line.
+PASS⦙270,PASS⦙270,Don't Touch,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,Please don't touch the translation in this line.
 Portal.WallpaperSettingPage.InputMode.InputModule,Модуль Взаимодействия:,,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,
-PASS⦙266,PASS⦙266,Don't Touch,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,Please don't touch the translation in this line.
+PASS⦙271,PASS⦙271,Don't Touch,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,Please don't touch the translation in this line.
 Portal.WallpaperSettingPage.InputMode.InputDesktop,Обрабатывать взаимодействие только при фокусировке на рабочем столе,,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,
-PASS⦙267,PASS⦙267,Don't Touch,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,Please don't touch the translation in this line.
+PASS⦙272,PASS⦙272,Don't Touch,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,Please don't touch the translation in this line.
 Portal.WallpaperSettingPage.InputMode.DesktopIcon,"Скрыть, чтобы избежать случайного выбора значков рабочего стола",,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,
-PASS⦙268,PASS⦙268,Don't Touch,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,Please don't touch the translation in this line.
+PASS⦙273,PASS⦙273,Don't Touch,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,Please don't touch the translation in this line.
 Portal.WallpaperSettingPage.ScreenLayout,Раскладка Экрана,,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,
 Portal.WallpaperSettingPage.ScreenLayout.Description,Измените расположение ваших обоев на экране.,,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,
-PASS⦙269,PASS⦙269,Don't Touch,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,Please don't touch the translation in this line.
+PASS⦙274,PASS⦙274,Don't Touch,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,Please don't touch the translation in this line.
 Portal.WallpaperSettingPage.StretchMode,Режим Pастяжения,,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,
 Portal.WallpaperSettingPage.StretchMode.Description,Измените метод изменения масштаба для поддерживаемых обоев.,,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,
-PASS⦙270,PASS⦙270,Don't Touch,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,Please don't touch the translation in this line.
+PASS⦙275,PASS⦙275,Don't Touch,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,Please don't touch the translation in this line.
 Portal.WallpaperSettingPage.LoopMode,Режим Повтора,,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,
 Portal.WallpaperSettingPage.LoopMode.Description,Измените режим повтора для поддерживаемых обоев.,,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,
-PASS⦙271,PASS⦙271,Don't Touch,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,Please don't touch the translation in this line.
+PASS⦙276,PASS⦙276,Don't Touch,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,Please don't touch the translation in this line.
 Portal.WallpaperSettingPage.ShuffleMode,Режим Перемешивания,,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,
 Portal.WallpaperSettingPage.ShuffleMode.Description,Измените режим перемешивания для поддерживаемых обоев.,,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,
-PASS⦙272,PASS⦙272,Don't Touch,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,Please don't touch the translation in this line.
+PASS⦙277,PASS⦙277,Don't Touch,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,Please don't touch the translation in this line.
 Portal.WallpaperSettingPage.GifPlayer,Плеер для Gif,,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,
 Portal.WallpaperSettingPage.GifPlayer.Description,Выберите плеер для воспроизведения обоев в формате Gif из вашей библиотеки.,,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,
-PASS⦙273,PASS⦙273,Don't Touch,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,Please don't touch the translation in this line.
+PASS⦙278,PASS⦙278,Don't Touch,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,Please don't touch the translation in this line.
 Portal.WallpaperSettingPage.VideoPlayer,Плеер для Video,,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,
 Portal.WallpaperSettingPage.VideoPlayer.Description,Выберите плеер для воспроизведения обоев в формате Video из вашей библиотеки.,,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,
-PASS⦙274,PASS⦙274,Don't Touch,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,Please don't touch the translation in this line.
+PASS⦙279,PASS⦙279,Don't Touch,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,Please don't touch the translation in this line.
 Portal.WallpaperSettingPage.UrlPlayer,Мотор для Url,,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,
 Portal.WallpaperSettingPage.UrlPlayer.Description,Выберите мотор для запуска обоев в формате Url из вашей библиотеки.,,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,
-PASS⦙275,PASS⦙275,Don't Touch,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,Please don't touch the translation in this line.
+PASS⦙280,PASS⦙280,Don't Touch,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,Please don't touch the translation in this line.
 Portal.WallpaperSettingPage.WebPlayer,Мотор для Web,,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,
 Portal.WallpaperSettingPage.WebPlayer.Description,Выберите мотор для запуска обоев в формате Web из вашей библиотеки.,,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,
-PASS⦙276,PASS⦙276,Don't Touch,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,Please don't touch the translation in this line.
+PASS⦙281,PASS⦙281,Don't Touch,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,Please don't touch the translation in this line.
 Portal.WallpaperSettingPage.YouTubePlayer,Мотор для YouTube,,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,
 Portal.WallpaperSettingPage.YouTubePlayer.Description,Выберите мотор для запуска обоев из YouTube из вашей библиотеки.,,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,
-PASS⦙277,PASS⦙277,Don't Touch,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,Please don't touch the translation in this line.
+PASS⦙282,PASS⦙282,Don't Touch,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,Please don't touch the translation in this line.
 Portal.WallpaperSettingPage.ApplicationPlayer,Мотор для Application,,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,
 Portal.WallpaperSettingPage.ApplicationPlayer.Description,Выберите мотор для запуска обоев в формате Application из вашей библиотеки.,,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,
 Portal.BrokenStorePage.Title,BrokenStorePage,,Portal\StorePage\BrokenStorePage\Portal.BrokenStorePage.RU.xaml,
-PASS⦙278,PASS⦙278,Don't Touch,Portal\StorePage\BrokenStorePage\Portal.BrokenStorePage.RU.xaml,Please don't touch the translation in this line.
+PASS⦙283,PASS⦙283,Don't Touch,Portal\StorePage\BrokenStorePage\Portal.BrokenStorePage.RU.xaml,Please don't touch the translation in this line.
 Portal.BrokenStorePage.TitleText,"Момент, когда затух свет интернета",,Portal\StorePage\BrokenStorePage\Portal.BrokenStorePage.RU.xaml,
 Portal.BrokenStorePage.DescriptionText,"Как небо без звёзд, здесь нет блеска интернета",,Portal\StorePage\BrokenStorePage\Portal.BrokenStorePage.RU.xaml,
 Portal.FullStorePage.Title,FullStorePage,,Portal\StorePage\FullStorePage\Portal.FullStorePage.RU.xaml,
 Portal.SearchStorePage.Title,SearchStorePage,,Portal\StorePage\SearchStorePage\Portal.SearchStorePage.RU.xaml,
-PASS⦙279,PASS⦙279,Don't Touch,Portal\StorePage\SearchStorePage\Portal.SearchStorePage.RU.xaml,Please don't touch the translation in this line.
+PASS⦙284,PASS⦙284,Don't Touch,Portal\StorePage\SearchStorePage\Portal.SearchStorePage.RU.xaml,Please don't touch the translation in this line.
 Portal.SearchStorePage.TitleText,Ответ на ваш поиск может скрываться на небесах,,Portal\StorePage\SearchStorePage\Portal.SearchStorePage.RU.xaml,
 Portal.SearchStorePage.DescriptionText,"Если результаты не соответствуют вашим ожиданиям, небо может предложить вам новый опыт",,Portal\StorePage\SearchStorePage\Portal.SearchStorePage.RU.xaml,
 Portal.UnknownStorePage.Title,UnknownStorePage,,Portal\StorePage\UnknownStorePage\Portal.UnknownStorePage.RU.xaml,
-PASS⦙280,PASS⦙280,Don't Touch,Portal\StorePage\UnknownStorePage\Portal.UnknownStorePage.RU.xaml,Please don't touch the translation in this line.
+PASS⦙285,PASS⦙285,Don't Touch,Portal\StorePage\UnknownStorePage\Portal.UnknownStorePage.RU.xaml,Please don't touch the translation in this line.
 Portal.UnknownStorePage.TitleText,"Раскройте тайну, случившуюся в магазине",,Portal\StorePage\UnknownStorePage\Portal.UnknownStorePage.RU.xaml,
 Portal.UnknownStorePage.DescriptionText,"Исследуйте неизведанное и отправьтесь в путешествие по раскрытию тайны, произошедшей в магазине",,Portal\StorePage\UnknownStorePage\Portal.UnknownStorePage.RU.xaml,

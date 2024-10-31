@@ -45,6 +45,21 @@
 
     <system:String x:Key="Portal.PerformanceSettingPage.Network.NetworkPing">Задержка (мс):</system:String>
 
+    <system:String x:Key="Portal.PerformanceSettingPage.Lock">Блокировка Сеанса</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.Lock.Description">Что происходит с обоями, когда сеанс заблокирован.</system:String>
+
+    <system:String x:Key="Portal.PerformanceSettingPage.Sleep">Режим Сна</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.Sleep.Description">Что происходит с обоями, когда система находится в режиме сна.</system:String>
+
+    <system:String x:Key="Portal.PerformanceSettingPage.Console">Смена Пользователя</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.Console.Description">Что происходит с обоями, когда пользователь меняется.</system:String>
+
+    <system:String x:Key="Portal.PerformanceSettingPage.Session">Выход из Сеанса</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.Session.Description">Что происходит с обоями, когда сеанс завершается.</system:String>
+
+    <system:String x:Key="Portal.PerformanceSettingPage.ScreenSaver">Заставка</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.ScreenSaver.Description">Что происходит с обоями, когда запускается заставка.</system:String>
+
     <system:String x:Key="Portal.PerformanceSettingPage.Battery">Заряд батареи</system:String>
     <system:String x:Key="Portal.PerformanceSettingPage.Battery.Description">Определяет влияние состояния заряда батареи ноутбука на обои.</system:String>
 

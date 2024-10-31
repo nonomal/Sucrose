@@ -1014,6 +1014,21 @@ Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ID.xaml,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ID.xaml,,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ID.xaml,Portal.PerformanceSettingPage.Network.NetworkPing,Nilai Ping (MS):
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ID.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ID.xaml,Portal.PerformanceSettingPage.Lock,Kunci Sesi
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ID.xaml,Portal.PerformanceSettingPage.Lock.Description,Apa yang terjadi dengan wallpaper saat sesi terkunci.
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ID.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ID.xaml,Portal.PerformanceSettingPage.Sleep,Mode Tidur
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ID.xaml,Portal.PerformanceSettingPage.Sleep.Description,Apa yang terjadi dengan wallpaper saat sistem dalam mode tidur.
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ID.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ID.xaml,Portal.PerformanceSettingPage.Console,Ganti Pengguna
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ID.xaml,Portal.PerformanceSettingPage.Console.Description,Apa yang terjadi dengan wallpaper saat pengguna diganti.
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ID.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ID.xaml,Portal.PerformanceSettingPage.Session,Keluar
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ID.xaml,Portal.PerformanceSettingPage.Session.Description,Apa yang terjadi dengan wallpaper saat sesi ditutup.
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ID.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ID.xaml,Portal.PerformanceSettingPage.ScreenSaver,Screen Saver
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ID.xaml,Portal.PerformanceSettingPage.ScreenSaver.Description,Apa yang terjadi dengan wallpaper saat screen saver dimulai.
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ID.xaml,,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ID.xaml,Portal.PerformanceSettingPage.Battery,Daya Baterai
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ID.xaml,Portal.PerformanceSettingPage.Battery.Description,Apa yang terjadi pada wallpaper saat bekerja dengan daya baterai laptop.
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ID.xaml,,

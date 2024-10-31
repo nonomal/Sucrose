@@ -45,6 +45,21 @@
 
     <system:String x:Key="Portal.PerformanceSettingPage.Network.NetworkPing">Ping-waarde (ms):</system:String>
 
+    <system:String x:Key="Portal.PerformanceSettingPage.Lock">Sessie Vergrendelen</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.Lock.Description">Wat er gebeurt met de achtergrond wanneer de sessie vergrendeld is.</system:String>
+
+    <system:String x:Key="Portal.PerformanceSettingPage.Sleep">Slaapstand</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.Sleep.Description">Wat er gebeurt met de achtergrond wanneer het systeem in slaapstand staat.</system:String>
+
+    <system:String x:Key="Portal.PerformanceSettingPage.Console">Gebruikers Wissel</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.Console.Description">Wat er gebeurt met de achtergrond wanneer de gebruiker wordt gewisseld.</system:String>
+
+    <system:String x:Key="Portal.PerformanceSettingPage.Session">Afmelden</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.Session.Description">Wat er gebeurt met de achtergrond wanneer de sessie wordt afgesloten.</system:String>
+
+    <system:String x:Key="Portal.PerformanceSettingPage.ScreenSaver">Schermbeveiliging</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.ScreenSaver.Description">Wat er gebeurt met de achtergrond wanneer de schermbeveiliging wordt gestart.</system:String>
+
     <system:String x:Key="Portal.PerformanceSettingPage.Battery">Batterijstatus</system:String>
     <system:String x:Key="Portal.PerformanceSettingPage.Battery.Description">Het effect van uw batterijgebruiksinstellingen op de achtergrondafbeelding wanneer u werkt op batterijstroom.</system:String>
 

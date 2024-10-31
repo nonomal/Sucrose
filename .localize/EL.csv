@@ -1014,6 +1014,21 @@ Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.EL.xaml,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.EL.xaml,,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.EL.xaml,Portal.PerformanceSettingPage.Network.NetworkPing,Ping Χρόνος (MS):
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.EL.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.EL.xaml,Portal.PerformanceSettingPage.Lock,Κλείδωμα Συνεδρίας
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.EL.xaml,Portal.PerformanceSettingPage.Lock.Description,Τι συμβαίνει με την ταπετσαρία όταν η συνεδρία είναι κλειδωμένη.
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.EL.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.EL.xaml,Portal.PerformanceSettingPage.Sleep,Λειτουργία Ύπνου
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.EL.xaml,Portal.PerformanceSettingPage.Sleep.Description,Τι συμβαίνει με την ταπετσαρία όταν το σύστημα είναι σε λειτουργία ύπνου.
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.EL.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.EL.xaml,Portal.PerformanceSettingPage.Console,Αλλαγή Χρήστη
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.EL.xaml,Portal.PerformanceSettingPage.Console.Description,Τι συμβαίνει με την ταπετσαρία όταν αλλάζει ο χρήστης.
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.EL.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.EL.xaml,Portal.PerformanceSettingPage.Session,Αποσύνδεση
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.EL.xaml,Portal.PerformanceSettingPage.Session.Description,Τι συμβαίνει με την ταπετσαρία όταν τελειώνει η συνεδρία.
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.EL.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.EL.xaml,Portal.PerformanceSettingPage.ScreenSaver,Προφύλαξη Οθόνης
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.EL.xaml,Portal.PerformanceSettingPage.ScreenSaver.Description,Τι συμβαίνει με την ταπετσαρία όταν ξεκινά η προφύλαξη οθόνης.
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.EL.xaml,,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.EL.xaml,Portal.PerformanceSettingPage.Battery,Κατάσταση Μπαταρίας
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.EL.xaml,Portal.PerformanceSettingPage.Battery.Description,Πώς θα επηρεάσει η ρύθμιση της κατάστασης της μπαταρίας το ταπετσαρία όταν είναι ενεργοποιημένη.
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.EL.xaml,,

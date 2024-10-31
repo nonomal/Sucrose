@@ -1014,6 +1014,21 @@ Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.UK.xaml,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.UK.xaml,,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.UK.xaml,Portal.PerformanceSettingPage.Network.NetworkPing,Значення Ping (мс):
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.UK.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.UK.xaml,Portal.PerformanceSettingPage.Lock,Блокування Сеансу
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.UK.xaml,Portal.PerformanceSettingPage.Lock.Description,"Що відбувається з фоном, коли сеанс заблоковано."
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.UK.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.UK.xaml,Portal.PerformanceSettingPage.Sleep,Режим Сну
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.UK.xaml,Portal.PerformanceSettingPage.Sleep.Description,"Що відбувається з фоном, коли система у режимі сну."
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.UK.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.UK.xaml,Portal.PerformanceSettingPage.Console,Зміна Користувача
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.UK.xaml,Portal.PerformanceSettingPage.Console.Description,"Що відбувається з фоном, коли користувача змінено."
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.UK.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.UK.xaml,Portal.PerformanceSettingPage.Session,Вихід із Сеансу
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.UK.xaml,Portal.PerformanceSettingPage.Session.Description,"Що відбувається з фоном, коли сеанс закрито."
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.UK.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.UK.xaml,Portal.PerformanceSettingPage.ScreenSaver,Заставка
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.UK.xaml,Portal.PerformanceSettingPage.ScreenSaver.Description,"Що відбувається з фоном, коли запускається заставка."
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.UK.xaml,,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.UK.xaml,Portal.PerformanceSettingPage.Battery,Заряд батареї
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.UK.xaml,Portal.PerformanceSettingPage.Battery.Description,Як використання батареї впливає на робочий стіл.
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.UK.xaml,,

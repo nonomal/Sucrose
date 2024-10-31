@@ -1014,6 +1014,21 @@ Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.HI.xaml,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.HI.xaml,,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.HI.xaml,Portal.PerformanceSettingPage.Network.NetworkPing,पिंग मान (मिलिसेकंड):
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.HI.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.HI.xaml,Portal.PerformanceSettingPage.Lock,सत्र लॉक
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.HI.xaml,Portal.PerformanceSettingPage.Lock.Description,"जब सत्र लॉक होता है, तब वॉलपेपर के साथ क्या होता है।"
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.HI.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.HI.xaml,Portal.PerformanceSettingPage.Sleep,नींद मोड
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.HI.xaml,Portal.PerformanceSettingPage.Sleep.Description,"जब सिस्टम नींद मोड में होता है, तब वॉलपेपर के साथ क्या होता है।"
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.HI.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.HI.xaml,Portal.PerformanceSettingPage.Console,उपयोगकर्ता परिवर्तन
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.HI.xaml,Portal.PerformanceSettingPage.Console.Description,"जब उपयोगकर्ता बदलता है, तब वॉलपेपर के साथ क्या होता है।"
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.HI.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.HI.xaml,Portal.PerformanceSettingPage.Session,लॉग आउट
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.HI.xaml,Portal.PerformanceSettingPage.Session.Description,"जब सत्र बंद होता है, तब वॉलपेपर के साथ क्या होता है।"
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.HI.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.HI.xaml,Portal.PerformanceSettingPage.ScreenSaver,स्क्रीन सेवर
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.HI.xaml,Portal.PerformanceSettingPage.ScreenSaver.Description,"जब स्क्रीन सेवर शुरू होता है, तब वॉलपेपर के साथ क्या होता है।"
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.HI.xaml,,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.HI.xaml,Portal.PerformanceSettingPage.Battery,बैटरी पावर
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.HI.xaml,Portal.PerformanceSettingPage.Battery.Description,लैपटॉप बैटरी पॉवर पर काम करते समय वॉलपेपर पर क्या होने वाला है।
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.HI.xaml,,

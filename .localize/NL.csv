@@ -1014,6 +1014,21 @@ Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NL.xaml,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NL.xaml,,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NL.xaml,Portal.PerformanceSettingPage.Network.NetworkPing,Ping-waarde (ms):
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NL.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NL.xaml,Portal.PerformanceSettingPage.Lock,Sessie Vergrendelen
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NL.xaml,Portal.PerformanceSettingPage.Lock.Description,Wat er gebeurt met de achtergrond wanneer de sessie vergrendeld is.
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NL.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NL.xaml,Portal.PerformanceSettingPage.Sleep,Slaapstand
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NL.xaml,Portal.PerformanceSettingPage.Sleep.Description,Wat er gebeurt met de achtergrond wanneer het systeem in slaapstand staat.
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NL.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NL.xaml,Portal.PerformanceSettingPage.Console,Gebruikers Wissel
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NL.xaml,Portal.PerformanceSettingPage.Console.Description,Wat er gebeurt met de achtergrond wanneer de gebruiker wordt gewisseld.
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NL.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NL.xaml,Portal.PerformanceSettingPage.Session,Afmelden
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NL.xaml,Portal.PerformanceSettingPage.Session.Description,Wat er gebeurt met de achtergrond wanneer de sessie wordt afgesloten.
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NL.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NL.xaml,Portal.PerformanceSettingPage.ScreenSaver,Schermbeveiliging
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NL.xaml,Portal.PerformanceSettingPage.ScreenSaver.Description,Wat er gebeurt met de achtergrond wanneer de schermbeveiliging wordt gestart.
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NL.xaml,,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NL.xaml,Portal.PerformanceSettingPage.Battery,Batterijstatus
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NL.xaml,Portal.PerformanceSettingPage.Battery.Description,Het effect van uw batterijgebruiksinstellingen op de achtergrondafbeelding wanneer u werkt op batterijstroom.
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NL.xaml,,

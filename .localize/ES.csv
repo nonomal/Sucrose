@@ -1014,6 +1014,21 @@ Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ES.xaml,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ES.xaml,,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ES.xaml,Portal.PerformanceSettingPage.Network.NetworkPing,Valor de Ping (MS):
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ES.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ES.xaml,Portal.PerformanceSettingPage.Lock,Bloqueo de Sesión
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ES.xaml,Portal.PerformanceSettingPage.Lock.Description,Qué sucede con el fondo de pantalla cuando la sesión está bloqueada.
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ES.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ES.xaml,Portal.PerformanceSettingPage.Sleep,Modo de Suspensión
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ES.xaml,Portal.PerformanceSettingPage.Sleep.Description,Qué sucede con el fondo de pantalla cuando el sistema está en modo de suspensión.
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ES.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ES.xaml,Portal.PerformanceSettingPage.Console,Cambio de Usuario
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ES.xaml,Portal.PerformanceSettingPage.Console.Description,Qué sucede con el fondo de pantalla cuando se cambia el usuario.
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ES.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ES.xaml,Portal.PerformanceSettingPage.Session,Cerrar Sesión
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ES.xaml,Portal.PerformanceSettingPage.Session.Description,Qué sucede con el fondo de pantalla cuando se cierra la sesión.
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ES.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ES.xaml,Portal.PerformanceSettingPage.ScreenSaver,Protector de Pantalla
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ES.xaml,Portal.PerformanceSettingPage.ScreenSaver.Description,Qué sucede con el fondo de pantalla cuando se activa el protector de pantalla.
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ES.xaml,,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ES.xaml,Portal.PerformanceSettingPage.Battery,Energía de la Batería
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ES.xaml,Portal.PerformanceSettingPage.Battery.Description,Qué sucede con el fondo de pantalla cuando se ejecuta con la energía de la batería de la computadora portátil.
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ES.xaml,,

@@ -1014,6 +1014,21 @@ Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.PT.xaml,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.PT.xaml,,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.PT.xaml,Portal.PerformanceSettingPage.Network.NetworkPing,Valor de Ping (ms):
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.PT.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.PT.xaml,Portal.PerformanceSettingPage.Lock,Bloqueio de Sessão
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.PT.xaml,Portal.PerformanceSettingPage.Lock.Description,O que acontece com o papel de parede quando a sessão está bloqueada.
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.PT.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.PT.xaml,Portal.PerformanceSettingPage.Sleep,Modo de Suspensão
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.PT.xaml,Portal.PerformanceSettingPage.Sleep.Description,O que acontece com o papel de parede quando o sistema está em modo de suspensão.
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.PT.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.PT.xaml,Portal.PerformanceSettingPage.Console,Troca de Usuário
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.PT.xaml,Portal.PerformanceSettingPage.Console.Description,O que acontece com o papel de parede quando o usuário é trocado.
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.PT.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.PT.xaml,Portal.PerformanceSettingPage.Session,Encerrar Sessão
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.PT.xaml,Portal.PerformanceSettingPage.Session.Description,O que acontece com o papel de parede quando a sessão é encerrada.
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.PT.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.PT.xaml,Portal.PerformanceSettingPage.ScreenSaver,Protetor de Tela
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.PT.xaml,Portal.PerformanceSettingPage.ScreenSaver.Description,O que acontece com o papel de parede quando o protetor de tela é ativado.
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.PT.xaml,,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.PT.xaml,Portal.PerformanceSettingPage.Battery,Bateria
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.PT.xaml,Portal.PerformanceSettingPage.Battery.Description,O que acontecerá com o papel de parede quando estiver usando a energia da bateria do laptop.
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.PT.xaml,,

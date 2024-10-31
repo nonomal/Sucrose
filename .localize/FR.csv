@@ -1014,6 +1014,21 @@ Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.FR.xaml,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.FR.xaml,,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.FR.xaml,Portal.PerformanceSettingPage.Network.NetworkPing,Valeur de Ping (ms) :
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.FR.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.FR.xaml,Portal.PerformanceSettingPage.Lock,Verrouillage de Session
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.FR.xaml,Portal.PerformanceSettingPage.Lock.Description,Ce qui arrive au fond d'écran lorsque la session est verrouillée.
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.FR.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.FR.xaml,Portal.PerformanceSettingPage.Sleep,Mode Veille
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.FR.xaml,Portal.PerformanceSettingPage.Sleep.Description,Ce qui arrive au fond d'écran lorsque le système est en mode veille.
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.FR.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.FR.xaml,Portal.PerformanceSettingPage.Console,Changement d'Utilisateur
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.FR.xaml,Portal.PerformanceSettingPage.Console.Description,Ce qui arrive au fond d'écran lorsque l'utilisateur est changé.
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.FR.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.FR.xaml,Portal.PerformanceSettingPage.Session,Déconnexion
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.FR.xaml,Portal.PerformanceSettingPage.Session.Description,Ce qui arrive au fond d'écran lorsque la session est fermée.
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.FR.xaml,,
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.FR.xaml,Portal.PerformanceSettingPage.ScreenSaver,Économiseur d'Écran
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.FR.xaml,Portal.PerformanceSettingPage.ScreenSaver.Description,Ce qui arrive au fond d'écran lorsque l'économiseur d'écran démarre.
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.FR.xaml,,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.FR.xaml,Portal.PerformanceSettingPage.Battery,Alimentation de la Batterie
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.FR.xaml,Portal.PerformanceSettingPage.Battery.Description,Ce qui se passe avec l'arrière-plan lorsqu'il fonctionne sur l'alimentation de la batterie de l'ordinateur portable.
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.FR.xaml,,

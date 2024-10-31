@@ -45,6 +45,21 @@
 
     <system:String x:Key="Portal.PerformanceSettingPage.Network.NetworkPing">Ping Χρόνος (MS):</system:String>
 
+    <system:String x:Key="Portal.PerformanceSettingPage.Lock">Κλείδωμα Συνεδρίας</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.Lock.Description">Τι συμβαίνει με την ταπετσαρία όταν η συνεδρία είναι κλειδωμένη.</system:String>
+
+    <system:String x:Key="Portal.PerformanceSettingPage.Sleep">Λειτουργία Ύπνου</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.Sleep.Description">Τι συμβαίνει με την ταπετσαρία όταν το σύστημα είναι σε λειτουργία ύπνου.</system:String>
+
+    <system:String x:Key="Portal.PerformanceSettingPage.Console">Αλλαγή Χρήστη</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.Console.Description">Τι συμβαίνει με την ταπετσαρία όταν αλλάζει ο χρήστης.</system:String>
+
+    <system:String x:Key="Portal.PerformanceSettingPage.Session">Αποσύνδεση</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.Session.Description">Τι συμβαίνει με την ταπετσαρία όταν τελειώνει η συνεδρία.</system:String>
+
+    <system:String x:Key="Portal.PerformanceSettingPage.ScreenSaver">Προφύλαξη Οθόνης</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.ScreenSaver.Description">Τι συμβαίνει με την ταπετσαρία όταν ξεκινά η προφύλαξη οθόνης.</system:String>
+
     <system:String x:Key="Portal.PerformanceSettingPage.Battery">Κατάσταση Μπαταρίας</system:String>
     <system:String x:Key="Portal.PerformanceSettingPage.Battery.Description">Πώς θα επηρεάσει η ρύθμιση της κατάστασης της μπαταρίας το ταπετσαρία όταν είναι ενεργοποιημένη.</system:String>
 
