@@ -4,6 +4,8 @@ namespace Sucrose.Backgroundog.Extension
 {
     internal class UpdateVisitor : IVisitor
     {
+        public void VisitSensor(ISensor Sensor) { }
+
         public void VisitComputer(IComputer Computer)
         {
             Computer.Traverse(this);
@@ -18,8 +20,6 @@ namespace Sucrose.Backgroundog.Extension
                 SubHardware.Accept(this);
             }
         }
-
-        public void VisitSensor(ISensor Sensor) { }
 
         public void VisitParameter(IParameter Parameter) { }
     }

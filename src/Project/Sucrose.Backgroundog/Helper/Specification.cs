@@ -834,7 +834,7 @@ namespace Sucrose.Backgroundog.Helper
                 {
                     try
                     {
-                        if (SBMI.PipeManagement && SMMB.PipeRequired)
+                        if (!SBMI.Condition && SBMI.PipeManagement && SMMB.PipeRequired)
                         {
                             SBMI.PipeManagement = false;
 
@@ -871,7 +871,7 @@ namespace Sucrose.Backgroundog.Helper
                 {
                     try
                     {
-                        if (SBMI.SignalManagement && SMMB.SignalRequired)
+                        if (!SBMI.Condition && SBMI.SignalManagement && SMMB.SignalRequired)
                         {
                             SBMI.SignalManagement = false;
 
@@ -902,22 +902,21 @@ namespace Sucrose.Backgroundog.Helper
                 //{
                 //    foreach (IHardware Hardware in SBMI.Computer.Hardware)
                 //    {
-                //        Console.WriteLine("Hardware: {0}", Hardware.Name);
-                //        Console.WriteLine("Hardware Type: {0}", Hardware.HardwareType);
+                //        Console.WriteLine("Hardware: {0}, Type: {1}", Hardware.Name, Hardware.HardwareType);
 
                 //        foreach (IHardware Subhardware in Hardware.SubHardware)
                 //        {
-                //            Console.WriteLine("\tSubhardware: {0}", Subhardware.Name);
+                //            Console.WriteLine("\tSubhardware: {0}, Type: {1}", Subhardware.Name, Hardware.HardwareType);
 
                 //            foreach (ISensor Sensor in Subhardware.Sensors)
                 //            {
-                //                Console.WriteLine("\t\tSensor: {0}, type: {1}, value: {2}", Sensor.Name, Sensor.SensorType, Sensor.Value);
+                //                Console.WriteLine("\t\tSensor: {0}, Type: {1}, Value: {2}", Sensor.Name, Sensor.SensorType, Sensor.Value);
                 //            }
                 //        }
 
                 //        foreach (ISensor Sensor in Hardware.Sensors)
                 //        {
-                //            Console.WriteLine("\tSensor: {0}, type: {1}, value: {2}", Sensor.Name, Sensor.SensorType, Sensor.Value);
+                //            Console.WriteLine("\tSensor: {0}, Type: {1}, Value: {2}", Sensor.Name, Sensor.SensorType, Sensor.Value);
                 //        }
                 //    }
 
