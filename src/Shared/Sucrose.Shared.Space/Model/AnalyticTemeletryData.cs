@@ -172,6 +172,9 @@ namespace Sucrose.Shared.Space.Model
         [JsonProperty("LibraryLocation", Required = Required.Always)]
         public string LibraryLocation { get; set; }
 
+        [JsonProperty("LockPerformance", Required = Required.Always)]
+        public string LockPerformance { get; set; }
+
         [JsonProperty("NetworkAdapters", Required = Required.Always)]
         public string NetworkAdapters { get; set; }
 
@@ -204,6 +207,9 @@ namespace Sucrose.Shared.Space.Model
 
         [JsonProperty("PerformanceCounter", Required = Required.Always)]
         public bool PerformanceCounter { get; set; }
+
+        [JsonProperty("SleepPerformance", Required = Required.Always)]
+        public string SleepPerformance { get; set; }
 
         [JsonProperty("UpdateModuleType", Required = Required.Always)]
         public string UpdateModuleType { get; set; }
@@ -241,6 +247,9 @@ namespace Sucrose.Shared.Space.Model
         [JsonProperty("BatteryPerformance", Required = Required.Always)]
         public string BatteryPerformance { get; set; }
 
+        [JsonProperty("ConsolePerformance", Required = Required.Always)]
+        public string ConsolePerformance { get; set; }
+
         [JsonProperty("CyclingTransitionTime", Required = Required.Always)]
         public int CyclingTransitionTime { get; set; }
 
@@ -252,6 +261,9 @@ namespace Sucrose.Shared.Space.Model
 
         [JsonProperty("NetworkPerformance", Required = Required.Always)]
         public string NetworkPerformance { get; set; }
+
+        [JsonProperty("SessionPerformance", Required = Required.Always)]
+        public string SessionPerformance { get; set; }
 
         [JsonProperty("VirtualPerformance", Required = Required.Always)]
         public string VirtualPerformance { get; set; }
@@ -279,6 +291,9 @@ namespace Sucrose.Shared.Space.Model
 
         [JsonProperty("ProcessorArchitecture", Required = Required.Always)]
         public string ProcessorArchitecture { get; set; }
+
+        [JsonProperty("ScreenSaverPerformance", Required = Required.Always)]
+        public string ScreenSaverPerformance { get; set; }
 
         [JsonProperty("BatterySaverPerformance", Required = Required.Always)]
         public string BatterySaverPerformance { get; set; }
