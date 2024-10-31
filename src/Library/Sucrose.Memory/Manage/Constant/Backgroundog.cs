@@ -46,8 +46,6 @@
 
         public const string PausePerformance = "PausePerformance";
 
-        public const string SaverPerformance = "SaverPerformance";
-
         public const string CommunicationType = "CommunicationType";
 
         public const string MemoryPerformance = "MemoryPerformance";
@@ -69,5 +67,9 @@
         public const string PausePerformanceType = "PausePerformanceType";
 
         public const string FullScreenPerformance = "FullScreenPerformance";
+
+        public const string ScreenSaverPerformance = "ScreenSaverPerformance";
+
+        public const string BatterySaverPerformance = "BatterySaverPerformance";
     }
 }

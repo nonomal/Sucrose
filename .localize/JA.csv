@@ -1017,8 +1017,8 @@ Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.JA.xaml,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.JA.xaml,,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.JA.xaml,Portal.PerformanceSettingPage.Battery.BatteryUsage,バッテリー残量 (%):
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.JA.xaml,,
-Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.JA.xaml,Portal.PerformanceSettingPage.Saver,バッテリー節約モード
-Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.JA.xaml,Portal.PerformanceSettingPage.Saver.Description,ノートパソコンのバッテリー節約モード中に壁紙の動作。
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.JA.xaml,Portal.PerformanceSettingPage.BatterySaver,バッテリー節約モード
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.JA.xaml,Portal.PerformanceSettingPage.BatterySaver.Description,ノートパソコンのバッテリー節約モード中に壁紙の動作。
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.JA.xaml,,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.JA.xaml,Portal.PerformanceSettingPage.Virtual,仮想化
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.JA.xaml,Portal.PerformanceSettingPage.Virtual.Description,仮想化アプリケーションが実行中の場合の壁紙の動作。

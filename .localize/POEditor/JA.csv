@@ -1017,8 +1017,8 @@ Portal.PerformanceSettingPage.Battery.Description,ノートパソコンのバッ
 PASS⦙216,PASS⦙216,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.JA.xaml,Please don't touch the translation in this line.
 Portal.PerformanceSettingPage.Battery.BatteryUsage,バッテリー残量 (%):,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.JA.xaml,
 PASS⦙217,PASS⦙217,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.JA.xaml,Please don't touch the translation in this line.
-Portal.PerformanceSettingPage.Saver,バッテリー節約モード,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.JA.xaml,
-Portal.PerformanceSettingPage.Saver.Description,ノートパソコンのバッテリー節約モード中に壁紙の動作。,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.JA.xaml,
+Portal.PerformanceSettingPage.BatterySaver,バッテリー節約モード,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.JA.xaml,
+Portal.PerformanceSettingPage.BatterySaver.Description,ノートパソコンのバッテリー節約モード中に壁紙の動作。,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.JA.xaml,
 PASS⦙218,PASS⦙218,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.JA.xaml,Please don't touch the translation in this line.
 Portal.PerformanceSettingPage.Virtual,仮想化,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.JA.xaml,
 Portal.PerformanceSettingPage.Virtual.Description,仮想化アプリケーションが実行中の場合の壁紙の動作。,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.JA.xaml,

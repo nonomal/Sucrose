@@ -50,8 +50,8 @@
 
     <system:String x:Key="Portal.PerformanceSettingPage.Battery.BatteryUsage">Стан заряду батареї (%):</system:String>
 
-    <system:String x:Key="Portal.PerformanceSettingPage.Saver">Економія енергії батареї</system:String>
-    <system:String x:Key="Portal.PerformanceSettingPage.Saver.Description">Як економія енергії батареї впливає на робочий стіл під час роботи з ноутбука.</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.BatterySaver">Економія енергії батареї</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.BatterySaver.Description">Як економія енергії батареї впливає на робочий стіл під час роботи з ноутбука.</system:String>
 
     <system:String x:Key="Portal.PerformanceSettingPage.Virtual">Віртуалізація</system:String>
     <system:String x:Key="Portal.PerformanceSettingPage.Virtual.Description">Як віртуалізація впливає на робочий стіл під час роботи з віртуальними програмами.</system:String>

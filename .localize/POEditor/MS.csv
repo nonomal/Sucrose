@@ -1017,8 +1017,8 @@ Portal.PerformanceSettingPage.Battery.Description,Apa yang akan berlaku pada din
 PASS⦙216,PASS⦙216,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.MS.xaml,Please don't touch the translation in this line.
 Portal.PerformanceSettingPage.Battery.BatteryUsage,Status Bateri (%):,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.MS.xaml,
 PASS⦙217,PASS⦙217,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.MS.xaml,Please don't touch the translation in this line.
-Portal.PerformanceSettingPage.Saver,Penjimatan Bateri,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.MS.xaml,
-Portal.PerformanceSettingPage.Saver.Description,Apa yang akan berlaku pada dinding semasa dalam mod penjimatan bateri komputer riba.,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.MS.xaml,
+Portal.PerformanceSettingPage.BatterySaver,Penjimatan Bateri,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.MS.xaml,
+Portal.PerformanceSettingPage.BatterySaver.Description,Apa yang akan berlaku pada dinding semasa dalam mod penjimatan bateri komputer riba.,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.MS.xaml,
 PASS⦙218,PASS⦙218,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.MS.xaml,Please don't touch the translation in this line.
 Portal.PerformanceSettingPage.Virtual,Penyambungan,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.MS.xaml,
 Portal.PerformanceSettingPage.Virtual.Description,Apa yang akan berlaku pada dinding semasa aplikasi penyambungan berjalan.,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.MS.xaml,

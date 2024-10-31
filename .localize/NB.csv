@@ -1017,8 +1017,8 @@ Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NB.xaml,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NB.xaml,,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NB.xaml,Portal.PerformanceSettingPage.Battery.BatteryUsage,Batteristatus (%):
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NB.xaml,,
-Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NB.xaml,Portal.PerformanceSettingPage.Saver,Strømsparemodus
-Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NB.xaml,Portal.PerformanceSettingPage.Saver.Description,Hvordan tapetet skal reagere når du bruker strømsparemodus på en bærbar datamaskin.
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NB.xaml,Portal.PerformanceSettingPage.BatterySaver,Strømsparemodus
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NB.xaml,Portal.PerformanceSettingPage.BatterySaver.Description,Hvordan tapetet skal reagere når du bruker strømsparemodus på en bærbar datamaskin.
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NB.xaml,,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NB.xaml,Portal.PerformanceSettingPage.Virtual,Virtualisering
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NB.xaml,Portal.PerformanceSettingPage.Virtual.Description,Hvordan tapetet skal reagere når virtualiseringsprogrammer kjører.

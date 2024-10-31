@@ -1017,8 +1017,8 @@ Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RU.xaml,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RU.xaml,,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RU.xaml,Portal.PerformanceSettingPage.Battery.BatteryUsage,Уровень заряда батареи (%):
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RU.xaml,,
-Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RU.xaml,Portal.PerformanceSettingPage.Saver,Экономия батареи
-Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RU.xaml,Portal.PerformanceSettingPage.Saver.Description,Определяет влияние режима экономии батареи на обои.
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RU.xaml,Portal.PerformanceSettingPage.BatterySaver,Экономия батареи
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RU.xaml,Portal.PerformanceSettingPage.BatterySaver.Description,Определяет влияние режима экономии батареи на обои.
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RU.xaml,,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RU.xaml,Portal.PerformanceSettingPage.Virtual,Виртуализация
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RU.xaml,Portal.PerformanceSettingPage.Virtual.Description,Определяет влияние запущенных виртуальных машин на обои.

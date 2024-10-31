@@ -1017,8 +1017,8 @@ Portal.PerformanceSettingPage.Battery.Description,Ce se întâmplă cu fundalul 
 PASS⦙216,PASS⦙216,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RO.xaml,Please don't touch the translation in this line.
 Portal.PerformanceSettingPage.Battery.BatteryUsage,Starea Bateriei (%):,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RO.xaml,
 PASS⦙217,PASS⦙217,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RO.xaml,Please don't touch the translation in this line.
-Portal.PerformanceSettingPage.Saver,Mod Economisire Baterie,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RO.xaml,
-Portal.PerformanceSettingPage.Saver.Description,Ce se întâmplă cu fundalul temei dvs. atunci când modul de economisire a bateriei este activat.,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RO.xaml,
+Portal.PerformanceSettingPage.BatterySaver,Mod Economisire Baterie,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RO.xaml,
+Portal.PerformanceSettingPage.BatterySaver.Description,Ce se întâmplă cu fundalul temei dvs. atunci când modul de economisire a bateriei este activat.,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RO.xaml,
 PASS⦙218,PASS⦙218,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RO.xaml,Please don't touch the translation in this line.
 Portal.PerformanceSettingPage.Virtual,Virtualizare,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RO.xaml,
 Portal.PerformanceSettingPage.Virtual.Description,Ce se întâmplă cu fundalul temei dvs. atunci când se utilizează aplicații de virtualizare.,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.RO.xaml,

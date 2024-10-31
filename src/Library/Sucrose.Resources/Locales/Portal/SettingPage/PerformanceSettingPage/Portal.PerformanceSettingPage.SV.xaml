@@ -50,8 +50,8 @@
 
     <system:String x:Key="Portal.PerformanceSettingPage.Battery.BatteryUsage">Batteristatus (%):</system:String>
 
-    <system:String x:Key="Portal.PerformanceSettingPage.Saver">Strömsparläge</system:String>
-    <system:String x:Key="Portal.PerformanceSettingPage.Saver.Description">Dina inställningar för strömsparläge kommer att påverka vad som händer med bakgrundsbilden när du använder en bärbar dator i strömsparläge.</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.BatterySaver">Strömsparläge</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.BatterySaver.Description">Dina inställningar för strömsparläge kommer att påverka vad som händer med bakgrundsbilden när du använder en bärbar dator i strömsparläge.</system:String>
 
     <system:String x:Key="Portal.PerformanceSettingPage.Virtual">Virtualisering</system:String>
     <system:String x:Key="Portal.PerformanceSettingPage.Virtual.Description">Vad som händer med bakgrundsbilden när du använder virtualiseringsprogram.</system:String>

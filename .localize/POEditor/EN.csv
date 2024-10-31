@@ -1017,8 +1017,8 @@ Portal.PerformanceSettingPage.Battery.Description,What happens to the wallpaper 
 PASS⦙216,PASS⦙216,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.EN.xaml,Please don't touch the translation in this line.
 Portal.PerformanceSettingPage.Battery.BatteryUsage,Battery Status (%):,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.EN.xaml,
 PASS⦙217,PASS⦙217,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.EN.xaml,Please don't touch the translation in this line.
-Portal.PerformanceSettingPage.Saver,Battery Saver,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.EN.xaml,
-Portal.PerformanceSettingPage.Saver.Description,What happens to the wallpaper when in laptop battery saver mode.,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.EN.xaml,
+Portal.PerformanceSettingPage.BatterySaver,Battery Saver,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.EN.xaml,
+Portal.PerformanceSettingPage.BatterySaver.Description,What happens to the wallpaper when in laptop battery saver mode.,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.EN.xaml,
 PASS⦙218,PASS⦙218,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.EN.xaml,Please don't touch the translation in this line.
 Portal.PerformanceSettingPage.Virtual,Virtualization,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.EN.xaml,
 Portal.PerformanceSettingPage.Virtual.Description,What happens to the wallpaper when virtualization applications are running.,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.EN.xaml,

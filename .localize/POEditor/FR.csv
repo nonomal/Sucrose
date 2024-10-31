@@ -1017,8 +1017,8 @@ Portal.PerformanceSettingPage.Battery.Description,Ce qui se passe avec l'arrièr
 PASS⦙216,PASS⦙216,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.FR.xaml,Please don't touch the translation in this line.
 Portal.PerformanceSettingPage.Battery.BatteryUsage,État de la Batterie (%):,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.FR.xaml,
 PASS⦙217,PASS⦙217,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.FR.xaml,Please don't touch the translation in this line.
-Portal.PerformanceSettingPage.Saver,Économie de Batterie,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.FR.xaml,
-Portal.PerformanceSettingPage.Saver.Description,Ce qui se passe avec l'arrière-plan en mode d'économie de batterie de l'ordinateur portable.,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.FR.xaml,
+Portal.PerformanceSettingPage.BatterySaver,Économie de Batterie,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.FR.xaml,
+Portal.PerformanceSettingPage.BatterySaver.Description,Ce qui se passe avec l'arrière-plan en mode d'économie de batterie de l'ordinateur portable.,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.FR.xaml,
 PASS⦙218,PASS⦙218,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.FR.xaml,Please don't touch the translation in this line.
 Portal.PerformanceSettingPage.Virtual,Virtualisation,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.FR.xaml,
 Portal.PerformanceSettingPage.Virtual.Description,Ce qui se passe avec l'arrière-plan lorsque des applications de virtualisation sont en cours d'exécution.,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.FR.xaml,

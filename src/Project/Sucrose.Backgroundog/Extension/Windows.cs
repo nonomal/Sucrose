@@ -12,8 +12,11 @@ namespace Sucrose.Backgroundog.Extension
         {
             try
             {
-                SystemEvents.SessionSwitch += SessionSwitch;
-                SystemEvents.PowerModeChanged += PowerModeChanged;
+                SBMI.SubscriptionManager?.Uninitialize();
+
+                SystemEvents.SessionSwitch -= SessionSwitch;
+
+                SystemEvents.PowerModeChanged -= PowerModeChanged;
             }
             catch (Exception Exception)
             {
@@ -25,10 +28,17 @@ namespace Sucrose.Backgroundog.Extension
         {
             try
             {
-                SBMI.WindowsLock = IsSystemLocked();
+                SBMI.WindowsLock = IsLocked();
 
-                SystemEvents.SessionSwitch -= SessionSwitch;
-                SystemEvents.PowerModeChanged -= PowerModeChanged;
+                SBMI.WindowsListener = new();
+
+                SBMI.SubscriptionManager = new(SBMI.WindowsListener);
+
+                SBMI.SubscriptionManager.Initialize();
+
+                SystemEvents.SessionSwitch += SessionSwitch;
+
+                SystemEvents.PowerModeChanged += PowerModeChanged;
             }
             catch (Exception Exception)
             {
@@ -36,7 +46,7 @@ namespace Sucrose.Backgroundog.Extension
             }
         }
 
-        private static bool IsSystemLocked()
+        private static bool IsLocked()
         {
             try
             {

@@ -687,30 +687,30 @@ namespace Sucrose.Portal.ViewModels.Pages
 
             Contents.Add(Battery);
 
-            SPVCEC Saver = new()
+            SPVCEC BatterySaver = new()
             {
                 Margin = new Thickness(0, 10, 0, 0),
                 Expandable = false
             };
 
-            Saver.LeftIcon.Symbol = SymbolRegular.BatterySaver24;
-            Saver.Title.Text = SRER.GetValue("Portal", "PerformanceSettingPage", "Saver");
-            Saver.Description.Text = SRER.GetValue("Portal", "PerformanceSettingPage", "Saver", "Description");
+            BatterySaver.LeftIcon.Symbol = SymbolRegular.BatterySaver24;
+            BatterySaver.Title.Text = SRER.GetValue("Portal", "PerformanceSettingPage", "BatterySaver");
+            BatterySaver.Description.Text = SRER.GetValue("Portal", "PerformanceSettingPage", "BatterySaver", "Description");
 
-            ComboBox SaverPerformance = new();
+            ComboBox BatterySaverPerformance = new();
 
-            SaverPerformance.SelectionChanged += (s, e) => SaverPerformanceSelected(SaverPerformance.SelectedIndex);
+            BatterySaverPerformance.SelectionChanged += (s, e) => BatterySaverPerformanceSelected(BatterySaverPerformance.SelectedIndex);
 
             foreach (SSDEPT Type in Enum.GetValues(typeof(SSDEPT)))
             {
-                SaverPerformance.Items.Add(SRER.GetValue("Portal", "Enum", "PerformanceType", $"{Type}"));
+                BatterySaverPerformance.Items.Add(SRER.GetValue("Portal", "Enum", "PerformanceType", $"{Type}"));
             }
 
-            SaverPerformance.SelectedIndex = (int)SSDMMB.SaverPerformance;
+            BatterySaverPerformance.SelectedIndex = (int)SSDMMB.BatterySaverPerformance;
 
-            Saver.HeaderFrame = SaverPerformance;
+            BatterySaver.HeaderFrame = BatterySaverPerformance;
 
-            Contents.Add(Saver);
+            Contents.Add(BatterySaver);
 
             TextBlock SystemArea = new()
             {
@@ -951,16 +951,6 @@ namespace Sucrose.Portal.ViewModels.Pages
             }
         }
 
-        private void SaverPerformanceSelected(int Index)
-        {
-            if (Index != (int)SSDMMB.SaverPerformance)
-            {
-                SSDEPT Type = (SSDEPT)Index;
-
-                SMMI.BackgroundogSettingManager.SetSetting(SMMCB.SaverPerformance, Type);
-            }
-        }
-
         private void FocusPerformanceSelected(int Index)
         {
             if (Index != (int)SSDMMB.FocusPerformance)
@@ -1094,6 +1084,16 @@ namespace Sucrose.Portal.ViewModels.Pages
                 SSDEPT Type = (SSDEPT)Index;
 
                 SMMI.BackgroundogSettingManager.SetSetting(SMMCB.FullScreenPerformance, Type);
+            }
+        }
+
+        private void BatterySaverPerformanceSelected(int Index)
+        {
+            if (Index != (int)SSDMMB.BatterySaverPerformance)
+            {
+                SSDEPT Type = (SSDEPT)Index;
+
+                SMMI.BackgroundogSettingManager.SetSetting(SMMCB.BatterySaverPerformance, Type);
             }
         }
 

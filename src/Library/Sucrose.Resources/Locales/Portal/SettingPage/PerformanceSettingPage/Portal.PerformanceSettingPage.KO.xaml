@@ -50,8 +50,8 @@
 
     <system:String x:Key="Portal.PerformanceSettingPage.Battery.BatteryUsage">배터리 상태 (%):</system:String>
 
-    <system:String x:Key="Portal.PerformanceSettingPage.Saver">배터리 절약 모드</system:String>
-    <system:String x:Key="Portal.PerformanceSettingPage.Saver.Description">노트북 배터리 절약 모드에서 배경화면이 어떻게 작동할지.</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.BatterySaver">배터리 절약 모드</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.BatterySaver.Description">노트북 배터리 절약 모드에서 배경화면이 어떻게 작동할지.</system:String>
 
     <system:String x:Key="Portal.PerformanceSettingPage.Virtual">가상화</system:String>
     <system:String x:Key="Portal.PerformanceSettingPage.Virtual.Description">가상화 응용 프로그램이 실행되는 동안 배경화면이 어떻게 작동할지.</system:String>

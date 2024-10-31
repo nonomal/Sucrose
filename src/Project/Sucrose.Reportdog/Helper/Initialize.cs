@@ -190,7 +190,6 @@ namespace Sucrose.Reportdog.Helper
                             StoreServerType = $"{SSDMMP.StoreServerType}",
                             DisplayScreenType = $"{SMME.DisplayScreenType}",
                             FocusPerformance = $"{SSDMMB.FocusPerformance}",
-                            SaverPerformance = $"{SSDMMB.SaverPerformance}",
                             UpdateExtensionType = $"{SSCMMU.ExtensionType}",
                             BackgroundStretch = $"{SSDMMP.BackgroundStretch}",
                             CommunicationType = $"{SSDMMB.CommunicationType}",
@@ -209,6 +208,7 @@ namespace Sucrose.Reportdog.Helper
                             FullScreenPerformance = $"{SSDMMB.FullScreenPerformance}",
                             ProcessArchitecture = SSCHOS.GetProcessArchitectureText(),
                             ProcessorArchitecture = SSCHOS.GetProcessorArchitecture(),
+                            BatterySaverPerformance = $"{SSDMMB.BatterySaverPerformance}",
                             OperatingSystemArchitecture = SWHSI.GetSystemInfoArchitecture()
                         };
 

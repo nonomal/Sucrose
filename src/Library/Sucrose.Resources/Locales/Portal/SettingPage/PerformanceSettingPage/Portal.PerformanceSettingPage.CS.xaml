@@ -50,8 +50,8 @@
 
     <system:String x:Key="Portal.PerformanceSettingPage.Battery.BatteryUsage">Stav Baterie (%):</system:String>
 
-    <system:String x:Key="Portal.PerformanceSettingPage.Saver">Úsporný Režim</system:String>
-    <system:String x:Key="Portal.PerformanceSettingPage.Saver.Description">Určuje, jaký bude výsledek duhovky v energeticky úsporném režimu notebooku.</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.BatterySaver">Úsporný Režim</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.BatterySaver.Description">Určuje, jaký bude výsledek duhovky v energeticky úsporném režimu notebooku.</system:String>
 
     <system:String x:Key="Portal.PerformanceSettingPage.Virtual">Virtualizace</system:String>
     <system:String x:Key="Portal.PerformanceSettingPage.Virtual.Description">Určuje, jaký bude výsledek duhovky při použití virtualizačních aplikací.</system:String>

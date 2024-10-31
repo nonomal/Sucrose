@@ -50,8 +50,8 @@
 
     <system:String x:Key="Portal.PerformanceSettingPage.Battery.BatteryUsage">Batteriniveau (%):</system:String>
 
-    <system:String x:Key="Portal.PerformanceSettingPage.Saver">Batterisparetilstand</system:String>
-    <system:String x:Key="Portal.PerformanceSettingPage.Saver.Description">Hvad der skal ske med tapetet, når du bruger en bærbar computer i batterisparetilstand.</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.BatterySaver">Batterisparetilstand</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.BatterySaver.Description">Hvad der skal ske med tapetet, når du bruger en bærbar computer i batterisparetilstand.</system:String>
 
     <system:String x:Key="Portal.PerformanceSettingPage.Virtual">Virtualisering</system:String>
     <system:String x:Key="Portal.PerformanceSettingPage.Virtual.Description">Hvad der skal ske med tapetet, når virtualiseringsapplikationer kører.</system:String>

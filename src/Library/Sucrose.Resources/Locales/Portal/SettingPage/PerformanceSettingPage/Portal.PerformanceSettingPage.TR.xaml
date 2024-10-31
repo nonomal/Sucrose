@@ -50,8 +50,8 @@
 
     <system:String x:Key="Portal.PerformanceSettingPage.Battery.BatteryUsage">Pil Durumu (%):</system:String>
 
-    <system:String x:Key="Portal.PerformanceSettingPage.Saver">Pil Tasarrufu</system:String>
-    <system:String x:Key="Portal.PerformanceSettingPage.Saver.Description">Dizüstü bilgisayar pil tasarrufu modundayken duvar kağıdına ne olacağı.</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.BatterySaver">Pil Tasarrufu</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.BatterySaver.Description">Dizüstü bilgisayar pil tasarrufu modundayken duvar kağıdına ne olacağı.</system:String>
 
     <system:String x:Key="Portal.PerformanceSettingPage.Virtual">Sanallaştırma</system:String>
     <system:String x:Key="Portal.PerformanceSettingPage.Virtual.Description">Sanallaştırma uygulamaları çalışırken duvar kağıdına ne olacağı.</system:String>

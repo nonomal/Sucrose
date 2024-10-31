@@ -1017,8 +1017,8 @@ Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.PT.xaml,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.PT.xaml,,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.PT.xaml,Portal.PerformanceSettingPage.Battery.BatteryUsage,Estado da Bateria (%):
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.PT.xaml,,
-Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.PT.xaml,Portal.PerformanceSettingPage.Saver,Modo Economia de Bateria
-Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.PT.xaml,Portal.PerformanceSettingPage.Saver.Description,O que acontecerá com o papel de parede quando o laptop estiver no modo de economia de bateria.
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.PT.xaml,Portal.PerformanceSettingPage.BatterySaver,Modo Economia de Bateria
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.PT.xaml,Portal.PerformanceSettingPage.BatterySaver.Description,O que acontecerá com o papel de parede quando o laptop estiver no modo de economia de bateria.
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.PT.xaml,,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.PT.xaml,Portal.PerformanceSettingPage.Virtual,Virtualização
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.PT.xaml,Portal.PerformanceSettingPage.Virtual.Description,O que acontecerá com o papel de parede enquanto aplicativos de virtualização estiverem em execução.

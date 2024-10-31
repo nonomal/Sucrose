@@ -8,6 +8,10 @@ namespace Sucrose.Shared.Dependency.Manage.Manager
 {
     internal static class Backgroundog
     {
+        public static SSDEPT BatterySaverPerformance => SMMI.BackgroundogSettingManager.GetSetting(SMMCB.BatterySaverPerformance, SSDEPT.Resume);
+
+        public static SSDEPT ScreenSaverPerformance => SMMI.BackgroundogSettingManager.GetSetting(SMMCB.ScreenSaverPerformance, SSDEPT.Pause);
+
         public static SSDEPT FullScreenPerformance => SMMI.BackgroundogSettingManager.GetSetting(SMMCB.FullScreenPerformance, SSDEPT.Resume);
 
         public static SSDEPPT PausePerformanceType => SMMI.BackgroundogSettingManager.GetSetting(SMMCB.PausePerformanceType, SSDEPPT.Light);
@@ -25,8 +29,6 @@ namespace Sucrose.Shared.Dependency.Manage.Manager
         public static SSDEPT RemotePerformance => SMMI.BackgroundogSettingManager.GetSetting(SMMCB.RemotePerformance, SSDEPT.Resume);
 
         public static SSDEPT MemoryPerformance => SMMI.BackgroundogSettingManager.GetSetting(SMMCB.MemoryPerformance, SSDEPT.Resume);
-
-        public static SSDEPT SaverPerformance => SMMI.BackgroundogSettingManager.GetSetting(SMMCB.SaverPerformance, SSDEPT.Resume);
 
         public static SSDEPT FocusPerformance => SMMI.BackgroundogSettingManager.GetSetting(SMMCB.FocusPerformance, SSDEPT.Resume);
 

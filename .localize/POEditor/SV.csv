@@ -1017,8 +1017,8 @@ Portal.PerformanceSettingPage.Battery.Description,Dina inställningar för batte
 PASS⦙216,PASS⦙216,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.SV.xaml,Please don't touch the translation in this line.
 Portal.PerformanceSettingPage.Battery.BatteryUsage,Batteristatus (%):,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.SV.xaml,
 PASS⦙217,PASS⦙217,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.SV.xaml,Please don't touch the translation in this line.
-Portal.PerformanceSettingPage.Saver,Strömsparläge,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.SV.xaml,
-Portal.PerformanceSettingPage.Saver.Description,Dina inställningar för strömsparläge kommer att påverka vad som händer med bakgrundsbilden när du använder en bärbar dator i strömsparläge.,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.SV.xaml,
+Portal.PerformanceSettingPage.BatterySaver,Strömsparläge,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.SV.xaml,
+Portal.PerformanceSettingPage.BatterySaver.Description,Dina inställningar för strömsparläge kommer att påverka vad som händer med bakgrundsbilden när du använder en bärbar dator i strömsparläge.,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.SV.xaml,
 PASS⦙218,PASS⦙218,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.SV.xaml,Please don't touch the translation in this line.
 Portal.PerformanceSettingPage.Virtual,Virtualisering,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.SV.xaml,
 Portal.PerformanceSettingPage.Virtual.Description,Vad som händer med bakgrundsbilden när du använder virtualiseringsprogram.,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.SV.xaml,

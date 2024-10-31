@@ -1017,8 +1017,8 @@ Portal.PerformanceSettingPage.Battery.Description,노트북 배터리 전원을 
 PASS⦙216,PASS⦙216,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.KO.xaml,Please don't touch the translation in this line.
 Portal.PerformanceSettingPage.Battery.BatteryUsage,배터리 상태 (%):,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.KO.xaml,
 PASS⦙217,PASS⦙217,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.KO.xaml,Please don't touch the translation in this line.
-Portal.PerformanceSettingPage.Saver,배터리 절약 모드,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.KO.xaml,
-Portal.PerformanceSettingPage.Saver.Description,노트북 배터리 절약 모드에서 배경화면이 어떻게 작동할지.,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.KO.xaml,
+Portal.PerformanceSettingPage.BatterySaver,배터리 절약 모드,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.KO.xaml,
+Portal.PerformanceSettingPage.BatterySaver.Description,노트북 배터리 절약 모드에서 배경화면이 어떻게 작동할지.,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.KO.xaml,
 PASS⦙218,PASS⦙218,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.KO.xaml,Please don't touch the translation in this line.
 Portal.PerformanceSettingPage.Virtual,가상화,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.KO.xaml,
 Portal.PerformanceSettingPage.Virtual.Description,가상화 응용 프로그램이 실행되는 동안 배경화면이 어떻게 작동할지.,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.KO.xaml,

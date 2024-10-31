@@ -28,7 +28,6 @@
         Gpu,
         Lock,
         Focus,
-        Saver,
         Sleep,
         Memory,
         Remote,
@@ -38,6 +37,7 @@
         Session,
         Virtual,
         FullScreen,
-        ScreenSaver
+        ScreenSaver,
+        BatterySaver
     }
 }

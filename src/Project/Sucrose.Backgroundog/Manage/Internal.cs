@@ -2,6 +2,7 @@
 using NPSMLib;
 using System.Diagnostics;
 using SBEAV = Sucrose.Backgroundog.Extension.AudioVisualizer;
+using SBEWL = Sucrose.Backgroundog.Extension.WindowsListener;
 using SBHI = Sucrose.Backgroundog.Helper.Initialize;
 using SBSDAS = Sucrose.Backgroundog.Struct.Data.AudioStruct;
 using SBSDBSS = Sucrose.Backgroundog.Struct.Data.BiosStruct;
@@ -16,6 +17,7 @@ using SSDECPT = Sucrose.Shared.Dependency.Enum.CategoryPerformanceType;
 using SSDENPT = Sucrose.Shared.Dependency.Enum.NetworkPerformanceType;
 using SSDEPPT = Sucrose.Shared.Dependency.Enum.PausePerformanceType;
 using SSDEPT = Sucrose.Shared.Dependency.Enum.PerformanceType;
+using SWHESM = Skylark.Wing.Helper.EventSubscriptionManager;
 using Timer = System.Threading.Timer;
 
 namespace Sucrose.Backgroundog.Manage
@@ -80,6 +82,8 @@ namespace Sucrose.Backgroundog.Manage
 
         public static bool SignalManagement = true;
 
+        public static SBEWL WindowsListener = null;
+
         public static bool BatteryManagement = true;
 
         public static bool GraphicManagement = true;
@@ -98,6 +102,8 @@ namespace Sucrose.Backgroundog.Manage
 
         public static bool EqualizerManagement = true;
 
+        public static bool WindowsScreenSaver = false;
+
         public static bool FullScreenManagement = true;
 
         public static bool VirtualityManagement = true;
@@ -107,6 +113,8 @@ namespace Sucrose.Backgroundog.Manage
         public static bool MotherboardManagement = true;
 
         public static string PingAddress = string.Empty;
+
+        public static SWHESM SubscriptionManager = null;
 
         public static readonly object LockObject = new();
 

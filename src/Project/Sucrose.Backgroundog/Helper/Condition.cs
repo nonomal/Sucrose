@@ -57,11 +57,6 @@ namespace Sucrose.Backgroundog.Helper
                     return;
                 }
 
-                if (await SaverCondition())
-                {
-                    return;
-                }
-
                 if (await SleepCondition())
                 {
                     return;
@@ -103,6 +98,16 @@ namespace Sucrose.Backgroundog.Helper
                 }
 
                 if (await FullScreenCondition())
+                {
+                    return;
+                }
+
+                if (await ScreenSaverCondition())
+                {
+                    return;
+                }
+
+                if (await BatterySaverCondition())
                 {
                     return;
                 }
@@ -281,36 +286,6 @@ namespace Sucrose.Backgroundog.Helper
                 int MaxCount = 3;
 
                 while (SBMI.FocusDesktop || SSDMMB.FocusPerformance == SSDEPT.Resume)
-                {
-                    if (Count >= MaxCount)
-                    {
-                        Lifecycle();
-                        SBMI.Condition = false;
-                        SBMI.Performance = SSDEPT.Resume;
-                        SBMI.CategoryPerformance = SSDECPT.Not;
-
-                        return true;
-                    }
-                    else
-                    {
-                        Count++;
-                    }
-
-                    await Task.Delay(TimeSpan.FromSeconds(1));
-                }
-            }
-
-            return false;
-        }
-
-        private static async Task<bool> SaverCondition()
-        {
-            if (SBMI.CategoryPerformance == SSDECPT.Saver)
-            {
-                int Count = 0;
-                int MaxCount = 3;
-
-                while (!SBMI.BatteryData.SavingMode || SBMI.BatteryData.SaverStatus == "Off" || SSDMMB.SaverPerformance == SSDEPT.Resume)
                 {
                     if (Count >= MaxCount)
                     {
@@ -630,6 +605,66 @@ namespace Sucrose.Backgroundog.Helper
                 int MaxCount = 3;
 
                 while (!SBMI.FullScreen || SSDMMB.FullScreenPerformance == SSDEPT.Resume)
+                {
+                    if (Count >= MaxCount)
+                    {
+                        Lifecycle();
+                        SBMI.Condition = false;
+                        SBMI.Performance = SSDEPT.Resume;
+                        SBMI.CategoryPerformance = SSDECPT.Not;
+
+                        return true;
+                    }
+                    else
+                    {
+                        Count++;
+                    }
+
+                    await Task.Delay(TimeSpan.FromSeconds(1));
+                }
+            }
+
+            return false;
+        }
+
+        private static async Task<bool> ScreenSaverCondition()
+        {
+            if (SBMI.CategoryPerformance == SSDECPT.ScreenSaver)
+            {
+                int Count = 0;
+                int MaxCount = 0;
+
+                while (!SBMI.WindowsScreenSaver || SSDMMB.ScreenSaverPerformance == SSDEPT.Resume)
+                {
+                    if (Count >= MaxCount)
+                    {
+                        Lifecycle();
+                        SBMI.Condition = false;
+                        SBMI.Performance = SSDEPT.Resume;
+                        SBMI.CategoryPerformance = SSDECPT.Not;
+
+                        return true;
+                    }
+                    else
+                    {
+                        Count++;
+                    }
+
+                    await Task.Delay(TimeSpan.FromSeconds(1));
+                }
+            }
+
+            return false;
+        }
+
+        private static async Task<bool> BatterySaverCondition()
+        {
+            if (SBMI.CategoryPerformance == SSDECPT.BatterySaver)
+            {
+                int Count = 0;
+                int MaxCount = 3;
+
+                while (!SBMI.BatteryData.SavingMode || SBMI.BatteryData.SaverStatus == "Off" || SSDMMB.BatterySaverPerformance == SSDEPT.Resume)
                 {
                     if (Count >= MaxCount)
                     {

@@ -50,8 +50,8 @@
 
     <system:String x:Key="Portal.PerformanceSettingPage.Battery.BatteryUsage">Estado de la Batería (%):</system:String>
 
-    <system:String x:Key="Portal.PerformanceSettingPage.Saver">Ahorro de Batería</system:String>
-    <system:String x:Key="Portal.PerformanceSettingPage.Saver.Description">Qué sucede con el fondo de pantalla cuando está en modo de ahorro de batería de la computadora portátil.</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.BatterySaver">Ahorro de Batería</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.BatterySaver.Description">Qué sucede con el fondo de pantalla cuando está en modo de ahorro de batería de la computadora portátil.</system:String>
 
     <system:String x:Key="Portal.PerformanceSettingPage.Virtual">Virtualización</system:String>
     <system:String x:Key="Portal.PerformanceSettingPage.Virtual.Description">Qué sucede con el fondo de pantalla cuando se ejecutan aplicaciones de virtualización.</system:String>

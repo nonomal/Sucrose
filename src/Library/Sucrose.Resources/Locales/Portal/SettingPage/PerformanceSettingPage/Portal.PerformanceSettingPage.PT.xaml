@@ -50,8 +50,8 @@
 
     <system:String x:Key="Portal.PerformanceSettingPage.Battery.BatteryUsage">Estado da Bateria (%):</system:String>
 
-    <system:String x:Key="Portal.PerformanceSettingPage.Saver">Modo Economia de Bateria</system:String>
-    <system:String x:Key="Portal.PerformanceSettingPage.Saver.Description">O que acontecerá com o papel de parede quando o laptop estiver no modo de economia de bateria.</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.BatterySaver">Modo Economia de Bateria</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.BatterySaver.Description">O que acontecerá com o papel de parede quando o laptop estiver no modo de economia de bateria.</system:String>
 
     <system:String x:Key="Portal.PerformanceSettingPage.Virtual">Virtualização</system:String>
     <system:String x:Key="Portal.PerformanceSettingPage.Virtual.Description">O que acontecerá com o papel de parede enquanto aplicativos de virtualização estiverem em execução.</system:String>

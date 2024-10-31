@@ -1017,8 +1017,8 @@ Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.PL.xaml,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.PL.xaml,,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.PL.xaml,Portal.PerformanceSettingPage.Battery.BatteryUsage,Stan Baterii (%):
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.PL.xaml,,
-Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.PL.xaml,Portal.PerformanceSettingPage.Saver,Tryb Oszczędzania Baterii
-Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.PL.xaml,Portal.PerformanceSettingPage.Saver.Description,Co dzieje się z tapetą w trybie oszczędzania baterii laptopa.
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.PL.xaml,Portal.PerformanceSettingPage.BatterySaver,Tryb Oszczędzania Baterii
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.PL.xaml,Portal.PerformanceSettingPage.BatterySaver.Description,Co dzieje się z tapetą w trybie oszczędzania baterii laptopa.
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.PL.xaml,,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.PL.xaml,Portal.PerformanceSettingPage.Virtual,Wirtualizacja
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.PL.xaml,Portal.PerformanceSettingPage.Virtual.Description,Co dzieje się z tapetą podczas działania aplikacji wirtualizacji.

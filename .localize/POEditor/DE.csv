@@ -1017,8 +1017,8 @@ Portal.PerformanceSettingPage.Battery.Description,"Was mit dem Hintergrundbild p
 PASS⦙216,PASS⦙216,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.DE.xaml,Please don't touch the translation in this line.
 Portal.PerformanceSettingPage.Battery.BatteryUsage,Akku-Status (%):,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.DE.xaml,
 PASS⦙217,PASS⦙217,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.DE.xaml,Please don't touch the translation in this line.
-Portal.PerformanceSettingPage.Saver,Energiesparmodus,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.DE.xaml,
-Portal.PerformanceSettingPage.Saver.Description,"Was mit dem Hintergrundbild passiert, wenn es im Energiesparmodus eines Laptops ist.",,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.DE.xaml,
+Portal.PerformanceSettingPage.BatterySaver,Energiesparmodus,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.DE.xaml,
+Portal.PerformanceSettingPage.BatterySaver.Description,"Was mit dem Hintergrundbild passiert, wenn es im Energiesparmodus eines Laptops ist.",,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.DE.xaml,
 PASS⦙218,PASS⦙218,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.DE.xaml,Please don't touch the translation in this line.
 Portal.PerformanceSettingPage.Virtual,Virtualisierung,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.DE.xaml,
 Portal.PerformanceSettingPage.Virtual.Description,"Was mit dem Hintergrundbild passiert, wenn Virtualisierungsanwendungen ausgeführt werden.",,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.DE.xaml,

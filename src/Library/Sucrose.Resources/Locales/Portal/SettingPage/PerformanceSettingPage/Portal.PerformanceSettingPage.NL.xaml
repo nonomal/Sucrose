@@ -50,8 +50,8 @@
 
     <system:String x:Key="Portal.PerformanceSettingPage.Battery.BatteryUsage">Batterijstatus (%):</system:String>
 
-    <system:String x:Key="Portal.PerformanceSettingPage.Saver">Energiespaarstand</system:String>
-    <system:String x:Key="Portal.PerformanceSettingPage.Saver.Description">Het effect van uw instellingen voor energiespaarstand op de achtergrondafbeelding wanneer uw laptop in de spaarstand staat.</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.BatterySaver">Energiespaarstand</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.BatterySaver.Description">Het effect van uw instellingen voor energiespaarstand op de achtergrondafbeelding wanneer uw laptop in de spaarstand staat.</system:String>
 
     <system:String x:Key="Portal.PerformanceSettingPage.Virtual">Virtualisatie</system:String>
     <system:String x:Key="Portal.PerformanceSettingPage.Virtual.Description">Het effect van virtualisatietoepassingen op de achtergrondafbeelding.</system:String>

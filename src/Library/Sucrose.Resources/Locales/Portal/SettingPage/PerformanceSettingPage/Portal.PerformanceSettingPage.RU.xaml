@@ -50,8 +50,8 @@
 
     <system:String x:Key="Portal.PerformanceSettingPage.Battery.BatteryUsage">Уровень заряда батареи (%):</system:String>
 
-    <system:String x:Key="Portal.PerformanceSettingPage.Saver">Экономия батареи</system:String>
-    <system:String x:Key="Portal.PerformanceSettingPage.Saver.Description">Определяет влияние режима экономии батареи на обои.</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.BatterySaver">Экономия батареи</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.BatterySaver.Description">Определяет влияние режима экономии батареи на обои.</system:String>
 
     <system:String x:Key="Portal.PerformanceSettingPage.Virtual">Виртуализация</system:String>
     <system:String x:Key="Portal.PerformanceSettingPage.Virtual.Description">Определяет влияние запущенных виртуальных машин на обои.</system:String>

@@ -50,8 +50,8 @@
 
     <system:String x:Key="Portal.PerformanceSettingPage.Battery.BatteryUsage">Κατάσταση Μπαταρίας (%):</system:String>
 
-    <system:String x:Key="Portal.PerformanceSettingPage.Saver">Λειτουργία Εξοικονόμησης Μπαταρίας</system:String>
-    <system:String x:Key="Portal.PerformanceSettingPage.Saver.Description">Πώς θα επηρεάσει η ρύθμιση της λειτουργίας εξοικονόμησης μπαταρίας το ταπετσαρία όταν είναι ενεργοποιημένη.</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.BatterySaver">Λειτουργία Εξοικονόμησης Μπαταρίας</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.BatterySaver.Description">Πώς θα επηρεάσει η ρύθμιση της λειτουργίας εξοικονόμησης μπαταρίας το ταπετσαρία όταν είναι ενεργοποιημένη.</system:String>
 
     <system:String x:Key="Portal.PerformanceSettingPage.Virtual">Εικονικές Μηχανές</system:String>
     <system:String x:Key="Portal.PerformanceSettingPage.Virtual.Description">Πώς θα επηρεάσει η ρύθμιση των εικονικών μηχανών το ταπετσαρία όταν είναι ενεργοποιημένη.</system:String>

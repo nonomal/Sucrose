@@ -50,8 +50,8 @@
 
     <system:String x:Key="Portal.PerformanceSettingPage.Battery.BatteryUsage">Akku-Status (%):</system:String>
 
-    <system:String x:Key="Portal.PerformanceSettingPage.Saver">Energiesparmodus</system:String>
-    <system:String x:Key="Portal.PerformanceSettingPage.Saver.Description">Was mit dem Hintergrundbild passiert, wenn es im Energiesparmodus eines Laptops ist.</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.BatterySaver">Energiesparmodus</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.BatterySaver.Description">Was mit dem Hintergrundbild passiert, wenn es im Energiesparmodus eines Laptops ist.</system:String>
 
     <system:String x:Key="Portal.PerformanceSettingPage.Virtual">Virtualisierung</system:String>
     <system:String x:Key="Portal.PerformanceSettingPage.Virtual.Description">Was mit dem Hintergrundbild passiert, wenn Virtualisierungsanwendungen ausgeführt werden.</system:String>

@@ -1017,8 +1017,8 @@ Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.TR.xaml,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.TR.xaml,,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.TR.xaml,Portal.PerformanceSettingPage.Battery.BatteryUsage,Pil Durumu (%):
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.TR.xaml,,
-Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.TR.xaml,Portal.PerformanceSettingPage.Saver,Pil Tasarrufu
-Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.TR.xaml,Portal.PerformanceSettingPage.Saver.Description,Dizüstü bilgisayar pil tasarrufu modundayken duvar kağıdına ne olacağı.
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.TR.xaml,Portal.PerformanceSettingPage.BatterySaver,Pil Tasarrufu
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.TR.xaml,Portal.PerformanceSettingPage.BatterySaver.Description,Dizüstü bilgisayar pil tasarrufu modundayken duvar kağıdına ne olacağı.
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.TR.xaml,,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.TR.xaml,Portal.PerformanceSettingPage.Virtual,Sanallaştırma
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.TR.xaml,Portal.PerformanceSettingPage.Virtual.Description,Sanallaştırma uygulamaları çalışırken duvar kağıdına ne olacağı.

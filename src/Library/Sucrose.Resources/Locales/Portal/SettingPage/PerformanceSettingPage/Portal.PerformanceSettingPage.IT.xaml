@@ -50,8 +50,8 @@
 
     <system:String x:Key="Portal.PerformanceSettingPage.Battery.BatteryUsage">Stato della Batteria (%):</system:String>
 
-    <system:String x:Key="Portal.PerformanceSettingPage.Saver">Risparmio Batteria</system:String>
-    <system:String x:Key="Portal.PerformanceSettingPage.Saver.Description">Cosa dovrebbe accadere al wallpaper quando si attiva la modalità risparmio batteria su un laptop.</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.BatterySaver">Risparmio Batteria</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.BatterySaver.Description">Cosa dovrebbe accadere al wallpaper quando si attiva la modalità risparmio batteria su un laptop.</system:String>
 
     <system:String x:Key="Portal.PerformanceSettingPage.Virtual">Virtualizzazione</system:String>
     <system:String x:Key="Portal.PerformanceSettingPage.Virtual.Description">Cosa dovrebbe accadere al wallpaper quando si utilizzano applicazioni di virtualizzazione.</system:String>

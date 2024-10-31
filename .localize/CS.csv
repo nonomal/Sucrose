@@ -1017,8 +1017,8 @@ Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,Portal.PerformanceSettingPage.Battery.BatteryUsage,Stav Baterie (%):
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,,
-Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,Portal.PerformanceSettingPage.Saver,Úsporný Režim
-Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,Portal.PerformanceSettingPage.Saver.Description,"Určuje, jaký bude výsledek duhovky v energeticky úsporném režimu notebooku."
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,Portal.PerformanceSettingPage.BatterySaver,Úsporný Režim
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,Portal.PerformanceSettingPage.BatterySaver.Description,"Určuje, jaký bude výsledek duhovky v energeticky úsporném režimu notebooku."
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,Portal.PerformanceSettingPage.Virtual,Virtualizace
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,Portal.PerformanceSettingPage.Virtual.Description,"Určuje, jaký bude výsledek duhovky při použití virtualizačních aplikací."

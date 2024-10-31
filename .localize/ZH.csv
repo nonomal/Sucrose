@@ -1017,8 +1017,8 @@ Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ZH.xaml,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ZH.xaml,,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ZH.xaml,Portal.PerformanceSettingPage.Battery.BatteryUsage,电池电量 (%):
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ZH.xaml,,
-Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ZH.xaml,Portal.PerformanceSettingPage.Saver,电池节能模式
-Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ZH.xaml,Portal.PerformanceSettingPage.Saver.Description,当笔记本电脑在电池节能模式下运行时，将影响壁纸。
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ZH.xaml,Portal.PerformanceSettingPage.BatterySaver,电池节能模式
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ZH.xaml,Portal.PerformanceSettingPage.BatterySaver.Description,当笔记本电脑在电池节能模式下运行时，将影响壁纸。
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ZH.xaml,,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ZH.xaml,Portal.PerformanceSettingPage.Virtual,虚拟化
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ZH.xaml,Portal.PerformanceSettingPage.Virtual.Description,当虚拟化应用程序运行时，将影响壁纸。

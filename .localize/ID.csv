@@ -1017,8 +1017,8 @@ Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ID.xaml,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ID.xaml,,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ID.xaml,Portal.PerformanceSettingPage.Battery.BatteryUsage,Status Baterai (%):
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ID.xaml,,
-Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ID.xaml,Portal.PerformanceSettingPage.Saver,Penghemat Baterai
-Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ID.xaml,Portal.PerformanceSettingPage.Saver.Description,Apa yang terjadi pada wallpaper saat laptop berada dalam mode penghematan baterai.
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ID.xaml,Portal.PerformanceSettingPage.BatterySaver,Penghemat Baterai
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ID.xaml,Portal.PerformanceSettingPage.BatterySaver.Description,Apa yang terjadi pada wallpaper saat laptop berada dalam mode penghematan baterai.
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ID.xaml,,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ID.xaml,Portal.PerformanceSettingPage.Virtual,Virtualisasi
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ID.xaml,Portal.PerformanceSettingPage.Virtual.Description,Apa yang terjadi pada wallpaper saat aplikasi virtualisasi berjalan.

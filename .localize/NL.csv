@@ -1017,8 +1017,8 @@ Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NL.xaml,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NL.xaml,,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NL.xaml,Portal.PerformanceSettingPage.Battery.BatteryUsage,Batterijstatus (%):
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NL.xaml,,
-Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NL.xaml,Portal.PerformanceSettingPage.Saver,Energiespaarstand
-Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NL.xaml,Portal.PerformanceSettingPage.Saver.Description,Het effect van uw instellingen voor energiespaarstand op de achtergrondafbeelding wanneer uw laptop in de spaarstand staat.
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NL.xaml,Portal.PerformanceSettingPage.BatterySaver,Energiespaarstand
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NL.xaml,Portal.PerformanceSettingPage.BatterySaver.Description,Het effect van uw instellingen voor energiespaarstand op de achtergrondafbeelding wanneer uw laptop in de spaarstand staat.
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NL.xaml,,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NL.xaml,Portal.PerformanceSettingPage.Virtual,Virtualisatie
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NL.xaml,Portal.PerformanceSettingPage.Virtual.Description,Het effect van virtualisatietoepassingen op de achtergrondafbeelding.

@@ -50,8 +50,8 @@
 
     <system:String x:Key="Portal.PerformanceSettingPage.Battery.BatteryUsage">Batteristatus (%):</system:String>
 
-    <system:String x:Key="Portal.PerformanceSettingPage.Saver">Strømsparemodus</system:String>
-    <system:String x:Key="Portal.PerformanceSettingPage.Saver.Description">Hvordan tapetet skal reagere når du bruker strømsparemodus på en bærbar datamaskin.</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.BatterySaver">Strømsparemodus</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.BatterySaver.Description">Hvordan tapetet skal reagere når du bruker strømsparemodus på en bærbar datamaskin.</system:String>
 
     <system:String x:Key="Portal.PerformanceSettingPage.Virtual">Virtualisering</system:String>
     <system:String x:Key="Portal.PerformanceSettingPage.Virtual.Description">Hvordan tapetet skal reagere når virtualiseringsprogrammer kjører.</system:String>

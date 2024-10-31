@@ -1017,8 +1017,8 @@ Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ES.xaml,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ES.xaml,,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ES.xaml,Portal.PerformanceSettingPage.Battery.BatteryUsage,Estado de la Batería (%):
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ES.xaml,,
-Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ES.xaml,Portal.PerformanceSettingPage.Saver,Ahorro de Batería
-Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ES.xaml,Portal.PerformanceSettingPage.Saver.Description,Qué sucede con el fondo de pantalla cuando está en modo de ahorro de batería de la computadora portátil.
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ES.xaml,Portal.PerformanceSettingPage.BatterySaver,Ahorro de Batería
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ES.xaml,Portal.PerformanceSettingPage.BatterySaver.Description,Qué sucede con el fondo de pantalla cuando está en modo de ahorro de batería de la computadora portátil.
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ES.xaml,,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ES.xaml,Portal.PerformanceSettingPage.Virtual,Virtualización
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.ES.xaml,Portal.PerformanceSettingPage.Virtual.Description,Qué sucede con el fondo de pantalla cuando se ejecutan aplicaciones de virtualización.

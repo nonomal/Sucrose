@@ -1017,8 +1017,8 @@ Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.DA.xaml,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.DA.xaml,,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.DA.xaml,Portal.PerformanceSettingPage.Battery.BatteryUsage,Batteriniveau (%):
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.DA.xaml,,
-Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.DA.xaml,Portal.PerformanceSettingPage.Saver,Batterisparetilstand
-Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.DA.xaml,Portal.PerformanceSettingPage.Saver.Description,"Hvad der skal ske med tapetet, når du bruger en bærbar computer i batterisparetilstand."
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.DA.xaml,Portal.PerformanceSettingPage.BatterySaver,Batterisparetilstand
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.DA.xaml,Portal.PerformanceSettingPage.BatterySaver.Description,"Hvad der skal ske med tapetet, når du bruger en bærbar computer i batterisparetilstand."
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.DA.xaml,,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.DA.xaml,Portal.PerformanceSettingPage.Virtual,Virtualisering
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.DA.xaml,Portal.PerformanceSettingPage.Virtual.Description,"Hvad der skal ske med tapetet, når virtualiseringsapplikationer kører."

@@ -50,8 +50,8 @@
 
     <system:String x:Key="Portal.PerformanceSettingPage.Battery.BatteryUsage">Status Bateri (%):</system:String>
 
-    <system:String x:Key="Portal.PerformanceSettingPage.Saver">Penjimatan Bateri</system:String>
-    <system:String x:Key="Portal.PerformanceSettingPage.Saver.Description">Apa yang akan berlaku pada dinding semasa dalam mod penjimatan bateri komputer riba.</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.BatterySaver">Penjimatan Bateri</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.BatterySaver.Description">Apa yang akan berlaku pada dinding semasa dalam mod penjimatan bateri komputer riba.</system:String>
 
     <system:String x:Key="Portal.PerformanceSettingPage.Virtual">Penyambungan</system:String>
     <system:String x:Key="Portal.PerformanceSettingPage.Virtual.Description">Apa yang akan berlaku pada dinding semasa aplikasi penyambungan berjalan.</system:String>

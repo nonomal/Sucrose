@@ -50,8 +50,8 @@
 
     <system:String x:Key="Portal.PerformanceSettingPage.Battery.BatteryUsage">Starea Bateriei (%):</system:String>
 
-    <system:String x:Key="Portal.PerformanceSettingPage.Saver">Mod Economisire Baterie</system:String>
-    <system:String x:Key="Portal.PerformanceSettingPage.Saver.Description">Ce se întâmplă cu fundalul temei dvs. atunci când modul de economisire a bateriei este activat.</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.BatterySaver">Mod Economisire Baterie</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.BatterySaver.Description">Ce se întâmplă cu fundalul temei dvs. atunci când modul de economisire a bateriei este activat.</system:String>
 
     <system:String x:Key="Portal.PerformanceSettingPage.Virtual">Virtualizare</system:String>
     <system:String x:Key="Portal.PerformanceSettingPage.Virtual.Description">Ce se întâmplă cu fundalul temei dvs. atunci când se utilizează aplicații de virtualizare.</system:String>

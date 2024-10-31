@@ -1017,8 +1017,8 @@ Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.IT.xaml,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.IT.xaml,,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.IT.xaml,Portal.PerformanceSettingPage.Battery.BatteryUsage,Stato della Batteria (%):
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.IT.xaml,,
-Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.IT.xaml,Portal.PerformanceSettingPage.Saver,Risparmio Batteria
-Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.IT.xaml,Portal.PerformanceSettingPage.Saver.Description,Cosa dovrebbe accadere al wallpaper quando si attiva la modalità risparmio batteria su un laptop.
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.IT.xaml,Portal.PerformanceSettingPage.BatterySaver,Risparmio Batteria
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.IT.xaml,Portal.PerformanceSettingPage.BatterySaver.Description,Cosa dovrebbe accadere al wallpaper quando si attiva la modalità risparmio batteria su un laptop.
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.IT.xaml,,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.IT.xaml,Portal.PerformanceSettingPage.Virtual,Virtualizzazione
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.IT.xaml,Portal.PerformanceSettingPage.Virtual.Description,Cosa dovrebbe accadere al wallpaper quando si utilizzano applicazioni di virtualizzazione.

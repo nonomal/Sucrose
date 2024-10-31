@@ -50,8 +50,8 @@
 
     <system:String x:Key="Portal.PerformanceSettingPage.Battery.BatteryUsage">बैटरी स्थिति (%):</system:String>
 
-    <system:String x:Key="Portal.PerformanceSettingPage.Saver">बैटरी बचाने वाला</system:String>
-    <system:String x:Key="Portal.PerformanceSettingPage.Saver.Description">लैपटॉप बैटरी बचाने के मोड पर काम करते समय वॉलपेपर पर क्या होने वाला है।</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.BatterySaver">बैटरी बचाने वाला</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.BatterySaver.Description">लैपटॉप बैटरी बचाने के मोड पर काम करते समय वॉलपेपर पर क्या होने वाला है।</system:String>
 
     <system:String x:Key="Portal.PerformanceSettingPage.Virtual">वर्चुअलाइजेशन</system:String>
     <system:String x:Key="Portal.PerformanceSettingPage.Virtual.Description">वर्चुअलाइजेशन एप्लिकेशन चलते समय वॉलपेपर पर क्या होने वाला है।</system:String>

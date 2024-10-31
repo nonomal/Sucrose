@@ -205,9 +205,6 @@ namespace Sucrose.Shared.Space.Model
         [JsonProperty("PerformanceCounter", Required = Required.Always)]
         public bool PerformanceCounter { get; set; }
 
-        [JsonProperty("SaverPerformance", Required = Required.Always)]
-        public string SaverPerformance { get; set; }
-
         [JsonProperty("UpdateModuleType", Required = Required.Always)]
         public string UpdateModuleType { get; set; }
 
@@ -282,6 +279,9 @@ namespace Sucrose.Shared.Space.Model
 
         [JsonProperty("ProcessorArchitecture", Required = Required.Always)]
         public string ProcessorArchitecture { get; set; }
+
+        [JsonProperty("BatterySaverPerformance", Required = Required.Always)]
+        public string BatterySaverPerformance { get; set; }
 
         [JsonProperty("OperatingSystemArchitecture", Required = Required.Always)]
         public string OperatingSystemArchitecture { get; set; }

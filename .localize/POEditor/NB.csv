@@ -1017,8 +1017,8 @@ Portal.PerformanceSettingPage.Battery.Description,Hvordan tapetet skal reagere n
 PASS⦙216,PASS⦙216,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NB.xaml,Please don't touch the translation in this line.
 Portal.PerformanceSettingPage.Battery.BatteryUsage,Batteristatus (%):,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NB.xaml,
 PASS⦙217,PASS⦙217,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NB.xaml,Please don't touch the translation in this line.
-Portal.PerformanceSettingPage.Saver,Strømsparemodus,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NB.xaml,
-Portal.PerformanceSettingPage.Saver.Description,Hvordan tapetet skal reagere når du bruker strømsparemodus på en bærbar datamaskin.,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NB.xaml,
+Portal.PerformanceSettingPage.BatterySaver,Strømsparemodus,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NB.xaml,
+Portal.PerformanceSettingPage.BatterySaver.Description,Hvordan tapetet skal reagere når du bruker strømsparemodus på en bærbar datamaskin.,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NB.xaml,
 PASS⦙218,PASS⦙218,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NB.xaml,Please don't touch the translation in this line.
 Portal.PerformanceSettingPage.Virtual,Virtualisering,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NB.xaml,
 Portal.PerformanceSettingPage.Virtual.Description,Hvordan tapetet skal reagere når virtualiseringsprogrammer kjører.,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.NB.xaml,

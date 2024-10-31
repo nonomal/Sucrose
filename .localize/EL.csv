@@ -1017,8 +1017,8 @@ Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.EL.xaml,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.EL.xaml,,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.EL.xaml,Portal.PerformanceSettingPage.Battery.BatteryUsage,Κατάσταση Μπαταρίας (%):
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.EL.xaml,,
-Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.EL.xaml,Portal.PerformanceSettingPage.Saver,Λειτουργία Εξοικονόμησης Μπαταρίας
-Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.EL.xaml,Portal.PerformanceSettingPage.Saver.Description,Πώς θα επηρεάσει η ρύθμιση της λειτουργίας εξοικονόμησης μπαταρίας το ταπετσαρία όταν είναι ενεργοποιημένη.
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.EL.xaml,Portal.PerformanceSettingPage.BatterySaver,Λειτουργία Εξοικονόμησης Μπαταρίας
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.EL.xaml,Portal.PerformanceSettingPage.BatterySaver.Description,Πώς θα επηρεάσει η ρύθμιση της λειτουργίας εξοικονόμησης μπαταρίας το ταπετσαρία όταν είναι ενεργοποιημένη.
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.EL.xaml,,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.EL.xaml,Portal.PerformanceSettingPage.Virtual,Εικονικές Μηχανές
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.EL.xaml,Portal.PerformanceSettingPage.Virtual.Description,Πώς θα επηρεάσει η ρύθμιση των εικονικών μηχανών το ταπετσαρία όταν είναι ενεργοποιημένη.

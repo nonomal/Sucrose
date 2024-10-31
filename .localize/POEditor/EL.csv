@@ -1017,8 +1017,8 @@ Portal.PerformanceSettingPage.Battery.Description,Πώς θα επηρεάσει
 PASS⦙216,PASS⦙216,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.EL.xaml,Please don't touch the translation in this line.
 Portal.PerformanceSettingPage.Battery.BatteryUsage,Κατάσταση Μπαταρίας (%):,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.EL.xaml,
 PASS⦙217,PASS⦙217,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.EL.xaml,Please don't touch the translation in this line.
-Portal.PerformanceSettingPage.Saver,Λειτουργία Εξοικονόμησης Μπαταρίας,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.EL.xaml,
-Portal.PerformanceSettingPage.Saver.Description,Πώς θα επηρεάσει η ρύθμιση της λειτουργίας εξοικονόμησης μπαταρίας το ταπετσαρία όταν είναι ενεργοποιημένη.,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.EL.xaml,
+Portal.PerformanceSettingPage.BatterySaver,Λειτουργία Εξοικονόμησης Μπαταρίας,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.EL.xaml,
+Portal.PerformanceSettingPage.BatterySaver.Description,Πώς θα επηρεάσει η ρύθμιση της λειτουργίας εξοικονόμησης μπαταρίας το ταπετσαρία όταν είναι ενεργοποιημένη.,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.EL.xaml,
 PASS⦙218,PASS⦙218,Don't Touch,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.EL.xaml,Please don't touch the translation in this line.
 Portal.PerformanceSettingPage.Virtual,Εικονικές Μηχανές,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.EL.xaml,
 Portal.PerformanceSettingPage.Virtual.Description,Πώς θα επηρεάσει η ρύθμιση των εικονικών μηχανών το ταπετσαρία όταν είναι ενεργοποιημένη.,,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.EL.xaml,

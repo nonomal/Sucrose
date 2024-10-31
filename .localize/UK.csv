@@ -1017,8 +1017,8 @@ Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.UK.xaml,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.UK.xaml,,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.UK.xaml,Portal.PerformanceSettingPage.Battery.BatteryUsage,Стан заряду батареї (%):
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.UK.xaml,,
-Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.UK.xaml,Portal.PerformanceSettingPage.Saver,Економія енергії батареї
-Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.UK.xaml,Portal.PerformanceSettingPage.Saver.Description,Як економія енергії батареї впливає на робочий стіл під час роботи з ноутбука.
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.UK.xaml,Portal.PerformanceSettingPage.BatterySaver,Економія енергії батареї
+Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.UK.xaml,Portal.PerformanceSettingPage.BatterySaver.Description,Як економія енергії батареї впливає на робочий стіл під час роботи з ноутбука.
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.UK.xaml,,
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.UK.xaml,Portal.PerformanceSettingPage.Virtual,Віртуалізація
 Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.UK.xaml,Portal.PerformanceSettingPage.Virtual.Description,Як віртуалізація впливає на робочий стіл під час роботи з віртуальними програмами.

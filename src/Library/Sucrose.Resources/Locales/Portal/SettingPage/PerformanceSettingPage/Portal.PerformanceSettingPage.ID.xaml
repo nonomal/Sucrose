@@ -50,8 +50,8 @@
 
     <system:String x:Key="Portal.PerformanceSettingPage.Battery.BatteryUsage">Status Baterai (%):</system:String>
 
-    <system:String x:Key="Portal.PerformanceSettingPage.Saver">Penghemat Baterai</system:String>
-    <system:String x:Key="Portal.PerformanceSettingPage.Saver.Description">Apa yang terjadi pada wallpaper saat laptop berada dalam mode penghematan baterai.</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.BatterySaver">Penghemat Baterai</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.BatterySaver.Description">Apa yang terjadi pada wallpaper saat laptop berada dalam mode penghematan baterai.</system:String>
 
     <system:String x:Key="Portal.PerformanceSettingPage.Virtual">Virtualisasi</system:String>
     <system:String x:Key="Portal.PerformanceSettingPage.Virtual.Description">Apa yang terjadi pada wallpaper saat aplikasi virtualisasi berjalan.</system:String>

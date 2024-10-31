@@ -50,8 +50,8 @@
 
     <system:String x:Key="Portal.PerformanceSettingPage.Battery.BatteryUsage">バッテリー残量 (%):</system:String>
 
-    <system:String x:Key="Portal.PerformanceSettingPage.Saver">バッテリー節約モード</system:String>
-    <system:String x:Key="Portal.PerformanceSettingPage.Saver.Description">ノートパソコンのバッテリー節約モード中に壁紙の動作。</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.BatterySaver">バッテリー節約モード</system:String>
+    <system:String x:Key="Portal.PerformanceSettingPage.BatterySaver.Description">ノートパソコンのバッテリー節約モード中に壁紙の動作。</system:String>
 
     <system:String x:Key="Portal.PerformanceSettingPage.Virtual">仮想化</system:String>
     <system:String x:Key="Portal.PerformanceSettingPage.Virtual.Description">仮想化アプリケーションが実行中の場合の壁紙の動作。</system:String>

@@ -48,11 +48,6 @@ namespace Sucrose.Backgroundog.Helper
                 return;
             }
 
-            if (await SaverPerformance())
-            {
-                return;
-            }
-
             if (await SleepPerformance())
             {
                 return;
@@ -94,6 +89,16 @@ namespace Sucrose.Backgroundog.Helper
             }
 
             if (await FullScreenPerformance())
+            {
+                return;
+            }
+
+            if (await ScreenSaverPerformance())
+            {
+                return;
+            }
+
+            if (await BatterySaverPerformance())
             {
                 return;
             }
@@ -281,37 +286,6 @@ namespace Sucrose.Backgroundog.Helper
                     {
                         SBMI.Performance = SSDMMB.FocusPerformance;
                         SBMI.CategoryPerformance = SSDECPT.Focus;
-                        SBMI.Condition = true;
-                        Lifecycle();
-
-                        return true;
-                    }
-                    else
-                    {
-                        Count++;
-                    }
-
-                    await Task.Delay(TimeSpan.FromSeconds(1));
-                }
-            }
-
-            return false;
-        }
-
-        private static async Task<bool> SaverPerformance()
-        {
-            if (SSDMMB.SaverPerformance != SSDEPT.Resume)
-            {
-                int Count = 0;
-                int MaxCount = 5;
-                SSDEPT Performance = SSDMMB.SaverPerformance;
-
-                while (SBMI.BatteryData.State && (SBMI.BatteryData.SavingMode || SBMI.BatteryData.SaverStatus == "On") && SSDMMB.SaverPerformance == Performance)
-                {
-                    if (Count >= MaxCount)
-                    {
-                        SBMI.Performance = SSDMMB.SaverPerformance;
-                        SBMI.CategoryPerformance = SSDECPT.Saver;
                         SBMI.Condition = true;
                         Lifecycle();
 
@@ -633,6 +607,68 @@ namespace Sucrose.Backgroundog.Helper
                     {
                         SBMI.Performance = SSDMMB.FullScreenPerformance;
                         SBMI.CategoryPerformance = SSDECPT.FullScreen;
+                        SBMI.Condition = true;
+                        Lifecycle();
+
+                        return true;
+                    }
+                    else
+                    {
+                        Count++;
+                    }
+
+                    await Task.Delay(TimeSpan.FromSeconds(1));
+                }
+            }
+
+            return false;
+        }
+
+        private static async Task<bool> ScreenSaverPerformance()
+        {
+            if (SSDMMB.ScreenSaverPerformance != SSDEPT.Resume)
+            {
+                int Count = 0;
+                int MaxCount = 0;
+                SSDEPT Performance = SSDMMB.ScreenSaverPerformance;
+
+                while (SBMI.WindowsScreenSaver && SSDMMB.ScreenSaverPerformance == Performance)
+                {
+                    if (Count >= MaxCount)
+                    {
+                        SBMI.Performance = SSDMMB.ScreenSaverPerformance;
+                        SBMI.CategoryPerformance = SSDECPT.ScreenSaver;
+                        SBMI.Condition = true;
+                        Lifecycle();
+
+                        return true;
+                    }
+                    else
+                    {
+                        Count++;
+                    }
+
+                    await Task.Delay(TimeSpan.FromSeconds(1));
+                }
+            }
+
+            return false;
+        }
+
+        private static async Task<bool> BatterySaverPerformance()
+        {
+            if (SSDMMB.BatterySaverPerformance != SSDEPT.Resume)
+            {
+                int Count = 0;
+                int MaxCount = 5;
+                SSDEPT Performance = SSDMMB.BatterySaverPerformance;
+
+                while (SBMI.BatteryData.State && (SBMI.BatteryData.SavingMode || SBMI.BatteryData.SaverStatus == "On") && SSDMMB.BatterySaverPerformance == Performance)
+                {
+                    if (Count >= MaxCount)
+                    {
+                        SBMI.Performance = SSDMMB.BatterySaverPerformance;
+                        SBMI.CategoryPerformance = SSDECPT.BatterySaver;
                         SBMI.Condition = true;
                         Lifecycle();
 
