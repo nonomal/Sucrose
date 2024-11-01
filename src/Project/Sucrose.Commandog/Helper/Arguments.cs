@@ -218,6 +218,12 @@ namespace Sucrose.Commandog.Helper
                                 case SSDECT.Backgroundog:
                                     SSSHP.Run(SCHP.ArgumentValue<string>(Values[0]), string.Empty);
                                     break;
+                                case SSDECT.QuotingGoogle:
+                                    SSSHP.Run(SCHP.ArgumentValue<string>(Values[0]));
+                                    break;
+                                case SSDECT.QuotingTranslate:
+                                    SSSHP.Run(SCHP.ArgumentValue<string>(Values[0]));
+                                    break;
                                 default:
                                     break;
                             }

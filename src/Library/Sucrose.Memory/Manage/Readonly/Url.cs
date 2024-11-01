@@ -11,6 +11,8 @@ namespace Sucrose.Memory.Manage.Readonly
 
         public static readonly string RawGitHub = "https://raw.githubusercontent.com";
 
+        public static readonly string GoogleSearch = "https://www.google.com/search?q={0}";
+
         public static readonly string SoferityStore = $"{Soferity}/{SMMRS.StoreDirectory}";
 
         public static readonly string GitHubStore = $"{GitHub}/{SMMRGH.Owner}/{SMMRGH.StoreRepository}";
@@ -24,6 +26,8 @@ namespace Sucrose.Memory.Manage.Readonly
         public static readonly string GitHubStoreWiki = $"{GitHub}/{SMMRGH.Owner}/{SMMRGH.StoreRepository}/{SMMRGH.Wiki}";
 
         public static readonly string GitHubSucroseWiki = $"{GitHub}/{SMMRGH.Owner}/{SMMRGH.SucroseRepository}/{SMMRGH.Wiki}";
+
+        public static readonly string GoogleTranslate = "https://translate.google.com/?sl=auto&tl=auto&text={0}&op=translate";
 
         public static readonly string RawGitHubStoreBranch = $"{RawGitHub}/{SMMRGH.Owner}/{SMMRGH.StoreRepository}/{SMMRGH.Branch}";
 

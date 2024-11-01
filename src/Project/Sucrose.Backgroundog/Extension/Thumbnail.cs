@@ -1,7 +1,6 @@
 ﻿using System.Drawing.Imaging;
 using System.IO;
-using SBMI = Sucrose.Backgroundog.Manage.Internal;
-using SWEOS = Skylark.Wing.Extension.OperatingSystem;
+using SSSHW = Sucrose.Shared.Space.Helper.Windows;
 
 namespace Sucrose.Backgroundog.Extension
 {
@@ -14,7 +13,7 @@ namespace Sucrose.Backgroundog.Extension
             MemoryStream.Seek(0, SeekOrigin.Begin);
             Stream.CopyTo(MemoryStream);
 
-            if (SWEOS.BuildNumber < SBMI.Windows11BuildNumber)
+            if (!SSSHW.IsCobalt())
             {
                 using Bitmap Image = new(MemoryStream);
 

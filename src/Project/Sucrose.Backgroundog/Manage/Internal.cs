@@ -108,8 +108,6 @@ namespace Sucrose.Backgroundog.Manage
 
         public static bool VirtualityManagement = true;
 
-        public static int Windows11BuildNumber = 22000;
-
         public static bool MotherboardManagement = true;
 
         public static string PingAddress = string.Empty;

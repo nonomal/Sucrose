@@ -32,8 +32,11 @@ using SPVPSP = Sucrose.Portal.Views.Pages.StorePage;
 using SPVPSSSP = Sucrose.Portal.Views.Pages.Setting.SystemSettingPage;
 using SSCHV = Sucrose.Shared.Core.Helper.Version;
 using SSDEACT = Sucrose.Shared.Dependency.Enum.ArgumentCommandType;
+using SSDECT = Sucrose.Shared.Dependency.Enum.CommandType;
 using SSDMMG = Sucrose.Shared.Dependency.Manage.Manager.General;
+using SSSHP = Sucrose.Shared.Space.Helper.Processor;
 using SSSHU = Sucrose.Shared.Space.Helper.User;
+using SSSMI = Sucrose.Shared.Space.Manage.Internal;
 using SSSMSTD = Sucrose.Shared.Space.Model.SearchTelemetryData;
 using SSWEW = Sucrose.Shared.Watchdog.Extension.Watch;
 using SWHWT = Skylark.Wing.Helper.WindowsTheme;
@@ -262,11 +265,6 @@ namespace Sucrose.Portal.Views.Windows
             Dispose();
         }
 
-        private void Quoting_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
-        {
-            SCHB.SetText(Quoting.Text);
-        }
-
         private void RootView_Navigated(NavigationView sender, NavigatedEventArgs args)
         {
             Dispose();
@@ -317,6 +315,20 @@ namespace Sucrose.Portal.Views.Windows
                 Dispose();
             }
             catch (TaskCanceledException) { }
+        }
+
+        private async void Quoting_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
+        {
+            try
+            {
+                SCHB.SetText(Quoting.Text);
+            }
+            catch (Exception Exception)
+            {
+                await SSWEW.Watch_CatchException(Exception);
+
+                SSSHP.Run(SSSMI.Commandog, $"{SMMRG.StartCommand}{SSDECT.QuotingTranslate}{SMMRG.ValueSeparator}{string.Format(SMMRU.GoogleTranslate, Quoting.Text.Replace(" ", "%20"))}");
+            }
         }
 
         private void RootView_Navigating(NavigationView sender, NavigatingCancelEventArgs args)

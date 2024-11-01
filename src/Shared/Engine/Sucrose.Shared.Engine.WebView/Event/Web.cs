@@ -45,10 +45,10 @@ namespace Sucrose.Shared.Engine.WebView.Event
         {
             SSWHD.Add("WebEngine Process Failed", new Hashtable()
             {
-                { "Reason", e.Reason },
                 { "Exit Code", e.ExitCode },
-                { "Process Failed Kind", e.ProcessFailedKind },
+                { "Reason", $"{e.Reason}" },
                 { "Process Description", e.ProcessDescription },
+                { "Process Failed Kind", $"{e.ProcessFailedKind}" },
                 { "Failure Source Module Path", e.FailureSourceModulePath },
                 { "Frame Infos For Failed Process", e.FrameInfosForFailedProcess }
             });

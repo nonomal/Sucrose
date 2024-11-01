@@ -30,7 +30,9 @@
         Versioning,
         Discussions,
         RestartLive,
-        Backgroundog
+        Backgroundog,
+        QuotingGoogle,
+        QuotingTranslate
     }
 
     internal enum ArgumentCommandType

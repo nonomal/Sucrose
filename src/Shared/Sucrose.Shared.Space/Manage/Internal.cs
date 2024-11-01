@@ -9,6 +9,7 @@ using SSDEUET = Sucrose.Shared.Dependency.Enum.UrlEngineType;
 using SSDEVET = Sucrose.Shared.Dependency.Enum.VideoEngineType;
 using SSDEWET = Sucrose.Shared.Dependency.Enum.WebEngineType;
 using SSDEYTET = Sucrose.Shared.Dependency.Enum.YouTubeEngineType;
+using SSSHW = Sucrose.Shared.Space.Helper.Windows;
 
 namespace Sucrose.Shared.Space.Manage
 {
@@ -18,13 +19,13 @@ namespace Sucrose.Shared.Space.Manage
 
         public static SSDEWET WebEngine = SSDEWET.WebView;
 
-        public static SSDEGET GifEngine = SSDEGET.MpvPlayer;
-
-        public static SSDEVET VideoEngine = SSDEVET.MpvPlayer;
-
         public static SSDEYTET YouTubeEngine = SSDEYTET.WebView;
 
         public static SSDEAET ApplicationEngine = SSDEAET.Aurora;
+
+        public static SSDEGET GifEngine = SSSHW.IsGermanium() ? SSDEGET.MpvPlayer : SSDEGET.Xavier;
+
+        public static SSDEVET VideoEngine = SSSHW.IsGermanium() ? SSDEVET.MpvPlayer : SSDEVET.Nebula;
 
         public static int THREAD_SUSPEND_RESUME => 0x0002;
 
