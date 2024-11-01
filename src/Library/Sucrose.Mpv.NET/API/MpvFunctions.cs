@@ -68,8 +68,30 @@ namespace Sucrose.Mpv.NET.API
             {
                 int errorCode = Marshal.GetLastWin32Error();
 
-                //throw new MpvAPIException("Failed to load Mpv DLL. .NET apps by default are 32-bit so make sure you're loading the 32-bit DLL.");
-                throw new MpvAPIException($"Failed to load Mpv DLL. Error Code: {errorCode}. Make sure you're loading the correct architecture DLL.");
+                string appArchitecture = "Unknown Architecture";
+
+#if X86
+                appArchitecture = "x86 (32-bit)";
+#elif X64
+                appArchitecture = "x64 (64-bit)";
+#elif ARM64
+                appArchitecture = "ARM64 (64-bit)";
+#endif
+
+                throw new MpvAPIException(
+                    $"Failed to load Mpv DLL. Error Code: {errorCode}.\n" +
+                    $"Detected application architecture: {appArchitecture}.\n" +
+                    "Please ensure you are running the correct version of the application for your system architecture.\n" +
+                    "Ensure you're using the correct libmpv version compatible with this architecture.\n" +
+                    "For x64, use a 64-bit (x86_64) libmpv; for x86, use a 32-bit (i686) libmpv; for ARM64, ensure compatibility with 64-bit (AArch64) libmpv.\n" +
+                    "Check that the required DLLs are present in the application directory, and that your system meets the required dependencies.\n\n" +
+                    "If you believe you have the correct architecture, you can visit https://support.microsoft.com/kb/2977003#latest-microsoft-visual-c-redistributable-version " +
+                    "to check for any issues related to the necessary dependencies and download the required ones to resolve them.\n\n" +
+                    "If you believe you have done everything correctly, please reach out to the appropriate support channels for assistance."
+                );
+
+                //throw new MpvAPIException($"Failed to load Mpv DLL. Error Code: {errorCode}. Make sure you're loading the correct architecture DLL.");
+                //throw new MpvAPIException($"Failed to load Mpv DLL. Error Code: {errorCode}. .NET apps by default are 32-bit so make sure you're loading the 32-bit DLL.");
                 //throw new MpvAPIException($"Failed to load Mpv DLL. Error Code: {errorCode}. .NET apps by default are 32-bit so make sure you're loading the correct architecture DLL.");
             }
         }
