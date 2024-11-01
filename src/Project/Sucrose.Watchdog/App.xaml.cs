@@ -12,6 +12,7 @@ using SMMRA = Sucrose.Memory.Manage.Readonly.App;
 using SMMRF = Sucrose.Memory.Manage.Readonly.Folder;
 using SMMRG = Sucrose.Memory.Manage.Readonly.General;
 using SMMRP = Sucrose.Memory.Manage.Readonly.Path;
+using SMMRW = Sucrose.Memory.Manage.Readonly.Watch;
 using SRER = Sucrose.Resources.Extension.Resources;
 using SRHR = Sucrose.Resources.Helper.Resources;
 using SSCHA = Sucrose.Shared.Core.Helper.Architecture;
@@ -98,6 +99,42 @@ namespace Sucrose.Watchdog
             Shutdown();
         }
 
+        protected string Trim(string Value)
+        {
+            if (string.IsNullOrEmpty(Value))
+            {
+                return Value;
+            }
+            else if (Value.StartsWith("\"") && Value.EndsWith("\""))
+            {
+#if NET48_OR_GREATER
+                return Value.Substring(1, Value.Length - 2);
+#else
+                return Value[1..^1];
+#endif
+            }
+            else if (Value.StartsWith("\""))
+            {
+#if NET48_OR_GREATER
+                return Value.Substring(1, Value.Length - 1);
+#else
+                return Value[1..];
+#endif
+            }
+            else if (Value.EndsWith("\""))
+            {
+#if NET48_OR_GREATER
+                return Value.Substring(0, Value.Length - 1);
+#else
+                return Value[..^1];
+#endif
+            }
+            else
+            {
+                return Value;
+            }
+        }
+
         protected void Message(Exception Exception)
         {
             if (HasError)
@@ -119,19 +156,35 @@ namespace Sucrose.Watchdog
                 string Decode = SSECCE.BaseToText(Args.First());
                 string[] Arguments = Decode.Split(SMMRG.ValueSeparatorChar);
 
-                if (Arguments.Any() && (Arguments.Count() == 3 || Arguments.Count() == 5))
+                if (Arguments.Any() && Arguments.Count() == 3)
                 {
                     Guid Id = Guid.NewGuid();
                     string Log = Arguments[2];
+                    string Text = string.Empty;
+                    string Source = string.Empty;
                     string User = SSSHUR.GetName();
                     string Model = SSSHUR.GetModel();
                     string Application = Arguments[0];
                     Guid AppId = SSSHUE.Generate(Application);
                     string Manufacturer = SSSHUR.GetManufacturer();
+                    Exception Exception = SSSEWE.Convert(Arguments[1]);
                     CultureInfo Culture = new(SWNM.GetUserDefaultUILanguage());
-                    string Text = Arguments.Count() == 5 ? Arguments[4] : string.Empty;
-                    string Source = Arguments.Count() == 5 ? Arguments[3] : string.Empty;
-                    string Message = SSSHE.GetMessage(SSSEWE.Convert(Arguments[1]), SRER.GetValue("Watchdog", "ErrorEmpty"), SMMRG.ExceptionSplit);
+                    string Message = SSSHE.GetMessage(Exception, SRER.GetValue("Watchdog", "ErrorEmpty"), SMMRG.ExceptionSplit);
+
+                    foreach (string Key in Exception.Data.Keys)
+                    {
+                        string DataKey = Trim(Key);
+                        string DataValue = Trim(Exception.Data[Key].ToString());
+
+                        if (DataKey == SMMRW.Text)
+                        {
+                            Text = DataValue;
+                        }
+                        else if (DataKey == SMMRW.Source)
+                        {
+                            Source = DataValue;
+                        }
+                    }
 
                     SSSMTED ThrowData = new()
                     {

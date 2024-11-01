@@ -43,23 +43,6 @@ namespace Sucrose.Shared.Space.Helper
             }
         }
 
-        public static void Start(string Application, Exception Exception, string Path, string Source, string Text)
-        {
-            if (Check())
-            {
-                if (string.IsNullOrEmpty(Source) || string.IsNullOrEmpty(Text))
-                {
-                    Start(Application, Exception, Path);
-                }
-                else
-                {
-                    Exception = Data(Exception);
-
-                    SSSHP.Run(SSSMI.Commandog, $"{SMMRG.StartCommand}{SSDECT.Watchdog}{SMMRG.ValueSeparator}{SSSMI.Watchdog}{SMMRG.ValueSeparator}{Encrypt(Application, Exception, Path, Source, Text)}");
-                }
-            }
-        }
-
         private static bool Check()
         {
             return File.Exists(SSSMI.Commandog) && File.Exists(SSSMI.Watchdog);
@@ -83,11 +66,6 @@ namespace Sucrose.Shared.Space.Helper
         private static string Encrypt(string Application, Exception Exception, string Path)
         {
             return SSECCE.TextToBase($"{Application}{SMMRG.ValueSeparator}{SSSEWE.Convert(Exception)}{SMMRG.ValueSeparator}{Path}");
-        }
-
-        private static string Encrypt(string Application, Exception Exception, string Path, string Source, string Text)
-        {
-            return SSECCE.TextToBase($"{Application}{SMMRG.ValueSeparator}{SSSEWE.Convert(Exception)}{SMMRG.ValueSeparator}{Path}{SMMRG.ValueSeparator}{Source}{SMMRG.ValueSeparator}{Text}");
         }
     }
 }
