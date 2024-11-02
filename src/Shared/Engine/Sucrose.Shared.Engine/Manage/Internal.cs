@@ -124,6 +124,7 @@ namespace Sucrose.Shared.Engine.Manage
 
             "--allow-file-access",
             "--allow-file-access-from-files",
+            "--allow-file-access-from-file-urls",
             "--allow-universal-access-from-files",
 
             "--disable-features=MediaEngagementBypassAutoplayPolicies,BlockInsecurePrivateNetworkRequests,PreloadMediaEngagementData,OutOfBlinkCors,IsolateOrigins"
@@ -171,6 +172,7 @@ namespace Sucrose.Shared.Engine.Manage
 
             { "allow-file-access", "1" },
             { "allow-file-access-from-files", "1" },
+            { "allow-file-access-from-file-urls", "1" },
             { "allow-universal-access-from-files", "1" },
 
             { "disable-features", "MediaEngagementBypassAutoplayPolicies,BlockInsecurePrivateNetworkRequests,PreloadMediaEngagementData,OutOfBlinkCors,IsolateOrigins" }

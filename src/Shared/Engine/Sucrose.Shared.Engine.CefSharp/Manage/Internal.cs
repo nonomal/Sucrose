@@ -23,9 +23,10 @@ namespace Sucrose.Shared.Engine.CefSharp.Manage
 
         public static IntPtr CefHandle = IntPtr.Zero;
 
-        public static BrowserSettings CefSettings = new()
+        public static BrowserSettings CefSettings => new()
         {
-            WindowlessFrameRate = 60
+            WindowlessFrameRate = 60,
+            BackgroundColor = Cef.ColorSetARGB(255, 0, 0, 0)
         };
     }
 }

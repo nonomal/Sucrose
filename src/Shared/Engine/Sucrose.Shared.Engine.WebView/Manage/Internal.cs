@@ -16,10 +16,13 @@ namespace Sucrose.Shared.Engine.WebView.Manage
 
         public static string Video = string.Empty;
 
-        public static WebEngine WebEngine = new();
-
         public static string YouTube = string.Empty;
 
         public static IntPtr WebHandle = IntPtr.Zero;
+
+        public static WebEngine WebEngine = new()
+        {
+            DefaultBackgroundColor = Color.Black
+        };
     }
 }
