@@ -30,51 +30,53 @@ namespace Sucrose.Shared.Engine.Vexana.Helper
                 Directory.CreateDirectory(CachePath);
             }
 
-            Image GifImage = Image.FromFile(GifPath.Replace("file:///", ""));
-
-            FrameDimension Dimension = new(GifImage.FrameDimensionsList[0]);
-
-            int FrameCount = GifImage.GetFrameCount(Dimension);
-            int[] FrameDurations = new int[FrameCount];
-
-            for (int FrameIndex = 0; FrameIndex < FrameCount; FrameIndex++)
+            using (Image GifImage = Image.FromFile(GifPath.Replace("file:///", "")))
             {
-                GifImage.SelectActiveFrame(Dimension, FrameIndex);
+                FrameDimension Dimension = new(GifImage.FrameDimensionsList[0]);
 
-                PropertyItem FrameDelayItem = GifImage.PropertyItems.FirstOrDefault(pi => pi.Id == 0x5100);
+                int FrameCount = GifImage.GetFrameCount(Dimension);
+                int[] FrameDurations = new int[FrameCount];
 
-                int FrameDelay = 100;
-
-                if (FrameDelayItem != null)
+                for (int FrameIndex = 0; FrameIndex < FrameCount; FrameIndex++)
                 {
-                    FrameDelay = BitConverter.ToInt32(FrameDelayItem.Value, FrameIndex * 4) * 10;
+                    GifImage.SelectActiveFrame(Dimension, FrameIndex);
+
+                    PropertyItem FrameDelayItem = GifImage.PropertyItems.FirstOrDefault(pi => pi.Id == 0x5100);
+
+                    int FrameDelay = 100;
+
+                    if (FrameDelayItem != null)
+                    {
+                        FrameDelay = BitConverter.ToInt32(FrameDelayItem.Value, FrameIndex * 4) * 10;
+                    }
+
+                    FrameDurations[FrameIndex] = FrameDelay;
+
+                    using Image Frame = new Bitmap(GifImage.Width, GifImage.Height);
+
+                    using (Graphics Graphic = Graphics.FromImage(Frame))
+                    {
+                        Graphic.DrawImage(GifImage, Point.Empty);
+                    }
+
+                    int FrameTime = (int)TimeSpan.FromMilliseconds(FrameDurations[FrameIndex]).TotalMilliseconds;
+
+                    //Result.Total += FrameTime;
+
+                    //Result.Min = Math.Min(Result.Min, FrameTime);
+                    //Result.Max = Math.Max(Result.Max, FrameTime);
+
+                    string OutputGifImage = Path.Combine(CachePath, $"frame_{FrameIndex}_{FrameTime}.png");
+
+                    Result.List.Add(OutputGifImage);
+
+                    Frame.Save(OutputGifImage, ImageFormat.Png);
                 }
 
-                FrameDurations[FrameIndex] = FrameDelay;
-
-                Image Frame = new Bitmap(GifImage.Width, GifImage.Height);
-                Graphics.FromImage(Frame).DrawImage(GifImage, Point.Empty);
-
-                int FrameTime = (int)TimeSpan.FromMilliseconds(FrameDurations[FrameIndex]).TotalMilliseconds;
-
-                //Result.Total += FrameTime;
-
-                //Result.Min = Math.Min(Result.Min, FrameTime);
-                //Result.Max = Math.Max(Result.Max, FrameTime);
-
-                string OutputGifImage = Path.Combine(CachePath, $"frame_{FrameIndex}_{FrameTime}.png");
-
-                Result.List.Add(OutputGifImage);
-
-                Frame.Save(OutputGifImage, ImageFormat.Png);
-                Frame.Dispose();
+                //File.Create(Path.Combine(CachePath, $"min_{Result.Min}"));
+                //File.Create(Path.Combine(CachePath, $"max_{Result.Max}"));
+                //File.Create(Path.Combine(CachePath, $"total_{Result.Total}"));
             }
-
-            //File.Create(Path.Combine(CachePath, $"min_{Result.Min}"));
-            //File.Create(Path.Combine(CachePath, $"max_{Result.Max}"));
-            //File.Create(Path.Combine(CachePath, $"total_{Result.Total}"));
-
-            GifImage.Dispose();
 
             return Result;
         }
