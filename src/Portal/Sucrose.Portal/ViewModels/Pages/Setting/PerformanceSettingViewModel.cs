@@ -635,7 +635,7 @@ namespace Sucrose.Portal.ViewModels.Pages
                 Expandable = false
             };
 
-            Lock.LeftIcon.Symbol = SymbolRegular.LockClosed24;
+            Lock.LeftIcon.Symbol = SymbolRegular.PersonLock24;
             Lock.Title.Text = SRER.GetValue("Portal", "PerformanceSettingPage", "Lock");
             Lock.Description.Text = SRER.GetValue("Portal", "PerformanceSettingPage", "Lock", "Description");
 
