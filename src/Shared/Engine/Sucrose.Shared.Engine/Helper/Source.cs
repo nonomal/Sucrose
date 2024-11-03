@@ -172,22 +172,50 @@ namespace Sucrose.Shared.Engine.Helper
 
         public static string GetGifContentPath()
         {
-            return Path.Combine(SMMRP.ApplicationData, SMMRG.AppName, SMMRF.Cache, SMMRF.Content, SMMRC.Gif);
+            string GifPath = Path.Combine(SMMRP.ApplicationData, SMMRG.AppName, SMMRF.Cache, SMMRF.Content, SMMRC.Gif);
+
+            if (!Directory.Exists(Path.GetDirectoryName(GifPath)))
+            {
+                Directory.CreateDirectory(Path.GetDirectoryName(GifPath));
+            }
+
+            return GifPath;
         }
 
         public static string GetImageContentPath()
         {
-            return Path.Combine(SMMRP.ApplicationData, SMMRG.AppName, SMMRF.Cache, SMMRF.Content, SMMRC.Image);
+            string ImagePath = Path.Combine(SMMRP.ApplicationData, SMMRG.AppName, SMMRF.Cache, SMMRF.Content, SMMRC.Image);
+
+            if (!Directory.Exists(Path.GetDirectoryName(ImagePath)))
+            {
+                Directory.CreateDirectory(Path.GetDirectoryName(ImagePath));
+            }
+
+            return ImagePath;
         }
 
         public static string GetVideoContentPath()
         {
-            return Path.Combine(SMMRP.ApplicationData, SMMRG.AppName, SMMRF.Cache, SMMRF.Content, SMMRC.Video);
+            string VideoPath = Path.Combine(SMMRP.ApplicationData, SMMRG.AppName, SMMRF.Cache, SMMRF.Content, SMMRC.Video);
+
+            if (!Directory.Exists(Path.GetDirectoryName(VideoPath)))
+            {
+                Directory.CreateDirectory(Path.GetDirectoryName(VideoPath));
+            }
+
+            return VideoPath;
         }
 
         public static string GetYouTubeContentPath()
         {
-            return Path.Combine(SMMRP.ApplicationData, SMMRG.AppName, SMMRF.Cache, SMMRF.Content, SMMRC.YouTube);
+            string YouTubePath = Path.Combine(SMMRP.ApplicationData, SMMRG.AppName, SMMRF.Cache, SMMRF.Content, SMMRC.YouTube);
+
+            if (!Directory.Exists(Path.GetDirectoryName(YouTubePath)))
+            {
+                Directory.CreateDirectory(Path.GetDirectoryName(YouTubePath));
+            }
+
+            return YouTubePath;
         }
 
         public static Uri GetSource(Uri Source)
@@ -237,6 +265,18 @@ namespace Sucrose.Shared.Engine.Helper
             else
             {
                 return new Uri(Source, Kind);
+            }
+        }
+
+        public static Uri GetSource(string Source, string Host, UriKind Kind = UriKind.RelativeOrAbsolute)
+        {
+            if (SSTHV.IsUrl(Source))
+            {
+                return new Uri(Source, Kind);
+            }
+            else
+            {
+                return new Uri($"{Host}{Source}", Kind);
             }
         }
     }

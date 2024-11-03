@@ -9,17 +9,9 @@ namespace Sucrose.Shared.Engine.CefSharp.Manage
 
         public static bool State = true;
 
-        public static string Gif = string.Empty;
-
-        public static string Url = string.Empty;
-
-        public static string Web = string.Empty;
-
         public static CefEngine CefEngine = new();
 
         public static IBrowserHost CefHost = null;
-
-        public static string YouTube = string.Empty;
 
         public static IntPtr CefHandle = IntPtr.Zero;
 

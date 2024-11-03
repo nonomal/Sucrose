@@ -17,7 +17,7 @@ namespace Sucrose.Shared.Engine.CefSharp.View
     /// </summary>
     public sealed partial class Gif : Window, IDisposable
     {
-        public Gif(string Gif)
+        public Gif()
         {
             InitializeComponent();
 
@@ -28,8 +28,6 @@ namespace Sucrose.Shared.Engine.CefSharp.View
             SSECSMI.CefEngine.MenuHandler = new SSECSHCCM();
 
             Content = SSECSMI.CefEngine;
-
-            SSECSMI.Gif = Gif;
 
             SSECSMI.CefEngine.BrowserSettings = SSECSMI.CefSettings;
 

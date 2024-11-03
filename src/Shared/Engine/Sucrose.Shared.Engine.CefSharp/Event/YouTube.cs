@@ -1,6 +1,7 @@
 ﻿using CefSharp;
 using System.Windows;
 using SMME = Sucrose.Manager.Manage.Engine;
+using SMMRC = Sucrose.Memory.Manage.Readonly.Content;
 using SSECSHYT = Sucrose.Shared.Engine.CefSharp.Helper.YouTube;
 using SSECSMI = Sucrose.Shared.Engine.CefSharp.Manage.Internal;
 using SSEHS = Sucrose.Shared.Engine.Helper.Source;
@@ -13,14 +14,14 @@ namespace Sucrose.Shared.Engine.CefSharp.Event
     {
         public static void CefEngineLoaded(object sender, RoutedEventArgs e)
         {
-            string Video = SSTHV.GetYouTubeVideoId(SSECSMI.YouTube);
-            string Playlist = SSTHV.GetYouTubePlaylistId(SSECSMI.YouTube);
+            string Video = SSTHV.GetYouTubeVideoId(SSEMI.Info.Source);
+            string Playlist = SSTHV.GetYouTubePlaylistId(SSEMI.Info.Source);
 
             string Path = SSEHS.GetYouTubeContentPath();
 
             SSEHS.WriteYouTubeContent(Path, Video, Playlist);
 
-            SSECSMI.CefEngine.Address = SSEHS.GetSource(Path).ToString();
+            SSECSMI.CefEngine.Address = SSEHS.GetSource(SMMRC.YouTube, SSEMI.Host).ToString();
         }
 
         public static void CefEngineInitializedChanged(object sender, EventArgs e)

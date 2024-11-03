@@ -15,10 +15,12 @@ namespace Sucrose.Shared.Engine.CefSharp.Helper
 
             IntPtr InputHandle = SWNM.FindWindowEx(SSECSMI.CefHandle, IntPtr.Zero, "Chrome_WidgetWin_0", null);
 
-            if (!InputHandle.Equals(IntPtr.Zero))
+            if (InputHandle.Equals(IntPtr.Zero))
             {
-                SSECSMI.CefHandle = InputHandle;
+                InputHandle = SWNM.FindWindowEx(SSECSMI.CefHandle, IntPtr.Zero, "Chrome_WidgetWin_1", null);
             }
+
+            SSECSMI.CefHandle = InputHandle;
         }
 
         public static void GetIntermediateHandle()

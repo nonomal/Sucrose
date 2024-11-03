@@ -8,7 +8,6 @@ using SSECSMI = Sucrose.Shared.Engine.CefSharp.Manage.Internal;
 using SSEEH = Sucrose.Shared.Engine.Event.Handler;
 using SSEHD = Sucrose.Shared.Engine.Helper.Data;
 using SSEHR = Sucrose.Shared.Engine.Helper.Run;
-using SSEHS = Sucrose.Shared.Engine.Helper.Source;
 using SSEHV = Sucrose.Shared.Engine.Helper.Volume;
 using SSEMI = Sucrose.Shared.Engine.Manage.Internal;
 
@@ -19,7 +18,7 @@ namespace Sucrose.Shared.Engine.CefSharp.View
     /// </summary>
     public sealed partial class Video : Window, IDisposable
     {
-        public Video(string Video)
+        public Video()
         {
             InitializeComponent();
 
@@ -30,8 +29,6 @@ namespace Sucrose.Shared.Engine.CefSharp.View
             SSECSMI.CefEngine.MenuHandler = new SSECSHCCM();
 
             Content = SSECSMI.CefEngine;
-
-            SSECSMI.CefEngine.Address = SSEHS.GetSource(Video).ToString();
 
             SSECSMI.CefEngine.BrowserSettings = SSECSMI.CefSettings;
 

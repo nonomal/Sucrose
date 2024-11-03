@@ -1,4 +1,5 @@
-﻿using SMMCB = Sucrose.Memory.Manage.Constant.Backgroundog;
+﻿using Application = System.Windows.Application;
+using SMMCB = Sucrose.Memory.Manage.Constant.Backgroundog;
 using SMMI = Sucrose.Manager.Manage.Internal;
 using SPMI = Sucrose.Pipe.Manage.Internal;
 using SSDECT = Sucrose.Shared.Dependency.Enum.CommunicationType;
@@ -72,7 +73,7 @@ namespace Sucrose.Shared.Engine.WebView.Helper
                                 {
                                     SSPSBSS.Handler(e);
 
-                                    await System.Windows.Application.Current.Dispatcher.InvokeAsync(async () =>
+                                    await Application.Current.Dispatcher.InvokeAsync(async () =>
                                     {
                                         try
                                         {
@@ -101,7 +102,7 @@ namespace Sucrose.Shared.Engine.WebView.Helper
                             {
                                 SSSSBSS.Handler(s, e);
 
-                                await System.Windows.Application.Current.Dispatcher.InvokeAsync(async () =>
+                                await Application.Current.Dispatcher.InvokeAsync(async () =>
                                 {
                                     try
                                     {

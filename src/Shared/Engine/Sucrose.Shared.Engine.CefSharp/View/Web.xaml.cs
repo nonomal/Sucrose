@@ -18,7 +18,7 @@ namespace Sucrose.Shared.Engine.CefSharp.View
     /// </summary>
     public sealed partial class Web : Window, IDisposable
     {
-        public Web(string Web)
+        public Web()
         {
             InitializeComponent();
 
@@ -29,8 +29,6 @@ namespace Sucrose.Shared.Engine.CefSharp.View
             SSECSMI.CefEngine.MenuHandler = new SSECSHCCM();
 
             Content = SSECSMI.CefEngine;
-
-            SSECSMI.Web = Web;
 
             SSECSMI.CefEngine.BrowserSettings = SSECSMI.CefSettings;
 

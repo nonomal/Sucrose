@@ -19,7 +19,7 @@ namespace Sucrose.Shared.Engine.CefSharp.Event
 
         public static void CefEngineLoaded(object sender, RoutedEventArgs e)
         {
-            SSECSMI.CefEngine.Address = SSECSMI.Url;
+            SSECSMI.CefEngine.Address = SSEMI.Info.Source;
         }
 
         public static void CefEngineInitializedChanged(object sender, EventArgs e)

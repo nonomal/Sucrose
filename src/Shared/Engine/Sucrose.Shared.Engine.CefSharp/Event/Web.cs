@@ -1,6 +1,7 @@
 ﻿using CefSharp;
 using System.IO;
 using System.Windows;
+using Application = System.Windows.Application;
 using SEIT = Skylark.Enum.InputType;
 using SMME = Sucrose.Manager.Manage.Engine;
 using SSECSEI = Sucrose.Shared.Engine.CefSharp.Extension.Interaction;
@@ -19,7 +20,7 @@ namespace Sucrose.Shared.Engine.CefSharp.Event
     {
         public static void CefEngineLoaded(object sender, RoutedEventArgs e)
         {
-            SSECSMI.CefEngine.Address = SSEHS.GetSource(SSECSMI.Web).ToString();
+            SSECSMI.CefEngine.Address = SSEHS.GetSource(SSEMI.Info.Source, SSEMI.Host).ToString();
         }
 
         public static void CefEngineInitializedChanged(object sender, EventArgs e)
@@ -66,7 +67,7 @@ namespace Sucrose.Shared.Engine.CefSharp.Event
 
         private static async void PropertiesWatcher(object sender, FileSystemEventArgs e)
         {
-            await System.Windows.Application.Current.Dispatcher.InvokeAsync(async () =>
+            await Application.Current.Dispatcher.InvokeAsync(async () =>
             {
                 try
                 {

@@ -1,4 +1,5 @@
-﻿using System.Windows.Threading;
+﻿using System.Net;
+using System.Windows.Threading;
 using SSDSHS = Sucrose.Shared.Dependency.Struct.HandleStruct;
 using SSESB = Sucrose.Shared.Engine.Setting.Browser;
 using SSTHC = Sucrose.Shared.Theme.Helper.Compatible;
@@ -22,6 +23,8 @@ namespace Sucrose.Shared.Engine.Manage
         public static bool PauseVolume = false;
 
         public static SSTHP Properties = new();
+
+        public static string Host = string.Empty;
 
         public static List<int> Processes = new();
 
@@ -71,6 +74,8 @@ namespace Sucrose.Shared.Engine.Manage
 
         public static string PropertiesCache = string.Empty;
 
+        public static IPAddress Loopback = IPAddress.Loopback;
+
         public delegate Task<string> ExecuteTask(string script);
 
         public static CancellationTokenSource Displaying = new();
@@ -85,9 +90,10 @@ namespace Sucrose.Shared.Engine.Manage
 
         public static List<string> WebArguments = new()
         {
-            "--enable-gpu",
-            "--enable-gpu-vsync",
-            "--disable-gpu-compositing",
+            //"--enable-gpu",
+            //"--enable-gpu-vsync",
+            //"--disable-gpu-compositing",
+
             "--disable-direct-write",
             //"--disable-frame-rate-limit",
             "--enable-begin-frame-scheduling",
@@ -127,14 +133,17 @@ namespace Sucrose.Shared.Engine.Manage
             "--allow-file-access-from-file-urls",
             "--allow-universal-access-from-files",
 
+            "--unsafely-disable-devtools-self-xss-warnings",
+
             "--disable-features=MediaEngagementBypassAutoplayPolicies,BlockInsecurePrivateNetworkRequests,PreloadMediaEngagementData,OutOfBlinkCors,IsolateOrigins"
         };
 
         public static Dictionary<string, string> CefArguments = new()
         {
-            { "enable-gpu", "1" },
-            { "enable-gpu-vsync", "1" },
-            { "disable-gpu-compositing", "1" },
+            //{ "enable-gpu", "1" },
+            //{ "enable-gpu-vsync", "1" },
+            //{ "disable-gpu-compositing", "1" },
+
             { "disable-direct-write", "1" },
             //{ "disable-frame-rate-limit", "1" },
             { "enable-begin-frame-scheduling", "1" },
@@ -174,6 +183,8 @@ namespace Sucrose.Shared.Engine.Manage
             { "allow-file-access-from-files", "1" },
             { "allow-file-access-from-file-urls", "1" },
             { "allow-universal-access-from-files", "1" },
+
+            { "unsafely-disable-devtools-self-xss-warnings", "1" },
 
             { "disable-features", "MediaEngagementBypassAutoplayPolicies,BlockInsecurePrivateNetworkRequests,PreloadMediaEngagementData,OutOfBlinkCors,IsolateOrigins" }
         };

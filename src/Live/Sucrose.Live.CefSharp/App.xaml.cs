@@ -34,6 +34,7 @@ using SSECSVU = Sucrose.Shared.Engine.CefSharp.View.Url;
 using SSECSVV = Sucrose.Shared.Engine.CefSharp.View.Video;
 using SSECSVW = Sucrose.Shared.Engine.CefSharp.View.Web;
 using SSECSVYT = Sucrose.Shared.Engine.CefSharp.View.YouTube;
+using SSEELHS = Sucrose.Shared.Engine.Extension.LocalHttpServer;
 using SSEHC = Sucrose.Shared.Engine.Helper.Cycyling;
 using SSEHP = Sucrose.Shared.Engine.Helper.Properties;
 using SSEHR = Sucrose.Shared.Engine.Helper.Run;
@@ -59,6 +60,7 @@ namespace Sucrose.Live.CefSharp
     public partial class App : Application
     {
         private static bool HasError { get; set; } = true;
+        private static SSEELHS LocalServer { get; set; }
 
         public App()
         {
@@ -123,6 +125,7 @@ namespace Sucrose.Live.CefSharp
 
         protected void Close()
         {
+            Task.Run(LocalServer.Stop);
             Environment.Exit(0);
             Current.Shutdown();
             Shutdown();
@@ -270,8 +273,10 @@ namespace Sucrose.Live.CefSharp
 
                         CefSettings Settings = new()
                         {
+                            Locale = SMMG.Culture,
                             UserAgent = SMMG.UserAgent,
                             PersistSessionCookies = true,
+                            WindowlessRenderingEnabled = true,
                             CachePath = Path.Combine(SMMRP.ApplicationData, SMMRG.AppName, SMMRF.Cache, SMMRF.CefSharp)
                         };
 
@@ -302,7 +307,7 @@ namespace Sucrose.Live.CefSharp
                         //Example of checking if a call to Cef.Initialize has already been made, we require this for
                         //our .Net 5.0 Single File Publish example, you don't typically need to perform this check
                         //if you call Cef.Initialze within your WPF App constructor.
-                        if (!Cef.IsInitialized)
+                        if (Cef.IsInitialized is null or false)
                         {
                             //Perform dependency check to make sure all relevant resources are in our output directory.
                             Cef.Initialize(Settings, performDependencyCheck: true, browserProcessHandler: null);
@@ -373,26 +378,32 @@ namespace Sucrose.Live.CefSharp
                                 SSEMI.Compatible.State = true;
                             }
 
+                            LocalServer = new(Path.Combine(SSEMI.LibraryLocation, SSEMI.LibrarySelected));
+
+                            Task.Run(() => LocalServer.StartAsync());
+
+                            SSEMI.Host = LocalServer.GetUrl();
+
                             switch (SSEMI.Info.Type)
                             {
                                 case SSDEWT.Gif:
-                                    SSECSVG Gif = new(Source);
+                                    SSECSVG Gif = new();
                                     Gif.Show();
                                     break;
                                 case SSDEWT.Url:
-                                    SSECSVU Url = new(Source);
+                                    SSECSVU Url = new();
                                     Url.Show();
                                     break;
                                 case SSDEWT.Web:
-                                    SSECSVW Web = new(Source);
+                                    SSECSVW Web = new();
                                     Web.Show();
                                     break;
                                 case SSDEWT.Video:
-                                    SSECSVV Video = new(Source);
+                                    SSECSVV Video = new();
                                     Video.Show();
                                     break;
                                 case SSDEWT.YouTube:
-                                    SSECSVYT YouTube = new(Source);
+                                    SSECSVYT YouTube = new();
                                     YouTube.Show();
                                     break;
                                 default:

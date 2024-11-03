@@ -12,7 +12,7 @@ namespace Sucrose.Shared.Engine.CefSharp.Event
     {
         public static void CefEngineLoaded(object sender, RoutedEventArgs e)
         {
-            Uri Gif = SSEHS.GetSource(SSECSMI.Gif);
+            Uri Gif = SSEHS.GetSource(SSEMI.Info.Source, SSEMI.Host);
 
             string Path = SSEHS.GetGifContentPath();
 

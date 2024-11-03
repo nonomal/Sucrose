@@ -1,4 +1,5 @@
 ﻿using CefSharp;
+using Application = System.Windows.Application;
 using SMMCB = Sucrose.Memory.Manage.Constant.Backgroundog;
 using SMMI = Sucrose.Manager.Manage.Internal;
 using SPMI = Sucrose.Pipe.Manage.Internal;
@@ -89,7 +90,7 @@ namespace Sucrose.Shared.Engine.CefSharp.Helper
                                 {
                                     SSPSBSS.Handler(e);
 
-                                    await System.Windows.Application.Current.Dispatcher.InvokeAsync(async () =>
+                                    await Application.Current.Dispatcher.InvokeAsync(async () =>
                                     {
                                         try
                                         {
@@ -118,7 +119,7 @@ namespace Sucrose.Shared.Engine.CefSharp.Helper
                             {
                                 SSSSBSS.Handler(s, e);
 
-                                await System.Windows.Application.Current.Dispatcher.InvokeAsync(async () =>
+                                await Application.Current.Dispatcher.InvokeAsync(async () =>
                                 {
                                     try
                                     {

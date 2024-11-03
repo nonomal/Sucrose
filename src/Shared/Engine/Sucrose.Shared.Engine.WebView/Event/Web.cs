@@ -1,6 +1,7 @@
 ﻿using Microsoft.Web.WebView2.Core;
 using System.Collections;
 using System.IO;
+using Application = System.Windows.Application;
 using SEIT = Skylark.Enum.InputType;
 using SELLT = Skylark.Enum.LevelLogType;
 using SMME = Sucrose.Manager.Manage.Engine;
@@ -23,7 +24,7 @@ namespace Sucrose.Shared.Engine.WebView.Event
     {
         private static async void PropertiesWatcher(object sender, FileSystemEventArgs e)
         {
-            await System.Windows.Application.Current.Dispatcher.InvokeAsync(async () =>
+            await Application.Current.Dispatcher.InvokeAsync(async () =>
             {
                 try
                 {

@@ -18,7 +18,7 @@ namespace Sucrose.Shared.Engine.CefSharp.View
     /// </summary>
     public sealed partial class YouTube : Window, IDisposable
     {
-        public YouTube(string YouTube)
+        public YouTube()
         {
             InitializeComponent();
 
@@ -29,8 +29,6 @@ namespace Sucrose.Shared.Engine.CefSharp.View
             SSECSMI.CefEngine.MenuHandler = new SSECSHCCM();
 
             Content = SSECSMI.CefEngine;
-
-            SSECSMI.YouTube = YouTube;
 
             SSECSMI.CefEngine.BrowserSettings = SSECSMI.CefSettings;
 
