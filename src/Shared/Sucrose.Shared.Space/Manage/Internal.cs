@@ -9,6 +9,7 @@ using SSDEUET = Sucrose.Shared.Dependency.Enum.UrlEngineType;
 using SSDEVET = Sucrose.Shared.Dependency.Enum.VideoEngineType;
 using SSDEWET = Sucrose.Shared.Dependency.Enum.WebEngineType;
 using SSDEYTET = Sucrose.Shared.Dependency.Enum.YouTubeEngineType;
+using SSSHE = Sucrose.Shared.Space.Helper.Extension;
 using SSSHW = Sucrose.Shared.Space.Helper.Windows;
 
 namespace Sucrose.Shared.Space.Manage
@@ -31,9 +32,9 @@ namespace Sucrose.Shared.Space.Manage
 
         public static string This => Path.GetDirectoryName(App);
 
-        public static string App => SHA.Assemble(SEAT.Executing).Location;
-
         public static string Folder => Directory.GetParent(This).FullName;
+
+        public static string App => SSSHE.Change(SHA.Assemble(SEAT.Entry).Location, ".exe");
 
         public static string Portal => Path.Combine(Folder, Path.GetFileNameWithoutExtension(SMMRA.Portal), SMMRA.Portal);
 

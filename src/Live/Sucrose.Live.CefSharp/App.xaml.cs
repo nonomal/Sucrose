@@ -46,6 +46,7 @@ using SSSHC = Sucrose.Shared.Space.Helper.Cycyling;
 using SSSHI = Sucrose.Shared.Space.Helper.Instance;
 using SSSHS = Sucrose.Shared.Space.Helper.Security;
 using SSSHW = Sucrose.Shared.Space.Helper.Watchdog;
+using SSSMI = Sucrose.Shared.Space.Manage.Internal;
 using SSTHC = Sucrose.Shared.Theme.Helper.Compatible;
 using SSTHI = Sucrose.Shared.Theme.Helper.Info;
 using SSTHP = Sucrose.Shared.Theme.Helper.Properties;
@@ -273,7 +274,6 @@ namespace Sucrose.Live.CefSharp
 
                         CefSettings Settings = new()
                         {
-                            Locale = SMMG.Culture,
                             UserAgent = SMMG.UserAgent,
                             PersistSessionCookies = true,
                             WindowlessRenderingEnabled = true,
@@ -301,6 +301,20 @@ namespace Sucrose.Live.CefSharp
                             if (!Settings.CefCommandLineArgs.ContainsKey("remote-allow-origins"))
                             {
                                 Settings.CefCommandLineArgs.Add("remote-allow-origins", "*");
+                            }
+                        }
+
+                        string LocalesPath = Path.Combine(SSSMI.This, "locales");
+
+                        if (Directory.Exists(LocalesPath))
+                        {
+                            string Locales = Directory.GetFiles(LocalesPath, "*.pak")
+                                .FirstOrDefault(locale => Path.GetFileNameWithoutExtension(locale)
+                                .StartsWith(SMMG.Culture, StringComparison.OrdinalIgnoreCase));
+
+                            if (!string.IsNullOrEmpty(Locales))
+                            {
+                                Settings.Locale = Path.GetFileNameWithoutExtension(Locales);
                             }
                         }
 
