@@ -153,14 +153,16 @@ namespace Sucrose.Live.MpvPlayer
 
                             SSEHC.Start();
 
+                            SSEMI.Host = $"{Path.Combine(SSEMI.LibraryLocation, SSEMI.LibrarySelected)}/";
+
                             switch (SSEMI.Info.Type)
                             {
                                 case SSDEWT.Gif:
-                                    SSEMPVG Gif = new(Source);
+                                    SSEMPVG Gif = new();
                                     Gif.Show();
                                     break;
                                 case SSDEWT.Video:
-                                    SSEMPVV Video = new(Source);
+                                    SSEMPVV Video = new();
                                     Video.Show();
                                     break;
                                 default:

@@ -1,6 +1,5 @@
 ﻿using Microsoft.Win32;
 using System.Diagnostics;
-using System.IO;
 using System.Windows;
 using SMMCA = Sucrose.Memory.Manage.Constant.Aurora;
 using SMMI = Sucrose.Manager.Manage.Internal;
@@ -11,6 +10,7 @@ using SSEAMI = Sucrose.Shared.Engine.Aurora.Manage.Internal;
 using SSEEH = Sucrose.Shared.Engine.Event.Handler;
 using SSEHD = Sucrose.Shared.Engine.Helper.Data;
 using SSEHR = Sucrose.Shared.Engine.Helper.Run;
+using SSEHS = Sucrose.Shared.Engine.Helper.Source;
 using SSEHV = Sucrose.Shared.Engine.Helper.Volume;
 using SSEMI = Sucrose.Shared.Engine.Manage.Internal;
 using SSSHP = Sucrose.Shared.Space.Helper.Processor;
@@ -24,13 +24,13 @@ namespace Sucrose.Shared.Engine.Aurora.View
     /// </summary>
     public sealed partial class Application : Window, IDisposable
     {
-        public Application(string Application, string Arguments)
+        public Application()
         {
             InitializeComponent();
 
-            SSEAMI.Application = Application;
-            SSEAMI.ApplicationArguments = Arguments;
-            SSEAMI.ApplicationName = Path.GetFileName(Application);
+            SSEAMI.ApplicationName = SSEMI.Info.Source;
+            SSEAMI.Application = SSEHS.GetSource(SSEMI.Info.Source, SSEMI.Host).ToString();
+
             SMMI.AuroraSettingManager.SetSetting(SMMCA.AppProcessName, SSEAMI.ApplicationName);
 
             SourceInitialized += (s, e) =>
@@ -50,7 +50,7 @@ namespace Sucrose.Shared.Engine.Aurora.View
 
             for (int Count = 0; Count < ScreenCount; Count++)
             {
-                SSEMI.Applications.Add(SSSHP.Run(SSEAMI.Application, SSEAMI.ApplicationArguments, ProcessWindowStyle.Normal));
+                SSEMI.Applications.Add(SSSHP.Run(SSEAMI.Application, SSEMI.Info.Arguments, ProcessWindowStyle.Normal));
             }
 
             do

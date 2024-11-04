@@ -19,7 +19,7 @@ namespace Sucrose.Shared.Engine.Vexana.View
     /// </summary>
     public sealed partial class Gif : Window, IDisposable
     {
-        public Gif(string Gif)
+        public Gif()
         {
             InitializeComponent();
 
@@ -29,7 +29,7 @@ namespace Sucrose.Shared.Engine.Vexana.View
 
             Content = SSEVMI.ImageEngine;
 
-            SSEVMI.ImageResult = SSEVHP.Gif(SSEHS.GetSource(Gif).ToString());
+            SSEVMI.ImageResult = SSEVHP.Gif(SSEHS.GetSource(SSEMI.Info.Source, SSEMI.Host).ToString());
 
             SSEMI.GeneralTimer.Tick += new EventHandler(GeneralTimer_Tick);
             SSEMI.GeneralTimer.Interval = new TimeSpan(0, 0, 1);

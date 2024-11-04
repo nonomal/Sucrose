@@ -17,13 +17,13 @@ namespace Sucrose.Shared.Engine.MpvPlayer.View
     /// </summary>
     public sealed partial class Gif : Window, IDisposable
     {
-        public Gif(string Gif)
+        public Gif()
         {
             InitializeComponent();
 
             SystemEvents.DisplaySettingsChanged += (s, e) => SSEEH.DisplaySettingsChanged(this);
 
-            SSEMPMI.Source = SSEHS.GetSource(Gif).ToString();
+            SSEMPMI.Source = SSEHS.GetSource(SSEMI.Info.Source, SSEMI.Host).ToString();
 
             ContentRendered += (s, e) => SSEEH.ContentRendered(this);
 

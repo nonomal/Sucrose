@@ -152,10 +152,12 @@ namespace Sucrose.Live.Xavier
 
                             SSEHC.Start();
 
+                            SSEMI.Host = $"{Path.Combine(SSEMI.LibraryLocation, SSEMI.LibrarySelected)}/";
+
                             switch (SSEMI.Info.Type)
                             {
                                 case SSDEWT.Gif:
-                                    SSEXVG Gif = new(Source);
+                                    SSEXVG Gif = new();
                                     Gif.Show();
                                     break;
                                 default:

@@ -152,10 +152,12 @@ namespace Sucrose.Live.Nebula
 
                             SSEHC.Start();
 
+                            SSEMI.Host = $"{Path.Combine(SSEMI.LibraryLocation, SSEMI.LibrarySelected)}/";
+
                             switch (SSEMI.Info.Type)
                             {
                                 case SSDEWT.Video:
-                                    SSENVV Video = new(Source);
+                                    SSENVV Video = new();
                                     Video.Show();
                                     break;
                                 default:

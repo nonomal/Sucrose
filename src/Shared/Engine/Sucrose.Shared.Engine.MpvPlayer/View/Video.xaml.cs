@@ -18,13 +18,13 @@ namespace Sucrose.Shared.Engine.MpvPlayer.View
     /// </summary>
     public sealed partial class Video : Window, IDisposable
     {
-        public Video(string Video)
+        public Video()
         {
             InitializeComponent();
 
             SystemEvents.DisplaySettingsChanged += (s, e) => SSEEH.DisplaySettingsChanged(this);
 
-            SSEMPMI.Source = SSEHS.GetSource(Video).ToString();
+            SSEMPMI.Source = SSEHS.GetSource(SSEMI.Info.Source, SSEMI.Host).ToString();
 
             ContentRendered += (s, e) => SSEEH.ContentRendered(this);
 

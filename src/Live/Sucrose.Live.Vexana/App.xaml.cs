@@ -152,10 +152,12 @@ namespace Sucrose.Live.Vexana
 
                             SSEHC.Start();
 
+                            SSEMI.Host = $"{Path.Combine(SSEMI.LibraryLocation, SSEMI.LibrarySelected)}/";
+
                             switch (SSEMI.Info.Type)
                             {
                                 case SSDEWT.Gif:
-                                    SSEVVG Gif = new(Source);
+                                    SSEVVG Gif = new();
                                     Gif.Show();
                                     break;
                                 default:

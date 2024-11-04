@@ -155,10 +155,12 @@ namespace Sucrose.Live.Aurora
 
                                 SSEHC.Start();
 
+                                SSEMI.Host = $"{Path.Combine(SSEMI.LibraryLocation, SSEMI.LibrarySelected)}/";
+
                                 switch (SSEMI.Info.Type)
                                 {
                                     case SSDEWT.Application:
-                                        SSEAVA Application = new(Source, SSEMI.Info.Arguments);
+                                        SSEAVA Application = new();
                                         Application.Show();
                                         break;
                                     default:

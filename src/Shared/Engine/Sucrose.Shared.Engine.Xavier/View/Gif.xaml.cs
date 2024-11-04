@@ -19,7 +19,7 @@ namespace Sucrose.Shared.Engine.Xavier.View
     /// </summary>
     public sealed partial class Gif : Window, IDisposable
     {
-        public Gif(string Gif)
+        public Gif()
         {
             InitializeComponent();
 
@@ -29,8 +29,8 @@ namespace Sucrose.Shared.Engine.Xavier.View
 
             Content = SSEXMI.ImageEngine;
 
+            SXAGAB.SetSourceUri(SSEXMI.ImageEngine, SSEHS.GetSource(SSEMI.Info.Source, SSEMI.Host));
             SXAGAB.SetRepeatBehavior(SSEXMI.ImageEngine, RepeatBehavior.Forever);
-            SXAGAB.SetSourceUri(SSEXMI.ImageEngine, SSEHS.GetSource(Gif));
             SXAGAB.SetCacheFramesInMemory(SSEXMI.ImageEngine, false);
             SXAGAB.SetAnimateInDesignMode(SSEXMI.ImageEngine, false);
             SXAGAB.SetAutoStart(SSEXMI.ImageEngine, true);

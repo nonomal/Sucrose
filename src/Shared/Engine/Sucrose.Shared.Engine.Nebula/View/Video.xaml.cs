@@ -19,7 +19,7 @@ namespace Sucrose.Shared.Engine.Nebula.View
     /// </summary>
     public sealed partial class Video : Window, IDisposable
     {
-        public Video(string Video)
+        public Video()
         {
             InitializeComponent();
 
@@ -29,7 +29,7 @@ namespace Sucrose.Shared.Engine.Nebula.View
 
             Content = SSENMI.MediaEngine;
 
-            SSENMI.MediaEngine.Source = SSEHS.GetSource(Video);
+            SSENMI.MediaEngine.Source = SSEHS.GetSource(SSEMI.Info.Source, SSEMI.Host);
 
             SSEMI.GeneralTimer.Tick += new EventHandler(GeneralTimer_Tick);
             SSEMI.GeneralTimer.Interval = new TimeSpan(0, 0, 1);
