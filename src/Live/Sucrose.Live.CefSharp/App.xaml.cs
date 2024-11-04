@@ -304,6 +304,22 @@ namespace Sucrose.Live.CefSharp
                             }
                         }
 
+                        //Settings.RegisterScheme(new CefCustomScheme
+                        //{
+                        //    SchemeName = "themeFolder",
+                        //    IsDisplayIsolated = true,
+                        //    IsFetchEnabled = true,
+                        //    IsCSPBypassing = true,
+                        //    IsCorsEnabled = true,
+                        //    IsStandard = true,
+                        //    IsSecure = false,
+                        //    IsLocal = true,
+                        //    SchemeHandlerFactory = new FolderSchemeHandlerFactory(
+                        //        rootFolder: Path.Combine(SSEMI.LibraryLocation, SSEMI.LibrarySelected),
+                        //        defaultPage: SSEMI.Info.Source,
+                        //        hostName: SSEMI.Info.Source)
+                        //});
+
                         //Example of checking if a call to Cef.Initialize has already been made, we require this for
                         //our .Net 5.0 Single File Publish example, you don't typically need to perform this check
                         //if you call Cef.Initialze within your WPF App constructor.

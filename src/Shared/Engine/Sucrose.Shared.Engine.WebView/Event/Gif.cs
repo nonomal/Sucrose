@@ -54,13 +54,16 @@ namespace Sucrose.Shared.Engine.WebView.Event
 
             SSEWVMI.WebEngine.CoreWebView2.Settings.UserAgent = SMMG.UserAgent;
 
-            Uri Gif = SSEHS.GetSource(SSEWVMI.Gif);
+            Uri Gif = SSEHS.GetSource(SSEMI.Info.Source, SSEMI.Host);
 
             string Path = SSEHS.GetGifContentPath();
 
             SSEHS.WriteGifContent(Path, Gif);
 
             SSEWVMI.WebEngine.Source = SSEHS.GetSource(Path);
+
+
+
 
             SSEWVMI.WebEngine.CoreWebView2.DOMContentLoaded += WebEngineDOMContentLoaded;
 

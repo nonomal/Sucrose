@@ -55,8 +55,8 @@ namespace Sucrose.Shared.Engine.WebView.Event
 
             SSEWVMI.WebEngine.CoreWebView2.Settings.UserAgent = SMMG.UserAgent;
 
-            string Video = SSTHV.GetYouTubeVideoId(SSEWVMI.YouTube);
-            string Playlist = SSTHV.GetYouTubePlaylistId(SSEWVMI.YouTube);
+            string Video = SSTHV.GetYouTubeVideoId(SSEMI.Info.Source);
+            string Playlist = SSTHV.GetYouTubePlaylistId(SSEMI.Info.Source);
 
             string Path = SSEHS.GetYouTubeContentPath();
 

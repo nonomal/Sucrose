@@ -17,7 +17,7 @@ namespace Sucrose.Shared.Engine.WebView.View
     /// </summary>
     public sealed partial class Url : Window, IDisposable
     {
-        public Url(string Url)
+        public Url()
         {
             InitializeComponent();
 
@@ -26,8 +26,6 @@ namespace Sucrose.Shared.Engine.WebView.View
             ContentRendered += (s, e) => SSEEH.ContentRendered(this);
 
             Content = SSEWVMI.WebEngine;
-
-            SSEWVMI.Url = Url;
 
             SSEMI.GeneralTimer.Tick += new EventHandler(GeneralTimer_Tick);
             SSEMI.GeneralTimer.Interval = new TimeSpan(0, 0, 1);

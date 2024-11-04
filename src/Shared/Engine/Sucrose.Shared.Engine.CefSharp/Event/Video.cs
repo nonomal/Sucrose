@@ -12,7 +12,13 @@ namespace Sucrose.Shared.Engine.CefSharp.Event
     {
         public static void CefEngineLoaded(object sender, RoutedEventArgs e)
         {
-            SSECSMI.CefEngine.Address = SSEHS.GetSource(SSEMI.Info.Source, SSEMI.Host).ToString();
+            Uri Video = SSEHS.GetSource(SSEMI.Info.Source, SSEMI.Host);
+
+            string Path = SSEHS.GetVideoContentPath();
+
+            SSEHS.WriteVideoContent(Path, Video);
+
+            SSECSMI.CefEngine.Address = SSEHS.GetSource(Path).ToString();
         }
 
         public static void CefEngineInitializedChanged(object sender, EventArgs e)

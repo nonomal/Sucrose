@@ -17,7 +17,7 @@ namespace Sucrose.Shared.Engine.WebView.View
     /// </summary>
     public sealed partial class Video : Window, IDisposable
     {
-        public Video(string Video)
+        public Video()
         {
             InitializeComponent();
 
@@ -26,8 +26,6 @@ namespace Sucrose.Shared.Engine.WebView.View
             ContentRendered += (s, e) => SSEEH.ContentRendered(this);
 
             Content = SSEWVMI.WebEngine;
-
-            SSEWVMI.Video = Video;
 
             SSEMI.GeneralTimer.Tick += new EventHandler(GeneralTimer_Tick);
             SSEMI.GeneralTimer.Interval = new TimeSpan(0, 0, 1);

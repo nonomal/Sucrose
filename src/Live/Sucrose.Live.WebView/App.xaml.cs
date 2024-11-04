@@ -346,26 +346,28 @@ namespace Sucrose.Live.WebView
                                 SSEMI.Compatible.State = true;
                             }
 
+                            SSEMI.Host = $"{Path.Combine("file:///", SSEMI.LibraryLocation, SSEMI.LibrarySelected)}/";
+
                             switch (SSEMI.Info.Type)
                             {
                                 case SSDEWT.Gif:
-                                    SSEWVVG Gif = new(Source);
+                                    SSEWVVG Gif = new();
                                     Gif.Show();
                                     break;
                                 case SSDEWT.Url:
-                                    SSEWVVU Url = new(Source);
+                                    SSEWVVU Url = new();
                                     Url.Show();
                                     break;
                                 case SSDEWT.Web:
-                                    SSEWVVW Web = new(Source);
+                                    SSEWVVW Web = new();
                                     Web.Show();
                                     break;
                                 case SSDEWT.Video:
-                                    SSEWVVV Video = new(Source);
+                                    SSEWVVV Video = new();
                                     Video.Show();
                                     break;
                                 case SSDEWT.YouTube:
-                                    SSEWVVYT YouTube = new(Source);
+                                    SSEWVVYT YouTube = new();
                                     YouTube.Show();
                                     break;
                                 default:

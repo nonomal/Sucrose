@@ -17,7 +17,7 @@ namespace Sucrose.Shared.Engine.WebView.View
     /// </summary>
     public sealed partial class YouTube : Window, IDisposable
     {
-        public YouTube(string YouTube)
+        public YouTube()
         {
             InitializeComponent();
 
@@ -26,8 +26,6 @@ namespace Sucrose.Shared.Engine.WebView.View
             ContentRendered += (s, e) => SSEEH.ContentRendered(this);
 
             Content = SSEWVMI.WebEngine;
-
-            SSEWVMI.YouTube = YouTube;
 
             SSEMI.GeneralTimer.Tick += new EventHandler(GeneralTimer_Tick);
             SSEMI.GeneralTimer.Interval = new TimeSpan(0, 0, 1);

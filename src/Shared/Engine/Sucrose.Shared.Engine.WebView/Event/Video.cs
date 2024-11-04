@@ -54,7 +54,7 @@ namespace Sucrose.Shared.Engine.WebView.Event
 
             SSEWVMI.WebEngine.CoreWebView2.Settings.UserAgent = SMMG.UserAgent;
 
-            Uri Video = SSEHS.GetSource(SSEWVMI.Video);
+            Uri Video = SSEHS.GetSource(SSEMI.Info.Source, SSEMI.Host);
 
             if (SSEHS.GetExtension(Video))
             {

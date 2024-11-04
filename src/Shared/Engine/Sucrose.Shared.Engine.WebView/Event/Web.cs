@@ -109,7 +109,7 @@ namespace Sucrose.Shared.Engine.WebView.Event
 
             SSEWVMI.WebEngine.CoreWebView2.Settings.UserAgent = SMMG.UserAgent;
 
-            SSEWVMI.WebEngine.Source = SSEHS.GetSource(SSEWVMI.Web);
+            SSEWVMI.WebEngine.Source = SSEHS.GetSource(SSEMI.Info.Source, SSEMI.Host);
 
             SSEWVMI.WebEngine.CoreWebView2.DOMContentLoaded += WebEngineDOMContentLoaded;
 

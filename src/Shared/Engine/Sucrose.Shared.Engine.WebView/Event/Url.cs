@@ -70,7 +70,7 @@ namespace Sucrose.Shared.Engine.WebView.Event
 
             SSEWVMI.WebEngine.CoreWebView2.Settings.UserAgent = SMMG.UserAgent;
 
-            SSEWVMI.WebEngine.Source = new(SSEWVMI.Url);
+            SSEWVMI.WebEngine.Source = new(SSEMI.Info.Source);
 
             SSEWVMI.WebEngine.CoreWebView2.ContentLoading += WebEngineContentLoading;
             SSEWVMI.WebEngine.CoreWebView2.DOMContentLoaded += WebEngineDOMContentLoaded;

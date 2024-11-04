@@ -8,16 +8,6 @@ namespace Sucrose.Shared.Engine.WebView.Manage
 
         public static bool State = true;
 
-        public static string Gif = string.Empty;
-
-        public static string Url = string.Empty;
-
-        public static string Web = string.Empty;
-
-        public static string Video = string.Empty;
-
-        public static string YouTube = string.Empty;
-
         public static IntPtr WebHandle = IntPtr.Zero;
 
         public static WebEngine WebEngine = new()
