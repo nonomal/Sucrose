@@ -135,7 +135,10 @@ namespace Sucrose.Shared.Engine.Manage
 
             "--unsafely-disable-devtools-self-xss-warnings",
 
-            "--disable-features=MediaEngagementBypassAutoplayPolicies,BlockInsecurePrivateNetworkRequests,PreloadMediaEngagementData,OutOfBlinkCors,IsolateOrigins"
+            "--disable-site-isolation-trials",
+            "--disable-blink-features=BlockCredentialedSubresources",
+
+            "--disable-features=MediaEngagementBypassAutoplayPolicies,CrossSiteDocumentBlockingIfIsolating,BlockInsecurePrivateNetworkRequests,CrossSiteDocumentBlockingAlways,PreloadMediaEngagementData,OutOfBlinkCors,IsolateOrigins"
         };
 
         public static Dictionary<string, string> CefArguments = new()
@@ -186,7 +189,10 @@ namespace Sucrose.Shared.Engine.Manage
 
             { "unsafely-disable-devtools-self-xss-warnings", "1" },
 
-            { "disable-features", "MediaEngagementBypassAutoplayPolicies,BlockInsecurePrivateNetworkRequests,PreloadMediaEngagementData,OutOfBlinkCors,IsolateOrigins" }
+            { "disable-site-isolation-trials", "1" },
+            { "disable-blink-features", "BlockCredentialedSubresources" },
+
+            { "disable-features", "MediaEngagementBypassAutoplayPolicies,CrossSiteDocumentBlockingIfIsolating,BlockInsecurePrivateNetworkRequests,CrossSiteDocumentBlockingAlways,PreloadMediaEngagementData,OutOfBlinkCors,IsolateOrigins" }
         };
     }
 }
