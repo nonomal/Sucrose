@@ -102,7 +102,8 @@ namespace Sucrose.Portal.Views.Pages.Library
 
         private static int CountMatchingWords(string Text, string[] Pattern)
         {
-            return Text.Split(' ').Count(Word => Pattern.Any(Words => Word.Contains(Words)));
+            //return Text.Split(' ').Count(Word => Pattern.Any(Words => Word.Contains(Words)));
+            return Pattern.Count(Word => Text.Split(' ').Any(TextWord => TextWord.Contains(Word)));
         }
 
         private async void FullLibraryPage_Loaded(object sender, RoutedEventArgs e)
