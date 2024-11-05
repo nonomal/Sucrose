@@ -126,7 +126,7 @@ namespace Sucrose.Live.CefSharp
 
         protected void Close()
         {
-            Task.Run(LocalServer.Stop);
+            Task.Run(() => LocalServer?.Stop());
             Environment.Exit(0);
             Current.Shutdown();
             Shutdown();
