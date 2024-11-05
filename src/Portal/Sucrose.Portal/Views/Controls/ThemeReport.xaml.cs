@@ -1,5 +1,6 @@
 ﻿using Newtonsoft.Json;
 using System.IO;
+using System.Net;
 using System.Net.Http;
 using System.Windows;
 using System.Windows.Controls;
@@ -25,6 +26,7 @@ using SSSMROD = Sucrose.Shared.Space.Model.ReportOptionalData;
 using SSSPMI = Sucrose.Shared.Space.Manage.Internal;
 using SSTHI = Sucrose.Shared.Theme.Helper.Info;
 using SSTHV = Sucrose.Shared.Theme.Helper.Various;
+using SSWEW = Sucrose.Shared.Watchdog.Extension.Watch;
 using TextBlock = Wpf.Ui.Controls.TextBlock;
 using TextBox = Wpf.Ui.Controls.TextBox;
 
@@ -46,13 +48,28 @@ namespace Sucrose.Portal.Views.Controls
             InitializeComponent();
         }
 
-        private void ContentDialog_Loaded(object sender, RoutedEventArgs e)
+        private void ContentDialog_PreviewKeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.Key is Key.Enter or Key.Escape)
+            {
+                e.Handled = true;
+            }
+        }
+
+        private async void ContentDialog_Loaded(object sender, RoutedEventArgs e)
         {
             string ImagePath = Path.Combine(Theme, Info.Thumbnail);
 
             if (File.Exists(ImagePath))
             {
-                ThemeThumbnail.Source = Loader.LoadOptimal(ImagePath);
+                try
+                {
+                    ThemeThumbnail.Source = Loader.LoadOptimal(ImagePath);
+                }
+                catch (Exception Exception)
+                {
+                    await SSWEW.Watch_CatchException(Exception);
+                }
             }
 
             ThemeTitle.Text = Info.Title;
@@ -197,7 +214,7 @@ namespace Sucrose.Portal.Views.Controls
 
                         HttpResponseMessage Response = new()
                         {
-                            StatusCode = System.Net.HttpStatusCode.BadGateway
+                            StatusCode = HttpStatusCode.BadGateway
                         };
 
                         Client.DefaultRequestHeaders.Add("User-Agent", SMMG.UserAgent);
@@ -225,7 +242,7 @@ namespace Sucrose.Portal.Views.Controls
 
                             Response = new()
                             {
-                                StatusCode = System.Net.HttpStatusCode.BadGateway
+                                StatusCode = HttpStatusCode.BadGateway
                             };
 
                             try
@@ -280,14 +297,6 @@ namespace Sucrose.Portal.Views.Controls
                     ReportDescription.IsReadOnly = false;
                 }
             };
-        }
-
-        private void ContentDialog_PreviewKeyDown(object sender, KeyEventArgs e)
-        {
-            if (e.Key is Key.Enter or Key.Escape)
-            {
-                e.Handled = true;
-            }
         }
 
         protected override void OnButtonClick(ContentDialogButton Button)

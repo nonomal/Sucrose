@@ -29,6 +29,7 @@ using SSSHL = Sucrose.Shared.Space.Helper.Live;
 using SSSHP = Sucrose.Shared.Space.Helper.Processor;
 using SSSMI = Sucrose.Shared.Space.Manage.Internal;
 using SSTHI = Sucrose.Shared.Theme.Helper.Info;
+using SSWEW = Sucrose.Shared.Watchdog.Extension.Watch;
 using SXAGAB = Sucrose.XamlAnimatedGif.AnimationBehavior;
 
 namespace Sucrose.Portal.Views.Controls
@@ -414,7 +415,14 @@ namespace Sucrose.Portal.Views.Controls
 
                 if (File.Exists(ImagePath))
                 {
-                    Imagine.Source = await Loader.LoadOptimalAsync(ImagePath);
+                    try
+                    {
+                        Imagine.Source = await Loader.LoadOptimalAsync(ImagePath);
+                    }
+                    catch (Exception Exception)
+                    {
+                        await SSWEW.Watch_CatchException(Exception);
+                    }
                 }
 
                 await Task.Delay(100);

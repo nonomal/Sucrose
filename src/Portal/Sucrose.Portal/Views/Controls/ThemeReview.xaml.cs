@@ -16,6 +16,7 @@ using SSSHT = Sucrose.Shared.Space.Helper.Tags;
 using SSSSS = Skylark.Struct.Storage.StorageStruct;
 using SSTHI = Sucrose.Shared.Theme.Helper.Info;
 using SSTHV = Sucrose.Shared.Theme.Helper.Various;
+using SSWEW = Sucrose.Shared.Watchdog.Extension.Watch;
 
 namespace Sucrose.Portal.Views.Controls
 {
@@ -40,7 +41,7 @@ namespace Sucrose.Portal.Views.Controls
             return $"{SHN.Numeral(Data.Value, true, true, 1, '0', SECNT.None)} {Data.Short}";
         }
 
-        private void ContentDialog_Loaded(object sender, RoutedEventArgs e)
+        private async void ContentDialog_Loaded(object sender, RoutedEventArgs e)
         {
             ThemeTitle.Text = Info.Title;
             ThemeDescription.Text = Info.Description;
@@ -83,7 +84,14 @@ namespace Sucrose.Portal.Views.Controls
 
             if (File.Exists(ImagePath))
             {
-                ThemeThumbnail.Source = Loader.LoadOptimal(ImagePath, true, 600);
+                try
+                {
+                    ThemeThumbnail.Source = Loader.LoadOptimal(ImagePath, true, 600);
+                }
+                catch (Exception Exception)
+                {
+                    await SSWEW.Watch_CatchException(Exception);
+                }
             }
         }
 

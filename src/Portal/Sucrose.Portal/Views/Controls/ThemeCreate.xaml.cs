@@ -27,6 +27,7 @@ using SSSHA = Sucrose.Shared.Space.Helper.Access;
 using SSSHC = Sucrose.Shared.Space.Helper.Copy;
 using SSTHI = Sucrose.Shared.Theme.Helper.Info;
 using SSTHV = Sucrose.Shared.Theme.Helper.Various;
+using SSWEW = Sucrose.Shared.Watchdog.Extension.Watch;
 
 namespace Sucrose.Portal.Views.Controls
 {
@@ -159,7 +160,16 @@ namespace Sucrose.Portal.Views.Controls
                             {
                                 GifDescription.Text = SPETC.GetDescription(Path.GetFileNameWithoutExtension(Record), SSDEWT.Gif);
                                 GifTitle.Text = SPETC.GetTitle(Path.GetFileNameWithoutExtension(Record));
-                                GifImagine.Source = await Loader.LoadAsync(Record);
+
+                                try
+                                {
+                                    GifImagine.Source = await Loader.LoadAsync(Record);
+                                }
+                                catch (Exception Exception)
+                                {
+                                    await SSWEW.Watch_CatchException(Exception);
+                                }
+
                                 GifDelete.Visibility = Visibility.Visible;
                                 GifIcon.Visibility = Visibility.Collapsed;
                                 GifText.Visibility = Visibility.Collapsed;
@@ -237,7 +247,16 @@ namespace Sucrose.Portal.Views.Controls
                             {
                                 VideoDescription.Text = SPETC.GetDescription(Path.GetFileNameWithoutExtension(Record), SSDEWT.Video);
                                 VideoTitle.Text = SPETC.GetTitle(Path.GetFileNameWithoutExtension(Record));
-                                VideoImagine.Source = await Loader.LoadAsync(Record);
+
+                                try
+                                {
+                                    VideoImagine.Source = await Loader.LoadAsync(Record);
+                                }
+                                catch (Exception Exception)
+                                {
+                                    await SSWEW.Watch_CatchException(Exception);
+                                }
+
                                 VideoDelete.Visibility = Visibility.Visible;
                                 VideoIcon.Visibility = Visibility.Collapsed;
                                 VideoText.Visibility = Visibility.Collapsed;
@@ -532,7 +551,16 @@ namespace Sucrose.Portal.Views.Controls
                 {
                     GifDescription.Text = SPETC.GetDescription(Path.GetFileNameWithoutExtension(FileDialog.FileName), SSDEWT.Gif);
                     GifTitle.Text = SPETC.GetTitle(Path.GetFileNameWithoutExtension(FileDialog.FileName));
-                    GifImagine.Source = await Loader.LoadAsync(FileDialog.FileName);
+
+                    try
+                    {
+                        GifImagine.Source = await Loader.LoadAsync(FileDialog.FileName);
+                    }
+                    catch (Exception Exception)
+                    {
+                        await SSWEW.Watch_CatchException(Exception);
+                    }
+
                     GifDelete.Visibility = Visibility.Visible;
                     GifIcon.Visibility = Visibility.Collapsed;
                     GifText.Visibility = Visibility.Collapsed;
@@ -572,7 +600,16 @@ namespace Sucrose.Portal.Views.Controls
                 {
                     VideoDescription.Text = SPETC.GetDescription(Path.GetFileNameWithoutExtension(FileDialog.FileName), SSDEWT.Video);
                     VideoTitle.Text = SPETC.GetTitle(Path.GetFileNameWithoutExtension(FileDialog.FileName));
-                    VideoImagine.Source = await Loader.LoadAsync(FileDialog.FileName);
+
+                    try
+                    {
+                        VideoImagine.Source = await Loader.LoadAsync(FileDialog.FileName);
+                    }
+                    catch (Exception Exception)
+                    {
+                        await SSWEW.Watch_CatchException(Exception);
+                    }
+
                     VideoDelete.Visibility = Visibility.Visible;
                     VideoIcon.Visibility = Visibility.Collapsed;
                     VideoText.Visibility = Visibility.Collapsed;

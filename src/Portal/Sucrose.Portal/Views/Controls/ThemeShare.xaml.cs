@@ -1,5 +1,6 @@
 ﻿using Sucrose.Shared.Store.Interface;
 using System.IO;
+using System.Net;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Windows;
@@ -33,6 +34,7 @@ using SSSHSD = Sucrose.Shared.Store.Helper.Soferity.Download;
 using SSSHU = Sucrose.Shared.Space.Helper.User;
 using SSSIS = Sucrose.Shared.Store.Interface.Store;
 using SSTHI = Sucrose.Shared.Theme.Helper.Info;
+using SSWEW = Sucrose.Shared.Watchdog.Extension.Watch;
 using SSZEZ = Sucrose.Shared.Zip.Extension.Zip;
 using SSZHA = Sucrose.Shared.Zip.Helper.Archive;
 
@@ -185,19 +187,6 @@ namespace Sucrose.Portal.Views.Controls
             Publish.IsEnabled = true;
         }
 
-        private void ContentDialog_Loaded(object sender, RoutedEventArgs e)
-        {
-            string ImagePath = Path.Combine(Theme, Info.Thumbnail);
-
-            if (File.Exists(ImagePath))
-            {
-                ThemeThumbnail.Source = Loader.LoadOptimal(ImagePath);
-            }
-
-            ThemeTitle.Text = Info.Title;
-            ThemeDescription.Text = Info.Description;
-        }
-
         private async void Publisher_Click(object sender, RoutedEventArgs e)
         {
             if (Category.SelectedIndex >= 0)
@@ -219,7 +208,7 @@ namespace Sucrose.Portal.Views.Controls
 
                     HttpResponseMessage Response = new()
                     {
-                        StatusCode = System.Net.HttpStatusCode.BadGateway
+                        StatusCode = HttpStatusCode.BadGateway
                     };
 
                     Client.DefaultRequestHeaders.Add("User-Agent", SMMG.UserAgent);
@@ -352,6 +341,26 @@ namespace Sucrose.Portal.Views.Controls
             {
                 e.Handled = true;
             }
+        }
+
+        private async void ContentDialog_Loaded(object sender, RoutedEventArgs e)
+        {
+            string ImagePath = Path.Combine(Theme, Info.Thumbnail);
+
+            if (File.Exists(ImagePath))
+            {
+                try
+                {
+                    ThemeThumbnail.Source = Loader.LoadOptimal(ImagePath);
+                }
+                catch (Exception Exception)
+                {
+                    await SSWEW.Watch_CatchException(Exception);
+                }
+            }
+
+            ThemeTitle.Text = Info.Title;
+            ThemeDescription.Text = Info.Description;
         }
 
         private async void ReportProgress(long BytesTransferred, long TotalBytes, double Percentage)

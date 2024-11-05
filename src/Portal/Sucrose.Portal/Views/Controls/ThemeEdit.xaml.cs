@@ -10,6 +10,7 @@ using SSSHT = Sucrose.Shared.Space.Helper.Tags;
 using SSSHV = Sucrose.Shared.Space.Helper.Versionly;
 using SSTHI = Sucrose.Shared.Theme.Helper.Info;
 using SSTHV = Sucrose.Shared.Theme.Helper.Various;
+using SSWEW = Sucrose.Shared.Watchdog.Extension.Watch;
 
 namespace Sucrose.Portal.Views.Controls
 {
@@ -27,7 +28,15 @@ namespace Sucrose.Portal.Views.Controls
             InitializeComponent();
         }
 
-        private void ContentDialog_Loaded(object sender, RoutedEventArgs e)
+        private void ContentDialog_PreviewKeyDown(object sender, KeyEventArgs e)
+        {
+            if ((e.Key == Key.Enter || e.Key == Key.Escape) && (ThemeTitle.IsFocused || ThemeAuthor.IsFocused || ThemeContact.IsFocused || ThemeArguments.IsFocused || ThemeDescription.IsFocused))
+            {
+                e.Handled = true;
+            }
+        }
+
+        private async void ContentDialog_Loaded(object sender, RoutedEventArgs e)
         {
             ThemeTitle.Text = Info.Title;
             ThemeAuthor.Text = Info.Author;
@@ -45,15 +54,14 @@ namespace Sucrose.Portal.Views.Controls
 
             if (File.Exists(ImagePath))
             {
-                ThemeThumbnail.Source = Loader.LoadOptimal(ImagePath, true, 600);
-            }
-        }
-
-        private void ContentDialog_PreviewKeyDown(object sender, KeyEventArgs e)
-        {
-            if ((e.Key == Key.Enter || e.Key == Key.Escape) && (ThemeTitle.IsFocused || ThemeAuthor.IsFocused || ThemeContact.IsFocused || ThemeArguments.IsFocused || ThemeDescription.IsFocused))
-            {
-                e.Handled = true;
+                try
+                {
+                    ThemeThumbnail.Source = Loader.LoadOptimal(ImagePath, true, 600);
+                }
+                catch (Exception Exception)
+                {
+                    await SSWEW.Watch_CatchException(Exception);
+                }
             }
         }
 

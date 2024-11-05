@@ -64,8 +64,8 @@ namespace Sucrose.Portal.Views.Controls
         private readonly string Agent;
         private readonly string Guid;
         private readonly string Key;
-        private SSTHI Info;
         private bool State;
+        private SSTHI Info;
         private bool Error;
 
         internal StoreCard(string Theme, KeyValuePair<string, SSSIW> Wallpaper, string Agent, string Key)
@@ -466,7 +466,14 @@ namespace Sucrose.Portal.Views.Controls
 
                     if (File.Exists(ImagePath))
                     {
-                        Imagine.Source = await Loader.LoadOptimalAsync(ImagePath);
+                        try
+                        {
+                            Imagine.Source = await Loader.LoadOptimalAsync(ImagePath);
+                        }
+                        catch (Exception Exception)
+                        {
+                            await SSWEW.Watch_CatchException(Exception);
+                        }
                     }
 
                     if (Info.AppVersion.CompareTo(SHV.Entry()) > 0)

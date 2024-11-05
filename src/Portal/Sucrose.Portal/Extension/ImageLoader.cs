@@ -24,7 +24,7 @@ namespace Sucrose.Portal.Extension
 
                 if (!SPMI.ImageStream.ContainsKey(ImagePath))
                 {
-                    SPMI.ImageStream[ImagePath] = new(ImagePath, FileMode.Open, FileAccess.Read);
+                    SPMI.ImageStream[ImagePath] = new(ImagePath, FileMode.Open, FileAccess.Read, FileShare.Read);
                 }
 
                 SPMI.Images[ImagePath].BeginInit();
@@ -38,6 +38,7 @@ namespace Sucrose.Portal.Extension
                 }
 
                 SPMI.Images[ImagePath].EndInit();
+                SPMI.Images[ImagePath].Freeze();
             }
 
             return SPMI.Images[ImagePath];
@@ -52,7 +53,7 @@ namespace Sucrose.Portal.Extension
         {
             BitmapImage Image = new();
 
-            using FileStream Stream = new(ImagePath, FileMode.Open, FileAccess.Read);
+            using FileStream Stream = new(ImagePath, FileMode.Open, FileAccess.Read, FileShare.Read);
 
             Image.BeginInit();
 
@@ -71,14 +72,6 @@ namespace Sucrose.Portal.Extension
 
             Image.Freeze();
 
-            Image.StreamSource.Flush();
-
-            Stream.Flush();
-            Stream.Close();
-            Stream.Dispose();
-
-            Dispose();
-
             return Image;
         }
 
@@ -91,8 +84,17 @@ namespace Sucrose.Portal.Extension
         {
             if (!string.IsNullOrEmpty(ImagePath))
             {
-                SPMI.Images.Remove(ImagePath);
-                SPMI.ImageStream.Remove(ImagePath);
+                if (SPMI.Images.ContainsKey(ImagePath))
+                {
+                    SPMI.Images[ImagePath].StreamSource?.Dispose();
+                    SPMI.Images.Remove(ImagePath);
+                }
+
+                if (SPMI.ImageStream.ContainsKey(ImagePath))
+                {
+                    SPMI.ImageStream[ImagePath].Dispose();
+                    SPMI.ImageStream.Remove(ImagePath);
+                }
             }
         }
 
@@ -103,8 +105,19 @@ namespace Sucrose.Portal.Extension
 
         public void Clear()
         {
-            SPMI.Images.Clear();
+            foreach (FileStream Stream in SPMI.ImageStream.Values)
+            {
+                Stream.Dispose();
+            }
+
             SPMI.ImageStream.Clear();
+
+            foreach (BitmapImage Image in SPMI.Images.Values)
+            {
+                Image.StreamSource?.Dispose();
+            }
+
+            SPMI.Images.Clear();
         }
 
         public async Task ClearAsync()
@@ -114,19 +127,16 @@ namespace Sucrose.Portal.Extension
 
         public void Dispose()
         {
-            if (!string.IsNullOrEmpty(ImagePath))
-            {
-                SPMI.ImageStream[ImagePath].Dispose();
-                SPMI.Images[ImagePath].StreamSource.Dispose();
-            }
+            Clear();
 
-            GC.Collect();
             GC.SuppressFinalize(this);
         }
 
-        public async Task DisposeAsync()
+        public async ValueTask DisposeAsync()
         {
-            await Task.Run(Dispose);
+            await ClearAsync();
+
+            GC.SuppressFinalize(this);
         }
     }
 }
