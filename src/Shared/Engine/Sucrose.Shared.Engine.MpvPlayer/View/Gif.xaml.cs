@@ -33,6 +33,8 @@ namespace Sucrose.Shared.Engine.MpvPlayer.View
                 Loop = SSEHD.GetLoop()
             };
 
+            SSEMPMI.MediaEngine.LoadConfig(SSEMPMI.MpvConfig);
+
             SSEMPMI.MediaEngine.Load(SSEMPMI.Source);
 
             SSEMI.GeneralTimer.Tick += new EventHandler(GeneralTimer_Tick);

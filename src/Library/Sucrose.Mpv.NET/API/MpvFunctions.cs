@@ -62,6 +62,11 @@ namespace Sucrose.Mpv.NET.API
         {
             Guard.AgainstNullOrEmptyOrWhiteSpaceString(dllPath, nameof(dllPath));
 
+            if (!File.Exists(dllPath))
+            {
+                throw new DllNotFoundException($"Failed to load Mpv DLL. File not found: {dllPath}");
+            }
+
             dllHandle = PlatformDll.Utils.LoadLibrary(dllPath);
 
             if (dllHandle == IntPtr.Zero)

@@ -129,14 +129,20 @@ namespace Sucrose.Portal.Extension
         {
             Clear();
 
+            GC.Collect();
             GC.SuppressFinalize(this);
+            GC.SuppressFinalize(SPMI.Images);
+            GC.SuppressFinalize(SPMI.ImageStream);
         }
 
         public async ValueTask DisposeAsync()
         {
             await ClearAsync();
 
+            GC.Collect();
             GC.SuppressFinalize(this);
+            GC.SuppressFinalize(SPMI.Images);
+            GC.SuppressFinalize(SPMI.ImageStream);
         }
     }
 }
