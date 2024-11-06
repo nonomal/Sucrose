@@ -1,12 +1,7 @@
 ﻿namespace Sucrose.Mpv.NET.API
 {
-    public class MpvLogMessageEventArgs : EventArgs
+    public class MpvLogMessageEventArgs(MpvLogMessage message) : EventArgs
     {
-        public MpvLogMessage Message { get; private set; }
-
-        public MpvLogMessageEventArgs(MpvLogMessage message)
-        {
-            Message = message;
-        }
+        public MpvLogMessage Message { get; private set; } = message;
     }
 }

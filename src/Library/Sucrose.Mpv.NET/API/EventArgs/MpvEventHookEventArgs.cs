@@ -1,12 +1,7 @@
 ﻿namespace Sucrose.Mpv.NET.API
 {
-    public class MpvEventHookEventArgs : EventArgs
+    public class MpvEventHookEventArgs(MpvEventHook eventHook) : EventArgs
     {
-        public MpvEventHook EventHook { get; private set; }
-
-        public MpvEventHookEventArgs(MpvEventHook eventHook)
-        {
-            EventHook = eventHook;
-        }
+        public MpvEventHook EventHook { get; private set; } = eventHook;
     }
 }

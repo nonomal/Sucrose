@@ -1,12 +1,7 @@
 ﻿namespace Sucrose.Mpv.NET.Player
 {
-    public class MpvPlayerPositionChangedEventArgs : EventArgs
+    public class MpvPlayerPositionChangedEventArgs(double newPosition) : EventArgs
     {
-        public TimeSpan NewPosition { get; private set; }
-
-        public MpvPlayerPositionChangedEventArgs(double newPosition)
-        {
-            NewPosition = TimeSpan.FromSeconds(newPosition);
-        }
+        public TimeSpan NewPosition { get; private set; } = TimeSpan.FromSeconds(newPosition);
     }
 }

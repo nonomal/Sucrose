@@ -1,15 +1,9 @@
 ﻿namespace Sucrose.Mpv.NET.API
 {
-    public class MpvPropertyChangeEventArgs : EventArgs
+    public class MpvPropertyChangeEventArgs(ulong replyUserData, MpvEventProperty eventProperty) : EventArgs
     {
-        public ulong ReplyUserData { get; private set; }
+        public MpvEventProperty EventProperty { get; private set; } = eventProperty;
 
-        public MpvEventProperty EventProperty { get; private set; }
-
-        public MpvPropertyChangeEventArgs(ulong replyUserData, MpvEventProperty eventProperty)
-        {
-            ReplyUserData = replyUserData;
-            EventProperty = eventProperty;
-        }
+        public ulong ReplyUserData { get; private set; } = replyUserData;
     }
 }

@@ -1,12 +1,7 @@
 ﻿namespace Sucrose.Mpv.NET.API
 {
-    public class MpvClientMessageEventArgs : EventArgs
+    public class MpvClientMessageEventArgs(MpvEventClientMessage eventClientMessage) : EventArgs
     {
-        public MpvEventClientMessage EventClientMessage { get; private set; }
-
-        public MpvClientMessageEventArgs(MpvEventClientMessage eventClientMessage)
-        {
-            EventClientMessage = eventClientMessage;
-        }
+        public MpvEventClientMessage EventClientMessage { get; private set; } = eventClientMessage;
     }
 }

@@ -21,6 +21,7 @@ namespace Sucrose.Mpv.NET.API.Interop
             {
                 throw new PlatformNotSupportedException();
             }
+
 #elif NET48_OR_GREATER
             return new WindowsDllLoadUtils();
 #endif

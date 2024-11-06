@@ -19,6 +19,11 @@ namespace Sucrose.Shared.Space.Helper
             return SWEOS.BuildNumber >= Build;
         }
 
+        public static bool IsRedstone1(int Build = 14393)
+        {
+            return SWEOS.BuildNumber >= Build;
+        }
+
         public static bool IsVibranium(int Build = 19041)
         {
             return SWEOS.BuildNumber >= Build;

@@ -47,6 +47,7 @@ namespace Sucrose.Mpv.NET.Player
             get
             {
                 string yesNoString;
+
                 lock (mpvLock)
                 {
                     yesNoString = API.GetPropertyString("paused-for-cache");
@@ -151,6 +152,7 @@ namespace Sucrose.Mpv.NET.Player
             get
             {
                 string stringValue;
+
                 lock (mpvLock)
                 {
                     stringValue = API.GetPropertyString("keep-open");
@@ -177,6 +179,7 @@ namespace Sucrose.Mpv.NET.Player
             get
             {
                 string stringValue;
+
                 lock (mpvLock)
                 {
                     stringValue = API.GetPropertyString("loop");
@@ -230,6 +233,7 @@ namespace Sucrose.Mpv.NET.Player
             get
             {
                 string stringValue;
+
                 lock (mpvLock)
                 {
                     stringValue = API.GetPropertyString("eof-reached");
@@ -252,6 +256,7 @@ namespace Sucrose.Mpv.NET.Player
                 }
 
                 double duration;
+
                 lock (mpvLock)
                 {
                     duration = API.GetPropertyDouble("duration");
@@ -274,6 +279,7 @@ namespace Sucrose.Mpv.NET.Player
                 }
 
                 double position;
+
                 lock (mpvLock)
                 {
                     position = API.GetPropertyDouble("time-pos");
@@ -314,6 +320,7 @@ namespace Sucrose.Mpv.NET.Player
                 }
 
                 double remaining;
+
                 lock (mpvLock)
                 {
                     remaining = API.GetPropertyDouble("time-remaining");
@@ -894,6 +901,7 @@ namespace Sucrose.Mpv.NET.Player
             }
 
             string foundPath = possibleYtdlHookPaths.FirstOrDefault(File.Exists);
+
             if (foundPath != default)
             {
                 EnableYouTubeDl(foundPath);
