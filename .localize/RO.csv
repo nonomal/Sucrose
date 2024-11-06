@@ -152,9 +152,11 @@ Live\Live.RO.xaml,Live.Remember,Amintiți-Vă
 Live\Live.RO.xaml,,
 Live\Live.RO.xaml,Live.Info.WebView,Cerință WebView
 Live\Live.RO.xaml,Live.Info.CefSharp,Cerință CefSharp
+Live\Live.RO.xaml,Live.Info.MpvPlayer,Cerință MpvPlayer
 Live\Live.RO.xaml,,
 Live\Live.RO.xaml,Live.Message.WebView,"Runtime-ul WebView2 nu este instalat. WebView2 Runtime este un component care permite utilizarea tehnologiilor web moderne în aplicații. Prin urmare, WebView2 Runtime este necesar pentru a seta tapetul selectat."
 Live\Live.RO.xaml,Live.Message.CefSharp,"VC++ Redistributable nu este instalat. VC++ Redistributable furnizează unele componente de sistem necesare pentru ca CefSharp să funcționeze corect. CefSharp este un framework care permite utilizarea tehnologiilor web moderne în aplicații. Prin urmare, VC++ Redistributable este necesar pentru a seta tapetul selectat."
+Live\Live.RO.xaml,Live.Message.MpvPlayer,"Cerința minimă de versiune Windows pentru utilizarea MpvPlayer nu este îndeplinită. MpvPlayer este un player media capabil să redea fișiere media cu înaltă calitate și latență redusă. Suportă formate moderne de video și audio și oferă opțiuni avansate de configurare. Prin urmare, pentru a seta imaginea de fundal selectată, trebuie să vă actualizați sistemul la Windows 10 (Redstone) sau o versiune mai recentă."
 Portal\Portal.RO.xaml,Base64,ICAgIDxSZXNvdXJjZURpY3Rpb25hcnkuTWVyZ2VkRGljdGlvbmFyaWVzPg0KICAgICAgICA8UmVzb3VyY2VEaWN0aW9uYXJ5IFNvdXJjZT0iQXJlYS9Qb3J0YWwuQXJlYS5STy54YW1sIiAvPg0KICAgICAgICA8UmVzb3VyY2VEaWN0aW9uYXJ5IFNvdXJjZT0iRW51bS9Qb3J0YWwuRW51bS5STy54YW1sIiAvPg0KICAgICAgICA8UmVzb3VyY2VEaWN0aW9uYXJ5IFNvdXJjZT0iQ2F0ZWdvcnkvUG9ydGFsLkNhdGVnb3J5LlJPLnhhbWwiIC8+DQogICAgICAgIDxSZXNvdXJjZURpY3Rpb25hcnkgU291cmNlPSJDb250cm9scy9Qb3J0YWwuQ29udHJvbHMuUk8ueGFtbCIgLz4NCiAgICAgICAgPFJlc291cmNlRGljdGlvbmFyeSBTb3VyY2U9IlN0b3JlUGFnZS9Qb3J0YWwuU3RvcmVQYWdlLlJPLnhhbWwiIC8+DQogICAgICAgIDxSZXNvdXJjZURpY3Rpb25hcnkgU291cmNlPSJNYWluV2luZG93L1BvcnRhbC5NYWluV2luZG93LlJPLnhhbWwiIC8+DQogICAgICAgIDxSZXNvdXJjZURpY3Rpb25hcnkgU291cmNlPSJMaWJyYXJ5UGFnZS9Qb3J0YWwuTGlicmFyeVBhZ2UuUk8ueGFtbCIgLz4NCiAgICAgICAgPFJlc291cmNlRGljdGlvbmFyeSBTb3VyY2U9IlNldHRpbmdQYWdlL1BvcnRhbC5TZXR0aW5nUGFnZS5STy54YW1sIiAvPg0KICAgIDwvUmVzb3VyY2VEaWN0aW9uYXJ5Lk1lcmdlZERpY3Rpb25hcmllcz4=
 Property\Property.RO.xaml,Property.WindowTitle,Sucrose Property
 Property\Property.RO.xaml,,

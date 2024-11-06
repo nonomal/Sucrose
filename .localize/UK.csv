@@ -152,9 +152,11 @@ Live\Live.UK.xaml,Live.Remember,Запам'ятати
 Live\Live.UK.xaml,,
 Live\Live.UK.xaml,Live.Info.WebView,Вимога WebView
 Live\Live.UK.xaml,Live.Info.CefSharp,Вимога CefSharp
+Live\Live.UK.xaml,Live.Info.MpvPlayer,Вимога MpvPlayer
 Live\Live.UK.xaml,,
 Live\Live.UK.xaml,Live.Message.WebView,"WebView2 Runtime не встановлено. WebView2 Runtime — це компонент, який дозволяє використовувати сучасні веб-технології в додатках. Тому для встановлення вибраних шпалер потрібен WebView2 Runtime."
 Live\Live.UK.xaml,Live.Message.CefSharp,"VC++ Redistributable не встановлено. VC++ Redistributable забезпечує деякі системні компоненти, необхідні для належного функціонування CefSharp. CefSharp — це фреймворк, який дозволяє використовувати сучасні веб-технології в додатках. Тому для встановлення вибраних шпалер потрібен VC++ Redistributable."
+Live\Live.UK.xaml,Live.Message.MpvPlayer,"Не виконується мінімальна вимога до версії Windows для використання MpvPlayer. MpvPlayer — це медіаплеєр, здатний відтворювати медіафайли високої якості та з низькою затримкою. Він підтримує сучасні формати відео та аудіо та пропонує розширені параметри налаштувань. Отже, для встановлення обраного шпалера вам необхідно оновити систему до Windows 10 (Redstone) або новішої версії."
 Portal\Portal.UK.xaml,Base64,ICAgIDxSZXNvdXJjZURpY3Rpb25hcnkuTWVyZ2VkRGljdGlvbmFyaWVzPg0KICAgICAgICA8UmVzb3VyY2VEaWN0aW9uYXJ5IFNvdXJjZT0iQXJlYS9Qb3J0YWwuQXJlYS5VSy54YW1sIiAvPg0KICAgICAgICA8UmVzb3VyY2VEaWN0aW9uYXJ5IFNvdXJjZT0iRW51bS9Qb3J0YWwuRW51bS5VSy54YW1sIiAvPg0KICAgICAgICA8UmVzb3VyY2VEaWN0aW9uYXJ5IFNvdXJjZT0iQ2F0ZWdvcnkvUG9ydGFsLkNhdGVnb3J5LlVLLnhhbWwiIC8+DQogICAgICAgIDxSZXNvdXJjZURpY3Rpb25hcnkgU291cmNlPSJDb250cm9scy9Qb3J0YWwuQ29udHJvbHMuVUsueGFtbCIgLz4NCiAgICAgICAgPFJlc291cmNlRGljdGlvbmFyeSBTb3VyY2U9IlN0b3JlUGFnZS9Qb3J0YWwuU3RvcmVQYWdlLlVLLnhhbWwiIC8+DQogICAgICAgIDxSZXNvdXJjZURpY3Rpb25hcnkgU291cmNlPSJNYWluV2luZG93L1BvcnRhbC5NYWluV2luZG93LlVLLnhhbWwiIC8+DQogICAgICAgIDxSZXNvdXJjZURpY3Rpb25hcnkgU291cmNlPSJMaWJyYXJ5UGFnZS9Qb3J0YWwuTGlicmFyeVBhZ2UuVUsueGFtbCIgLz4NCiAgICAgICAgPFJlc291cmNlRGljdGlvbmFyeSBTb3VyY2U9IlNldHRpbmdQYWdlL1BvcnRhbC5TZXR0aW5nUGFnZS5VSy54YW1sIiAvPg0KICAgIDwvUmVzb3VyY2VEaWN0aW9uYXJ5Lk1lcmdlZERpY3Rpb25hcmllcz4=
 Property\Property.UK.xaml,Property.WindowTitle,Sucrose Property
 Property\Property.UK.xaml,,

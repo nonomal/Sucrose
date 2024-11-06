@@ -11,7 +11,9 @@
 
     <system:String x:Key="Live.Info.WebView">WebView-Anforderung</system:String>
     <system:String x:Key="Live.Info.CefSharp">CefSharp-Anforderung</system:String>
+    <system:String x:Key="Live.Info.MpvPlayer">MpvPlayer-Anforderung</system:String>
 
     <system:String x:Key="Live.Message.WebView">WebView2 Runtime ist nicht installiert. WebView2 Runtime ist eine Komponente, die die Nutzung moderner Webtechnologien in Anwendungen ermöglicht. Daher ist WebView2 Runtime erforderlich, um das ausgewählte Hintergrundbild festzulegen.</system:String>
     <system:String x:Key="Live.Message.CefSharp">VC++ Redistributable ist nicht installiert. VC++ Redistributable stellt einige Systemkomponenten bereit, die für das ordnungsgemäße Funktionieren von CefSharp erforderlich sind. CefSharp ist ein Framework, das die Nutzung moderner Webtechnologien in Anwendungen ermöglicht. Daher ist VC++ Redistributable erforderlich, um das ausgewählte Hintergrundbild festzulegen.</system:String>
+    <system:String x:Key="Live.Message.MpvPlayer">Die Mindestanforderung an die Windows-Version für die Nutzung von MpvPlayer wird nicht erfüllt. MpvPlayer ist ein Mediaplayer, der Medieninhalte in hoher Qualität und mit niedriger Latenz abspielen kann. Er unterstützt moderne Video- und Audioformate und bietet umfassende Konfigurationsmöglichkeiten. Daher müssen Sie Ihr System auf Windows 10 (Redstone) oder eine neuere Version aktualisieren, um das ausgewählte Hintergrundbild festzulegen.</system:String>
 </ResourceDictionary>

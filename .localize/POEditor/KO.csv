@@ -152,9 +152,11 @@ Live.Remember,기억하다,,Live\Live.KO.xaml,
 PASS⦙19,PASS⦙19,Don't Touch,Live\Live.KO.xaml,Please don't touch the translation in this line.
 Live.Info.WebView,WebView 요구 사항,,Live\Live.KO.xaml,
 Live.Info.CefSharp,CefSharp 요구 사항,,Live\Live.KO.xaml,
+Live.Info.MpvPlayer,MpvPlayer 요구 사항,,Live\Live.KO.xaml,
 PASS⦙20,PASS⦙20,Don't Touch,Live\Live.KO.xaml,Please don't touch the translation in this line.
 Live.Message.WebView,WebView2 Runtime이 설치되어 있지 않습니다. WebView2 Runtime은 응용 프로그램에서 현대적인 웹 기술을 사용할 수 있게 해주는 구성 요소입니다. 따라서 선택한 배경 화면을 설정하려면 WebView2 Runtime이 필요합니다.,,Live\Live.KO.xaml,
 Live.Message.CefSharp,VC++ Redistributable이 설치되어 있지 않습니다. VC++ Redistributable은 CefSharp이 올바르게 작동하기 위해 필요한 일부 시스템 구성 요소를 제공합니다. CefSharp은 응용 프로그램에서 현대적인 웹 기술을 사용할 수 있게 해주는 프레임워크입니다. 따라서 선택한 배경 화면을 설정하려면 VC++ Redistributable이 필요합니다.,,Live\Live.KO.xaml,
+Live.Message.MpvPlayer,MpvPlayer 사용을 위한 최소 Windows 버전 요구 사항이 충족되지 않았습니다. MpvPlayer는 고품질과 낮은 지연으로 미디어 파일을 재생할 수 있는 미디어 플레이어입니다. 최신 비디오 및 오디오 포맷을 지원하며 강력한 구성 옵션을 제공합니다. 따라서 선택한 배경 화면을 설정하려면 시스템을 Windows 10 (Redstone) 이상 버전으로 업데이트해야 합니다.,,Live\Live.KO.xaml,
 Base64⦙1,ICAgIDxSZXNvdXJjZURpY3Rpb25hcnkuTWVyZ2VkRGljdGlvbmFyaWVzPg0KICAgICAgICA8UmVzb3VyY2VEaWN0aW9uYXJ5IFNvdXJjZT0iQXJlYS9Qb3J0YWwuQXJlYS5LTy54YW1sIiAvPg0KICAgICAgICA8UmVzb3VyY2VEaWN0aW9uYXJ5IFNvdXJjZT0iRW51bS9Qb3J0YWwuRW51bS5LTy54YW1sIiAvPg0KICAgICAgICA8UmVzb3VyY2VEaWN0aW9uYXJ5IFNvdXJjZT0iQ2F0ZWdvcnkvUG9ydGFsLkNhdGVnb3J5LktPLnhhbWwiIC8+DQogICAgICAgIDxSZXNvdXJjZURpY3Rpb25hcnkgU291cmNlPSJDb250cm9scy9Qb3J0YWwuQ29udHJvbHMuS08ueGFtbCIgLz4NCiAgICAgICAgPFJlc291cmNlRGljdGlvbmFyeSBTb3VyY2U9IlN0b3JlUGFnZS9Qb3J0YWwuU3RvcmVQYWdlLktPLnhhbWwiIC8+DQogICAgICAgIDxSZXNvdXJjZURpY3Rpb25hcnkgU291cmNlPSJNYWluV2luZG93L1BvcnRhbC5NYWluV2luZG93LktPLnhhbWwiIC8+DQogICAgICAgIDxSZXNvdXJjZURpY3Rpb25hcnkgU291cmNlPSJMaWJyYXJ5UGFnZS9Qb3J0YWwuTGlicmFyeVBhZ2UuS08ueGFtbCIgLz4NCiAgICAgICAgPFJlc291cmNlRGljdGlvbmFyeSBTb3VyY2U9IlNldHRpbmdQYWdlL1BvcnRhbC5TZXR0aW5nUGFnZS5LTy54YW1sIiAvPg0KICAgIDwvUmVzb3VyY2VEaWN0aW9uYXJ5Lk1lcmdlZERpY3Rpb25hcmllcz4=,Don't Touch,Portal\Portal.KO.xaml,Please don't touch the translation in this line.
 Property.WindowTitle,Sucrose Property,,Property\Property.KO.xaml,
 PASS⦙21,PASS⦙21,Don't Touch,Property\Property.KO.xaml,Please don't touch the translation in this line.

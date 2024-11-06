@@ -152,9 +152,11 @@ Live\Live.NB.xaml,Live.Remember,Husk
 Live\Live.NB.xaml,,
 Live\Live.NB.xaml,Live.Info.WebView,WebView-Krav
 Live\Live.NB.xaml,Live.Info.CefSharp,CefSharp-Krav
+Live\Live.NB.xaml,Live.Info.MpvPlayer,MpvPlayer-Krav
 Live\Live.NB.xaml,,
 Live\Live.NB.xaml,Live.Message.WebView,WebView2 Runtime er ikke installert. WebView2 Runtime er en komponent som gjør det mulig å bruke moderne webteknologier i applikasjoner. Derfor er WebView2 Runtime nødvendig for å sette den valgte bakgrunnen.
 Live\Live.NB.xaml,Live.Message.CefSharp,VC++ Redistributable er ikke installert. VC++ Redistributable gir noen systemkomponenter som er nødvendige for at CefSharp skal fungere ordentlig. CefSharp er et rammeverk som gjør det mulig å bruke moderne webteknologier i applikasjoner. Derfor er VC++ Redistributable nødvendig for å sette den valgte bakgrunnen.
+Live\Live.NB.xaml,Live.Message.MpvPlayer,Minimumskravet til Windows-versjon for å bruke MpvPlayer er ikke oppfylt. MpvPlayer er en mediespiller som kan spille av mediefiler med høy kvalitet og lav ventetid. Den støtter moderne video- og lydformater og tilbyr kraftige konfigurasjonsalternativer. For å sette det valgte bakgrunnsbildet må du derfor oppgradere systemet ditt til Windows 10 (Redstone) eller en nyere versjon.
 Portal\Portal.NB.xaml,Base64,ICAgIDxSZXNvdXJjZURpY3Rpb25hcnkuTWVyZ2VkRGljdGlvbmFyaWVzPg0KICAgICAgICA8UmVzb3VyY2VEaWN0aW9uYXJ5IFNvdXJjZT0iQXJlYS9Qb3J0YWwuQXJlYS5OQi54YW1sIiAvPg0KICAgICAgICA8UmVzb3VyY2VEaWN0aW9uYXJ5IFNvdXJjZT0iRW51bS9Qb3J0YWwuRW51bS5OQi54YW1sIiAvPg0KICAgICAgICA8UmVzb3VyY2VEaWN0aW9uYXJ5IFNvdXJjZT0iQ2F0ZWdvcnkvUG9ydGFsLkNhdGVnb3J5Lk5CLnhhbWwiIC8+DQogICAgICAgIDxSZXNvdXJjZURpY3Rpb25hcnkgU291cmNlPSJDb250cm9scy9Qb3J0YWwuQ29udHJvbHMuTkIueGFtbCIgLz4NCiAgICAgICAgPFJlc291cmNlRGljdGlvbmFyeSBTb3VyY2U9IlN0b3JlUGFnZS9Qb3J0YWwuU3RvcmVQYWdlLk5CLnhhbWwiIC8+DQogICAgICAgIDxSZXNvdXJjZURpY3Rpb25hcnkgU291cmNlPSJNYWluV2luZG93L1BvcnRhbC5NYWluV2luZG93Lk5CLnhhbWwiIC8+DQogICAgICAgIDxSZXNvdXJjZURpY3Rpb25hcnkgU291cmNlPSJMaWJyYXJ5UGFnZS9Qb3J0YWwuTGlicmFyeVBhZ2UuTkIueGFtbCIgLz4NCiAgICAgICAgPFJlc291cmNlRGljdGlvbmFyeSBTb3VyY2U9IlNldHRpbmdQYWdlL1BvcnRhbC5TZXR0aW5nUGFnZS5OQi54YW1sIiAvPg0KICAgIDwvUmVzb3VyY2VEaWN0aW9uYXJ5Lk1lcmdlZERpY3Rpb25hcmllcz4=
 Property\Property.NB.xaml,Property.WindowTitle,Sucrose Property
 Property\Property.NB.xaml,,

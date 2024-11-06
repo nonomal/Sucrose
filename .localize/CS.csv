@@ -152,9 +152,11 @@ Live\Live.CS.xaml,Live.Remember,Pamatovat Si
 Live\Live.CS.xaml,,
 Live\Live.CS.xaml,Live.Info.WebView,Požadavek WebView
 Live\Live.CS.xaml,Live.Info.CefSharp,Požadavek CefSharp
+Live\Live.CS.xaml,Live.Info.MpvPlayer,Požadavek MpvPlayer
 Live\Live.CS.xaml,,
 Live\Live.CS.xaml,Live.Message.WebView,"WebView2 Runtime není nainstalován. WebView2 Runtime je komponenta, která umožňuje využití moderních webových technologií v aplikacích. Proto je WebView2 Runtime nutný k nastavení vybrané tapety."
 Live\Live.CS.xaml,Live.Message.CefSharp,"VC++ Redistributable není nainstalován. VC++ Redistributable poskytuje některé systémové komponenty nezbytné pro správné fungování CefSharp. CefSharp je framework, který umožňuje použití moderních webových technologií v aplikacích. Proto je VC++ Redistributable nutný k nastavení vybrané tapety."
+Live\Live.CS.xaml,Live.Message.MpvPlayer,"Použití MpvPlayer vyžaduje minimální verzi systému Windows, která není splněna. MpvPlayer je multimediální přehrávač, který dokáže přehrávat mediální soubory ve vysoké kvalitě a s nízkou latencí. Podporuje moderní formáty videa a zvuku a nabízí pokročilé možnosti konfigurace. Pro nastavení vybraného tapety je proto nutné upgradovat váš systém na Windows 10 (Redstone) nebo novější verzi."
 Portal\Portal.CS.xaml,Base64,ICAgIDxSZXNvdXJjZURpY3Rpb25hcnkuTWVyZ2VkRGljdGlvbmFyaWVzPg0KICAgICAgICA8UmVzb3VyY2VEaWN0aW9uYXJ5IFNvdXJjZT0iQXJlYS9Qb3J0YWwuQXJlYS5DUy54YW1sIiAvPg0KICAgICAgICA8UmVzb3VyY2VEaWN0aW9uYXJ5IFNvdXJjZT0iRW51bS9Qb3J0YWwuRW51bS5DUy54YW1sIiAvPg0KICAgICAgICA8UmVzb3VyY2VEaWN0aW9uYXJ5IFNvdXJjZT0iQ2F0ZWdvcnkvUG9ydGFsLkNhdGVnb3J5LkNTLnhhbWwiIC8+DQogICAgICAgIDxSZXNvdXJjZURpY3Rpb25hcnkgU291cmNlPSJDb250cm9scy9Qb3J0YWwuQ29udHJvbHMuQ1MueGFtbCIgLz4NCiAgICAgICAgPFJlc291cmNlRGljdGlvbmFyeSBTb3VyY2U9IlN0b3JlUGFnZS9Qb3J0YWwuU3RvcmVQYWdlLkNTLnhhbWwiIC8+DQogICAgICAgIDxSZXNvdXJjZURpY3Rpb25hcnkgU291cmNlPSJNYWluV2luZG93L1BvcnRhbC5NYWluV2luZG93LkNTLnhhbWwiIC8+DQogICAgICAgIDxSZXNvdXJjZURpY3Rpb25hcnkgU291cmNlPSJMaWJyYXJ5UGFnZS9Qb3J0YWwuTGlicmFyeVBhZ2UuQ1MueGFtbCIgLz4NCiAgICAgICAgPFJlc291cmNlRGljdGlvbmFyeSBTb3VyY2U9IlNldHRpbmdQYWdlL1BvcnRhbC5TZXR0aW5nUGFnZS5DUy54YW1sIiAvPg0KICAgIDwvUmVzb3VyY2VEaWN0aW9uYXJ5Lk1lcmdlZERpY3Rpb25hcmllcz4=
 Property\Property.CS.xaml,Property.WindowTitle,Sucrose Property
 Property\Property.CS.xaml,,

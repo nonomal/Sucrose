@@ -11,7 +11,9 @@
 
     <system:String x:Key="Live.Info.WebView">Keperluan WebView</system:String>
     <system:String x:Key="Live.Info.CefSharp">Keperluan CefSharp</system:String>
+    <system:String x:Key="Live.Info.MpvPlayer">Keperluan MpvPlayer</system:String>
 
     <system:String x:Key="Live.Message.WebView">Runtime WebView2 tidak dipasang. Runtime WebView2 adalah komponen yang membolehkan penggunaan teknologi web moden dalam aplikasi. Oleh itu, Runtime WebView2 diperlukan untuk menetapkan wallpaper yang dipilih.</system:String>
     <system:String x:Key="Live.Message.CefSharp">VC++ Redistributable tidak dipasang. VC++ Redistributable menyediakan beberapa komponen sistem yang diperlukan untuk CefSharp berfungsi dengan betul. CefSharp adalah rangka kerja yang membolehkan penggunaan teknologi web moden dalam aplikasi. Oleh itu, VC++ Redistributable diperlukan untuk menetapkan wallpaper yang dipilih.</system:String>
+    <system:String x:Key="Live.Message.MpvPlayer">Keperluan versi minimum Windows untuk menggunakan MpvPlayer tidak dipenuhi. MpvPlayer ialah pemain media yang mampu memainkan fail media dengan kualiti tinggi dan latensi rendah. Ia menyokong format video dan audio moden dan menawarkan pilihan konfigurasi yang kuat. Oleh itu, untuk menetapkan kertas dinding yang dipilih, anda perlu mengemas kini sistem anda kepada Windows 10 (Redstone) atau versi yang lebih baharu.</system:String>
 </ResourceDictionary>

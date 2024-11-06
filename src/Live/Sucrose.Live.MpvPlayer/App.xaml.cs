@@ -2,6 +2,7 @@
 using System.IO;
 using System.Windows;
 using Application = System.Windows.Application;
+using SEWTT = Skylark.Enum.WindowsThemeType;
 using SHC = Skylark.Helper.Culture;
 using SHV = Skylark.Helper.Versionly;
 using SMMCB = Sucrose.Memory.Manage.Constant.Backgroundog;
@@ -11,17 +12,22 @@ using SMML = Sucrose.Manager.Manage.Library;
 using SMMRA = Sucrose.Memory.Manage.Readonly.App;
 using SMMRC = Sucrose.Memory.Manage.Readonly.Content;
 using SMMRM = Sucrose.Memory.Manage.Readonly.Mutex;
+using SRER = Sucrose.Resources.Extension.Resources;
 using SRHR = Sucrose.Resources.Helper.Resources;
 using SSDEWT = Sucrose.Shared.Dependency.Enum.WallpaperType;
+using SSDMMG = Sucrose.Shared.Dependency.Manage.Manager.General;
 using SSEHC = Sucrose.Shared.Engine.Helper.Cycyling;
 using SSEHR = Sucrose.Shared.Engine.Helper.Run;
 using SSEMI = Sucrose.Shared.Engine.Manage.Internal;
 using SSEMPVG = Sucrose.Shared.Engine.MpvPlayer.View.Gif;
 using SSEMPVV = Sucrose.Shared.Engine.MpvPlayer.View.Video;
+using SSEVDWB = Sucrose.Shared.Engine.View.DarkWarningBox;
+using SSEVLWB = Sucrose.Shared.Engine.View.LightWarningBox;
 using SSSHC = Sucrose.Shared.Space.Helper.Cycyling;
 using SSSHI = Sucrose.Shared.Space.Helper.Instance;
 using SSSHS = Sucrose.Shared.Space.Helper.Security;
-using SSSHW = Sucrose.Shared.Space.Helper.Watchdog;
+using SSSHWG = Sucrose.Shared.Space.Helper.Watchdog;
+using SSSHWS = Sucrose.Shared.Space.Helper.Windows;
 using SSTHI = Sucrose.Shared.Theme.Helper.Info;
 using SSTHV = Sucrose.Shared.Theme.Helper.Various;
 using SSWEW = Sucrose.Shared.Watchdog.Extension.Watch;
@@ -111,7 +117,43 @@ namespace Sucrose.Live.MpvPlayer
 
                 string Path = SMMI.MpvPlayerLiveLogManager.LogFile();
 
-                SSSHW.Start(SMMRA.MpvPlayerLive, Exception, Path);
+                SSSHWG.Start(SMMRA.MpvPlayerLive, Exception, Path);
+
+                Close();
+            }
+        }
+
+        protected bool Check()
+        {
+            return SSSHWS.IsRedstone1();
+        }
+
+        protected void Checker()
+        {
+            if (Check())
+            {
+                Configure();
+            }
+            else
+            {
+                string CloseText = SRER.GetValue("Live", "Close");
+
+                string DialogInfo = SRER.GetValue("Live", "Info", "MpvPlayer");
+                string DialogMessage = SRER.GetValue("Live", "Message", "MpvPlayer");
+
+                string DialogTitle = string.Format(SRER.GetValue("Live", "Title"), "MpvPlayer");
+
+                switch (SSDMMG.ThemeType)
+                {
+                    case SEWTT.Dark:
+                        SSEVDWB DarkWarningBox = new(DialogTitle, DialogMessage, DialogInfo, CloseText);
+                        DarkWarningBox.ShowDialog();
+                        break;
+                    default:
+                        SSEVLWB LightWarningBox = new(DialogTitle, DialogMessage, DialogInfo, CloseText);
+                        LightWarningBox.ShowDialog();
+                        break;
+                }
 
                 Close();
             }
@@ -216,7 +258,7 @@ namespace Sucrose.Live.MpvPlayer
                 }
                 else
                 {
-                    Configure();
+                    Checker();
                 }
             }
             else

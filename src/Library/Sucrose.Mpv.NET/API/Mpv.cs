@@ -94,12 +94,14 @@ namespace Sucrose.Mpv.NET.API
         private void InitialiseMpv()
         {
             Handle = Functions.Create();
+
             if (Handle == IntPtr.Zero)
             {
                 throw new MpvAPIException("Failed to create Mpv context.");
             }
 
             MpvError error = Functions.Initialise(Handle);
+
             if (error != MpvError.Success)
             {
                 throw MpvAPIException.FromError(error, Functions);
@@ -139,6 +141,7 @@ namespace Sucrose.Mpv.NET.API
             Guard.AgainstDisposed(disposed, nameof(Mpv));
 
             IntPtr newHandle = Functions.CreateClient(Handle, out string name);
+
             if (newHandle == IntPtr.Zero)
             {
                 throw new MpvAPIException("Failed to create new client.");
@@ -152,6 +155,7 @@ namespace Sucrose.Mpv.NET.API
             Guard.AgainstDisposed(disposed, nameof(Mpv));
 
             IntPtr newHandle = Functions.CreateWeakClient(Handle, out string name);
+
             if (newHandle == IntPtr.Zero)
             {
                 throw new MpvAPIException("Failed to create new weak client.");
@@ -175,6 +179,7 @@ namespace Sucrose.Mpv.NET.API
             }
 
             MpvError error = Functions.LoadConfigFile(Handle, absolutePath);
+
             if (error != MpvError.Success)
             {
                 throw MpvAPIException.FromError(error, Functions);
@@ -203,6 +208,7 @@ namespace Sucrose.Mpv.NET.API
                 Marshal.Copy(data, 0, dataPtr, dataLength);
 
                 MpvError error = Functions.SetOption(Handle, name, format, dataPtr);
+
                 if (error != MpvError.Success)
                 {
                     throw MpvAPIException.FromError(error, Functions);
@@ -222,6 +228,7 @@ namespace Sucrose.Mpv.NET.API
             Guard.AgainstNull(data, nameof(data));
 
             MpvError error = Functions.SetOptionString(Handle, name, data);
+
             if (error != MpvError.Success)
             {
                 throw MpvAPIException.FromError(error, Functions);
@@ -239,6 +246,7 @@ namespace Sucrose.Mpv.NET.API
             }
 
             IntPtr argsPtr = MpvMarshal.GetComPtrForManagedUTF8StringArray(args, out IntPtr[] argsPtrs);
+
             if (argsPtr == IntPtr.Zero)
             {
                 throw new MpvAPIException("Failed to convert string array to pointer array.");
@@ -247,6 +255,7 @@ namespace Sucrose.Mpv.NET.API
             try
             {
                 MpvError error = Functions.Command(Handle, argsPtr);
+
                 if (error != MpvError.Success)
                 {
                     throw MpvAPIException.FromError(error, Functions);
@@ -265,6 +274,7 @@ namespace Sucrose.Mpv.NET.API
             Guard.AgainstNullOrEmptyOrWhiteSpaceString(args, nameof(args));
 
             MpvError error = Functions.CommandString(Handle, args);
+
             if (error != MpvError.Success)
             {
                 throw MpvAPIException.FromError(error, Functions);
@@ -282,6 +292,7 @@ namespace Sucrose.Mpv.NET.API
             }
 
             IntPtr argsPtr = MpvMarshal.GetComPtrForManagedUTF8StringArray(args, out IntPtr[] argsPtrs);
+
             if (argsPtr == IntPtr.Zero)
             {
                 throw new MpvAPIException("Failed to convert string array to pointer array.");
@@ -290,6 +301,7 @@ namespace Sucrose.Mpv.NET.API
             try
             {
                 MpvError error = Functions.CommandAsync(Handle, replyUserData, argsPtr);
+
                 if (error != MpvError.Success)
                 {
                     throw MpvAPIException.FromError(error, Functions);
@@ -307,6 +319,7 @@ namespace Sucrose.Mpv.NET.API
             Guard.AgainstDisposed(disposed, nameof(Mpv));
 
             MpvError error = Functions.AbortAsyncCommand(Handle, replyUserData);
+
             if (error != MpvError.Success)
             {
                 throw MpvAPIException.FromError(error, Functions);
@@ -332,6 +345,7 @@ namespace Sucrose.Mpv.NET.API
                 Marshal.Copy(data, 0, dataPtr, dataLength);
 
                 MpvError error = Functions.SetProperty(Handle, name, format, dataPtr);
+
                 if (error != MpvError.Success)
                 {
                     throw MpvAPIException.FromError(error, Functions);
@@ -350,6 +364,7 @@ namespace Sucrose.Mpv.NET.API
             Guard.AgainstNullOrEmptyOrWhiteSpaceString(value, nameof(value));
 
             MpvError error = Functions.SetPropertyString(Handle, name, value);
+
             if (error != MpvError.Success)
             {
                 throw MpvAPIException.FromError(error, Functions);
@@ -375,6 +390,7 @@ namespace Sucrose.Mpv.NET.API
                 Marshal.Copy(data, 0, dataPtr, dataLength);
 
                 MpvError error = Functions.SetPropertyAsync(Handle, replyUserData, name, format, dataPtr);
+
                 if (error != MpvError.Success)
                 {
                     throw MpvAPIException.FromError(error, Functions);
@@ -410,6 +426,7 @@ namespace Sucrose.Mpv.NET.API
             Guard.AgainstNullOrEmptyOrWhiteSpaceString(name, nameof(name));
 
             MpvError error = Functions.GetPropertyLong(Handle, name, MpvFormat.Int64, out long value);
+
             if (error != MpvError.Success)
             {
                 throw MpvAPIException.FromError(error, Functions);
@@ -424,6 +441,7 @@ namespace Sucrose.Mpv.NET.API
             Guard.AgainstNullOrEmptyOrWhiteSpaceString(name, nameof(name));
 
             MpvError error = Functions.GetPropertyDouble(Handle, name, MpvFormat.Double, out double value);
+
             if (error != MpvError.Success)
             {
                 throw MpvAPIException.FromError(error, Functions);
@@ -438,6 +456,7 @@ namespace Sucrose.Mpv.NET.API
             Guard.AgainstNullOrEmptyOrWhiteSpaceString(name, nameof(name));
 
             IntPtr stringPtr = Functions.GetPropertyString(Handle, name);
+
             if (stringPtr == IntPtr.Zero)
             {
                 throw new MpvAPIException("Failed to get property string, invalid pointer.");
@@ -459,6 +478,7 @@ namespace Sucrose.Mpv.NET.API
             Guard.AgainstNullOrEmptyOrWhiteSpaceString(name, nameof(name));
 
             MpvError error = Functions.ObserveProperty(Handle, replyUserData, name, format);
+
             if (error != MpvError.Success)
             {
                 throw MpvAPIException.FromError(error, Functions);
@@ -470,6 +490,7 @@ namespace Sucrose.Mpv.NET.API
             Guard.AgainstDisposed(disposed, nameof(Mpv));
 
             int result = Functions.UnobserveProperty(Handle, registeredReplyUserData);
+
             if (result < 1)
             {
                 MpvError error = (MpvError)result;
@@ -491,6 +512,7 @@ namespace Sucrose.Mpv.NET.API
             Guard.AgainstDisposed(disposed, nameof(Mpv));
 
             MpvError error = Functions.RequestEvent(Handle, eventID, enabled);
+
             if (error != MpvError.Success)
             {
                 throw MpvAPIException.FromError(error, Functions);
@@ -504,6 +526,7 @@ namespace Sucrose.Mpv.NET.API
             string stringLogLevel = MpvLogLevelHelper.GetStringForLogLevel(logLevel);
 
             MpvError error = Functions.RequestLogMessages(Handle, stringLogLevel);
+
             if (error != MpvError.Success)
             {
                 throw MpvAPIException.FromError(error, Functions);
@@ -516,6 +539,7 @@ namespace Sucrose.Mpv.NET.API
             Guard.AgainstNullOrEmptyOrWhiteSpaceString(name, nameof(name));
 
             MpvError error = Functions.HookAdd(Handle, replyUserData, name, priority);
+
             if (error != MpvError.Success)
             {
                 throw MpvAPIException.FromError(error, Functions);
@@ -527,6 +551,7 @@ namespace Sucrose.Mpv.NET.API
             Guard.AgainstDisposed(disposed, nameof(Mpv));
 
             MpvError error = Functions.HookContinue(Handle, id);
+
             if (error != MpvError.Success)
             {
                 throw MpvAPIException.FromError(error, Functions);

@@ -152,9 +152,11 @@ Live\Live.DA.xaml,Live.Remember,Husk
 Live\Live.DA.xaml,,
 Live\Live.DA.xaml,Live.Info.WebView,WebView Krav
 Live\Live.DA.xaml,Live.Info.CefSharp,CefSharp Krav
+Live\Live.DA.xaml,Live.Info.MpvPlayer,MpvPlayer Krav
 Live\Live.DA.xaml,,
 Live\Live.DA.xaml,Live.Message.WebView,"WebView2 Runtime er ikke installeret. WebView2 Runtime er en komponent, der muliggør brugen af moderne webteknologier i applikationer. Derfor er WebView2 Runtime påkrævet for at indstille det valgte tapet."
 Live\Live.DA.xaml,Live.Message.CefSharp,"VC++ Redistributable er ikke installeret. VC++ Redistributable leverer nogle systemkomponenter, der er nødvendige for, at CefSharp fungerer korrekt. CefSharp er et framework, der muliggør brugen af moderne webteknologier i applikationer. Derfor er VC++ Redistributable påkrævet for at indstille det valgte tapet."
+Live\Live.DA.xaml,Live.Message.MpvPlayer,"Minimum Windows-version opfyldes ikke for at kunne bruge MpvPlayer. MpvPlayer er en medieafspiller, der kan afspille mediefiler i høj kvalitet og med lav forsinkelse. Den understøtter moderne video- og lydformater og tilbyder avancerede konfigurationsmuligheder. Derfor skal du opdatere dit system til Windows 10 (Redstone) eller en nyere version for at kunne indstille det valgte tapet."
 Portal\Portal.DA.xaml,Base64,ICAgIDxSZXNvdXJjZURpY3Rpb25hcnkuTWVyZ2VkRGljdGlvbmFyaWVzPg0KICAgICAgICA8UmVzb3VyY2VEaWN0aW9uYXJ5IFNvdXJjZT0iQXJlYS9Qb3J0YWwuQXJlYS5EQS54YW1sIiAvPg0KICAgICAgICA8UmVzb3VyY2VEaWN0aW9uYXJ5IFNvdXJjZT0iRW51bS9Qb3J0YWwuRW51bS5EQS54YW1sIiAvPg0KICAgICAgICA8UmVzb3VyY2VEaWN0aW9uYXJ5IFNvdXJjZT0iQ2F0ZWdvcnkvUG9ydGFsLkNhdGVnb3J5LkRBLnhhbWwiIC8+DQogICAgICAgIDxSZXNvdXJjZURpY3Rpb25hcnkgU291cmNlPSJDb250cm9scy9Qb3J0YWwuQ29udHJvbHMuREEueGFtbCIgLz4NCiAgICAgICAgPFJlc291cmNlRGljdGlvbmFyeSBTb3VyY2U9IlN0b3JlUGFnZS9Qb3J0YWwuU3RvcmVQYWdlLkRBLnhhbWwiIC8+DQogICAgICAgIDxSZXNvdXJjZURpY3Rpb25hcnkgU291cmNlPSJNYWluV2luZG93L1BvcnRhbC5NYWluV2luZG93LkRBLnhhbWwiIC8+DQogICAgICAgIDxSZXNvdXJjZURpY3Rpb25hcnkgU291cmNlPSJMaWJyYXJ5UGFnZS9Qb3J0YWwuTGlicmFyeVBhZ2UuREEueGFtbCIgLz4NCiAgICAgICAgPFJlc291cmNlRGljdGlvbmFyeSBTb3VyY2U9IlNldHRpbmdQYWdlL1BvcnRhbC5TZXR0aW5nUGFnZS5EQS54YW1sIiAvPg0KICAgIDwvUmVzb3VyY2VEaWN0aW9uYXJ5Lk1lcmdlZERpY3Rpb25hcmllcz4=
 Property\Property.DA.xaml,Property.WindowTitle,Sucrose Property
 Property\Property.DA.xaml,,

@@ -152,9 +152,11 @@ Live\Live.SV.xaml,Live.Remember,Kom Ihåg
 Live\Live.SV.xaml,,
 Live\Live.SV.xaml,Live.Info.WebView,WebView-Krav
 Live\Live.SV.xaml,Live.Info.CefSharp,CefSharp-Krav
+Live\Live.SV.xaml,Live.Info.MpvPlayer,MpvPlayer-Krav
 Live\Live.SV.xaml,,
 Live\Live.SV.xaml,Live.Message.WebView,WebView2 Runtime är inte installerad. WebView2 Runtime är en komponent som möjliggör användningen av moderna webbtekniker i applikationer. Därför krävs WebView2 Runtime för att ställa in den valda bakgrunden.
 Live\Live.SV.xaml,Live.Message.CefSharp,VC++ Redistributable är inte installerad. VC++ Redistributable tillhandahåller vissa systemkomponenter som är nödvändiga för att CefSharp ska fungera korrekt. CefSharp är ett ramverk som möjliggör användningen av moderna webbtekniker i applikationer. Därför krävs VC++ Redistributable för att ställa in den valda bakgrunden.
+Live\Live.SV.xaml,Live.Message.MpvPlayer,Det minimala Windows-versionskravet för att använda MpvPlayer uppfylls inte. MpvPlayer är en mediespelare som kan spela upp mediefiler med hög kvalitet och låg latens. Den stöder moderna video- och ljudformat och erbjuder avancerade konfigurationsalternativ. För att ställa in den valda bakgrundsbilden måste du därför uppgradera ditt system till Windows 10 (Redstone) eller en senare version.
 Portal\Portal.SV.xaml,Base64,ICAgIDxSZXNvdXJjZURpY3Rpb25hcnkuTWVyZ2VkRGljdGlvbmFyaWVzPg0KICAgICAgICA8UmVzb3VyY2VEaWN0aW9uYXJ5IFNvdXJjZT0iQXJlYS9Qb3J0YWwuQXJlYS5TVi54YW1sIiAvPg0KICAgICAgICA8UmVzb3VyY2VEaWN0aW9uYXJ5IFNvdXJjZT0iRW51bS9Qb3J0YWwuRW51bS5TVi54YW1sIiAvPg0KICAgICAgICA8UmVzb3VyY2VEaWN0aW9uYXJ5IFNvdXJjZT0iQ2F0ZWdvcnkvUG9ydGFsLkNhdGVnb3J5LlNWLnhhbWwiIC8+DQogICAgICAgIDxSZXNvdXJjZURpY3Rpb25hcnkgU291cmNlPSJDb250cm9scy9Qb3J0YWwuQ29udHJvbHMuU1YueGFtbCIgLz4NCiAgICAgICAgPFJlc291cmNlRGljdGlvbmFyeSBTb3VyY2U9IlN0b3JlUGFnZS9Qb3J0YWwuU3RvcmVQYWdlLlNWLnhhbWwiIC8+DQogICAgICAgIDxSZXNvdXJjZURpY3Rpb25hcnkgU291cmNlPSJNYWluV2luZG93L1BvcnRhbC5NYWluV2luZG93LlNWLnhhbWwiIC8+DQogICAgICAgIDxSZXNvdXJjZURpY3Rpb25hcnkgU291cmNlPSJMaWJyYXJ5UGFnZS9Qb3J0YWwuTGlicmFyeVBhZ2UuU1YueGFtbCIgLz4NCiAgICAgICAgPFJlc291cmNlRGljdGlvbmFyeSBTb3VyY2U9IlNldHRpbmdQYWdlL1BvcnRhbC5TZXR0aW5nUGFnZS5TVi54YW1sIiAvPg0KICAgIDwvUmVzb3VyY2VEaWN0aW9uYXJ5Lk1lcmdlZERpY3Rpb25hcmllcz4=
 Property\Property.SV.xaml,Property.WindowTitle,Sucrose Property
 Property\Property.SV.xaml,,

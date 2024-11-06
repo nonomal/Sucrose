@@ -152,9 +152,11 @@ Live\Live.HI.xaml,Live.Remember,याद रखें
 Live\Live.HI.xaml,,
 Live\Live.HI.xaml,Live.Info.WebView,WebView आवश्यकताएँ
 Live\Live.HI.xaml,Live.Info.CefSharp,CefSharp आवश्यकताएँ
+Live\Live.HI.xaml,Live.Info.MpvPlayer,MpvPlayer आवश्यकताएँ
 Live\Live.HI.xaml,,
 Live\Live.HI.xaml,Live.Message.WebView,"WebView2 रनटाइम इंस्टॉल नहीं है। WebView2 रनटाइम एक घटक है जो अनुप्रयोगों में आधुनिक वेब तकनीकों के उपयोग को सक्षम बनाता है। इसलिए, चयनित वॉलपेपर सेट करने के लिए WebView2 रनटाइम की आवश्यकता होती है।"
 Live\Live.HI.xaml,Live.Message.CefSharp,"VC++ Redistributable इंस्टॉल नहीं है। VC++ Redistributable कुछ सिस्टम घटकों को प्रदान करता है जो CefSharp के सही ढंग से काम करने के लिए आवश्यक हैं। CefSharp एक फ्रेमवर्क है जो अनुप्रयोगों में आधुनिक वेब तकनीकों के उपयोग को सक्षम बनाता है। इसलिए, चयनित वॉलपेपर सेट करने के लिए VC++ Redistributable की आवश्यकता होती है।"
+Live\Live.HI.xaml,Live.Message.MpvPlayer,"MpvPlayer के उपयोग के लिए न्यूनतम Windows संस्करण आवश्यकताएं पूरी नहीं होती हैं। MpvPlayer एक मीडिया प्लेयर है जो उच्च गुणवत्ता और निम्न विलंबता के साथ मीडिया फ़ाइलों को प्ले कर सकता है। यह आधुनिक वीडियो और ऑडियो प्रारूपों का समर्थन करता है और शक्तिशाली कॉन्फ़िगरेशन विकल्प प्रदान करता है। इसलिए चयनित वॉलपेपर सेट करने के लिए, अपने सिस्टम को Windows 10 (Redstone) या इसके नवीनतम संस्करण में अपडेट करें।"
 Portal\Portal.HI.xaml,Base64,ICAgIDxSZXNvdXJjZURpY3Rpb25hcnkuTWVyZ2VkRGljdGlvbmFyaWVzPg0KICAgICAgICA8UmVzb3VyY2VEaWN0aW9uYXJ5IFNvdXJjZT0iQXJlYS9Qb3J0YWwuQXJlYS5ISS54YW1sIiAvPg0KICAgICAgICA8UmVzb3VyY2VEaWN0aW9uYXJ5IFNvdXJjZT0iRW51bS9Qb3J0YWwuRW51bS5ISS54YW1sIiAvPg0KICAgICAgICA8UmVzb3VyY2VEaWN0aW9uYXJ5IFNvdXJjZT0iQ2F0ZWdvcnkvUG9ydGFsLkNhdGVnb3J5LkhJLnhhbWwiIC8+DQogICAgICAgIDxSZXNvdXJjZURpY3Rpb25hcnkgU291cmNlPSJDb250cm9scy9Qb3J0YWwuQ29udHJvbHMuSEkueGFtbCIgLz4NCiAgICAgICAgPFJlc291cmNlRGljdGlvbmFyeSBTb3VyY2U9IlN0b3JlUGFnZS9Qb3J0YWwuU3RvcmVQYWdlLkhJLnhhbWwiIC8+DQogICAgICAgIDxSZXNvdXJjZURpY3Rpb25hcnkgU291cmNlPSJNYWluV2luZG93L1BvcnRhbC5NYWluV2luZG93LkhJLnhhbWwiIC8+DQogICAgICAgIDxSZXNvdXJjZURpY3Rpb25hcnkgU291cmNlPSJMaWJyYXJ5UGFnZS9Qb3J0YWwuTGlicmFyeVBhZ2UuSEkueGFtbCIgLz4NCiAgICAgICAgPFJlc291cmNlRGljdGlvbmFyeSBTb3VyY2U9IlNldHRpbmdQYWdlL1BvcnRhbC5TZXR0aW5nUGFnZS5ISS54YW1sIiAvPg0KICAgIDwvUmVzb3VyY2VEaWN0aW9uYXJ5Lk1lcmdlZERpY3Rpb25hcmllcz4=
 Property\Property.HI.xaml,Property.WindowTitle,Sucrose Property
 Property\Property.HI.xaml,,

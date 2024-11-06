@@ -152,9 +152,11 @@ Live.Remember,覚えて,,Live\Live.JA.xaml,
 PASS⦙19,PASS⦙19,Don't Touch,Live\Live.JA.xaml,Please don't touch the translation in this line.
 Live.Info.WebView,WebView 必要条件,,Live\Live.JA.xaml,
 Live.Info.CefSharp,CefSharp 必要条件,,Live\Live.JA.xaml,
+Live.Info.MpvPlayer,MpvPlayer 必要条件,,Live\Live.JA.xaml,
 PASS⦙20,PASS⦙20,Don't Touch,Live\Live.JA.xaml,Please don't touch the translation in this line.
 Live.Message.WebView,WebView2 Runtime がインストールされていません。WebView2 Runtime は、アプリケーションでの現代の Web 技術の利用を可能にするコンポーネントです。したがって、選択した壁紙を設定するには、WebView2 Runtime が必要です。,,Live\Live.JA.xaml,
 Live.Message.CefSharp,VC++ Redistributable がインストールされていません。VC++ Redistributable は、CefSharp の正常な動作に必要な一部のシステムコンポーネントを提供します。CefSharp は、アプリケーションでの現代の Web 技術の利用を可能にするフレームワークです。したがって、選択した壁紙を設定するには、VC++ Redistributable が必要です。,,Live\Live.JA.xaml,
+Live.Message.MpvPlayer,MpvPlayer を使用するための Windows の最低バージョン要件が満たされていません。MpvPlayer は、高品質で低遅延のメディアファイルを再生できるメディアプレーヤーです。最新のビデオおよびオーディオ形式に対応し、強力な設定オプションを提供します。そのため、選択した壁紙を設定するには、システムを Windows 10 (Redstone) 以降のバージョンにアップグレードする必要があります。,,Live\Live.JA.xaml,
 Base64⦙1,ICAgIDxSZXNvdXJjZURpY3Rpb25hcnkuTWVyZ2VkRGljdGlvbmFyaWVzPg0KICAgICAgICA8UmVzb3VyY2VEaWN0aW9uYXJ5IFNvdXJjZT0iQXJlYS9Qb3J0YWwuQXJlYS5KQS54YW1sIiAvPg0KICAgICAgICA8UmVzb3VyY2VEaWN0aW9uYXJ5IFNvdXJjZT0iRW51bS9Qb3J0YWwuRW51bS5KQS54YW1sIiAvPg0KICAgICAgICA8UmVzb3VyY2VEaWN0aW9uYXJ5IFNvdXJjZT0iQ2F0ZWdvcnkvUG9ydGFsLkNhdGVnb3J5LkpBLnhhbWwiIC8+DQogICAgICAgIDxSZXNvdXJjZURpY3Rpb25hcnkgU291cmNlPSJDb250cm9scy9Qb3J0YWwuQ29udHJvbHMuSkEueGFtbCIgLz4NCiAgICAgICAgPFJlc291cmNlRGljdGlvbmFyeSBTb3VyY2U9IlN0b3JlUGFnZS9Qb3J0YWwuU3RvcmVQYWdlLkpBLnhhbWwiIC8+DQogICAgICAgIDxSZXNvdXJjZURpY3Rpb25hcnkgU291cmNlPSJNYWluV2luZG93L1BvcnRhbC5NYWluV2luZG93LkpBLnhhbWwiIC8+DQogICAgICAgIDxSZXNvdXJjZURpY3Rpb25hcnkgU291cmNlPSJMaWJyYXJ5UGFnZS9Qb3J0YWwuTGlicmFyeVBhZ2UuSkEueGFtbCIgLz4NCiAgICAgICAgPFJlc291cmNlRGljdGlvbmFyeSBTb3VyY2U9IlNldHRpbmdQYWdlL1BvcnRhbC5TZXR0aW5nUGFnZS5KQS54YW1sIiAvPg0KICAgIDwvUmVzb3VyY2VEaWN0aW9uYXJ5Lk1lcmdlZERpY3Rpb25hcmllcz4=,Don't Touch,Portal\Portal.JA.xaml,Please don't touch the translation in this line.
 Property.WindowTitle,Sucrose Property,,Property\Property.JA.xaml,
 PASS⦙21,PASS⦙21,Don't Touch,Property\Property.JA.xaml,Please don't touch the translation in this line.

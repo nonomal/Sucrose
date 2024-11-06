@@ -11,7 +11,9 @@
 
     <system:String x:Key="Live.Info.WebView">Вимога WebView</system:String>
     <system:String x:Key="Live.Info.CefSharp">Вимога CefSharp</system:String>
+    <system:String x:Key="Live.Info.MpvPlayer">Вимога MpvPlayer</system:String>
 
     <system:String x:Key="Live.Message.WebView">WebView2 Runtime не встановлено. WebView2 Runtime — це компонент, який дозволяє використовувати сучасні веб-технології в додатках. Тому для встановлення вибраних шпалер потрібен WebView2 Runtime.</system:String>
     <system:String x:Key="Live.Message.CefSharp">VC++ Redistributable не встановлено. VC++ Redistributable забезпечує деякі системні компоненти, необхідні для належного функціонування CefSharp. CefSharp — це фреймворк, який дозволяє використовувати сучасні веб-технології в додатках. Тому для встановлення вибраних шпалер потрібен VC++ Redistributable.</system:String>
+    <system:String x:Key="Live.Message.MpvPlayer">Не виконується мінімальна вимога до версії Windows для використання MpvPlayer. MpvPlayer — це медіаплеєр, здатний відтворювати медіафайли високої якості та з низькою затримкою. Він підтримує сучасні формати відео та аудіо та пропонує розширені параметри налаштувань. Отже, для встановлення обраного шпалера вам необхідно оновити систему до Windows 10 (Redstone) або новішої версії.</system:String>
 </ResourceDictionary>
