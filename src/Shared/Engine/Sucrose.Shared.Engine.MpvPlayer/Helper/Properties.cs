@@ -1,8 +1,6 @@
-﻿using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
+﻿using Newtonsoft.Json.Linq;
 using System.IO;
 using System.Text.RegularExpressions;
-using System.Windows;
 using SMMRC = Sucrose.Memory.Manage.Readonly.Content;
 using SMMRF = Sucrose.Memory.Manage.Readonly.Folder;
 using SMMRG = Sucrose.Memory.Manage.Readonly.General;
@@ -114,7 +112,7 @@ namespace Sucrose.Shared.Engine.MpvPlayer.Helper
                         }
                         else if (PropertyType.Equals("checkbox", StringComparison.OrdinalIgnoreCase))
                         {
-                            SSEMPMI.MediaEngine.API.SetPropertyBool(PropertyName, ParsedScript.Value<bool>("value"));
+                            SSEMPMI.MediaEngine.API.SetPropertyString(PropertyName, ParsedScript.Value<bool>("value") ? "yes" : "no");
                         }
                         else if (PropertyType.Equals("dropdown", StringComparison.OrdinalIgnoreCase))
                         {
@@ -138,7 +136,6 @@ namespace Sucrose.Shared.Engine.MpvPlayer.Helper
             catch (Exception Exception)
             {
                 await SSWEW.Watch_CatchException(Exception);
-                System.Windows.MessageBox.Show(JsonConvert.SerializeObject(Exception, Formatting.Indented), "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
     }
