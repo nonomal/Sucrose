@@ -10,5 +10,7 @@
     Height="Auto"
     Margin="0,0,0,10"
     mc:Ignorable="d">
-    <ui:TextBlock x:Name="Component" FontSize="16" />
+    <ui:TextBlock
+        x:Name="Component"
+        FontSize="16" />
 </UserControl>

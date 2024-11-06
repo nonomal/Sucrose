@@ -8,6 +8,7 @@ using SSEHR = Sucrose.Shared.Engine.Helper.Run;
 using SSEHS = Sucrose.Shared.Engine.Helper.Source;
 using SSEHV = Sucrose.Shared.Engine.Helper.Volume;
 using SSEMI = Sucrose.Shared.Engine.Manage.Internal;
+using SSEMPEV = Sucrose.Shared.Engine.MpvPlayer.Event.Video;
 using SSEMPHV = Sucrose.Shared.Engine.MpvPlayer.Helper.Video;
 using SSEMPMI = Sucrose.Shared.Engine.MpvPlayer.Manage.Internal;
 
@@ -34,6 +35,8 @@ namespace Sucrose.Shared.Engine.MpvPlayer.View
                 Loop = SSEHD.GetLoop(),
                 Volume = SSEHD.GetVolume()
             };
+
+            SSEMPMI.MediaEngine.MediaLoaded += SSEMPEV.MediaEngineMediaLoaded;
 
             SSEMPMI.MediaEngine.LoadConfig(SSEMPMI.MpvConfig);
 

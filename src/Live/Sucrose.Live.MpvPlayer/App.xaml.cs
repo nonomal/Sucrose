@@ -11,7 +11,10 @@ using SMMI = Sucrose.Manager.Manage.Internal;
 using SMML = Sucrose.Manager.Manage.Library;
 using SMMRA = Sucrose.Memory.Manage.Readonly.App;
 using SMMRC = Sucrose.Memory.Manage.Readonly.Content;
+using SMMRF = Sucrose.Memory.Manage.Readonly.Folder;
+using SMMRG = Sucrose.Memory.Manage.Readonly.General;
 using SMMRM = Sucrose.Memory.Manage.Readonly.Mutex;
+using SMMRP = Sucrose.Memory.Manage.Readonly.Path;
 using SRER = Sucrose.Resources.Extension.Resources;
 using SRHR = Sucrose.Resources.Helper.Resources;
 using SSDEWT = Sucrose.Shared.Dependency.Enum.WallpaperType;
@@ -19,7 +22,9 @@ using SSDMMG = Sucrose.Shared.Dependency.Manage.Manager.General;
 using SSEHC = Sucrose.Shared.Engine.Helper.Cycyling;
 using SSEHR = Sucrose.Shared.Engine.Helper.Run;
 using SSEMI = Sucrose.Shared.Engine.Manage.Internal;
-using SSEMPHI = Sucrose.Shared.Engine.MpvPlayer.Helper.Initialize;
+using SSEMPHC = Sucrose.Shared.Engine.MpvPlayer.Helper.Config;
+using SSEMPHP = Sucrose.Shared.Engine.MpvPlayer.Helper.Properties;
+using SSEMPMI = Sucrose.Shared.Engine.MpvPlayer.Manage.Internal;
 using SSEMPVG = Sucrose.Shared.Engine.MpvPlayer.View.Gif;
 using SSEMPVV = Sucrose.Shared.Engine.MpvPlayer.View.Video;
 using SSEVDWB = Sucrose.Shared.Engine.View.DarkWarningBox;
@@ -167,11 +172,13 @@ namespace Sucrose.Live.MpvPlayer
 
             if (SMMI.LibrarySettingManager.CheckFile() && !string.IsNullOrEmpty(SSEMI.LibrarySelected))
             {
-                string InfoPath = Path.Combine(SSEMI.LibraryLocation, SSEMI.LibrarySelected, SMMRC.SucroseInfo);
+                SSEMI.InfoPath = Path.Combine(SSEMI.LibraryLocation, SSEMI.LibrarySelected, SMMRC.SucroseInfo);
+                SSEMPMI.MpvPath = Path.Combine(SMMRP.ApplicationData, SMMRG.AppName, SMMRF.Cache, SMMRF.MpvPlayer);
+                SSEMI.PropertiesPath = Path.Combine(SSEMI.LibraryLocation, SSEMI.LibrarySelected, SMMRC.SucroseProperties);
 
-                if (File.Exists(InfoPath) && SSTHI.ReadCheck(InfoPath))
+                if (File.Exists(SSEMI.InfoPath) && SSTHI.ReadCheck(SSEMI.InfoPath))
                 {
-                    SSEMI.Info = SSTHI.ReadJson(InfoPath);
+                    SSEMI.Info = SSTHI.ReadJson(SSEMI.InfoPath);
 
                     if (SSEMI.Info.AppVersion.CompareTo(SHV.Entry()) <= 0)
                     {
@@ -196,7 +203,9 @@ namespace Sucrose.Live.MpvPlayer
 
                             SSEHC.Start();
 
-                            SSEMPHI.Start();
+                            SSEMPHC.Start();
+
+                            SSEMPHP.Start();
 
                             SSEMI.Host = $"{Path.Combine(SSEMI.LibraryLocation, SSEMI.LibrarySelected)}/";
 

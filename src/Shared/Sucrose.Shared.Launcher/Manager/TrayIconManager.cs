@@ -6,6 +6,9 @@ using SMMG = Sucrose.Manager.Manage.General;
 using SMMI = Sucrose.Manager.Manage.Internal;
 using SMML = Sucrose.Manager.Manage.Library;
 using SMMRC = Sucrose.Memory.Manage.Readonly.Content;
+using SMMRF = Sucrose.Memory.Manage.Readonly.Folder;
+using SMMRG = Sucrose.Memory.Manage.Readonly.General;
+using SMMRP = Sucrose.Memory.Manage.Readonly.Path;
 using SMMU = Sucrose.Manager.Manage.Update;
 using SRER = Sucrose.Resources.Extension.Resources;
 using SRHR = Sucrose.Resources.Helper.Resources;
@@ -131,7 +134,7 @@ namespace Sucrose.Shared.Launcher.Manager
 
                 string PropertiesPath = Path.Combine(SMML.Location, SMML.Selected, SMMRC.SucroseProperties);
 
-                if (File.Exists(PropertiesPath))
+                if (File.Exists(PropertiesPath) || File.Exists(Path.Combine(SMMRP.ApplicationData, SMMRG.AppName, SMMRF.Cache, SMMRF.MpvPlayer, SMMRC.SucroseProperties)))
                 {
                     string InfoPath = Path.Combine(SMML.Location, SMML.Selected, SMMRC.SucroseInfo);
 
@@ -139,7 +142,7 @@ namespace Sucrose.Shared.Launcher.Manager
                     {
                         SSTHI Info = SSTHI.ReadJson(InfoPath);
 
-                        if (Info.Type == SSDEWT.Web)
+                        if (Info.Type is SSDEWT.Gif or SSDEWT.Web or SSDEWT.Video)
                         {
                             if (SMMB.PausePerformance && SSSHP.Work(SSSMI.Backgroundog))
                             {

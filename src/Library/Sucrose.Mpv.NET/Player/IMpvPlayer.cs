@@ -42,6 +42,8 @@ namespace Sucrose.Mpv.NET.Player
 
         TimeSpan Remaining { get; }
 
+        bool Mute { get; set; }
+
         int Volume { get; set; }
 
         double Speed { get; set; }

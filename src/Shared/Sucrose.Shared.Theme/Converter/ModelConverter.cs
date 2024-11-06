@@ -24,6 +24,7 @@ namespace Sucrose.Shared.Theme.Converter
         public override object ReadJson(JsonReader reader, Type objectType, object existingValue, JsonSerializer serializer)
         {
             JObject jsonObject = JObject.Load(reader);
+
             string type = jsonObject["type"]?.Value<string>();
             string text = jsonObject["text"]?.Value<string>();
 

@@ -2,9 +2,6 @@
 using System.Text.RegularExpressions;
 using SMME = Sucrose.Manager.Manage.Engine;
 using SMMRC = Sucrose.Memory.Manage.Readonly.Content;
-using SMMRF = Sucrose.Memory.Manage.Readonly.Folder;
-using SMMRG = Sucrose.Memory.Manage.Readonly.General;
-using SMMRP = Sucrose.Memory.Manage.Readonly.Path;
 using SSEMI = Sucrose.Shared.Engine.Manage.Internal;
 using SSEMPMI = Sucrose.Shared.Engine.MpvPlayer.Manage.Internal;
 using SSSHF = Sucrose.Shared.Space.Helper.Filing;
@@ -12,22 +9,15 @@ using SSSHR = Sucrose.Shared.Space.Helper.Regexer;
 
 namespace Sucrose.Shared.Engine.MpvPlayer.Helper
 {
-    internal static class Initialize
+    internal static class Config
     {
         public static void Start()
         {
-            SSEMPMI.MpvPath = Path.Combine(SMMRP.ApplicationData, SMMRG.AppName, SMMRF.Cache, SMMRF.MpvPlayer);
-
             if (!Directory.Exists(SSEMPMI.MpvPath))
             {
                 Directory.CreateDirectory(SSEMPMI.MpvPath);
             }
 
-            Config();
-        }
-
-        private static void Config()
-        {
             SSEMPMI.MpvConfig = Path.Combine(SSEMPMI.MpvPath, SMMRC.MpvPlayerConfig);
 
             string Content = string.Join(Environment.NewLine, SSEMI.MpvConfig);

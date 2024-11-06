@@ -124,6 +124,11 @@ namespace Sucrose.Property
 
                 SPMI.PropertiesPath = Path.Combine(SPMI.Path, SMMRC.SucroseProperties);
 
+                if (!File.Exists(SPMI.PropertiesPath))
+                {
+                    SPMI.PropertiesPath = Path.Combine(SMMRP.ApplicationData, SMMRG.AppName, SMMRF.Cache, SMMRF.MpvPlayer, SMMRC.SucroseProperties);
+                }
+
                 if (File.Exists(SPMI.PropertiesPath))
                 {
                     SPMI.InfoPath = Path.Combine(SPMI.Path, SMMRC.SucroseInfo);
@@ -132,7 +137,7 @@ namespace Sucrose.Property
                     {
                         SPMI.Info = SSTHI.ReadJson(SPMI.InfoPath);
 
-                        if (SPMI.Info.Type == SSDEWT.Web)
+                        if (SPMI.Info.Type is SSDEWT.Gif or SSDEWT.Web or SSDEWT.Video)
                         {
                             SPMI.PropertiesCache = Path.Combine(SMMRP.ApplicationData, SMMRG.AppName, SMMRF.Cache, SMMRF.Properties);
                             SPMI.PropertiesFile = Path.Combine(SPMI.PropertiesCache, $"{SPMI.LibrarySelected}.json");

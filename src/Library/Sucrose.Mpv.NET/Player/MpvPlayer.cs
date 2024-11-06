@@ -331,6 +331,27 @@ namespace Sucrose.Mpv.NET.Player
         }
 
         /// <summary>
+        /// Mute the media player.
+        /// </summary>
+        public bool Mute
+        {
+            get
+            {
+                lock (mpvLock)
+                {
+                    return MpvPlayerHelper.YesNoToBool(API.GetPropertyString("mute"));
+                }
+            }
+            set
+            {
+                lock (mpvLock)
+                {
+                    API.SetPropertyString("mute", MpvPlayerHelper.BoolToYesNo(value));
+                }
+            }
+        }
+
+        /// <summary>
         /// Volume of the current media. Ranging from 0 to 100 inclusive.
         /// </summary>
         public int Volume

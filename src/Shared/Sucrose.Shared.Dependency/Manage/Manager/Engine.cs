@@ -13,11 +13,11 @@ namespace Sucrose.Shared.Dependency.Manage.Manager
 
         public static SSDEIMT InputModuleType => SMMI.EngineSettingManager.GetSetting(SMMCE.InputModuleType, SSDEIMT.RawInput);
 
+        public static SSDEST StretchType => SMMI.EngineSettingManager.GetSetting(SMMCE.StretchType, SSDEST.UniformToFill);
+
         public static SSDEET YouTube => SMMI.EngineSettingManager.GetSetting(SMMCE.YouTube, (SSDEET)SSSMI.YouTubeEngine);
 
         public static SSDEET Video => SMMI.EngineSettingManager.GetSetting(SMMCE.Video, (SSDEET)SSSMI.VideoEngine);
-
-        public static SSDEST StretchType => SMMI.EngineSettingManager.GetSetting(SMMCE.StretchType, SSDEST.Fill);
 
         public static SSDEET Web => SMMI.EngineSettingManager.GetSetting(SMMCE.Web, (SSDEET)SSSMI.WebEngine);
 

@@ -19,7 +19,10 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="$(MSBuildThisFileDirectory)Helper\Initialize.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Event\Gif.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Event\Video.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helper\Config.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helper\Properties.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Helper\Gif.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Helper\Video.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Manage\Internal.cs" />

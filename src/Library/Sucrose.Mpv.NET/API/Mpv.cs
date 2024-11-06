@@ -402,6 +402,15 @@ namespace Sucrose.Mpv.NET.API
             }
         }
 
+        public void SetPropertyBool(string name, bool data)
+        {
+            Guard.AgainstDisposed(disposed, nameof(Mpv));
+            Guard.AgainstNullOrEmptyOrWhiteSpaceString(name, nameof(name));
+
+            byte[] dataBytes = BitConverter.GetBytes(data);
+            SetProperty(name, dataBytes, MpvFormat.Flag);
+        }
+
         public void SetPropertyLong(string name, long data)
         {
             Guard.AgainstDisposed(disposed, nameof(Mpv));

@@ -272,9 +272,13 @@ namespace Sucrose.Portal.Views.Controls
 
             string PropertiesPath = Path.Combine(Theme, SMMRC.SucroseProperties);
 
-            if (Info.Type == SSDEWT.Web && File.Exists(PropertiesPath))
+            if ((Info.Type == SSDEWT.Gif || Info.Type == SSDEWT.Web || Info.Type == SSDEWT.Video) && (File.Exists(PropertiesPath) || File.Exists(Path.Combine(SMMRP.ApplicationData, SMMRG.AppName, SMMRF.Cache, SMMRF.MpvPlayer, SMMRC.SucroseProperties))))
             {
                 MenuCustomize.IsEnabled = true;
+            }
+            else
+            {
+                MenuCustomize.IsEnabled = false;
             }
 
             if (SMMC.Active)
