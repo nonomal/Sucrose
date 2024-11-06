@@ -1182,6 +1182,9 @@ Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.HI.xaml,,
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.HI.xaml,Portal.WallpaperSettingPage.ShuffleMode,शफल मोड
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.HI.xaml,Portal.WallpaperSettingPage.ShuffleMode.Description,समर्थित वॉलपेपरों की शफल मोड को बदलता है।
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.HI.xaml,,
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.HI.xaml,Portal.WallpaperSettingPage.HardwareAcceleration,हार्डवेयर एक्सेलेरेशन
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.HI.xaml,Portal.WallpaperSettingPage.HardwareAcceleration.Description,समर्थित वॉलपेपर के लिए हार्डवेयर एक्सेलेरेशन की स्थिति बदलता है।
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.HI.xaml,,
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.HI.xaml,Portal.WallpaperSettingPage.GifPlayer,Gif प्लेयर
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.HI.xaml,Portal.WallpaperSettingPage.GifPlayer.Description,आपकी लाइब्रेरी में मौजूद Gif प्रकार के थीमों को चलाने के लिए प्लगइन का चयन करें।
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.HI.xaml,,

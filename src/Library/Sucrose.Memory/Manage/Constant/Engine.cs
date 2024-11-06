@@ -54,6 +54,8 @@
 
         public const string DuplicateScreenType = "DuplicateScreenType";
 
+        public const string HardwareAcceleration = "HardwareAcceleration";
+
         public const string VolumeSilentSensitivity = "VolumeSilentSensitivity";
     }
 }

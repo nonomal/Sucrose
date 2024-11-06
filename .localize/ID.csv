@@ -1182,6 +1182,9 @@ Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.ID.xaml,,
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.ID.xaml,Portal.WallpaperSettingPage.ShuffleMode,Mode Acak
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.ID.xaml,Portal.WallpaperSettingPage.ShuffleMode.Description,Mengubah mode acak pada dinding yang didukung.
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.ID.xaml,,
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.ID.xaml,Portal.WallpaperSettingPage.HardwareAcceleration,Akselerasi Perangkat Keras
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.ID.xaml,Portal.WallpaperSettingPage.HardwareAcceleration.Description,Mengubah status akselerasi perangkat keras untuk dinding yang didukung.
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.ID.xaml,,
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.ID.xaml,Portal.WallpaperSettingPage.GifPlayer,Pemutar Gif
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.ID.xaml,Portal.WallpaperSettingPage.GifPlayer.Description,Pilih plugin yang akan memainkan tema berjenis Gif dalam perpustakaan Anda.
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.ID.xaml,,

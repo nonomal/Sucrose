@@ -25,6 +25,9 @@
     <system:String x:Key="Portal.WallpaperSettingPage.ShuffleMode">随机播放模式</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.ShuffleMode.Description">更改支持的壁纸的随机播放方式。</system:String>
 
+    <system:String x:Key="Portal.WallpaperSettingPage.HardwareAcceleration">硬件加速</system:String>
+    <system:String x:Key="Portal.WallpaperSettingPage.HardwareAcceleration.Description">更改支持的壁纸的硬件加速状态。</system:String>
+
     <system:String x:Key="Portal.WallpaperSettingPage.GifPlayer">Gif播放器</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.GifPlayer.Description">选择要播放库中的Gif主题的插件。</system:String>
 

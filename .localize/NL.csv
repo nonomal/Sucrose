@@ -1182,6 +1182,9 @@ Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.NL.xaml,,
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.NL.xaml,Portal.WallpaperSettingPage.ShuffleMode,Schudmodus
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.NL.xaml,Portal.WallpaperSettingPage.ShuffleMode.Description,Verandert de schudinstelling voor ondersteunde achtergronden.
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.NL.xaml,,
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.NL.xaml,Portal.WallpaperSettingPage.HardwareAcceleration,Hardwareversnelling
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.NL.xaml,Portal.WallpaperSettingPage.HardwareAcceleration.Description,Wijzigt de hardwareversnellingstatus voor ondersteunde achtergronden.
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.NL.xaml,,
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.NL.xaml,Portal.WallpaperSettingPage.GifPlayer,Gif Speler
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.NL.xaml,Portal.WallpaperSettingPage.GifPlayer.Description,Selecteer de plug-in die Gif-thema's in uw bibliotheek zal afspelen.
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.NL.xaml,,

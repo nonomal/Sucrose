@@ -25,6 +25,9 @@
     <system:String x:Key="Portal.WallpaperSettingPage.ShuffleMode">Blandningsläge</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.ShuffleMode.Description">Ändrar blandningsläge för stödda tapeter.</system:String>
 
+    <system:String x:Key="Portal.WallpaperSettingPage.HardwareAcceleration">Hårdvaruacceleration</system:String>
+    <system:String x:Key="Portal.WallpaperSettingPage.HardwareAcceleration.Description">Ändrar hårdvaruaccelerationsstatus för stödda bakgrundsbilder.</system:String>
+
     <system:String x:Key="Portal.WallpaperSettingPage.GifPlayer">Gif-Spelare</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.GifPlayer.Description">Välj en plugin som kommer att spela Gif-teman i din samling.</system:String>
 

@@ -1182,6 +1182,9 @@ Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.ZH.xaml,,
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.ZH.xaml,Portal.WallpaperSettingPage.ShuffleMode,随机播放模式
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.ZH.xaml,Portal.WallpaperSettingPage.ShuffleMode.Description,更改支持的壁纸的随机播放方式。
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.ZH.xaml,,
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.ZH.xaml,Portal.WallpaperSettingPage.HardwareAcceleration,硬件加速
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.ZH.xaml,Portal.WallpaperSettingPage.HardwareAcceleration.Description,更改支持的壁纸的硬件加速状态。
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.ZH.xaml,,
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.ZH.xaml,Portal.WallpaperSettingPage.GifPlayer,Gif播放器
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.ZH.xaml,Portal.WallpaperSettingPage.GifPlayer.Description,选择要播放库中的Gif主题的插件。
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.ZH.xaml,,

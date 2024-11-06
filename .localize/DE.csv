@@ -1182,6 +1182,9 @@ Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.DE.xaml,,
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.DE.xaml,Portal.WallpaperSettingPage.ShuffleMode,Mischen-Modus
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.DE.xaml,Portal.WallpaperSettingPage.ShuffleMode.Description,Ändern Sie das Mischverhalten für unterstützte Hintergrundbilder.
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.DE.xaml,,
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.DE.xaml,Portal.WallpaperSettingPage.HardwareAcceleration,Hardwarebeschleunigung
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.DE.xaml,Portal.WallpaperSettingPage.HardwareAcceleration.Description,Ändert den Hardwarebeschleunigungsstatus für unterstützte Hintergrundbilder.
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.DE.xaml,,
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.DE.xaml,Portal.WallpaperSettingPage.GifPlayer,Gif-Player
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.DE.xaml,Portal.WallpaperSettingPage.GifPlayer.Description,"Wählen Sie das Plugin aus, das Gif-Themen-Hintergrundbilder in Ihrer Bibliothek abspielen wird."
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.DE.xaml,,

@@ -19,6 +19,7 @@ using SSDMMG = Sucrose.Shared.Dependency.Manage.Manager.General;
 using SSEHC = Sucrose.Shared.Engine.Helper.Cycyling;
 using SSEHR = Sucrose.Shared.Engine.Helper.Run;
 using SSEMI = Sucrose.Shared.Engine.Manage.Internal;
+using SSEMPHI = Sucrose.Shared.Engine.MpvPlayer.Helper.Initialize;
 using SSEMPVG = Sucrose.Shared.Engine.MpvPlayer.View.Gif;
 using SSEMPVV = Sucrose.Shared.Engine.MpvPlayer.View.Video;
 using SSEVDWB = Sucrose.Shared.Engine.View.DarkWarningBox;
@@ -194,6 +195,8 @@ namespace Sucrose.Live.MpvPlayer
                             SSSHS.Apply();
 
                             SSEHC.Start();
+
+                            SSEMPHI.Start();
 
                             SSEMI.Host = $"{Path.Combine(SSEMI.LibraryLocation, SSEMI.LibrarySelected)}/";
 

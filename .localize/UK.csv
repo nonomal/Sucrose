@@ -1173,14 +1173,17 @@ Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.UK.xaml,,
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.UK.xaml,Portal.WallpaperSettingPage.ScreenLayout,Розміщення на екрані
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.UK.xaml,Portal.WallpaperSettingPage.ScreenLayout.Description,Змінює розміщення вашого шпалеру на екрані.
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.UK.xaml,,
-Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.UK.xaml,Portal.WallpaperSettingPage.StretchMode,Метод розтягнення
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.UK.xaml,Portal.WallpaperSettingPage.StretchMode,Метод Розтягнення
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.UK.xaml,Portal.WallpaperSettingPage.StretchMode.Description,Змінює метод розтягнення для підтримуваних шпалерів.
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.UK.xaml,,
-Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.UK.xaml,Portal.WallpaperSettingPage.LoopMode,Режим повторення
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.UK.xaml,Portal.WallpaperSettingPage.LoopMode,Режим Повторення
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.UK.xaml,Portal.WallpaperSettingPage.LoopMode.Description,Змінює режим повторення для підтримуваних шпалерів.
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.UK.xaml,,
-Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.UK.xaml,Portal.WallpaperSettingPage.ShuffleMode,Режим перемішування
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.UK.xaml,Portal.WallpaperSettingPage.ShuffleMode,Режим Перемішування
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.UK.xaml,Portal.WallpaperSettingPage.ShuffleMode.Description,Змінює режим перемішування для підтримуваних шпалерів.
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.UK.xaml,,
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.UK.xaml,Portal.WallpaperSettingPage.HardwareAcceleration,Апаратне Прискорення
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.UK.xaml,Portal.WallpaperSettingPage.HardwareAcceleration.Description,Змінює статус апаратного прискорення для підтримуваних шпалер.
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.UK.xaml,,
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.UK.xaml,Portal.WallpaperSettingPage.GifPlayer,Модуль Gif
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.UK.xaml,Portal.WallpaperSettingPage.GifPlayer.Description,"Виберіть модуль для відтворення шпалерів у форматі Gif, які знаходяться в вашій бібліотеці."

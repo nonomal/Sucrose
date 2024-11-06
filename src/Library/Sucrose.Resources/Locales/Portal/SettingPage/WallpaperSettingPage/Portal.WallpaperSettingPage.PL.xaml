@@ -25,6 +25,9 @@
     <system:String x:Key="Portal.WallpaperSettingPage.ShuffleMode">Tryb Tasowania</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.ShuffleMode.Description">Zmień zachowanie tasowania dla obsługiwanych tapet.</system:String>
 
+    <system:String x:Key="Portal.WallpaperSettingPage.HardwareAcceleration">Przyspieszenie Sprzętowe</system:String>
+    <system:String x:Key="Portal.WallpaperSettingPage.HardwareAcceleration.Description">Zmienia status przyspieszenia sprzętowego dla obsługiwanych tapet.</system:String>
+
     <system:String x:Key="Portal.WallpaperSettingPage.GifPlayer">Odtwarzacz Gif</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.GifPlayer.Description">Wybierz wtyczkę, która odtworzy tematyczne tapety Gif w twojej bibliotece.</system:String>
 

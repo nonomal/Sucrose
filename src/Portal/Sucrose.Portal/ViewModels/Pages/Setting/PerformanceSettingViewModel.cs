@@ -153,7 +153,7 @@ namespace Sucrose.Portal.ViewModels.Pages
                 Margin = new Thickness(0, 10, 0, 0)
             };
 
-            Cpu.LeftIcon.Symbol = SymbolRegular.DeveloperBoardLightning20;
+            Cpu.LeftIcon.Symbol = SymbolRegular.DeveloperBoard24;
             Cpu.Title.Text = SRER.GetValue("Portal", "PerformanceSettingPage", "Cpu");
             Cpu.Description.Text = SRER.GetValue("Portal", "PerformanceSettingPage", "Cpu", "Description");
 

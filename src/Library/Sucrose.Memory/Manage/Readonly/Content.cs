@@ -18,6 +18,8 @@
 
         public static readonly string SucroseStore = "SucroseStore.json";
 
+        public static readonly string MpvPlayerConfig = "MpvPlayer.config";
+
         public static readonly string SucroseCompatible = "SucroseCompatible.json";
 
         public static readonly string SucroseProperties = "SucroseProperties.json";

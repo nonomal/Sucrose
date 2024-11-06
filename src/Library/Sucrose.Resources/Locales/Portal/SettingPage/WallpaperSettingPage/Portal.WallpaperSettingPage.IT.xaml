@@ -25,6 +25,9 @@
     <system:String x:Key="Portal.WallpaperSettingPage.ShuffleMode">Modalità di Riproduzione Casuale</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.ShuffleMode.Description">Modifica la modalità di riproduzione casuale degli sfondi supportati.</system:String>
 
+    <system:String x:Key="Portal.WallpaperSettingPage.HardwareAcceleration">Accelerazione Hardware</system:String>
+    <system:String x:Key="Portal.WallpaperSettingPage.HardwareAcceleration.Description">Modifica lo stato di accelerazione hardware per gli sfondi supportati.</system:String>
+
     <system:String x:Key="Portal.WallpaperSettingPage.GifPlayer">Plugin per Gif</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.GifPlayer.Description">Seleziona il plugin per la riproduzione dei temi di tipo Gif nella tua libreria.</system:String>
 

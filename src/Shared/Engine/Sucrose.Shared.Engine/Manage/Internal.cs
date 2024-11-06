@@ -88,6 +88,42 @@ namespace Sucrose.Shared.Engine.Manage
             CefSharp = CefArguments
         };
 
+        public static List<string> MpvConfig = new()
+        {
+            "# Video Settings #",
+            "vo=gpu",
+            "hwdec=no",
+            "fullscreen=yes",
+            "hwdec-codecs=all",
+            "interpolation=no",
+            "scale-antiring=0",
+            "framedrop=decoder",
+            "temporal-dither=no",
+            "profile=low-latency",
+            "# Video Settings #",
+
+            "",
+
+            "# Audio Settings #",
+            "volume-min=0",
+            "volume-max=100",
+            "audio-buffer=0.2",
+            "audio-channels=stereo",
+            "audio-samplerate=48000",
+            "# Audio Settings #",
+
+            "",
+
+            "# General Performance Settings #",
+            "cache=no",
+            "keep-open=no",
+            "gpu-context=win",
+            "demuxer-max-bytes=64M",
+            "demuxer-seekable-cache=no",
+            "video-sync=display-desync",
+            "# General Performance Settings #"
+        };
+
         public static List<string> WebArguments = new()
         {
             //"--enable-gpu",

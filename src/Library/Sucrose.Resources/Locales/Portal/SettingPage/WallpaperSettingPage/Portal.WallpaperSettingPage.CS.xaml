@@ -25,6 +25,9 @@
     <system:String x:Key="Portal.WallpaperSettingPage.ShuffleMode">Režim zamíchání</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.ShuffleMode.Description">Změní režim zamíchání na podporovaných tapetách.</system:String>
 
+    <system:String x:Key="Portal.WallpaperSettingPage.HardwareAcceleration">Hardwarová Akcelerace</system:String>
+    <system:String x:Key="Portal.WallpaperSettingPage.HardwareAcceleration.Description">Upravuje stav hardwarové akcelerace pro podporované tapety.</system:String>
+
     <system:String x:Key="Portal.WallpaperSettingPage.GifPlayer">Přehrávač Gif</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.GifPlayer.Description">Vyberte doplněk, který bude přehrávat témata ve formátu Gif uložená ve vaší knihovně.</system:String>
 

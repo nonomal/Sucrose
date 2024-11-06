@@ -33,5 +33,25 @@ namespace Sucrose.Shared.Space.Helper
         {
             return Regex.Replace(Value, "[^a-zA-Z0-9]", "");
         }
+
+        public static bool IsMatch(string Value, string Pattern)
+        {
+            return Regex.IsMatch(Value, Pattern);
+        }
+
+        public static bool IsMatch(string Value, string Pattern, RegexOptions Options)
+        {
+            return Regex.IsMatch(Value, Pattern, Options);
+        }
+
+        public static string Replace(string Value, string Pattern, string Replacement)
+        {
+            return Regex.Replace(Value, Pattern, Replacement);
+        }
+
+        public static string Replace(string Value, string Pattern, string Replacement, RegexOptions Options)
+        {
+            return Regex.Replace(Value, Pattern, Replacement, Options);
+        }
     }
 }

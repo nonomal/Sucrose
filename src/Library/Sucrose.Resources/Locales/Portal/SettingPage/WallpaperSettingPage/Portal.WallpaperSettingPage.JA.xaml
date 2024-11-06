@@ -25,6 +25,9 @@
     <system:String x:Key="Portal.WallpaperSettingPage.ShuffleMode">シャッフルモード</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.ShuffleMode.Description">サポートされる壁紙のシャッフルモードを変更します。</system:String>
 
+    <system:String x:Key="Portal.WallpaperSettingPage.HardwareAcceleration">ハードウェアアクセラレーション</system:String>
+    <system:String x:Key="Portal.WallpaperSettingPage.HardwareAcceleration.Description">サポートされている壁紙のハードウェアアクセラレーションの状態を変更します。</system:String>
+
     <system:String x:Key="Portal.WallpaperSettingPage.GifPlayer">Gif プレイヤー</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.GifPlayer.Description">ライブラリ内の Gif 形式のテーマを再生するプラグインを選択します。</system:String>
 

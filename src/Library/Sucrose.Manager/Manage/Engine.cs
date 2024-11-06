@@ -29,6 +29,8 @@ namespace Sucrose.Manager.Manage
 
         public static SEEST ExpandScreenType => SMMI.EngineSettingManager.GetSetting(SMMCE.ExpandScreenType, SEEST.Default);
 
+        public static bool HardwareAcceleration => SMMI.EngineSettingManager.GetSetting(SMMCE.HardwareAcceleration, false);
+
         public static SESNT ScreenType => SMMI.EngineSettingManager.GetSetting(SMMCE.ScreenType, SESNT.DisplayBound);
 
         public static bool WallpaperShuffle => SMMI.EngineSettingManager.GetSetting(SMMCE.WallpaperShuffle, true);

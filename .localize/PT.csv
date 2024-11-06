@@ -1182,6 +1182,9 @@ Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.PT.xaml,,
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.PT.xaml,Portal.WallpaperSettingPage.ShuffleMode,Modo de Embaralhamento
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.PT.xaml,Portal.WallpaperSettingPage.ShuffleMode.Description,Altera o modo de embaralhamento em papéis de parede suportados.
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.PT.xaml,,
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.PT.xaml,Portal.WallpaperSettingPage.HardwareAcceleration,Aceleração de Hardware
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.PT.xaml,Portal.WallpaperSettingPage.HardwareAcceleration.Description,Altera o status de aceleração de hardware para papéis de parede suportados.
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.PT.xaml,,
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.PT.xaml,Portal.WallpaperSettingPage.GifPlayer,Reprodutor de Gif
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.PT.xaml,Portal.WallpaperSettingPage.GifPlayer.Description,Selecione o plug-in que reproduzirá temas do tipo Gif em sua biblioteca.
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.PT.xaml,,

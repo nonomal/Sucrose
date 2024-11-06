@@ -25,6 +25,9 @@
     <system:String x:Key="Portal.WallpaperSettingPage.ShuffleMode">शफल मोड</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.ShuffleMode.Description">समर्थित वॉलपेपरों की शफल मोड को बदलता है।</system:String>
 
+    <system:String x:Key="Portal.WallpaperSettingPage.HardwareAcceleration">हार्डवेयर एक्सेलेरेशन</system:String>
+    <system:String x:Key="Portal.WallpaperSettingPage.HardwareAcceleration.Description">समर्थित वॉलपेपर के लिए हार्डवेयर एक्सेलेरेशन की स्थिति बदलता है।</system:String>
+
     <system:String x:Key="Portal.WallpaperSettingPage.GifPlayer">Gif प्लेयर</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.GifPlayer.Description">आपकी लाइब्रेरी में मौजूद Gif प्रकार के थीमों को चलाने के लिए प्लगइन का चयन करें।</system:String>
 

@@ -1182,6 +1182,9 @@ Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.TR.xaml,,
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.TR.xaml,Portal.WallpaperSettingPage.ShuffleMode,Karıştırma Durumu
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.TR.xaml,Portal.WallpaperSettingPage.ShuffleMode.Description,Desteklenen duvar kağıtlarında karıştırma durumunu değiştirir.
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.TR.xaml,,
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.TR.xaml,Portal.WallpaperSettingPage.HardwareAcceleration,Donanım Hızlandırma
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.TR.xaml,Portal.WallpaperSettingPage.HardwareAcceleration.Description,Desteklenen duvar kağıtlarında donanım hızlandırma durumunu değiştirir.
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.TR.xaml,,
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.TR.xaml,Portal.WallpaperSettingPage.GifPlayer,Gif Eklentisi
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.TR.xaml,Portal.WallpaperSettingPage.GifPlayer.Description,Kütüphanenizde bulunan Gif türündeki temaları oynatacak olan eklentiyi seçin.
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.TR.xaml,,

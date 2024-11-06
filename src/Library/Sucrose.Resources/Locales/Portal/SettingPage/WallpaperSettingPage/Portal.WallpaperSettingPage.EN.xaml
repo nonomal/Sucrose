@@ -25,6 +25,9 @@
     <system:String x:Key="Portal.WallpaperSettingPage.ShuffleMode">Shuffle Mode</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.ShuffleMode.Description">Change the shuffle behavior for supported wallpapers.</system:String>
 
+    <system:String x:Key="Portal.WallpaperSettingPage.HardwareAcceleration">Hardware Acceleration</system:String>
+    <system:String x:Key="Portal.WallpaperSettingPage.HardwareAcceleration.Description">Changes the hardware acceleration behavior for supported wallpapers.</system:String>
+
     <system:String x:Key="Portal.WallpaperSettingPage.GifPlayer">Gif Player</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.GifPlayer.Description">Select the plugin that will play Gif-themed wallpapers in your library.</system:String>
 

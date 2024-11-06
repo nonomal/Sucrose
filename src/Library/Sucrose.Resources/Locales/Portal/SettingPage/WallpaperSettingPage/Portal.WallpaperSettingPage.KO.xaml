@@ -25,6 +25,9 @@
     <system:String x:Key="Portal.WallpaperSettingPage.ShuffleMode">섞기 모드</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.ShuffleMode.Description">지원되는 바탕 화면에서 섞기 모드를 변경합니다.</system:String>
 
+    <system:String x:Key="Portal.WallpaperSettingPage.HardwareAcceleration">하드웨어 가속</system:String>
+    <system:String x:Key="Portal.WallpaperSettingPage.HardwareAcceleration.Description">지원되는 배경화면의 하드웨어 가속 상태를 변경합니다.</system:String>
+
     <system:String x:Key="Portal.WallpaperSettingPage.GifPlayer">Gif 플레이어</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.GifPlayer.Description">라이브러리에서 사용할 Gif 테마 플레이어를 선택합니다.</system:String>
 

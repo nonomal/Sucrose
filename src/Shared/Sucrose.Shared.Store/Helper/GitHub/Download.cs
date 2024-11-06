@@ -18,7 +18,9 @@ namespace Sucrose.Shared.Store.Helper.GitHub
     {
         public static bool Store(string Store, string Agent, string Key)
         {
-            if (Directory.Exists(Path.GetDirectoryName(Store)))
+            string StorePath = Path.GetDirectoryName(Store);
+
+            if (Directory.Exists(StorePath))
             {
                 if (File.Exists(Store))
                 {
@@ -39,7 +41,7 @@ namespace Sucrose.Shared.Store.Helper.GitHub
             }
             else
             {
-                Directory.CreateDirectory(Path.GetDirectoryName(Store));
+                Directory.CreateDirectory(StorePath);
             }
 
             InitializeClient(Agent, Key);
@@ -58,15 +60,11 @@ namespace Sucrose.Shared.Store.Helper.GitHub
 
                         if (Response.IsSuccessStatusCode)
                         {
-                            using HttpContent HContent = Response.Content;
-
-                            using Stream Stream = HContent.ReadAsStreamAsync().Result;
-                            using FileStream FStream = new(Store, FileMode.OpenOrCreate, FileAccess.Write, FileShare.None);
-
-                            Stream.CopyTo(FStream);
-
-                            Stream.Dispose();
-                            FStream.Dispose();
+                            using (Stream Stream = Response.Content.ReadAsStreamAsync().Result)
+                            using (FileStream FStream = new(Store, FileMode.OpenOrCreate, FileAccess.Write, FileShare.None))
+                            {
+                                Stream.CopyTo(FStream);
+                            }
 
                             return SSSHS.ReadCheck(Store);
                         }
@@ -85,12 +83,12 @@ namespace Sucrose.Shared.Store.Helper.GitHub
 
         public static bool Cache(KeyValuePair<string, SSSIW> Wallpaper, string Theme, string Agent, string Key)
         {
-            string Info = Path.Combine(Theme, SMMRC.SucroseInfo);
-            string Cover = Path.Combine(Theme, Wallpaper.Value.Cover);
+            string InfoPath = Path.Combine(Theme, SMMRC.SucroseInfo);
+            string CoverPath = Path.Combine(Theme, Wallpaper.Value.Cover);
 
             if (Directory.Exists(Theme))
             {
-                if (File.Exists(Info) && File.Exists(Cover))
+                if (File.Exists(InfoPath) && File.Exists(CoverPath))
                 {
                     DateTime CurrentTime = DateTime.Now;
                     DateTime ModificationTime = File.GetLastWriteTime(Theme);
@@ -99,8 +97,8 @@ namespace Sucrose.Shared.Store.Helper.GitHub
 
                     if (ElapsedDuration >= TimeSpan.FromHours(SMMP.StoreDuration))
                     {
-                        File.Delete(Info);
-                        File.Delete(Cover);
+                        File.Delete(InfoPath);
+                        File.Delete(CoverPath);
 
                         SPMI.StoreDownloading[Theme] = false;
                     }
@@ -113,14 +111,14 @@ namespace Sucrose.Shared.Store.Helper.GitHub
                 }
                 else
                 {
-                    if (File.Exists(Info))
+                    if (File.Exists(InfoPath))
                     {
-                        File.Delete(Info);
+                        File.Delete(InfoPath);
                     }
 
-                    if (File.Exists(Cover))
+                    if (File.Exists(CoverPath))
                     {
-                        File.Delete(Cover);
+                        File.Delete(CoverPath);
                     }
 
                     SPMI.StoreDownloading[Theme] = false;
@@ -143,31 +141,23 @@ namespace Sucrose.Shared.Store.Helper.GitHub
 
                 try
                 {
-                    using HttpResponseMessage ResponseInfo = SSSMI.Client.GetAsync(EncodeSpacesOnly($"{SMMRU.RawGitHubStoreBranch}/{Wallpaper.Value.Source}/{Wallpaper.Key}/{SMMRC.SucroseInfo}")).Result;
-                    using HttpResponseMessage ResponseCover = SSSMI.Client.GetAsync(EncodeSpacesOnly($"{SMMRU.RawGitHubStoreBranch}/{Wallpaper.Value.Source}/{Wallpaper.Key}/{Wallpaper.Value.Cover}")).Result;
+                    string InfoUri = EncodeSpacesOnly($"{SMMRU.RawGitHubStoreBranch}/{Wallpaper.Value.Source}/{Wallpaper.Key}/{SMMRC.SucroseInfo}");
+                    string CoverUri = EncodeSpacesOnly($"{SMMRU.RawGitHubStoreBranch}/{Wallpaper.Value.Source}/{Wallpaper.Key}/{Wallpaper.Value.Cover}");
+
+                    using HttpResponseMessage ResponseInfo = SSSMI.Client.GetAsync(InfoUri).Result;
+                    using HttpResponseMessage ResponseCover = SSSMI.Client.GetAsync(CoverUri).Result;
 
                     ResponseInfo.EnsureSuccessStatusCode();
                     ResponseCover.EnsureSuccessStatusCode();
 
                     if (ResponseInfo.IsSuccessStatusCode && ResponseCover.IsSuccessStatusCode)
                     {
-                        using HttpContent InfoContent = ResponseInfo.Content;
-                        using HttpContent CoverContent = ResponseCover.Content;
-
-                        using Stream InfoStream = InfoContent.ReadAsStreamAsync().Result;
-                        using Stream CoverStream = CoverContent.ReadAsStreamAsync().Result;
-
-                        using FileStream InfoFile = new(Info, FileMode.OpenOrCreate, FileAccess.Write, FileShare.None);
-                        using FileStream CoverFile = new(Cover, FileMode.OpenOrCreate, FileAccess.Write, FileShare.None);
-
-                        InfoStream.CopyTo(InfoFile);
-                        CoverStream.CopyTo(CoverFile);
-
-                        InfoStream.Dispose();
-                        CoverStream.Dispose();
-
-                        InfoFile.Dispose();
-                        CoverFile.Dispose();
+                        using (FileStream InfoFile = new(InfoPath, FileMode.OpenOrCreate, FileAccess.Write, FileShare.None))
+                        using (FileStream CoverFile = new(CoverPath, FileMode.OpenOrCreate, FileAccess.Write, FileShare.None))
+                        {
+                            ResponseInfo.Content.CopyToAsync(InfoFile).Wait();
+                            ResponseCover.Content.CopyToAsync(CoverFile).Wait();
+                        }
 
                         SPMI.StoreDownloading[Theme] = true;
 
@@ -261,15 +251,15 @@ namespace Sucrose.Shared.Store.Helper.GitHub
                         Directory.CreateDirectory(Path.GetDirectoryName(FilePath));
                     }
 
-                    using HttpResponseMessage Response = SSSMI.Client.GetAsync(Content.DownloadUrl).Result;
-                    using Stream Stream = Response.Content.ReadAsStreamAsync().Result;
-                    using FileStream FStream = new(FilePath, FileMode.Create);
+                    using HttpResponseMessage Response = await SSSMI.Client.GetAsync(Content.DownloadUrl);
 
-                    Stream.CopyToAsync(FStream).Wait();
+                    Response.EnsureSuccessStatusCode();
 
-                    Response.Dispose();
-                    FStream.Dispose();
-                    Stream.Dispose();
+                    using (Stream Stream = await Response.Content.ReadAsStreamAsync())
+                    using (FileStream FStream = new(FilePath, FileMode.Create, FileAccess.Write, FileShare.None))
+                    {
+                        await Stream.CopyToAsync(FStream);
+                    }
 
                     SSSMI.StoreService.DownloadedFileCount(Keys, SSSMI.StoreService.Info[Keys].DownloadedFileCount + 1);
                     SSSMI.StoreService.ProgressPercentage(Keys, (double)SSSMI.StoreService.Info[Keys].DownloadedFileCount / SSSMI.StoreService.Info[Keys].TotalFileCount * 100);

@@ -1182,6 +1182,9 @@ Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.EN.xaml,,
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.EN.xaml,Portal.WallpaperSettingPage.ShuffleMode,Shuffle Mode
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.EN.xaml,Portal.WallpaperSettingPage.ShuffleMode.Description,Change the shuffle behavior for supported wallpapers.
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.EN.xaml,,
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.EN.xaml,Portal.WallpaperSettingPage.HardwareAcceleration,Hardware Acceleration
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.EN.xaml,Portal.WallpaperSettingPage.HardwareAcceleration.Description,Changes the hardware acceleration behavior for supported wallpapers.
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.EN.xaml,,
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.EN.xaml,Portal.WallpaperSettingPage.GifPlayer,Gif Player
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.EN.xaml,Portal.WallpaperSettingPage.GifPlayer.Description,Select the plugin that will play Gif-themed wallpapers in your library.
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.EN.xaml,,

@@ -28,6 +28,8 @@
 
         public static readonly string WebView2 = "WebView2";
 
+        public static readonly string MpvPlayer = "MpvPlayer";
+
         public static readonly string Temporary = "Temporary";
 
         public static readonly string Properties = "Properties";

@@ -1182,6 +1182,9 @@ Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.JA.xaml,,
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.JA.xaml,Portal.WallpaperSettingPage.ShuffleMode,シャッフルモード
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.JA.xaml,Portal.WallpaperSettingPage.ShuffleMode.Description,サポートされる壁紙のシャッフルモードを変更します。
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.JA.xaml,,
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.JA.xaml,Portal.WallpaperSettingPage.HardwareAcceleration,ハードウェアアクセラレーション
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.JA.xaml,Portal.WallpaperSettingPage.HardwareAcceleration.Description,サポートされている壁紙のハードウェアアクセラレーションの状態を変更します。
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.JA.xaml,,
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.JA.xaml,Portal.WallpaperSettingPage.GifPlayer,Gif プレイヤー
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.JA.xaml,Portal.WallpaperSettingPage.GifPlayer.Description,ライブラリ内の Gif 形式のテーマを再生するプラグインを選択します。
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.JA.xaml,,

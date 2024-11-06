@@ -1182,6 +1182,9 @@ Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.DA.xaml,,
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.DA.xaml,Portal.WallpaperSettingPage.ShuffleMode,Blanding Tilstand
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.DA.xaml,Portal.WallpaperSettingPage.ShuffleMode.Description,Ændrer blanding tilstanden af understøttede tapeter.
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.DA.xaml,,
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.DA.xaml,Portal.WallpaperSettingPage.HardwareAcceleration,Hardwareacceleration
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.DA.xaml,Portal.WallpaperSettingPage.HardwareAcceleration.Description,Ændrer hardwareaccelerationen for understøttede tapeter.
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.DA.xaml,,
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.DA.xaml,Portal.WallpaperSettingPage.GifPlayer,Gif Afspiller
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.DA.xaml,Portal.WallpaperSettingPage.GifPlayer.Description,Vælg plugin til at afspille Gif-temaer i din samling.
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.DA.xaml,,

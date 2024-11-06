@@ -1182,6 +1182,9 @@ Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.IT.xaml,,
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.IT.xaml,Portal.WallpaperSettingPage.ShuffleMode,Modalità di Riproduzione Casuale
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.IT.xaml,Portal.WallpaperSettingPage.ShuffleMode.Description,Modifica la modalità di riproduzione casuale degli sfondi supportati.
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.IT.xaml,,
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.IT.xaml,Portal.WallpaperSettingPage.HardwareAcceleration,Accelerazione Hardware
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.IT.xaml,Portal.WallpaperSettingPage.HardwareAcceleration.Description,Modifica lo stato di accelerazione hardware per gli sfondi supportati.
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.IT.xaml,,
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.IT.xaml,Portal.WallpaperSettingPage.GifPlayer,Plugin per Gif
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.IT.xaml,Portal.WallpaperSettingPage.GifPlayer.Description,Seleziona il plugin per la riproduzione dei temi di tipo Gif nella tua libreria.
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.IT.xaml,,

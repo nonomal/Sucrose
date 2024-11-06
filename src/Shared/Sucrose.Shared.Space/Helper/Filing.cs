@@ -52,6 +52,7 @@ namespace Sucrose.Shared.Space.Helper
         public static void Write(string Source, string Content)
         {
             using Mutex Mutex = new(false, SSSHU.GenerateText(Source));
+
             try
             {
                 try

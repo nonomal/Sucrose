@@ -1182,6 +1182,9 @@ Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,,
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,Portal.WallpaperSettingPage.ShuffleMode,Режим Перемешивания
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,Portal.WallpaperSettingPage.ShuffleMode.Description,Измените режим перемешивания для поддерживаемых обоев.
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,,
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,Portal.WallpaperSettingPage.HardwareAcceleration,Аппаратное Yскорение
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,Portal.WallpaperSettingPage.HardwareAcceleration.Description,Изменяет статус аппаратного ускорения для поддерживаемых обоев.
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,,
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,Portal.WallpaperSettingPage.GifPlayer,Плеер для Gif
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,Portal.WallpaperSettingPage.GifPlayer.Description,Выберите плеер для воспроизведения обоев в формате Gif из вашей библиотеки.
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,,

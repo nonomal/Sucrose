@@ -250,6 +250,28 @@ namespace Sucrose.Portal.ViewModels.Pages
 
             Contents.Add(ShuffleMode);
 
+            SPVCEC HardwareAcceleration = new()
+            {
+                Margin = new Thickness(0, 10, 0, 0),
+                Expandable = false
+            };
+
+            HardwareAcceleration.LeftIcon.Symbol = SymbolRegular.DeveloperBoardLightning20;
+            HardwareAcceleration.Title.Text = SRER.GetValue("Portal", "WallpaperSettingPage", "HardwareAcceleration");
+            HardwareAcceleration.Description.Text = SRER.GetValue("Portal", "WallpaperSettingPage", "HardwareAcceleration", "Description");
+
+            ToggleSwitch AccelerationState = new()
+            {
+                IsChecked = SMME.HardwareAcceleration
+            };
+
+            AccelerationState.Checked += (s, e) => AccelerationStateChecked(true);
+            AccelerationState.Unchecked += (s, e) => AccelerationStateChecked(false);
+
+            HardwareAcceleration.HeaderFrame = AccelerationState;
+
+            Contents.Add(HardwareAcceleration);
+
             TextBlock ExtensionsArea = new()
             {
                 Foreground = SRER.GetResource<Brush>("TextFillColorPrimaryBrush"),
@@ -495,6 +517,11 @@ namespace Sucrose.Portal.ViewModels.Pages
             {
                 SMMI.EngineSettingManager.SetSetting(SMMCE.InputModuleType, NewInput);
             }
+        }
+
+        private void AccelerationStateChecked(bool State)
+        {
+            SMMI.EngineSettingManager.SetSetting(SMMCE.HardwareAcceleration, State);
         }
 
         private void GifEngineSelected(ComboBoxItem Item)

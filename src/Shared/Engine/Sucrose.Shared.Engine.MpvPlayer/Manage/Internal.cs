@@ -8,11 +8,13 @@ namespace Sucrose.Shared.Engine.MpvPlayer.Manage
     {
         public static string Source;
 
+        public static string MpvPath;
+
+        public static string MpvConfig;
+
         public static MediaEngine MediaEngine;
 
         public static readonly string LibPath = Path.Combine(SSSMI.This, "lib");
-
-        public static readonly string MpvConfig = Path.Combine(LibPath, "mpv.conf");
 
 #if X86
         public static readonly string MediaPath = Path.Combine(LibPath, "libmpv-x86.dll");

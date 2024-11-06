@@ -25,6 +25,9 @@
     <system:String x:Key="Portal.WallpaperSettingPage.ShuffleMode">Mod Amestecare</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.ShuffleMode.Description">Schimbă modul de amestecare pentru imagini de fundal acceptate.</system:String>
 
+    <system:String x:Key="Portal.WallpaperSettingPage.HardwareAcceleration">Accelerare Hardware</system:String>
+    <system:String x:Key="Portal.WallpaperSettingPage.HardwareAcceleration.Description">Modifică starea de accelerare hardware pentru fundalurile acceptate.</system:String>
+
     <system:String x:Key="Portal.WallpaperSettingPage.GifPlayer">Modul Gif</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.GifPlayer.Description">Alege modul care va reda temele de tip Gif din biblioteca ta.</system:String>
 

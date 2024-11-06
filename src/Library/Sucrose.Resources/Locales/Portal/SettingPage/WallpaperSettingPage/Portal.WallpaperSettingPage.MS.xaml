@@ -25,6 +25,9 @@
     <system:String x:Key="Portal.WallpaperSettingPage.ShuffleMode">Mod Kacau</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.ShuffleMode.Description">Mod kacau yang akan diubah untuk wallpaper yang disokong.</system:String>
 
+    <system:String x:Key="Portal.WallpaperSettingPage.HardwareAcceleration">Pecutan Perkakasan</system:String>
+    <system:String x:Key="Portal.WallpaperSettingPage.HardwareAcceleration.Description">Mengubah status pecutan perkakasan untuk kertas wallpaper yang disokong.</system:String>
+
     <system:String x:Key="Portal.WallpaperSettingPage.GifPlayer">Pemain Gif</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.GifPlayer.Description">Pilih pemain yang akan memainkan tema jenis Gif dalam perpustakaan anda.</system:String>
 

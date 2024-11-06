@@ -1182,6 +1182,9 @@ Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,,
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,Portal.WallpaperSettingPage.ShuffleMode,Režim zamíchání
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,Portal.WallpaperSettingPage.ShuffleMode.Description,Změní režim zamíchání na podporovaných tapetách.
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,,
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,Portal.WallpaperSettingPage.HardwareAcceleration,Hardwarová Akcelerace
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,Portal.WallpaperSettingPage.HardwareAcceleration.Description,Upravuje stav hardwarové akcelerace pro podporované tapety.
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,,
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,Portal.WallpaperSettingPage.GifPlayer,Přehrávač Gif
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,Portal.WallpaperSettingPage.GifPlayer.Description,"Vyberte doplněk, který bude přehrávat témata ve formátu Gif uložená ve vaší knihovně."
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,,

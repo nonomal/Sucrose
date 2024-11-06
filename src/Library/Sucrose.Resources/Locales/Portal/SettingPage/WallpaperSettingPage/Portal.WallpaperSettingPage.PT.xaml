@@ -25,6 +25,9 @@
     <system:String x:Key="Portal.WallpaperSettingPage.ShuffleMode">Modo de Embaralhamento</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.ShuffleMode.Description">Altera o modo de embaralhamento em papéis de parede suportados.</system:String>
 
+    <system:String x:Key="Portal.WallpaperSettingPage.HardwareAcceleration">Aceleração de Hardware</system:String>
+    <system:String x:Key="Portal.WallpaperSettingPage.HardwareAcceleration.Description">Altera o status de aceleração de hardware para papéis de parede suportados.</system:String>
+
     <system:String x:Key="Portal.WallpaperSettingPage.GifPlayer">Reprodutor de Gif</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.GifPlayer.Description">Selecione o plug-in que reproduzirá temas do tipo Gif em sua biblioteca.</system:String>
 

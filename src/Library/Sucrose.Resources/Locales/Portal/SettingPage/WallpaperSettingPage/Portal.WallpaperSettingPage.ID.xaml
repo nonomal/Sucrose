@@ -25,6 +25,9 @@
     <system:String x:Key="Portal.WallpaperSettingPage.ShuffleMode">Mode Acak</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.ShuffleMode.Description">Mengubah mode acak pada dinding yang didukung.</system:String>
 
+    <system:String x:Key="Portal.WallpaperSettingPage.HardwareAcceleration">Akselerasi Perangkat Keras</system:String>
+    <system:String x:Key="Portal.WallpaperSettingPage.HardwareAcceleration.Description">Mengubah status akselerasi perangkat keras untuk dinding yang didukung.</system:String>
+
     <system:String x:Key="Portal.WallpaperSettingPage.GifPlayer">Pemutar Gif</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.GifPlayer.Description">Pilih plugin yang akan memainkan tema berjenis Gif dalam perpustakaan Anda.</system:String>
 

@@ -25,6 +25,9 @@
     <system:String x:Key="Portal.WallpaperSettingPage.ShuffleMode">Режим Перемешивания</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.ShuffleMode.Description">Измените режим перемешивания для поддерживаемых обоев.</system:String>
 
+    <system:String x:Key="Portal.WallpaperSettingPage.HardwareAcceleration">Аппаратное Yскорение</system:String>
+    <system:String x:Key="Portal.WallpaperSettingPage.HardwareAcceleration.Description">Изменяет статус аппаратного ускорения для поддерживаемых обоев.</system:String>
+
     <system:String x:Key="Portal.WallpaperSettingPage.GifPlayer">Плеер для Gif</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.GifPlayer.Description">Выберите плеер для воспроизведения обоев в формате Gif из вашей библиотеки.</system:String>
 

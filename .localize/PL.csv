@@ -1182,6 +1182,9 @@ Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.PL.xaml,,
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.PL.xaml,Portal.WallpaperSettingPage.ShuffleMode,Tryb Tasowania
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.PL.xaml,Portal.WallpaperSettingPage.ShuffleMode.Description,Zmień zachowanie tasowania dla obsługiwanych tapet.
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.PL.xaml,,
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.PL.xaml,Portal.WallpaperSettingPage.HardwareAcceleration,Przyspieszenie Sprzętowe
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.PL.xaml,Portal.WallpaperSettingPage.HardwareAcceleration.Description,Zmienia status przyspieszenia sprzętowego dla obsługiwanych tapet.
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.PL.xaml,,
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.PL.xaml,Portal.WallpaperSettingPage.GifPlayer,Odtwarzacz Gif
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.PL.xaml,Portal.WallpaperSettingPage.GifPlayer.Description,"Wybierz wtyczkę, która odtworzy tematyczne tapety Gif w twojej bibliotece."
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.PL.xaml,,

@@ -25,6 +25,9 @@
     <system:String x:Key="Portal.WallpaperSettingPage.ShuffleMode">Modo de Mezcla</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.ShuffleMode.Description">Cambie el comportamiento de mezcla para fondos de pantalla compatibles.</system:String>
 
+    <system:String x:Key="Portal.WallpaperSettingPage.HardwareAcceleration">Aceleración de Hardware</system:String>
+    <system:String x:Key="Portal.WallpaperSettingPage.HardwareAcceleration.Description">Cambia el estado de aceleración de hardware para fondos de pantalla compatibles.</system:String>
+
     <system:String x:Key="Portal.WallpaperSettingPage.GifPlayer">Reproductor de Gif</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.GifPlayer.Description">Seleccione el complemento que reproducirá fondos de pantalla temáticos de Gif en su biblioteca.</system:String>
 

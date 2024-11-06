@@ -1182,6 +1182,9 @@ Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.FR.xaml,,
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.FR.xaml,Portal.WallpaperSettingPage.ShuffleMode,Mode de Mélange
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.FR.xaml,Portal.WallpaperSettingPage.ShuffleMode.Description,Modifiez le comportement de mélange pour les fonds d'écran pris en charge.
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.FR.xaml,,
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.FR.xaml,Portal.WallpaperSettingPage.HardwareAcceleration,Accélération Matérielle
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.FR.xaml,Portal.WallpaperSettingPage.HardwareAcceleration.Description,Modifie l'état de l'accélération matérielle pour les fonds d'écran pris en charge.
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.FR.xaml,,
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.FR.xaml,Portal.WallpaperSettingPage.GifPlayer,Lecteur Gif
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.FR.xaml,Portal.WallpaperSettingPage.GifPlayer.Description,Sélectionnez le plugin qui lira les fonds d'écran thématiques Gif de votre bibliothèque.
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.FR.xaml,,

@@ -1182,6 +1182,9 @@ Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.EL.xaml,,
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.EL.xaml,Portal.WallpaperSettingPage.ShuffleMode,Λειτουργία Ανακάτεμα
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.EL.xaml,Portal.WallpaperSettingPage.ShuffleMode.Description,Αλλάζει τη λειτουργία ανακάτεμα για τις υποστηριζόμενες ταπετσαρίες.
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.EL.xaml,,
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.EL.xaml,Portal.WallpaperSettingPage.HardwareAcceleration,Επιτάχυνση Υλικού
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.EL.xaml,Portal.WallpaperSettingPage.HardwareAcceleration.Description,Αλλάζει την κατάσταση επιτάχυνσης υλικού για τις υποστηριζόμενες ταπετσαρίες.
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.EL.xaml,,
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.EL.xaml,Portal.WallpaperSettingPage.GifPlayer,Πρόσθετο Gif
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.EL.xaml,Portal.WallpaperSettingPage.GifPlayer.Description,Επιλέξτε το πρόσθετο που θα αναπαράγει τα ταπετσαρίες τύπου Gif που υπάρχουν στη βιβλιοθήκη σας.
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.EL.xaml,,

@@ -25,6 +25,9 @@
     <system:String x:Key="Portal.WallpaperSettingPage.ShuffleMode">Mode de Mélange</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.ShuffleMode.Description">Modifiez le comportement de mélange pour les fonds d'écran pris en charge.</system:String>
 
+    <system:String x:Key="Portal.WallpaperSettingPage.HardwareAcceleration">Accélération Matérielle</system:String>
+    <system:String x:Key="Portal.WallpaperSettingPage.HardwareAcceleration.Description">Modifie l'état de l'accélération matérielle pour les fonds d'écran pris en charge.</system:String>
+
     <system:String x:Key="Portal.WallpaperSettingPage.GifPlayer">Lecteur Gif</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.GifPlayer.Description">Sélectionnez le plugin qui lira les fonds d'écran thématiques Gif de votre bibliothèque.</system:String>
 
