@@ -8,45 +8,80 @@ namespace Sucrose.Shared.Engine.Xavier.Helper
 {
     internal static class Gif
     {
-        public static void Play()
+        public static async void Play()
         {
-            SXAGAB.GetAnimator(SSEXMI.ImageEngine).Play();
-        }
-
-        public static void Pause()
-        {
-            SXAGAB.GetAnimator(SSEXMI.ImageEngine).Pause();
-        }
-
-        public static void Resume()
-        {
-            SXAGAB.GetAnimator(SSEXMI.ImageEngine).Resume();
-        }
-
-        public static void Rewind()
-        {
-            SXAGAB.GetAnimator(SSEXMI.ImageEngine).Rewind();
-        }
-
-        public static void SetLoop(bool State)
-        {
-            if (State)
+            try
             {
-                if (SXAGAB.GetRepeatBehavior(SSEXMI.ImageEngine) != RepeatBehavior.Forever && !SSEMI.PausePerformance)
+                SXAGAB.GetAnimator(SSEXMI.ImageEngine).Play();
+            }
+            catch (Exception Exception)
+            {
+                await SSWEW.Watch_CatchException(Exception);
+            }
+        }
+
+        public static async void Pause()
+        {
+            try
+            {
+                SXAGAB.GetAnimator(SSEXMI.ImageEngine).Pause();
+            }
+            catch (Exception Exception)
+            {
+                await SSWEW.Watch_CatchException(Exception);
+            }
+        }
+
+        public static async void Resume()
+        {
+            try
+            {
+                SXAGAB.GetAnimator(SSEXMI.ImageEngine).Resume();
+            }
+            catch (Exception Exception)
+            {
+                await SSWEW.Watch_CatchException(Exception);
+            }
+        }
+
+        public static async void Rewind()
+        {
+            try
+            {
+                SXAGAB.GetAnimator(SSEXMI.ImageEngine).Rewind();
+            }
+            catch (Exception Exception)
+            {
+                await SSWEW.Watch_CatchException(Exception);
+            }
+        }
+
+        public static async void SetLoop(bool State)
+        {
+            try
+            {
+                if (State)
                 {
-                    SXAGAB.SetRepeatBehavior(SSEXMI.ImageEngine, RepeatBehavior.Forever);
+                    if (SXAGAB.GetRepeatBehavior(SSEXMI.ImageEngine) != RepeatBehavior.Forever && !SSEMI.PausePerformance)
+                    {
+                        SXAGAB.SetRepeatBehavior(SSEXMI.ImageEngine, RepeatBehavior.Forever);
 
-                    Uri Source = SXAGAB.GetSourceUri(SSEXMI.ImageEngine);
+                        Uri Source = SXAGAB.GetSourceUri(SSEXMI.ImageEngine);
 
-                    SSEXMI.ImageEngine.Source = null;
-                    SXAGAB.SetSourceUri(SSEXMI.ImageEngine, null);
+                        SSEXMI.ImageEngine.Source = null;
+                        SXAGAB.SetSourceUri(SSEXMI.ImageEngine, null);
 
-                    SXAGAB.SetSourceUri(SSEXMI.ImageEngine, Source);
+                        SXAGAB.SetSourceUri(SSEXMI.ImageEngine, Source);
+                    }
+                }
+                else
+                {
+                    SXAGAB.SetRepeatBehavior(SSEXMI.ImageEngine, new RepeatBehavior(1));
                 }
             }
-            else
+            catch (Exception Exception)
             {
-                SXAGAB.SetRepeatBehavior(SSEXMI.ImageEngine, new RepeatBehavior(1));
+                await SSWEW.Watch_CatchException(Exception);
             }
         }
 

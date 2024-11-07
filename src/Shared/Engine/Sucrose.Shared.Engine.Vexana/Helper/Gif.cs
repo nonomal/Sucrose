@@ -1,22 +1,44 @@
 ﻿using SSEVMI = Sucrose.Shared.Engine.Vexana.Manage.Internal;
+using SSWEW = Sucrose.Shared.Watchdog.Extension.Watch;
 
 namespace Sucrose.Shared.Engine.Vexana.Helper
 {
     internal static class Gif
     {
-        public static void Play()
+        public static async void Play()
         {
-            SSEVMI.ImageState = true;
+            try
+            {
+                SSEVMI.ImageState = true;
+            }
+            catch (Exception Exception)
+            {
+                await SSWEW.Watch_CatchException(Exception);
+            }
         }
 
-        public static void Pause()
+        public static async void Pause()
         {
-            SSEVMI.ImageState = false;
+            try
+            {
+                SSEVMI.ImageState = false;
+            }
+            catch (Exception Exception)
+            {
+                await SSWEW.Watch_CatchException(Exception);
+            }
         }
 
-        public static void SetLoop(bool State)
+        public static async void SetLoop(bool State)
         {
-            SSEVMI.ImageLoop = State;
+            try
+            {
+                SSEVMI.ImageLoop = State;
+            }
+            catch (Exception Exception)
+            {
+                await SSWEW.Watch_CatchException(Exception);
+            }
         }
     }
 }

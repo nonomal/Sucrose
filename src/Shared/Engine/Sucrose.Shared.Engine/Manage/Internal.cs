@@ -124,10 +124,10 @@ namespace Sucrose.Shared.Engine.Manage
             "# General Performance Settings #",
             "cache=yes",
             "keep-open=no",
-            "gpu-context=win",
+            "gpu-context=d3d11",
             "demuxer-max-bytes=64M",
-            "demuxer-seekable-cache=no",
             "video-sync=display-desync",
+            "demuxer-seekable-cache=yes",
             "# General Performance Settings #"
         };
 

@@ -1,5 +1,6 @@
 ﻿using SSDSHS = Sucrose.Shared.Dependency.Struct.HandleStruct;
 using SSEMI = Sucrose.Shared.Engine.Manage.Internal;
+using SSWEW = Sucrose.Shared.Watchdog.Extension.Watch;
 using SWEACAM = Skylark.Wing.Extension.AudioController.AudioManager;
 using SWEVPCAM = Skylark.Wing.Extension.VideoPlayerController.AudioManager;
 
@@ -7,7 +8,7 @@ namespace Sucrose.Shared.Engine.Aurora.Helper
 {
     internal static class Application
     {
-        public static void SetVolume(int Volume)
+        public static async void SetVolume(int Volume)
         {
             try
             {
@@ -41,7 +42,10 @@ namespace Sucrose.Shared.Engine.Aurora.Helper
                         }
                     }
                 }
-                catch { }
+                catch (Exception Exception)
+                {
+                    await SSWEW.Watch_CatchException(Exception);
+                }
             }
         }
     }

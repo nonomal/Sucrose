@@ -20,58 +20,103 @@ namespace Sucrose.Shared.Engine.WebView.Helper
 {
     internal static class Web
     {
-        public static void Play()
+        public static async void Play()
         {
-            if (!SSEWVMI.State)
+            try
             {
-                SSEWVMI.State = true;
-
-                //SSEWVMI.WebEngine.Source = SSEHS.GetSource(SSEWVMI.Web);
-
-                if (SSEMI.IntermediateD3DWindow > 0)
+                if (!SSEWVMI.State)
                 {
-                    _ = SWNM.DebugActiveProcessStop((uint)SSEMI.IntermediateD3DWindow);
+                    SSEWVMI.State = true;
+
+                    //SSEWVMI.WebEngine.Source = SSEHS.GetSource(SSEWVMI.Web);
+
+                    if (SSEMI.IntermediateD3DWindow > 0)
+                    {
+                        _ = SWNM.DebugActiveProcessStop((uint)SSEMI.IntermediateD3DWindow);
+                    }
                 }
+            }
+            catch (Exception Exception)
+            {
+                await SSWEW.Watch_CatchException(Exception);
             }
         }
 
-        public static void Pause()
+        public static async void Pause()
         {
-            if (SSEWVMI.State)
+            try
             {
-                SSEWVMI.State = false;
-
-                //string Path = SSEHS.GetImageContentPath();
-
-                //SSEHS.WriteImageContent(Path, await SSEWVES.Capture());
-
-                //SSEWVMI.WebEngine.Source = SSEHS.GetSource(Path);
-
-                if (SSEMI.IntermediateD3DWindow > 0)
+                if (SSEWVMI.State)
                 {
-                    _ = SWNM.DebugActiveProcess((uint)SSEMI.IntermediateD3DWindow);
+                    SSEWVMI.State = false;
+
+                    //string Path = SSEHS.GetImageContentPath();
+
+                    //SSEHS.WriteImageContent(Path, await SSEWVES.Capture());
+
+                    //SSEWVMI.WebEngine.Source = SSEHS.GetSource(Path);
+
+                    if (SSEMI.IntermediateD3DWindow > 0)
+                    {
+                        _ = SWNM.DebugActiveProcess((uint)SSEMI.IntermediateD3DWindow);
+                    }
                 }
+            }
+            catch (Exception Exception)
+            {
+                await SSWEW.Watch_CatchException(Exception);
             }
         }
 
-        public static void StartCompatible()
+        public static async void StartCompatible()
         {
-            if (SSEMI.Compatible.State)
+            try
             {
-                SMMI.BackgroundogSettingManager.SetSetting(SMMCB.AudioRequired, !string.IsNullOrEmpty(SSEMI.Compatible.SystemAudio));
-
-                switch (SSDMMB.CommunicationType)
+                if (SSEMI.Compatible.State)
                 {
-                    case SSDECT.Pipe:
-                        SMMI.BackgroundogSettingManager.SetSetting(SMMCB.PipeRequired, true);
+                    SMMI.BackgroundogSettingManager.SetSetting(SMMCB.AudioRequired, !string.IsNullOrEmpty(SSEMI.Compatible.SystemAudio));
 
-                        _ = Task.Run(() =>
-                        {
-                            SPMI.BackgroundogManager.MessageReceived += async (s, e) =>
+                    switch (SSDMMB.CommunicationType)
+                    {
+                        case SSDECT.Pipe:
+                            SMMI.BackgroundogSettingManager.SetSetting(SMMCB.PipeRequired, true);
+
+                            _ = Task.Run(() =>
+                            {
+                                SPMI.BackgroundogManager.MessageReceived += async (s, e) =>
+                                {
+                                    if (SSEWVMI.State)
+                                    {
+                                        SSPSBSS.Handler(e);
+
+                                        await Application.Current.Dispatcher.InvokeAsync(async () =>
+                                        {
+                                            try
+                                            {
+                                                if (SSEWVMI.WebEngine.IsInitialized)
+                                                {
+                                                    SSEHC.ExecuteTask(SSEWVMI.WebEngine.CoreWebView2.ExecuteScriptAsync);
+                                                }
+                                            }
+                                            catch (Exception Exception)
+                                            {
+                                                await SSWEW.Watch_CatchException(Exception);
+                                            }
+                                        });
+                                    }
+                                };
+
+                                SPMI.BackgroundogManager.StartServer();
+                            });
+                            break;
+                        case SSDECT.Signal:
+                            SMMI.BackgroundogSettingManager.SetSetting(SMMCB.SignalRequired, true);
+
+                            SSMI.BackgroundogManager.StartChannel(async (s, e) =>
                             {
                                 if (SSEWVMI.State)
                                 {
-                                    SSPSBSS.Handler(e);
+                                    SSSSBSS.Handler(s, e);
 
                                     await Application.Current.Dispatcher.InvokeAsync(async () =>
                                     {
@@ -88,71 +133,54 @@ namespace Sucrose.Shared.Engine.WebView.Helper
                                         }
                                     });
                                 }
-                            };
-
-                            SPMI.BackgroundogManager.StartServer();
-                        });
-                        break;
-                    case SSDECT.Signal:
-                        SMMI.BackgroundogSettingManager.SetSetting(SMMCB.SignalRequired, true);
-
-                        SSMI.BackgroundogManager.StartChannel(async (s, e) =>
-                        {
-                            if (SSEWVMI.State)
-                            {
-                                SSSSBSS.Handler(s, e);
-
-                                await Application.Current.Dispatcher.InvokeAsync(async () =>
-                                {
-                                    try
-                                    {
-                                        if (SSEWVMI.WebEngine.IsInitialized)
-                                        {
-                                            SSEHC.ExecuteTask(SSEWVMI.WebEngine.CoreWebView2.ExecuteScriptAsync);
-                                        }
-                                    }
-                                    catch (Exception Exception)
-                                    {
-                                        await SSWEW.Watch_CatchException(Exception);
-                                    }
-                                });
-                            }
-                        });
-                        break;
-                    default:
-                        break;
+                            });
+                            break;
+                        default:
+                            break;
+                    }
                 }
+            }
+            catch (Exception Exception)
+            {
+                await SSWEW.Watch_CatchException(Exception);
             }
         }
 
         public static async void SetVolume(int Volume)
         {
-            if (SSEMI.Processes.Any())
+            try
             {
-                foreach (int Process in SSEMI.Processes.ToList())
+                if (SSEMI.Processes.Any())
                 {
-                    try
-                    {
-                        SWEVPCAM.SetApplicationVolume(Process, Volume);
-                    }
-                    catch
+                    foreach (int Process in SSEMI.Processes.ToList())
                     {
                         try
                         {
-                            SWEACAM.SetApplicationVolume(Process, Volume);
+                            SWEVPCAM.SetApplicationVolume(Process, Volume);
                         }
-                        catch { }
+                        catch
+                        {
+                            try
+                            {
+                                SWEACAM.SetApplicationVolume(Process, Volume);
+                            }
+                            catch { }
+                        }
                     }
                 }
-            }
 
-            if (SSEWVMI.Try < 3)
-            {
-                await Task.Run(() =>
+                if (SSEWVMI.Try < 3)
                 {
-                    SSEWVMI.Try++;
-                    SSEWVHM.SetProcesses();
-                });
+                    await Task.Run(() =>
+                    {
+                        SSEWVMI.Try++;
+                        SSEWVHM.SetProcesses();
+                    });
+                }
+            }
+            catch (Exception Exception)
+            {
+                await SSWEW.Watch_CatchException(Exception);
             }
         }
     }
