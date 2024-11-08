@@ -106,7 +106,7 @@ namespace Sucrose.Shared.Engine.Extension
                 response.SendChunked = true;
                 response.ContentType = GetContentType(path);
                 response.StatusCode = (int)HttpStatusCode.OK;
-                response.AddHeader("Content-Disposition", "inline; filename=\"" + filename + "\"");
+                response.AddHeader("Content-Disposition", $"inline; filename=\"{filename}\"");
 
                 byte[] buffer = new byte[64 * 1024];
                 int read;

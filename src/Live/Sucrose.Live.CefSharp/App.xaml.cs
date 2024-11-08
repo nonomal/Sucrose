@@ -45,7 +45,8 @@ using SSLHK = Sucrose.Shared.Live.Helper.Kill;
 using SSSHC = Sucrose.Shared.Space.Helper.Cycyling;
 using SSSHI = Sucrose.Shared.Space.Helper.Instance;
 using SSSHS = Sucrose.Shared.Space.Helper.Security;
-using SSSHW = Sucrose.Shared.Space.Helper.Watchdog;
+using SSSHWG = Sucrose.Shared.Space.Helper.Watchdog;
+using SSSHWS = Sucrose.Shared.Space.Helper.Windows;
 using SSSMI = Sucrose.Shared.Space.Manage.Internal;
 using SSTHC = Sucrose.Shared.Theme.Helper.Compatible;
 using SSTHI = Sucrose.Shared.Theme.Helper.Info;
@@ -140,7 +141,7 @@ namespace Sucrose.Live.CefSharp
 
                 string Path = SMMI.CefSharpLiveLogManager.LogFile();
 
-                SSSHW.Start(SMMRA.CefSharpLive, Exception, Path);
+                SSSHWG.Start(SMMRA.CefSharpLive, Exception, Path);
 
                 Close();
             }
@@ -276,6 +277,7 @@ namespace Sucrose.Live.CefSharp
                         {
                             UserAgent = SMMG.UserAgent,
                             PersistSessionCookies = true,
+                            IgnoreCertificateErrors = true,
                             WindowlessRenderingEnabled = true,
                             CachePath = Path.Combine(SMMRP.ApplicationData, SMMRG.AppName, SMMRF.Cache, SMMRF.CefSharp)
                         };
@@ -294,6 +296,14 @@ namespace Sucrose.Live.CefSharp
                             Settings.CefCommandLineArgs.Add(Argument.Key, Argument.Value);
                         }
 
+                        if (SSSHWS.IsGermanium())
+                        {
+                            if (Settings.CefCommandLineArgs.ContainsKey("disable-gpu-compositing"))
+                            {
+                                Settings.CefCommandLineArgs.Remove("disable-gpu-compositing");
+                            }
+                        }
+
                         if (SMME.DeveloperPort > 0)
                         {
                             Settings.RemoteDebuggingPort = SMME.DeveloperPort;
@@ -301,6 +311,31 @@ namespace Sucrose.Live.CefSharp
                             if (!Settings.CefCommandLineArgs.ContainsKey("remote-allow-origins"))
                             {
                                 Settings.CefCommandLineArgs.Add("remote-allow-origins", "*");
+                            }
+                        }
+
+                        if (SMME.HardwareAcceleration)
+                        {
+                            if (!Settings.CefCommandLineArgs.ContainsKey("enable-gpu"))
+                            {
+                                Settings.CefCommandLineArgs.Add("enable-gpu", "1");
+                            }
+
+                            if (!Settings.CefCommandLineArgs.ContainsKey("enable-gpu-vsync"))
+                            {
+                                Settings.CefCommandLineArgs.Add("enable-gpu-vsync", "1");
+                            }
+                        }
+                        else if (!SSSHWS.IsGermanium())
+                        {
+                            if (!Settings.CefCommandLineArgs.ContainsKey("disable-gpu"))
+                            {
+                                Settings.CefCommandLineArgs.Add("disable-gpu", "1");
+                            }
+
+                            if (!Settings.CefCommandLineArgs.ContainsKey("disable-gpu-vsync"))
+                            {
+                                Settings.CefCommandLineArgs.Add("disable-gpu-vsync", "1");
                             }
                         }
 

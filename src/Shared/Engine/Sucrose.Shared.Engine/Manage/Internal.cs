@@ -135,7 +135,7 @@ namespace Sucrose.Shared.Engine.Manage
         {
             //"--enable-gpu",
             //"--enable-gpu-vsync",
-            //"--disable-gpu-compositing",
+            "--disable-gpu-compositing",
 
             "--disable-direct-write",
             //"--disable-frame-rate-limit",
@@ -188,7 +188,7 @@ namespace Sucrose.Shared.Engine.Manage
         {
             //{ "enable-gpu", "1" },
             //{ "enable-gpu-vsync", "1" },
-            //{ "disable-gpu-compositing", "1" },
+            { "disable-gpu-compositing", "1" },
 
             { "disable-direct-write", "1" },
             //{ "disable-frame-rate-limit", "1" },

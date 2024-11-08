@@ -103,6 +103,8 @@ namespace Sucrose.Shared.Engine.WebView.Event
 
         public static void WebEngineInitializationCompleted(object sender, CoreWebView2InitializationCompletedEventArgs e)
         {
+            SSEWVMI.WebEngine.CoreWebView2.ServerCertificateErrorDetected += WebEngineServerCertificateErrorDetected;
+
             SSEWVMI.WebEngine.CoreWebView2.ProcessFailed += WebEngineProcessFailed;
 
             SSEWVHW.StartCompatible();
@@ -117,6 +119,13 @@ namespace Sucrose.Shared.Engine.WebView.Event
             {
                 SSEWVMI.WebEngine.CoreWebView2.OpenDevToolsWindow();
             }
+        }
+
+        public static void WebEngineServerCertificateErrorDetected(object sender, CoreWebView2ServerCertificateErrorDetectedEventArgs e)
+        {
+            CoreWebView2Certificate Certificate = e.ServerCertificate;
+
+            e.Action = CoreWebView2ServerCertificateErrorAction.AlwaysAllow;
         }
     }
 }

@@ -277,6 +277,31 @@ namespace Sucrose.Live.WebView
                             }
                         }
 
+                        if (SMME.HardwareAcceleration)
+                        {
+                            if (!Options.AdditionalBrowserArguments.Contains("--enable-gpu"))
+                            {
+                                Options.AdditionalBrowserArguments += $" --enable-gpu";
+                            }
+
+                            if (!Options.AdditionalBrowserArguments.Contains("--enable-gpu-vsync"))
+                            {
+                                Options.AdditionalBrowserArguments += $" --enable-gpu-vsync";
+                            }
+                        }
+                        else
+                        {
+                            if (!Options.AdditionalBrowserArguments.Contains("--disable-gpu"))
+                            {
+                                Options.AdditionalBrowserArguments += $" --disable-gpu";
+                            }
+
+                            if (!Options.AdditionalBrowserArguments.Contains("--disable-gpu-vsync"))
+                            {
+                                Options.AdditionalBrowserArguments += $" --disable-gpu-vsync";
+                            }
+                        }
+
                         Task<CoreWebView2Environment> Environment = CoreWebView2Environment.CreateAsync(null, Path.Combine(SMMRP.ApplicationData, SMMRG.AppName, SMMRF.Cache, SMMRF.WebView2), Options);
 
                         SSEWVMI.WebEngine.EnsureCoreWebView2Async(Environment.Result);
