@@ -62,9 +62,6 @@ namespace Sucrose.Shared.Engine.WebView.Event
 
             SSEWVMI.WebEngine.Source = SSEHS.GetSource(Path);
 
-
-
-
             SSEWVMI.WebEngine.CoreWebView2.DOMContentLoaded += WebEngineDOMContentLoaded;
 
             if (SMME.DeveloperMode)
