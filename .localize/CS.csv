@@ -178,6 +178,18 @@ Property\Property.CS.xaml,,
 Property\Property.CS.xaml,Property.FileDropDown.Access.Close,Rozumím
 Property\Property.CS.xaml,Property.FileDropDown.Access.Title,Upozornění na přístup
 Property\Property.CS.xaml,Property.FileDropDown.Access.Message,Nemáte oprávnění k přístupu k vybranému souboru.
+Property\Property.CS.xaml,,
+Property\Property.CS.xaml,Property.Localization.MpvPlayer,Pouze pro MpvPlayer
+Property\Property.CS.xaml,,
+Property\Property.CS.xaml,Property.Localization.Speed,Rychlost
+Property\Property.CS.xaml,Property.Localization.Gamma,Gamma
+Property\Property.CS.xaml,Property.Localization.Mute,Ztlumit
+Property\Property.CS.xaml,Property.Localization.Hue,Odstín
+Property\Property.CS.xaml,Property.Localization.Contrast,Kontrast
+Property\Property.CS.xaml,Property.Localization.Zoom,Přiblížení
+Property\Property.CS.xaml,Property.Localization.Sharpness,Ostrost
+Property\Property.CS.xaml,Property.Localization.Saturation,Sytost
+Property\Property.CS.xaml,Property.Localization.Brightness,Jas
 Undo\Undo.CS.xaml,Undo.QuestionTitle,Sucrose Undo
 Undo\Undo.CS.xaml,,
 Undo\Undo.CS.xaml,Undo.QuestionMessage,Skutečně chcete odinstalovat program Sucrose Wallpaper Engine?

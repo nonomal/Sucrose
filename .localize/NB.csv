@@ -178,6 +178,18 @@ Property\Property.NB.xaml,,
 Property\Property.NB.xaml,Property.FileDropDown.Access.Close,Forstått
 Property\Property.NB.xaml,Property.FileDropDown.Access.Title,Tilgangsvarsel
 Property\Property.NB.xaml,Property.FileDropDown.Access.Message,Du har ikke tillatelse til å få tilgang til den valgte filen.
+Property\Property.NB.xaml,,
+Property\Property.NB.xaml,Property.Localization.MpvPlayer,Kun for MpvPlayer
+Property\Property.NB.xaml,,
+Property\Property.NB.xaml,Property.Localization.Speed,Hastighet
+Property\Property.NB.xaml,Property.Localization.Gamma,Gamma
+Property\Property.NB.xaml,Property.Localization.Mute,Lydløs
+Property\Property.NB.xaml,Property.Localization.Hue,Fargetone
+Property\Property.NB.xaml,Property.Localization.Contrast,Kontrast
+Property\Property.NB.xaml,Property.Localization.Zoom,Zoom
+Property\Property.NB.xaml,Property.Localization.Sharpness,Skarphet
+Property\Property.NB.xaml,Property.Localization.Saturation,Metning
+Property\Property.NB.xaml,Property.Localization.Brightness,Lysstyrke
 Undo\Undo.NB.xaml,Undo.QuestionTitle,Sucrose Undo
 Undo\Undo.NB.xaml,,
 Undo\Undo.NB.xaml,Undo.QuestionMessage,Ønsker du virkelig å avinstallere Sucrose Wallpaper Engine?

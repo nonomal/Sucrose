@@ -22,4 +22,16 @@
     <system:String x:Key="Property.FileDropDown.Access.Close">Κατάλαβα</system:String>
     <system:String x:Key="Property.FileDropDown.Access.Title">Προειδοποίηση Πρόσβασης</system:String>
     <system:String x:Key="Property.FileDropDown.Access.Message">Δεν έχετε δικαίωμα πρόσβασης στο επιλεγμένο αρχείο.</system:String>
+
+    <system:String x:Key="Property.Localization.MpvPlayer">Μόνο για MpvPlayer</system:String>
+
+    <system:String x:Key="Property.Localization.Speed">Ταχύτητα</system:String>
+    <system:String x:Key="Property.Localization.Gamma">Γάμμα</system:String>
+    <system:String x:Key="Property.Localization.Mute">Σίγαση</system:String>
+    <system:String x:Key="Property.Localization.Hue">Απόχρωση</system:String>
+    <system:String x:Key="Property.Localization.Contrast">Αντίθεση</system:String>
+    <system:String x:Key="Property.Localization.Zoom">Εστίαση</system:String>
+    <system:String x:Key="Property.Localization.Sharpness">Ευκρίνεια</system:String>
+    <system:String x:Key="Property.Localization.Saturation">Κορεσμός</system:String>
+    <system:String x:Key="Property.Localization.Brightness">Φωτεινότητα</system:String>
 </ResourceDictionary>

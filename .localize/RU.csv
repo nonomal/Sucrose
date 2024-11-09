@@ -178,6 +178,18 @@ Property\Property.RU.xaml,,
 Property\Property.RU.xaml,Property.FileDropDown.Access.Close,Понял
 Property\Property.RU.xaml,Property.FileDropDown.Access.Title,Предупреждение о доступе
 Property\Property.RU.xaml,Property.FileDropDown.Access.Message,У вас нет разрешения на доступ к выбранному файлу.
+Property\Property.RU.xaml,,
+Property\Property.RU.xaml,Property.Localization.MpvPlayer,Только для MpvPlayer
+Property\Property.RU.xaml,,
+Property\Property.RU.xaml,Property.Localization.Speed,Скорость
+Property\Property.RU.xaml,Property.Localization.Gamma,Гамма
+Property\Property.RU.xaml,Property.Localization.Mute,Без Звука
+Property\Property.RU.xaml,Property.Localization.Hue,Оттенок
+Property\Property.RU.xaml,Property.Localization.Contrast,Контраст
+Property\Property.RU.xaml,Property.Localization.Zoom,Масштаб
+Property\Property.RU.xaml,Property.Localization.Sharpness,Резкость
+Property\Property.RU.xaml,Property.Localization.Saturation,Насыщенность
+Property\Property.RU.xaml,Property.Localization.Brightness,Яркость
 Undo\Undo.RU.xaml,Undo.QuestionTitle,Sucrose Undo
 Undo\Undo.RU.xaml,,
 Undo\Undo.RU.xaml,Undo.QuestionMessage,Вы действительно хотите удалить Sucrose Wallpaper Engine?

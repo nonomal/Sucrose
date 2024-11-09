@@ -178,6 +178,18 @@ Property\Property.FR.xaml,,
 Property\Property.FR.xaml,Property.FileDropDown.Access.Close,Compris
 Property\Property.FR.xaml,Property.FileDropDown.Access.Title,Avertissement d'Accès
 Property\Property.FR.xaml,Property.FileDropDown.Access.Message,Vous n'avez pas la permission d'accéder au fichier sélectionné.
+Property\Property.FR.xaml,,
+Property\Property.FR.xaml,Property.Localization.MpvPlayer,Uniquement pour MpvPlayer
+Property\Property.FR.xaml,,
+Property\Property.FR.xaml,Property.Localization.Speed,Vitesse
+Property\Property.FR.xaml,Property.Localization.Gamma,Gamma
+Property\Property.FR.xaml,Property.Localization.Mute,Muet
+Property\Property.FR.xaml,Property.Localization.Hue,Teinte
+Property\Property.FR.xaml,Property.Localization.Contrast,Contraste
+Property\Property.FR.xaml,Property.Localization.Zoom,Zoom
+Property\Property.FR.xaml,Property.Localization.Sharpness,Netteté
+Property\Property.FR.xaml,Property.Localization.Saturation,Saturation
+Property\Property.FR.xaml,Property.Localization.Brightness,Luminosité
 Undo\Undo.FR.xaml,Undo.QuestionTitle,Sucrose Undo
 Undo\Undo.FR.xaml,,
 Undo\Undo.FR.xaml,Undo.QuestionMessage,Voulez-vous vraiment désinstaller Sucrose Wallpaper Engine?

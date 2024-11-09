@@ -22,4 +22,16 @@
     <system:String x:Key="Property.FileDropDown.Access.Close">Compris</system:String>
     <system:String x:Key="Property.FileDropDown.Access.Title">Avertissement d'Accès</system:String>
     <system:String x:Key="Property.FileDropDown.Access.Message">Vous n'avez pas la permission d'accéder au fichier sélectionné.</system:String>
+
+    <system:String x:Key="Property.Localization.MpvPlayer">Uniquement pour MpvPlayer</system:String>
+
+    <system:String x:Key="Property.Localization.Speed">Vitesse</system:String>
+    <system:String x:Key="Property.Localization.Gamma">Gamma</system:String>
+    <system:String x:Key="Property.Localization.Mute">Muet</system:String>
+    <system:String x:Key="Property.Localization.Hue">Teinte</system:String>
+    <system:String x:Key="Property.Localization.Contrast">Contraste</system:String>
+    <system:String x:Key="Property.Localization.Zoom">Zoom</system:String>
+    <system:String x:Key="Property.Localization.Sharpness">Netteté</system:String>
+    <system:String x:Key="Property.Localization.Saturation">Saturation</system:String>
+    <system:String x:Key="Property.Localization.Brightness">Luminosité</system:String>
 </ResourceDictionary>

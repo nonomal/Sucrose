@@ -83,7 +83,7 @@ namespace Sucrose.Shared.Engine.MpvPlayer.Helper
 
         private static string Property(string Data)
         {
-            Match Matches = SSSHR.Match(Data, @"SucrosePropertyListener\('(\w+)'");
+            Match Matches = SSSHR.Match(Data, @"'\s*([^']+)\s*'"); //@"SucrosePropertyListener\('(\w+)'"
 
             return Matches.Success ? Matches.Groups[1].Value : string.Empty;
         }

@@ -178,6 +178,18 @@ Property\Property.KO.xaml,,
 Property\Property.KO.xaml,Property.FileDropDown.Access.Close,알겠습니다
 Property\Property.KO.xaml,Property.FileDropDown.Access.Title,접근 경고
 Property\Property.KO.xaml,Property.FileDropDown.Access.Message,선택한 파일에 접근할 권한이 없습니다.
+Property\Property.KO.xaml,,
+Property\Property.KO.xaml,Property.Localization.MpvPlayer,MpvPlayer 전용
+Property\Property.KO.xaml,,
+Property\Property.KO.xaml,Property.Localization.Speed,속도
+Property\Property.KO.xaml,Property.Localization.Gamma,감마
+Property\Property.KO.xaml,Property.Localization.Mute,음소거
+Property\Property.KO.xaml,Property.Localization.Hue,색조
+Property\Property.KO.xaml,Property.Localization.Contrast,대비
+Property\Property.KO.xaml,Property.Localization.Zoom,확대
+Property\Property.KO.xaml,Property.Localization.Sharpness,선명도
+Property\Property.KO.xaml,Property.Localization.Saturation,채도
+Property\Property.KO.xaml,Property.Localization.Brightness,밝기
 Undo\Undo.KO.xaml,Undo.QuestionTitle,Sucrose Undo
 Undo\Undo.KO.xaml,,
 Undo\Undo.KO.xaml,Undo.QuestionMessage,정말로 Sucrose Wallpaper Engine을(를) 제거하시겠습니까?

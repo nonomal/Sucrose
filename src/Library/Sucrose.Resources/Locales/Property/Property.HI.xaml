@@ -22,4 +22,16 @@
     <system:String x:Key="Property.FileDropDown.Access.Close">समझ गया</system:String>
     <system:String x:Key="Property.FileDropDown.Access.Title">प्रवेश चेतावनी</system:String>
     <system:String x:Key="Property.FileDropDown.Access.Message">आपको चयनित फ़ाइल तक पहुंचने की अनुमति नहीं है।</system:String>
+
+    <system:String x:Key="Property.Localization.MpvPlayer">केवल MpvPlayer के लिए</system:String>
+
+    <system:String x:Key="Property.Localization.Speed">गति</system:String>
+    <system:String x:Key="Property.Localization.Gamma">गामा</system:String>
+    <system:String x:Key="Property.Localization.Mute">मूक</system:String>
+    <system:String x:Key="Property.Localization.Hue">रंग</system:String>
+    <system:String x:Key="Property.Localization.Contrast">कंट्रास्ट</system:String>
+    <system:String x:Key="Property.Localization.Zoom">ज़ूम</system:String>
+    <system:String x:Key="Property.Localization.Sharpness">तीक्ष्णता</system:String>
+    <system:String x:Key="Property.Localization.Saturation">संतृप्ति</system:String>
+    <system:String x:Key="Property.Localization.Brightness">चमक</system:String>
 </ResourceDictionary>

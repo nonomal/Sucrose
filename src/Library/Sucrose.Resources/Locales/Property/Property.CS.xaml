@@ -22,4 +22,16 @@
     <system:String x:Key="Property.FileDropDown.Access.Close">Rozumím</system:String>
     <system:String x:Key="Property.FileDropDown.Access.Title">Upozornění na přístup</system:String>
     <system:String x:Key="Property.FileDropDown.Access.Message">Nemáte oprávnění k přístupu k vybranému souboru.</system:String>
+
+    <system:String x:Key="Property.Localization.MpvPlayer">Pouze pro MpvPlayer</system:String>
+
+    <system:String x:Key="Property.Localization.Speed">Rychlost</system:String>
+    <system:String x:Key="Property.Localization.Gamma">Gamma</system:String>
+    <system:String x:Key="Property.Localization.Mute">Ztlumit</system:String>
+    <system:String x:Key="Property.Localization.Hue">Odstín</system:String>
+    <system:String x:Key="Property.Localization.Contrast">Kontrast</system:String>
+    <system:String x:Key="Property.Localization.Zoom">Přiblížení</system:String>
+    <system:String x:Key="Property.Localization.Sharpness">Ostrost</system:String>
+    <system:String x:Key="Property.Localization.Saturation">Sytost</system:String>
+    <system:String x:Key="Property.Localization.Brightness">Jas</system:String>
 </ResourceDictionary>

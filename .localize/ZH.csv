@@ -178,6 +178,18 @@ Property\Property.ZH.xaml,,
 Property\Property.ZH.xaml,Property.FileDropDown.Access.Close,明白
 Property\Property.ZH.xaml,Property.FileDropDown.Access.Title,访问警告
 Property\Property.ZH.xaml,Property.FileDropDown.Access.Message,您没有权限访问所选文件。
+Property\Property.ZH.xaml,,
+Property\Property.ZH.xaml,Property.Localization.MpvPlayer,仅限MpvPlayer
+Property\Property.ZH.xaml,,
+Property\Property.ZH.xaml,Property.Localization.Speed,速度
+Property\Property.ZH.xaml,Property.Localization.Gamma,伽玛
+Property\Property.ZH.xaml,Property.Localization.Mute,静音
+Property\Property.ZH.xaml,Property.Localization.Hue,色调
+Property\Property.ZH.xaml,Property.Localization.Contrast,对比度
+Property\Property.ZH.xaml,Property.Localization.Zoom,缩放
+Property\Property.ZH.xaml,Property.Localization.Sharpness,清晰度
+Property\Property.ZH.xaml,Property.Localization.Saturation,饱和度
+Property\Property.ZH.xaml,Property.Localization.Brightness,亮度
 Undo\Undo.ZH.xaml,Undo.QuestionTitle,Sucrose Undo
 Undo\Undo.ZH.xaml,,
 Undo\Undo.ZH.xaml,Undo.QuestionMessage,您真的要卸载 Sucrose Wallpaper Engine 吗？

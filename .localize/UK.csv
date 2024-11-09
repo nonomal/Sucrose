@@ -178,6 +178,18 @@ Property\Property.UK.xaml,,
 Property\Property.UK.xaml,Property.FileDropDown.Access.Close,Зрозуміло
 Property\Property.UK.xaml,Property.FileDropDown.Access.Title,Попередження про доступ
 Property\Property.UK.xaml,Property.FileDropDown.Access.Message,У вас немає дозволу на доступ до вибраного файлу.
+Property\Property.UK.xaml,,
+Property\Property.UK.xaml,Property.Localization.MpvPlayer,Тільки для MpvPlayer
+Property\Property.UK.xaml,,
+Property\Property.UK.xaml,Property.Localization.Speed,Швидкість
+Property\Property.UK.xaml,Property.Localization.Gamma,Гамма
+Property\Property.UK.xaml,Property.Localization.Mute,Без Звуку
+Property\Property.UK.xaml,Property.Localization.Hue,Відтінок
+Property\Property.UK.xaml,Property.Localization.Contrast,Контраст
+Property\Property.UK.xaml,Property.Localization.Zoom,Масштаб
+Property\Property.UK.xaml,Property.Localization.Sharpness,Різкість
+Property\Property.UK.xaml,Property.Localization.Saturation,Насиченість
+Property\Property.UK.xaml,Property.Localization.Brightness,Яскравість
 Undo\Undo.UK.xaml,Undo.QuestionTitle,Sucrose Undo
 Undo\Undo.UK.xaml,,
 Undo\Undo.UK.xaml,Undo.QuestionMessage,Ви дійсно хочете видалити Sucrose Wallpaper Engine?

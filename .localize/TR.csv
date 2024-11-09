@@ -178,6 +178,18 @@ Property\Property.TR.xaml,,
 Property\Property.TR.xaml,Property.FileDropDown.Access.Close,Anladım
 Property\Property.TR.xaml,Property.FileDropDown.Access.Title,Erişim Uyarısı
 Property\Property.TR.xaml,Property.FileDropDown.Access.Message,Seçtiğiniz dosyaya erişim yetkiniz bulunmamakta.
+Property\Property.TR.xaml,,
+Property\Property.TR.xaml,Property.Localization.MpvPlayer,Sadece MpvPlayer İçin
+Property\Property.TR.xaml,,
+Property\Property.TR.xaml,Property.Localization.Speed,Hız
+Property\Property.TR.xaml,Property.Localization.Gamma,Gama
+Property\Property.TR.xaml,Property.Localization.Mute,Sessiz
+Property\Property.TR.xaml,Property.Localization.Hue,Renk Tonu
+Property\Property.TR.xaml,Property.Localization.Contrast,Kontrast
+Property\Property.TR.xaml,Property.Localization.Zoom,Yakınlaştırma
+Property\Property.TR.xaml,Property.Localization.Sharpness,Keskinlik
+Property\Property.TR.xaml,Property.Localization.Saturation,Doygunluk
+Property\Property.TR.xaml,Property.Localization.Brightness,Parlaklık
 Undo\Undo.TR.xaml,Undo.QuestionTitle,Sucrose Undo
 Undo\Undo.TR.xaml,,
 Undo\Undo.TR.xaml,Undo.QuestionMessage,Sucrose Wallpaper Engine'yi gerçekten kaldırmak istiyor musunuz?

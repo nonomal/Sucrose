@@ -178,6 +178,18 @@ Property\Property.SV.xaml,,
 Property\Property.SV.xaml,Property.FileDropDown.Access.Close,Förstått
 Property\Property.SV.xaml,Property.FileDropDown.Access.Title,Åtkomstvarning
 Property\Property.SV.xaml,Property.FileDropDown.Access.Message,Du har inte behörighet att få åtkomst till den valda filen.
+Property\Property.SV.xaml,,
+Property\Property.SV.xaml,Property.Localization.MpvPlayer,Endast för MpvPlayer
+Property\Property.SV.xaml,,
+Property\Property.SV.xaml,Property.Localization.Speed,Hastighet
+Property\Property.SV.xaml,Property.Localization.Gamma,Gamma
+Property\Property.SV.xaml,Property.Localization.Mute,Ljudlös
+Property\Property.SV.xaml,Property.Localization.Hue,Färgtone
+Property\Property.SV.xaml,Property.Localization.Contrast,Kontrast
+Property\Property.SV.xaml,Property.Localization.Zoom,Zoom
+Property\Property.SV.xaml,Property.Localization.Sharpness,Skarphet
+Property\Property.SV.xaml,Property.Localization.Saturation,Mättnad
+Property\Property.SV.xaml,Property.Localization.Brightness,Ljusstyrka
 Undo\Undo.SV.xaml,Undo.QuestionTitle,Sucrose Undo
 Undo\Undo.SV.xaml,,
 Undo\Undo.SV.xaml,Undo.QuestionMessage,Vill du verkligen avinstallera Sucrose Wallpaper Engine?

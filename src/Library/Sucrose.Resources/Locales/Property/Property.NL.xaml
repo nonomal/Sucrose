@@ -22,4 +22,16 @@
     <system:String x:Key="Property.FileDropDown.Access.Close">Begrepen</system:String>
     <system:String x:Key="Property.FileDropDown.Access.Title">Toegangswaarschuwing</system:String>
     <system:String x:Key="Property.FileDropDown.Access.Message">U heeft geen toestemming om toegang te krijgen tot het geselecteerde bestand.</system:String>
+
+    <system:String x:Key="Property.Localization.MpvPlayer">Alleen voor MpvPlayer</system:String>
+
+    <system:String x:Key="Property.Localization.Speed">Snelheid</system:String>
+    <system:String x:Key="Property.Localization.Gamma">Gamma</system:String>
+    <system:String x:Key="Property.Localization.Mute">Dempen</system:String>
+    <system:String x:Key="Property.Localization.Hue">Tint</system:String>
+    <system:String x:Key="Property.Localization.Contrast">Contrasteren</system:String>
+    <system:String x:Key="Property.Localization.Zoom">Zoom</system:String>
+    <system:String x:Key="Property.Localization.Sharpness">Scherpte</system:String>
+    <system:String x:Key="Property.Localization.Saturation">Verzadiging</system:String>
+    <system:String x:Key="Property.Localization.Brightness">Helderheid</system:String>
 </ResourceDictionary>

@@ -178,6 +178,18 @@ Property\Property.EL.xaml,,
 Property\Property.EL.xaml,Property.FileDropDown.Access.Close,Κατάλαβα
 Property\Property.EL.xaml,Property.FileDropDown.Access.Title,Προειδοποίηση Πρόσβασης
 Property\Property.EL.xaml,Property.FileDropDown.Access.Message,Δεν έχετε δικαίωμα πρόσβασης στο επιλεγμένο αρχείο.
+Property\Property.EL.xaml,,
+Property\Property.EL.xaml,Property.Localization.MpvPlayer,Μόνο για MpvPlayer
+Property\Property.EL.xaml,,
+Property\Property.EL.xaml,Property.Localization.Speed,Ταχύτητα
+Property\Property.EL.xaml,Property.Localization.Gamma,Γάμμα
+Property\Property.EL.xaml,Property.Localization.Mute,Σίγαση
+Property\Property.EL.xaml,Property.Localization.Hue,Απόχρωση
+Property\Property.EL.xaml,Property.Localization.Contrast,Αντίθεση
+Property\Property.EL.xaml,Property.Localization.Zoom,Εστίαση
+Property\Property.EL.xaml,Property.Localization.Sharpness,Ευκρίνεια
+Property\Property.EL.xaml,Property.Localization.Saturation,Κορεσμός
+Property\Property.EL.xaml,Property.Localization.Brightness,Φωτεινότητα
 Undo\Undo.EL.xaml,Undo.QuestionTitle,Sucrose Undo
 Undo\Undo.EL.xaml,,
 Undo\Undo.EL.xaml,Undo.QuestionMessage,Θέλετε πραγματικά να απεγκαταστήσετε το Sucrose Wallpaper Engine;

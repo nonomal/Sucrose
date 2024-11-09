@@ -22,4 +22,16 @@
     <system:String x:Key="Property.FileDropDown.Access.Close">わかりました</system:String>
     <system:String x:Key="Property.FileDropDown.Access.Title">アクセス警告</system:String>
     <system:String x:Key="Property.FileDropDown.Access.Message">選択したファイルにアクセスする権限がありません。</system:String>
+
+    <system:String x:Key="Property.Localization.MpvPlayer">MpvPlayer専用</system:String>
+
+    <system:String x:Key="Property.Localization.Speed">速度</system:String>
+    <system:String x:Key="Property.Localization.Gamma">ガンマ</system:String>
+    <system:String x:Key="Property.Localization.Mute">ミュート</system:String>
+    <system:String x:Key="Property.Localization.Hue">色合い</system:String>
+    <system:String x:Key="Property.Localization.Contrast">コントラスト</system:String>
+    <system:String x:Key="Property.Localization.Zoom">ズーム</system:String>
+    <system:String x:Key="Property.Localization.Sharpness">鮮明度</system:String>
+    <system:String x:Key="Property.Localization.Saturation">彩度</system:String>
+    <system:String x:Key="Property.Localization.Brightness">明るさ</system:String>
 </ResourceDictionary>

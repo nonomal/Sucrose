@@ -178,6 +178,18 @@ Property\Property.HI.xaml,,
 Property\Property.HI.xaml,Property.FileDropDown.Access.Close,समझ गया
 Property\Property.HI.xaml,Property.FileDropDown.Access.Title,प्रवेश चेतावनी
 Property\Property.HI.xaml,Property.FileDropDown.Access.Message,आपको चयनित फ़ाइल तक पहुंचने की अनुमति नहीं है।
+Property\Property.HI.xaml,,
+Property\Property.HI.xaml,Property.Localization.MpvPlayer,केवल MpvPlayer के लिए
+Property\Property.HI.xaml,,
+Property\Property.HI.xaml,Property.Localization.Speed,गति
+Property\Property.HI.xaml,Property.Localization.Gamma,गामा
+Property\Property.HI.xaml,Property.Localization.Mute,मूक
+Property\Property.HI.xaml,Property.Localization.Hue,रंग
+Property\Property.HI.xaml,Property.Localization.Contrast,कंट्रास्ट
+Property\Property.HI.xaml,Property.Localization.Zoom,ज़ूम
+Property\Property.HI.xaml,Property.Localization.Sharpness,तीक्ष्णता
+Property\Property.HI.xaml,Property.Localization.Saturation,संतृप्ति
+Property\Property.HI.xaml,Property.Localization.Brightness,चमक
 Undo\Undo.HI.xaml,Undo.QuestionTitle,Sucrose Undo
 Undo\Undo.HI.xaml,,
 Undo\Undo.HI.xaml,Undo.QuestionMessage,क्या आप वास्तव में Sucrose Wallpaper Engine को अनइंस्टॉल करना चाहते हैं?

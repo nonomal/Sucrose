@@ -22,4 +22,16 @@
     <system:String x:Key="Property.FileDropDown.Access.Close">Faham</system:String>
     <system:String x:Key="Property.FileDropDown.Access.Title">Amaran Akses</system:String>
     <system:String x:Key="Property.FileDropDown.Access.Message">Anda tidak mempunyai kebenaran untuk mengakses fail yang dipilih.</system:String>
+
+    <system:String x:Key="Property.Localization.MpvPlayer">Hanya untuk MpvPlayer</system:String>
+
+    <system:String x:Key="Property.Localization.Speed">Kelajuan</system:String>
+    <system:String x:Key="Property.Localization.Gamma">Gamma</system:String>
+    <system:String x:Key="Property.Localization.Mute">Senyap</system:String>
+    <system:String x:Key="Property.Localization.Hue">Warna</system:String>
+    <system:String x:Key="Property.Localization.Contrast">Kontras</system:String>
+    <system:String x:Key="Property.Localization.Zoom">Zoom</system:String>
+    <system:String x:Key="Property.Localization.Sharpness">Kejelasan</system:String>
+    <system:String x:Key="Property.Localization.Saturation">Ketepuan</system:String>
+    <system:String x:Key="Property.Localization.Brightness">Kecerahan</system:String>
 </ResourceDictionary>

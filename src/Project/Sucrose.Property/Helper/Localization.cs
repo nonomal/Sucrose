@@ -1,5 +1,6 @@
 ﻿using SMMG = Sucrose.Manager.Manage.General;
 using SPMI = Sucrose.Property.Manage.Internal;
+using SRER = Sucrose.Resources.Extension.Resources;
 
 namespace Sucrose.Property.Helper
 {
@@ -23,6 +24,16 @@ namespace Sucrose.Property.Helper
                     {
                         return Value;
                     }
+                }
+            }
+
+            if (Key.StartsWith("Property.Localization."))
+            {
+                string Value = SRER.GetValue(Key);
+
+                if (Value != $"[{Key}]")
+                {
+                    return Value;
                 }
             }
 

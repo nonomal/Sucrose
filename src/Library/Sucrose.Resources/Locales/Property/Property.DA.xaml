@@ -22,4 +22,16 @@
     <system:String x:Key="Property.FileDropDown.Access.Close">Forstået</system:String>
     <system:String x:Key="Property.FileDropDown.Access.Title">Adgangsvarsel</system:String>
     <system:String x:Key="Property.FileDropDown.Access.Message">Du har ikke tilladelse til at få adgang til den valgte fil.</system:String>
+
+    <system:String x:Key="Property.Localization.MpvPlayer">Kun til MpvPlayer</system:String>
+
+    <system:String x:Key="Property.Localization.Speed">Hastighed</system:String>
+    <system:String x:Key="Property.Localization.Gamma">Gamma</system:String>
+    <system:String x:Key="Property.Localization.Mute">Lydløs</system:String>
+    <system:String x:Key="Property.Localization.Hue">Farvetone</system:String>
+    <system:String x:Key="Property.Localization.Contrast">Kontrast</system:String>
+    <system:String x:Key="Property.Localization.Zoom">Zoom</system:String>
+    <system:String x:Key="Property.Localization.Sharpness">Skarphed</system:String>
+    <system:String x:Key="Property.Localization.Saturation">Mætning</system:String>
+    <system:String x:Key="Property.Localization.Brightness">Lysstyrke</system:String>
 </ResourceDictionary>

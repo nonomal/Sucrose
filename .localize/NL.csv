@@ -178,6 +178,18 @@ Property\Property.NL.xaml,,
 Property\Property.NL.xaml,Property.FileDropDown.Access.Close,Begrepen
 Property\Property.NL.xaml,Property.FileDropDown.Access.Title,Toegangswaarschuwing
 Property\Property.NL.xaml,Property.FileDropDown.Access.Message,U heeft geen toestemming om toegang te krijgen tot het geselecteerde bestand.
+Property\Property.NL.xaml,,
+Property\Property.NL.xaml,Property.Localization.MpvPlayer,Alleen voor MpvPlayer
+Property\Property.NL.xaml,,
+Property\Property.NL.xaml,Property.Localization.Speed,Snelheid
+Property\Property.NL.xaml,Property.Localization.Gamma,Gamma
+Property\Property.NL.xaml,Property.Localization.Mute,Dempen
+Property\Property.NL.xaml,Property.Localization.Hue,Tint
+Property\Property.NL.xaml,Property.Localization.Contrast,Contrasteren
+Property\Property.NL.xaml,Property.Localization.Zoom,Zoom
+Property\Property.NL.xaml,Property.Localization.Sharpness,Scherpte
+Property\Property.NL.xaml,Property.Localization.Saturation,Verzadiging
+Property\Property.NL.xaml,Property.Localization.Brightness,Helderheid
 Undo\Undo.NL.xaml,Undo.QuestionTitle,Sucrose Undo
 Undo\Undo.NL.xaml,,
 Undo\Undo.NL.xaml,Undo.QuestionMessage,Wil je Sucrose Wallpaper Engine echt verwijderen?

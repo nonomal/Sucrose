@@ -22,4 +22,16 @@
     <system:String x:Key="Property.FileDropDown.Access.Close">Anladım</system:String>
     <system:String x:Key="Property.FileDropDown.Access.Title">Erişim Uyarısı</system:String>
     <system:String x:Key="Property.FileDropDown.Access.Message">Seçtiğiniz dosyaya erişim yetkiniz bulunmamakta.</system:String>
+
+    <system:String x:Key="Property.Localization.MpvPlayer">Sadece MpvPlayer İçin</system:String>
+
+    <system:String x:Key="Property.Localization.Speed">Hız</system:String>
+    <system:String x:Key="Property.Localization.Gamma">Gama</system:String>
+    <system:String x:Key="Property.Localization.Mute">Sessiz</system:String>
+    <system:String x:Key="Property.Localization.Hue">Renk Tonu</system:String>
+    <system:String x:Key="Property.Localization.Contrast">Kontrast</system:String>
+    <system:String x:Key="Property.Localization.Zoom">Yakınlaştırma</system:String>
+    <system:String x:Key="Property.Localization.Sharpness">Keskinlik</system:String>
+    <system:String x:Key="Property.Localization.Saturation">Doygunluk</system:String>
+    <system:String x:Key="Property.Localization.Brightness">Parlaklık</system:String>
 </ResourceDictionary>

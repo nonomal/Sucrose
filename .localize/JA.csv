@@ -178,6 +178,18 @@ Property\Property.JA.xaml,,
 Property\Property.JA.xaml,Property.FileDropDown.Access.Close,わかりました
 Property\Property.JA.xaml,Property.FileDropDown.Access.Title,アクセス警告
 Property\Property.JA.xaml,Property.FileDropDown.Access.Message,選択したファイルにアクセスする権限がありません。
+Property\Property.JA.xaml,,
+Property\Property.JA.xaml,Property.Localization.MpvPlayer,MpvPlayer専用
+Property\Property.JA.xaml,,
+Property\Property.JA.xaml,Property.Localization.Speed,速度
+Property\Property.JA.xaml,Property.Localization.Gamma,ガンマ
+Property\Property.JA.xaml,Property.Localization.Mute,ミュート
+Property\Property.JA.xaml,Property.Localization.Hue,色合い
+Property\Property.JA.xaml,Property.Localization.Contrast,コントラスト
+Property\Property.JA.xaml,Property.Localization.Zoom,ズーム
+Property\Property.JA.xaml,Property.Localization.Sharpness,鮮明度
+Property\Property.JA.xaml,Property.Localization.Saturation,彩度
+Property\Property.JA.xaml,Property.Localization.Brightness,明るさ
 Undo\Undo.JA.xaml,Undo.QuestionTitle,Sucrose Undo
 Undo\Undo.JA.xaml,,
 Undo\Undo.JA.xaml,Undo.QuestionMessage,本当に Sucrose Wallpaper Engine をアンインストールしますか？

@@ -178,6 +178,18 @@ Property\Property.DA.xaml,,
 Property\Property.DA.xaml,Property.FileDropDown.Access.Close,Forstået
 Property\Property.DA.xaml,Property.FileDropDown.Access.Title,Adgangsvarsel
 Property\Property.DA.xaml,Property.FileDropDown.Access.Message,Du har ikke tilladelse til at få adgang til den valgte fil.
+Property\Property.DA.xaml,,
+Property\Property.DA.xaml,Property.Localization.MpvPlayer,Kun til MpvPlayer
+Property\Property.DA.xaml,,
+Property\Property.DA.xaml,Property.Localization.Speed,Hastighed
+Property\Property.DA.xaml,Property.Localization.Gamma,Gamma
+Property\Property.DA.xaml,Property.Localization.Mute,Lydløs
+Property\Property.DA.xaml,Property.Localization.Hue,Farvetone
+Property\Property.DA.xaml,Property.Localization.Contrast,Kontrast
+Property\Property.DA.xaml,Property.Localization.Zoom,Zoom
+Property\Property.DA.xaml,Property.Localization.Sharpness,Skarphed
+Property\Property.DA.xaml,Property.Localization.Saturation,Mætning
+Property\Property.DA.xaml,Property.Localization.Brightness,Lysstyrke
 Undo\Undo.DA.xaml,Undo.QuestionTitle,Sucrose Undo
 Undo\Undo.DA.xaml,,
 Undo\Undo.DA.xaml,Undo.QuestionMessage,Ønsker du virkelig at afinstallere Sucrose Wallpaper Engine?
