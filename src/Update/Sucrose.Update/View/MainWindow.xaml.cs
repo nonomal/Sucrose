@@ -25,6 +25,7 @@ using SMMRS = Sucrose.Memory.Manage.Readonly.Soferity;
 using SMMRU = Sucrose.Memory.Manage.Readonly.Url;
 using SMMU = Sucrose.Manager.Manage.Update;
 using SRER = Sucrose.Resources.Extension.Resources;
+using SSCEFT = Sucrose.Shared.Core.Enum.FrameworkType;
 using SSCEUCT = Sucrose.Shared.Core.Enum.UpdateChannelType;
 using SSCEUET = Sucrose.Shared.Core.Enum.UpdateExtensionType;
 using SSCHA = Sucrose.Shared.Core.Helper.Architecture;
@@ -409,17 +410,7 @@ namespace Sucrose.Update.View
                     {
                         string Name = $"{SMMRG.AppName}_{SMMRG.Bundle}_{SSCHF.GetDescription()}_{SSCHA.Get()}_{Latest}{SSCHU.GetDescription(SUMMU.ExtensionType)}";
 
-                        string[] Required =
-                        {
-                            SSCHU.GetDescription(SUMMU.ExtensionType),
-                            SSCHF.GetDescription(),
-                            SSCHA.GetText(),
-                            SMMRG.AppName,
-                            SMMRG.Bundle,
-                            $"{Latest}"
-                        };
-
-                        if (Asset.Name.Contains(Name) && Required.All(Asset.Name.Contains))
+                        if (Asset.Name.Contains(Name))
                         {
                             SUMI.Source = Asset.BrowserDownloadUrl;
 
@@ -431,6 +422,28 @@ namespace Sucrose.Update.View
                             }
 
                             return true;
+                        }
+                    }
+
+                    if (string.IsNullOrEmpty(Bundle))
+                    {
+                        foreach (SSIIA Asset in Assets)
+                        {
+                            string Name = $"{SMMRG.AppName}_{SMMRG.Bundle}_{SSCHF.GetDescription(SSCEFT.NET_Framework_4_8)}_{SSCHA.Get()}_{Latest}{SSCHU.GetDescription(SUMMU.ExtensionType)}";
+
+                            if (Asset.Name.Contains(Name))
+                            {
+                                SUMI.Source = Asset.BrowserDownloadUrl;
+
+                                Bundle = Path.Combine(SUMI.CachePath, Path.GetFileName(SUMI.Source));
+
+                                if (File.Exists(Bundle))
+                                {
+                                    File.Delete(Bundle);
+                                }
+
+                                return true;
+                            }
                         }
                     }
 

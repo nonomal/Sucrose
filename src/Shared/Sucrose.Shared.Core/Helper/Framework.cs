@@ -31,14 +31,29 @@ namespace Sucrose.Shared.Core.Helper
             return $"{Get()}";
         }
 
+        public static string GetText(SSCEFT Type)
+        {
+            return $"{Type}";
+        }
+
         public static string GetName()
         {
             return SSCHA.GetDisplay(Get()).GetName();
         }
 
+        public static string GetName(SSCEFT Type)
+        {
+            return SSCHA.GetDisplay(Type).GetName();
+        }
+
         public static string GetDescription()
         {
             return SSCHA.GetDisplay(Get()).GetDescription();
+        }
+
+        public static string GetDescription(SSCEFT Type)
+        {
+            return SSCHA.GetDisplay(Type).GetDescription();
         }
     }
 }
