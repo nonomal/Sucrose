@@ -1,8 +1,8 @@
 $ErrorActionPreference = 'Stop'
 $packageArgs = @{
-    packageName   = 'Sucrose Wallpaper Engine'
-    fileType      = 'exe'
-    validExitCodes= @(0)
+	packageName   = 'Sucrose Wallpaper Engine'
+	fileType      = 'exe'
+	validExitCodes= @(0)
 }
 
 $key = Get-ItemProperty 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\Sucrose' -ErrorAction SilentlyContinue

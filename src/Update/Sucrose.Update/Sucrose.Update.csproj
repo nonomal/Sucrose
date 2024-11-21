@@ -80,7 +80,7 @@
 
     <ItemGroup>
         <PackageReference Condition="$(TargetFramework.StartsWith('net48'))" Include="Downloader" Version="3.1.2" />
-        <PackageReference Condition="!$(TargetFramework.StartsWith('net48'))" Include="Downloader" Version="3.2.1" />
+        <PackageReference Condition="!$(TargetFramework.StartsWith('net48'))" Include="Downloader" Version="3.3.0" />
     </ItemGroup>
 
     <ItemGroup Condition="$(TargetFramework.StartsWith('net48'))">

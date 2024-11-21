@@ -1,6 +1,7 @@
 ﻿using CefSharp;
 using CefSharp.Wpf.HwndHost;
 using Microsoft.Win32;
+using System.Collections;
 using System.Diagnostics;
 using System.Globalization;
 using System.IO;
@@ -53,6 +54,7 @@ using SSTHI = Sucrose.Shared.Theme.Helper.Info;
 using SSTHP = Sucrose.Shared.Theme.Helper.Properties;
 using SSTHV = Sucrose.Shared.Theme.Helper.Various;
 using SSWEW = Sucrose.Shared.Watchdog.Extension.Watch;
+using SSWHD = Sucrose.Shared.Watchdog.Helper.Dataset;
 
 namespace Sucrose.Live.CefSharp
 {
@@ -188,6 +190,13 @@ namespace Sucrose.Live.CefSharp
 
         protected void Checker()
         {
+            SSWHD.Add("CefSharp Checker", new Hashtable()
+            {
+                { "Check", Check() },
+                { "CefSharp Time", SMMW.CefSharpTime },
+                { "CefSharp Time Check", SMMW.CefSharpTime > DateTime.Now }
+            });
+
             if (Check() || SMMW.CefSharpTime > DateTime.Now)
             {
                 Configure();
@@ -223,6 +232,8 @@ namespace Sucrose.Live.CefSharp
                         DialogResult = LightMessageBox.Result;
                         break;
                 }
+
+                SSWHD.Add("CefSharp Dialog Result", $"{DialogResult}");
 
                 switch (DialogResult)
                 {

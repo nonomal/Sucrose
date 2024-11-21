@@ -1,4 +1,5 @@
 ﻿using Microsoft.Web.WebView2.Core;
+using System.Collections;
 using System.Diagnostics;
 using System.Globalization;
 using System.IO;
@@ -49,6 +50,7 @@ using SSTHI = Sucrose.Shared.Theme.Helper.Info;
 using SSTHP = Sucrose.Shared.Theme.Helper.Properties;
 using SSTHV = Sucrose.Shared.Theme.Helper.Various;
 using SSWEW = Sucrose.Shared.Watchdog.Extension.Watch;
+using SSWHD = Sucrose.Shared.Watchdog.Helper.Dataset;
 
 namespace Sucrose.Live.WebView
 {
@@ -162,6 +164,13 @@ namespace Sucrose.Live.WebView
 
         protected void Checker()
         {
+            SSWHD.Add("WebView Checker", new Hashtable()
+            {
+                { "Check", Check() },
+                { "WebView Time", SMMW.WebViewTime },
+                { "WebView Time Check", SMMW.WebViewTime > DateTime.Now }
+            });
+
             if (Check() || SMMW.WebViewTime > DateTime.Now)
             {
                 Configure();
@@ -197,6 +206,8 @@ namespace Sucrose.Live.WebView
                         DialogResult = LightMessageBox.Result;
                         break;
                 }
+
+                SSWHD.Add("WebView Dialog Result", $"{DialogResult}");
 
                 switch (DialogResult)
                 {
