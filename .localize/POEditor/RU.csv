@@ -1194,36 +1194,39 @@ PASS⦙278,PASS⦙278,Don't Touch,Portal\SettingPage\WallpaperSettingPage\Portal
 Portal.WallpaperSettingPage.ShuffleMode,Режим Перемешивания,,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,
 Portal.WallpaperSettingPage.ShuffleMode.Description,Измените режим перемешивания для поддерживаемых обоев.,,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,
 PASS⦙279,PASS⦙279,Don't Touch,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,Please don't touch the translation in this line.
+Portal.WallpaperSettingPage.BackgroundImage,Фоновое Изображение,,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,
+Portal.WallpaperSettingPage.BackgroundImage.Description,Заменяет живые обои на фоновое изображение рабочего стола.,,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,
+PASS⦙280,PASS⦙280,Don't Touch,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,Please don't touch the translation in this line.
 Portal.WallpaperSettingPage.HardwareAcceleration,Аппаратное Yскорение,,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,
 Portal.WallpaperSettingPage.HardwareAcceleration.Description,Изменяет статус аппаратного ускорения для поддерживаемых обоев.,,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,
-PASS⦙280,PASS⦙280,Don't Touch,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,Please don't touch the translation in this line.
+PASS⦙281,PASS⦙281,Don't Touch,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,Please don't touch the translation in this line.
 Portal.WallpaperSettingPage.GifPlayer,Плеер для Gif,,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,
 Portal.WallpaperSettingPage.GifPlayer.Description,Выберите плеер для воспроизведения обоев в формате Gif из вашей библиотеки.,,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,
-PASS⦙281,PASS⦙281,Don't Touch,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,Please don't touch the translation in this line.
+PASS⦙282,PASS⦙282,Don't Touch,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,Please don't touch the translation in this line.
 Portal.WallpaperSettingPage.VideoPlayer,Плеер для Video,,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,
 Portal.WallpaperSettingPage.VideoPlayer.Description,Выберите плеер для воспроизведения обоев в формате Video из вашей библиотеки.,,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,
-PASS⦙282,PASS⦙282,Don't Touch,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,Please don't touch the translation in this line.
+PASS⦙283,PASS⦙283,Don't Touch,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,Please don't touch the translation in this line.
 Portal.WallpaperSettingPage.UrlPlayer,Мотор для Url,,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,
 Portal.WallpaperSettingPage.UrlPlayer.Description,Выберите мотор для запуска обоев в формате Url из вашей библиотеки.,,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,
-PASS⦙283,PASS⦙283,Don't Touch,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,Please don't touch the translation in this line.
+PASS⦙284,PASS⦙284,Don't Touch,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,Please don't touch the translation in this line.
 Portal.WallpaperSettingPage.WebPlayer,Мотор для Web,,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,
 Portal.WallpaperSettingPage.WebPlayer.Description,Выберите мотор для запуска обоев в формате Web из вашей библиотеки.,,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,
-PASS⦙284,PASS⦙284,Don't Touch,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,Please don't touch the translation in this line.
+PASS⦙285,PASS⦙285,Don't Touch,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,Please don't touch the translation in this line.
 Portal.WallpaperSettingPage.YouTubePlayer,Мотор для YouTube,,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,
 Portal.WallpaperSettingPage.YouTubePlayer.Description,Выберите мотор для запуска обоев из YouTube из вашей библиотеки.,,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,
-PASS⦙285,PASS⦙285,Don't Touch,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,Please don't touch the translation in this line.
+PASS⦙286,PASS⦙286,Don't Touch,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,Please don't touch the translation in this line.
 Portal.WallpaperSettingPage.ApplicationPlayer,Мотор для Application,,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,
 Portal.WallpaperSettingPage.ApplicationPlayer.Description,Выберите мотор для запуска обоев в формате Application из вашей библиотеки.,,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,
 Portal.BrokenStorePage.Title,BrokenStorePage,,Portal\StorePage\BrokenStorePage\Portal.BrokenStorePage.RU.xaml,
-PASS⦙286,PASS⦙286,Don't Touch,Portal\StorePage\BrokenStorePage\Portal.BrokenStorePage.RU.xaml,Please don't touch the translation in this line.
+PASS⦙287,PASS⦙287,Don't Touch,Portal\StorePage\BrokenStorePage\Portal.BrokenStorePage.RU.xaml,Please don't touch the translation in this line.
 Portal.BrokenStorePage.TitleText,"Момент, когда затух свет интернета",,Portal\StorePage\BrokenStorePage\Portal.BrokenStorePage.RU.xaml,
 Portal.BrokenStorePage.DescriptionText,"Как небо без звёзд, здесь нет блеска интернета",,Portal\StorePage\BrokenStorePage\Portal.BrokenStorePage.RU.xaml,
 Portal.FullStorePage.Title,FullStorePage,,Portal\StorePage\FullStorePage\Portal.FullStorePage.RU.xaml,
 Portal.SearchStorePage.Title,SearchStorePage,,Portal\StorePage\SearchStorePage\Portal.SearchStorePage.RU.xaml,
-PASS⦙287,PASS⦙287,Don't Touch,Portal\StorePage\SearchStorePage\Portal.SearchStorePage.RU.xaml,Please don't touch the translation in this line.
+PASS⦙288,PASS⦙288,Don't Touch,Portal\StorePage\SearchStorePage\Portal.SearchStorePage.RU.xaml,Please don't touch the translation in this line.
 Portal.SearchStorePage.TitleText,Ответ на ваш поиск может скрываться на небесах,,Portal\StorePage\SearchStorePage\Portal.SearchStorePage.RU.xaml,
 Portal.SearchStorePage.DescriptionText,"Если результаты не соответствуют вашим ожиданиям, небо может предложить вам новый опыт",,Portal\StorePage\SearchStorePage\Portal.SearchStorePage.RU.xaml,
 Portal.UnknownStorePage.Title,UnknownStorePage,,Portal\StorePage\UnknownStorePage\Portal.UnknownStorePage.RU.xaml,
-PASS⦙288,PASS⦙288,Don't Touch,Portal\StorePage\UnknownStorePage\Portal.UnknownStorePage.RU.xaml,Please don't touch the translation in this line.
+PASS⦙289,PASS⦙289,Don't Touch,Portal\StorePage\UnknownStorePage\Portal.UnknownStorePage.RU.xaml,Please don't touch the translation in this line.
 Portal.UnknownStorePage.TitleText,"Раскройте тайну, случившуюся в магазине",,Portal\StorePage\UnknownStorePage\Portal.UnknownStorePage.RU.xaml,
 Portal.UnknownStorePage.DescriptionText,"Исследуйте неизведанное и отправьтесь в путешествие по раскрытию тайны, произошедшей в магазине",,Portal\StorePage\UnknownStorePage\Portal.UnknownStorePage.RU.xaml,

@@ -25,6 +25,9 @@
     <system:String x:Key="Portal.WallpaperSettingPage.ShuffleMode">Blandningsläge</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.ShuffleMode.Description">Ändrar blandningsläge för stödda tapeter.</system:String>
 
+    <system:String x:Key="Portal.WallpaperSettingPage.BackgroundImage">Bakgrundsbild</system:String>
+    <system:String x:Key="Portal.WallpaperSettingPage.BackgroundImage.Description">Ändrar det levande tapeten till en skrivbordsbakgrundsbild.</system:String>
+
     <system:String x:Key="Portal.WallpaperSettingPage.HardwareAcceleration">Hårdvaruacceleration</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.HardwareAcceleration.Description">Ändrar hårdvaruaccelerationsstatus för stödda bakgrundsbilder.</system:String>
 

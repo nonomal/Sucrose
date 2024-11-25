@@ -1194,6 +1194,9 @@ Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.TR.xaml,,
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.TR.xaml,Portal.WallpaperSettingPage.ShuffleMode,Karıştırma Durumu
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.TR.xaml,Portal.WallpaperSettingPage.ShuffleMode.Description,Desteklenen duvar kağıtlarında karıştırma durumunu değiştirir.
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.TR.xaml,,
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.TR.xaml,Portal.WallpaperSettingPage.BackgroundImage,Arkaplan Görüntüsü
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.TR.xaml,Portal.WallpaperSettingPage.BackgroundImage.Description,Hareketli duvar kağıdını masaüstü arkaplan görüntüsü olarak değiştirir.
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.TR.xaml,,
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.TR.xaml,Portal.WallpaperSettingPage.HardwareAcceleration,Donanım Hızlandırma
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.TR.xaml,Portal.WallpaperSettingPage.HardwareAcceleration.Description,Desteklenen duvar kağıtlarında donanım hızlandırma durumunu değiştirir.
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.TR.xaml,,

@@ -1194,6 +1194,9 @@ Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.JA.xaml,,
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.JA.xaml,Portal.WallpaperSettingPage.ShuffleMode,シャッフルモード
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.JA.xaml,Portal.WallpaperSettingPage.ShuffleMode.Description,サポートされる壁紙のシャッフルモードを変更します。
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.JA.xaml,,
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.JA.xaml,Portal.WallpaperSettingPage.BackgroundImage,背景画像
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.JA.xaml,Portal.WallpaperSettingPage.BackgroundImage.Description,ライブ壁紙をデスクトップの背景画像に変更します。
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.JA.xaml,,
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.JA.xaml,Portal.WallpaperSettingPage.HardwareAcceleration,ハードウェアアクセラレーション
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.JA.xaml,Portal.WallpaperSettingPage.HardwareAcceleration.Description,サポートされている壁紙のハードウェアアクセラレーションの状態を変更します。
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.JA.xaml,,

@@ -23,6 +23,8 @@ namespace Sucrose.Manager.Manage
 
         public static int DeveloperPort => SHS.Clamp(SMMI.EngineSettingManager.GetSettingStable(SMMCE.DeveloperPort, 0), 0, 65535);
 
+        public static string BackgroundImagePath => SMMI.EngineSettingManager.GetSetting(SMMCE.BackgroundImagePath, string.Empty);
+
         public static List<string> WebArguments => SMMI.EngineSettingManager.GetSetting(SMMCE.WebArguments, new List<string>());
 
         public static int ScreenIndex => SHS.Clamp(SMMI.EngineSettingManager.GetSettingStable(SMMCE.ScreenIndex, 0), 0, 100);
@@ -36,6 +38,8 @@ namespace Sucrose.Manager.Manage
         public static bool WallpaperShuffle => SMMI.EngineSettingManager.GetSetting(SMMCE.WallpaperShuffle, true);
 
         public static SEIT InputType => SMMI.EngineSettingManager.GetSetting(SMMCE.InputType, SEIT.MouseKeyboard);
+
+        public static bool BackgroundImage => SMMI.EngineSettingManager.GetSetting(SMMCE.BackgroundImage, false);
 
         public static bool VolumeDesktop => SMMI.EngineSettingManager.GetSetting(SMMCE.VolumeDesktop, false);
 

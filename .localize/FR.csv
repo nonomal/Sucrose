@@ -1194,6 +1194,9 @@ Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.FR.xaml,,
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.FR.xaml,Portal.WallpaperSettingPage.ShuffleMode,Mode de Mélange
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.FR.xaml,Portal.WallpaperSettingPage.ShuffleMode.Description,Modifiez le comportement de mélange pour les fonds d'écran pris en charge.
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.FR.xaml,,
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.FR.xaml,Portal.WallpaperSettingPage.BackgroundImage,Image d'Arrière-Plan
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.FR.xaml,Portal.WallpaperSettingPage.BackgroundImage.Description,Change le fond d'écran animé en une image d'arrière-plan du bureau.
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.FR.xaml,,
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.FR.xaml,Portal.WallpaperSettingPage.HardwareAcceleration,Accélération Matérielle
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.FR.xaml,Portal.WallpaperSettingPage.HardwareAcceleration.Description,Modifie l'état de l'accélération matérielle pour les fonds d'écran pris en charge.
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.FR.xaml,,

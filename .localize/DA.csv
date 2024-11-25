@@ -1194,6 +1194,9 @@ Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.DA.xaml,,
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.DA.xaml,Portal.WallpaperSettingPage.ShuffleMode,Blanding Tilstand
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.DA.xaml,Portal.WallpaperSettingPage.ShuffleMode.Description,Ændrer blanding tilstanden af understøttede tapeter.
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.DA.xaml,,
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.DA.xaml,Portal.WallpaperSettingPage.BackgroundImage,Baggrundsbillede
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.DA.xaml,Portal.WallpaperSettingPage.BackgroundImage.Description,Ændrer det levende tapet til et skrivebordsbaggrundsbillede.
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.DA.xaml,,
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.DA.xaml,Portal.WallpaperSettingPage.HardwareAcceleration,Hardwareacceleration
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.DA.xaml,Portal.WallpaperSettingPage.HardwareAcceleration.Description,Ændrer hardwareaccelerationen for understøttede tapeter.
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.DA.xaml,,

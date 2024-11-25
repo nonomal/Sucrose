@@ -1194,6 +1194,9 @@ Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.HI.xaml,,
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.HI.xaml,Portal.WallpaperSettingPage.ShuffleMode,शफल मोड
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.HI.xaml,Portal.WallpaperSettingPage.ShuffleMode.Description,समर्थित वॉलपेपरों की शफल मोड को बदलता है।
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.HI.xaml,,
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.HI.xaml,Portal.WallpaperSettingPage.BackgroundImage,पृष्ठभूमि छवि
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.HI.xaml,Portal.WallpaperSettingPage.BackgroundImage.Description,लाइव वॉलपेपर को डेस्कटॉप पृष्ठभूमि छवि में बदलता है।
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.HI.xaml,,
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.HI.xaml,Portal.WallpaperSettingPage.HardwareAcceleration,हार्डवेयर एक्सेलेरेशन
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.HI.xaml,Portal.WallpaperSettingPage.HardwareAcceleration.Description,समर्थित वॉलपेपर के लिए हार्डवेयर एक्सेलेरेशन की स्थिति बदलता है।
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.HI.xaml,,

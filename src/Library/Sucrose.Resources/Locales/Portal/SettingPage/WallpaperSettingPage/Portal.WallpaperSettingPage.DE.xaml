@@ -25,6 +25,9 @@
     <system:String x:Key="Portal.WallpaperSettingPage.ShuffleMode">Mischen-Modus</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.ShuffleMode.Description">Ändern Sie das Mischverhalten für unterstützte Hintergrundbilder.</system:String>
 
+    <system:String x:Key="Portal.WallpaperSettingPage.BackgroundImage">Hintergrundbild</system:String>
+    <system:String x:Key="Portal.WallpaperSettingPage.BackgroundImage.Description">Ändert das Live-Hintergrundbild in ein Desktop-Hintergrundbild.</system:String>
+
     <system:String x:Key="Portal.WallpaperSettingPage.HardwareAcceleration">Hardwarebeschleunigung</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.HardwareAcceleration.Description">Ändert den Hardwarebeschleunigungsstatus für unterstützte Hintergrundbilder.</system:String>
 

@@ -1194,6 +1194,9 @@ Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.NB.xaml,,
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.NB.xaml,Portal.WallpaperSettingPage.ShuffleMode,Blandingsmodus
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.NB.xaml,Portal.WallpaperSettingPage.ShuffleMode.Description,Endrer blandingsmodus for støttede bakgrunnsbilder.
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.NB.xaml,,
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.NB.xaml,Portal.WallpaperSettingPage.BackgroundImage,Bakgrunnsbilde
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.NB.xaml,Portal.WallpaperSettingPage.BackgroundImage.Description,Endrer levende bakgrunnsbilde til et skrivebordsbakgrunnsbilde.
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.NB.xaml,,
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.NB.xaml,Portal.WallpaperSettingPage.HardwareAcceleration,Maskinvareakselerasjon
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.NB.xaml,Portal.WallpaperSettingPage.HardwareAcceleration.Description,Endrer maskinvareakselerasjonsstatus for støttede bakgrunnsbilder.
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.NB.xaml,,

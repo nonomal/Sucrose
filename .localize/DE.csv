@@ -1194,6 +1194,9 @@ Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.DE.xaml,,
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.DE.xaml,Portal.WallpaperSettingPage.ShuffleMode,Mischen-Modus
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.DE.xaml,Portal.WallpaperSettingPage.ShuffleMode.Description,Ändern Sie das Mischverhalten für unterstützte Hintergrundbilder.
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.DE.xaml,,
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.DE.xaml,Portal.WallpaperSettingPage.BackgroundImage,Hintergrundbild
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.DE.xaml,Portal.WallpaperSettingPage.BackgroundImage.Description,Ändert das Live-Hintergrundbild in ein Desktop-Hintergrundbild.
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.DE.xaml,,
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.DE.xaml,Portal.WallpaperSettingPage.HardwareAcceleration,Hardwarebeschleunigung
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.DE.xaml,Portal.WallpaperSettingPage.HardwareAcceleration.Description,Ändert den Hardwarebeschleunigungsstatus für unterstützte Hintergrundbilder.
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.DE.xaml,,

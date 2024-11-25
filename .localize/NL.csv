@@ -1194,6 +1194,9 @@ Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.NL.xaml,,
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.NL.xaml,Portal.WallpaperSettingPage.ShuffleMode,Schudmodus
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.NL.xaml,Portal.WallpaperSettingPage.ShuffleMode.Description,Verandert de schudinstelling voor ondersteunde achtergronden.
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.NL.xaml,,
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.NL.xaml,Portal.WallpaperSettingPage.BackgroundImage,Achtergrondafbeelding
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.NL.xaml,Portal.WallpaperSettingPage.BackgroundImage.Description,Wijzigt het live-behang in een bureaubladachtergrondafbeelding.
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.NL.xaml,,
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.NL.xaml,Portal.WallpaperSettingPage.HardwareAcceleration,Hardwareversnelling
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.NL.xaml,Portal.WallpaperSettingPage.HardwareAcceleration.Description,Wijzigt de hardwareversnellingstatus voor ondersteunde achtergronden.
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.NL.xaml,,

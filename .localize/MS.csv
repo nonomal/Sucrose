@@ -1194,6 +1194,9 @@ Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.MS.xaml,,
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.MS.xaml,Portal.WallpaperSettingPage.ShuffleMode,Mod Kacau
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.MS.xaml,Portal.WallpaperSettingPage.ShuffleMode.Description,Mod kacau yang akan diubah untuk wallpaper yang disokong.
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.MS.xaml,,
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.MS.xaml,Portal.WallpaperSettingPage.BackgroundImage,Imej Latar
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.MS.xaml,Portal.WallpaperSettingPage.BackgroundImage.Description,Menukar kertas dinding hidup kepada imej latar desktop.
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.MS.xaml,,
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.MS.xaml,Portal.WallpaperSettingPage.HardwareAcceleration,Pecutan Perkakasan
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.MS.xaml,Portal.WallpaperSettingPage.HardwareAcceleration.Description,Mengubah status pecutan perkakasan untuk kertas wallpaper yang disokong.
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.MS.xaml,,

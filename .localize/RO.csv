@@ -1194,6 +1194,9 @@ Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RO.xaml,,
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RO.xaml,Portal.WallpaperSettingPage.ShuffleMode,Mod Amestecare
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RO.xaml,Portal.WallpaperSettingPage.ShuffleMode.Description,Schimbă modul de amestecare pentru imagini de fundal acceptate.
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RO.xaml,,
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RO.xaml,Portal.WallpaperSettingPage.BackgroundImage,Imagine de Fundal
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RO.xaml,Portal.WallpaperSettingPage.BackgroundImage.Description,Schimbă tapetul animat cu o imagine de fundal pentru desktop.
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RO.xaml,,
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RO.xaml,Portal.WallpaperSettingPage.HardwareAcceleration,Accelerare Hardware
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RO.xaml,Portal.WallpaperSettingPage.HardwareAcceleration.Description,Modifică starea de accelerare hardware pentru fundalurile acceptate.
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RO.xaml,,

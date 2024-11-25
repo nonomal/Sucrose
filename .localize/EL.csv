@@ -1194,6 +1194,9 @@ Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.EL.xaml,,
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.EL.xaml,Portal.WallpaperSettingPage.ShuffleMode,Λειτουργία Ανακάτεμα
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.EL.xaml,Portal.WallpaperSettingPage.ShuffleMode.Description,Αλλάζει τη λειτουργία ανακάτεμα για τις υποστηριζόμενες ταπετσαρίες.
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.EL.xaml,,
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.EL.xaml,Portal.WallpaperSettingPage.BackgroundImage,Εικόνα Φόντου
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.EL.xaml,Portal.WallpaperSettingPage.BackgroundImage.Description,Αλλάζει την κινούμενη ταπετσαρία σε εικόνα φόντου επιφάνειας εργασίας.
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.EL.xaml,,
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.EL.xaml,Portal.WallpaperSettingPage.HardwareAcceleration,Επιτάχυνση Υλικού
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.EL.xaml,Portal.WallpaperSettingPage.HardwareAcceleration.Description,Αλλάζει την κατάσταση επιτάχυνσης υλικού για τις υποστηριζόμενες ταπετσαρίες.
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.EL.xaml,,

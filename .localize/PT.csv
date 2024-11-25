@@ -1194,6 +1194,9 @@ Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.PT.xaml,,
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.PT.xaml,Portal.WallpaperSettingPage.ShuffleMode,Modo de Embaralhamento
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.PT.xaml,Portal.WallpaperSettingPage.ShuffleMode.Description,Altera o modo de embaralhamento em papéis de parede suportados.
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.PT.xaml,,
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.PT.xaml,Portal.WallpaperSettingPage.BackgroundImage,Imagem de Fundo
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.PT.xaml,Portal.WallpaperSettingPage.BackgroundImage.Description,Altera o papel de parede animado para uma imagem de fundo da área de trabalho.
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.PT.xaml,,
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.PT.xaml,Portal.WallpaperSettingPage.HardwareAcceleration,Aceleração de Hardware
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.PT.xaml,Portal.WallpaperSettingPage.HardwareAcceleration.Description,Altera o status de aceleração de hardware para papéis de parede suportados.
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.PT.xaml,,

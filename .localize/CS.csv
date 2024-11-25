@@ -1182,17 +1182,20 @@ Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,Port
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,,
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,Portal.WallpaperSettingPage.InputMode.DesktopIcon,"Skrýt, aby se zabránilo náhodnému výběru ikon pracovní plochy"
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,,
-Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,Portal.WallpaperSettingPage.ScreenLayout,Rozmístění na obrazovce
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,Portal.WallpaperSettingPage.ScreenLayout,Rozmístění na Obrazovce
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,Portal.WallpaperSettingPage.ScreenLayout.Description,Změní umístění vašich tapet na obrazovce.
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,,
-Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,Portal.WallpaperSettingPage.StretchMode,Režim protažení
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,Portal.WallpaperSettingPage.StretchMode,Režim Protažení
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,Portal.WallpaperSettingPage.StretchMode.Description,Změní režim měřítka na podporovaných tapetách.
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,,
-Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,Portal.WallpaperSettingPage.LoopMode,Režim smyčky
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,Portal.WallpaperSettingPage.LoopMode,Režim Smyčky
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,Portal.WallpaperSettingPage.LoopMode.Description,Změní režim smyčky na podporovaných tapetách.
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,,
-Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,Portal.WallpaperSettingPage.ShuffleMode,Režim zamíchání
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,Portal.WallpaperSettingPage.ShuffleMode,Režim Zamíchání
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,Portal.WallpaperSettingPage.ShuffleMode.Description,Změní režim zamíchání na podporovaných tapetách.
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,,
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,Portal.WallpaperSettingPage.BackgroundImage,Obrázek Pozadí
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,Portal.WallpaperSettingPage.BackgroundImage.Description,Změní živou tapetu na obrázek pozadí plochy.
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,,
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,Portal.WallpaperSettingPage.HardwareAcceleration,Hardwarová Akcelerace
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,Portal.WallpaperSettingPage.HardwareAcceleration.Description,Upravuje stav hardwarové akcelerace pro podporované tapety.

@@ -1194,6 +1194,9 @@ Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.KO.xaml,,
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.KO.xaml,Portal.WallpaperSettingPage.ShuffleMode,섞기 모드
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.KO.xaml,Portal.WallpaperSettingPage.ShuffleMode.Description,지원되는 바탕 화면에서 섞기 모드를 변경합니다.
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.KO.xaml,,
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.KO.xaml,Portal.WallpaperSettingPage.BackgroundImage,배경 이미지
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.KO.xaml,Portal.WallpaperSettingPage.BackgroundImage.Description,움직이는 배경 화면을 데스크톱 배경 이미지로 변경합니다.
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.KO.xaml,,
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.KO.xaml,Portal.WallpaperSettingPage.HardwareAcceleration,하드웨어 가속
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.KO.xaml,Portal.WallpaperSettingPage.HardwareAcceleration.Description,지원되는 배경화면의 하드웨어 가속 상태를 변경합니다.
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.KO.xaml,,

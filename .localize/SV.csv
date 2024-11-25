@@ -1194,6 +1194,9 @@ Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.SV.xaml,,
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.SV.xaml,Portal.WallpaperSettingPage.ShuffleMode,Blandningsläge
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.SV.xaml,Portal.WallpaperSettingPage.ShuffleMode.Description,Ändrar blandningsläge för stödda tapeter.
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.SV.xaml,,
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.SV.xaml,Portal.WallpaperSettingPage.BackgroundImage,Bakgrundsbild
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.SV.xaml,Portal.WallpaperSettingPage.BackgroundImage.Description,Ändrar det levande tapeten till en skrivbordsbakgrundsbild.
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.SV.xaml,,
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.SV.xaml,Portal.WallpaperSettingPage.HardwareAcceleration,Hårdvaruacceleration
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.SV.xaml,Portal.WallpaperSettingPage.HardwareAcceleration.Description,Ändrar hårdvaruaccelerationsstatus för stödda bakgrundsbilder.
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.SV.xaml,,

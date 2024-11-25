@@ -25,6 +25,9 @@
     <system:String x:Key="Portal.WallpaperSettingPage.ShuffleMode">Shuffle Mode</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.ShuffleMode.Description">Change the shuffle behavior for supported wallpapers.</system:String>
 
+    <system:String x:Key="Portal.WallpaperSettingPage.BackgroundImage">Background Image</system:String>
+    <system:String x:Key="Portal.WallpaperSettingPage.BackgroundImage.Description">Changes the live wallpaper to a desktop background image.</system:String>
+
     <system:String x:Key="Portal.WallpaperSettingPage.HardwareAcceleration">Hardware Acceleration</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.HardwareAcceleration.Description">Changes the hardware acceleration behavior for supported wallpapers.</system:String>
 

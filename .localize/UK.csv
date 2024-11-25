@@ -1194,6 +1194,9 @@ Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.UK.xaml,,
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.UK.xaml,Portal.WallpaperSettingPage.ShuffleMode,Режим Перемішування
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.UK.xaml,Portal.WallpaperSettingPage.ShuffleMode.Description,Змінює режим перемішування для підтримуваних шпалерів.
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.UK.xaml,,
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.UK.xaml,Portal.WallpaperSettingPage.BackgroundImage,Фонове Зображення
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.UK.xaml,Portal.WallpaperSettingPage.BackgroundImage.Description,Змінює живі шпалери на фонове зображення робочого столу.
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.UK.xaml,,
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.UK.xaml,Portal.WallpaperSettingPage.HardwareAcceleration,Апаратне Прискорення
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.UK.xaml,Portal.WallpaperSettingPage.HardwareAcceleration.Description,Змінює статус апаратного прискорення для підтримуваних шпалер.
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.UK.xaml,,

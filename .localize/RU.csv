@@ -1194,6 +1194,9 @@ Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,,
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,Portal.WallpaperSettingPage.ShuffleMode,Режим Перемешивания
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,Portal.WallpaperSettingPage.ShuffleMode.Description,Измените режим перемешивания для поддерживаемых обоев.
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,,
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,Portal.WallpaperSettingPage.BackgroundImage,Фоновое Изображение
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,Portal.WallpaperSettingPage.BackgroundImage.Description,Заменяет живые обои на фоновое изображение рабочего стола.
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,,
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,Portal.WallpaperSettingPage.HardwareAcceleration,Аппаратное Yскорение
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,Portal.WallpaperSettingPage.HardwareAcceleration.Description,Изменяет статус аппаратного ускорения для поддерживаемых обоев.
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.RU.xaml,,

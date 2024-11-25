@@ -1194,6 +1194,9 @@ Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.PL.xaml,,
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.PL.xaml,Portal.WallpaperSettingPage.ShuffleMode,Tryb Tasowania
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.PL.xaml,Portal.WallpaperSettingPage.ShuffleMode.Description,Zmień zachowanie tasowania dla obsługiwanych tapet.
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.PL.xaml,,
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.PL.xaml,Portal.WallpaperSettingPage.BackgroundImage,Obraz Tła
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.PL.xaml,Portal.WallpaperSettingPage.BackgroundImage.Description,Zamienia tapetę animowaną na obraz tła pulpitu.
+Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.PL.xaml,,
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.PL.xaml,Portal.WallpaperSettingPage.HardwareAcceleration,Przyspieszenie Sprzętowe
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.PL.xaml,Portal.WallpaperSettingPage.HardwareAcceleration.Description,Zmienia status przyspieszenia sprzętowego dla obsługiwanych tapet.
 Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.PL.xaml,,

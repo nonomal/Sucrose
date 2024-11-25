@@ -25,6 +25,9 @@
     <system:String x:Key="Portal.WallpaperSettingPage.ShuffleMode">Mode Acak</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.ShuffleMode.Description">Mengubah mode acak pada dinding yang didukung.</system:String>
 
+    <system:String x:Key="Portal.WallpaperSettingPage.BackgroundImage">Gambar Latar</system:String>
+    <system:String x:Key="Portal.WallpaperSettingPage.BackgroundImage.Description">Mengubah wallpaper hidup menjadi gambar latar desktop.</system:String>
+
     <system:String x:Key="Portal.WallpaperSettingPage.HardwareAcceleration">Akselerasi Perangkat Keras</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.HardwareAcceleration.Description">Mengubah status akselerasi perangkat keras untuk dinding yang didukung.</system:String>
 
