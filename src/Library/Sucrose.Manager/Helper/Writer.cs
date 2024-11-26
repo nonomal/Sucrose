@@ -1,4 +1,5 @@
 ﻿using SMHC = Sucrose.Manager.Helper.Cleaner;
+using SMHU = Sucrose.Manager.Helper.Unique;
 
 namespace Sucrose.Manager.Helper
 {
@@ -6,7 +7,7 @@ namespace Sucrose.Manager.Helper
     {
         public static void Write(string filePath, string fileContent)
         {
-            using Mutex Mutex = new(false, Path.GetFileName(filePath));
+            using Mutex Mutex = new(false, SMHU.GenerateText(filePath));
 
             try
             {
@@ -31,7 +32,7 @@ namespace Sucrose.Manager.Helper
 
         public static void WriteBasic(string filePath, string fileContent)
         {
-            using Mutex Mutex = new(false, Path.GetFileName(filePath));
+            using Mutex Mutex = new(false, SMHU.GenerateText(filePath));
 
             try
             {
@@ -53,7 +54,7 @@ namespace Sucrose.Manager.Helper
 
         public static void WriteStable(string filePath, string fileContent)
         {
-            using Mutex Mutex = new(false, Path.GetFileName(filePath));
+            using Mutex Mutex = new(false, SMHU.GenerateText(filePath));
 
             try
             {

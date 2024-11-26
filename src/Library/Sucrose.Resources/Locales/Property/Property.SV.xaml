@@ -30,16 +30,16 @@
     <system:String x:Key="Property.Localization.Speed">Hastighet</system:String>
     <system:String x:Key="Property.Localization.Gamma">Gamma</system:String>
     <system:String x:Key="Property.Localization.Mute">Ljudlös</system:String>
+    <system:String x:Key="Property.Localization.Sepia">Sepia</system:String>
     <system:String x:Key="Property.Localization.Hue">Färgtone</system:String>
+    <system:String x:Key="Property.Localization.Blur">Suddighet</system:String>
     <system:String x:Key="Property.Localization.Contrast">Kontrast</system:String>
+    <system:String x:Key="Property.Localization.Invert">Invertera</system:String>
     <system:String x:Key="Property.Localization.Zoom">Zoom</system:String>
+    <system:String x:Key="Property.Localization.Animation">Animation</system:String>
     <system:String x:Key="Property.Localization.Sharpness">Skarphet</system:String>
     <system:String x:Key="Property.Localization.Saturation">Mättnad</system:String>
     <system:String x:Key="Property.Localization.Brightness">Ljusstyrka</system:String>
-    <system:String x:Key="Property.Localization.Sepia">Sepia</system:String>
-    <system:String x:Key="Property.Localization.Blur">Suddighet</system:String>
-    <system:String x:Key="Property.Localization.Invert">Invertera</system:String>
-    <system:String x:Key="Property.Localization.Animation">Animation</system:String>
     <system:String x:Key="Property.Localization.Grayscale">Gråskala</system:String>
 
     <system:String x:Key="Property.Localization.Animation.Flat">Platt</system:String>

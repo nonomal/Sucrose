@@ -30,17 +30,16 @@
     <system:String x:Key="Property.Localization.Speed">Snelheid</system:String>
     <system:String x:Key="Property.Localization.Gamma">Gamma</system:String>
     <system:String x:Key="Property.Localization.Mute">Dempen</system:String>
+    <system:String x:Key="Property.Localization.Sepia">Sepia</system:String>
     <system:String x:Key="Property.Localization.Hue">Tint</system:String>
+    <system:String x:Key="Property.Localization.Blur">Vervaging</system:String>
     <system:String x:Key="Property.Localization.Contrast">Contrasteren</system:String>
+    <system:String x:Key="Property.Localization.Invert">Inverteren</system:String>
     <system:String x:Key="Property.Localization.Zoom">Zoom</system:String>
+    <system:String x:Key="Property.Localization.Animation">Animatie</system:String>
     <system:String x:Key="Property.Localization.Sharpness">Scherpte</system:String>
     <system:String x:Key="Property.Localization.Saturation">Verzadiging</system:String>
     <system:String x:Key="Property.Localization.Brightness">Helderheid</system:String>
-
-    <system:String x:Key="Property.Localization.Sepia">Sepia</system:String>
-    <system:String x:Key="Property.Localization.Blur">Vervaging</system:String>
-    <system:String x:Key="Property.Localization.Invert">Inverteren</system:String>
-    <system:String x:Key="Property.Localization.Animation">Animatie</system:String>
     <system:String x:Key="Property.Localization.Grayscale">Grijstinten</system:String>
 
     <system:String x:Key="Property.Localization.Animation.Flat">Plat</system:String>

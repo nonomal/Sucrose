@@ -30,17 +30,16 @@
     <system:String x:Key="Property.Localization.Speed">Ταχύτητα</system:String>
     <system:String x:Key="Property.Localization.Gamma">Γάμμα</system:String>
     <system:String x:Key="Property.Localization.Mute">Σίγαση</system:String>
+    <system:String x:Key="Property.Localization.Sepia">Σεπία</system:String>
     <system:String x:Key="Property.Localization.Hue">Απόχρωση</system:String>
+    <system:String x:Key="Property.Localization.Blur">Θολούρα</system:String>
     <system:String x:Key="Property.Localization.Contrast">Αντίθεση</system:String>
+    <system:String x:Key="Property.Localization.Invert">Αντίστροφο</system:String>
     <system:String x:Key="Property.Localization.Zoom">Εστίαση</system:String>
+    <system:String x:Key="Property.Localization.Animation">Κίνηση</system:String>
     <system:String x:Key="Property.Localization.Sharpness">Ευκρίνεια</system:String>
     <system:String x:Key="Property.Localization.Saturation">Κορεσμός</system:String>
     <system:String x:Key="Property.Localization.Brightness">Φωτεινότητα</system:String>
-
-    <system:String x:Key="Property.Localization.Sepia">Σεπία</system:String>
-    <system:String x:Key="Property.Localization.Blur">Θολούρα</system:String>
-    <system:String x:Key="Property.Localization.Invert">Αντίστροφο</system:String>
-    <system:String x:Key="Property.Localization.Animation">Κίνηση</system:String>
     <system:String x:Key="Property.Localization.Grayscale">Γκρίζα Κλίμακα</system:String>
 
     <system:String x:Key="Property.Localization.Animation.Flat">Ομαλό</system:String>

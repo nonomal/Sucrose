@@ -30,17 +30,16 @@
     <system:String x:Key="Property.Localization.Speed">Geschwindigkeit</system:String>
     <system:String x:Key="Property.Localization.Gamma">Gamma</system:String>
     <system:String x:Key="Property.Localization.Mute">Stummschalten</system:String>
+    <system:String x:Key="Property.Localization.Sepia">Sepia</system:String>
     <system:String x:Key="Property.Localization.Hue">Farbton</system:String>
+    <system:String x:Key="Property.Localization.Blur">Unschärfe</system:String>
     <system:String x:Key="Property.Localization.Contrast">Kontrast</system:String>
+    <system:String x:Key="Property.Localization.Invert">Inversion</system:String>
     <system:String x:Key="Property.Localization.Zoom">Zoom</system:String>
+    <system:String x:Key="Property.Localization.Animation">Animation</system:String>
     <system:String x:Key="Property.Localization.Sharpness">Schärfe</system:String>
     <system:String x:Key="Property.Localization.Saturation">Sättigung</system:String>
     <system:String x:Key="Property.Localization.Brightness">Helligkeit</system:String>
-
-    <system:String x:Key="Property.Localization.Sepia">Sepia</system:String>
-    <system:String x:Key="Property.Localization.Blur">Unschärfe</system:String>
-    <system:String x:Key="Property.Localization.Invert">Inversion</system:String>
-    <system:String x:Key="Property.Localization.Animation">Animation</system:String>
     <system:String x:Key="Property.Localization.Grayscale">Graustufen</system:String>
 
     <system:String x:Key="Property.Localization.Animation.Flat">Flach</system:String>

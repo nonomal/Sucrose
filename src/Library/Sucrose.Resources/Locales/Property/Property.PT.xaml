@@ -30,17 +30,16 @@
     <system:String x:Key="Property.Localization.Speed">Velocidade</system:String>
     <system:String x:Key="Property.Localization.Gamma">Gama</system:String>
     <system:String x:Key="Property.Localization.Mute">Mudo</system:String>
+    <system:String x:Key="Property.Localization.Sepia">Sépia</system:String>
     <system:String x:Key="Property.Localization.Hue">Matiz</system:String>
+    <system:String x:Key="Property.Localization.Blur">Desfoque</system:String>
     <system:String x:Key="Property.Localization.Contrast">Contraste</system:String>
+    <system:String x:Key="Property.Localization.Invert">Inverter</system:String>
     <system:String x:Key="Property.Localization.Zoom">Zoom</system:String>
+    <system:String x:Key="Property.Localization.Animation">Animação</system:String>
     <system:String x:Key="Property.Localization.Sharpness">Nitidez</system:String>
     <system:String x:Key="Property.Localization.Saturation">Saturação</system:String>
     <system:String x:Key="Property.Localization.Brightness">Brilho</system:String>
-
-    <system:String x:Key="Property.Localization.Sepia">Sépia</system:String>
-    <system:String x:Key="Property.Localization.Blur">Desfoque</system:String>
-    <system:String x:Key="Property.Localization.Invert">Inverter</system:String>
-    <system:String x:Key="Property.Localization.Animation">Animação</system:String>
     <system:String x:Key="Property.Localization.Grayscale">Escala de Cinza</system:String>
 
     <system:String x:Key="Property.Localization.Animation.Flat">Plano</system:String>

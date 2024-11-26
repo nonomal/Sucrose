@@ -30,17 +30,16 @@
     <system:String x:Key="Property.Localization.Speed">Kelajuan</system:String>
     <system:String x:Key="Property.Localization.Gamma">Gamma</system:String>
     <system:String x:Key="Property.Localization.Mute">Senyap</system:String>
+    <system:String x:Key="Property.Localization.Sepia">Sepia</system:String>
     <system:String x:Key="Property.Localization.Hue">Warna</system:String>
+    <system:String x:Key="Property.Localization.Blur">Kabur</system:String>
     <system:String x:Key="Property.Localization.Contrast">Kontras</system:String>
+    <system:String x:Key="Property.Localization.Invert">Terbalik</system:String>
     <system:String x:Key="Property.Localization.Zoom">Zoom</system:String>
+    <system:String x:Key="Property.Localization.Animation">Animasi</system:String>
     <system:String x:Key="Property.Localization.Sharpness">Kejelasan</system:String>
     <system:String x:Key="Property.Localization.Saturation">Ketepuan</system:String>
     <system:String x:Key="Property.Localization.Brightness">Kecerahan</system:String>
-
-    <system:String x:Key="Property.Localization.Sepia">Sepia</system:String>
-    <system:String x:Key="Property.Localization.Blur">Kabur</system:String>
-    <system:String x:Key="Property.Localization.Invert">Terbalik</system:String>
-    <system:String x:Key="Property.Localization.Animation">Animasi</system:String>
     <system:String x:Key="Property.Localization.Grayscale">Skala Kelabu</system:String>
 
     <system:String x:Key="Property.Localization.Animation.Flat">Rata</system:String>
