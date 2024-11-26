@@ -179,6 +179,8 @@ Property\Property.RU.xaml,Property.FileDropDown.Access.Close,Понял
 Property\Property.RU.xaml,Property.FileDropDown.Access.Title,Предупреждение о доступе
 Property\Property.RU.xaml,Property.FileDropDown.Access.Message,У вас нет разрешения на доступ к выбранному файлу.
 Property\Property.RU.xaml,,
+Property\Property.RU.xaml,Property.Localization.WebView,Только для WebView
+Property\Property.RU.xaml,Property.Localization.CefSharp,Только для CefSharp
 Property\Property.RU.xaml,Property.Localization.MpvPlayer,Только для MpvPlayer
 Property\Property.RU.xaml,,
 Property\Property.RU.xaml,Property.Localization.Speed,Скорость
@@ -190,6 +192,18 @@ Property\Property.RU.xaml,Property.Localization.Zoom,Масштаб
 Property\Property.RU.xaml,Property.Localization.Sharpness,Резкость
 Property\Property.RU.xaml,Property.Localization.Saturation,Насыщенность
 Property\Property.RU.xaml,Property.Localization.Brightness,Яркость
+Property\Property.RU.xaml,Property.Localization.Sepia,Сепия
+Property\Property.RU.xaml,Property.Localization.Blur,Размытие
+Property\Property.RU.xaml,Property.Localization.Invert,Инвертировать
+Property\Property.RU.xaml,Property.Localization.Animation,Анимация
+Property\Property.RU.xaml,Property.Localization.Grayscale,Серая Шкала
+Property\Property.RU.xaml,,
+Property\Property.RU.xaml,Property.Localization.Animation.Flat,Плоский
+Property\Property.RU.xaml,Property.Localization.Animation.Flip,Перевернуть
+Property\Property.RU.xaml,Property.Localization.Animation.Pulse,Пульс
+Property\Property.RU.xaml,Property.Localization.Animation.Shake,Тряска
+Property\Property.RU.xaml,Property.Localization.Animation.Bounce,Отскок
+Property\Property.RU.xaml,Property.Localization.Animation.Wiggle,Виляние
 Undo\Undo.RU.xaml,Undo.QuestionTitle,Sucrose Undo
 Undo\Undo.RU.xaml,,
 Undo\Undo.RU.xaml,Undo.QuestionMessage,Вы действительно хотите удалить Sucrose Wallpaper Engine?

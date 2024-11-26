@@ -179,6 +179,8 @@ Property\Property.UK.xaml,Property.FileDropDown.Access.Close,Зрозуміло
 Property\Property.UK.xaml,Property.FileDropDown.Access.Title,Попередження про доступ
 Property\Property.UK.xaml,Property.FileDropDown.Access.Message,У вас немає дозволу на доступ до вибраного файлу.
 Property\Property.UK.xaml,,
+Property\Property.UK.xaml,Property.Localization.WebView,Тільки для WebView
+Property\Property.UK.xaml,Property.Localization.CefSharp,Тільки для CefSharp
 Property\Property.UK.xaml,Property.Localization.MpvPlayer,Тільки для MpvPlayer
 Property\Property.UK.xaml,,
 Property\Property.UK.xaml,Property.Localization.Speed,Швидкість
@@ -190,6 +192,19 @@ Property\Property.UK.xaml,Property.Localization.Zoom,Масштаб
 Property\Property.UK.xaml,Property.Localization.Sharpness,Різкість
 Property\Property.UK.xaml,Property.Localization.Saturation,Насиченість
 Property\Property.UK.xaml,Property.Localization.Brightness,Яскравість
+Property\Property.UK.xaml,,
+Property\Property.UK.xaml,Property.Localization.Sepia,Сепія
+Property\Property.UK.xaml,Property.Localization.Blur,Розмиття
+Property\Property.UK.xaml,Property.Localization.Invert,Інвертувати
+Property\Property.UK.xaml,Property.Localization.Animation,Анімація
+Property\Property.UK.xaml,Property.Localization.Grayscale,Сіра Шкала
+Property\Property.UK.xaml,,
+Property\Property.UK.xaml,Property.Localization.Animation.Flat,Плоский
+Property\Property.UK.xaml,Property.Localization.Animation.Flip,Перевернути
+Property\Property.UK.xaml,Property.Localization.Animation.Pulse,Пульс
+Property\Property.UK.xaml,Property.Localization.Animation.Shake,Трясти
+Property\Property.UK.xaml,Property.Localization.Animation.Bounce,Стрибок
+Property\Property.UK.xaml,Property.Localization.Animation.Wiggle,Колихати
 Undo\Undo.UK.xaml,Undo.QuestionTitle,Sucrose Undo
 Undo\Undo.UK.xaml,,
 Undo\Undo.UK.xaml,Undo.QuestionMessage,Ви дійсно хочете видалити Sucrose Wallpaper Engine?

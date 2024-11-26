@@ -179,6 +179,8 @@ Property\Property.JA.xaml,Property.FileDropDown.Access.Close,わかりました
 Property\Property.JA.xaml,Property.FileDropDown.Access.Title,アクセス警告
 Property\Property.JA.xaml,Property.FileDropDown.Access.Message,選択したファイルにアクセスする権限がありません。
 Property\Property.JA.xaml,,
+Property\Property.JA.xaml,Property.Localization.WebView,WebView専用
+Property\Property.JA.xaml,Property.Localization.CefSharp,CefSharp専用
 Property\Property.JA.xaml,Property.Localization.MpvPlayer,MpvPlayer専用
 Property\Property.JA.xaml,,
 Property\Property.JA.xaml,Property.Localization.Speed,速度
@@ -190,6 +192,19 @@ Property\Property.JA.xaml,Property.Localization.Zoom,ズーム
 Property\Property.JA.xaml,Property.Localization.Sharpness,鮮明度
 Property\Property.JA.xaml,Property.Localization.Saturation,彩度
 Property\Property.JA.xaml,Property.Localization.Brightness,明るさ
+Property\Property.JA.xaml,,
+Property\Property.JA.xaml,Property.Localization.Sepia,セピア
+Property\Property.JA.xaml,Property.Localization.Blur,ぼやけ
+Property\Property.JA.xaml,Property.Localization.Invert,反転
+Property\Property.JA.xaml,Property.Localization.Animation,アニメーション
+Property\Property.JA.xaml,Property.Localization.Grayscale,グレースケール
+Property\Property.JA.xaml,,
+Property\Property.JA.xaml,Property.Localization.Animation.Flat,フラット
+Property\Property.JA.xaml,Property.Localization.Animation.Flip,反転
+Property\Property.JA.xaml,Property.Localization.Animation.Pulse,脈拍
+Property\Property.JA.xaml,Property.Localization.Animation.Shake,揺れ
+Property\Property.JA.xaml,Property.Localization.Animation.Bounce,バウンス
+Property\Property.JA.xaml,Property.Localization.Animation.Wiggle,揺れる
 Undo\Undo.JA.xaml,Undo.QuestionTitle,Sucrose Undo
 Undo\Undo.JA.xaml,,
 Undo\Undo.JA.xaml,Undo.QuestionMessage,本当に Sucrose Wallpaper Engine をアンインストールしますか？

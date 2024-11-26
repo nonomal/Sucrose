@@ -23,6 +23,8 @@
     <system:String x:Key="Property.FileDropDown.Access.Title">Avertisment de Acces</system:String>
     <system:String x:Key="Property.FileDropDown.Access.Message">Nu aveți permisiunea de a accesa fișierul selectat.</system:String>
 
+    <system:String x:Key="Property.Localization.WebView">Doar pentru WebView</system:String>
+    <system:String x:Key="Property.Localization.CefSharp">Doar pentru CefSharp</system:String>
     <system:String x:Key="Property.Localization.MpvPlayer">Doar pentru MpvPlayer</system:String>
 
     <system:String x:Key="Property.Localization.Speed">Viteză</system:String>
@@ -34,4 +36,16 @@
     <system:String x:Key="Property.Localization.Sharpness">Claritate</system:String>
     <system:String x:Key="Property.Localization.Saturation">Saturație</system:String>
     <system:String x:Key="Property.Localization.Brightness">Luminozitate</system:String>
+    <system:String x:Key="Property.Localization.Sepia">Sepia</system:String>
+    <system:String x:Key="Property.Localization.Blur">Neclaritate</system:String>
+    <system:String x:Key="Property.Localization.Invert">Inversare</system:String>
+    <system:String x:Key="Property.Localization.Animation">Animatie</system:String>
+    <system:String x:Key="Property.Localization.Grayscale">Scara de Gri</system:String>
+
+    <system:String x:Key="Property.Localization.Animation.Flat">Plata</system:String>
+    <system:String x:Key="Property.Localization.Animation.Flip">Răsturnare</system:String>
+    <system:String x:Key="Property.Localization.Animation.Pulse">Puls</system:String>
+    <system:String x:Key="Property.Localization.Animation.Shake">Mișcare</system:String>
+    <system:String x:Key="Property.Localization.Animation.Bounce">Sărit</system:String>
+    <system:String x:Key="Property.Localization.Animation.Wiggle">Zbucium</system:String>
 </ResourceDictionary>

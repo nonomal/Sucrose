@@ -179,6 +179,8 @@ Property\Property.CS.xaml,Property.FileDropDown.Access.Close,Rozumím
 Property\Property.CS.xaml,Property.FileDropDown.Access.Title,Upozornění na přístup
 Property\Property.CS.xaml,Property.FileDropDown.Access.Message,Nemáte oprávnění k přístupu k vybranému souboru.
 Property\Property.CS.xaml,,
+Property\Property.CS.xaml,Property.Localization.WebView,Pouze pro WebView
+Property\Property.CS.xaml,Property.Localization.CefSharp,Pouze pro CefSharp
 Property\Property.CS.xaml,Property.Localization.MpvPlayer,Pouze pro MpvPlayer
 Property\Property.CS.xaml,,
 Property\Property.CS.xaml,Property.Localization.Speed,Rychlost
@@ -190,6 +192,19 @@ Property\Property.CS.xaml,Property.Localization.Zoom,Přiblížení
 Property\Property.CS.xaml,Property.Localization.Sharpness,Ostrost
 Property\Property.CS.xaml,Property.Localization.Saturation,Sytost
 Property\Property.CS.xaml,Property.Localization.Brightness,Jas
+Property\Property.CS.xaml,,
+Property\Property.CS.xaml,Property.Localization.Sepia,Sépie
+Property\Property.CS.xaml,Property.Localization.Blur,Rozmazání
+Property\Property.CS.xaml,Property.Localization.Invert,Inverze
+Property\Property.CS.xaml,Property.Localization.Animation,Animace
+Property\Property.CS.xaml,Property.Localization.Grayscale,Šedá Škála
+Property\Property.CS.xaml,,
+Property\Property.CS.xaml,Property.Localization.Animation.Flat,Ploché
+Property\Property.CS.xaml,Property.Localization.Animation.Flip,Otočení
+Property\Property.CS.xaml,Property.Localization.Animation.Pulse,Pulzování
+Property\Property.CS.xaml,Property.Localization.Animation.Shake,Třesení
+Property\Property.CS.xaml,Property.Localization.Animation.Bounce,Odrážení
+Property\Property.CS.xaml,Property.Localization.Animation.Wiggle,Kývání
 Undo\Undo.CS.xaml,Undo.QuestionTitle,Sucrose Undo
 Undo\Undo.CS.xaml,,
 Undo\Undo.CS.xaml,Undo.QuestionMessage,Skutečně chcete odinstalovat program Sucrose Wallpaper Engine?

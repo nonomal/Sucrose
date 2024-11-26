@@ -179,6 +179,8 @@ Property\Property.DA.xaml,Property.FileDropDown.Access.Close,Forstået
 Property\Property.DA.xaml,Property.FileDropDown.Access.Title,Adgangsvarsel
 Property\Property.DA.xaml,Property.FileDropDown.Access.Message,Du har ikke tilladelse til at få adgang til den valgte fil.
 Property\Property.DA.xaml,,
+Property\Property.DA.xaml,Property.Localization.WebView,Kun til WebView
+Property\Property.DA.xaml,Property.Localization.CefSharp,Kun til CefSharp
 Property\Property.DA.xaml,Property.Localization.MpvPlayer,Kun til MpvPlayer
 Property\Property.DA.xaml,,
 Property\Property.DA.xaml,Property.Localization.Speed,Hastighed
@@ -190,6 +192,19 @@ Property\Property.DA.xaml,Property.Localization.Zoom,Zoom
 Property\Property.DA.xaml,Property.Localization.Sharpness,Skarphed
 Property\Property.DA.xaml,Property.Localization.Saturation,Mætning
 Property\Property.DA.xaml,Property.Localization.Brightness,Lysstyrke
+Property\Property.DA.xaml,,
+Property\Property.DA.xaml,Property.Localization.Sepia,Sepia
+Property\Property.DA.xaml,Property.Localization.Blur,Sløring
+Property\Property.DA.xaml,Property.Localization.Invert,Invertere
+Property\Property.DA.xaml,Property.Localization.Animation,Animation
+Property\Property.DA.xaml,Property.Localization.Grayscale,Gråskala
+Property\Property.DA.xaml,,
+Property\Property.DA.xaml,Property.Localization.Animation.Flat,Flad
+Property\Property.DA.xaml,Property.Localization.Animation.Flip,Flip
+Property\Property.DA.xaml,Property.Localization.Animation.Pulse,Puls
+Property\Property.DA.xaml,Property.Localization.Animation.Shake,Ryste
+Property\Property.DA.xaml,Property.Localization.Animation.Bounce,Bounc
+Property\Property.DA.xaml,Property.Localization.Animation.Wiggle,Vride
 Undo\Undo.DA.xaml,Undo.QuestionTitle,Sucrose Undo
 Undo\Undo.DA.xaml,,
 Undo\Undo.DA.xaml,Undo.QuestionMessage,Ønsker du virkelig at afinstallere Sucrose Wallpaper Engine?

@@ -30,6 +30,8 @@ using SRHR = Sucrose.Resources.Helper.Resources;
 using SSDEDT = Sucrose.Shared.Dependency.Enum.DialogType;
 using SSDEWT = Sucrose.Shared.Dependency.Enum.WallpaperType;
 using SSDMMG = Sucrose.Shared.Dependency.Manage.Manager.General;
+using SSECSHP = Sucrose.Shared.Engine.CefSharp.Helper.Properties;
+using SSECSMI = Sucrose.Shared.Engine.CefSharp.Manage.Internal;
 using SSECSVG = Sucrose.Shared.Engine.CefSharp.View.Gif;
 using SSECSVU = Sucrose.Shared.Engine.CefSharp.View.Url;
 using SSECSVV = Sucrose.Shared.Engine.CefSharp.View.Video;
@@ -269,6 +271,7 @@ namespace Sucrose.Live.CefSharp
             if (SMMI.LibrarySettingManager.CheckFile() && !string.IsNullOrEmpty(SSEMI.LibrarySelected))
             {
                 SSEMI.InfoPath = Path.Combine(SSEMI.LibraryLocation, SSEMI.LibrarySelected, SMMRC.SucroseInfo);
+                SSECSMI.CefPath = Path.Combine(SMMRP.ApplicationData, SMMRG.AppName, SMMRF.Cache, SMMRF.CefSharp);
                 SSEMI.CompatiblePath = Path.Combine(SSEMI.LibraryLocation, SSEMI.LibrarySelected, SMMRC.SucroseCompatible);
                 SSEMI.PropertiesPath = Path.Combine(SSEMI.LibraryLocation, SSEMI.LibrarySelected, SMMRC.SucroseProperties);
 
@@ -287,10 +290,10 @@ namespace Sucrose.Live.CefSharp
                         CefSettings Settings = new()
                         {
                             UserAgent = SMMG.UserAgent,
+                            CachePath = SSECSMI.CefPath,
                             PersistSessionCookies = true,
                             IgnoreCertificateErrors = true,
-                            WindowlessRenderingEnabled = true,
-                            CachePath = Path.Combine(SMMRP.ApplicationData, SMMRG.AppName, SMMRF.Cache, SMMRF.CefSharp)
+                            WindowlessRenderingEnabled = true
                         };
 
                         SSEMI.BrowserSettings.CefSharp = SMME.CefArguments;
@@ -410,6 +413,11 @@ namespace Sucrose.Live.CefSharp
 
                             SSEHC.Start();
 
+                            if (SSEMI.Info.Type is SSDEWT.Gif or SSDEWT.Video or SSDEWT.YouTube)
+                            {
+                                SSECSHP.Start();
+                            }
+
                             if (File.Exists(SSEMI.PropertiesPath))
                             {
                                 SSEMI.PropertiesCache = Path.Combine(SMMRP.ApplicationData, SMMRG.AppName, SMMRF.Cache, SMMRF.Properties);
@@ -459,6 +467,8 @@ namespace Sucrose.Live.CefSharp
                             Task.Run(() => LocalServer.StartAsync());
 
                             SSEMI.Host = LocalServer.GetUrl();
+
+                            SSECSMI.CefEngine = new();
 
                             switch (SSEMI.Info.Type)
                             {

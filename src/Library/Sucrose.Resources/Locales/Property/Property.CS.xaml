@@ -23,6 +23,8 @@
     <system:String x:Key="Property.FileDropDown.Access.Title">Upozornění na přístup</system:String>
     <system:String x:Key="Property.FileDropDown.Access.Message">Nemáte oprávnění k přístupu k vybranému souboru.</system:String>
 
+    <system:String x:Key="Property.Localization.WebView">Pouze pro WebView</system:String>
+    <system:String x:Key="Property.Localization.CefSharp">Pouze pro CefSharp</system:String>
     <system:String x:Key="Property.Localization.MpvPlayer">Pouze pro MpvPlayer</system:String>
 
     <system:String x:Key="Property.Localization.Speed">Rychlost</system:String>
@@ -34,4 +36,17 @@
     <system:String x:Key="Property.Localization.Sharpness">Ostrost</system:String>
     <system:String x:Key="Property.Localization.Saturation">Sytost</system:String>
     <system:String x:Key="Property.Localization.Brightness">Jas</system:String>
+
+    <system:String x:Key="Property.Localization.Sepia">Sépie</system:String>
+    <system:String x:Key="Property.Localization.Blur">Rozmazání</system:String>
+    <system:String x:Key="Property.Localization.Invert">Inverze</system:String>
+    <system:String x:Key="Property.Localization.Animation">Animace</system:String>
+    <system:String x:Key="Property.Localization.Grayscale">Šedá Škála</system:String>
+
+    <system:String x:Key="Property.Localization.Animation.Flat">Ploché</system:String>
+    <system:String x:Key="Property.Localization.Animation.Flip">Otočení</system:String>
+    <system:String x:Key="Property.Localization.Animation.Pulse">Pulzování</system:String>
+    <system:String x:Key="Property.Localization.Animation.Shake">Třesení</system:String>
+    <system:String x:Key="Property.Localization.Animation.Bounce">Odrážení</system:String>
+    <system:String x:Key="Property.Localization.Animation.Wiggle">Kývání</system:String>
 </ResourceDictionary>

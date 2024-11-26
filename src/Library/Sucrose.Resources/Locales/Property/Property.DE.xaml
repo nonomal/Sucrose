@@ -23,6 +23,8 @@
     <system:String x:Key="Property.FileDropDown.Access.Title">Zugriffswarnung</system:String>
     <system:String x:Key="Property.FileDropDown.Access.Message">Sie haben keine Berechtigung, auf die ausgewählte Datei zuzugreifen.</system:String>
 
+    <system:String x:Key="Property.Localization.WebView">Nur für WebView</system:String>
+    <system:String x:Key="Property.Localization.CefSharp">Nur für CefSharp</system:String>
     <system:String x:Key="Property.Localization.MpvPlayer">Nur für MpvPlayer</system:String>
 
     <system:String x:Key="Property.Localization.Speed">Geschwindigkeit</system:String>
@@ -34,4 +36,17 @@
     <system:String x:Key="Property.Localization.Sharpness">Schärfe</system:String>
     <system:String x:Key="Property.Localization.Saturation">Sättigung</system:String>
     <system:String x:Key="Property.Localization.Brightness">Helligkeit</system:String>
+
+    <system:String x:Key="Property.Localization.Sepia">Sepia</system:String>
+    <system:String x:Key="Property.Localization.Blur">Unschärfe</system:String>
+    <system:String x:Key="Property.Localization.Invert">Inversion</system:String>
+    <system:String x:Key="Property.Localization.Animation">Animation</system:String>
+    <system:String x:Key="Property.Localization.Grayscale">Graustufen</system:String>
+
+    <system:String x:Key="Property.Localization.Animation.Flat">Flach</system:String>
+    <system:String x:Key="Property.Localization.Animation.Flip">Drehung</system:String>
+    <system:String x:Key="Property.Localization.Animation.Pulse">Puls</system:String>
+    <system:String x:Key="Property.Localization.Animation.Shake">Schütteln</system:String>
+    <system:String x:Key="Property.Localization.Animation.Bounce">Springen</system:String>
+    <system:String x:Key="Property.Localization.Animation.Wiggle">Zucken</system:String>
 </ResourceDictionary>

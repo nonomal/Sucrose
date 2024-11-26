@@ -179,6 +179,8 @@ Property\Property.ES.xaml,Property.FileDropDown.Access.Close,Entendido
 Property\Property.ES.xaml,Property.FileDropDown.Access.Title,Advertencia de Acceso
 Property\Property.ES.xaml,Property.FileDropDown.Access.Message,No tienes permiso para acceder al archivo seleccionado.
 Property\Property.ES.xaml,,
+Property\Property.ES.xaml,Property.Localization.WebView,Sólo para WebView
+Property\Property.ES.xaml,Property.Localization.CefSharp,Sólo para CefSharp
 Property\Property.ES.xaml,Property.Localization.MpvPlayer,Sólo para MpvPlayer
 Property\Property.ES.xaml,,
 Property\Property.ES.xaml,Property.Localization.Speed,Velocidad
@@ -190,6 +192,19 @@ Property\Property.ES.xaml,Property.Localization.Zoom,Zoom
 Property\Property.ES.xaml,Property.Localization.Sharpness,Nitidez
 Property\Property.ES.xaml,Property.Localization.Saturation,Saturación
 Property\Property.ES.xaml,Property.Localization.Brightness,Brillo
+Property\Property.ES.xaml,,
+Property\Property.ES.xaml,Property.Localization.Sepia,Sepia
+Property\Property.ES.xaml,Property.Localization.Blur,Desenfoque
+Property\Property.ES.xaml,Property.Localization.Invert,Invertir
+Property\Property.ES.xaml,Property.Localization.Animation,Animación
+Property\Property.ES.xaml,Property.Localization.Grayscale,Escala de Grises
+Property\Property.ES.xaml,,
+Property\Property.ES.xaml,Property.Localization.Animation.Flat,Plano
+Property\Property.ES.xaml,Property.Localization.Animation.Flip,Giro
+Property\Property.ES.xaml,Property.Localization.Animation.Pulse,Pulso
+Property\Property.ES.xaml,Property.Localization.Animation.Shake,Sacudida
+Property\Property.ES.xaml,Property.Localization.Animation.Bounce,Rebote
+Property\Property.ES.xaml,Property.Localization.Animation.Wiggle,Agitar
 Undo\Undo.ES.xaml,Undo.QuestionTitle,Sucrose Undo
 Undo\Undo.ES.xaml,,
 Undo\Undo.ES.xaml,Undo.QuestionMessage,¿Realmente desea desinstalar Sucrose Wallpaper Engine?

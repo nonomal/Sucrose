@@ -179,6 +179,8 @@ Property\Property.DE.xaml,Property.FileDropDown.Access.Close,Verstanden
 Property\Property.DE.xaml,Property.FileDropDown.Access.Title,Zugriffswarnung
 Property\Property.DE.xaml,Property.FileDropDown.Access.Message,"Sie haben keine Berechtigung, auf die ausgewählte Datei zuzugreifen."
 Property\Property.DE.xaml,,
+Property\Property.DE.xaml,Property.Localization.WebView,Nur für WebView
+Property\Property.DE.xaml,Property.Localization.CefSharp,Nur für CefSharp
 Property\Property.DE.xaml,Property.Localization.MpvPlayer,Nur für MpvPlayer
 Property\Property.DE.xaml,,
 Property\Property.DE.xaml,Property.Localization.Speed,Geschwindigkeit
@@ -190,6 +192,19 @@ Property\Property.DE.xaml,Property.Localization.Zoom,Zoom
 Property\Property.DE.xaml,Property.Localization.Sharpness,Schärfe
 Property\Property.DE.xaml,Property.Localization.Saturation,Sättigung
 Property\Property.DE.xaml,Property.Localization.Brightness,Helligkeit
+Property\Property.DE.xaml,,
+Property\Property.DE.xaml,Property.Localization.Sepia,Sepia
+Property\Property.DE.xaml,Property.Localization.Blur,Unschärfe
+Property\Property.DE.xaml,Property.Localization.Invert,Inversion
+Property\Property.DE.xaml,Property.Localization.Animation,Animation
+Property\Property.DE.xaml,Property.Localization.Grayscale,Graustufen
+Property\Property.DE.xaml,,
+Property\Property.DE.xaml,Property.Localization.Animation.Flat,Flach
+Property\Property.DE.xaml,Property.Localization.Animation.Flip,Drehung
+Property\Property.DE.xaml,Property.Localization.Animation.Pulse,Puls
+Property\Property.DE.xaml,Property.Localization.Animation.Shake,Schütteln
+Property\Property.DE.xaml,Property.Localization.Animation.Bounce,Springen
+Property\Property.DE.xaml,Property.Localization.Animation.Wiggle,Zucken
 Undo\Undo.DE.xaml,Undo.QuestionTitle,Sucrose Undo
 Undo\Undo.DE.xaml,,
 Undo\Undo.DE.xaml,Undo.QuestionMessage,Möchten Sie Sucrose Wallpaper Engine wirklich deinstallieren?

@@ -179,6 +179,8 @@ Property\Property.EL.xaml,Property.FileDropDown.Access.Close,Κατάλαβα
 Property\Property.EL.xaml,Property.FileDropDown.Access.Title,Προειδοποίηση Πρόσβασης
 Property\Property.EL.xaml,Property.FileDropDown.Access.Message,Δεν έχετε δικαίωμα πρόσβασης στο επιλεγμένο αρχείο.
 Property\Property.EL.xaml,,
+Property\Property.EL.xaml,Property.Localization.WebView,Μόνο για WebView
+Property\Property.EL.xaml,Property.Localization.CefSharp,Μόνο για CefSharp
 Property\Property.EL.xaml,Property.Localization.MpvPlayer,Μόνο για MpvPlayer
 Property\Property.EL.xaml,,
 Property\Property.EL.xaml,Property.Localization.Speed,Ταχύτητα
@@ -190,6 +192,19 @@ Property\Property.EL.xaml,Property.Localization.Zoom,Εστίαση
 Property\Property.EL.xaml,Property.Localization.Sharpness,Ευκρίνεια
 Property\Property.EL.xaml,Property.Localization.Saturation,Κορεσμός
 Property\Property.EL.xaml,Property.Localization.Brightness,Φωτεινότητα
+Property\Property.EL.xaml,,
+Property\Property.EL.xaml,Property.Localization.Sepia,Σεπία
+Property\Property.EL.xaml,Property.Localization.Blur,Θολούρα
+Property\Property.EL.xaml,Property.Localization.Invert,Αντίστροφο
+Property\Property.EL.xaml,Property.Localization.Animation,Κίνηση
+Property\Property.EL.xaml,Property.Localization.Grayscale,Γκρίζα Κλίμακα
+Property\Property.EL.xaml,,
+Property\Property.EL.xaml,Property.Localization.Animation.Flat,Ομαλό
+Property\Property.EL.xaml,Property.Localization.Animation.Flip,Αναστροφή
+Property\Property.EL.xaml,Property.Localization.Animation.Pulse,Παλμός
+Property\Property.EL.xaml,Property.Localization.Animation.Shake,Ταρακούνημα
+Property\Property.EL.xaml,Property.Localization.Animation.Bounce,Άλμα
+Property\Property.EL.xaml,Property.Localization.Animation.Wiggle,Κούνημα
 Undo\Undo.EL.xaml,Undo.QuestionTitle,Sucrose Undo
 Undo\Undo.EL.xaml,,
 Undo\Undo.EL.xaml,Undo.QuestionMessage,Θέλετε πραγματικά να απεγκαταστήσετε το Sucrose Wallpaper Engine;

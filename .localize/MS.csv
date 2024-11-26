@@ -179,6 +179,8 @@ Property\Property.MS.xaml,Property.FileDropDown.Access.Close,Faham
 Property\Property.MS.xaml,Property.FileDropDown.Access.Title,Amaran Akses
 Property\Property.MS.xaml,Property.FileDropDown.Access.Message,Anda tidak mempunyai kebenaran untuk mengakses fail yang dipilih.
 Property\Property.MS.xaml,,
+Property\Property.MS.xaml,Property.Localization.WebView,Hanya untuk WebView
+Property\Property.MS.xaml,Property.Localization.CefSharp,Hanya untuk CefSharp
 Property\Property.MS.xaml,Property.Localization.MpvPlayer,Hanya untuk MpvPlayer
 Property\Property.MS.xaml,,
 Property\Property.MS.xaml,Property.Localization.Speed,Kelajuan
@@ -190,6 +192,19 @@ Property\Property.MS.xaml,Property.Localization.Zoom,Zoom
 Property\Property.MS.xaml,Property.Localization.Sharpness,Kejelasan
 Property\Property.MS.xaml,Property.Localization.Saturation,Ketepuan
 Property\Property.MS.xaml,Property.Localization.Brightness,Kecerahan
+Property\Property.MS.xaml,,
+Property\Property.MS.xaml,Property.Localization.Sepia,Sepia
+Property\Property.MS.xaml,Property.Localization.Blur,Kabur
+Property\Property.MS.xaml,Property.Localization.Invert,Terbalik
+Property\Property.MS.xaml,Property.Localization.Animation,Animasi
+Property\Property.MS.xaml,Property.Localization.Grayscale,Skala Kelabu
+Property\Property.MS.xaml,,
+Property\Property.MS.xaml,Property.Localization.Animation.Flat,Rata
+Property\Property.MS.xaml,Property.Localization.Animation.Flip,Balikkan
+Property\Property.MS.xaml,Property.Localization.Animation.Pulse,Denyutan
+Property\Property.MS.xaml,Property.Localization.Animation.Shake,Gegar
+Property\Property.MS.xaml,Property.Localization.Animation.Bounce,Pantulan
+Property\Property.MS.xaml,Property.Localization.Animation.Wiggle,Goyang
 Undo\Undo.MS.xaml,Undo.QuestionTitle,Sucrose Undo
 Undo\Undo.MS.xaml,,
 Undo\Undo.MS.xaml,Undo.QuestionMessage,Adakah anda benar-benar ingin membuang Sucrose Wallpaper Engine?

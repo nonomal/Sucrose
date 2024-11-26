@@ -179,17 +179,31 @@ Property\Property.TR.xaml,Property.FileDropDown.Access.Close,Anladım
 Property\Property.TR.xaml,Property.FileDropDown.Access.Title,Erişim Uyarısı
 Property\Property.TR.xaml,Property.FileDropDown.Access.Message,Seçtiğiniz dosyaya erişim yetkiniz bulunmamakta.
 Property\Property.TR.xaml,,
+Property\Property.TR.xaml,Property.Localization.WebView,Sadece WebView İçin
+Property\Property.TR.xaml,Property.Localization.CefSharp,Sadece CefSharp İçin
 Property\Property.TR.xaml,Property.Localization.MpvPlayer,Sadece MpvPlayer İçin
 Property\Property.TR.xaml,,
 Property\Property.TR.xaml,Property.Localization.Speed,Hız
 Property\Property.TR.xaml,Property.Localization.Gamma,Gama
 Property\Property.TR.xaml,Property.Localization.Mute,Sessiz
+Property\Property.TR.xaml,Property.Localization.Sepia,Sepya
 Property\Property.TR.xaml,Property.Localization.Hue,Renk Tonu
+Property\Property.TR.xaml,Property.Localization.Blur,Bulanıklık
 Property\Property.TR.xaml,Property.Localization.Contrast,Kontrast
+Property\Property.TR.xaml,Property.Localization.Invert,Negatiflik
 Property\Property.TR.xaml,Property.Localization.Zoom,Yakınlaştırma
+Property\Property.TR.xaml,Property.Localization.Animation,Animasyon
 Property\Property.TR.xaml,Property.Localization.Sharpness,Keskinlik
 Property\Property.TR.xaml,Property.Localization.Saturation,Doygunluk
 Property\Property.TR.xaml,Property.Localization.Brightness,Parlaklık
+Property\Property.TR.xaml,Property.Localization.Grayscale,Gri Tonlama
+Property\Property.TR.xaml,,
+Property\Property.TR.xaml,Property.Localization.Animation.Flat,Düz
+Property\Property.TR.xaml,Property.Localization.Animation.Flip,Dönme
+Property\Property.TR.xaml,Property.Localization.Animation.Pulse,Nefes Alma
+Property\Property.TR.xaml,Property.Localization.Animation.Shake,Sallanma
+Property\Property.TR.xaml,Property.Localization.Animation.Bounce,Zıplama
+Property\Property.TR.xaml,Property.Localization.Animation.Wiggle,Hızlı Sallanma
 Undo\Undo.TR.xaml,Undo.QuestionTitle,Sucrose Undo
 Undo\Undo.TR.xaml,,
 Undo\Undo.TR.xaml,Undo.QuestionMessage,Sucrose Wallpaper Engine'yi gerçekten kaldırmak istiyor musunuz?

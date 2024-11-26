@@ -179,6 +179,8 @@ Property\Property.IT.xaml,Property.FileDropDown.Access.Close,Capito
 Property\Property.IT.xaml,Property.FileDropDown.Access.Title,Avviso di Accesso
 Property\Property.IT.xaml,Property.FileDropDown.Access.Message,Non hai il permesso di accedere al file selezionato.
 Property\Property.IT.xaml,,
+Property\Property.IT.xaml,Property.Localization.WebView,Solo per WebView
+Property\Property.IT.xaml,Property.Localization.CefSharp,Solo per CefSharp
 Property\Property.IT.xaml,Property.Localization.MpvPlayer,Solo per MpvPlayer
 Property\Property.IT.xaml,,
 Property\Property.IT.xaml,Property.Localization.Speed,Velocità
@@ -190,6 +192,19 @@ Property\Property.IT.xaml,Property.Localization.Zoom,Zoom
 Property\Property.IT.xaml,Property.Localization.Sharpness,Nitidezza
 Property\Property.IT.xaml,Property.Localization.Saturation,Saturazione
 Property\Property.IT.xaml,Property.Localization.Brightness,Luminosità
+Property\Property.IT.xaml,,
+Property\Property.IT.xaml,Property.Localization.Sepia,Seppia
+Property\Property.IT.xaml,Property.Localization.Blur,Sfocatura
+Property\Property.IT.xaml,Property.Localization.Invert,Inversione
+Property\Property.IT.xaml,Property.Localization.Animation,Animazione
+Property\Property.IT.xaml,Property.Localization.Grayscale,Scala di Grigi
+Property\Property.IT.xaml,,
+Property\Property.IT.xaml,Property.Localization.Animation.Flat,Piatto
+Property\Property.IT.xaml,Property.Localization.Animation.Flip,Capovolgere
+Property\Property.IT.xaml,Property.Localization.Animation.Pulse,Pulsazione
+Property\Property.IT.xaml,Property.Localization.Animation.Shake,Scuotere
+Property\Property.IT.xaml,Property.Localization.Animation.Bounce,Rimbalzo
+Property\Property.IT.xaml,Property.Localization.Animation.Wiggle,Dondolare
 Undo\Undo.IT.xaml,Undo.QuestionTitle,Sucrose Undo
 Undo\Undo.IT.xaml,,
 Undo\Undo.IT.xaml,Undo.QuestionMessage,Vuoi davvero disinstallare Sucrose Wallpaper Engine?

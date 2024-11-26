@@ -40,6 +40,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)Extension\Screenshot.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Helper\Handle.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Helper\Management.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helper\Properties.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Helper\Url.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Helper\Gif.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Helper\Web.cs" />

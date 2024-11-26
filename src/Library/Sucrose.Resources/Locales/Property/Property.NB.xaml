@@ -23,6 +23,8 @@
     <system:String x:Key="Property.FileDropDown.Access.Title">Tilgangsvarsel</system:String>
     <system:String x:Key="Property.FileDropDown.Access.Message">Du har ikke tillatelse til å få tilgang til den valgte filen.</system:String>
 
+    <system:String x:Key="Property.Localization.WebView">Kun for WebView</system:String>
+    <system:String x:Key="Property.Localization.CefSharp">Kun for CefSharp</system:String>
     <system:String x:Key="Property.Localization.MpvPlayer">Kun for MpvPlayer</system:String>
 
     <system:String x:Key="Property.Localization.Speed">Hastighet</system:String>
@@ -34,4 +36,17 @@
     <system:String x:Key="Property.Localization.Sharpness">Skarphet</system:String>
     <system:String x:Key="Property.Localization.Saturation">Metning</system:String>
     <system:String x:Key="Property.Localization.Brightness">Lysstyrke</system:String>
+
+    <system:String x:Key="Property.Localization.Sepia">Sepia</system:String>
+    <system:String x:Key="Property.Localization.Blur">Uskarphet</system:String>
+    <system:String x:Key="Property.Localization.Invert">Inverter</system:String>
+    <system:String x:Key="Property.Localization.Animation">Animasjon</system:String>
+    <system:String x:Key="Property.Localization.Grayscale">Gråskala</system:String>
+
+    <system:String x:Key="Property.Localization.Animation.Flat">Flat</system:String>
+    <system:String x:Key="Property.Localization.Animation.Flip">Flippe</system:String>
+    <system:String x:Key="Property.Localization.Animation.Pulse">Puls</system:String>
+    <system:String x:Key="Property.Localization.Animation.Shake">Riste</system:String>
+    <system:String x:Key="Property.Localization.Animation.Bounce">Hopp</system:String>
+    <system:String x:Key="Property.Localization.Animation.Wiggle">Vri</system:String>
 </ResourceDictionary>

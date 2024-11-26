@@ -34,6 +34,7 @@ using SSEHR = Sucrose.Shared.Engine.Helper.Run;
 using SSEMI = Sucrose.Shared.Engine.Manage.Internal;
 using SSEVDMB = Sucrose.Shared.Engine.View.DarkMessageBox;
 using SSEVLMB = Sucrose.Shared.Engine.View.LightMessageBox;
+using SSEWVHP = Sucrose.Shared.Engine.WebView.Helper.Properties;
 using SSEWVMI = Sucrose.Shared.Engine.WebView.Manage.Internal;
 using SSEWVVG = Sucrose.Shared.Engine.WebView.View.Gif;
 using SSEWVVU = Sucrose.Shared.Engine.WebView.View.Url;
@@ -243,6 +244,7 @@ namespace Sucrose.Live.WebView
             if (SMMI.LibrarySettingManager.CheckFile() && !string.IsNullOrEmpty(SSEMI.LibrarySelected))
             {
                 SSEMI.InfoPath = Path.Combine(SSEMI.LibraryLocation, SSEMI.LibrarySelected, SMMRC.SucroseInfo);
+                SSEWVMI.WebPath = Path.Combine(SMMRP.ApplicationData, SMMRG.AppName, SMMRF.Cache, SMMRF.WebView2);
                 SSEMI.CompatiblePath = Path.Combine(SSEMI.LibraryLocation, SSEMI.LibrarySelected, SMMRC.SucroseCompatible);
                 SSEMI.PropertiesPath = Path.Combine(SSEMI.LibraryLocation, SSEMI.LibrarySelected, SMMRC.SucroseProperties);
 
@@ -313,7 +315,12 @@ namespace Sucrose.Live.WebView
                             }
                         }
 
-                        Task<CoreWebView2Environment> Environment = CoreWebView2Environment.CreateAsync(null, Path.Combine(SMMRP.ApplicationData, SMMRG.AppName, SMMRF.Cache, SMMRF.WebView2), Options);
+                        Task<CoreWebView2Environment> Environment = CoreWebView2Environment.CreateAsync(null, SSEWVMI.WebPath, Options);
+
+                        SSEWVMI.WebEngine = new()
+                        {
+                            DefaultBackgroundColor = Color.Black
+                        };
 
                         SSEWVMI.WebEngine.EnsureCoreWebView2Async(Environment.Result);
 
@@ -337,6 +344,11 @@ namespace Sucrose.Live.WebView
                             SSSHS.Apply();
 
                             SSEHC.Start();
+
+                            if (SSEMI.Info.Type is SSDEWT.Gif or SSDEWT.Video or SSDEWT.YouTube)
+                            {
+                                SSEWVHP.Start();
+                            }
 
                             if (File.Exists(SSEMI.PropertiesPath))
                             {

@@ -179,6 +179,8 @@ Property\Property.NL.xaml,Property.FileDropDown.Access.Close,Begrepen
 Property\Property.NL.xaml,Property.FileDropDown.Access.Title,Toegangswaarschuwing
 Property\Property.NL.xaml,Property.FileDropDown.Access.Message,U heeft geen toestemming om toegang te krijgen tot het geselecteerde bestand.
 Property\Property.NL.xaml,,
+Property\Property.NL.xaml,Property.Localization.WebView,Alleen voor WebView
+Property\Property.NL.xaml,Property.Localization.CefSharp,Alleen voor CefSharp
 Property\Property.NL.xaml,Property.Localization.MpvPlayer,Alleen voor MpvPlayer
 Property\Property.NL.xaml,,
 Property\Property.NL.xaml,Property.Localization.Speed,Snelheid
@@ -190,6 +192,19 @@ Property\Property.NL.xaml,Property.Localization.Zoom,Zoom
 Property\Property.NL.xaml,Property.Localization.Sharpness,Scherpte
 Property\Property.NL.xaml,Property.Localization.Saturation,Verzadiging
 Property\Property.NL.xaml,Property.Localization.Brightness,Helderheid
+Property\Property.NL.xaml,,
+Property\Property.NL.xaml,Property.Localization.Sepia,Sepia
+Property\Property.NL.xaml,Property.Localization.Blur,Vervaging
+Property\Property.NL.xaml,Property.Localization.Invert,Inverteren
+Property\Property.NL.xaml,Property.Localization.Animation,Animatie
+Property\Property.NL.xaml,Property.Localization.Grayscale,Grijstinten
+Property\Property.NL.xaml,,
+Property\Property.NL.xaml,Property.Localization.Animation.Flat,Plat
+Property\Property.NL.xaml,Property.Localization.Animation.Flip,Flippen
+Property\Property.NL.xaml,Property.Localization.Animation.Pulse,Pulse
+Property\Property.NL.xaml,Property.Localization.Animation.Shake,Schudden
+Property\Property.NL.xaml,Property.Localization.Animation.Bounce,Stuiteren
+Property\Property.NL.xaml,Property.Localization.Animation.Wiggle,Wiebelen
 Undo\Undo.NL.xaml,Undo.QuestionTitle,Sucrose Undo
 Undo\Undo.NL.xaml,,
 Undo\Undo.NL.xaml,Undo.QuestionMessage,Wil je Sucrose Wallpaper Engine echt verwijderen?

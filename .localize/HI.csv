@@ -179,6 +179,8 @@ Property\Property.HI.xaml,Property.FileDropDown.Access.Close,समझ गया
 Property\Property.HI.xaml,Property.FileDropDown.Access.Title,प्रवेश चेतावनी
 Property\Property.HI.xaml,Property.FileDropDown.Access.Message,आपको चयनित फ़ाइल तक पहुंचने की अनुमति नहीं है।
 Property\Property.HI.xaml,,
+Property\Property.HI.xaml,Property.Localization.WebView,केवल WebView के लिए
+Property\Property.HI.xaml,Property.Localization.CefSharp,केवल CefSharp के लिए
 Property\Property.HI.xaml,Property.Localization.MpvPlayer,केवल MpvPlayer के लिए
 Property\Property.HI.xaml,,
 Property\Property.HI.xaml,Property.Localization.Speed,गति
@@ -190,6 +192,19 @@ Property\Property.HI.xaml,Property.Localization.Zoom,ज़ूम
 Property\Property.HI.xaml,Property.Localization.Sharpness,तीक्ष्णता
 Property\Property.HI.xaml,Property.Localization.Saturation,संतृप्ति
 Property\Property.HI.xaml,Property.Localization.Brightness,चमक
+Property\Property.HI.xaml,,
+Property\Property.HI.xaml,Property.Localization.Sepia,सेपिया
+Property\Property.HI.xaml,Property.Localization.Blur,धुंधलापन
+Property\Property.HI.xaml,Property.Localization.Invert,नकारात्मक
+Property\Property.HI.xaml,Property.Localization.Animation,एनीमेशन
+Property\Property.HI.xaml,Property.Localization.Grayscale,ग्रे स्केल
+Property\Property.HI.xaml,,
+Property\Property.HI.xaml,Property.Localization.Animation.Flat,साधारण
+Property\Property.HI.xaml,Property.Localization.Animation.Flip,घूमाना
+Property\Property.HI.xaml,Property.Localization.Animation.Pulse,धड़कन
+Property\Property.HI.xaml,Property.Localization.Animation.Shake,झटकना
+Property\Property.HI.xaml,Property.Localization.Animation.Bounce,उछलना
+Property\Property.HI.xaml,Property.Localization.Animation.Wiggle,घूमाना
 Undo\Undo.HI.xaml,Undo.QuestionTitle,Sucrose Undo
 Undo\Undo.HI.xaml,,
 Undo\Undo.HI.xaml,Undo.QuestionMessage,क्या आप वास्तव में Sucrose Wallpaper Engine को अनइंस्टॉल करना चाहते हैं?

@@ -23,6 +23,8 @@
     <system:String x:Key="Property.FileDropDown.Access.Title">Amaran Akses</system:String>
     <system:String x:Key="Property.FileDropDown.Access.Message">Anda tidak mempunyai kebenaran untuk mengakses fail yang dipilih.</system:String>
 
+    <system:String x:Key="Property.Localization.WebView">Hanya untuk WebView</system:String>
+    <system:String x:Key="Property.Localization.CefSharp">Hanya untuk CefSharp</system:String>
     <system:String x:Key="Property.Localization.MpvPlayer">Hanya untuk MpvPlayer</system:String>
 
     <system:String x:Key="Property.Localization.Speed">Kelajuan</system:String>
@@ -34,4 +36,17 @@
     <system:String x:Key="Property.Localization.Sharpness">Kejelasan</system:String>
     <system:String x:Key="Property.Localization.Saturation">Ketepuan</system:String>
     <system:String x:Key="Property.Localization.Brightness">Kecerahan</system:String>
+
+    <system:String x:Key="Property.Localization.Sepia">Sepia</system:String>
+    <system:String x:Key="Property.Localization.Blur">Kabur</system:String>
+    <system:String x:Key="Property.Localization.Invert">Terbalik</system:String>
+    <system:String x:Key="Property.Localization.Animation">Animasi</system:String>
+    <system:String x:Key="Property.Localization.Grayscale">Skala Kelabu</system:String>
+
+    <system:String x:Key="Property.Localization.Animation.Flat">Rata</system:String>
+    <system:String x:Key="Property.Localization.Animation.Flip">Balikkan</system:String>
+    <system:String x:Key="Property.Localization.Animation.Pulse">Denyutan</system:String>
+    <system:String x:Key="Property.Localization.Animation.Shake">Gegar</system:String>
+    <system:String x:Key="Property.Localization.Animation.Bounce">Pantulan</system:String>
+    <system:String x:Key="Property.Localization.Animation.Wiggle">Goyang</system:String>
 </ResourceDictionary>

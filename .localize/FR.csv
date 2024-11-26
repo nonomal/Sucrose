@@ -179,6 +179,8 @@ Property\Property.FR.xaml,Property.FileDropDown.Access.Close,Compris
 Property\Property.FR.xaml,Property.FileDropDown.Access.Title,Avertissement d'Accès
 Property\Property.FR.xaml,Property.FileDropDown.Access.Message,Vous n'avez pas la permission d'accéder au fichier sélectionné.
 Property\Property.FR.xaml,,
+Property\Property.FR.xaml,Property.Localization.WebView,Uniquement pour WebView
+Property\Property.FR.xaml,Property.Localization.CefSharp,Uniquement pour CefSharp
 Property\Property.FR.xaml,Property.Localization.MpvPlayer,Uniquement pour MpvPlayer
 Property\Property.FR.xaml,,
 Property\Property.FR.xaml,Property.Localization.Speed,Vitesse
@@ -190,6 +192,19 @@ Property\Property.FR.xaml,Property.Localization.Zoom,Zoom
 Property\Property.FR.xaml,Property.Localization.Sharpness,Netteté
 Property\Property.FR.xaml,Property.Localization.Saturation,Saturation
 Property\Property.FR.xaml,Property.Localization.Brightness,Luminosité
+Property\Property.FR.xaml,,
+Property\Property.FR.xaml,Property.Localization.Sepia,Sépia
+Property\Property.FR.xaml,Property.Localization.Blur,Flou
+Property\Property.FR.xaml,Property.Localization.Invert,Inverser
+Property\Property.FR.xaml,Property.Localization.Animation,Animation
+Property\Property.FR.xaml,Property.Localization.Grayscale,Niveaux de Gris
+Property\Property.FR.xaml,,
+Property\Property.FR.xaml,Property.Localization.Animation.Flat,Plat
+Property\Property.FR.xaml,Property.Localization.Animation.Flip,Retourner
+Property\Property.FR.xaml,Property.Localization.Animation.Pulse,Pulsation
+Property\Property.FR.xaml,Property.Localization.Animation.Shake,Secouer
+Property\Property.FR.xaml,Property.Localization.Animation.Bounce,Rebondir
+Property\Property.FR.xaml,Property.Localization.Animation.Wiggle,Secouer Rapidement
 Undo\Undo.FR.xaml,Undo.QuestionTitle,Sucrose Undo
 Undo\Undo.FR.xaml,,
 Undo\Undo.FR.xaml,Undo.QuestionMessage,Voulez-vous vraiment désinstaller Sucrose Wallpaper Engine?

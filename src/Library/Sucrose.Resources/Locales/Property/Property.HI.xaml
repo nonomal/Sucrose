@@ -23,6 +23,8 @@
     <system:String x:Key="Property.FileDropDown.Access.Title">प्रवेश चेतावनी</system:String>
     <system:String x:Key="Property.FileDropDown.Access.Message">आपको चयनित फ़ाइल तक पहुंचने की अनुमति नहीं है।</system:String>
 
+    <system:String x:Key="Property.Localization.WebView">केवल WebView के लिए</system:String>
+    <system:String x:Key="Property.Localization.CefSharp">केवल CefSharp के लिए</system:String>
     <system:String x:Key="Property.Localization.MpvPlayer">केवल MpvPlayer के लिए</system:String>
 
     <system:String x:Key="Property.Localization.Speed">गति</system:String>
@@ -34,4 +36,17 @@
     <system:String x:Key="Property.Localization.Sharpness">तीक्ष्णता</system:String>
     <system:String x:Key="Property.Localization.Saturation">संतृप्ति</system:String>
     <system:String x:Key="Property.Localization.Brightness">चमक</system:String>
+
+    <system:String x:Key="Property.Localization.Sepia">सेपिया</system:String>
+    <system:String x:Key="Property.Localization.Blur">धुंधलापन</system:String>
+    <system:String x:Key="Property.Localization.Invert">नकारात्मक</system:String>
+    <system:String x:Key="Property.Localization.Animation">एनीमेशन</system:String>
+    <system:String x:Key="Property.Localization.Grayscale">ग्रे स्केल</system:String>
+
+    <system:String x:Key="Property.Localization.Animation.Flat">साधारण</system:String>
+    <system:String x:Key="Property.Localization.Animation.Flip">घूमाना</system:String>
+    <system:String x:Key="Property.Localization.Animation.Pulse">धड़कन</system:String>
+    <system:String x:Key="Property.Localization.Animation.Shake">झटकना</system:String>
+    <system:String x:Key="Property.Localization.Animation.Bounce">उछलना</system:String>
+    <system:String x:Key="Property.Localization.Animation.Wiggle">घूमाना</system:String>
 </ResourceDictionary>

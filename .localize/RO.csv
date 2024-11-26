@@ -179,6 +179,8 @@ Property\Property.RO.xaml,Property.FileDropDown.Access.Close,Am înțeles
 Property\Property.RO.xaml,Property.FileDropDown.Access.Title,Avertisment de Acces
 Property\Property.RO.xaml,Property.FileDropDown.Access.Message,Nu aveți permisiunea de a accesa fișierul selectat.
 Property\Property.RO.xaml,,
+Property\Property.RO.xaml,Property.Localization.WebView,Doar pentru WebView
+Property\Property.RO.xaml,Property.Localization.CefSharp,Doar pentru CefSharp
 Property\Property.RO.xaml,Property.Localization.MpvPlayer,Doar pentru MpvPlayer
 Property\Property.RO.xaml,,
 Property\Property.RO.xaml,Property.Localization.Speed,Viteză
@@ -190,6 +192,18 @@ Property\Property.RO.xaml,Property.Localization.Zoom,Zoom
 Property\Property.RO.xaml,Property.Localization.Sharpness,Claritate
 Property\Property.RO.xaml,Property.Localization.Saturation,Saturație
 Property\Property.RO.xaml,Property.Localization.Brightness,Luminozitate
+Property\Property.RO.xaml,Property.Localization.Sepia,Sepia
+Property\Property.RO.xaml,Property.Localization.Blur,Neclaritate
+Property\Property.RO.xaml,Property.Localization.Invert,Inversare
+Property\Property.RO.xaml,Property.Localization.Animation,Animatie
+Property\Property.RO.xaml,Property.Localization.Grayscale,Scara de Gri
+Property\Property.RO.xaml,,
+Property\Property.RO.xaml,Property.Localization.Animation.Flat,Plata
+Property\Property.RO.xaml,Property.Localization.Animation.Flip,Răsturnare
+Property\Property.RO.xaml,Property.Localization.Animation.Pulse,Puls
+Property\Property.RO.xaml,Property.Localization.Animation.Shake,Mișcare
+Property\Property.RO.xaml,Property.Localization.Animation.Bounce,Sărit
+Property\Property.RO.xaml,Property.Localization.Animation.Wiggle,Zbucium
 Undo\Undo.RO.xaml,Undo.QuestionTitle,Sucrose Undo
 Undo\Undo.RO.xaml,,
 Undo\Undo.RO.xaml,Undo.QuestionMessage,Doriți cu adevărat să dezinstalați Sucrose Wallpaper Engine?

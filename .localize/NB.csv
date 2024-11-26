@@ -179,6 +179,8 @@ Property\Property.NB.xaml,Property.FileDropDown.Access.Close,Forstått
 Property\Property.NB.xaml,Property.FileDropDown.Access.Title,Tilgangsvarsel
 Property\Property.NB.xaml,Property.FileDropDown.Access.Message,Du har ikke tillatelse til å få tilgang til den valgte filen.
 Property\Property.NB.xaml,,
+Property\Property.NB.xaml,Property.Localization.WebView,Kun for WebView
+Property\Property.NB.xaml,Property.Localization.CefSharp,Kun for CefSharp
 Property\Property.NB.xaml,Property.Localization.MpvPlayer,Kun for MpvPlayer
 Property\Property.NB.xaml,,
 Property\Property.NB.xaml,Property.Localization.Speed,Hastighet
@@ -190,6 +192,19 @@ Property\Property.NB.xaml,Property.Localization.Zoom,Zoom
 Property\Property.NB.xaml,Property.Localization.Sharpness,Skarphet
 Property\Property.NB.xaml,Property.Localization.Saturation,Metning
 Property\Property.NB.xaml,Property.Localization.Brightness,Lysstyrke
+Property\Property.NB.xaml,,
+Property\Property.NB.xaml,Property.Localization.Sepia,Sepia
+Property\Property.NB.xaml,Property.Localization.Blur,Uskarphet
+Property\Property.NB.xaml,Property.Localization.Invert,Inverter
+Property\Property.NB.xaml,Property.Localization.Animation,Animasjon
+Property\Property.NB.xaml,Property.Localization.Grayscale,Gråskala
+Property\Property.NB.xaml,,
+Property\Property.NB.xaml,Property.Localization.Animation.Flat,Flat
+Property\Property.NB.xaml,Property.Localization.Animation.Flip,Flippe
+Property\Property.NB.xaml,Property.Localization.Animation.Pulse,Puls
+Property\Property.NB.xaml,Property.Localization.Animation.Shake,Riste
+Property\Property.NB.xaml,Property.Localization.Animation.Bounce,Hopp
+Property\Property.NB.xaml,Property.Localization.Animation.Wiggle,Vri
 Undo\Undo.NB.xaml,Undo.QuestionTitle,Sucrose Undo
 Undo\Undo.NB.xaml,,
 Undo\Undo.NB.xaml,Undo.QuestionMessage,Ønsker du virkelig å avinstallere Sucrose Wallpaper Engine?
