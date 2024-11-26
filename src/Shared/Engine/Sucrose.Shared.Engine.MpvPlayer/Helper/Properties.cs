@@ -5,6 +5,7 @@ using SMMRC = Sucrose.Memory.Manage.Readonly.Content;
 using SMMRF = Sucrose.Memory.Manage.Readonly.Folder;
 using SMMRG = Sucrose.Memory.Manage.Readonly.General;
 using SMMRP = Sucrose.Memory.Manage.Readonly.Path;
+using SSDEPT = Sucrose.Shared.Dependency.Enum.PropertiesType;
 using SSECCE = Skylark.Standard.Extension.Cryptology.CryptologyExtension;
 using SSEHP = Sucrose.Shared.Engine.Helper.Properties;
 using SSEMI = Sucrose.Shared.Engine.Manage.Internal;
@@ -33,8 +34,8 @@ namespace Sucrose.Shared.Engine.MpvPlayer.Helper
             }
 
             SSEMI.PropertiesCache = Path.Combine(SMMRP.ApplicationData, SMMRG.AppName, SMMRF.Cache, SMMRF.Properties);
-            SSEMI.PropertiesFile = Path.Combine(SSEMI.PropertiesCache, $"{SSEMI.LibrarySelected}.json");
-            SSEMI.WatcherFile = Path.Combine(SSEMI.PropertiesCache, $"*.{SSEMI.LibrarySelected}.json");
+            SSEMI.PropertiesFile = Path.Combine(SSEMI.PropertiesCache, $"{SSEMI.LibrarySelected}{SSDEPT.MpvPlayer}");
+            SSEMI.WatcherFile = Path.Combine(SSEMI.PropertiesCache, $"*.{SSEMI.LibrarySelected}{SSDEPT.MpvPlayer}");
 
             if (!Directory.Exists(SSEMI.PropertiesCache))
             {

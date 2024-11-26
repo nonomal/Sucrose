@@ -22,12 +22,6 @@ namespace Sucrose.Localizer.Helper
 
             csvFiles.Remove(reindexerSource);
 
-            //reindexerLines'deki tüm satırları , ile parçalara böl ve File,Key,Value olarak ata
-            //daha sonra csvFilesi döngüye alıp satırları , ile parçalara böl ve File,Key,Value olarak ata
-            //csvFile'daki satırların File ve Key'leri reindexerLines'daki File ve Key'in bulunduğu satırla eşleşmezse eğer reindexerLines'deki Key ve Value ile eşleşen satıra koy
-            //yine eşit olmayan satırları da bilgi olarak ekrana yazdır (Console.WriteLine)
-            //dosyayı kaydet
-
             foreach (string csvFile in csvFiles)
             {
                 Console.WriteLine($"-- Reindexing {Path.GetFileName(csvFile)} with {Path.GetFileName(reindexerSource)} --");
@@ -41,8 +35,6 @@ namespace Sucrose.Localizer.Helper
 
                     string hash = fields[0];
                     bool found = false;
-
-                    //Console.WriteLine($"Hash: {hash}");
 
                     foreach (KeyValuePair<int, string> reindexerPair in reindexerLines)
                     {

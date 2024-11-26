@@ -1,5 +1,6 @@
 ﻿using System.IO;
 using SMMRC = Sucrose.Memory.Manage.Readonly.Content;
+using SSDEPT = Sucrose.Shared.Dependency.Enum.PropertiesType;
 using SSECCE = Skylark.Standard.Extension.Cryptology.CryptologyExtension;
 using SSEMI = Sucrose.Shared.Engine.Manage.Internal;
 using SSEWVMI = Sucrose.Shared.Engine.WebView.Manage.Internal;
@@ -19,6 +20,8 @@ namespace Sucrose.Shared.Engine.WebView.Helper
             SSEMI.PropertiesPath = Path.Combine(SSEWVMI.WebPath, SMMRC.SucroseProperties);
 
             SSSHF.Write(SSEMI.PropertiesPath, SSECCE.BaseToText(SSEMI.WebProperties));
+
+            SSEMI.PropertiesType = SSDEPT.WebView;
         }
     }
 }

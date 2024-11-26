@@ -17,6 +17,7 @@ using SPMI = Sucrose.Property.Manage.Internal;
 using SPVMW = Sucrose.Property.View.MainWindow;
 using SRHR = Sucrose.Resources.Helper.Resources;
 using SSDEET = Sucrose.Shared.Dependency.Enum.EngineType;
+using SSDEPT = Sucrose.Shared.Dependency.Enum.PropertiesType;
 using SSDEWT = Sucrose.Shared.Dependency.Enum.WallpaperType;
 using SSDMME = Sucrose.Shared.Dependency.Manage.Manager.Engine;
 using SSSHI = Sucrose.Shared.Space.Helper.Instance;
@@ -136,7 +137,7 @@ namespace Sucrose.Property
                     {
                         if (SPMI.Info.Type == SSDEWT.Web && File.Exists(SPMI.PropertiesPath))
                         {
-                            //
+                            SPMI.PropertiesType = SSDEPT.Other;
                         }
                         else if (SPMI.Info.Type is SSDEWT.Gif or SSDEWT.Video or SSDEWT.YouTube)
                         {
@@ -146,6 +147,8 @@ namespace Sucrose.Property
                                 {
                                     if (SSDMME.Gif == SSDEET.MpvPlayerLive && (File.Exists(SPMI.PropertiesPath) || File.Exists(Path.Combine(SMMRP.ApplicationData, SMMRG.AppName, SMMRF.Cache, SMMRF.MpvPlayer, SMMRC.SucroseProperties))))
                                     {
+                                        SPMI.PropertiesType = SSDEPT.MpvPlayer;
+
                                         if (!File.Exists(SPMI.PropertiesPath))
                                         {
                                             SPMI.PropertiesPath = Path.Combine(SMMRP.ApplicationData, SMMRG.AppName, SMMRF.Cache, SMMRF.MpvPlayer, SMMRC.SucroseProperties);
@@ -153,10 +156,14 @@ namespace Sucrose.Property
                                     }
                                     else if (SSDMME.Gif == SSDEET.CefSharpLive && File.Exists(Path.Combine(SMMRP.ApplicationData, SMMRG.AppName, SMMRF.Cache, SMMRF.CefSharp, SMMRC.SucroseProperties)))
                                     {
+                                        SPMI.PropertiesType = SSDEPT.CefSharp;
+
                                         SPMI.PropertiesPath = Path.Combine(SMMRP.ApplicationData, SMMRG.AppName, SMMRF.Cache, SMMRF.CefSharp, SMMRC.SucroseProperties);
                                     }
                                     else if (SSDMME.Gif == SSDEET.WebViewLive && File.Exists(Path.Combine(SMMRP.ApplicationData, SMMRG.AppName, SMMRF.Cache, SMMRF.WebView2, SMMRC.SucroseProperties)))
                                     {
+                                        SPMI.PropertiesType = SSDEPT.WebView;
+
                                         SPMI.PropertiesPath = Path.Combine(SMMRP.ApplicationData, SMMRG.AppName, SMMRF.Cache, SMMRF.WebView2, SMMRC.SucroseProperties);
                                     }
                                 }
@@ -164,6 +171,8 @@ namespace Sucrose.Property
                                 {
                                     if (SSDMME.Video == SSDEET.MpvPlayerLive && (File.Exists(SPMI.PropertiesPath) || File.Exists(Path.Combine(SMMRP.ApplicationData, SMMRG.AppName, SMMRF.Cache, SMMRF.MpvPlayer, SMMRC.SucroseProperties))))
                                     {
+                                        SPMI.PropertiesType = SSDEPT.MpvPlayer;
+
                                         if (!File.Exists(SPMI.PropertiesPath))
                                         {
                                             SPMI.PropertiesPath = Path.Combine(SMMRP.ApplicationData, SMMRG.AppName, SMMRF.Cache, SMMRF.MpvPlayer, SMMRC.SucroseProperties);
@@ -171,10 +180,14 @@ namespace Sucrose.Property
                                     }
                                     else if (SSDMME.Video == SSDEET.CefSharpLive && File.Exists(Path.Combine(SMMRP.ApplicationData, SMMRG.AppName, SMMRF.Cache, SMMRF.CefSharp, SMMRC.SucroseProperties)))
                                     {
+                                        SPMI.PropertiesType = SSDEPT.CefSharp;
+
                                         SPMI.PropertiesPath = Path.Combine(SMMRP.ApplicationData, SMMRG.AppName, SMMRF.Cache, SMMRF.CefSharp, SMMRC.SucroseProperties);
                                     }
                                     else if (SSDMME.Video == SSDEET.WebViewLive && File.Exists(Path.Combine(SMMRP.ApplicationData, SMMRG.AppName, SMMRF.Cache, SMMRF.WebView2, SMMRC.SucroseProperties)))
                                     {
+                                        SPMI.PropertiesType = SSDEPT.WebView;
+
                                         SPMI.PropertiesPath = Path.Combine(SMMRP.ApplicationData, SMMRG.AppName, SMMRF.Cache, SMMRF.WebView2, SMMRC.SucroseProperties);
                                     }
                                 }
@@ -183,10 +196,14 @@ namespace Sucrose.Property
                             {
                                 if (SSDMME.YouTube == SSDEET.CefSharpLive && File.Exists(Path.Combine(SMMRP.ApplicationData, SMMRG.AppName, SMMRF.Cache, SMMRF.CefSharp, SMMRC.SucroseProperties)))
                                 {
+                                    SPMI.PropertiesType = SSDEPT.CefSharp;
+
                                     SPMI.PropertiesPath = Path.Combine(SMMRP.ApplicationData, SMMRG.AppName, SMMRF.Cache, SMMRF.CefSharp, SMMRC.SucroseProperties);
                                 }
                                 else if (SSDMME.YouTube == SSDEET.WebViewLive && File.Exists(Path.Combine(SMMRP.ApplicationData, SMMRG.AppName, SMMRF.Cache, SMMRF.WebView2, SMMRC.SucroseProperties)))
                                 {
+                                    SPMI.PropertiesType = SSDEPT.WebView;
+
                                     SPMI.PropertiesPath = Path.Combine(SMMRP.ApplicationData, SMMRG.AppName, SMMRF.Cache, SMMRF.WebView2, SMMRC.SucroseProperties);
                                 }
                             }
@@ -195,8 +212,8 @@ namespace Sucrose.Property
                         if (File.Exists(SPMI.PropertiesPath))
                         {
                             SPMI.PropertiesCache = Path.Combine(SMMRP.ApplicationData, SMMRG.AppName, SMMRF.Cache, SMMRF.Properties);
-                            SPMI.PropertiesFile = Path.Combine(SPMI.PropertiesCache, $"{SPMI.LibrarySelected}.json");
-                            SPMI.WatcherFile = Path.Combine(SPMI.PropertiesCache, $"*.{SPMI.LibrarySelected}.json");
+                            SPMI.PropertiesFile = Path.Combine(SPMI.PropertiesCache, $"{SPMI.LibrarySelected}{SPMI.PropertiesType}");
+                            SPMI.WatcherFile = Path.Combine(SPMI.PropertiesCache, $"*.{SPMI.LibrarySelected}{SPMI.PropertiesType}");
 
                             if (!Directory.Exists(SPMI.PropertiesCache))
                             {

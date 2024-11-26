@@ -1,5 +1,6 @@
 ﻿using System.Net;
 using System.Windows.Threading;
+using SSDEPT = Sucrose.Shared.Dependency.Enum.PropertiesType;
 using SSDSHS = Sucrose.Shared.Dependency.Struct.HandleStruct;
 using SSESB = Sucrose.Shared.Engine.Setting.Browser;
 using SSTHC = Sucrose.Shared.Theme.Helper.Compatible;
@@ -13,6 +14,8 @@ namespace Sucrose.Shared.Engine.Manage
         public static SSTHI Info = new();
 
         public static bool IsDesktop = true;
+
+        public static SSDEPT PropertiesType;
 
         public static bool Interaction = true;
 

@@ -1,5 +1,6 @@
 ﻿using System.IO;
 using SMMRC = Sucrose.Memory.Manage.Readonly.Content;
+using SSDEPT = Sucrose.Shared.Dependency.Enum.PropertiesType;
 using SSECCE = Skylark.Standard.Extension.Cryptology.CryptologyExtension;
 using SSECSMI = Sucrose.Shared.Engine.CefSharp.Manage.Internal;
 using SSEMI = Sucrose.Shared.Engine.Manage.Internal;
@@ -19,6 +20,8 @@ namespace Sucrose.Shared.Engine.CefSharp.Helper
             SSEMI.PropertiesPath = Path.Combine(SSECSMI.CefPath, SMMRC.SucroseProperties);
 
             SSSHF.Write(SSEMI.PropertiesPath, SSECCE.BaseToText(SSEMI.CefProperties));
+
+            SSEMI.PropertiesType = SSDEPT.CefSharp;
         }
     }
 }

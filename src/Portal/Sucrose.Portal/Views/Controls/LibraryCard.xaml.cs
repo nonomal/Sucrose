@@ -231,11 +231,13 @@ namespace Sucrose.Portal.Views.Controls
                 await Task.Run(() =>
                 {
                     string PropertiesCache = Path.Combine(SMMRP.ApplicationData, SMMRG.AppName, SMMRF.Cache, SMMRF.Properties);
-                    string PropertiesFile = Path.Combine(PropertiesCache, $"{Path.GetFileName(Theme)}.json");
 
-                    if (File.Exists(PropertiesFile))
+                    foreach (string Record in Directory.GetFiles(PropertiesCache, ""))
                     {
-                        File.Delete(PropertiesFile);
+                        if (File.Exists(Record) && Record.Contains(Path.GetFileName(Theme)))
+                        {
+                            File.Delete(Record);
+                        }
                     }
                 });
 
