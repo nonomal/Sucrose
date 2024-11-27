@@ -1,6 +1,5 @@
 ﻿using SSDEST = Sucrose.Shared.Dependency.Enum.StretchType;
 using SSEHD = Sucrose.Shared.Engine.Helper.Data;
-using SSEHS = Sucrose.Shared.Engine.Helper.Source;
 using SSEWVHM = Sucrose.Shared.Engine.WebView.Helper.Management;
 using SSEWVMI = Sucrose.Shared.Engine.WebView.Manage.Internal;
 using SSWEW = Sucrose.Shared.Watchdog.Extension.Watch;
@@ -16,7 +15,7 @@ namespace Sucrose.Shared.Engine.WebView.Helper
                 await SSEWVMI.WebEngine.CoreWebView2.ExecuteScriptAsync("document.getElementsByTagName('video')[0].requestFullscreen();");
                 await SSEWVMI.WebEngine.CoreWebView2.ExecuteScriptAsync("document.getElementsByTagName('video')[0].controls = false;");
                 await SSEWVMI.WebEngine.CoreWebView2.ExecuteScriptAsync("document.getElementsByTagName('video')[0].loop = true;");
-                await SSEWVMI.WebEngine.CoreWebView2.ExecuteScriptAsync(SSEHS.GetVideoStyle());
+                //await SSEWVMI.WebEngine.CoreWebView2.ExecuteScriptAsync(SSEHS.GetVideoStyle());
 
                 SetStretch(SSEHD.GetStretch());
                 SetVolume(SSEHD.GetVolume());
