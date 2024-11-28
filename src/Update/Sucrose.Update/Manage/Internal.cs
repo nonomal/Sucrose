@@ -5,6 +5,7 @@ using SMMG = Sucrose.Manager.Manage.General;
 using SMMRF = Sucrose.Memory.Manage.Readonly.Folder;
 using SMMRG = Sucrose.Memory.Manage.Readonly.General;
 using SMMRP = Sucrose.Memory.Manage.Readonly.Path;
+using SSCEFT = Sucrose.Shared.Core.Enum.FrameworkType;
 using SSSEPS = Sucrose.Shared.Space.Extension.ProgressStream;
 using Timer = System.Timers.Timer;
 
@@ -21,6 +22,8 @@ namespace Sucrose.Update.Manage
         public static DownloadService DownloadService;
 
         public static bool Chance = SMMRG.Randomise.Next(2) == 0;
+
+        public static SSCEFT DefaultFrameworkType = SSCEFT.NET_Framework_4_8;
 
         public static string CachePath = Path.Combine(SMMRP.ApplicationData, SMMRG.AppName, SMMRF.Cache, SMMRF.Bundle);
 
