@@ -110,6 +110,7 @@ namespace Sucrose.Shared.Engine.Manage
             "framedrop=decoder",
             "temporal-dither=no",
             "profile=low-latency",
+            "stop-screensaver=no",
             "gpu-shader-cache=yes",
             "# Video Settings #",
 
@@ -186,6 +187,8 @@ namespace Sucrose.Shared.Engine.Manage
             "--disable-site-isolation-trials",
             "--disable-blink-features=BlockCredentialedSubresources",
 
+            "--enable-features=ThirdPartyStoragePartitioning,PartitionedCookies",
+
             "--disable-features=MediaEngagementBypassAutoplayPolicies,CrossSiteDocumentBlockingIfIsolating,BlockInsecurePrivateNetworkRequests,CrossSiteDocumentBlockingAlways,PreloadMediaEngagementData,OutOfBlinkCors,IsolateOrigins"
         };
 
@@ -239,6 +242,8 @@ namespace Sucrose.Shared.Engine.Manage
 
             { "disable-site-isolation-trials", "1" },
             { "disable-blink-features", "BlockCredentialedSubresources" },
+
+            { "enable-features", "ThirdPartyStoragePartitioning,PartitionedCookies" },
 
             { "disable-features", "MediaEngagementBypassAutoplayPolicies,CrossSiteDocumentBlockingIfIsolating,BlockInsecurePrivateNetworkRequests,CrossSiteDocumentBlockingAlways,PreloadMediaEngagementData,OutOfBlinkCors,IsolateOrigins" }
         };
