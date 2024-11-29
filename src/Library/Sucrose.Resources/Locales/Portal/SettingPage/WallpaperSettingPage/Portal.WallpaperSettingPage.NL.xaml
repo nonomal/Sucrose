@@ -19,6 +19,9 @@
     <system:String x:Key="Portal.WallpaperSettingPage.StretchMode">Rekmodus</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.StretchMode.Description">Verandert de schaalmethode voor ondersteunde achtergronden.</system:String>
 
+    <system:String x:Key="Portal.WallpaperSettingPage.StayAwake">Blijf Wakker</system:String>
+    <system:String x:Key="Portal.WallpaperSettingPage.StayAwake.Description">Wijzigt de wakker-status voor ondersteunde achtergronden.</system:String>
+
     <system:String x:Key="Portal.WallpaperSettingPage.LoopMode">Herhalingsmodus</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.LoopMode.Description">Verandert de herhalingsinstelling voor ondersteunde achtergronden.</system:String>
 

@@ -19,6 +19,9 @@
     <system:String x:Key="Portal.WallpaperSettingPage.StretchMode">Strekningmodus</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.StretchMode.Description">Endrer skaleringen av støttede bakgrunnsbilder.</system:String>
 
+    <system:String x:Key="Portal.WallpaperSettingPage.StayAwake">Hold deg Våken</system:String>
+    <system:String x:Key="Portal.WallpaperSettingPage.StayAwake.Description">Endrer våkentilstanden for støttede bakgrunner.</system:String>
+
     <system:String x:Key="Portal.WallpaperSettingPage.LoopMode">Løkke-Modus</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.LoopMode.Description">Endrer løkke-modus for støttede bakgrunnsbilder.</system:String>
 

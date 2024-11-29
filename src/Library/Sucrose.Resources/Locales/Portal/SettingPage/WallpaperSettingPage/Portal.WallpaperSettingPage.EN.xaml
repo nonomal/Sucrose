@@ -19,8 +19,11 @@
     <system:String x:Key="Portal.WallpaperSettingPage.StretchMode">Stretch Mode</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.StretchMode.Description">Change the scaling mode for supported wallpapers.</system:String>
 
+    <system:String x:Key="Portal.WallpaperSettingPage.StayAwake">Stay Awake</system:String>
+    <system:String x:Key="Portal.WallpaperSettingPage.StayAwake.Description">Changes the stay awake status for supported wallpapers.</system:String>
+
     <system:String x:Key="Portal.WallpaperSettingPage.LoopMode">Loop Mode</system:String>
-    <system:String x:Key="Portal.WallpaperSettingPage.LoopMode.Description">Change the looping behavior for supported wallpapers.</system:String>
+    <system:String x:Key="Portal.WallpaperSettingPage.LoopMode.Description">Changes the looping behavior for supported wallpapers.</system:String>
 
     <system:String x:Key="Portal.WallpaperSettingPage.ShuffleMode">Shuffle Mode</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.ShuffleMode.Description">Change the shuffle behavior for supported wallpapers.</system:String>

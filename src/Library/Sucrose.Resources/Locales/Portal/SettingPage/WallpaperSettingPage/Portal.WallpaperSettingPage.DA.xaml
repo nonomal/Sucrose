@@ -19,6 +19,9 @@
     <system:String x:Key="Portal.WallpaperSettingPage.StretchMode">Strækning Metode</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.StretchMode.Description">Ændrer skaleringen af understøttede tapeter.</system:String>
 
+    <system:String x:Key="Portal.WallpaperSettingPage.StayAwake">Forbliv Vågen</system:String>
+    <system:String x:Key="Portal.WallpaperSettingPage.StayAwake.Description">Ændrer tilstanden for at forblive vågen for understøttede tapeter.</system:String>
+
     <system:String x:Key="Portal.WallpaperSettingPage.LoopMode">Loop Tilstand</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.LoopMode.Description">Ændrer loop tilstanden af understøttede tapeter.</system:String>
 

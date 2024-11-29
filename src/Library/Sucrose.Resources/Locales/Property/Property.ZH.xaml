@@ -32,6 +32,7 @@
     <system:String x:Key="Property.Localization.Mute">静音</system:String>
     <system:String x:Key="Property.Localization.Sepia">褐色</system:String>
     <system:String x:Key="Property.Localization.Hue">色调</system:String>
+    <system:String x:Key="Property.Localization.Mirror">镜像</system:String>
     <system:String x:Key="Property.Localization.Blur">模糊</system:String>
     <system:String x:Key="Property.Localization.Contrast">对比度</system:String>
     <system:String x:Key="Property.Localization.Invert">反转</system:String>
@@ -41,6 +42,11 @@
     <system:String x:Key="Property.Localization.Saturation">饱和度</system:String>
     <system:String x:Key="Property.Localization.Brightness">亮度</system:String>
     <system:String x:Key="Property.Localization.Grayscale">灰度</system:String>
+
+    <system:String x:Key="Property.Localization.Mirror.Flat">平面</system:String>
+    <system:String x:Key="Property.Localization.Mirror.Vertical">垂直</system:String>
+    <system:String x:Key="Property.Localization.Mirror.Horizontal">水平</system:String>
+    <system:String x:Key="Property.Localization.Mirror.VerticalHorizontal">垂直与水平</system:String>
 
     <system:String x:Key="Property.Localization.Animation.Flat">平面</system:String>
     <system:String x:Key="Property.Localization.Animation.Flip">翻转</system:String>

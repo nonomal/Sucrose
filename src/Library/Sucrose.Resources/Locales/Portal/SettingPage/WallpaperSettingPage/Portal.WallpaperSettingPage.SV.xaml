@@ -19,6 +19,9 @@
     <system:String x:Key="Portal.WallpaperSettingPage.StretchMode">Storlägesmetod</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.StretchMode.Description">Ändrar skalningsmetoden för stödda tapeter.</system:String>
 
+    <system:String x:Key="Portal.WallpaperSettingPage.StayAwake">Håll dig Vaken</system:String>
+    <system:String x:Key="Portal.WallpaperSettingPage.StayAwake.Description">Ändrar vakenstatus för stödda tapeter.</system:String>
+
     <system:String x:Key="Portal.WallpaperSettingPage.LoopMode">Loopläge</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.LoopMode.Description">Ändrar upprepningssättet för stödda tapeter.</system:String>
 

@@ -19,6 +19,9 @@
     <system:String x:Key="Portal.WallpaperSettingPage.StretchMode">Streckmodus</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.StretchMode.Description">Ändern Sie den Skalierungsmodus für unterstützte Hintergrundbilder.</system:String>
 
+    <system:String x:Key="Portal.WallpaperSettingPage.StayAwake">Wach Bleiben</system:String>
+    <system:String x:Key="Portal.WallpaperSettingPage.StayAwake.Description">Ändert den Wachbleibestatus für unterstützte Hintergrundbilder.</system:String>
+
     <system:String x:Key="Portal.WallpaperSettingPage.LoopMode">Wiederholungsmodus</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.LoopMode.Description">Ändern Sie das Wiederholungsverhalten für unterstützte Hintergrundbilder.</system:String>
 

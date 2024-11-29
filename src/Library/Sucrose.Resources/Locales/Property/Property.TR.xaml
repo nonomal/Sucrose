@@ -32,6 +32,7 @@
     <system:String x:Key="Property.Localization.Mute">Sessiz</system:String>
     <system:String x:Key="Property.Localization.Sepia">Sepya</system:String>
     <system:String x:Key="Property.Localization.Hue">Renk Tonu</system:String>
+    <system:String x:Key="Property.Localization.Mirror">Aynalama</system:String>
     <system:String x:Key="Property.Localization.Blur">Bulanıklık</system:String>
     <system:String x:Key="Property.Localization.Contrast">Kontrast</system:String>
     <system:String x:Key="Property.Localization.Invert">Negatiflik</system:String>
@@ -41,6 +42,11 @@
     <system:String x:Key="Property.Localization.Saturation">Doygunluk</system:String>
     <system:String x:Key="Property.Localization.Brightness">Parlaklık</system:String>
     <system:String x:Key="Property.Localization.Grayscale">Gri Tonlama</system:String>
+
+    <system:String x:Key="Property.Localization.Mirror.Flat">Düz</system:String>
+    <system:String x:Key="Property.Localization.Mirror.Vertical">Dikey</system:String>
+    <system:String x:Key="Property.Localization.Mirror.Horizontal">Yatay</system:String>
+    <system:String x:Key="Property.Localization.Mirror.VerticalHorizontal">Dikey ve Yatay</system:String>
 
     <system:String x:Key="Property.Localization.Animation.Flat">Düz</system:String>
     <system:String x:Key="Property.Localization.Animation.Flip">Dönme</system:String>

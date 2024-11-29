@@ -19,6 +19,9 @@
     <system:String x:Key="Portal.WallpaperSettingPage.StretchMode">Mode d'Étirement</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.StretchMode.Description">Modifiez le mode de mise à l'échelle pour les fonds d'écran pris en charge.</system:String>
 
+    <system:String x:Key="Portal.WallpaperSettingPage.StayAwake">Rester Éveillé</system:String>
+    <system:String x:Key="Portal.WallpaperSettingPage.StayAwake.Description">Modifie l'état de veille pour les fonds d'écran pris en charge.</system:String>
+
     <system:String x:Key="Portal.WallpaperSettingPage.LoopMode">Mode de Boucle</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.LoopMode.Description">Modifiez le comportement de bouclage pour les fonds d'écran pris en charge.</system:String>
 

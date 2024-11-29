@@ -32,6 +32,7 @@
     <system:String x:Key="Property.Localization.Mute">Ztlumit</system:String>
     <system:String x:Key="Property.Localization.Sepia">Sépie</system:String>
     <system:String x:Key="Property.Localization.Hue">Odstín</system:String>
+    <system:String x:Key="Property.Localization.Mirror">Zrcadlení</system:String>
     <system:String x:Key="Property.Localization.Blur">Rozmazání</system:String>
     <system:String x:Key="Property.Localization.Contrast">Kontrast</system:String>
     <system:String x:Key="Property.Localization.Invert">Inverze</system:String>
@@ -41,6 +42,11 @@
     <system:String x:Key="Property.Localization.Saturation">Sytost</system:String>
     <system:String x:Key="Property.Localization.Brightness">Jas</system:String>
     <system:String x:Key="Property.Localization.Grayscale">Šedá Škála</system:String>
+
+    <system:String x:Key="Property.Localization.Mirror.Flat">Plochý</system:String>
+    <system:String x:Key="Property.Localization.Mirror.Vertical">Vertikální</system:String>
+    <system:String x:Key="Property.Localization.Mirror.Horizontal">Horizontální</system:String>
+    <system:String x:Key="Property.Localization.Mirror.VerticalHorizontal">Vertikální a Horizontální</system:String>
 
     <system:String x:Key="Property.Localization.Animation.Flat">Ploché</system:String>
     <system:String x:Key="Property.Localization.Animation.Flip">Otočení</system:String>

@@ -32,6 +32,7 @@
     <system:String x:Key="Property.Localization.Mute">Silenzioso</system:String>
     <system:String x:Key="Property.Localization.Sepia">Seppia</system:String>
     <system:String x:Key="Property.Localization.Hue">Tonalità</system:String>
+    <system:String x:Key="Property.Localization.Mirror">Specchiatura</system:String>
     <system:String x:Key="Property.Localization.Blur">Sfocatura</system:String>
     <system:String x:Key="Property.Localization.Contrast">Contrasto</system:String>
     <system:String x:Key="Property.Localization.Invert">Inversione</system:String>
@@ -41,6 +42,11 @@
     <system:String x:Key="Property.Localization.Saturation">Saturazione</system:String>
     <system:String x:Key="Property.Localization.Brightness">Luminosità</system:String>
     <system:String x:Key="Property.Localization.Grayscale">Scala di Grigi</system:String>
+
+    <system:String x:Key="Property.Localization.Mirror.Flat">Piatto</system:String>
+    <system:String x:Key="Property.Localization.Mirror.Vertical">Verticale</system:String>
+    <system:String x:Key="Property.Localization.Mirror.Horizontal">Orizzontale</system:String>
+    <system:String x:Key="Property.Localization.Mirror.VerticalHorizontal">Verticale e Orizzontale</system:String>
 
     <system:String x:Key="Property.Localization.Animation.Flat">Piatto</system:String>
     <system:String x:Key="Property.Localization.Animation.Flip">Capovolgere</system:String>

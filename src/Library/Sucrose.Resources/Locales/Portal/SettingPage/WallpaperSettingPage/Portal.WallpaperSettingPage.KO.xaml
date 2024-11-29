@@ -19,6 +19,9 @@
     <system:String x:Key="Portal.WallpaperSettingPage.StretchMode">크기 맞추기 모드</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.StretchMode.Description">지원되는 바탕 화면에서 크기 맞추기를 변경합니다.</system:String>
 
+    <system:String x:Key="Portal.WallpaperSettingPage.StayAwake">깨우기 유지</system:String>
+    <system:String x:Key="Portal.WallpaperSettingPage.StayAwake.Description">지원되는 배경화면의 깨우기 상태를 변경합니다.</system:String>
+
     <system:String x:Key="Portal.WallpaperSettingPage.LoopMode">반복 모드</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.LoopMode.Description">지원되는 바탕 화면에서 반복 모드를 변경합니다.</system:String>
 

@@ -32,6 +32,7 @@
     <system:String x:Key="Property.Localization.Mute">Без Звуку</system:String>
     <system:String x:Key="Property.Localization.Sepia">Сепія</system:String>
     <system:String x:Key="Property.Localization.Hue">Відтінок</system:String>
+    <system:String x:Key="Property.Localization.Mirror">Відображення</system:String>
     <system:String x:Key="Property.Localization.Blur">Розмиття</system:String>
     <system:String x:Key="Property.Localization.Contrast">Контраст</system:String>
     <system:String x:Key="Property.Localization.Invert">Інвертувати</system:String>
@@ -41,6 +42,11 @@
     <system:String x:Key="Property.Localization.Saturation">Насиченість</system:String>
     <system:String x:Key="Property.Localization.Brightness">Яскравість</system:String>
     <system:String x:Key="Property.Localization.Grayscale">Сіра Шкала</system:String>
+
+    <system:String x:Key="Property.Localization.Mirror.Flat">Плоский</system:String>
+    <system:String x:Key="Property.Localization.Mirror.Vertical">Вертикальний</system:String>
+    <system:String x:Key="Property.Localization.Mirror.Horizontal">Горизонтальний</system:String>
+    <system:String x:Key="Property.Localization.Mirror.VerticalHorizontal">Вертикальний і Горизонтальний</system:String>
 
     <system:String x:Key="Property.Localization.Animation.Flat">Плоский</system:String>
     <system:String x:Key="Property.Localization.Animation.Flip">Перевернути</system:String>

@@ -19,6 +19,9 @@
     <system:String x:Key="Portal.WallpaperSettingPage.StretchMode">Modo de Esticamento</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.StretchMode.Description">Altera o método de esticamento em papéis de parede suportados.</system:String>
 
+    <system:String x:Key="Portal.WallpaperSettingPage.StayAwake">Fique Acordado</system:String>
+    <system:String x:Key="Portal.WallpaperSettingPage.StayAwake.Description">Altera o estado de ficar acordado para os papéis de parede suportados.</system:String>
+
     <system:String x:Key="Portal.WallpaperSettingPage.LoopMode">Modo de Repetição</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.LoopMode.Description">Altera o modo de repetição em papéis de parede suportados.</system:String>
 

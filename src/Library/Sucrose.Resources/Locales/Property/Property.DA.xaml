@@ -32,6 +32,7 @@
     <system:String x:Key="Property.Localization.Mute">Lydløs</system:String>
     <system:String x:Key="Property.Localization.Sepia">Sepia</system:String>
     <system:String x:Key="Property.Localization.Hue">Farvetone</system:String>
+    <system:String x:Key="Property.Localization.Mirror">Spejling</system:String>
     <system:String x:Key="Property.Localization.Blur">Sløring</system:String>
     <system:String x:Key="Property.Localization.Contrast">Kontrast</system:String>
     <system:String x:Key="Property.Localization.Invert">Invertere</system:String>
@@ -41,6 +42,11 @@
     <system:String x:Key="Property.Localization.Saturation">Mætning</system:String>
     <system:String x:Key="Property.Localization.Brightness">Lysstyrke</system:String>
     <system:String x:Key="Property.Localization.Grayscale">Gråskala</system:String>
+
+    <system:String x:Key="Property.Localization.Mirror.Flat">Flad</system:String>
+    <system:String x:Key="Property.Localization.Mirror.Vertical">Lodret</system:String>
+    <system:String x:Key="Property.Localization.Mirror.Horizontal">Vandret</system:String>
+    <system:String x:Key="Property.Localization.Mirror.VerticalHorizontal">Lodret og Vandret</system:String>
 
     <system:String x:Key="Property.Localization.Animation.Flat">Flad</system:String>
     <system:String x:Key="Property.Localization.Animation.Flip">Flip</system:String>

@@ -19,6 +19,9 @@
     <system:String x:Key="Portal.WallpaperSettingPage.StretchMode">Sığdırma Metodu</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.StretchMode.Description">Desteklenen duvar kağıtlarında ölçeklendirmeyi değiştirir.</system:String>
 
+    <system:String x:Key="Portal.WallpaperSettingPage.StayAwake">Uyanık Kalma</system:String>
+    <system:String x:Key="Portal.WallpaperSettingPage.StayAwake.Description">Desteklenen duvar kağıtlarında uyanık kalma durumunu değiştirir.</system:String>
+
     <system:String x:Key="Portal.WallpaperSettingPage.LoopMode">Yineleme Durumu</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.LoopMode.Description">Desteklenen duvar kağıtlarında yineleme durumunu değiştirir.</system:String>
 

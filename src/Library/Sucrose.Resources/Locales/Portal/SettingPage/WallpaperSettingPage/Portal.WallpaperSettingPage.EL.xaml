@@ -19,6 +19,9 @@
     <system:String x:Key="Portal.WallpaperSettingPage.StretchMode">Λειτουργία Επέκτασης</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.StretchMode.Description">Αλλάζει τον τρόπο με τον οποίο επεκτείνονται τα υποστηριζόμενα ταπετσαρίες.</system:String>
 
+    <system:String x:Key="Portal.WallpaperSettingPage.StayAwake">Παραμείνετε ξύπνιοι</system:String>
+    <system:String x:Key="Portal.WallpaperSettingPage.StayAwake.Description">Αλλάζει την κατάσταση παραμονής σε εγρήγορση για τις υποστηριζόμενες ταπετσαρίες.</system:String>
+
     <system:String x:Key="Portal.WallpaperSettingPage.LoopMode">Λειτουργία Επανάληψης</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.LoopMode.Description">Αλλάζει τη λειτουργία επανάληψης για τις υποστηριζόμενες ταπετσαρίες.</system:String>
 

@@ -26,6 +26,15 @@ namespace Sucrose.Shared.Engine.MpvPlayer.Helper
 
                 string Content = string.Join(Environment.NewLine, SSEMI.MpvConfig);
 
+                if (SMME.StayAwake)
+                {
+                    Content = SSSHR.Replace(Content, @"^stop-screensaver=.*$", "stop-screensaver=always", RegexOptions.Multiline);
+                }
+                else
+                {
+                    Content = SSSHR.Replace(Content, @"^stop-screensaver=.*$", "stop-screensaver=no", RegexOptions.Multiline);
+                }
+
                 if (SMME.HardwareAcceleration)
                 {
                     Content = SSSHR.Replace(Content, @"^hwdec=.*$", "hwdec=auto-safe", RegexOptions.Multiline);

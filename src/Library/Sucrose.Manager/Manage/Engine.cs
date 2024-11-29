@@ -54,5 +54,7 @@ namespace Sucrose.Manager.Manage
         public static bool LibraryStart => SMMI.EngineSettingManager.GetSetting(SMMCE.LibraryStart, true);
 
         public static bool StoreStart => SMMI.EngineSettingManager.GetSetting(SMMCE.StoreStart, true);
+
+        public static bool StayAwake => SMMI.EngineSettingManager.GetSetting(SMMCE.StayAwake, false);
     }
 }

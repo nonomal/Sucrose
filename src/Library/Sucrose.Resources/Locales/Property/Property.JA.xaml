@@ -32,6 +32,7 @@
     <system:String x:Key="Property.Localization.Mute">ミュート</system:String>
     <system:String x:Key="Property.Localization.Sepia">セピア</system:String>
     <system:String x:Key="Property.Localization.Hue">色合い</system:String>
+    <system:String x:Key="Property.Localization.Mirror">ミラーリング</system:String>
     <system:String x:Key="Property.Localization.Blur">ぼやけ</system:String>
     <system:String x:Key="Property.Localization.Contrast">コントラスト</system:String>
     <system:String x:Key="Property.Localization.Invert">反転</system:String>
@@ -41,6 +42,11 @@
     <system:String x:Key="Property.Localization.Saturation">彩度</system:String>
     <system:String x:Key="Property.Localization.Brightness">明るさ</system:String>
     <system:String x:Key="Property.Localization.Grayscale">グレースケール</system:String>
+
+    <system:String x:Key="Property.Localization.Mirror.Flat">フラット</system:String>
+    <system:String x:Key="Property.Localization.Mirror.Vertical">垂直</system:String>
+    <system:String x:Key="Property.Localization.Mirror.Horizontal">水平</system:String>
+    <system:String x:Key="Property.Localization.Mirror.VerticalHorizontal">垂直と水平</system:String>
 
     <system:String x:Key="Property.Localization.Animation.Flat">フラット</system:String>
     <system:String x:Key="Property.Localization.Animation.Flip">反転</system:String>

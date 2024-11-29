@@ -14,6 +14,8 @@
 
         public const string InputType = "InputType";
 
+        public const string StayAwake = "StayAwake";
+
         public const string ScreenType = "ScreenType";
 
         public const string StoreStart = "StoreStart";

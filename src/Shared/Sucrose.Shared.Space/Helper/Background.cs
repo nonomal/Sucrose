@@ -39,7 +39,7 @@ namespace Sucrose.Shared.Space.Helper
                 string BackgroundImagePath = SMME.BackgroundImagePath;
                 string DefaultImagePath = SWHBI.GetPathSystemParameters();
 
-                if (DefaultImagePath != BackgroundImagePath)
+                if (!string.IsNullOrWhiteSpace(SMME.BackgroundImagePath) && File.Exists(BackgroundImagePath) && DefaultImagePath != BackgroundImagePath)
                 {
                     SWHBI.SetPathSystemParameters(BackgroundImagePath, false);
 

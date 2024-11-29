@@ -14,13 +14,13 @@ namespace Sucrose.Shared.Engine.CefSharp.Helper
         {
             try
             {
+                SSECSMI.CefEngine.ExecuteScriptAsync("document.getElementsByTagName('video')[0].style = \"position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 9999;\";");
+
                 //SSECSMI.CefEngine.ExecuteScriptAsync("document.getElementsByTagName('video')[0].webkitRequestFullscreen();");
                 //SSECSMI.CefEngine.ExecuteScriptAsync("document.getElementsByTagName('video')[0].requestFullscreen();");
                 SSECSMI.CefEngine.ExecuteScriptAsync("document.getElementsByTagName('video')[0].controls = false;");
                 SSECSMI.CefEngine.ExecuteScriptAsync("document.getElementsByTagName('video')[0].loop = true;");
                 //SSECSMI.CefEngine.ExecuteScriptAsync(SSEHS.GetVideoStyle());
-
-                SSECSMI.CefEngine.ExecuteScriptAsync("document.getElementsByTagName('video')[0].style = \"position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 9999;\";");
 
                 SetStretch(SSEHD.GetStretch());
                 SetVolume(SSEHD.GetVolume());

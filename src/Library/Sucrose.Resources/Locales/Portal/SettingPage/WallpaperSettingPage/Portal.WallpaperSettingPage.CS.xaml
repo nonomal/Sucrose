@@ -19,6 +19,9 @@
     <system:String x:Key="Portal.WallpaperSettingPage.StretchMode">Režim Protažení</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.StretchMode.Description">Změní režim měřítka na podporovaných tapetách.</system:String>
 
+    <system:String x:Key="Portal.WallpaperSettingPage.StayAwake">Zůstat Vzhůru</system:String>
+    <system:String x:Key="Portal.WallpaperSettingPage.StayAwake.Description">Mění stav zůstat vzhůru u podporovaných tapetách.</system:String>
+
     <system:String x:Key="Portal.WallpaperSettingPage.LoopMode">Režim Smyčky</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.LoopMode.Description">Změní režim smyčky na podporovaných tapetách.</system:String>
 
