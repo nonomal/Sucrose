@@ -232,11 +232,14 @@ namespace Sucrose.Portal.Views.Controls
                 {
                     string PropertiesCache = Path.Combine(SMMRP.ApplicationData, SMMRG.AppName, SMMRF.Cache, SMMRF.Properties);
 
-                    foreach (string Record in Directory.GetFiles(PropertiesCache, ""))
+                    if (Directory.Exists(PropertiesCache))
                     {
-                        if (File.Exists(Record) && Record.Contains(Path.GetFileName(Theme)))
+                        foreach (string Record in Directory.GetFiles(PropertiesCache, ""))
                         {
-                            File.Delete(Record);
+                            if (File.Exists(Record) && Record.Contains(Path.GetFileName(Theme)))
+                            {
+                                File.Delete(Record);
+                            }
                         }
                     }
                 });
