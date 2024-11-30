@@ -1,9 +1,13 @@
-﻿using System.IO;
+﻿using Newtonsoft.Json;
+using System.Collections;
+using System.IO;
 using System.Windows;
 using System.Windows.Input;
 using Wpf.Ui.Appearance;
 using Wpf.Ui.Controls;
+using SELLT = Skylark.Enum.LevelLogType;
 using SEWTT = Skylark.Enum.WindowsThemeType;
+using SMMI = Sucrose.Manager.Manage.Internal;
 using SMML = Sucrose.Manager.Manage.Library;
 using SPCB = Sucrose.Property.Controls.Button;
 using SPCCB = Sucrose.Property.Controls.CheckBox;
@@ -34,6 +38,7 @@ using SSTMNBM = Sucrose.Shared.Theme.Model.NumberBoxModel;
 using SSTMPBM = Sucrose.Shared.Theme.Model.PasswordBoxModel;
 using SSTMSM = Sucrose.Shared.Theme.Model.SliderModel;
 using SSTMTBM = Sucrose.Shared.Theme.Model.TextBoxModel;
+using SSWEW = Sucrose.Shared.Watchdog.Extension.Watch;
 using SWHWT = Skylark.Wing.Helper.WindowsTheme;
 using SWHWTR = Skylark.Wing.Helper.WindowsTaskbar;
 
@@ -95,7 +100,7 @@ namespace Sucrose.Property.View
             }
         }
 
-        private void MainWindow_Calculate()
+        private async void MainWindow_Calculate()
         {
             double ScreenWidth = SystemParameters.PrimaryScreenWidth;
             double ScreenHeight = SystemParameters.PrimaryScreenHeight;
@@ -103,38 +108,58 @@ namespace Sucrose.Property.View
             AnchorStyles Anchor = SWHWTR.GetAnchorStyle(false);
             Rectangle TaskbarCoordinates = SWHWTR.GetCoordonates();
 
-            switch (Anchor)
+            try
             {
-                case AnchorStyles.Top:
-                    MaxHeight = ScreenHeight - TaskbarCoordinates.Height - 20;
+                switch (Anchor)
+                {
+                    case AnchorStyles.Top:
+                        MaxHeight = ScreenHeight - TaskbarCoordinates.Height - 20;
 
-                    Left = ScreenWidth - Width - 10;
-                    Top = ScreenHeight - Height - 10;
-                    break;
-                case AnchorStyles.Bottom:
-                    MaxHeight = ScreenHeight - TaskbarCoordinates.Height - 20;
+                        Left = ScreenWidth - Width - 10;
+                        Top = ScreenHeight - Height - 10;
+                        break;
+                    case AnchorStyles.Bottom:
+                        MaxHeight = ScreenHeight - TaskbarCoordinates.Height - 20;
 
-                    Left = ScreenWidth - Width - 10;
-                    Top = TaskbarCoordinates.Top - Height - 10;
-                    break;
-                case AnchorStyles.Left:
-                    MaxHeight = ScreenHeight - 20;
+                        Left = ScreenWidth - Width - 10;
+                        Top = TaskbarCoordinates.Top - Height - 10;
+                        break;
+                    case AnchorStyles.Left:
+                        MaxHeight = ScreenHeight - 20;
 
-                    Left = ScreenWidth - Width - 10;
-                    Top = ScreenHeight - Height - 10;
-                    break;
-                case AnchorStyles.Right:
-                    MaxHeight = ScreenHeight - 20;
+                        Left = ScreenWidth - Width - 10;
+                        Top = ScreenHeight - Height - 10;
+                        break;
+                    case AnchorStyles.Right:
+                        MaxHeight = ScreenHeight - 20;
 
-                    Left = TaskbarCoordinates.Left - Width - 10;
-                    Top = ScreenHeight - Height - 10;
-                    break;
-                default:
-                    MaxHeight = ScreenHeight - 20;
+                        Left = TaskbarCoordinates.Left - Width - 10;
+                        Top = ScreenHeight - Height - 10;
+                        break;
+                    default:
+                        MaxHeight = ScreenHeight - 20;
 
-                    Left = ScreenWidth - Width - 10;
-                    Top = ScreenHeight - Height - 10;
-                    break;
+                        Left = ScreenWidth - Width - 10;
+                        Top = ScreenHeight - Height - 10;
+                        break;
+                }
+            }
+            catch (Exception Exception)
+            {
+                SMMI.PropertyLogManager.Log(SELLT.Debug, $"Calculate: {JsonConvert.SerializeObject(new Hashtable()
+                {
+                    { "Anchor", $"{Anchor}" },
+                    { "Screen Width", ScreenWidth },
+                    { "Screen Height", ScreenHeight },
+                    { "Taskbar Coordinates", SWHWTR.GetCoordonates() }
+                })}");
+
+                await SSWEW.Watch_CatchException(Exception);
+
+                MaxHeight = ScreenHeight - 48 - 20;
+
+                Top = ScreenHeight - Height - 58;
+                Left = ScreenWidth - Width - 10;
             }
         }
 
