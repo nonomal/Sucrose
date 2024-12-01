@@ -44,7 +44,7 @@ namespace Sucrose.Shared.Engine.MpvPlayer.Helper
                     Content = SSSHR.Replace(Content, @"^hwdec=.*$", "hwdec=no", RegexOptions.Multiline);
                 }
 
-                SSSHF.Write(SSEMPMI.MpvConfig, Content);
+                SSSHF.WriteStream(SSEMPMI.MpvConfig, Content);
             }
         }
     }

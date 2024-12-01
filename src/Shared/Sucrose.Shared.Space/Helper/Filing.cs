@@ -37,7 +37,7 @@ namespace Sucrose.Shared.Space.Helper
                 }
                 catch { }
 
-                using FileStream Stream = new(Source, FileMode.Open, FileAccess.Read, FileShare.None);
+                using FileStream Stream = new(Source, FileMode.Open, FileAccess.Read, FileShare.Read);
 
                 using StreamReader Reader = new(Stream);
 

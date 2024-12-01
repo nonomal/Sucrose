@@ -132,7 +132,7 @@ namespace Sucrose.Shared.Engine.Helper
                 Directory.CreateDirectory(Path.GetDirectoryName(GifContentPath));
             }
 
-            SSSHF.Write(GifContentPath, GetGifContent(Content));
+            SSSHF.WriteStream(GifContentPath, GetGifContent(Content));
         }
 
         public static void WriteVideoContent(string VideoContentPath, Uri Content)
@@ -147,7 +147,7 @@ namespace Sucrose.Shared.Engine.Helper
                 Directory.CreateDirectory(Path.GetDirectoryName(ImageContentPath));
             }
 
-            SSSHF.Write(ImageContentPath, GetImageContent(Content));
+            SSSHF.WriteStream(ImageContentPath, GetImageContent(Content));
         }
 
         public static void WriteYouTubeContent(string YouTubeContentPath, string Video, string Playlist)
@@ -157,7 +157,7 @@ namespace Sucrose.Shared.Engine.Helper
                 Directory.CreateDirectory(Path.GetDirectoryName(YouTubeContentPath));
             }
 
-            SSSHF.Write(YouTubeContentPath, GetYouTubeContent(Video, Playlist));
+            SSSHF.WriteStream(YouTubeContentPath, GetYouTubeContent(Video, Playlist));
         }
 
         public static void WriteVideoContent(string VideoContentPath, string Content)
@@ -167,7 +167,7 @@ namespace Sucrose.Shared.Engine.Helper
                 Directory.CreateDirectory(Path.GetDirectoryName(VideoContentPath));
             }
 
-            SSSHF.Write(VideoContentPath, GetVideoContent(Content));
+            SSSHF.WriteStream(VideoContentPath, GetVideoContent(Content));
         }
 
         public static string GetGifContentPath()

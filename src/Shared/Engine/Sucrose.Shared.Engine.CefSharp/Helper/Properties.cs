@@ -19,7 +19,7 @@ namespace Sucrose.Shared.Engine.CefSharp.Helper
 
             SSEMI.PropertiesPath = Path.Combine(SSECSMI.CefPath, SMMRC.SucroseProperties);
 
-            SSSHF.Write(SSEMI.PropertiesPath, SSECCE.BaseToText(SSEMI.CefProperties));
+            SSSHF.WriteStream(SSEMI.PropertiesPath, SSECCE.BaseToText(SSEMI.CefProperties));
 
             SSEMI.PropertiesType = SSDEPT.CefSharp;
         }

@@ -30,7 +30,7 @@ namespace Sucrose.Shared.Engine.MpvPlayer.Helper
             {
                 SSEMI.PropertiesPath = Path.Combine(SSEMPMI.MpvPath, SMMRC.SucroseProperties);
 
-                SSSHF.Write(SSEMI.PropertiesPath, SSECCE.BaseToText(SSEMI.MpvProperties));
+                SSSHF.WriteStream(SSEMI.PropertiesPath, SSECCE.BaseToText(SSEMI.MpvProperties));
             }
 
             SSEMI.PropertiesCache = Path.Combine(SMMRP.ApplicationData, SMMRG.AppName, SMMRF.Cache, SMMRF.Properties);

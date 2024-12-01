@@ -19,7 +19,7 @@ namespace Sucrose.Shared.Engine.WebView.Helper
 
             SSEMI.PropertiesPath = Path.Combine(SSEWVMI.WebPath, SMMRC.SucroseProperties);
 
-            SSSHF.Write(SSEMI.PropertiesPath, SSECCE.BaseToText(SSEMI.WebProperties));
+            SSSHF.WriteStream(SSEMI.PropertiesPath, SSECCE.BaseToText(SSEMI.WebProperties));
 
             SSEMI.PropertiesType = SSDEPT.WebView;
         }

@@ -17,10 +17,7 @@ namespace Sucrose.Manager.Helper
                 }
                 catch { }
 
-                using FileStream fileStream = new(filePath, FileMode.Open, FileAccess.Read, FileShare.None);
-                using StreamReader reader = new(fileStream);
-
-                return SMHC.Clean(reader.ReadToEnd());
+                return SMHC.Clean(File.ReadAllText(filePath));
             }
             finally
             {
@@ -28,7 +25,7 @@ namespace Sucrose.Manager.Helper
             }
         }
 
-        public static string ReadBasic(string filePath)
+        public static string ReadStream(string filePath)
         {
             using Mutex Mutex = new(false, SMHU.GenerateText(filePath));
 
@@ -40,7 +37,10 @@ namespace Sucrose.Manager.Helper
                 }
                 catch { }
 
-                return SMHC.Clean(File.ReadAllText(filePath));
+                using FileStream fileStream = new(filePath, FileMode.Open, FileAccess.Read, FileShare.Read);
+                using StreamReader reader = new(fileStream);
+
+                return SMHC.Clean(reader.ReadToEnd());
             }
             finally
             {

@@ -34,7 +34,7 @@ namespace Sucrose.Manager
 
             try
             {
-                SMHW.WriteBasic(logFilePath, $"[{SMMVL.FileTimeLine}] ~ [{SMMVL.FileDescriptionLine}-{threadId}/{level}] ~ [{message}]");
+                SMHW.WriteAppend(logFilePath, $"[{SMMVL.FileTimeLine}] ~ [{SMMVL.FileDescriptionLine}-{threadId}/{level}] ~ [{message}]");
             }
             catch { }
         }
@@ -50,7 +50,7 @@ namespace Sucrose.Manager
             {
                 foreach (string message in messages)
                 {
-                    SMHW.WriteBasic(logFilePath, $"[{SMMVL.FileTimeLine}] ~ [{SMMVL.FileDescriptionLine}-{threadId}/{level}] ~ [{message}]");
+                    SMHW.WriteAppend(logFilePath, $"[{SMMVL.FileTimeLine}] ~ [{SMMVL.FileDescriptionLine}-{threadId}/{level}] ~ [{message}]");
                 }
             }
             catch { }
