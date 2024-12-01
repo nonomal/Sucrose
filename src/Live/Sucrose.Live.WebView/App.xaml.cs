@@ -29,6 +29,7 @@ using SSDEDT = Sucrose.Shared.Dependency.Enum.DialogType;
 using SSDEPT = Sucrose.Shared.Dependency.Enum.PropertiesType;
 using SSDEWT = Sucrose.Shared.Dependency.Enum.WallpaperType;
 using SSDMMG = Sucrose.Shared.Dependency.Manage.Manager.General;
+using SSEHA = Sucrose.Shared.Engine.Helper.Awakening;
 using SSEHC = Sucrose.Shared.Engine.Helper.Cycyling;
 using SSEHP = Sucrose.Shared.Engine.Helper.Properties;
 using SSEHR = Sucrose.Shared.Engine.Helper.Run;
@@ -343,6 +344,8 @@ namespace Sucrose.Live.WebView
                         if (SSTHV.IsUrl(Source) || File.Exists(Source))
                         {
                             SSSHS.Apply();
+
+                            SSEHA.Start();
 
                             SSEHC.Start();
 

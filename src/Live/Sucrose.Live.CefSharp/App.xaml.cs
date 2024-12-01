@@ -39,6 +39,7 @@ using SSECSVV = Sucrose.Shared.Engine.CefSharp.View.Video;
 using SSECSVW = Sucrose.Shared.Engine.CefSharp.View.Web;
 using SSECSVYT = Sucrose.Shared.Engine.CefSharp.View.YouTube;
 using SSEELHS = Sucrose.Shared.Engine.Extension.LocalHttpServer;
+using SSEHA = Sucrose.Shared.Engine.Helper.Awakening;
 using SSEHC = Sucrose.Shared.Engine.Helper.Cycyling;
 using SSEHP = Sucrose.Shared.Engine.Helper.Properties;
 using SSEHR = Sucrose.Shared.Engine.Helper.Run;
@@ -411,6 +412,8 @@ namespace Sucrose.Live.CefSharp
                         if (SSTHV.IsUrl(Source) || File.Exists(Source))
                         {
                             SSSHS.Apply();
+
+                            SSEHA.Start();
 
                             SSEHC.Start();
 
