@@ -12,18 +12,26 @@ using SMMRP = Sucrose.Memory.Manage.Readonly.Path;
 
 namespace Sucrose.Manager
 {
-    public class SettingManager
+    public class SettingManager2
     {
         private Settings _settings = new();
+        private readonly string _settingsFileName;
         private readonly string _settingsFilePath;
         private DateTime _lastWrite = DateTime.Now;
+        private readonly FileSystemWatcher _settingsFileWatcher;
         private readonly JsonSerializerSettings _serializerSettings;
 
-        public SettingManager(string settingsFileName, Formatting formatting = Formatting.Indented, TypeNameHandling typeNameHandling = TypeNameHandling.None)
+        public SettingManager2(string settingsFileName, Formatting formatting = Formatting.Indented, TypeNameHandling typeNameHandling = TypeNameHandling.None)
         {
             _settingsFilePath = Path.Combine(SMMRP.ApplicationData, SMMRG.AppName, SMMRF.Setting, settingsFileName);
 
+            _settingsFileWatcher = new(Path.Combine(SMMRP.ApplicationData, SMMRG.AppName, SMMRF.Setting));
+
             Directory.CreateDirectory(Path.GetDirectoryName(_settingsFilePath));
+
+            _settingsFileWatcher.NotifyFilter = NotifyFilters.LastWrite;
+
+            _settingsFileWatcher.Changed += SettingsFile_Changed;
 
             _serializerSettings = new JsonSerializerSettings
             {
@@ -38,27 +46,19 @@ namespace Sucrose.Manager
             };
 
             ControlFile();
+
+            _settingsFileName = settingsFileName;
+
+            _settingsFileWatcher.EnableRaisingEvents = true;
         }
 
         public T GetSetting<T>(string key, T back = default)
         {
             try
             {
-                if (CheckFile())
+                if (_settings != null && _settings.Properties != null && _settings.Properties.TryGetValue(key, out object value))
                 {
-                    if (File.GetLastWriteTime(_settingsFilePath) > _lastWrite)
-                    {
-                        string json = SMHR.ReadStream(_settingsFilePath);
-
-                        _settings = JsonConvert.DeserializeObject<Settings>(json, _serializerSettings);
-
-                        _lastWrite = DateTime.Now;
-                    }
-
-                    if (_settings != null && _settings.Properties != null && _settings.Properties.TryGetValue(key, out object value))
-                    {
-                        return ConvertToType<T>(value);
-                    }
+                    return ConvertToType<T>(value);
                 }
             }
             catch { }
@@ -70,21 +70,9 @@ namespace Sucrose.Manager
         {
             try
             {
-                if (CheckFile())
+                if (_settings != null && _settings.Properties != null && _settings.Properties.TryGetValue(key, out object value))
                 {
-                    if (File.GetLastWriteTime(_settingsFilePath) > _lastWrite)
-                    {
-                        string json = SMHR.ReadStream(_settingsFilePath);
-
-                        _settings = JsonConvert.DeserializeObject<Settings>(json, _serializerSettings);
-
-                        _lastWrite = DateTime.Now;
-                    }
-
-                    if (_settings != null && _settings.Properties != null && _settings.Properties.TryGetValue(key, out object value))
-                    {
-                        return JsonConvert.DeserializeObject<T>(value.ToString());
-                    }
+                    return JsonConvert.DeserializeObject<T>(value.ToString());
                 }
             }
             catch { }
@@ -96,21 +84,9 @@ namespace Sucrose.Manager
         {
             try
             {
-                if (CheckFile())
+                if (_settings != null && _settings.Properties != null && _settings.Properties.TryGetValue(key, out object value))
                 {
-                    if (File.GetLastWriteTime(_settingsFilePath) > _lastWrite)
-                    {
-                        string json = SMHR.ReadStream(_settingsFilePath);
-
-                        _settings = JsonConvert.DeserializeObject<Settings>(json, _serializerSettings);
-
-                        _lastWrite = DateTime.Now;
-                    }
-
-                    if (_settings != null && _settings.Properties != null && _settings.Properties.TryGetValue(key, out object value))
-                    {
-                        return ConvertToType<T>(value);
-                    }
+                    return ConvertToType<T>(value);
                 }
             }
             catch { }
@@ -141,9 +117,25 @@ namespace Sucrose.Manager
 
                 foreach (KeyValuePair<string, T> pair in pairs)
                 {
-                    _settings.Properties[pair.Key] = ConvertToType<T>(pair.Value);
+                    if (_settings.Properties.ContainsKey(pair.Key))
+                    {
+                        _settings.Properties[pair.Key] = ConvertToType<T>(pair.Value);
+                    }
+                    else
+                    {
+                        _settings.Properties.Add(pair.Key, ConvertToType<T>(pair.Value));
+                    }
                 }
 
+                SaveSetting();
+            }
+            catch { }
+        }
+
+        public void SaveSetting()
+        {
+            try
+            {
                 SMHW.WriteStream(_settingsFilePath, JsonConvert.SerializeObject(_settings, _serializerSettings));
 
                 _lastWrite = DateTime.Now;
@@ -169,9 +161,7 @@ namespace Sucrose.Manager
             {
                 _settings = new();
 
-                SMHW.WriteStream(_settingsFilePath, JsonConvert.SerializeObject(_settings, _serializerSettings));
-
-                _lastWrite = DateTime.Now;
+                SaveSetting();
             }
             catch { }
         }
@@ -288,6 +278,16 @@ namespace Sucrose.Manager
             }
 
             return (T)value;
+        }
+
+        private void SettingsFile_Changed(object sender, FileSystemEventArgs e)
+        {
+            if (e.Name == _settingsFileName && File.GetLastWriteTime(_settingsFilePath) > _lastWrite)
+            {
+                _settings = JsonConvert.DeserializeObject<Settings>(ReadSetting(), _serializerSettings);
+
+                _lastWrite = DateTime.Now;
+            }
         }
 
         private class Settings
