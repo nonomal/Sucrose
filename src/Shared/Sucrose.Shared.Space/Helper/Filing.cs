@@ -37,7 +37,7 @@ namespace Sucrose.Shared.Space.Helper
                 }
                 catch { }
 
-                using FileStream Stream = new(Source, FileMode.Open, FileAccess.Read, FileShare.Read);
+                using FileStream Stream = new(Source, FileMode.Open, FileAccess.Read, FileShare.None);
 
                 using StreamReader Reader = new(Stream);
 
@@ -81,7 +81,9 @@ namespace Sucrose.Shared.Space.Helper
                 }
                 catch { }
 
-                using FileStream Stream = new(Source, FileMode.OpenOrCreate, FileAccess.Write, FileShare.None);
+                FileMode FileMode = File.Exists(Source) ? FileMode.Truncate : FileMode.CreateNew;
+
+                using FileStream Stream = new(Source, FileMode, FileAccess.Write, FileShare.None);
 
                 using StreamWriter Writer = new(Stream);
 

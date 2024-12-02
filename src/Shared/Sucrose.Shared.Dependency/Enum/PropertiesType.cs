@@ -2,7 +2,7 @@
 {
     internal enum PropertiesType
     {
-        Other,
+        Base,
         WebView,
         CefSharp,
         MpvPlayer

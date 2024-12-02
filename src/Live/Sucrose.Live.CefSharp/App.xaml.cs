@@ -423,7 +423,7 @@ namespace Sucrose.Live.CefSharp
                             }
                             else
                             {
-                                SSEMI.PropertiesType = SSDEPT.Other;
+                                SSEMI.PropertiesType = SSDEPT.Base;
                             }
 
                             if (File.Exists(SSEMI.PropertiesPath))

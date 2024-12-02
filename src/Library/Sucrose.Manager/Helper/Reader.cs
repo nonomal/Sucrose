@@ -37,7 +37,7 @@ namespace Sucrose.Manager.Helper
                 }
                 catch { }
 
-                using FileStream fileStream = new(filePath, FileMode.Open, FileAccess.Read, FileShare.Read);
+                using FileStream fileStream = new(filePath, FileMode.Open, FileAccess.Read, FileShare.None);
                 using StreamReader reader = new(fileStream);
 
                 return SMHC.Clean(reader.ReadToEnd());

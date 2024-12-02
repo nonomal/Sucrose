@@ -137,7 +137,7 @@ namespace Sucrose.Property
                     {
                         if (SPMI.Info.Type == SSDEWT.Web && File.Exists(SPMI.PropertiesPath))
                         {
-                            SPMI.PropertiesType = SSDEPT.Other;
+                            SPMI.PropertiesType = SSDEPT.Base;
                         }
                         else if (SPMI.Info.Type is SSDEWT.Gif or SSDEWT.Video or SSDEWT.YouTube)
                         {
