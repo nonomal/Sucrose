@@ -27,6 +27,7 @@ using SSDEWT = Sucrose.Shared.Dependency.Enum.WallpaperType;
 using SSDMME = Sucrose.Shared.Dependency.Manage.Manager.Engine;
 using SSLHK = Sucrose.Shared.Live.Helper.Kill;
 using SSLHR = Sucrose.Shared.Live.Helper.Run;
+using SSSHF = Sucrose.Shared.Space.Helper.Filing;
 using SSSHL = Sucrose.Shared.Space.Helper.Live;
 using SSSHP = Sucrose.Shared.Space.Helper.Processor;
 using SSSMI = Sucrose.Shared.Space.Manage.Internal;
@@ -238,7 +239,7 @@ namespace Sucrose.Portal.Views.Controls
                         {
                             if (File.Exists(Record) && Record.Contains(Path.GetFileName(Theme)))
                             {
-                                File.Delete(Record);
+                                SSSHF.Delete(Record);
                             }
                         }
                     }

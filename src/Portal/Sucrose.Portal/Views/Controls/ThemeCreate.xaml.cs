@@ -25,6 +25,7 @@ using SSCHV = Sucrose.Shared.Core.Helper.Version;
 using SSDEWT = Sucrose.Shared.Dependency.Enum.WallpaperType;
 using SSSHA = Sucrose.Shared.Space.Helper.Access;
 using SSSHC = Sucrose.Shared.Space.Helper.Copy;
+using SSSHF = Sucrose.Shared.Space.Helper.Filing;
 using SSTHI = Sucrose.Shared.Theme.Helper.Info;
 using SSTHV = Sucrose.Shared.Theme.Helper.Various;
 using SSWEW = Sucrose.Shared.Watchdog.Extension.Watch;
@@ -724,7 +725,7 @@ namespace Sucrose.Portal.Views.Controls
                         if (File.Exists(Gif.LocalPath))
                         {
                             Name = "s_" + Path.GetFileName(Gif.LocalPath);
-                            await Task.Run(() => File.Copy(Gif.LocalPath, Path.Combine(Theme, Name), true));
+                            await Task.Run(() => SSSHF.CopyBuffer(Gif.LocalPath, Path.Combine(Theme, Name)));
                         }
                         else
                         {
@@ -736,7 +737,7 @@ namespace Sucrose.Portal.Views.Controls
                         {
                             string Source = $"{GifThumbnail.Content}";
                             Thumbnail = "t_" + Path.GetFileName(Source);
-                            await Task.Run(() => File.Copy(Source, Path.Combine(Theme, Thumbnail), true));
+                            await Task.Run(() => SSSHF.CopyBuffer(Source, Path.Combine(Theme, Thumbnail)));
                         }
                         else
                         {
@@ -760,7 +761,7 @@ namespace Sucrose.Portal.Views.Controls
                         {
                             string Source = $"{GifPreview.Content}";
                             Preview = "p_" + Path.GetFileName(Source);
-                            await Task.Run(() => File.Copy(Source, Path.Combine(Theme, Preview), true));
+                            await Task.Run(() => SSSHF.CopyBuffer(Source, Path.Combine(Theme, Preview)));
                         }
                         else
                         {
@@ -871,7 +872,7 @@ namespace Sucrose.Portal.Views.Controls
                         {
                             string Source = $"{UrlThumbnail.Content}";
                             Thumbnail = "t_" + Path.GetFileName(Source);
-                            await Task.Run(() => File.Copy(Source, Path.Combine(Theme, Thumbnail), true));
+                            await Task.Run(() => SSSHF.CopyBuffer(Source, Path.Combine(Theme, Thumbnail)));
                         }
                         else
                         {
@@ -882,7 +883,7 @@ namespace Sucrose.Portal.Views.Controls
                         {
                             string Source = $"{UrlPreview.Content}";
                             Preview = "p_" + Path.GetFileName(Source);
-                            await Task.Run(() => File.Copy(Source, Path.Combine(Theme, Preview), true));
+                            await Task.Run(() => SSSHF.CopyBuffer(Source, Path.Combine(Theme, Preview)));
                         }
                         else
                         {
@@ -996,7 +997,7 @@ namespace Sucrose.Portal.Views.Controls
                         {
                             string Source = $"{WebThumbnail.Content}";
                             Thumbnail = "t_" + Path.GetFileName(Source);
-                            await Task.Run(() => File.Copy(Source, Path.Combine(Theme, Thumbnail), true));
+                            await Task.Run(() => SSSHF.CopyBuffer(Source, Path.Combine(Theme, Thumbnail)));
                         }
                         else
                         {
@@ -1007,7 +1008,7 @@ namespace Sucrose.Portal.Views.Controls
                         {
                             string Source = $"{WebPreview.Content}";
                             Preview = "p_" + Path.GetFileName(Source);
-                            await Task.Run(() => File.Copy(Source, Path.Combine(Theme, Preview), true));
+                            await Task.Run(() => SSSHF.CopyBuffer(Source, Path.Combine(Theme, Preview)));
                         }
                         else
                         {
@@ -1120,7 +1121,7 @@ namespace Sucrose.Portal.Views.Controls
                         if (File.Exists(Video.LocalPath))
                         {
                             Name = "s_" + Path.GetFileName(Video.LocalPath);
-                            await Task.Run(() => File.Copy(Video.LocalPath, Path.Combine(Theme, Name), true));
+                            await Task.Run(() => SSSHF.CopyBuffer(Video.LocalPath, Path.Combine(Theme, Name)));
                         }
                         else
                         {
@@ -1132,7 +1133,7 @@ namespace Sucrose.Portal.Views.Controls
                         {
                             string Source = $"{VideoThumbnail.Content}";
                             Thumbnail = "t_" + Path.GetFileName(Source);
-                            await Task.Run(() => File.Copy(Source, Path.Combine(Theme, Thumbnail), true));
+                            await Task.Run(() => SSSHF.CopyBuffer(Source, Path.Combine(Theme, Thumbnail)));
                         }
                         else
                         {
@@ -1156,7 +1157,7 @@ namespace Sucrose.Portal.Views.Controls
                         {
                             string Source = $"{VideoPreview.Content}";
                             Preview = "p_" + Path.GetFileName(Source);
-                            await Task.Run(() => File.Copy(Source, Path.Combine(Theme, Preview), true));
+                            await Task.Run(() => SSSHF.CopyBuffer(Source, Path.Combine(Theme, Preview)));
                         }
                         else
                         {
@@ -1267,7 +1268,7 @@ namespace Sucrose.Portal.Views.Controls
                         {
                             string Source = $"{YouTubeThumbnail.Content}";
                             Thumbnail = "t_" + Path.GetFileName(Source);
-                            await Task.Run(() => File.Copy(Source, Path.Combine(Theme, Thumbnail), true));
+                            await Task.Run(() => SSSHF.CopyBuffer(Source, Path.Combine(Theme, Thumbnail)));
                         }
                         else
                         {
@@ -1278,7 +1279,7 @@ namespace Sucrose.Portal.Views.Controls
                         {
                             string Source = $"{YouTubePreview.Content}";
                             Preview = "p_" + Path.GetFileName(Source);
-                            await Task.Run(() => File.Copy(Source, Path.Combine(Theme, Preview), true));
+                            await Task.Run(() => SSSHF.CopyBuffer(Source, Path.Combine(Theme, Preview)));
                         }
                         else
                         {
@@ -1410,7 +1411,7 @@ namespace Sucrose.Portal.Views.Controls
                         {
                             string Source = $"{ApplicationThumbnail.Content}";
                             Thumbnail = "t_" + Path.GetFileName(Source);
-                            await Task.Run(() => File.Copy(Source, Path.Combine(Theme, Thumbnail), true));
+                            await Task.Run(() => SSSHF.CopyBuffer(Source, Path.Combine(Theme, Thumbnail)));
                         }
                         else
                         {
@@ -1421,7 +1422,7 @@ namespace Sucrose.Portal.Views.Controls
                         {
                             string Source = $"{ApplicationPreview.Content}";
                             Preview = "p_" + Path.GetFileName(Source);
-                            await Task.Run(() => File.Copy(Source, Path.Combine(Theme, Preview), true));
+                            await Task.Run(() => SSSHF.CopyBuffer(Source, Path.Combine(Theme, Preview)));
                         }
                         else
                         {

@@ -20,6 +20,7 @@ using SSDEET = Sucrose.Shared.Dependency.Enum.EngineType;
 using SSDEPT = Sucrose.Shared.Dependency.Enum.PropertiesType;
 using SSDEWT = Sucrose.Shared.Dependency.Enum.WallpaperType;
 using SSDMME = Sucrose.Shared.Dependency.Manage.Manager.Engine;
+using SSSHF = Sucrose.Shared.Space.Helper.Filing;
 using SSSHI = Sucrose.Shared.Space.Helper.Instance;
 using SSSHW = Sucrose.Shared.Space.Helper.Watchdog;
 using SSTHI = Sucrose.Shared.Theme.Helper.Info;
@@ -222,7 +223,7 @@ namespace Sucrose.Property
 
                             if (!File.Exists(SPMI.PropertiesFile))
                             {
-                                File.Copy(SPMI.PropertiesPath, SPMI.PropertiesFile, true);
+                                SSSHF.CopyBuffer(SPMI.PropertiesPath, SPMI.PropertiesFile);
                             }
 
                             try
@@ -231,13 +232,13 @@ namespace Sucrose.Property
                             }
                             catch (NotSupportedException Ex)
                             {
-                                File.Delete(SPMI.PropertiesFile);
+                                SSSHF.Delete(SPMI.PropertiesFile);
 
                                 throw new NotSupportedException(Ex.Message);
                             }
                             catch (Exception Ex)
                             {
-                                File.Delete(SPMI.PropertiesFile);
+                                SSSHF.Delete(SPMI.PropertiesFile);
 
                                 throw new Exception(Ex.Message, Ex.InnerException);
                             }

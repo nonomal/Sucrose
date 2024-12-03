@@ -1,4 +1,5 @@
 ﻿using System.IO;
+using SSSHF = Sucrose.Shared.Space.Helper.Filing;
 
 namespace Sucrose.Shared.Space.Helper
 {
@@ -12,7 +13,7 @@ namespace Sucrose.Shared.Space.Helper
                 {
                     if (File.Exists(Record))
                     {
-                        File.Delete(Record);
+                        SSSHF.Delete(Record);
                     }
                 }
 

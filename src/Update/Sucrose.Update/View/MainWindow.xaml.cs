@@ -43,6 +43,7 @@ using SSHG = Skylark.Standard.Helper.GitHub;
 using SSIIA = Skylark.Standard.Interface.IAssets;
 using SSIIR = Skylark.Standard.Interface.IReleases;
 using SSSHE = Sucrose.Shared.Space.Helper.Extension;
+using SSSHF = Sucrose.Shared.Space.Helper.Filing;
 using SSSHN = Sucrose.Shared.Space.Helper.Network;
 using SSSHP = Sucrose.Shared.Space.Helper.Processor;
 using SSSHS = Sucrose.Shared.Space.Helper.Security;
@@ -204,7 +205,7 @@ namespace Sucrose.Update.View
 
                     foreach (string Record in Files)
                     {
-                        File.Delete(Record);
+                        SSSHF.Delete(Record);
                     }
                 }
                 else
@@ -417,7 +418,7 @@ namespace Sucrose.Update.View
 
                             if (File.Exists(Bundle))
                             {
-                                File.Delete(Bundle);
+                                SSSHF.Delete(Bundle);
                             }
 
                             return true;
@@ -438,7 +439,7 @@ namespace Sucrose.Update.View
 
                                 if (File.Exists(Bundle))
                                 {
-                                    File.Delete(Bundle);
+                                    SSSHF.Delete(Bundle);
                                 }
 
                                 return true;

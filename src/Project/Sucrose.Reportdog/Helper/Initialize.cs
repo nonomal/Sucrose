@@ -26,6 +26,7 @@ using SSDMME = Sucrose.Shared.Dependency.Manage.Manager.Engine;
 using SSDMMG = Sucrose.Shared.Dependency.Manage.Manager.General;
 using SSDMMP = Sucrose.Shared.Dependency.Manage.Manager.Portal;
 using SSDMMU = Sucrose.Shared.Dependency.Manage.Manager.Update;
+using SSSHF = Sucrose.Shared.Space.Helper.Filing;
 using SSSHN = Sucrose.Shared.Space.Helper.Network;
 using SSSHU = Sucrose.Shared.Space.Helper.User;
 using SSSHW = Sucrose.Shared.Space.Helper.Watchdog;
@@ -293,7 +294,7 @@ namespace Sucrose.Reportdog.Helper
                         {
                             await Task.Delay(50);
 
-                            File.Delete(Path);
+                            SSSHF.Delete(Path);
                         }
                     }
                 }

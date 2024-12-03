@@ -45,6 +45,7 @@ using SSEWVVW = Sucrose.Shared.Engine.WebView.View.Web;
 using SSEWVVYT = Sucrose.Shared.Engine.WebView.View.YouTube;
 using SSLHK = Sucrose.Shared.Live.Helper.Kill;
 using SSSHC = Sucrose.Shared.Space.Helper.Cycyling;
+using SSSHF = Sucrose.Shared.Space.Helper.Filing;
 using SSSHI = Sucrose.Shared.Space.Helper.Instance;
 using SSSHS = Sucrose.Shared.Space.Helper.Security;
 using SSSHW = Sucrose.Shared.Space.Helper.Watchdog;
@@ -371,7 +372,7 @@ namespace Sucrose.Live.WebView
 
                                 if (!File.Exists(SSEMI.PropertiesFile))
                                 {
-                                    File.Copy(SSEMI.PropertiesPath, SSEMI.PropertiesFile, true);
+                                    SSSHF.CopyBuffer(SSEMI.PropertiesPath, SSEMI.PropertiesFile);
                                 }
 
                                 try
@@ -380,13 +381,13 @@ namespace Sucrose.Live.WebView
                                 }
                                 catch (NotSupportedException Ex)
                                 {
-                                    File.Delete(SSEMI.PropertiesFile);
+                                    SSSHF.Delete(SSEMI.PropertiesFile);
 
                                     throw new NotSupportedException(Ex.Message);
                                 }
                                 catch (Exception Ex)
                                 {
-                                    File.Delete(SSEMI.PropertiesFile);
+                                    SSSHF.Delete(SSEMI.PropertiesFile);
 
                                     throw new Exception(Ex.Message, Ex.InnerException);
                                 }

@@ -48,6 +48,7 @@ using SSEVDMB = Sucrose.Shared.Engine.View.DarkMessageBox;
 using SSEVLMB = Sucrose.Shared.Engine.View.LightMessageBox;
 using SSLHK = Sucrose.Shared.Live.Helper.Kill;
 using SSSHC = Sucrose.Shared.Space.Helper.Cycyling;
+using SSSHF = Sucrose.Shared.Space.Helper.Filing;
 using SSSHI = Sucrose.Shared.Space.Helper.Instance;
 using SSSHS = Sucrose.Shared.Space.Helper.Security;
 using SSSHWG = Sucrose.Shared.Space.Helper.Watchdog;
@@ -439,7 +440,7 @@ namespace Sucrose.Live.CefSharp
 
                                 if (!File.Exists(SSEMI.PropertiesFile))
                                 {
-                                    File.Copy(SSEMI.PropertiesPath, SSEMI.PropertiesFile, true);
+                                    SSSHF.CopyBuffer(SSEMI.PropertiesPath, SSEMI.PropertiesFile);
                                 }
 
                                 try
@@ -448,13 +449,13 @@ namespace Sucrose.Live.CefSharp
                                 }
                                 catch (NotSupportedException Ex)
                                 {
-                                    File.Delete(SSEMI.PropertiesFile);
+                                    SSSHF.Delete(SSEMI.PropertiesFile);
 
                                     throw new NotSupportedException(Ex.Message);
                                 }
                                 catch (Exception Ex)
                                 {
-                                    File.Delete(SSEMI.PropertiesFile);
+                                    SSSHF.Delete(SSEMI.PropertiesFile);
 
                                     throw new Exception(Ex.Message, Ex.InnerException);
                                 }

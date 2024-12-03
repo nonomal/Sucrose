@@ -5,6 +5,7 @@ using SMMRG = Sucrose.Memory.Manage.Readonly.General;
 using SMMRP = Sucrose.Memory.Manage.Readonly.Path;
 using SSDEACT = Sucrose.Shared.Dependency.Enum.ArgumentCommandType;
 using SSLHK = Sucrose.Shared.Live.Helper.Kill;
+using SSSHF = Sucrose.Shared.Space.Helper.Filing;
 using SSSHP = Sucrose.Shared.Space.Helper.Processor;
 using SSSMI = Sucrose.Shared.Space.Manage.Internal;
 
@@ -36,7 +37,7 @@ namespace Sucrose.Shared.Space.Helper
             {
                 foreach (string Setting in Settings(Path.Combine(SMMRP.ApplicationData, SMMRG.AppName, SMMRF.Setting)))
                 {
-                    File.Copy(Setting, Path.Combine(Destination, Path.GetFileName(Setting)), true);
+                    SSSHF.CopyBuffer(Setting, Path.Combine(Destination, Path.GetFileName(Setting)));
                 }
             }
             else

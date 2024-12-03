@@ -44,7 +44,7 @@ namespace Sucrose.Shared.Engine.MpvPlayer.Helper
 
             if (!File.Exists(SSEMI.PropertiesFile))
             {
-                File.Copy(SSEMI.PropertiesPath, SSEMI.PropertiesFile, true);
+                SSSHF.CopyBuffer(SSEMI.PropertiesPath, SSEMI.PropertiesFile);
             }
 
             try
@@ -53,13 +53,13 @@ namespace Sucrose.Shared.Engine.MpvPlayer.Helper
             }
             catch (NotSupportedException Ex)
             {
-                File.Delete(SSEMI.PropertiesFile);
+                SSSHF.Delete(SSEMI.PropertiesFile);
 
                 throw new NotSupportedException(Ex.Message);
             }
             catch (Exception Ex)
             {
-                File.Delete(SSEMI.PropertiesFile);
+                SSSHF.Delete(SSEMI.PropertiesFile);
 
                 throw new Exception(Ex.Message, Ex.InnerException);
             }

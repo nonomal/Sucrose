@@ -25,6 +25,7 @@ using SRER = Sucrose.Resources.Extension.Resources;
 using SSDMMG = Sucrose.Shared.Dependency.Manage.Manager.General;
 using SSLHK = Sucrose.Shared.Live.Helper.Kill;
 using SSLHR = Sucrose.Shared.Live.Helper.Run;
+using SSSHF = Sucrose.Shared.Space.Helper.Filing;
 using SSSHL = Sucrose.Shared.Space.Helper.Live;
 using SSTHP = Sucrose.Shared.Theme.Helper.Properties;
 using SSTMBM = Sucrose.Shared.Theme.Model.ButtonModel;
@@ -192,11 +193,11 @@ namespace Sucrose.Property.View
 
                 await Task.Delay(250);
 
-                File.Delete(SPMI.PropertiesFile);
+                SSSHF.Delete(SPMI.PropertiesFile);
 
                 await Task.Delay(250);
 
-                File.Copy(SPMI.PropertiesPath, SPMI.PropertiesFile, true);
+                SSSHF.CopyBuffer(SPMI.PropertiesPath, SPMI.PropertiesFile);
 
                 SPMI.Properties = SSTHP.ReadJson(SPMI.PropertiesFile);
 
@@ -267,13 +268,13 @@ namespace Sucrose.Property.View
                 Refresh.IsEnabled = false;
                 Delete.IsEnabled = false;
 
-                File.Copy(SPMI.PropertiesPath, SPMI.PropertiesFile, true);
+                SSSHF.CopyBuffer(SPMI.PropertiesPath, SPMI.PropertiesFile);
 
                 if (SMML.Selected == SPMI.LibrarySelected && SSSHL.Run())
                 {
                     await Task.Delay(250);
 
-                    File.Copy(SPMI.PropertiesPath, SPMI.WatcherFile.Replace("*", $"{Guid.NewGuid()}"), true);
+                    SSSHF.CopyBuffer(SPMI.PropertiesPath, SPMI.WatcherFile.Replace("*", $"{Guid.NewGuid()}"));
                 }
 
                 await Task.Delay(250);

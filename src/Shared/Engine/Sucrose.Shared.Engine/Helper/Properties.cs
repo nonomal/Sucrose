@@ -3,6 +3,7 @@ using System.IO;
 using SESMIEN = Sucrose.Shared.Engine.Manage.Internal.ExecuteNormal;
 using SESMIET = Sucrose.Shared.Engine.Manage.Internal.ExecuteTask;
 using SSEMI = Sucrose.Shared.Engine.Manage.Internal;
+using SSSHF = Sucrose.Shared.Space.Helper.Filing;
 using SSTMCM = Sucrose.Shared.Theme.Model.ControlModel;
 using SSWEW = Sucrose.Shared.Watchdog.Extension.Watch;
 using Timer = System.Timers.Timer;
@@ -65,7 +66,7 @@ namespace Sucrose.Shared.Engine.Helper
             {
                 try
                 {
-                    File.Delete(Source);
+                    SSSHF.Delete(Source);
                 }
                 catch { }
 
@@ -92,7 +93,7 @@ namespace Sucrose.Shared.Engine.Helper
                     if (Record.Contains(Path.GetFileName(Source)[1..]))
 #endif
                     {
-                        File.Delete(Record);
+                        SSSHF.Delete(Record);
                     }
                 }
             }
