@@ -650,27 +650,29 @@ f90ebab7154b09a843daf4c2da21d49a,Portal\Controls\StoreCard\Portal.StoreCard.CS.x
 3981dde859798ab3137bf979da6584a2,Portal\Controls\StoreCard\Portal.StoreCard.CS.xaml,,
 cae9438c353aea43e548c4acae2fe003,Portal\Controls\StoreCard\Portal.StoreCard.CS.xaml,Portal.StoreCard.Incompatible,Nekompatibilní
 009983ecf86a6c17c57011e97b2d9ec8,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,Portal.ThemeCreate.Title,Vytvoření šablony
-47a33fc4322e71888454f21c2a6df3ed,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,Portal.ThemeCreate.Create,Vytvořit
-be9f6c60209b367c1bcbd323784b77c1,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,Portal.ThemeCreate.Close,Zavřít
 eb2ba1266e1a7c41822ddb0771e90b32,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,,
+be9f6c60209b367c1bcbd323784b77c1,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,Portal.ThemeCreate.Close,Zavřít
+47a33fc4322e71888454f21c2a6df3ed,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,Portal.ThemeCreate.Create,Vytvořit
+1730c63eb263b3a7850977e3d2a5ddb9,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,Portal.ThemeCreate.Creating,Vytváří Se
+ee5f1b247a6d4cfb72e23e43d052bbe4,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,,
 1b93172c2b82f8207a8865c4275b77ac,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,Portal.ThemeCreate.Gif,Gif Šablona
 e78d2b12090a2169bc0880c6d6329b63,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,Portal.ThemeCreate.Gif.Description,Vytvořte svou vlastní šablonu typu Gif.
-ee5f1b247a6d4cfb72e23e43d052bbe4,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,,
+1769afac7e97b5709086eeec191d299e,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,,
 ae067f6391a4e8d5ac6da0ea989a8071,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,Portal.ThemeCreate.Url,Url Šablona
 4bd9d2f8c79ce8032b8ae12086b7dd23,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,Portal.ThemeCreate.Url.Description,Vytvořte svou vlastní šablonu typu Url.
-1769afac7e97b5709086eeec191d299e,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,,
+1e859b05bd41e5b7d8d00ba69876aabb,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,,
 e68ebfe49ebbf1c752c81bdf56f6e35a,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,Portal.ThemeCreate.Web,Web Šablona
 7bf7d2e602b7ea51ebf399afd86daef6,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,Portal.ThemeCreate.Web.Description,Vytvořte svou vlastní šablonu typu Web.
-1e859b05bd41e5b7d8d00ba69876aabb,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,,
+34d327e54aa55ea53f8188dad63949a5,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,,
 bad9b1a7b616689c8749149118c6323e,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,Portal.ThemeCreate.Video,Video Šablona
 e5a72bfc8b92982eaf92f49ca430bf04,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,Portal.ThemeCreate.Video.Description,Vytvořte svou vlastní šablonu typu Video.
-34d327e54aa55ea53f8188dad63949a5,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,,
+2c2f0da3dcd832644806cb3759226e23,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,,
 6d07ce9f777e7d95126a5606081787a8,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,Portal.ThemeCreate.YouTube,YouTube Šablona
 aa4b7b8eb0e9f30ced4a450820f67fcd,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,Portal.ThemeCreate.YouTube.Description,Vytvořte svou vlastní šablonu typu YouTube.
-2c2f0da3dcd832644806cb3759226e23,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,,
+0e1a917becd99083815e9099dcff42a2,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,,
 015e2a4ac5ffc8a5f2f49aa3a310fea1,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,Portal.ThemeCreate.Application,Application Šablona
 7575bbc4f0378de03d37862834003fa9,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,Portal.ThemeCreate.Application.Description,Vytvořte svou vlastní šablonu typu Application.
-0e1a917becd99083815e9099dcff42a2,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,,
+7104630adbde6c8ef6000acf74e9b9aa,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,,
 4ad6f66469f3bf17c349051043a4deed,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,Portal.ThemeCreate.ThemeUrl,Url
 32c9f1525f14d3b59a191739f027bf06,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,Portal.ThemeCreate.ThemeWeb,Web
 be3a9e9c5bf4ce073fb44023c4f51e8f,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,Portal.ThemeCreate.ThemeApplication,Aplikace
@@ -682,7 +684,7 @@ db2ff8d603c4c45d7e98bde8aebcddaa,Portal\Controls\ThemeCreate\Portal.ThemeCreate.
 87163685cb8a76832f7fb5e85b8e9982,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,Portal.ThemeCreate.ThemeContact,Kontakt
 e11b3c614d985ae07f222d90f8069f67,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,Portal.ThemeCreate.ThemeTags,Štítky
 ad20097c745cfc131ac271df268159f0,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,Portal.ThemeCreate.ThemeArguments,Argumenty
-7104630adbde6c8ef6000acf74e9b9aa,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,,
+05e0c2fe936b239993ee399827356c4d,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,,
 18c97bf791d3293a2ae3f70d1a89ecf1,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,Portal.ThemeCreate.ThemeUrl.Hint,Zadejte platnou Url adresu
 4723ca1e193b65b13d21387d02a76451,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,Portal.ThemeCreate.ThemeWeb.Hint,Vyberte webovou stránku
 fa036a72aa5df5bb0fc6508d1fcf7cc1,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,Portal.ThemeCreate.ThemeApplication.Hint,Vyberte soubor aplikace
@@ -694,41 +696,41 @@ ca8b1b6462d03498cb6dffc4a2e6cd65,Portal\Controls\ThemeCreate\Portal.ThemeCreate.
 ea5b2068a606d1d4450b965a9d8d9364,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,Portal.ThemeCreate.ThemeContact.Hint,Zadejte platný kontakt
 383cfd8a01f6d46421d0894b1ba0a2e3,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,Portal.ThemeCreate.ThemeTags.Hint,Zadejte platné štítky pro šablonu
 fd9a46039adaf9c731d33b1c1ebf56ca,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,Portal.ThemeCreate.ThemeArguments.Hint,Zadejte platné argumenty aplikace
-05e0c2fe936b239993ee399827356c4d,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,,
-11ecc1c8b256d9d97fdeb2209eae1b2d,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,Portal.ThemeCreate.DragDrop.Delete,Odstranit
 215f0b16084698fc15668961c75990b6,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,,
+11ecc1c8b256d9d97fdeb2209eae1b2d,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,Portal.ThemeCreate.DragDrop.Delete,Odstranit
+52ad30047a4866f1345ad95f41a5a3ac,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,,
 81f47931f287f6fddcaa2af12bcc9d9f,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,Portal.ThemeCreate.DragDrop.Gif.Title,Vyberte soubor Gif
 c9751b70735227ac6de13e8dcee0ec40,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,Portal.ThemeCreate.DragDrop.Gif.Filter,Soubory Gif (*.gif)|*.gif
-52ad30047a4866f1345ad95f41a5a3ac,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,,
+3022a397a5fa44ef855a1188561dadc5,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,,
 7c3848479f6ee8453fb14e01d456a43e,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,Portal.ThemeCreate.DragDrop.Video.Title,Vyberte soubor Videa
 7a7a884d867b18bcb6a0d023e71a3c34,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,Portal.ThemeCreate.DragDrop.Video.Filter,Soubory Videa (*.mp4;*.avi;*.mov;*.mkv;*.ogv;*.flv;*.wmv;*.hevc;*.webm;*.mpeg;*.mpeg1;*.mpeg2;*.mpeg4)|*.mp4;*.avi;*.mov;*.mkv;*.ogv;*.flv;*.wmv;*.hevc;*.webm;*.mpeg;*.mpeg1;*.mpeg2;*.mpeg4
-3022a397a5fa44ef855a1188561dadc5,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,,
+13632af29972b99bb0a716c97293abf9,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,,
 9aa3e1a2c11a54be736d4a5027a5fa9b,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,Portal.ThemeCreate.DragDrop.Gif,Přetáhněte sem svůj Gif soubor
 87c038dab7243d25904feae83f537b5e,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,Portal.ThemeCreate.DragDrop.Video,Přetáhněte sem svůj Video soubor
-13632af29972b99bb0a716c97293abf9,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,,
+fa73b315dc7077bf6d503aefec72f4ec,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,,
 6403262649fae9d5531383e5c6155f02,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,Portal.ThemeCreate.ThemeThumbnail.Title,Vybrat náhled
 5219758a094d87e53412001bfb7fb21d,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,Portal.ThemeCreate.ThemeThumbnail.Filter,Obrázky (*.png;*.jpg;*.jpeg;*.tiff;*.webp)|*.png;*.jpg;*.jpeg;*.tiff;*.webp
-fa73b315dc7077bf6d503aefec72f4ec,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,,
+2ac41fb1aa1255349b19fa6895787557,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,,
 885ab2db530a4b950e2b0c85cf4a4f14,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,Portal.ThemeCreate.ThemePreview.Title,Vybrat náhledový soubor
 d83238f38343e4f4427a9822c52c49a9,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,Portal.ThemeCreate.ThemePreview.Filter,Gif soubory (*.gif)|*.gif
-2ac41fb1aa1255349b19fa6895787557,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,,
+b184e7f590dddb391839ad056feafcda,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,,
 3825f2de52a412e20db87958406e10b5,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,Portal.ThemeCreate.WebSource.Title,Vyberte Webovou Stránku
 6abaeb865f1a8fb4c9ad36d5a136b7e4,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,Portal.ThemeCreate.WebSource.Filter,Webové Stránky (*.html)|*.html
-b184e7f590dddb391839ad056feafcda,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,,
+fdbcedfde796b9f1b458111299ff9ad4,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,,
 9639574f28c84aebfcecbd601b1cf4b3,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,Portal.ThemeCreate.ApplicationSource.Title,Vyberte Soubor Aplikace
 c946db56e3d17db3ccc868adf2f194be,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,Portal.ThemeCreate.ApplicationSource.Filter,Soubory Aplikací (*.exe)|*.exe
-fdbcedfde796b9f1b458111299ff9ad4,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,,
+6b1f77d1326b5ae33ec72cacc1ac587a,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,,
 5e2576db2554628093743dd6ff2c0559,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,Portal.ThemeCreate.Copy.Close,Rozumím
 9c57296b5ed3b7e094462bb844d18d05,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,Portal.ThemeCreate.Copy.Title,Důležité Upozornění
 b92eeb34b7b794cce5837d205423d05d,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,Portal.ThemeCreate.Copy.Message,Vybraný soubor bude zahrnut do motivu spolu se všemi ostatními soubory a složkami v daném adresáři.
-6b1f77d1326b5ae33ec72cacc1ac587a,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,,
+409945191724f0c0df57a6951641b80b,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,,
 c7b8f78b73400914184cce3e1892740a,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,Portal.ThemeCreate.Access.Close,Rozumím
 67a8dd05c5e51aa988395ed143cf08a2,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,Portal.ThemeCreate.Access.Title,Upozornění na přístup
 997d8321522835240b97fe513351003a,Portal\Controls\ThemeCreate\Portal.ThemeCreate.CS.xaml,Portal.ThemeCreate.Access.Message,Nemáte oprávnění k přístupu k vybranému souboru.
 d2dc2c7c3ac037c481aaad6b761ce95a,Portal\Controls\ThemeDelete\Portal.ThemeDelete.CS.xaml,Portal.ThemeDelete.Title,Smazání tématu
 b3bc36e2d7cd51b35ebc4e8173905563,Portal\Controls\ThemeDelete\Portal.ThemeDelete.CS.xaml,Portal.ThemeDelete.Delete,Smazat
 4dcf5d612ba76282e8b609f4876f181b,Portal\Controls\ThemeDelete\Portal.ThemeDelete.CS.xaml,Portal.ThemeDelete.Close,Zavřít
-3de22ffc376a67b4443d3c3a125adfbe,Portal\Controls\ThemeDelete\Portal.ThemeDelete.CS.xaml,,
+ffdfad52805a806146e171dc2f0cab35,Portal\Controls\ThemeDelete\Portal.ThemeDelete.CS.xaml,,
 712940190161339f12e06c1b6588ce65,Portal\Controls\ThemeDelete\Portal.ThemeDelete.CS.xaml,Portal.ThemeDelete.ThemeTitle,Název
 8bdf52ec01a21243706bcd8630724d33,Portal\Controls\ThemeDelete\Portal.ThemeDelete.CS.xaml,Portal.ThemeDelete.ThemeDescription,Popis
 ab2c99cba933480d4dcd3b75a32246ad,Portal\Controls\ThemeDelete\Portal.ThemeDelete.CS.xaml,Portal.ThemeDelete.ThemeType,Typ
@@ -748,14 +750,14 @@ a02afc195f53a49c2812772df106f850,Portal\Controls\ThemeDelete\Portal.ThemeDelete.
 68b9c2ea4e0f7c3ed0680ae2f6b66d8d,Portal\Controls\ThemeEdit\Portal.ThemeEdit.CS.xaml,Portal.ThemeEdit.Title,Úprava šablony
 b910b9c659b745c17f77353a0116b889,Portal\Controls\ThemeEdit\Portal.ThemeEdit.CS.xaml,Portal.ThemeEdit.Close,Zavřít
 f40d68095675b903309f28319815b50f,Portal\Controls\ThemeEdit\Portal.ThemeEdit.CS.xaml,Portal.ThemeEdit.Save,Uložit
-2258e8cdb9f2acbbe7ec58028624de26,Portal\Controls\ThemeEdit\Portal.ThemeEdit.CS.xaml,,
+8ea5809f8d640b90c344e3d59e9ad8bf,Portal\Controls\ThemeEdit\Portal.ThemeEdit.CS.xaml,,
 17e3ca9a33a7fe6cf3ed0b341b84778c,Portal\Controls\ThemeEdit\Portal.ThemeEdit.CS.xaml,Portal.ThemeEdit.ThemeTitle,Název
 24c0c3b2a16469e819979f087ba89047,Portal\Controls\ThemeEdit\Portal.ThemeEdit.CS.xaml,Portal.ThemeEdit.ThemeDescription,Popis
 dbc7c7005b027a827c7c0dab3953f913,Portal\Controls\ThemeEdit\Portal.ThemeEdit.CS.xaml,Portal.ThemeEdit.ThemeAuthor,Autor
 0b4348ac2a33b907602b0711fea95d19,Portal\Controls\ThemeEdit\Portal.ThemeEdit.CS.xaml,Portal.ThemeEdit.ThemeContact,Kontakt
 b6f580755d16221de4af5dacbb3e2d6f,Portal\Controls\ThemeEdit\Portal.ThemeEdit.CS.xaml,Portal.ThemeEdit.ThemeTags,Štítky
 92f2ec14e09b64cc1b28059132c7be6e,Portal\Controls\ThemeEdit\Portal.ThemeEdit.CS.xaml,Portal.ThemeEdit.ThemeArguments,Argumenty
-8ea5809f8d640b90c344e3d59e9ad8bf,Portal\Controls\ThemeEdit\Portal.ThemeEdit.CS.xaml,,
+2e0af283c9ad5c10b82bf46648ed0159,Portal\Controls\ThemeEdit\Portal.ThemeEdit.CS.xaml,,
 088b46c8b95b3e65023b24980090d4db,Portal\Controls\ThemeEdit\Portal.ThemeEdit.CS.xaml,Portal.ThemeEdit.ThemeTitle.Hint,"Prosím, zadejte platný název"
 7dc8c7f9bb1f73a7ea8ef620803eb89d,Portal\Controls\ThemeEdit\Portal.ThemeEdit.CS.xaml,Portal.ThemeEdit.ThemeDescription.Hint,"Prosím, zadejte platný popis"
 4f54d6a8409eaad7ad4fd6eab141d492,Portal\Controls\ThemeEdit\Portal.ThemeEdit.CS.xaml,Portal.ThemeEdit.ThemeAuthor.Hint,"Prosím, zadejte platné jméno autora"
@@ -764,41 +766,41 @@ b6f580755d16221de4af5dacbb3e2d6f,Portal\Controls\ThemeEdit\Portal.ThemeEdit.CS.x
 908373fb68f5bd5125aa1283a67280e9,Portal\Controls\ThemeEdit\Portal.ThemeEdit.CS.xaml,Portal.ThemeEdit.ThemeArguments.Hint,"Prosím, zadejte platné argumenty aplikace"
 c02f06d4da9a8fbb3ae5def27402313f,Portal\Controls\ThemeImport\Portal.ThemeImport.CS.xaml,Portal.ThemeImport.Title,Import šablony
 958793eb53569f07938acb16821bcc89,Portal\Controls\ThemeImport\Portal.ThemeImport.CS.xaml,Portal.ThemeImport.Close,Zavřít
-2af20c6423a64c274fad34e9ddc5ed77,Portal\Controls\ThemeImport\Portal.ThemeImport.CS.xaml,,
+893b01e104880a03e14a798b8a178dde,Portal\Controls\ThemeImport\Portal.ThemeImport.CS.xaml,,
 90ddf4e857b39a22a705838b2c529079,Portal\Controls\ThemeImport\Portal.ThemeImport.CS.xaml,Portal.ThemeImport.Info,Informace o šabloně
 639cd5ed38ade11d9fdd33dce469b584,Portal\Controls\ThemeImport\Portal.ThemeImport.CS.xaml,Portal.ThemeImport.Type,Typy důvodu
 294788ffcfddf1b2c0fe2bd6f77234b1,Portal\Controls\ThemeReport\Portal.ThemeReport.CS.xaml,Portal.ThemeReport.Title,Hlášení Tématu
 bd6a831ab3b99841e0784c0e63cb3770,Portal\Controls\ThemeReport\Portal.ThemeReport.CS.xaml,Portal.ThemeReport.Close,Zavřít
-213ac2747ca8d25e804c66b9d7f35861,Portal\Controls\ThemeReport\Portal.ThemeReport.CS.xaml,,
+fabba5bbc31f0b40fbddbe1a5bb0e7b8,Portal\Controls\ThemeReport\Portal.ThemeReport.CS.xaml,,
 cd2713db95383fff21f70c241b3f78de,Portal\Controls\ThemeReport\Portal.ThemeReport.CS.xaml,Portal.ThemeReport.ThemeTitle,Název
 291a10e1bfcfd925ccd1939f0bdaf40f,Portal\Controls\ThemeReport\Portal.ThemeReport.CS.xaml,Portal.ThemeReport.ThemeDescription,Popis
-fabba5bbc31f0b40fbddbe1a5bb0e7b8,Portal\Controls\ThemeReport\Portal.ThemeReport.CS.xaml,,
+01e2cd40936fc46ad934a7805cc9d85c,Portal\Controls\ThemeReport\Portal.ThemeReport.CS.xaml,,
 e2cf688a76954466437240b780272bcc,Portal\Controls\ThemeReport\Portal.ThemeReport.CS.xaml,Portal.ThemeReport.Reporter,Hlášení
 4cfcf4c7c472e5a59400fe262fc747ab,Portal\Controls\ThemeReport\Portal.ThemeReport.CS.xaml,Portal.ThemeReport.Reporter.Description,Uveďte důvody pro hlášení tématu.
-01e2cd40936fc46ad934a7805cc9d85c,Portal\Controls\ThemeReport\Portal.ThemeReport.CS.xaml,,
-580e226f9e768ec8778eed804d7c534d,Portal\Controls\ThemeReport\Portal.ThemeReport.CS.xaml,Portal.ThemeReport.Reporter.Contact.Placeholder,"Prosím, napište platnou e-mailovou adresu"
 81787b40657e60c1a80ec8991fb77b5c,Portal\Controls\ThemeReport\Portal.ThemeReport.CS.xaml,,
+580e226f9e768ec8778eed804d7c534d,Portal\Controls\ThemeReport\Portal.ThemeReport.CS.xaml,Portal.ThemeReport.Reporter.Contact.Placeholder,"Prosím, napište platnou e-mailovou adresu"
+94d8724234997761ce8b8f0fa3d24edb,Portal\Controls\ThemeReport\Portal.ThemeReport.CS.xaml,,
 9c848f43f7baf43b70a94b16ebdb07ca,Portal\Controls\ThemeReport\Portal.ThemeReport.CS.xaml,Portal.ThemeReport.Reporter.Description.Text,Další poznámky:
 39d7aac5796c6a7642b5888320887cc3,Portal\Controls\ThemeReport\Portal.ThemeReport.CS.xaml,Portal.ThemeReport.Reporter.Description.Placeholder,Podrobně popište důvod hlášení.
-94d8724234997761ce8b8f0fa3d24edb,Portal\Controls\ThemeReport\Portal.ThemeReport.CS.xaml,,
-8694b617db778cd9f0757d14eeb84ece,Portal\Controls\ThemeReport\Portal.ThemeReport.CS.xaml,Portal.ThemeReport.Reporter.Preparing,Přípravy na hlášení budou brzy zahájeny..
 e565c38000b6ee3944f1eaf08657ca84,Portal\Controls\ThemeReport\Portal.ThemeReport.CS.xaml,,
+8694b617db778cd9f0757d14eeb84ece,Portal\Controls\ThemeReport\Portal.ThemeReport.CS.xaml,Portal.ThemeReport.Reporter.Preparing,Přípravy na hlášení budou brzy zahájeny..
+29c3a3a46642e390f919edfd586a757b,Portal\Controls\ThemeReport\Portal.ThemeReport.CS.xaml,,
 c5deae199d6f395898075e356cebc44f,Portal\Controls\ThemeReport\Portal.ThemeReport.CS.xaml,Portal.ThemeReport.Reporter.Checking,Provádějí se potřebné kontroly pro hlášení..
 6bc155295ab34527a2212593a62d086f,Portal\Controls\ThemeReport\Portal.ThemeReport.CS.xaml,Portal.ThemeReport.Reporter.Checking.Error,Při provádění potřebných kontrol pro hlášení došlo k neznámé chybě.
 f3f3682ebdb8f7eadbd44c1076eb45aa,Portal\Controls\ThemeReport\Portal.ThemeReport.CS.xaml,Portal.ThemeReport.Reporter.Checking.Status,"V tuto chvíli nelze vytvořit vhodné podmínky pro hlášení, zkuste to prosím později.."
-29c3a3a46642e390f919edfd586a757b,Portal\Controls\ThemeReport\Portal.ThemeReport.CS.xaml,,
+96dcd8931c1ec89b879499de85d26c53,Portal\Controls\ThemeReport\Portal.ThemeReport.CS.xaml,,
 c3996c7e65bbfbcbdea6248219382ab3,Portal\Controls\ThemeReport\Portal.ThemeReport.CS.xaml,Portal.ThemeReport.Reporter.Sending,Odesílání informací pro hlášení..
 491e5bb5b91c671d8cd7b098ad931bf0,Portal\Controls\ThemeReport\Portal.ThemeReport.CS.xaml,Portal.ThemeReport.Reporter.Sending.Error,Při odesílání hlášení došlo k chybě.
 8d9d7f65c26b37f3bdef571b5b061e15,Portal\Controls\ThemeReport\Portal.ThemeReport.CS.xaml,Portal.ThemeReport.Reporter.Sending.Errored,Při odesílání hlášení došlo k neočekávané chybě: {0}.
 40f8e1b3853243d0db10d879377dc6b3,Portal\Controls\ThemeReport\Portal.ThemeReport.CS.xaml,Portal.ThemeReport.Reporter.Sending.Succeded,"Hlášení bylo úspěšně odesláno, děkujeme."
-96dcd8931c1ec89b879499de85d26c53,Portal\Controls\ThemeReport\Portal.ThemeReport.CS.xaml,,
-c43c6d31b145acd5c13c16f03e8e4152,Portal\Controls\ThemeReport\Portal.ThemeReport.CS.xaml,Portal.ThemeReport.Reporter.Network,Pro hlášení je vyžadováno internetové připojení.
 3fc957d8fb904bbd2132e0e823563ed1,Portal\Controls\ThemeReport\Portal.ThemeReport.CS.xaml,,
+c43c6d31b145acd5c13c16f03e8e4152,Portal\Controls\ThemeReport\Portal.ThemeReport.CS.xaml,Portal.ThemeReport.Reporter.Network,Pro hlášení je vyžadováno internetové připojení.
+1a9aa0e7aca28997f1f7b72e5e0c6c9d,Portal\Controls\ThemeReport\Portal.ThemeReport.CS.xaml,,
 61bdb07b475b66fe9d6699e8ca57a618,Portal\Controls\ThemeReport\Portal.ThemeReport.CS.xaml,Portal.ThemeReport.Reporter.Report,Hlášení
 0d6d42e8ee2fa8739c6b732ce026ed9f,Portal\Controls\ThemeReport\Portal.ThemeReport.CS.xaml,Portal.ThemeReport.Reporter.GitHub,Hlášení z GitHub
 6cece8b45be42c73923a643b30b05ec4,Portal\Controls\ThemeReview\Portal.ThemeReview.CS.xaml,Portal.ThemeReview.Title,Hodnocení šablony
 a12e401a68d5a7904e002baea3621a0c,Portal\Controls\ThemeReview\Portal.ThemeReview.CS.xaml,Portal.ThemeReview.Close,Zavřít
-6aa0a611c6bc3e39e42511d6f2a2e9c4,Portal\Controls\ThemeReview\Portal.ThemeReview.CS.xaml,,
+f23f6b4cc363ec64a2373b31937d1dd3,Portal\Controls\ThemeReview\Portal.ThemeReview.CS.xaml,,
 3dd28ab1b867c37488588924165d2fbe,Portal\Controls\ThemeReview\Portal.ThemeReview.CS.xaml,Portal.ThemeReview.ThemeTitle,Název
 4e40eeed08da8b2e20f947b86e3070f7,Portal\Controls\ThemeReview\Portal.ThemeReview.CS.xaml,Portal.ThemeReview.ThemeDescription,Popis
 5bbedb290ee1103c1e6c1439e2699095,Portal\Controls\ThemeReview\Portal.ThemeReview.CS.xaml,Portal.ThemeReview.ThemeType,Typ
@@ -818,438 +820,438 @@ ad8ab1ed868d463fcf6f1514fe68de5c,Portal\Controls\ThemeReview\Portal.ThemeReview.
 7887537297e876367a59aa1bce00b432,Portal\Controls\ThemeReview\Portal.ThemeReview.CS.xaml,Portal.ThemeReview.ThemeContact,Kontaktní údaj pro šablonu
 d35ccb1f26a725f0298e1406ce28df59,Portal\Controls\ThemeShare\Portal.ThemeShare.CS.xaml,Portal.ThemeShare.Title,Sdílení Šablony
 19217563718a1b73215368a8523ddcf9,Portal\Controls\ThemeShare\Portal.ThemeShare.CS.xaml,Portal.ThemeShare.Close,Zavřít
-2bb4945548489d4f050a4805b4647c34,Portal\Controls\ThemeShare\Portal.ThemeShare.CS.xaml,,
+6c4e8879930861af5a518f6a705bed23,Portal\Controls\ThemeShare\Portal.ThemeShare.CS.xaml,,
 962c49583cde8b244ce7a7438e1d6413,Portal\Controls\ThemeShare\Portal.ThemeShare.CS.xaml,Portal.ThemeShare.ThemeTitle,Název
 df4ba200af9fdb60fd41a61f1460963e,Portal\Controls\ThemeShare\Portal.ThemeShare.CS.xaml,Portal.ThemeShare.ThemeDescription,Popis
-6c4e8879930861af5a518f6a705bed23,Portal\Controls\ThemeShare\Portal.ThemeShare.CS.xaml,,
+277e18d1edd5f9975faaea6e76a7ed0a,Portal\Controls\ThemeShare\Portal.ThemeShare.CS.xaml,,
 9693d74fc7005da653b4aaacc0d3b22a,Portal\Controls\ThemeShare\Portal.ThemeShare.CS.xaml,Portal.ThemeShare.ThemeExport,Exportovat
 5b4ce649e9fc6a50aa5145eed1a5c543,Portal\Controls\ThemeShare\Portal.ThemeShare.CS.xaml,Portal.ThemeShare.ThemePublish,Publikovat v Obchodě
 c65e7c025dd4d196c565a3d5e49549e4,Portal\Controls\ThemeShare\Portal.ThemeShare.CS.xaml,Portal.ThemeShare.ThemeCopy,Kopírovat Odkaz
-277e18d1edd5f9975faaea6e76a7ed0a,Portal\Controls\ThemeShare\Portal.ThemeShare.CS.xaml,,
+4a6a31cc8a0d5a5f3cde050cfe9f279a,Portal\Controls\ThemeShare\Portal.ThemeShare.CS.xaml,,
 2898e0019da26b9bdd2883ec85761207,Portal\Controls\ThemeShare\Portal.ThemeShare.CS.xaml,Portal.ThemeShare.ThemePublish.Publish,Publikovat
 215af984440bd50b3eac7aa185edcb84,Portal\Controls\ThemeShare\Portal.ThemeShare.CS.xaml,Portal.ThemeShare.ThemePublish.Preparing,Přípravy na publikaci začnou brzy..
-4a6a31cc8a0d5a5f3cde050cfe9f279a,Portal\Controls\ThemeShare\Portal.ThemeShare.CS.xaml,,
-139e2b84ce4af0938995a44731e5457e,Portal\Controls\ThemeShare\Portal.ThemeShare.CS.xaml,Portal.ThemeShare.ThemePublish.Limit,Kontroluje se váš denní limit pro nahrávání témat..
 a7a1298517cae703030ee3d96c88eddb,Portal\Controls\ThemeShare\Portal.ThemeShare.CS.xaml,,
+139e2b84ce4af0938995a44731e5457e,Portal\Controls\ThemeShare\Portal.ThemeShare.CS.xaml,Portal.ThemeShare.ThemePublish.Limit,Kontroluje se váš denní limit pro nahrávání témat..
+4fbbebe81d936a5bf580355339a37cb2,Portal\Controls\ThemeShare\Portal.ThemeShare.CS.xaml,,
 2a4626619b61a2a15195998861623b81,Portal\Controls\ThemeShare\Portal.ThemeShare.CS.xaml,Portal.ThemeShare.ThemePublish.Limit.Exceeded,"Dosáhli jste svého denního limitu pro nahrávání témat, zkuste to prosím později."
 937b5e32331d9b7ee9681b4b366aed69,Portal\Controls\ThemeShare\Portal.ThemeShare.CS.xaml,Portal.ThemeShare.ThemePublish.Limit.Error,Při kontrole vašeho denního limitu pro nahrávání témat došlo k neznámé chybě.
-4fbbebe81d936a5bf580355339a37cb2,Portal\Controls\ThemeShare\Portal.ThemeShare.CS.xaml,,
+4cc377642d64adbc26185abaa42a4435,Portal\Controls\ThemeShare\Portal.ThemeShare.CS.xaml,,
 3fd8f171a5e70b3ae44545c1c89e231b,Portal\Controls\ThemeShare\Portal.ThemeShare.CS.xaml,Portal.ThemeShare.ThemePublish.Compress,Téma se komprimuje před nahráním..
 539a2c20ad327af075ab32732df1a090,Portal\Controls\ThemeShare\Portal.ThemeShare.CS.xaml,Portal.ThemeShare.ThemePublish.Compress.Error,Při komprimaci tématu došlo k chybě.
-4cc377642d64adbc26185abaa42a4435,Portal\Controls\ThemeShare\Portal.ThemeShare.CS.xaml,,
-3c5496824f63b70df63b4a94e731369a,Portal\Controls\ThemeShare\Portal.ThemeShare.CS.xaml,Portal.ThemeShare.ThemePublish.Size,Kontroluje se velikost komprimovaného tématu..
 e5668b8d5138a5f83c3db07cd2e40c15,Portal\Controls\ThemeShare\Portal.ThemeShare.CS.xaml,,
-e21dc7a594d5753cd9b108c5ca9bd860,Portal\Controls\ThemeShare\Portal.ThemeShare.CS.xaml,Portal.ThemeShare.ThemePublish.Size.Exceeded,"Komprimované téma nelze nahrát, protože přesahuje {0} MB."
+3c5496824f63b70df63b4a94e731369a,Portal\Controls\ThemeShare\Portal.ThemeShare.CS.xaml,Portal.ThemeShare.ThemePublish.Size,Kontroluje se velikost komprimovaného tématu..
 01bd4fbcd7d370f39bff2e58d899a14c,Portal\Controls\ThemeShare\Portal.ThemeShare.CS.xaml,,
+e21dc7a594d5753cd9b108c5ca9bd860,Portal\Controls\ThemeShare\Portal.ThemeShare.CS.xaml,Portal.ThemeShare.ThemePublish.Size.Exceeded,"Komprimované téma nelze nahrát, protože přesahuje {0} MB."
+d8826d1c0320ebfb75c42d40429fced8,Portal\Controls\ThemeShare\Portal.ThemeShare.CS.xaml,,
 549ca6c64a03cefb8c453f877404640a,Portal\Controls\ThemeShare\Portal.ThemeShare.CS.xaml,Portal.ThemeShare.ThemePublish.Check,Před nahráním je kontrolována integrita komprimovaného motivu..
 c5a2ceadbb468a5b075acb2d1c4da105,Portal\Controls\ThemeShare\Portal.ThemeShare.CS.xaml,Portal.ThemeShare.ThemePublish.Check.Error,Při kontrole integrity komprimovaného motivu došlo k chybě.
-d8826d1c0320ebfb75c42d40429fced8,Portal\Controls\ThemeShare\Portal.ThemeShare.CS.xaml,,
-4c1067c9d9aa674ccebf28911ce37bda,Portal\Controls\ThemeShare\Portal.ThemeShare.CS.xaml,Portal.ThemeShare.ThemePublish.Upload,Komprimované téma se připravuje k nahrání..
 276a7387da1ba6082542f2943d52956a,Portal\Controls\ThemeShare\Portal.ThemeShare.CS.xaml,,
+4c1067c9d9aa674ccebf28911ce37bda,Portal\Controls\ThemeShare\Portal.ThemeShare.CS.xaml,Portal.ThemeShare.ThemePublish.Upload,Komprimované téma se připravuje k nahrání..
+efb2a7ddc5be0e00ea0934c988385dc1,Portal\Controls\ThemeShare\Portal.ThemeShare.CS.xaml,,
 832f9d670d9c1c71cafb4f16c6f33cef,Portal\Controls\ThemeShare\Portal.ThemeShare.CS.xaml,Portal.ThemeShare.ThemePublish.Upload.Start,Komprimované téma se nahrává..
 af73fe1ff22e323830f9ba5de94d65b6,Portal\Controls\ThemeShare\Portal.ThemeShare.CS.xaml,Portal.ThemeShare.ThemePublish.Upload.Error,Při nahrávání komprimovaného tématu došlo k neznámé chybě.
 3c4e5e5d9a4fba891abce512a46998e1,Portal\Controls\ThemeShare\Portal.ThemeShare.CS.xaml,Portal.ThemeShare.ThemePublish.Upload.Errored,Při nahrávání komprimovaného tématu došlo k neočekávané chybě: {0}.
 98bfb88ba757192a45871914f44b76c8,Portal\Controls\ThemeShare\Portal.ThemeShare.CS.xaml,Portal.ThemeShare.ThemePublish.Upload.Succeded,Komprimované téma bylo úspěšně nahráno a po ověření bude publikováno v obchodě.
-efb2a7ddc5be0e00ea0934c988385dc1,Portal\Controls\ThemeShare\Portal.ThemeShare.CS.xaml,,
+ae764e6cfeb2e0591b27f818ceb1fd95,Portal\Controls\ThemeShare\Portal.ThemeShare.CS.xaml,,
 2eec9032ca3ddffd85ef0e4fc8722b6d,Portal\Controls\ThemeShare\Portal.ThemeShare.CS.xaml,Portal.ThemeShare.SaveDialogFilter,ZIP soubory (*.zip)|*.zip|Všechny soubory (*.*)|*.*
 70ce6be10a91772432c45c1606069496,Portal\Controls\ThemeShare\Portal.ThemeShare.CS.xaml,Portal.ThemeShare.SaveDialogTitle,Uložit soubor se šablonou
-ae764e6cfeb2e0591b27f818ceb1fd95,Portal\Controls\ThemeShare\Portal.ThemeShare.CS.xaml,,
+a01592c837f5dde7eb6cecc2c0896965,Portal\Controls\ThemeShare\Portal.ThemeShare.CS.xaml,,
 a8510c25f0e065985c536aa686fd28ab,Portal\Controls\ThemeShare\Portal.ThemeShare.CS.xaml,Portal.ThemeShare.ThemePublish.Already.Close,Rozumím
 f9134596e02f5ee6a712c5cec43fe81b,Portal\Controls\ThemeShare\Portal.ThemeShare.CS.xaml,Portal.ThemeShare.ThemePublish.Already.Title,Upozornění na Publikování
 8f60d7852e340b37afba76c472a12f0c,Portal\Controls\ThemeShare\Portal.ThemeShare.CS.xaml,Portal.ThemeShare.ThemePublish.Already.Message,Vybrané téma je již nainstalováno z obchodu.
 711d72719f52b77421f7c4a8408b91d8,Portal\Controls\TrayIcon\Portal.TrayIcon.CS.xaml,Portal.TrayIcon.Title,Systémová Lišta
 31c115bd25b18b506825e95ac8a30e87,Portal\Controls\TrayIcon\Portal.TrayIcon.CS.xaml,Portal.TrayIcon.Close,Zavřít
-9a5768d269a350d043bd5d5a7bcb94e0,Portal\Controls\TrayIcon\Portal.TrayIcon.CS.xaml,,
+4432b9f03272b754a65207c0f2686f48,Portal\Controls\TrayIcon\Portal.TrayIcon.CS.xaml,,
 11901e04cafe9fe58215473ce4212b13,Portal\Controls\TrayIcon\Portal.TrayIcon.CS.xaml,Portal.TrayIcon.Message,Sucrose byla minimalizována do systémové lišty. Pokračujte kliknutím pravým tlačítkem myši na ikonu Sucrose.
 44427549ab82d0266cdb2d4948106249,Portal\Controls\WallpaperCycling\Portal.WallpaperCycling.CS.xaml,Portal.WallpaperCycling.Title,Cyklování Pozadí
 e7ae884f2ffa3cc25ec45c40538fbda2,Portal\Controls\WallpaperCycling\Portal.WallpaperCycling.CS.xaml,Portal.WallpaperCycling.Close,Zavřít
-05a6feb758c5f4550144d61b2907ae9f,Portal\Controls\WallpaperCycling\Portal.WallpaperCycling.CS.xaml,,
+ae2d5d15e5d328c879f0b5cc62372037,Portal\Controls\WallpaperCycling\Portal.WallpaperCycling.CS.xaml,,
 b0b21b9c835aba780d05f0d5fe06cc20,Portal\Controls\WallpaperCycling\Portal.WallpaperCycling.CS.xaml,Portal.WallpaperCycling.Cycling,Automatické Cyklování Pozadí
 91c058c6d6ad5522a085491a9adb077c,Portal\Controls\WallpaperCycling\Portal.WallpaperCycling.CS.xaml,Portal.WallpaperCycling.Cycling.Description,Zda se tapeta mění automaticky nebo ne.
-ae2d5d15e5d328c879f0b5cc62372037,Portal\Controls\WallpaperCycling\Portal.WallpaperCycling.CS.xaml,,
+5344e0bfe30a0521230076b849efcc47,Portal\Controls\WallpaperCycling\Portal.WallpaperCycling.CS.xaml,,
 2079cff17480850e9bf9b7f6fdad5e36,Portal\Controls\WallpaperCycling\Portal.WallpaperCycling.CS.xaml,Portal.WallpaperCycling.Time,Časový Interval
 175d2175a39af1fb340505922926b473,Portal\Controls\WallpaperCycling\Portal.WallpaperCycling.CS.xaml,Portal.WallpaperCycling.Time.Description,"Časový interval, po kterém se tapeta změní."
-5344e0bfe30a0521230076b849efcc47,Portal\Controls\WallpaperCycling\Portal.WallpaperCycling.CS.xaml,,
+6b9f89c1b7be2091cb4d0022aaea31e3,Portal\Controls\WallpaperCycling\Portal.WallpaperCycling.CS.xaml,,
 f81cd3d5bda6084aa15816dfc15ecba2,Portal\Controls\WallpaperCycling\Portal.WallpaperCycling.CS.xaml,Portal.WallpaperCycling.Transition,Režim Přechodu
 52ccc058a882bf88568fbbb2f581c946,Portal\Controls\WallpaperCycling\Portal.WallpaperCycling.CS.xaml,Portal.WallpaperCycling.Transition.Description,Nastavuje režim přechodu mezi tapetami.
-6b9f89c1b7be2091cb4d0022aaea31e3,Portal\Controls\WallpaperCycling\Portal.WallpaperCycling.CS.xaml,,
+de34bd13ddc38a79fb7d29d763205d0f,Portal\Controls\WallpaperCycling\Portal.WallpaperCycling.CS.xaml,,
 6e75e0990b2e485057bf10a7775de8aa,Portal\Controls\WallpaperCycling\Portal.WallpaperCycling.CS.xaml,Portal.WallpaperCycling.List,Seznam Cyklu
 f7c012f61d595ca323a24e2cf25fc1c7,Portal\Controls\WallpaperCycling\Portal.WallpaperCycling.CS.xaml,Portal.WallpaperCycling.List.Description,Obnoví seznam cyklu na výchozí hodnoty.
-de34bd13ddc38a79fb7d29d763205d0f,Portal\Controls\WallpaperCycling\Portal.WallpaperCycling.CS.xaml,,
+e872eb4b16d51898e132617ecc864c4a,Portal\Controls\WallpaperCycling\Portal.WallpaperCycling.CS.xaml,,
 c99ed606a3391a009e1f0e08ea442e0e,Portal\Controls\WallpaperCycling\Portal.WallpaperCycling.CS.xaml,Portal.WallpaperCycling.List.Reset,Obnovit
 af64bb2d938d24f1447d35604de13413,Portal\LibraryPage\EmptyLibraryPage\Portal.EmptyLibraryPage.CS.xaml,Portal.EmptyLibraryPage.Title,EmptyLibraryPage
-c96afb633a253f96a6c15a6965723790,Portal\LibraryPage\EmptyLibraryPage\Portal.EmptyLibraryPage.CS.xaml,,
+ed8e868b07fea7b54faa6eefddd21d30,Portal\LibraryPage\EmptyLibraryPage\Portal.EmptyLibraryPage.CS.xaml,,
 a7d1dca6626dcdc5d3d5d8ba5cdd5728,Portal\LibraryPage\EmptyLibraryPage\Portal.EmptyLibraryPage.CS.xaml,Portal.EmptyLibraryPage.TitleText,Vaše knihovna byla vytvořena pavučinami
 30473bf2b6a1ba1547f026ddd0a320a5,Portal\LibraryPage\EmptyLibraryPage\Portal.EmptyLibraryPage.CS.xaml,Portal.EmptyLibraryPage.DescriptionText,Místo tapet se v knihovně objevil nádherný umělecký kousek pavučin.
 2e1f793c2936093f5d07cfe070362f9f,Portal\LibraryPage\FullLibraryPage\Portal.FullLibraryPage.CS.xaml,Portal.FullLibraryPage.Title,FullLibraryPage
 e9377894836966553eb7d5651c38084c,Portal\LibraryPage\SearchLibraryPage\Portal.SearchLibraryPage.CS.xaml,Portal.SearchLibraryPage.Title,SearchLibraryPage
-86d5d7d747bd108571f7a77e4cd5dc4f,Portal\LibraryPage\SearchLibraryPage\Portal.SearchLibraryPage.CS.xaml,,
+817cecfabdaffe380e4f02c4969874bf,Portal\LibraryPage\SearchLibraryPage\Portal.SearchLibraryPage.CS.xaml,,
 e97ac05e044477106c2ef96da0b54698,Portal\LibraryPage\SearchLibraryPage\Portal.SearchLibraryPage.CS.xaml,Portal.SearchLibraryPage.TitleText,Vaše knihovna je zakletá pavoučí sítí
 4cb462ddd54b332f853270b3219a96c0,Portal\LibraryPage\SearchLibraryPage\Portal.SearchLibraryPage.CS.xaml,Portal.SearchLibraryPage.DescriptionText,Vaše jemné vkusy ve výběru tapet zanechaly knihovnu bez prostoru.
 5be9e2cef3fb8e9a7157bab1dd9417cc,Portal\SettingPage\DonateSettingPage\Portal.DonateSettingPage.CS.xaml,Portal.DonateSettingPage.Title,DonateSettingPage
-3e7bf1d7c89bbf045e9e940c27dc4a7a,Portal\SettingPage\DonateSettingPage\Portal.DonateSettingPage.CS.xaml,,
+b044b937eba92c08d40fa4b7b2dd2672,Portal\SettingPage\DonateSettingPage\Portal.DonateSettingPage.CS.xaml,,
 5b2e15520996885c7d3f4c42ec31f717,Portal\SettingPage\DonateSettingPage\Portal.DonateSettingPage.CS.xaml,Portal.DonateSettingPage.DonateMenu,Nastavení Dárcovského Menu
 bb2b317bc2af000a4940d4527ac5d8a0,Portal\SettingPage\DonateSettingPage\Portal.DonateSettingPage.CS.xaml,Portal.DonateSettingPage.DonateMenu.Description,Viditelnost dárcovského menu v rozhraní.
-b044b937eba92c08d40fa4b7b2dd2672,Portal\SettingPage\DonateSettingPage\Portal.DonateSettingPage.CS.xaml,,
+035a705fbfe21636928a4d0c1edecdff,Portal\SettingPage\DonateSettingPage\Portal.DonateSettingPage.CS.xaml,,
 acf88ad6d99bd49f695dfe6456b8de1c,Portal\SettingPage\DonateSettingPage\Portal.DonateSettingPage.CS.xaml,Portal.DonateSettingPage.DonateMenu.DonateVisible.Show,Zobrazit
 af8305d147032267bde92676b27bd686,Portal\SettingPage\DonateSettingPage\Portal.DonateSettingPage.CS.xaml,Portal.DonateSettingPage.DonateMenu.DonateVisible.Hide,Skrýt
-035a705fbfe21636928a4d0c1edecdff,Portal\SettingPage\DonateSettingPage\Portal.DonateSettingPage.CS.xaml,,
+47e7dd0ed022d217e8d018ca7466a69a,Portal\SettingPage\DonateSettingPage\Portal.DonateSettingPage.CS.xaml,,
 14660d3236b52e7819d2b758e1b4cfd8,Portal\SettingPage\DonateSettingPage\Portal.DonateSettingPage.CS.xaml,Portal.DonateSettingPage.Advertising,Podpora Reklamami
 2dc888cedd9ab06f245bb0a8596d2489,Portal\SettingPage\DonateSettingPage\Portal.DonateSettingPage.CS.xaml,Portal.DonateSettingPage.Advertising.Description,"Přispějte k rozvoji aplikace tím, že budete sledovat reklamy."
-47e7dd0ed022d217e8d018ca7466a69a,Portal\SettingPage\DonateSettingPage\Portal.DonateSettingPage.CS.xaml,,
+f0fa2dcb303d3aa3243c396fa63d6a13,Portal\SettingPage\DonateSettingPage\Portal.DonateSettingPage.CS.xaml,,
 727c8640a92167cd1fd35b0111df82b9,Portal\SettingPage\DonateSettingPage\Portal.DonateSettingPage.CS.xaml,Portal.DonateSettingPage.Advertising.AdvertisingDelay,Doba zpoždění reklam (minuty):
 271b029980be102ed4967f7a17aa0fdb,Portal\SettingPage\DonateSettingPage\Portal.DonateSettingPage.CS.xaml,Portal.DonateSettingPage.Advertising.AdvertisingHint,"Tip: Reklamy budou zobrazovány tak, aby vás co nejméně rušily."
 d308cb19fecc8045f5e814314de66155,Portal\SettingPage\GeneralSettingPage\Portal.GeneralSettingPage.CS.xaml,Portal.GeneralSettingPage.Title,GeneralSettingPage
-be32ee6da4c385b82399d08356a89d33,Portal\SettingPage\GeneralSettingPage\Portal.GeneralSettingPage.CS.xaml,,
+91faa56302c724841f3343c128a8a0d5,Portal\SettingPage\GeneralSettingPage\Portal.GeneralSettingPage.CS.xaml,,
 23e73e3f68a50314dfe831d2ff432240,Portal\SettingPage\GeneralSettingPage\Portal.GeneralSettingPage.CS.xaml,Portal.GeneralSettingPage.ApplicationLanguage,Jazyk Aplikace
 59e25f52e7da078f0413d66075dd1dba,Portal\SettingPage\GeneralSettingPage\Portal.GeneralSettingPage.CS.xaml,Portal.GeneralSettingPage.ApplicationLanguage.Description,"Vyberte jazyk, ve kterém chcete zobrazit aplikaci."
-91faa56302c724841f3343c128a8a0d5,Portal\SettingPage\GeneralSettingPage\Portal.GeneralSettingPage.CS.xaml,,
+fbfb5bf5d172b91df772edde90a48439,Portal\SettingPage\GeneralSettingPage\Portal.GeneralSettingPage.CS.xaml,,
 28a51faf1422ea244e397b0bad72598a,Portal\SettingPage\GeneralSettingPage\Portal.GeneralSettingPage.CS.xaml,Portal.GeneralSettingPage.ApplicationStartup,Spouštění Aplikace
 3c46fb622e3a482706b0f4fd888b674a,Portal\SettingPage\GeneralSettingPage\Portal.GeneralSettingPage.CS.xaml,Portal.GeneralSettingPage.ApplicationStartup.Description,"Sucrose musí běžet na pozadí, aby mohl hrát tapety na ploše."
-fbfb5bf5d172b91df772edde90a48439,Portal\SettingPage\GeneralSettingPage\Portal.GeneralSettingPage.CS.xaml,,
+4afaab15e130ee6c38dd37da3afe83ae,Portal\SettingPage\GeneralSettingPage\Portal.GeneralSettingPage.CS.xaml,,
 0d6093ff7091322b543834ebee7d32fa,Portal\SettingPage\GeneralSettingPage\Portal.GeneralSettingPage.CS.xaml,Portal.GeneralSettingPage.ApplicationStartup.Startup.None,Žádné
 c791b13db74da7072ff0f544507cba68,Portal\SettingPage\GeneralSettingPage\Portal.GeneralSettingPage.CS.xaml,Portal.GeneralSettingPage.ApplicationStartup.Startup.Normal,Normální
 627a939563eeb39528291bd0d69742f5,Portal\SettingPage\GeneralSettingPage\Portal.GeneralSettingPage.CS.xaml,Portal.GeneralSettingPage.ApplicationStartup.Startup.Priority,Priorita
 492b7868b0ec5172e1df0648bd4d884d,Portal\SettingPage\GeneralSettingPage\Portal.GeneralSettingPage.CS.xaml,Portal.GeneralSettingPage.ApplicationStartup.Startup.Scheduler,Plánovač
-4afaab15e130ee6c38dd37da3afe83ae,Portal\SettingPage\GeneralSettingPage\Portal.GeneralSettingPage.CS.xaml,,
+0749829e8d6ddff9f4f924f3863bfe9c,Portal\SettingPage\GeneralSettingPage\Portal.GeneralSettingPage.CS.xaml,,
 49379deacf873d44d7de82de276bfa67,Portal\SettingPage\GeneralSettingPage\Portal.GeneralSettingPage.CS.xaml,Portal.GeneralSettingPage.ApplicationStartup.Warning.Close,Rozumím
 b80ace8d5364ff2f48f1fea3a6987605,Portal\SettingPage\GeneralSettingPage\Portal.GeneralSettingPage.CS.xaml,Portal.GeneralSettingPage.ApplicationStartup.Warning.Title,Varování Administrátora
 dbb0603216335bc30cc04e174ebe6742,Portal\SettingPage\GeneralSettingPage\Portal.GeneralSettingPage.CS.xaml,Portal.GeneralSettingPage.ApplicationStartup.Warning.Message,Pro změnu stavu spuštění při startu musíte mít administrátorská práva.
-0749829e8d6ddff9f4f924f3863bfe9c,Portal\SettingPage\GeneralSettingPage\Portal.GeneralSettingPage.CS.xaml,,
+d342cce61fb53189a3c57b53e262592b,Portal\SettingPage\GeneralSettingPage\Portal.GeneralSettingPage.CS.xaml,,
 4f1b4cc1cae6a1ee7987f4e39749ebba,Portal\SettingPage\GeneralSettingPage\Portal.GeneralSettingPage.CS.xaml,Portal.GeneralSettingPage.NotifyIcon,Ikona V Oznámení
 c7666c3bca61d62fed9ac2a33bb02262,Portal\SettingPage\GeneralSettingPage\Portal.GeneralSettingPage.CS.xaml,Portal.GeneralSettingPage.NotifyIcon.Description,Viditelnost ikony v systémovém oznamovacím prostoru. Sucrose bude nadále běžet v pozadí.
-d342cce61fb53189a3c57b53e262592b,Portal\SettingPage\GeneralSettingPage\Portal.GeneralSettingPage.CS.xaml,,
+6e4bfe909296bc6ddcbb80f215a75f07,Portal\SettingPage\GeneralSettingPage\Portal.GeneralSettingPage.CS.xaml,,
 5e4e9dc517f2b0b7a64af1de75d6de77,Portal\SettingPage\GeneralSettingPage\Portal.GeneralSettingPage.CS.xaml,Portal.GeneralSettingPage.NotifyIcon.Notify.Show,Zobrazit
 c54ce86a277cc09a1d1997932f68940f,Portal\SettingPage\GeneralSettingPage\Portal.GeneralSettingPage.CS.xaml,Portal.GeneralSettingPage.NotifyIcon.Notify.Hide,Skrýt
-6e4bfe909296bc6ddcbb80f215a75f07,Portal\SettingPage\GeneralSettingPage\Portal.GeneralSettingPage.CS.xaml,,
-4fe8f257bcbda04d2580d2766c5cafca,Portal\SettingPage\GeneralSettingPage\Portal.GeneralSettingPage.CS.xaml,Portal.GeneralSettingPage.NotifyIcon.NotifyExit,Při uzavření ikony v oznámení zavřít všechny instance Sucrose
 a9249bb4431d6438dfb15e2cb6b820cf,Portal\SettingPage\GeneralSettingPage\Portal.GeneralSettingPage.CS.xaml,,
+4fe8f257bcbda04d2580d2766c5cafca,Portal\SettingPage\GeneralSettingPage\Portal.GeneralSettingPage.CS.xaml,Portal.GeneralSettingPage.NotifyIcon.NotifyExit,Při uzavření ikony v oznámení zavřít všechny instance Sucrose
+03bad4a6e5d6be58c4cb6b65e0877cb5,Portal\SettingPage\GeneralSettingPage\Portal.GeneralSettingPage.CS.xaml,,
 32ca4a0ef2aa159e836463c545ae807e,Portal\SettingPage\GeneralSettingPage\Portal.GeneralSettingPage.CS.xaml,Portal.GeneralSettingPage.WindowBackdrop,Pozadí Okna
 b739f7ff2227b77e1326f7508bf74026,Portal\SettingPage\GeneralSettingPage\Portal.GeneralSettingPage.CS.xaml,Portal.GeneralSettingPage.WindowBackdrop.Description,Používá se k přizpůsobení pozadí okna aplikace.
-03bad4a6e5d6be58c4cb6b65e0877cb5,Portal\SettingPage\GeneralSettingPage\Portal.GeneralSettingPage.CS.xaml,,
+954a64c99d74a0babfee09b7e0eaf173,Portal\SettingPage\GeneralSettingPage\Portal.GeneralSettingPage.CS.xaml,,
 0be70f4fb2ebb942f382e1142dd65e89,Portal\SettingPage\GeneralSettingPage\Portal.GeneralSettingPage.CS.xaml,Portal.GeneralSettingPage.WindowBackdrop.BackgroundImage.Title,Vybrat Obrázek Pozadí
 ca0507fef5e0e465c06b537b5c3d0b82,Portal\SettingPage\GeneralSettingPage\Portal.GeneralSettingPage.CS.xaml,Portal.GeneralSettingPage.WindowBackdrop.BackgroundImage.Select,Vyberte obrázek pozadí
 82d18adca1618fb8ab1d4f7a84d2ae11,Portal\SettingPage\GeneralSettingPage\Portal.GeneralSettingPage.CS.xaml,Portal.GeneralSettingPage.WindowBackdrop.BackgroundImage.Filter,Obrázky (*.png;*.jpg;*.jpeg;*.tiff;*.webp;*.gif)|*.png;*.jpg;*.jpeg;*.tiff;*.webp;*.gif
 d787aa9bb4a2275984c532f977106189,Portal\SettingPage\GeneralSettingPage\Portal.GeneralSettingPage.CS.xaml,Portal.GeneralSettingPage.WindowBackdrop.BackgroundImage.Access,Bohužel nemáte oprávnění k přístupu k vybranému souboru obrázku
-954a64c99d74a0babfee09b7e0eaf173,Portal\SettingPage\GeneralSettingPage\Portal.GeneralSettingPage.CS.xaml,,
-e1f677039fda8b41f5d0df2a7149e36f,Portal\SettingPage\GeneralSettingPage\Portal.GeneralSettingPage.CS.xaml,Portal.GeneralSettingPage.WindowBackdrop.BackdropStretch,Roztáhnout Pozadí:
 d9ee02b4c6d87bc097bc37a6ded220ab,Portal\SettingPage\GeneralSettingPage\Portal.GeneralSettingPage.CS.xaml,,
-e2ff0f265ff8e881e725e8f0af60d7f3,Portal\SettingPage\GeneralSettingPage\Portal.GeneralSettingPage.CS.xaml,Portal.GeneralSettingPage.WindowBackdrop.BackdropOpacity,Průhlednost Pozadí (%):
+e1f677039fda8b41f5d0df2a7149e36f,Portal\SettingPage\GeneralSettingPage\Portal.GeneralSettingPage.CS.xaml,Portal.GeneralSettingPage.WindowBackdrop.BackdropStretch,Roztáhnout Pozadí:
 306a05c974300f4c4d27cc48280bb726,Portal\SettingPage\GeneralSettingPage\Portal.GeneralSettingPage.CS.xaml,,
+e2ff0f265ff8e881e725e8f0af60d7f3,Portal\SettingPage\GeneralSettingPage\Portal.GeneralSettingPage.CS.xaml,Portal.GeneralSettingPage.WindowBackdrop.BackdropOpacity,Průhlednost Pozadí (%):
+f0609890794fbd82f7b255762cefa320,Portal\SettingPage\GeneralSettingPage\Portal.GeneralSettingPage.CS.xaml,,
 aa81822f530a24570b13fb4f840f09fa,Portal\SettingPage\GeneralSettingPage\Portal.GeneralSettingPage.CS.xaml,Portal.GeneralSettingPage.EngineVolume,Hlasitost Zvuku
 4659e1ffd72cc325fe3b1fc1b57aa8fa,Portal\SettingPage\GeneralSettingPage\Portal.GeneralSettingPage.CS.xaml,Portal.GeneralSettingPage.EngineVolume.Description,Hlasitost zvuku pro všechny tapety na ploše.
-f0609890794fbd82f7b255762cefa320,Portal\SettingPage\GeneralSettingPage\Portal.GeneralSettingPage.CS.xaml,,
+ffb02d16e35153da427a4b62da74f4b7,Portal\SettingPage\GeneralSettingPage\Portal.GeneralSettingPage.CS.xaml,,
 b85228fd96f25010cddca0e9982c185e,Portal\SettingPage\GeneralSettingPage\Portal.GeneralSettingPage.CS.xaml,Portal.GeneralSettingPage.EngineVolume.VolumeDesktop,Přehrávat zvuk pouze při zaměření na plochu
 8d7cd9a6106e4c7c773e6d32760b77f5,Portal\SettingPage\GeneralSettingPage\Portal.GeneralSettingPage.CS.xaml,Portal.GeneralSettingPage.EngineVolume.VolumeActive,"Přehrávat zvuk pouze, když jsou všechny aplikace potichu"
 3d41dab72d6f47a2480c07613c9a48c5,Portal\SettingPage\GeneralSettingPage\Portal.GeneralSettingPage.CS.xaml,Portal.GeneralSettingPage.EngineVolume.VolumeSensitivity,Citlivost (Sekundy):
-ffb02d16e35153da427a4b62da74f4b7,Portal\SettingPage\GeneralSettingPage\Portal.GeneralSettingPage.CS.xaml,,
+77dadd08bfdf4511e092737e01e372e6,Portal\SettingPage\GeneralSettingPage\Portal.GeneralSettingPage.CS.xaml,,
 d6a2a8c8bc383eeb62dd385bca2cbf13,Portal\SettingPage\GeneralSettingPage\Portal.GeneralSettingPage.CS.xaml,Portal.GeneralSettingPage.PrivateLibrary,Místo Knihovny
 dece197e4d461de0c3d237b8615ca707,Portal\SettingPage\GeneralSettingPage\Portal.GeneralSettingPage.CS.xaml,Portal.GeneralSettingPage.PrivateLibrary.Description,"Umístění, kde budou uloženy témata přidané do vaší knihovny."
-77dadd08bfdf4511e092737e01e372e6,Portal\SettingPage\GeneralSettingPage\Portal.GeneralSettingPage.CS.xaml,,
+8dd82db558547099fcdc6576980b5a2a,Portal\SettingPage\GeneralSettingPage\Portal.GeneralSettingPage.CS.xaml,,
 e5650dd96adafee4c50f5e756ee584ac,Portal\SettingPage\GeneralSettingPage\Portal.GeneralSettingPage.CS.xaml,Portal.GeneralSettingPage.PrivateLibrary.LibraryLocation.Access,Bohužel nemáte přístup k nové poloze
 d195e041356e2826aed34bade9255495,Portal\SettingPage\GeneralSettingPage\Portal.GeneralSettingPage.CS.xaml,Portal.GeneralSettingPage.PrivateLibrary.LibraryLocation.Empty,"Vyberte prázdný adresář, prosím"
 0991f16e5aeefb5c48f43a8e4e905c79,Portal\SettingPage\GeneralSettingPage\Portal.GeneralSettingPage.CS.xaml,Portal.GeneralSettingPage.PrivateLibrary.LibraryLocation.Move,"Počkejte prosím, dokud se adresář přesune"
-8dd82db558547099fcdc6576980b5a2a,Portal\SettingPage\GeneralSettingPage\Portal.GeneralSettingPage.CS.xaml,,
+5331c3a5cdfcc9547fd314dc72a72ad0,Portal\SettingPage\GeneralSettingPage\Portal.GeneralSettingPage.CS.xaml,,
 0018647fbb84eff962ea274228304011,Portal\SettingPage\GeneralSettingPage\Portal.GeneralSettingPage.CS.xaml,Portal.GeneralSettingPage.PrivateLibrary.LibraryMove,Přesunout vaši stávající knihovnu na nové místo
 86a348dbbfe405290bb4bd47cc58f48d,Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.CS.xaml,Portal.OtherSettingPage.Title,OtherSettingPage
-149b0c4c288a0327d8c8ffdd39f8f9bc,Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.CS.xaml,,
+99d9af8908c6271e38877fe0af4ceb80,Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.CS.xaml,,
 968cc4057c3fd9c176f79f507dc39115,Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.CS.xaml,Portal.OtherSettingPage.ReportData,Automatické Hlášení Chyb
 37a66f526dda8dcf11ca00f6ecb2f399,Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.CS.xaml,Portal.OtherSettingPage.ReportData.Description,"Sucrose přijme opatření k rychlému hlášení, když narazí na chybu."
-99d9af8908c6271e38877fe0af4ceb80,Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.CS.xaml,,
+79cbb550fa10c7b0c72791088768bca6,Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.CS.xaml,,
 4ec5ff0c13bdd9f73dd5648f47d9e35e,Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.CS.xaml,Portal.OtherSettingPage.StatisticsData,Sdílet Statistiky Použití
 98b16d444d5fd826beffa0df5ed554e6,Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.CS.xaml,Portal.OtherSettingPage.StatisticsData.Description,Sucrose umožňuje sbírání statistik vašeho používání k přispění k rozvoji aplikace.
-79cbb550fa10c7b0c72791088768bca6,Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.CS.xaml,,
+5e07271c8f22d9dea5b0d4e772eea906,Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.CS.xaml,,
 438a533fd217f099b1debe47297c23eb,Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.CS.xaml,Portal.OtherSettingPage.DiscordHook,Discord
 7fdbb593e4cb2451e85df1b1777f782a,Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.CS.xaml,Portal.OtherSettingPage.DiscordHook.Description,Sucrose umožňuje komunikaci s Discordem.
-5e07271c8f22d9dea5b0d4e772eea906,Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.CS.xaml,,
+9238621dd022ea5eb2e66c622db2462c,Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.CS.xaml,,
 245bac8d73e7fc3652a15c192b78c931,Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.CS.xaml,Portal.OtherSettingPage.DiscordHook.DiscordRefresh,Obnovit spojení:
 1f3dab37fdcd898425b72205ea370d49,Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.CS.xaml,Portal.OtherSettingPage.DiscordHook.DiscordDelay,Doba obnovení (v sekundách):
-9238621dd022ea5eb2e66c622db2462c,Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.CS.xaml,,
+759b63a0d1eb65f6e3379548c4c17494,Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.CS.xaml,,
 19e1245152b26ae22021b53bf91fb359,Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.CS.xaml,Portal.OtherSettingPage.Agent,Internetová Zástupkyně
 ec41c98f92f4aae352c1682c49556afc,Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.CS.xaml,Portal.OtherSettingPage.Agent.Description,"Váš identifikátor zástupce v situacích, kdy je vyžadováno připojení k internetu."
-759b63a0d1eb65f6e3379548c4c17494,Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.CS.xaml,,
+80c3504d0804e60cce64b9d2096a0184,Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.CS.xaml,,
 8c3246da976c91621d73c34403323f52,Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.CS.xaml,Portal.OtherSettingPage.Key,Osobní Přístupový Klíč
 f4c717e5d041425ba08ac977d8da313a,Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.CS.xaml,Portal.OtherSettingPage.Key.Description,Nutné pro bezproblémové použití obchodu a aktualizací aplikace.
-80c3504d0804e60cce64b9d2096a0184,Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.CS.xaml,,
-ddffca4a08868e0e8eb001c4ff77b26c,Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.CS.xaml,Portal.OtherSettingPage.Key.HintKey,"Pokud nevíte, jak získat osobní přístupový klíč, klikněte sem."
 2ab50a561cf88f71e3cd144b577806b0,Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.CS.xaml,,
+ddffca4a08868e0e8eb001c4ff77b26c,Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.CS.xaml,Portal.OtherSettingPage.Key.HintKey,"Pokud nevíte, jak získat osobní přístupový klíč, klikněte sem."
+5a2edca678cf9eaeaba19038d32e0427,Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.CS.xaml,,
 8ec685daf154647a4fb96f54447c5017,Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.CS.xaml,Portal.OtherSettingPage.Key.PersonalKey,Prosím zadejte osobní přístupový klíč
 53d2e296ccdaa3197f6005edbfb2dc0c,Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.CS.xaml,Portal.OtherSettingPage.Key.PersonalKey.Valid,Prosím zadejte platný osobní přístupový klíč
-5a2edca678cf9eaeaba19038d32e0427,Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.CS.xaml,,
+d073fa32bedb3ea96cb4a8f52e567a98,Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.CS.xaml,,
 2933fbbc21fe9cace0bcc5e13aa98c20,Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.CS.xaml,Portal.OtherSettingPage.Server,Aktualizační Server
 c7b6fc4ba3a323f30cb7274c7f3ddf85,Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.CS.xaml,Portal.OtherSettingPage.Server.Description,"Server, přes který budou prováděny aktualizace."
-d073fa32bedb3ea96cb4a8f52e567a98,Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.CS.xaml,,
-57aaa33365d69fafe9a3cce303382b8f,Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.CS.xaml,Portal.OtherSettingPage.Server.ServerHint,"Poznámka: Pokud je jako server vybrán {0}, je nutné zadat {2}, abyste se vyhnuli omezením požadavků. Jinak můžete mít problémy s aktualizací. Pokud je vybrán {1}, zažijete hladší aktualizační proces."
 9e80a7b8612db16d3deee5d2b9dd03e5,Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.CS.xaml,,
+57aaa33365d69fafe9a3cce303382b8f,Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.CS.xaml,Portal.OtherSettingPage.Server.ServerHint,"Poznámka: Pokud je jako server vybrán {0}, je nutné zadat {2}, abyste se vyhnuli omezením požadavků. Jinak můžete mít problémy s aktualizací. Pokud je vybrán {1}, zažijete hladší aktualizační proces."
+5d8a8c5ed08072f9d3aabec5f7d4400b,Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.CS.xaml,,
 8b2e6ae2ba4163633344856724f3dd54,Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.CS.xaml,Portal.OtherSettingPage.Module,Modul Aktualizace
 802cf227176aa7184c4f99933055b655,Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.CS.xaml,Portal.OtherSettingPage.Module.Description,Který modul bude použit pro aktualizaci.
-5d8a8c5ed08072f9d3aabec5f7d4400b,Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.CS.xaml,,
+7f1f76ed51d58fc1a260d4cc017c5a63,Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.CS.xaml,,
 a26f5c2a2215054defa27c117839c6d2,Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.CS.xaml,Portal.OtherSettingPage.Channel,Kanál Aktualizace
 dbefa849a9aca7419ff857943550b769,Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.CS.xaml,Portal.OtherSettingPage.Channel.Description,"Kanál, kterým se provádí aktualizace."
-7f1f76ed51d58fc1a260d4cc017c5a63,Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.CS.xaml,,
+e3f6dbaa893cb32d067bc24e7305e998,Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.CS.xaml,,
 b6e5dd3373d32fbf3226446bfa0fa3cf,Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.CS.xaml,Portal.OtherSettingPage.Update,Metoda Aktualizace
 20acb0b21b6c2655262aa4aacbdc83b8,Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.CS.xaml,Portal.OtherSettingPage.Update.Description,"Způsob, jakým se provádí aktualizace."
-e3f6dbaa893cb32d067bc24e7305e998,Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.CS.xaml,,
-ba7f6459c9c62124d05412fde7caf47e,Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.CS.xaml,Portal.OtherSettingPage.Update.Limit,Limit Šířky Pásma Stahování:
 a27b00030a2388aa0b62ecefbeef74b9,Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.CS.xaml,,
+ba7f6459c9c62124d05412fde7caf47e,Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.CS.xaml,Portal.OtherSettingPage.Update.Limit,Limit Šířky Pásma Stahování:
+b2dc157ad04da5f729f78585b78139f8,Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.CS.xaml,,
 1950039f277e1ba4ced0c3934230f738,Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.CS.xaml,Portal.OtherSettingPage.Auto,Automatická Aktualizace
 a8993391237a54f150b1e20b8d513058,Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.CS.xaml,Portal.OtherSettingPage.Auto.Description,Zda má být aktualizace automaticky kontrolována.
-b2dc157ad04da5f729f78585b78139f8,Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.CS.xaml,,
-ad6fe07b344fab5bda13457fe2ead162,Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.CS.xaml,Portal.OtherSettingPage.Auto.Update,Jak Bude Kontrola Provedena:
 f017b8cfc07b7bb94204425627dadb6f,Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.CS.xaml,,
+ad6fe07b344fab5bda13457fe2ead162,Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.CS.xaml,Portal.OtherSettingPage.Auto.Update,Jak Bude Kontrola Provedena:
+35afb0ef80ff5cbfb5b952a59cf6a601,Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.CS.xaml,,
 89d172ec7ae3b0e7ca21c0f646ead15e,Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.CS.xaml,Portal.OtherSettingPage.Developer,Vývojářské Nástroje
 3271bfc71add7663c1bf6fad989798e2,Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.CS.xaml,Portal.OtherSettingPage.Developer.Description,Spravujte vývojářské nástroje pro motory WebView a CefSharp.
-35afb0ef80ff5cbfb5b952a59cf6a601,Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.CS.xaml,,
-b01e27378faa8c47945fa5b6b720f291,Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.CS.xaml,Portal.OtherSettingPage.Developer.DeveloperMode,Výchozí Vývojářské Nástroje:
 051aea8c8d4382f85a50b9ac17f4b3f8,Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.CS.xaml,,
-5a2cae135c4a9ebe03e4bd6becfbc49f,Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.CS.xaml,Portal.OtherSettingPage.Developer.DeveloperPort,Ladicí Port:
+b01e27378faa8c47945fa5b6b720f291,Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.CS.xaml,Portal.OtherSettingPage.Developer.DeveloperMode,Výchozí Vývojářské Nástroje:
 c5c9dc4e2c08b6be49fc59f332205ed4,Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.CS.xaml,,
+5a2cae135c4a9ebe03e4bd6becfbc49f,Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.CS.xaml,Portal.OtherSettingPage.Developer.DeveloperPort,Ladicí Port:
+b41a5d15b616d5e658dff6cf1f72abae,Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.CS.xaml,,
 65b2f64438b41e73e7758d2affcd91c5,Portal\SettingPage\OtherSettingPage\Portal.OtherSettingPage.CS.xaml,Portal.OtherSettingPage.Developer.DeveloperHint,"Nápověda: Výchozí vývojářské nástroje nemusí správně fungovat v podporovaných tématech. Ladicí port obvykle funguje lépe. Až budete připraveni, můžete použít adresu 'http://localhost:{0}' nebo 'chrome://inspect' pro prohlížeč Chrome, 'opera://inspect' pro prohlížeč Opera, 'edge://inspect' pro prohlížeč Edge."
 f31e7eb66d805acb874f1bd9595cf339,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,Portal.PerformanceSettingPage.Title,PerformanceSettingPage
-4cb968d7e1ffc43b568720fb48306b13,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,,
+5b0a051e98f48808c1eb670670d38e57,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,,
 c1e8ae3ca87edefdf6af2f5df39adbf7,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,Portal.PerformanceSettingPage.Counter,Výkonové Čítačky
 968a3b1a3e5d38052995ee9ed8a1e516,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,Portal.PerformanceSettingPage.Counter.Description,"Určuje, zda budou všechny výkonové čítačky pracovat na pozadí."
-5b0a051e98f48808c1eb670670d38e57,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,,
-65a272d5aeec2ddfda1d1fee9c8460b0,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,Portal.PerformanceSettingPage.Counter.CounterHint,Poznámka: Některá témata typu Web nemusí fungovat správně a žádné z následujících nastavení výkonu nebude fungovat.
 e00a15f3ed3a084871c91bdaee13976f,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,,
+65a272d5aeec2ddfda1d1fee9c8460b0,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,Portal.PerformanceSettingPage.Counter.CounterHint,Poznámka: Některá témata typu Web nemusí fungovat správně a žádné z následujících nastavení výkonu nebude fungovat.
+887c7020f09b7e662c4d72b0f0803a26,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,,
 f9a269c4e35fcfaa6c5737bf2a6c39c8,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,Portal.PerformanceSettingPage.Pause,Pravidlo Pozastavení
 554b15bc5c12f7d962130c97a9e895d9,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,Portal.PerformanceSettingPage.Pause.Description,Určuje pravidlo pro pozastavení tapety na základě vašich nastavení výkonu.
-887c7020f09b7e662c4d72b0f0803a26,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,,
+5479d7e140b8c3bee05e766e917a0944,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,,
 7ed0d5dd5c608b6c634fc8873f92af89,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,Portal.PerformanceSettingPage.Communication,Typ Komunikace
 80b741ff1a2a1f6b6463aaa0f044a8fe,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,Portal.PerformanceSettingPage.Communication.Description,Určuje způsob odesílání zpráv tématům typu Web.
-5479d7e140b8c3bee05e766e917a0944,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,,
+c9694ff45f01117b02e67b3b2ac6ee8e,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,,
 43a777f450a3741c8adbe503df6b8cf6,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,Portal.PerformanceSettingPage.Cpu,Využití CPU
 60dce7d9da2e2e588ed8938ede6b2d45,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,Portal.PerformanceSettingPage.Cpu.Description,"Určuje, jaký bude výsledek duhovky v závislosti na nastavení využití CPU."
-c9694ff45f01117b02e67b3b2ac6ee8e,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,,
-404f8ab8978d0fa796d3894a0ac0cda4,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,Portal.PerformanceSettingPage.Cpu.CpuUsage,Využití CPU (%):
 8bbe9bdc50d0d15be1e1dc7660212c6d,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,,
+404f8ab8978d0fa796d3894a0ac0cda4,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,Portal.PerformanceSettingPage.Cpu.CpuUsage,Využití CPU (%):
+1711064b37867d4cc9b319a663cc3ca5,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,,
 1292302067ac3f14f7ddd4595843a221,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,Portal.PerformanceSettingPage.Gpu,Využití GPU
 8f67270ac8a8735dec7fc1075cd67bc2,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,Portal.PerformanceSettingPage.Gpu.Description,"Určuje, jaký bude výsledek duhovky v závislosti na nastavení využití GPU."
-1711064b37867d4cc9b319a663cc3ca5,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,,
+46e6e118b7e1149417024ac3ffe64002,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,,
 4212898169afb9a14c751126fb11df42,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,Portal.PerformanceSettingPage.Gpu.GpuAdapter,GPU:
 0a3fa119e4be44f161e4b4044cc41baa,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,Portal.PerformanceSettingPage.Gpu.GpuAdapter.Empty,Seznam grafických procesorů zatím nebyl dosud vytvořen
-46e6e118b7e1149417024ac3ffe64002,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,,
-25ce33892b5600e22dc981609ec42f54,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,Portal.PerformanceSettingPage.Gpu.GpuUsage,Využití GPU (%):
 110c279dfc05eedfeff3d322468aa64d,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,,
+25ce33892b5600e22dc981609ec42f54,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,Portal.PerformanceSettingPage.Gpu.GpuUsage,Využití GPU (%):
+5d5efb69fe1e5235ee57dffc2ce53cbe,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,,
 c5390944be5c341cef445f495a929fc1,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,Portal.PerformanceSettingPage.Memory,Využití Paměti
 7d7cb5e31a7308e40387b342ab390f6b,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,Portal.PerformanceSettingPage.Memory.Description,"Určuje, jaký bude výsledek duhovky v závislosti na nastavení využití paměti."
-5d5efb69fe1e5235ee57dffc2ce53cbe,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,,
-cb856927a4fea55c8c437ff516d8c038,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,Portal.PerformanceSettingPage.Memory.MemoryUsage,Využití Paměti (%):
 f02363f9ef8d451b71fde9144cc132c8,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,,
+cb856927a4fea55c8c437ff516d8c038,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,Portal.PerformanceSettingPage.Memory.MemoryUsage,Využití Paměti (%):
+6baf6bc962cb76314dcd42636a4ed213,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,,
 2e0b85d28c6774df4960a9bf5e71384a,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,Portal.PerformanceSettingPage.Network,Využití Sítě
 ddd23ca979e91b021e3ce092e175632c,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,Portal.PerformanceSettingPage.Network.Description,"Určuje, jaký bude výsledek duhovky v závislosti na nastavení využití sítě."
-6baf6bc962cb76314dcd42636a4ed213,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,,
+27ed7ad4d7cf9d82168b2d4d8d60cd27,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,,
 0dd977dc7abaf3e888b669ec0aed6b35,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,Portal.PerformanceSettingPage.Network.NetworkAdapter,Síťový Adaptér:
 02fdde3541e073b31856b7fd95305961,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,Portal.PerformanceSettingPage.Network.NetworkAdapter.Empty,Seznam síťových adaptérů nebyl dosud vytvořen
-27ed7ad4d7cf9d82168b2d4d8d60cd27,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,,
-3b2e4962c25ac5975ddaa0a6209aa1aa,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,Portal.PerformanceSettingPage.Network.NetworkUpload,Velikost Nahrávání:
 c89413fdb4df25b3e916e17246c22ca4,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,,
-92d6e12b5d19c4334a430225f2342be1,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,Portal.PerformanceSettingPage.Network.NetworkDownload,Velikost Stahování:
+3b2e4962c25ac5975ddaa0a6209aa1aa,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,Portal.PerformanceSettingPage.Network.NetworkUpload,Velikost Nahrávání:
 ba56c23e2b8113ed2fb0cf45a97b9362,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,,
-e362a3879d4c34c7363cd7930611a0b7,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,Portal.PerformanceSettingPage.Network.NetworkPing,Ping (ms):
+92d6e12b5d19c4334a430225f2342be1,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,Portal.PerformanceSettingPage.Network.NetworkDownload,Velikost Stahování:
 08a7905f35065ecf28b89d6c6d9feaf4,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,,
+e362a3879d4c34c7363cd7930611a0b7,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,Portal.PerformanceSettingPage.Network.NetworkPing,Ping (ms):
+8198ceb9957d980faa544ffdda289c06,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,,
 0bc61ba6b9f603e7a5e7ca81d2d434e0,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,Portal.PerformanceSettingPage.Lock,Zámek Relace
 a2edebd642f14d171a540b18ec1fba25,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,Portal.PerformanceSettingPage.Lock.Description,"Co se stane s tapetou, když je relace zamčena."
-8198ceb9957d980faa544ffdda289c06,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,,
+ae73a706e496f6109ba687919be44914,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,,
 61f88fbc50c95606d7e249124b767db0,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,Portal.PerformanceSettingPage.Sleep,Režim Spánku
 54c1a693b9593bbaf617e5067633afa9,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,Portal.PerformanceSettingPage.Sleep.Description,"Co se stane s tapetou, když je systém v režimu spánku."
-ae73a706e496f6109ba687919be44914,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,,
+236c972c3b64e5541b37d44e0f78fcdb,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,,
 39269228b21844f594a4dcc5cf5120a1,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,Portal.PerformanceSettingPage.Console,Přepnutí Uživatele
 25eda5c8bb27ac614f1057f85f294e8f,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,Portal.PerformanceSettingPage.Console.Description,"Co se stane s tapetou, když je uživatel přepnut."
-236c972c3b64e5541b37d44e0f78fcdb,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,,
+5ce7c5f6d3e80d546e4126815f386e5d,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,,
 06e49f6c19fb3a1e87945faf7c6c5d0c,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,Portal.PerformanceSettingPage.Session,Odhlášení
 f1f0d7e0cc4daeae5b459217344cc8f2,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,Portal.PerformanceSettingPage.Session.Description,"Co se stane s tapetou, když se relace ukončí."
-5ce7c5f6d3e80d546e4126815f386e5d,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,,
+7a02d063f33d5b1fbf72f8980d6ea4bd,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,,
 0ecc50db37f0a4e6092f3ae88ac6caec,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,Portal.PerformanceSettingPage.ScreenSaver,Šetřič Obrazovky
 c4d9d1cc8628ea05f51362d9b2dbf434,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,Portal.PerformanceSettingPage.ScreenSaver.Description,"Co se stane s tapetou, když se spustí šetřič obrazovky."
-7a02d063f33d5b1fbf72f8980d6ea4bd,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,,
+26313769d38fd21ec5093ca15943a988,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,,
 58407de8c8253247c5b53b2d41d2160a,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,Portal.PerformanceSettingPage.Battery,Baterie
 7f2a075387284ff37864cfc56dcdc769,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,Portal.PerformanceSettingPage.Battery.Description,"Určuje, jaký bude výsledek duhovky při použití na baterii v notebooku."
-26313769d38fd21ec5093ca15943a988,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,,
-64455446b48b2346f6900db6b87efa5a,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,Portal.PerformanceSettingPage.Battery.BatteryUsage,Stav Baterie (%):
 88fab4d4f49f03b52120f576cd868f85,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,,
+64455446b48b2346f6900db6b87efa5a,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,Portal.PerformanceSettingPage.Battery.BatteryUsage,Stav Baterie (%):
+b352054baf1f42709eecbd251d3ae0e3,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,,
 7c51dcccf0702f98f844911fdb3d18ea,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,Portal.PerformanceSettingPage.BatterySaver,Úsporný Režim
 1b03abaf536d04716db0d503a8cd2388,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,Portal.PerformanceSettingPage.BatterySaver.Description,"Určuje, jaký bude výsledek duhovky v energeticky úsporném režimu notebooku."
-b352054baf1f42709eecbd251d3ae0e3,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,,
+8d5043fdafcf2773ae49899a633dce26,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,,
 040873a01b12c46e0232781affdb8a54,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,Portal.PerformanceSettingPage.Virtual,Virtualizace
 bd4c6aa05f22cd83103384222fbce66e,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,Portal.PerformanceSettingPage.Virtual.Description,"Určuje, jaký bude výsledek duhovky při použití virtualizačních aplikací."
-8d5043fdafcf2773ae49899a633dce26,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,,
+ff334f9320bf8d54047972d506c0a5d3,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,,
 9653857720e3a2cb375c80b257f3adf4,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,Portal.PerformanceSettingPage.Remote,Vzdálená Plocha
 152bbfb0e683ce50a46ab94fc620c05b,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,Portal.PerformanceSettingPage.Remote.Description,"Určuje, jaký bude výsledek duhovky při použití aplikací pro vzdálenou plochu."
-ff334f9320bf8d54047972d506c0a5d3,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,,
+1a5f9a600469d3388bcb166d71bec9a3,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,,
 483535a611e7766e468ddc96d25b5ecd,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,Portal.PerformanceSettingPage.FullScreen,Režim Celé Obrazovky
 f4b2eb64b970a36714177ffddbb2653b,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,Portal.PerformanceSettingPage.FullScreen.Description,"Určuje, jaký bude výsledek duhovky v režimu celé obrazovky, když běží jakákoli jiná aplikace."
-1a5f9a600469d3388bcb166d71bec9a3,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,,
+90daabfdb334100eb55ea7c487f18d9c,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,,
 426dea2624930e8ad9e441228b4694d0,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,Portal.PerformanceSettingPage.Focus,Režim Fókusu
 61703e81c363d5e60c15551db44a3e73,Portal\SettingPage\PerformanceSettingPage\Portal.PerformanceSettingPage.CS.xaml,Portal.PerformanceSettingPage.Focus.Description,"Určuje, jaký bude výsledek duhovky, když je aktivní jiná aplikace."
 f8db5d5952741acc004b67026c636f28,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.CS.xaml,Portal.PersonalSettingPage.Title,PersonalSettingPage
-09daf3200e176da52349e3350345f744,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.CS.xaml,,
+673f2456ef23ad6781cd7745d3716770,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.CS.xaml,,
 4ebb6544fda3600703db6badb8d989da,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.CS.xaml,Portal.PersonalSettingPage.Server,Server Obchodu
 2d81d06ce4dad4c323b50426548212e5,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.CS.xaml,Portal.PersonalSettingPage.Server.Description,"Určuje, který server bude použit k zobrazení témat uvedených v obchodě."
-673f2456ef23ad6781cd7745d3716770,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.CS.xaml,,
-30fb53d06dc483ad639e57451022a5df,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.CS.xaml,Portal.PersonalSettingPage.Server.ServerHint,"Poznámka: Pokud je jako server vybrán {0}, je nutné zadat {2}, abyste se vyhnuli limitům žádostí. Jinak můžete mít problémy s přístupem k tématům v obchodě. Pokud je vybráno {1}, budete mít plynulejší zkušenost s obchodem."
 3087147dbdaf9f30ba2022c30b98935d,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.CS.xaml,,
+30fb53d06dc483ad639e57451022a5df,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.CS.xaml,Portal.PersonalSettingPage.Server.ServerHint,"Poznámka: Pokud je jako server vybrán {0}, je nutné zadat {2}, abyste se vyhnuli limitům žádostí. Jinak můžete mít problémy s přístupem k tématům v obchodě. Pokud je vybráno {1}, budete mít plynulejší zkušenost s obchodem."
+c8985e6286a0e9b8b84eb4cae4424aaa,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.CS.xaml,,
 5a149c1466eb3c7e404c57df02440b39,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.CS.xaml,Portal.PersonalSettingPage.Duration,Obchodní Aktualizace
 360b47f1621eb743c63d6de1a24988e6,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.CS.xaml,Portal.PersonalSettingPage.Duration.Description,"Určuje, jak často budou seznamy témat v obchodě aktualizovány."
-c8985e6286a0e9b8b84eb4cae4424aaa,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.CS.xaml,,
+91a6149a12c62339de39412d8464821e,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.CS.xaml,,
 15f8bce52f5329058eac436a0f6fce9c,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.CS.xaml,Portal.PersonalSettingPage.StoreStart,Automatický Start
 b8deb6b20fc5d1114f4dc30b62b4b255,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.CS.xaml,Portal.PersonalSettingPage.StoreStart.Description,"Určuje, zda se stažené téma z obchodu automaticky nastaví jako tapeta."
-91a6149a12c62339de39412d8464821e,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.CS.xaml,,
+d5a98adb0f7008f2de6b0e39fd49c1ec,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.CS.xaml,,
 cfbf0944a6dcb64cde091f7c318f79a9,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.CS.xaml,Portal.PersonalSettingPage.Adult,Nestandardní Obsah
 1b53275b453af22deb54d99daa0751c1,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.CS.xaml,Portal.PersonalSettingPage.Adult.Description,"Určuje, zda se má zobrazovat obsah označený jako NSFW v obchodě."
-d5a98adb0f7008f2de6b0e39fd49c1ec,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.CS.xaml,,
+564aa2c17402f0c7637f6ee72f258309,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.CS.xaml,,
 9ff38e3c1a0de54139b26bd278cceec4,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.CS.xaml,Portal.PersonalSettingPage.Confirm,Potvrzení Smazání
 d7a98e36c08b5f9d66ca4fc6680e1b98,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.CS.xaml,Portal.PersonalSettingPage.Confirm.Description,"Určuje, zda se má zobrazit potvrzení při mazání témat z knihovny."
-564aa2c17402f0c7637f6ee72f258309,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.CS.xaml,,
+00a9e4e785c69a8487eac3d28fe89437,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.CS.xaml,,
 a5086aadc29d056534265135d027b63b,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.CS.xaml,Portal.PersonalSettingPage.Delete,Chybná Témata
 02e89eb5ea021ba06ea41582e5b1dc87,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.CS.xaml,Portal.PersonalSettingPage.Delete.Description,"Určuje, zda se mají chybná nebo neúplná témata automaticky mazat z knihovny."
-00a9e4e785c69a8487eac3d28fe89437,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.CS.xaml,,
-c6f2b3484cee4a74d91ba3c0e8e801a8,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.CS.xaml,Portal.PersonalSettingPage.Delete.DeleteHint,"Poznámka: Buďte opatrní, mazání může vést k ztrátě dat."
 33b8e98c49b435a49d13c2ed816fd710,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.CS.xaml,,
+c6f2b3484cee4a74d91ba3c0e8e801a8,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.CS.xaml,Portal.PersonalSettingPage.Delete.DeleteHint,"Poznámka: Buďte opatrní, mazání může vést k ztrátě dat."
+f6aa735c5bafbaf2bfc11e535558bf36,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.CS.xaml,,
 0f27453524d5012192403b40411f968a,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.CS.xaml,Portal.PersonalSettingPage.LibraryStart,Automatický Start
 5cb8db56164fc6ca72645ce3f571b12d,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.CS.xaml,Portal.PersonalSettingPage.LibraryStart.Description,"Určuje, zda se vytvořené téma automaticky nastaví jako tapeta."
-f6aa735c5bafbaf2bfc11e535558bf36,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.CS.xaml,,
+92657c7131ce3099fe3f9613469503e5,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.CS.xaml,,
 45aaa295f41028b65915a88e6c5a8131,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.CS.xaml,Portal.PersonalSettingPage.Preview,Náhled Tématu
 4805f25dd52989f5951d15c1598aa6a5,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.CS.xaml,Portal.PersonalSettingPage.Preview.Description,"Určuje, zda se mají témata zobrazovat jako náhled po najetí myší."
-92657c7131ce3099fe3f9613469503e5,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.CS.xaml,,
+e3d0603cd200413db01375ab4e5d0409,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.CS.xaml,,
 73f4a142b2041449662c55c43b16b176,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.CS.xaml,Portal.PersonalSettingPage.Preview.StorePreview,Náhled Obchodu:
 e3102bf3c844de64d999d5adc62b37ad,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.CS.xaml,Portal.PersonalSettingPage.Preview.StorePreviewHide,Skrýt Detaily:
-e3d0603cd200413db01375ab4e5d0409,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.CS.xaml,,
+d431df14fbdfcecc9eda344b9be6bb51,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.CS.xaml,,
 493749a9692b9ce7edd64a399bba2257,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.CS.xaml,Portal.PersonalSettingPage.Preview.LibraryPreview,Náhled Knižnice:
 d8d01140adced1347c67bdd21ccfeb45,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.CS.xaml,Portal.PersonalSettingPage.Preview.LibraryPreviewHide,Skrýt Detaily:
-d431df14fbdfcecc9eda344b9be6bb51,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.CS.xaml,,
+1224c93288262fe1929ade17ec0d37bc,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.CS.xaml,,
 512e82ea1547d3607c449e980004f130,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.CS.xaml,Portal.PersonalSettingPage.Adaptive,Přizpůsobivé Rozložení
 cc1078a55b9e77385d24e84923163c8a,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.CS.xaml,Portal.PersonalSettingPage.Adaptive.Description,Upravte rozložení nebo vzdálenost mezi zobrazenými tématy.
-1224c93288262fe1929ade17ec0d37bc,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.CS.xaml,,
-625ff964c8933c138651720a5654cade,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.CS.xaml,Portal.PersonalSettingPage.Adaptive.AdaptiveMargin,Mezera (Pixely):
 6ad53c2ab0879caed91f343bfffe35bd,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.CS.xaml,,
-15340e7b116659f51a902277812cb41a,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.CS.xaml,Portal.PersonalSettingPage.Adaptive.AdaptiveLayout,Pořadí Rozložení (Počet):
+625ff964c8933c138651720a5654cade,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.CS.xaml,Portal.PersonalSettingPage.Adaptive.AdaptiveMargin,Mezera (Pixely):
 66dec0077fe913dee54dfb17d9cb447a,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.CS.xaml,,
+15340e7b116659f51a902277812cb41a,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.CS.xaml,Portal.PersonalSettingPage.Adaptive.AdaptiveLayout,Pořadí Rozložení (Počet):
+2dde0aef676de77d7042cd4d33663228,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.CS.xaml,,
 d844f011755b8c8510f2784f146f5f73,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.CS.xaml,Portal.PersonalSettingPage.Sort,Řazení Knihovny
 563265f19853102d50b1ad94b13e2506,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.CS.xaml,Portal.PersonalSettingPage.Sort.Description,"Určete, jak budou témata ve vaší knihovně seřazena a v jakém formátu."
-2dde0aef676de77d7042cd4d33663228,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.CS.xaml,,
-59e7fb8fd4c50e9ece7126da3e1bb68a,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.CS.xaml,Portal.PersonalSettingPage.Sort.SortMode,Režim Řazení:
 69dccbdae5d2569c6f4b061112b8e557,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.CS.xaml,,
-423cf1761a1076a4ad503ba2af35daa8,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.CS.xaml,Portal.PersonalSettingPage.Sort.SortKind,Typ Řazení:
+59e7fb8fd4c50e9ece7126da3e1bb68a,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.CS.xaml,Portal.PersonalSettingPage.Sort.SortMode,Režim Řazení:
 5ec88e80f086bac2bad474ff7bc76b00,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.CS.xaml,,
+423cf1761a1076a4ad503ba2af35daa8,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.CS.xaml,Portal.PersonalSettingPage.Sort.SortKind,Typ Řazení:
+0048368410d256f05aab0439d65016c9,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.CS.xaml,,
 d2a61303c0b04268945191b4a74be175,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.CS.xaml,Portal.PersonalSettingPage.Store,Stránkování Obchodu
 f4194014f59a860ff39d21738edf237b,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.CS.xaml,Portal.PersonalSettingPage.Store.Description,"Nastavuje, kolik témat bude na každé stránce obchodu."
-0048368410d256f05aab0439d65016c9,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.CS.xaml,,
+f75306ef1b9c951f799041e9cfb869aa,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.CS.xaml,,
 a135502f696f1d0e9b26479e4dabff23,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.CS.xaml,Portal.PersonalSettingPage.Library,Stránkování Knihovny
 ce2ade6f16304ae0cc54a4299e72841b,Portal\SettingPage\PersonalSettingPage\Portal.PersonalSettingPage.CS.xaml,Portal.PersonalSettingPage.Library.Description,"Nastavuje, kolik témat bude na každé stránce vaší knihovny."
 4c51c4820c06e5b2ca103cb6b18052a4,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.CS.xaml,Portal.SystemSettingPage.Title,SystemSettingPage
-8225a0c842458974bd9f5d194f1005ad,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.CS.xaml,,
+b3537f8c12464867b0df755c5ac57c16,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.CS.xaml,,
 4ae8de096caf6af5b6209427afc439b9,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.CS.xaml,Portal.SystemSettingPage.LogTemporary,Soubory záznamu
 2b09313b61aa5c57de596a9054375e2f,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.CS.xaml,Portal.SystemSettingPage.LogTemporary.Description,Spravujte všechny soubory záznamu vytvořené aplikací.
-b3537f8c12464867b0df755c5ac57c16,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.CS.xaml,,
-f1f945e78de9c8838650251ba842a899,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.CS.xaml,Portal.SystemSettingPage.LogTemporary.Create,Vytvořit
 1c7899adb4603e84e3bc0f2bba8f25a3,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.CS.xaml,,
-694f68334c02f3ca79b5c22bff8fe526,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.CS.xaml,Portal.SystemSettingPage.LogTemporary.Delete,Vymazat
+f1f945e78de9c8838650251ba842a899,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.CS.xaml,Portal.SystemSettingPage.LogTemporary.Create,Vytvořit
 d5c42de46418ff71498cdb2f815ab530,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.CS.xaml,,
-dbe434fb4c2bb2fda8351440b0bc034b,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.CS.xaml,Portal.SystemSettingPage.LogTemporary.Hint,Poznámka: Celková velikost souborů záznamu je {0}. Při spuštění čištění budou všechny aplikace uzavřeny.
+694f68334c02f3ca79b5c22bff8fe526,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.CS.xaml,Portal.SystemSettingPage.LogTemporary.Delete,Vymazat
 db010cf348dc52cd6d17922319a9c3d7,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.CS.xaml,,
+dbe434fb4c2bb2fda8351440b0bc034b,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.CS.xaml,Portal.SystemSettingPage.LogTemporary.Hint,Poznámka: Celková velikost souborů záznamu je {0}. Při spuštění čištění budou všechny aplikace uzavřeny.
+8fc1e282d46326ff14f3082451fa396e,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.CS.xaml,,
 d3b1b520a902b92255099087affa8c52,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.CS.xaml,Portal.SystemSettingPage.CacheTemporary,Vyprázdnit cache
 a478329a5c16342e3a71822e1f1418b2,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.CS.xaml,Portal.SystemSettingPage.CacheTemporary.Description,Vyčistěte všechny dočasné soubory cache vytvořené aplikací.
-8fc1e282d46326ff14f3082451fa396e,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.CS.xaml,,
-4171df426df61cf027aa9d1c02c6bfa7,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.CS.xaml,Portal.SystemSettingPage.CacheTemporary.Start,Začít čištění
 c14a1777f5f4374d3a514f1ba934861d,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.CS.xaml,,
-f9952d1c864157cd1454285306b2192c,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.CS.xaml,Portal.SystemSettingPage.CacheTemporary.Hint,Poznámka: Celková velikost dočasných souborů cache je {0}. Při spuštění čištění budou všechny aplikace uzavřeny.
+4171df426df61cf027aa9d1c02c6bfa7,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.CS.xaml,Portal.SystemSettingPage.CacheTemporary.Start,Začít čištění
 66b55683621b6e13da869d7a49020899,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.CS.xaml,,
+f9952d1c864157cd1454285306b2192c,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.CS.xaml,Portal.SystemSettingPage.CacheTemporary.Hint,Poznámka: Celková velikost dočasných souborů cache je {0}. Při spuštění čištění budou všechny aplikace uzavřeny.
+56c7acab18122c87dfc20f0462ac6d72,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.CS.xaml,,
 e010a4c9825f2afc64a347d55f02535d,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.CS.xaml,Portal.SystemSettingPage.StoreTemporary,Vyprázdnit obchod
 95b0806f0de25705768ecef905f34045,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.CS.xaml,Portal.SystemSettingPage.StoreTemporary.Description,Vyčistěte všechny soubory obchodu vytvořené aplikací.
-56c7acab18122c87dfc20f0462ac6d72,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.CS.xaml,,
-a4915d34f5c144afd0c0916c38089aea,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.CS.xaml,Portal.SystemSettingPage.StoreTemporary.Start,Začít čištění
 3bfa764409806aa22fbaaa66ba808cb8,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.CS.xaml,,
-e63c1ec3304acae9543d090a8ca9c608,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.CS.xaml,Portal.SystemSettingPage.StoreTemporary.Hint,Poznámka: Celková velikost souborů obchodu je {0}. Při spuštění čištění budou všechny aplikace uzavřeny.
+a4915d34f5c144afd0c0916c38089aea,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.CS.xaml,Portal.SystemSettingPage.StoreTemporary.Start,Začít čištění
 efac0a53028a6c438a97d5e704099599,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.CS.xaml,,
+e63c1ec3304acae9543d090a8ca9c608,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.CS.xaml,Portal.SystemSettingPage.StoreTemporary.Hint,Poznámka: Celková velikost souborů obchodu je {0}. Při spuštění čištění budou všechny aplikace uzavřeny.
+da0dbefc46f78a32a77d783fb9f0ee89,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.CS.xaml,,
 c1d597bde3419c47dfbbe0d8bd21cef4,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.CS.xaml,Portal.SystemSettingPage.LibraryTemporary,Vyprázdnit knihovnu
 d2d727014c2f24b2878b8178ef07d16d,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.CS.xaml,Portal.SystemSettingPage.LibraryTemporary.Description,"Vyčistěte všechny soubory témat v knihovně nebo ty, které jste vytvořili."
-da0dbefc46f78a32a77d783fb9f0ee89,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.CS.xaml,,
-384473ec0533d34bcc377282c844d62f,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.CS.xaml,Portal.SystemSettingPage.LibraryTemporary.Start,Začít čištění
 7079363303cf62073d03ddfe0ad40d9d,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.CS.xaml,,
-f4708a66ddffdd174955afef240a0edb,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.CS.xaml,Portal.SystemSettingPage.LibraryTemporary.Hint,Poznámka: Celková velikost témat v knihovně je {0}. Při spuštění čištění budou všechny aplikace uzavřeny.
+384473ec0533d34bcc377282c844d62f,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.CS.xaml,Portal.SystemSettingPage.LibraryTemporary.Start,Začít čištění
 1945fef06ed79d456dc61a4aeb304015,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.CS.xaml,,
+f4708a66ddffdd174955afef240a0edb,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.CS.xaml,Portal.SystemSettingPage.LibraryTemporary.Hint,Poznámka: Celková velikost témat v knihovně je {0}. Při spuštění čištění budou všechny aplikace uzavřeny.
+fbf536624160a2c2992bb0a65b5b5fb0,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.CS.xaml,,
 50b14fe5f77378ce1c62a6db9fb51d74,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.CS.xaml,Portal.SystemSettingPage.SettingBackup,Zálohování nastavení
 53536411476520f1d80ec888cddd7e2b,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.CS.xaml,Portal.SystemSettingPage.SettingBackup.Description,Spravujte všechny soubory nastavení vytvořené aplikací.
-fbf536624160a2c2992bb0a65b5b5fb0,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.CS.xaml,,
-49288739729a911fa75015f7ee81513a,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.CS.xaml,Portal.SystemSettingPage.SettingBackup.Export,Exportovat
 744275ed6ab09287b0ddf19d9df4c374,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.CS.xaml,,
-4888f13bd46ba3f944803f6ccceeb3f6,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.CS.xaml,Portal.SystemSettingPage.SettingBackup.Import,Importovat
+49288739729a911fa75015f7ee81513a,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.CS.xaml,Portal.SystemSettingPage.SettingBackup.Export,Exportovat
 f5c83e97d48ec15c20929a2cc181474d,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.CS.xaml,,
-8d82d2ee89ac9eb81b1df8316feb7359,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.CS.xaml,Portal.SystemSettingPage.SettingBackup.Hint,Poznámka: Při zahájení vybrané akce budou uzavřeny všechny aplikace.
+4888f13bd46ba3f944803f6ccceeb3f6,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.CS.xaml,Portal.SystemSettingPage.SettingBackup.Import,Importovat
 9750e88970fb391dfa820c78eb14c374,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.CS.xaml,,
+8d82d2ee89ac9eb81b1df8316feb7359,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.CS.xaml,Portal.SystemSettingPage.SettingBackup.Hint,Poznámka: Při zahájení vybrané akce budou uzavřeny všechny aplikace.
+ec7fb76da2cb7c5cad0e64ce2f165872,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.CS.xaml,,
 dbf9f37864ce37bc7b4cc3c1282e7bfc,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.CS.xaml,Portal.SystemSettingPage.SettingReset,Obnovení nastavení
 75dd25c6c4c9127697d66faf181b2841,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.CS.xaml,Portal.SystemSettingPage.SettingReset.Description,Obnovte všechny soubory nastavení vytvořené aplikací na výchozí hodnoty.
-ec7fb76da2cb7c5cad0e64ce2f165872,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.CS.xaml,,
-dfb1b797a680806ca44dd2ea04761110,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.CS.xaml,Portal.SystemSettingPage.SettingReset.Start,Začít obnovu
 e45332b8f086f89a2f22c598bd66d8b1,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.CS.xaml,,
-c25ae247fd393c3a58c3bfe5307f0fb3,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.CS.xaml,Portal.SystemSettingPage.SettingReset.Hint,Poznámka: Při zahájení obnovy budou uzavřeny všechny aplikace.
+dfb1b797a680806ca44dd2ea04761110,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.CS.xaml,Portal.SystemSettingPage.SettingReset.Start,Začít obnovu
 801954f009093e93175b6d14e9e3a41e,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.CS.xaml,,
+c25ae247fd393c3a58c3bfe5307f0fb3,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.CS.xaml,Portal.SystemSettingPage.SettingReset.Hint,Poznámka: Při zahájení obnovy budou uzavřeny všechny aplikace.
+4261045e20ef4a8351b48180e1bd0268,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.CS.xaml,,
 59c6e5794fd509d28a8e43b4e052e248,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.CS.xaml,Portal.SystemSettingPage.Log.SaveDialogTitle,Uložit soubor záznamu
 52673a5196fd230de9762beb8cb57f98,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.CS.xaml,Portal.SystemSettingPage.Log.SaveDialogFilter,ZIP soubory (*.zip)|*.zip|Všechny soubory (*.*)|*.*
-4261045e20ef4a8351b48180e1bd0268,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.CS.xaml,,
+1013c0fe32f0554f8595004fa9715fc1,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.CS.xaml,,
 92c2a385a61ca95a377f0d23c9dc91b4,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.CS.xaml,Portal.SystemSettingPage.Access.Close,Rozumím
 520e24541e1e5c597118798d88169df7,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.CS.xaml,Portal.SystemSettingPage.Access.Title,Upozornění na Přístup
 b4e692c8a23c01a332a6738091709a2a,Portal\SettingPage\SystemSettingPage\Portal.SystemSettingPage.CS.xaml,Portal.SystemSettingPage.Access.Message,Nemáte oprávnění k přístupu na vybranou lokaci.
 796b4080f15a96d60306bb0b546d0c90,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,Portal.WallpaperSettingPage.Title,WallpaperSettingPage
-3fdc382bf254fe2302d692f7f91e5c18,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,,
+179115062b1bfc47bc85585b35e2ed97,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,,
 ec7146787e75fe0485442a643e99c44d,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,Portal.WallpaperSettingPage.InputMode,Metoda Interakce
 41afbee7bee7570a42a69dbe032d5301,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,Portal.WallpaperSettingPage.InputMode.Description,"Určuje metody, pomocí kterých může interakce probíhat se podporovanými tapetami."
-179115062b1bfc47bc85585b35e2ed97,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,,
-5d58e4351b5c42ef9e66e053e9e1c02f,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,Portal.WallpaperSettingPage.InputMode.InputModule,Interakční Modul:
 6decaef6ea0cfbd0958573239b17a21e,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,,
-e38ea5e4726a0625c2fdcec4fafd8355,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,Portal.WallpaperSettingPage.InputMode.InputDesktop,Zpracovat interakci pouze při zaměření na pracovní plochu
+5d58e4351b5c42ef9e66e053e9e1c02f,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,Portal.WallpaperSettingPage.InputMode.InputModule,Interakční Modul:
 2681fb890268dcb4f29f1620f742b03b,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,,
-48e816ff0a00618f261913a75491d3a0,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,Portal.WallpaperSettingPage.InputMode.DesktopIcon,"Skrýt, aby se zabránilo náhodnému výběru ikon pracovní plochy"
+e38ea5e4726a0625c2fdcec4fafd8355,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,Portal.WallpaperSettingPage.InputMode.InputDesktop,Zpracovat interakci pouze při zaměření na pracovní plochu
 fde142f992d0cbbe99b1211592b05470,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,,
+48e816ff0a00618f261913a75491d3a0,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,Portal.WallpaperSettingPage.InputMode.DesktopIcon,"Skrýt, aby se zabránilo náhodnému výběru ikon pracovní plochy"
+d5254e3357226758704e366ca9a2ea24,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,,
 4423b5bf7ee31c3fca11b8c15883ed24,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,Portal.WallpaperSettingPage.ScreenLayout,Rozmístění na Obrazovce
 f1702831f947c5cd61e7ce0b1a7fe4b2,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,Portal.WallpaperSettingPage.ScreenLayout.Description,Změní umístění vašich tapet na obrazovce.
-d5254e3357226758704e366ca9a2ea24,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,,
+c724d947f0a4567e9703560f2ae22702,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,,
 a9aa12b4aac6f7149fb86c8815c8ce68,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,Portal.WallpaperSettingPage.StretchMode,Režim Protažení
 061a101ce1d60a1b6b887ee132923e17,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,Portal.WallpaperSettingPage.StretchMode.Description,Změní režim měřítka na podporovaných tapetách.
-c724d947f0a4567e9703560f2ae22702,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,,
+e82020620e23957ab93dd3aa5957c4c3,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,,
 758e68f387df77a6b9a3ecbb5b1d69ba,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,Portal.WallpaperSettingPage.StayAwake,Zůstat Vzhůru
 227c694ba41c89a6928cf93ea7370f35,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,Portal.WallpaperSettingPage.StayAwake.Description,Mění stav zůstat vzhůru u podporovaných tapetách.
-e82020620e23957ab93dd3aa5957c4c3,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,,
+e9aa629c681b94d9e06e4d3758005c78,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,,
 dbcdefd6080885f5b1be13ba9e8e3a3d,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,Portal.WallpaperSettingPage.LoopMode,Režim Smyčky
 e7fe69b62211c0e9972371729052f0dc,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,Portal.WallpaperSettingPage.LoopMode.Description,Změní režim smyčky na podporovaných tapetách.
-e9aa629c681b94d9e06e4d3758005c78,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,,
+234a5ce877310b4cf7a211858c9fe280,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,,
 0b9fdbf6d35569e3581c5f7713348f3e,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,Portal.WallpaperSettingPage.ShuffleMode,Režim Zamíchání
 f14fb2b4c9236a9fc1c252e4f606d69c,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,Portal.WallpaperSettingPage.ShuffleMode.Description,Změní režim zamíchání na podporovaných tapetách.
-234a5ce877310b4cf7a211858c9fe280,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,,
+f4b26f535ca5de11d4c277033f9d8e79,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,,
 6626eccaaacb031e3b21bafeadd1850e,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,Portal.WallpaperSettingPage.BackgroundImage,Obrázek Pozadí
 fd0318ecf09d25b6c38b5c54e470608c,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,Portal.WallpaperSettingPage.BackgroundImage.Description,Změní živou tapetu na obrázek pozadí plochy.
-f4b26f535ca5de11d4c277033f9d8e79,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,,
+54908064462078f5caef367a9ca168b1,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,,
 c4b0d590ee09696f619aaddebdb2d026,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,Portal.WallpaperSettingPage.HardwareAcceleration,Hardwarová Akcelerace
 1a7ad47fcedfc22b6a74acb5985abc27,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,Portal.WallpaperSettingPage.HardwareAcceleration.Description,Upravuje stav hardwarové akcelerace pro podporované tapety.
-54908064462078f5caef367a9ca168b1,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,,
+b9fd4143c1774de7c5f8ce57e79a9e49,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,,
 cf8ce451aeb0269663b03bf3d96655d3,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,Portal.WallpaperSettingPage.GifPlayer,Přehrávač Gif
 35e0a08acf791d3e33a0f0ceaf1cfd9d,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,Portal.WallpaperSettingPage.GifPlayer.Description,"Vyberte doplněk, který bude přehrávat témata ve formátu Gif uložená ve vaší knihovně."
-b9fd4143c1774de7c5f8ce57e79a9e49,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,,
+8f9707307c2249ffa252e9d87f9774f4,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,,
 2d4e8acf226ca14ade58a8b3bab1a8a5,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,Portal.WallpaperSettingPage.VideoPlayer,Přehrávač Video
 4e4cd080f44e90c23692664bb2e653cb,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,Portal.WallpaperSettingPage.VideoPlayer.Description,"Vyberte doplněk, který bude přehrávat témata ve formátu Video uložená ve vaší knihovně."
-8f9707307c2249ffa252e9d87f9774f4,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,,
+e911c5b75f5b182e65f75f8fe3e1e357,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,,
 818cdab367890bd80726243caf969c8e,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,Portal.WallpaperSettingPage.UrlPlayer,Url Engine
 9f1a6adf4f79d549bcc16573e907c57b,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,Portal.WallpaperSettingPage.UrlPlayer.Description,"Vyberte motor, který bude spouštět témata uložená ve vaší knihovně ve formátu Url."
-e911c5b75f5b182e65f75f8fe3e1e357,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,,
+db644b60d6b654d9d4b707f43f9cdaa2,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,,
 41e200895f21857b780eaf1223cd31fd,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,Portal.WallpaperSettingPage.WebPlayer,Web Engine
 23f8bd1520c0afe1153f5df77dbabf56,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,Portal.WallpaperSettingPage.WebPlayer.Description,"Vyberte motor, který bude spouštět témata uložená ve vaší knihovně ve formátu Web."
-db644b60d6b654d9d4b707f43f9cdaa2,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,,
+dcb636507e1f0d5d0e36df11195553f9,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,,
 f12e3fe3a9bacd07cd6be01eee112b2c,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,Portal.WallpaperSettingPage.YouTubePlayer,YouTube Engine
 d6dc1b7ec620f2cfdb4bab4536d4c00a,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,Portal.WallpaperSettingPage.YouTubePlayer.Description,"Vyberte motor, který bude spouštět témata uložená ve vaší knihovně ve formátu YouTube."
-dcb636507e1f0d5d0e36df11195553f9,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,,
+e810ccc06d6ef522a3bddfef573ac21d,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,,
 245b88769df0b69ee541df12c9b22405,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,Portal.WallpaperSettingPage.ApplicationPlayer,Application Engine
 3be813ea9b2f1ed850921312b3f48eff,Portal\SettingPage\WallpaperSettingPage\Portal.WallpaperSettingPage.CS.xaml,Portal.WallpaperSettingPage.ApplicationPlayer.Description,"Vyberte motor, který bude spouštět témata uložená ve vaší knihovně ve formátu Application."
 fd4d960ef807170aa76d2c74f5d7b35c,Portal\StorePage\BrokenStorePage\Portal.BrokenStorePage.CS.xaml,Portal.BrokenStorePage.Title,BrokenStorePage
-1fba17c12a230a948f472b3bf86c5534,Portal\StorePage\BrokenStorePage\Portal.BrokenStorePage.CS.xaml,,
+93e7950c5448bcc588b81458f5d26fee,Portal\StorePage\BrokenStorePage\Portal.BrokenStorePage.CS.xaml,,
 98e1b02ea8b86a8920eecf76dfbe8ab9,Portal\StorePage\BrokenStorePage\Portal.BrokenStorePage.CS.xaml,Portal.BrokenStorePage.TitleText,"Okamžik, kdy zhasly internetové světla"
 b1eaba83850086174dd8458bb388b08f,Portal\StorePage\BrokenStorePage\Portal.BrokenStorePage.CS.xaml,Portal.BrokenStorePage.DescriptionText,"Jako hvězdná obloha bez hvězd, zde nenajdete zář internetu."
 31ceaaa9754386801919d24467122368,Portal\StorePage\FullStorePage\Portal.FullStorePage.CS.xaml,Portal.FullStorePage.Title,FullStorePage
 a2f8d2ba803cd7477b7f79259c7677f3,Portal\StorePage\SearchStorePage\Portal.SearchStorePage.CS.xaml,Portal.SearchStorePage.Title,SearchStorePage
-5d6c29028e3b906c4070dfa911475690,Portal\StorePage\SearchStorePage\Portal.SearchStorePage.CS.xaml,,
+401da523f6fbecdebd5d79e34913ea38,Portal\StorePage\SearchStorePage\Portal.SearchStorePage.CS.xaml,,
 bc28a242b68bdd435d54e88f9a63b675,Portal\StorePage\SearchStorePage\Portal.SearchStorePage.CS.xaml,Portal.SearchStorePage.TitleText,Odpovědi na vaše hledání mohou být ukryty na obloze
 4a0189ab60dc14f9956b5358ed1ed45c,Portal\StorePage\SearchStorePage\Portal.SearchStorePage.CS.xaml,Portal.SearchStorePage.DescriptionText,"Pokud výsledky nepřicházejí tak, jak jste čekali, obloha vám může nabídnout nový zážitek."
 ed736c8480adbb8d0a6503bb4802d707,Portal\StorePage\UnknownStorePage\Portal.UnknownStorePage.CS.xaml,Portal.UnknownStorePage.Title,UnknownStorePage
-776919bce0444ccad5a5755eef62076a,Portal\StorePage\UnknownStorePage\Portal.UnknownStorePage.CS.xaml,,
+7a8ec6df3e5e0c42b904d2fe8a325570,Portal\StorePage\UnknownStorePage\Portal.UnknownStorePage.CS.xaml,,
 fe49f2bf1b0fcc5b9296405eb280dcb3,Portal\StorePage\UnknownStorePage\Portal.UnknownStorePage.CS.xaml,Portal.UnknownStorePage.TitleText,"Objevte Tajemství, Které Se V Obchodě Událo"
 805add8d9aa9921cab29243e32be16ec,Portal\StorePage\UnknownStorePage\Portal.UnknownStorePage.CS.xaml,Portal.UnknownStorePage.DescriptionText,"Vydejte se na cestu k odhalení tajemství, které se stalo v obchodě, a sledujte neznámý příběh."

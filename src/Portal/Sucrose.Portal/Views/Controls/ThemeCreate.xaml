@@ -13,9 +13,13 @@
     CloseButtonText="{DynamicResource Portal.ThemeCreate.Close}"
     DialogMaxWidth="750"
     IsPrimaryButtonEnabled="False"
+    IsSecondaryButtonEnabled="False"
     Loaded="ContentDialog_Loaded"
     PreviewKeyDown="ContentDialog_PreviewKeyDown"
     PrimaryButtonText="{DynamicResource Portal.ThemeCreate.Create}"
+    SecondaryButtonAppearance="Success"
+    SecondaryButtonIcon="{ui:SymbolIcon Clock24}"
+    SecondaryButtonText="{DynamicResource Portal.ThemeCreate.Creating}"
     mc:Ignorable="d">
 
     <ui:ContentDialog.Resources>

@@ -3,8 +3,10 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:system="clr-namespace:System;assembly=mscorlib">
     <system:String x:Key="Portal.ThemeCreate.Title">Створення Теми</system:String>
-    <system:String x:Key="Portal.ThemeCreate.Create">Створити</system:String>
+
     <system:String x:Key="Portal.ThemeCreate.Close">Закрити</system:String>
+    <system:String x:Key="Portal.ThemeCreate.Create">Створити</system:String>
+    <system:String x:Key="Portal.ThemeCreate.Creating">Створюється</system:String>
 
     <system:String x:Key="Portal.ThemeCreate.Gif">Тема Gif</system:String>
     <system:String x:Key="Portal.ThemeCreate.Gif.Description">Створити власну тему у форматі Gif.</system:String>

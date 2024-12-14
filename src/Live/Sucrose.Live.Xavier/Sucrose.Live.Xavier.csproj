@@ -39,9 +39,10 @@
     <PropertyGroup>
         <ConcurrentGarbageCollection>true</ConcurrentGarbageCollection>
         <ServerGarbageCollection>true</ServerGarbageCollection>
-        <RetainVMGarbageCollection>true</RetainVMGarbageCollection>
-        <ThreadPoolMinThreads>1</ThreadPoolMinThreads>
-        <ThreadPoolMaxThreads>100</ThreadPoolMaxThreads>
+        <RetainVMGarbageCollection>false</RetainVMGarbageCollection>
+        <ThreadPoolMinThreads>10</ThreadPoolMinThreads>
+        <ThreadPoolMaxThreads>250</ThreadPoolMaxThreads>
+        <UseWindowsThreadPool>true</UseWindowsThreadPool>
         <!-- Supported as of .NET Core SDK 3.0 Preview 1 -->
         <TieredCompilation>true</TieredCompilation>
         <InvariantGlobalization>false</InvariantGlobalization>
