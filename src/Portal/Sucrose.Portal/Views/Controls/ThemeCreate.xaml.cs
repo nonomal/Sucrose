@@ -46,6 +46,7 @@ namespace Sucrose.Portal.Views.Controls
 
         private async Task CreateTheme()
         {
+            Root.IsEnabled = false;
             IsPrimaryButtonEnabled = false;
             IsSecondaryButtonEnabled = true;
             CloseButtonAppearance = ControlAppearance.Dark;
@@ -881,6 +882,7 @@ namespace Sucrose.Portal.Views.Controls
                 }
             });
 
+            Root.IsEnabled = true;
             IsPrimaryButtonEnabled = true;
             IsSecondaryButtonEnabled = false;
             CloseButtonAppearance = ControlAppearance.Secondary;
