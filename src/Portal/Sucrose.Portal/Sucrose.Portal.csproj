@@ -37,6 +37,10 @@
     </PropertyGroup>
 
     <PropertyGroup>
+        <DefineConstants Condition="$(TargetFramework.StartsWith('net48'))">$(DefineConstants);NET48_OR_GREATER</DefineConstants>
+    </PropertyGroup>
+
+    <PropertyGroup>
         <ConcurrentGarbageCollection>true</ConcurrentGarbageCollection>
         <ServerGarbageCollection>true</ServerGarbageCollection>
         <RetainVMGarbageCollection>false</RetainVMGarbageCollection>
@@ -79,7 +83,7 @@
         <PackageReference Include="Skylark.Standard" Version="3.1.6.8" />
         <PackageReference Include="Skylark.Clipboard" Version="3.1.4.3" />
         <PackageReference Include="CommunityToolkit.Mvvm" Version="8.4.0" />
-        <PackageReference Include="WindowsAPICodePackShell" Version="8.0.6" />
+        <PackageReference Include="WindowsAPICodePackShell" Version="8.0.8" />
         <PackageReference Include="WPF-UI.DependencyInjection" Version="4.0.0-rc.3" />
     </ItemGroup>
 
