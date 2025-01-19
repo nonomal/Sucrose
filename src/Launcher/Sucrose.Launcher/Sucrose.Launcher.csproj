@@ -84,7 +84,7 @@
 
     <ItemGroup Condition="$(TargetFramework.StartsWith('net48'))">
         <PackageReference Include="System.IO.Compression" Version="4.3.0" />
-        <PackageReference Include="System.ComponentModel.Annotations" Version="6.0.0-preview.5.21227.3" />
+        <PackageReference Include="System.ComponentModel.Annotations" Version="6.0.0-preview.4.21253.7" />
     </ItemGroup>
 
     <ItemGroup>
