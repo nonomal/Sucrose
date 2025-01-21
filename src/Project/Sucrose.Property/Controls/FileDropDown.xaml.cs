@@ -7,6 +7,7 @@ using SPHP = Sucrose.Property.Helper.Properties;
 using SPMI = Sucrose.Property.Manage.Internal;
 using SRER = Sucrose.Resources.Extension.Resources;
 using SSSHA = Sucrose.Shared.Space.Helper.Access;
+using SSSHF = Sucrose.Shared.Space.Helper.Filing;
 using SSTMFDDM = Sucrose.Shared.Theme.Model.FileDropDownModel;
 using ToolTip = System.Windows.Controls.ToolTip;
 using UserControl = System.Windows.Controls.UserControl;
@@ -108,7 +109,7 @@ namespace Sucrose.Property.Controls
 
                             if (File.Exists(Target))
                             {
-                                File.Delete(Target);
+                                SSSHF.Delete(Target);
                             }
 
                             using FileStream Destination = new(Target, FileMode.OpenOrCreate, FileAccess.ReadWrite, FileShare.ReadWrite);

@@ -35,14 +35,33 @@ namespace Sucrose.Shared.Watchdog.Helper
             return SSWMI.Dataset.Contains(Key);
         }
 
+        public static bool ContainsKey(string Key)
+        {
+            return SSWMI.Dataset.ContainsKey(Key);
+        }
+
         public static void Add(string Key, object Value)
         {
-            SSWMI.Dataset.Add(Key, Value);
+            if (ContainsKey(Key))
+            {
+                Set(Key, Value);
+            }
+            else
+            {
+                SSWMI.Dataset.Add(Key, Value);
+            }
         }
 
         public static void Set(string Key, object Value)
         {
-            SSWMI.Dataset[Key] = Value;
+            if (ContainsKey(Key))
+            {
+                SSWMI.Dataset[Key] = Value;
+            }
+            else
+            {
+                Add(Key, Value);
+            }
         }
     }
 }

@@ -20,6 +20,7 @@ using SRER = Sucrose.Resources.Extension.Resources;
 using SSDECT = Sucrose.Shared.Dependency.Enum.CompatibilityType;
 using SSSHA = Sucrose.Shared.Space.Helper.Access;
 using SSSHC = Sucrose.Shared.Space.Helper.Copy;
+using SSSHF = Sucrose.Shared.Space.Helper.Filing;
 using SSSHS = Sucrose.Shared.Space.Helper.Sort;
 using SSTHI = Sucrose.Shared.Theme.Helper.Info;
 using SSTHV = Sucrose.Shared.Theme.Helper.Various;
@@ -172,7 +173,7 @@ namespace Sucrose.Portal.Views.Pages
 
                             if (File.Exists(PropertiesFile))
                             {
-                                File.Delete(PropertiesFile);
+                                SSSHF.Delete(PropertiesFile);
                             }
                         }
                     }

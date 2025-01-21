@@ -5,6 +5,7 @@ using SMMI = Sucrose.Manager.Manage.Internal;
 using SMMRG = Sucrose.Memory.Manage.Readonly.General;
 using SMMRP = Sucrose.Memory.Manage.Readonly.Process;
 using SSSEL = Sucrose.Shared.Space.Extension.Lifecycle;
+using SSSHB = Sucrose.Shared.Space.Helper.Background;
 using SSSHL = Sucrose.Shared.Space.Helper.Live;
 using SSSHM = Sucrose.Shared.Space.Helper.Management;
 using SSSHP = Sucrose.Shared.Space.Helper.Processor;
@@ -22,6 +23,8 @@ namespace Sucrose.Shared.Live.Helper
             {
                 SSSHP.Kill(SMMA.AppProcessName);
             }
+
+            SSSHB.ResetDefault();
 
             SWUD.RefreshDesktop();
 

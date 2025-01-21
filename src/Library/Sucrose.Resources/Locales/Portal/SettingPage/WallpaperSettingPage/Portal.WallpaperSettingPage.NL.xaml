@@ -19,11 +19,17 @@
     <system:String x:Key="Portal.WallpaperSettingPage.StretchMode">Rekmodus</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.StretchMode.Description">Verandert de schaalmethode voor ondersteunde achtergronden.</system:String>
 
+    <system:String x:Key="Portal.WallpaperSettingPage.StayAwake">Blijf Wakker</system:String>
+    <system:String x:Key="Portal.WallpaperSettingPage.StayAwake.Description">Wijzigt de wakker-status voor ondersteunde achtergronden.</system:String>
+
     <system:String x:Key="Portal.WallpaperSettingPage.LoopMode">Herhalingsmodus</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.LoopMode.Description">Verandert de herhalingsinstelling voor ondersteunde achtergronden.</system:String>
 
     <system:String x:Key="Portal.WallpaperSettingPage.ShuffleMode">Schudmodus</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.ShuffleMode.Description">Verandert de schudinstelling voor ondersteunde achtergronden.</system:String>
+
+    <system:String x:Key="Portal.WallpaperSettingPage.BackgroundImage">Achtergrondafbeelding</system:String>
+    <system:String x:Key="Portal.WallpaperSettingPage.BackgroundImage.Description">Wijzigt het live-behang in een bureaubladachtergrondafbeelding.</system:String>
 
     <system:String x:Key="Portal.WallpaperSettingPage.HardwareAcceleration">Hardwareversnelling</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.HardwareAcceleration.Description">Wijzigt de hardwareversnellingstatus voor ondersteunde achtergronden.</system:String>

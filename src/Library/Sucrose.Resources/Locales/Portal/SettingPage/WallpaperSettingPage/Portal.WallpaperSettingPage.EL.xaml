@@ -19,11 +19,17 @@
     <system:String x:Key="Portal.WallpaperSettingPage.StretchMode">Λειτουργία Επέκτασης</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.StretchMode.Description">Αλλάζει τον τρόπο με τον οποίο επεκτείνονται τα υποστηριζόμενα ταπετσαρίες.</system:String>
 
+    <system:String x:Key="Portal.WallpaperSettingPage.StayAwake">Παραμείνετε ξύπνιοι</system:String>
+    <system:String x:Key="Portal.WallpaperSettingPage.StayAwake.Description">Αλλάζει την κατάσταση παραμονής σε εγρήγορση για τις υποστηριζόμενες ταπετσαρίες.</system:String>
+
     <system:String x:Key="Portal.WallpaperSettingPage.LoopMode">Λειτουργία Επανάληψης</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.LoopMode.Description">Αλλάζει τη λειτουργία επανάληψης για τις υποστηριζόμενες ταπετσαρίες.</system:String>
 
     <system:String x:Key="Portal.WallpaperSettingPage.ShuffleMode">Λειτουργία Ανακάτεμα</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.ShuffleMode.Description">Αλλάζει τη λειτουργία ανακάτεμα για τις υποστηριζόμενες ταπετσαρίες.</system:String>
+
+    <system:String x:Key="Portal.WallpaperSettingPage.BackgroundImage">Εικόνα Φόντου</system:String>
+    <system:String x:Key="Portal.WallpaperSettingPage.BackgroundImage.Description">Αλλάζει την κινούμενη ταπετσαρία σε εικόνα φόντου επιφάνειας εργασίας.</system:String>
 
     <system:String x:Key="Portal.WallpaperSettingPage.HardwareAcceleration">Επιτάχυνση Υλικού</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.HardwareAcceleration.Description">Αλλάζει την κατάσταση επιτάχυνσης υλικού για τις υποστηριζόμενες ταπετσαρίες.</system:String>

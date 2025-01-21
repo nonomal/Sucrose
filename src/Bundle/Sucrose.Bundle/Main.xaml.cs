@@ -22,7 +22,7 @@ using SWHWI = Skylark.Wing.Helper.WindowInterop;
 using SWNM = Skylark.Wing.Native.Methods;
 using SWUD = Skylark.Wing.Utility.Desktop;
 
-#if NET6_0_OR_GREATER
+#if NET8_0_OR_GREATER
 using SWHSR = Skylark.Wing.Helper.ShortcutRuntime;
 #endif
 
@@ -237,7 +237,7 @@ namespace Sucrose.Bundle
                 {
                     bool CreateDesktopShortcut = true;
 
-#if NET6_0_OR_GREATER
+#if NET8_0_OR_GREATER
                     try
                     {
                         SWHSR.Create(Path.GetDirectoryName(DesktopShortcut), Shortcut, Text, null, Launcher, null, Path.GetDirectoryName(Launcher), null, SWNM.WindowStyle.Normal);
@@ -268,7 +268,7 @@ namespace Sucrose.Bundle
                 {
                     bool CreateStartMenuShortcut = true;
 
-#if NET6_0_OR_GREATER
+#if NET8_0_OR_GREATER
                     try
                     {
                         SWHSR.Create(Path.GetDirectoryName(StartMenuProgramsShortcut), Shortcut, Text, null, Launcher, null, Path.GetDirectoryName(Launcher), null, SWNM.WindowStyle.Normal);

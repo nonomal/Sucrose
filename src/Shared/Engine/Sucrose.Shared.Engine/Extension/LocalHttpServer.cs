@@ -153,14 +153,18 @@ namespace Sucrose.Shared.Engine.Extension
 
                 await WriteFile(context, path);
 
-                //string filename = Path.GetFileName(path);
-                //byte[] content = File.ReadAllBytes(path);
+                //                string filename = Path.GetFileName(path);
+                //                byte[] content = File.ReadAllBytes(path);
 
-                //response.ContentLength64 = content.Length;
-                //response.StatusCode = (int)HttpStatusCode.NotModified;
-                //response.ContentType = GetContentType(path);
+                //                response.ContentLength64 = content.Length;
+                //                response.StatusCode = (int)HttpStatusCode.NotModified;
+                //                response.ContentType = GetContentType(path);
 
-                //await response.OutputStream.WriteAsync(content, 0, content.Length);
+                //#if NET48_OR_GREATER
+                //                await response.OutputStream.WriteAsync(content, 0, content.Length);
+                //#else
+                //                await response.OutputStream.WriteAsync(content.AsMemory(0, content.Length));
+                //#endif
             }
             else
             {
@@ -168,7 +172,11 @@ namespace Sucrose.Shared.Engine.Extension
 
                 response.StatusCode = (int)HttpStatusCode.NotFound;
 
+#if NET48_OR_GREATER
                 await response.OutputStream.WriteAsync(message, 0, message.Length);
+#else
+                await response.OutputStream.WriteAsync(message.AsMemory(0, message.Length));
+#endif
             }
 
             response.OutputStream.Close();

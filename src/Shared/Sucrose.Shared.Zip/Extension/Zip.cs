@@ -1,6 +1,7 @@
 ﻿using System.IO;
 using System.IO.Compression;
 using SSDECT = Sucrose.Shared.Dependency.Enum.CompatibilityType;
+using SSSHF = Sucrose.Shared.Space.Helper.Filing;
 using SSZHZ = Sucrose.Shared.Zip.Helper.Zip;
 
 namespace Sucrose.Shared.Zip.Extension
@@ -31,7 +32,7 @@ namespace Sucrose.Shared.Zip.Extension
             {
                 if (File.Exists(Destination))
                 {
-                    File.Delete(Destination);
+                    SSSHF.Delete(Destination);
                 }
 
 #if NET48_OR_GREATER

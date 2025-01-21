@@ -19,11 +19,17 @@
     <system:String x:Key="Portal.WallpaperSettingPage.StretchMode">Mod Redimensionare</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.StretchMode.Description">Schimbă modul de redimensionare pentru imagini de fundal acceptate.</system:String>
 
+    <system:String x:Key="Portal.WallpaperSettingPage.StayAwake">Rămâi Treaz</system:String>
+    <system:String x:Key="Portal.WallpaperSettingPage.StayAwake.Description">Modifică starea de a rămâne treaz pentru fundalurile acceptate.</system:String>
+
     <system:String x:Key="Portal.WallpaperSettingPage.LoopMode">Mod Repetare</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.LoopMode.Description">Schimbă modul de repetare pentru imagini de fundal acceptate.</system:String>
 
     <system:String x:Key="Portal.WallpaperSettingPage.ShuffleMode">Mod Amestecare</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.ShuffleMode.Description">Schimbă modul de amestecare pentru imagini de fundal acceptate.</system:String>
+
+    <system:String x:Key="Portal.WallpaperSettingPage.BackgroundImage">Imagine de Fundal</system:String>
+    <system:String x:Key="Portal.WallpaperSettingPage.BackgroundImage.Description">Schimbă tapetul animat cu o imagine de fundal pentru desktop.</system:String>
 
     <system:String x:Key="Portal.WallpaperSettingPage.HardwareAcceleration">Accelerare Hardware</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.HardwareAcceleration.Description">Modifică starea de accelerare hardware pentru fundalurile acceptate.</system:String>

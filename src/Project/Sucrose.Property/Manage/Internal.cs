@@ -1,4 +1,5 @@
 ﻿using Wpf.Ui.Controls;
+using SSDEPT = Sucrose.Shared.Dependency.Enum.PropertiesType;
 using SSTHI = Sucrose.Shared.Theme.Helper.Info;
 using SSTHP = Sucrose.Shared.Theme.Helper.Properties;
 
@@ -17,6 +18,8 @@ namespace Sucrose.Property.Manage
         public static string PropertiesFile;
 
         public static string PropertiesPath;
+
+        public static SSDEPT PropertiesType;
 
         public static string LibraryLocation;
 

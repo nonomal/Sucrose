@@ -3,8 +3,10 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:system="clr-namespace:System;assembly=mscorlib">
     <system:String x:Key="Portal.ThemeCreate.Title">主题创建</system:String>
-    <system:String x:Key="Portal.ThemeCreate.Create">创建</system:String>
+
     <system:String x:Key="Portal.ThemeCreate.Close">关闭</system:String>
+    <system:String x:Key="Portal.ThemeCreate.Create">创建</system:String>
+    <system:String x:Key="Portal.ThemeCreate.Creating">创建中</system:String>
 
     <system:String x:Key="Portal.ThemeCreate.Gif">Gif 主题</system:String>
     <system:String x:Key="Portal.ThemeCreate.Gif.Description">创建您自己的 Gif 主题。</system:String>

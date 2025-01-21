@@ -21,7 +21,8 @@ namespace Sucrose.Localizer.Helper
             Console.WriteLine("4. Convert POEditor files to CSV files");
             Console.WriteLine("5. Check the CSV files against each other");
             Console.WriteLine("6. Check the POEditor files against each other");
-            Console.WriteLine("7. Create a new language file from CSV files");
+            Console.WriteLine("7. CSV files reindexer from CSV file");
+            Console.WriteLine("8. Create a new language file from CSV files");
 
             Console.WriteLine();
 
@@ -97,6 +98,19 @@ namespace Sucrose.Localizer.Helper
                     SLHA.CheckPoe(poeDirectory);
                     break;
                 case "7":
+                    Console.Write("Location of CSV files: ");
+                    csvDirectory = Console.ReadLine();
+
+                    Console.WriteLine();
+
+                    Console.Write("Reindexer language (EN): ");
+                    string reindexerLang = Console.ReadLine();
+
+                    Console.WriteLine();
+
+                    SLHA.ReindexCsv(csvDirectory, reindexerLang);
+                    break;
+                case "8":
                     Console.Write("Location of CSV files: ");
                     csvDirectory = Console.ReadLine();
 

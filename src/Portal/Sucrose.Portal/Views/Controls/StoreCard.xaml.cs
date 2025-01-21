@@ -185,7 +185,7 @@ namespace Sucrose.Portal.Views.Controls
                 {
                     SSSHC.Folder(TemporaryPath, LibraryPath);
 
-                    SSSHF.Write(Path.Combine(LibraryPath, SMMRC.SucroseStore), string.Empty);
+                    SSSHF.WriteStream(Path.Combine(LibraryPath, SMMRC.SucroseStore), string.Empty);
 
                     if ((!SMMB.ClosePerformance && !SMMB.PausePerformance) || !SSSHP.Work(SSSMI.Backgroundog))
                     {

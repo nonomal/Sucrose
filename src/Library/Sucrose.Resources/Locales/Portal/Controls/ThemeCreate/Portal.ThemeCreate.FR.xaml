@@ -3,8 +3,10 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:system="clr-namespace:System;assembly=mscorlib">
     <system:String x:Key="Portal.ThemeCreate.Title">Créer un Thème</system:String>
-    <system:String x:Key="Portal.ThemeCreate.Create">Créer</system:String>
+
     <system:String x:Key="Portal.ThemeCreate.Close">Fermer</system:String>
+    <system:String x:Key="Portal.ThemeCreate.Create">Créer</system:String>
+    <system:String x:Key="Portal.ThemeCreate.Creating">Création</system:String>
 
     <system:String x:Key="Portal.ThemeCreate.Gif">Thème Gif</system:String>
     <system:String x:Key="Portal.ThemeCreate.Gif.Description">Créez votre propre thème au format Gif.</system:String>

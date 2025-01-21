@@ -2,6 +2,7 @@
 using SharpCompress.Common;
 using System.IO;
 using SSDECT = Sucrose.Shared.Dependency.Enum.CompatibilityType;
+using SSSHF = Sucrose.Shared.Space.Helper.Filing;
 
 namespace Sucrose.Shared.SevenZip.Extension
 {
@@ -39,7 +40,7 @@ namespace Sucrose.Shared.SevenZip.Extension
             {
                 if (File.Exists(Destination))
                 {
-                    File.Delete(Destination);
+                    SSSHF.Delete(Destination);
                 }
 
                 using IWritableArchive Archiver = ArchiveFactory.Create(ArchiveType.SevenZip);

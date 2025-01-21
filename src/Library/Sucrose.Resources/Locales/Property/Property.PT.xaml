@@ -23,15 +23,35 @@
     <system:String x:Key="Property.FileDropDown.Access.Title">Aviso de Acesso</system:String>
     <system:String x:Key="Property.FileDropDown.Access.Message">Você não tem permissão para acessar o arquivo selecionado.</system:String>
 
+    <system:String x:Key="Property.Localization.WebView">Apenas para WebView</system:String>
+    <system:String x:Key="Property.Localization.CefSharp">Apenas para CefSharp</system:String>
     <system:String x:Key="Property.Localization.MpvPlayer">Apenas para MpvPlayer</system:String>
 
     <system:String x:Key="Property.Localization.Speed">Velocidade</system:String>
     <system:String x:Key="Property.Localization.Gamma">Gama</system:String>
     <system:String x:Key="Property.Localization.Mute">Mudo</system:String>
+    <system:String x:Key="Property.Localization.Sepia">Sépia</system:String>
     <system:String x:Key="Property.Localization.Hue">Matiz</system:String>
+    <system:String x:Key="Property.Localization.Mirror">Espelhamento</system:String>
+    <system:String x:Key="Property.Localization.Blur">Desfoque</system:String>
     <system:String x:Key="Property.Localization.Contrast">Contraste</system:String>
+    <system:String x:Key="Property.Localization.Invert">Inverter</system:String>
     <system:String x:Key="Property.Localization.Zoom">Zoom</system:String>
+    <system:String x:Key="Property.Localization.Animation">Animação</system:String>
     <system:String x:Key="Property.Localization.Sharpness">Nitidez</system:String>
     <system:String x:Key="Property.Localization.Saturation">Saturação</system:String>
     <system:String x:Key="Property.Localization.Brightness">Brilho</system:String>
+    <system:String x:Key="Property.Localization.Grayscale">Escala de Cinza</system:String>
+
+    <system:String x:Key="Property.Localization.Mirror.Flat">Plano</system:String>
+    <system:String x:Key="Property.Localization.Mirror.Vertical">Vertical</system:String>
+    <system:String x:Key="Property.Localization.Mirror.Horizontal">Horizontal</system:String>
+    <system:String x:Key="Property.Localization.Mirror.VerticalHorizontal">Vertical e Horizontal</system:String>
+
+    <system:String x:Key="Property.Localization.Animation.Flat">Plano</system:String>
+    <system:String x:Key="Property.Localization.Animation.Flip">Virar</system:String>
+    <system:String x:Key="Property.Localization.Animation.Pulse">Pulso</system:String>
+    <system:String x:Key="Property.Localization.Animation.Shake">Sacudir</system:String>
+    <system:String x:Key="Property.Localization.Animation.Bounce">Pular</system:String>
+    <system:String x:Key="Property.Localization.Animation.Wiggle">Mexer</system:String>
 </ResourceDictionary>

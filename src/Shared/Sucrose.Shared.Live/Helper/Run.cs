@@ -1,12 +1,14 @@
 ﻿using System.IO;
 using SHV = Skylark.Helper.Versionly;
 using SMMB = Sucrose.Manager.Manage.Backgroundog;
+using SMME = Sucrose.Manager.Manage.Engine;
 using SMML = Sucrose.Manager.Manage.Library;
 using SMMRC = Sucrose.Memory.Manage.Readonly.Content;
 using SMMRG = Sucrose.Memory.Manage.Readonly.General;
 using SSDECT = Sucrose.Shared.Dependency.Enum.CommandType;
 using SSDEWT = Sucrose.Shared.Dependency.Enum.WallpaperType;
 using SSDMME = Sucrose.Shared.Dependency.Manage.Manager.Engine;
+using SSSHB = Sucrose.Shared.Space.Helper.Background;
 using SSSHP = Sucrose.Shared.Space.Helper.Processor;
 using SSSMI = Sucrose.Shared.Space.Manage.Internal;
 using SSTHI = Sucrose.Shared.Theme.Helper.Info;
@@ -29,6 +31,11 @@ namespace Sucrose.Shared.Live.Helper
                     if (Info.AppVersion.CompareTo(SHV.Entry()) <= 0)
                     {
                         SWUD.RefreshDesktop();
+
+                        if (SMME.BackgroundImage)
+                        {
+                            SSSHB.SetWallpaper(Path.Combine(SMML.Location, SMML.Selected, Info.Thumbnail));
+                        }
 
                         if (SMMB.PerformanceCounter)
                         {

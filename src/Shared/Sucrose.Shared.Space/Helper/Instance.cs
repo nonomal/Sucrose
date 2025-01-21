@@ -41,7 +41,7 @@ namespace Sucrose.Shared.Space.Helper
 
         public static bool Single(string Name, string Application)
         {
-#if NET6_0_OR_GREATER
+#if NET8_0_OR_GREATER
             return SWUSI.IsAppMutexRunning(Name) && SSSHP.WorkCount(Application) <= 1;
 #else
             _Mutex = new(true, Name);

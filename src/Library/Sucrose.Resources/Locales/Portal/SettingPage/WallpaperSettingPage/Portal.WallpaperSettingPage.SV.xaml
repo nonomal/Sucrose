@@ -19,11 +19,17 @@
     <system:String x:Key="Portal.WallpaperSettingPage.StretchMode">Storlägesmetod</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.StretchMode.Description">Ändrar skalningsmetoden för stödda tapeter.</system:String>
 
+    <system:String x:Key="Portal.WallpaperSettingPage.StayAwake">Håll dig Vaken</system:String>
+    <system:String x:Key="Portal.WallpaperSettingPage.StayAwake.Description">Ändrar vakenstatus för stödda tapeter.</system:String>
+
     <system:String x:Key="Portal.WallpaperSettingPage.LoopMode">Loopläge</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.LoopMode.Description">Ändrar upprepningssättet för stödda tapeter.</system:String>
 
     <system:String x:Key="Portal.WallpaperSettingPage.ShuffleMode">Blandningsläge</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.ShuffleMode.Description">Ändrar blandningsläge för stödda tapeter.</system:String>
+
+    <system:String x:Key="Portal.WallpaperSettingPage.BackgroundImage">Bakgrundsbild</system:String>
+    <system:String x:Key="Portal.WallpaperSettingPage.BackgroundImage.Description">Ändrar det levande tapeten till en skrivbordsbakgrundsbild.</system:String>
 
     <system:String x:Key="Portal.WallpaperSettingPage.HardwareAcceleration">Hårdvaruacceleration</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.HardwareAcceleration.Description">Ändrar hårdvaruaccelerationsstatus för stödda bakgrundsbilder.</system:String>

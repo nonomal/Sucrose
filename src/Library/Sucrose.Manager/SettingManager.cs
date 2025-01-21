@@ -48,7 +48,7 @@ namespace Sucrose.Manager
                 {
                     if (File.GetLastWriteTime(_settingsFilePath) > _lastWrite)
                     {
-                        string json = SMHR.Read(_settingsFilePath);
+                        string json = SMHR.ReadStream(_settingsFilePath);
 
                         _settings = JsonConvert.DeserializeObject<Settings>(json, _serializerSettings);
 
@@ -74,7 +74,7 @@ namespace Sucrose.Manager
                 {
                     if (File.GetLastWriteTime(_settingsFilePath) > _lastWrite)
                     {
-                        string json = SMHR.Read(_settingsFilePath);
+                        string json = SMHR.ReadStream(_settingsFilePath);
 
                         _settings = JsonConvert.DeserializeObject<Settings>(json, _serializerSettings);
 
@@ -100,7 +100,7 @@ namespace Sucrose.Manager
                 {
                     if (File.GetLastWriteTime(_settingsFilePath) > _lastWrite)
                     {
-                        string json = SMHR.Read(_settingsFilePath);
+                        string json = SMHR.ReadStream(_settingsFilePath);
 
                         _settings = JsonConvert.DeserializeObject<Settings>(json, _serializerSettings);
 
@@ -132,8 +132,7 @@ namespace Sucrose.Manager
             {
                 if (CheckFile())
                 {
-                    string json = SMHR.Read(_settingsFilePath);
-                    _settings = JsonConvert.DeserializeObject<Settings>(json, _serializerSettings);
+                    _settings = JsonConvert.DeserializeObject<Settings>(ReadSetting(), _serializerSettings);
                 }
                 else
                 {
@@ -145,7 +144,7 @@ namespace Sucrose.Manager
                     _settings.Properties[pair.Key] = ConvertToType<T>(pair.Value);
                 }
 
-                SMHW.Write(_settingsFilePath, JsonConvert.SerializeObject(_settings, _serializerSettings));
+                SMHW.WriteStream(_settingsFilePath, JsonConvert.SerializeObject(_settings, _serializerSettings));
 
                 _lastWrite = DateTime.Now;
             }
@@ -156,7 +155,7 @@ namespace Sucrose.Manager
         {
             try
             {
-                return SMHR.Read(_settingsFilePath);
+                return SMHR.ReadStream(_settingsFilePath);
             }
             catch
             {
@@ -170,7 +169,7 @@ namespace Sucrose.Manager
             {
                 _settings = new();
 
-                SMHW.Write(_settingsFilePath, JsonConvert.SerializeObject(_settings, _serializerSettings));
+                SMHW.WriteStream(_settingsFilePath, JsonConvert.SerializeObject(_settings, _serializerSettings));
 
                 _lastWrite = DateTime.Now;
             }
@@ -207,11 +206,9 @@ namespace Sucrose.Manager
                     {
                         _settings = JsonConvert.DeserializeObject<Settings>(json, _serializerSettings);
 
-                        _lastWrite = DateTime.Now;
-
                         if (_settings != null && _settings.Properties != null)
                         {
-                            return;
+                            _lastWrite = DateTime.Now;
                         }
                         else
                         {

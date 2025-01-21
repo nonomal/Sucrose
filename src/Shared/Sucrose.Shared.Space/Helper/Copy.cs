@@ -1,4 +1,5 @@
 ﻿using System.IO;
+using SSSHF = Sucrose.Shared.Space.Helper.Filing;
 
 namespace Sucrose.Shared.Space.Helper
 {
@@ -19,7 +20,7 @@ namespace Sucrose.Shared.Space.Helper
                     {
                         string DestinationFile = Path.Combine(Destination, Path.GetFileName(Record));
 
-                        File.Copy(Record, DestinationFile, true);
+                        SSSHF.CopyBuffer(Record, DestinationFile);
                     }
                 }
 

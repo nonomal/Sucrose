@@ -3,8 +3,10 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:system="clr-namespace:System;assembly=mscorlib">
     <system:String x:Key="Portal.ThemeCreate.Title">Ciptaan Tema</system:String>
-    <system:String x:Key="Portal.ThemeCreate.Create">Cipta</system:String>
+
     <system:String x:Key="Portal.ThemeCreate.Close">Tutup</system:String>
+    <system:String x:Key="Portal.ThemeCreate.Create">Cipta</system:String>
+    <system:String x:Key="Portal.ThemeCreate.Creating">Sedang dicipta</system:String>
 
     <system:String x:Key="Portal.ThemeCreate.Gif">Tema Gif</system:String>
     <system:String x:Key="Portal.ThemeCreate.Gif.Description">Sendiri cipta tema jenis Gif anda.</system:String>

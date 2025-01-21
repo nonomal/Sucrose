@@ -1,6 +1,7 @@
 ﻿using CefSharp;
 using CefSharp.Wpf.HwndHost;
 using Microsoft.Win32;
+using System.Collections;
 using System.Diagnostics;
 using System.Globalization;
 using System.IO;
@@ -27,14 +28,18 @@ using SMMW = Sucrose.Manager.Manage.Warehouse;
 using SRER = Sucrose.Resources.Extension.Resources;
 using SRHR = Sucrose.Resources.Helper.Resources;
 using SSDEDT = Sucrose.Shared.Dependency.Enum.DialogType;
+using SSDEPT = Sucrose.Shared.Dependency.Enum.PropertiesType;
 using SSDEWT = Sucrose.Shared.Dependency.Enum.WallpaperType;
 using SSDMMG = Sucrose.Shared.Dependency.Manage.Manager.General;
+using SSECSHP = Sucrose.Shared.Engine.CefSharp.Helper.Properties;
+using SSECSMI = Sucrose.Shared.Engine.CefSharp.Manage.Internal;
 using SSECSVG = Sucrose.Shared.Engine.CefSharp.View.Gif;
 using SSECSVU = Sucrose.Shared.Engine.CefSharp.View.Url;
 using SSECSVV = Sucrose.Shared.Engine.CefSharp.View.Video;
 using SSECSVW = Sucrose.Shared.Engine.CefSharp.View.Web;
 using SSECSVYT = Sucrose.Shared.Engine.CefSharp.View.YouTube;
 using SSEELHS = Sucrose.Shared.Engine.Extension.LocalHttpServer;
+using SSEHA = Sucrose.Shared.Engine.Helper.Awakening;
 using SSEHC = Sucrose.Shared.Engine.Helper.Cycyling;
 using SSEHP = Sucrose.Shared.Engine.Helper.Properties;
 using SSEHR = Sucrose.Shared.Engine.Helper.Run;
@@ -43,6 +48,7 @@ using SSEVDMB = Sucrose.Shared.Engine.View.DarkMessageBox;
 using SSEVLMB = Sucrose.Shared.Engine.View.LightMessageBox;
 using SSLHK = Sucrose.Shared.Live.Helper.Kill;
 using SSSHC = Sucrose.Shared.Space.Helper.Cycyling;
+using SSSHF = Sucrose.Shared.Space.Helper.Filing;
 using SSSHI = Sucrose.Shared.Space.Helper.Instance;
 using SSSHS = Sucrose.Shared.Space.Helper.Security;
 using SSSHWG = Sucrose.Shared.Space.Helper.Watchdog;
@@ -53,6 +59,7 @@ using SSTHI = Sucrose.Shared.Theme.Helper.Info;
 using SSTHP = Sucrose.Shared.Theme.Helper.Properties;
 using SSTHV = Sucrose.Shared.Theme.Helper.Various;
 using SSWEW = Sucrose.Shared.Watchdog.Extension.Watch;
+using SSWHD = Sucrose.Shared.Watchdog.Helper.Dataset;
 
 namespace Sucrose.Live.CefSharp
 {
@@ -188,6 +195,13 @@ namespace Sucrose.Live.CefSharp
 
         protected void Checker()
         {
+            SSWHD.Add("CefSharp Checker", new Hashtable()
+            {
+                { "Check", Check() },
+                { "CefSharp Time", SMMW.CefSharpTime },
+                { "CefSharp Time Check", SMMW.CefSharpTime > DateTime.Now }
+            });
+
             if (Check() || SMMW.CefSharpTime > DateTime.Now)
             {
                 Configure();
@@ -224,6 +238,8 @@ namespace Sucrose.Live.CefSharp
                         break;
                 }
 
+                SSWHD.Add("CefSharp Dialog Result", $"{DialogResult}");
+
                 switch (DialogResult)
                 {
                     case SSDEDT.Continue:
@@ -258,6 +274,7 @@ namespace Sucrose.Live.CefSharp
             if (SMMI.LibrarySettingManager.CheckFile() && !string.IsNullOrEmpty(SSEMI.LibrarySelected))
             {
                 SSEMI.InfoPath = Path.Combine(SSEMI.LibraryLocation, SSEMI.LibrarySelected, SMMRC.SucroseInfo);
+                SSECSMI.CefPath = Path.Combine(SMMRP.ApplicationData, SMMRG.AppName, SMMRF.Cache, SMMRF.CefSharp);
                 SSEMI.CompatiblePath = Path.Combine(SSEMI.LibraryLocation, SSEMI.LibrarySelected, SMMRC.SucroseCompatible);
                 SSEMI.PropertiesPath = Path.Combine(SSEMI.LibraryLocation, SSEMI.LibrarySelected, SMMRC.SucroseProperties);
 
@@ -276,10 +293,10 @@ namespace Sucrose.Live.CefSharp
                         CefSettings Settings = new()
                         {
                             UserAgent = SMMG.UserAgent,
+                            CachePath = SSECSMI.CefPath,
                             PersistSessionCookies = true,
                             IgnoreCertificateErrors = true,
-                            WindowlessRenderingEnabled = true,
-                            CachePath = Path.Combine(SMMRP.ApplicationData, SMMRG.AppName, SMMRF.Cache, SMMRF.CefSharp)
+                            WindowlessRenderingEnabled = true
                         };
 
                         SSEMI.BrowserSettings.CefSharp = SMME.CefArguments;
@@ -397,13 +414,24 @@ namespace Sucrose.Live.CefSharp
                         {
                             SSSHS.Apply();
 
+                            SSEHA.Start();
+
                             SSEHC.Start();
+
+                            if (SSEMI.Info.Type is SSDEWT.Gif or SSDEWT.Video or SSDEWT.YouTube)
+                            {
+                                SSECSHP.Start();
+                            }
+                            else
+                            {
+                                SSEMI.PropertiesType = SSDEPT.Base;
+                            }
 
                             if (File.Exists(SSEMI.PropertiesPath))
                             {
                                 SSEMI.PropertiesCache = Path.Combine(SMMRP.ApplicationData, SMMRG.AppName, SMMRF.Cache, SMMRF.Properties);
-                                SSEMI.PropertiesFile = Path.Combine(SSEMI.PropertiesCache, $"{SSEMI.LibrarySelected}.json");
-                                SSEMI.WatcherFile = Path.Combine(SSEMI.PropertiesCache, $"*.{SSEMI.LibrarySelected}.json");
+                                SSEMI.PropertiesFile = Path.Combine(SSEMI.PropertiesCache, $"{SSEMI.LibrarySelected}{SSEMI.PropertiesType}");
+                                SSEMI.WatcherFile = Path.Combine(SSEMI.PropertiesCache, $"*.{SSEMI.LibrarySelected}{SSEMI.PropertiesType}");
 
                                 if (!Directory.Exists(SSEMI.PropertiesCache))
                                 {
@@ -412,7 +440,7 @@ namespace Sucrose.Live.CefSharp
 
                                 if (!File.Exists(SSEMI.PropertiesFile))
                                 {
-                                    File.Copy(SSEMI.PropertiesPath, SSEMI.PropertiesFile, true);
+                                    SSSHF.CopyBuffer(SSEMI.PropertiesPath, SSEMI.PropertiesFile);
                                 }
 
                                 try
@@ -421,13 +449,13 @@ namespace Sucrose.Live.CefSharp
                                 }
                                 catch (NotSupportedException Ex)
                                 {
-                                    File.Delete(SSEMI.PropertiesFile);
+                                    SSSHF.Delete(SSEMI.PropertiesFile);
 
                                     throw new NotSupportedException(Ex.Message);
                                 }
                                 catch (Exception Ex)
                                 {
-                                    File.Delete(SSEMI.PropertiesFile);
+                                    SSSHF.Delete(SSEMI.PropertiesFile);
 
                                     throw new Exception(Ex.Message, Ex.InnerException);
                                 }
@@ -448,6 +476,8 @@ namespace Sucrose.Live.CefSharp
                             Task.Run(() => LocalServer.StartAsync());
 
                             SSEMI.Host = LocalServer.GetUrl();
+
+                            SSECSMI.CefEngine = new();
 
                             switch (SSEMI.Info.Type)
                             {

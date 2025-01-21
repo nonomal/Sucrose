@@ -3,8 +3,10 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:system="clr-namespace:System;assembly=mscorlib">
     <system:String x:Key="Portal.ThemeCreate.Title">테마 생성</system:String>
-    <system:String x:Key="Portal.ThemeCreate.Create">생성</system:String>
+
     <system:String x:Key="Portal.ThemeCreate.Close">닫기</system:String>
+    <system:String x:Key="Portal.ThemeCreate.Create">생성</system:String>
+    <system:String x:Key="Portal.ThemeCreate.Creating">생성 중</system:String>
 
     <system:String x:Key="Portal.ThemeCreate.Gif">Gif 테마</system:String>
     <system:String x:Key="Portal.ThemeCreate.Gif.Description">Gif 형식의 테마를 만드세요.</system:String>

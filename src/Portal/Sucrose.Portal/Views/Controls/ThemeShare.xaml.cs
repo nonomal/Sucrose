@@ -27,6 +27,7 @@ using SSDESST = Sucrose.Shared.Dependency.Enum.StoreServerType;
 using SSDMMP = Sucrose.Shared.Dependency.Manage.Manager.Portal;
 using SSSEPS = Sucrose.Shared.Space.Extension.ProgressStream;
 using SSSHC = Sucrose.Shared.Space.Helper.Clean;
+using SSSHF = Sucrose.Shared.Space.Helper.Filing;
 using SSSHGHD = Sucrose.Shared.Store.Helper.GitHub.Download;
 using SSSHN = Sucrose.Shared.Space.Helper.Network;
 using SSSHS = Sucrose.Shared.Store.Helper.Store;
@@ -322,7 +323,7 @@ namespace Sucrose.Portal.Views.Controls
 
                     if (!string.IsNullOrEmpty(TempFile) && File.Exists(TempFile))
                     {
-                        File.Delete(TempFile);
+                        SSSHF.Delete(TempFile);
                     }
 
                     Publish.IsEnabled = true;

@@ -91,7 +91,7 @@ namespace Sucrose.Launcher
 
         protected void Close()
         {
-            SMMI.LauncherLogManager.Log(SELLT.Info, $"Application has been closed.");
+            SMMI.LauncherLogManager.Log(SELLT.Info, "Application has been closed.");
 
             Environment.Exit(0);
             Current.Shutdown();

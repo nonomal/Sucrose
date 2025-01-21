@@ -20,6 +20,7 @@ using SSDEVET = Sucrose.Shared.Dependency.Enum.VideoEngineType;
 using SSDEWET = Sucrose.Shared.Dependency.Enum.WebEngineType;
 using SSDEYTET = Sucrose.Shared.Dependency.Enum.YouTubeEngineType;
 using SSDMME = Sucrose.Shared.Dependency.Manage.Manager.Engine;
+using SSSHB = Sucrose.Shared.Space.Helper.Background;
 using SWUD = Skylark.Wing.Utility.Desktop;
 using TextBlock = System.Windows.Controls.TextBlock;
 
@@ -206,6 +207,28 @@ namespace Sucrose.Portal.ViewModels.Pages
 
             Contents.Add(StretchMode);
 
+            SPVCEC StayAwake = new()
+            {
+                Margin = new Thickness(0, 10, 0, 0),
+                Expandable = false
+            };
+
+            StayAwake.LeftIcon.Symbol = SymbolRegular.DrinkCoffee24;
+            StayAwake.Title.Text = SRER.GetValue("Portal", "WallpaperSettingPage", "StayAwake");
+            StayAwake.Description.Text = SRER.GetValue("Portal", "WallpaperSettingPage", "StayAwake", "Description");
+
+            ToggleSwitch StayAwakeState = new()
+            {
+                IsChecked = SMME.StayAwake
+            };
+
+            StayAwakeState.Checked += (s, e) => StayAwakeStateChecked(true);
+            StayAwakeState.Unchecked += (s, e) => StayAwakeStateChecked(false);
+
+            StayAwake.HeaderFrame = StayAwakeState;
+
+            Contents.Add(StayAwake);
+
             SPVCEC LoopMode = new()
             {
                 Margin = new Thickness(0, 10, 0, 0),
@@ -249,6 +272,28 @@ namespace Sucrose.Portal.ViewModels.Pages
             ShuffleMode.HeaderFrame = ShuffleState;
 
             Contents.Add(ShuffleMode);
+
+            SPVCEC BackgroundImage = new()
+            {
+                Margin = new Thickness(0, 10, 0, 0),
+                Expandable = false
+            };
+
+            BackgroundImage.LeftIcon.Symbol = SymbolRegular.ImageCopy24;
+            BackgroundImage.Title.Text = SRER.GetValue("Portal", "WallpaperSettingPage", "BackgroundImage");
+            BackgroundImage.Description.Text = SRER.GetValue("Portal", "WallpaperSettingPage", "BackgroundImage", "Description");
+
+            ToggleSwitch BackgroundState = new()
+            {
+                IsChecked = SMME.BackgroundImage
+            };
+
+            BackgroundState.Checked += (s, e) => BackgroundStateChecked(true);
+            BackgroundState.Unchecked += (s, e) => BackgroundStateChecked(false);
+
+            BackgroundImage.HeaderFrame = BackgroundState;
+
+            Contents.Add(BackgroundImage);
 
             SPVCEC HardwareAcceleration = new()
             {
@@ -507,6 +552,27 @@ namespace Sucrose.Portal.ViewModels.Pages
         private void ShuffleStateChecked(bool State)
         {
             SMMI.EngineSettingManager.SetSetting(SMMCE.WallpaperShuffle, State);
+        }
+
+        private void StayAwakeStateChecked(bool State)
+        {
+            SMMI.EngineSettingManager.SetSetting(SMMCE.StayAwake, State);
+        }
+
+        private void BackgroundStateChecked(bool State)
+        {
+            SSSHB.SetSetting();
+
+            if (State)
+            {
+                SSSHB.SetWallpaper();
+            }
+            else
+            {
+                SSSHB.ResetDefault();
+            }
+
+            SMMI.EngineSettingManager.SetSetting(SMMCE.BackgroundImage, State);
         }
 
         private void InputModuleTypeSelected(int Index)

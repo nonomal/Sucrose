@@ -8,11 +8,11 @@ namespace Sucrose.Pipe.Helper
         private NamedPipeServerStream _pipeServer;
         private StreamReader _reader;
 
-        public bool IsConnected => _pipeServer.IsConnected;
+        public bool IsConnected => _pipeServer?.IsConnected ?? false;
 
         public void Start(string pipeName, EventHandler<SPEMREA> eventHandler)
         {
-            _pipeServer = new(pipeName, PipeDirection.In);
+            _pipeServer = new(pipeName, PipeDirection.In, 10, PipeTransmissionMode.Byte, PipeOptions.Asynchronous);
 
             _pipeServer.WaitForConnection();
 
@@ -38,15 +38,8 @@ namespace Sucrose.Pipe.Helper
 
         public void Dispose()
         {
-            if (_pipeServer != null)
-            {
-                _pipeServer.Dispose();
-            }
-
-            if (_reader != null)
-            {
-                _reader.Dispose();
-            }
+            _pipeServer?.Dispose();
+            _reader?.Dispose();
         }
     }
 }

@@ -19,11 +19,17 @@
     <system:String x:Key="Portal.WallpaperSettingPage.StretchMode">拉伸模式</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.StretchMode.Description">更改支持的壁纸的缩放方式。</system:String>
 
+    <system:String x:Key="Portal.WallpaperSettingPage.StayAwake">保持清醒</system:String>
+    <system:String x:Key="Portal.WallpaperSettingPage.StayAwake.Description">更改支持壁纸的保持清醒状态。</system:String>
+
     <system:String x:Key="Portal.WallpaperSettingPage.LoopMode">循环模式</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.LoopMode.Description">更改支持的壁纸的循环方式。</system:String>
 
     <system:String x:Key="Portal.WallpaperSettingPage.ShuffleMode">随机播放模式</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.ShuffleMode.Description">更改支持的壁纸的随机播放方式。</system:String>
+
+    <system:String x:Key="Portal.WallpaperSettingPage.BackgroundImage">背景图片</system:String>
+    <system:String x:Key="Portal.WallpaperSettingPage.BackgroundImage.Description">将动态壁纸更改为桌面背景图片。</system:String>
 
     <system:String x:Key="Portal.WallpaperSettingPage.HardwareAcceleration">硬件加速</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.HardwareAcceleration.Description">更改支持的壁纸的硬件加速状态。</system:String>

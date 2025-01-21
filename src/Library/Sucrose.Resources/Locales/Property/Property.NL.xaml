@@ -23,15 +23,35 @@
     <system:String x:Key="Property.FileDropDown.Access.Title">Toegangswaarschuwing</system:String>
     <system:String x:Key="Property.FileDropDown.Access.Message">U heeft geen toestemming om toegang te krijgen tot het geselecteerde bestand.</system:String>
 
+    <system:String x:Key="Property.Localization.WebView">Alleen voor WebView</system:String>
+    <system:String x:Key="Property.Localization.CefSharp">Alleen voor CefSharp</system:String>
     <system:String x:Key="Property.Localization.MpvPlayer">Alleen voor MpvPlayer</system:String>
 
     <system:String x:Key="Property.Localization.Speed">Snelheid</system:String>
     <system:String x:Key="Property.Localization.Gamma">Gamma</system:String>
     <system:String x:Key="Property.Localization.Mute">Dempen</system:String>
+    <system:String x:Key="Property.Localization.Sepia">Sepia</system:String>
     <system:String x:Key="Property.Localization.Hue">Tint</system:String>
+    <system:String x:Key="Property.Localization.Mirror">Spiegelen</system:String>
+    <system:String x:Key="Property.Localization.Blur">Vervaging</system:String>
     <system:String x:Key="Property.Localization.Contrast">Contrasteren</system:String>
+    <system:String x:Key="Property.Localization.Invert">Inverteren</system:String>
     <system:String x:Key="Property.Localization.Zoom">Zoom</system:String>
+    <system:String x:Key="Property.Localization.Animation">Animatie</system:String>
     <system:String x:Key="Property.Localization.Sharpness">Scherpte</system:String>
     <system:String x:Key="Property.Localization.Saturation">Verzadiging</system:String>
     <system:String x:Key="Property.Localization.Brightness">Helderheid</system:String>
+    <system:String x:Key="Property.Localization.Grayscale">Grijstinten</system:String>
+
+    <system:String x:Key="Property.Localization.Mirror.Flat">Vlak</system:String>
+    <system:String x:Key="Property.Localization.Mirror.Vertical">Verticaal</system:String>
+    <system:String x:Key="Property.Localization.Mirror.Horizontal">Horizontaal</system:String>
+    <system:String x:Key="Property.Localization.Mirror.VerticalHorizontal">Verticaal en Horizontaal</system:String>
+
+    <system:String x:Key="Property.Localization.Animation.Flat">Plat</system:String>
+    <system:String x:Key="Property.Localization.Animation.Flip">Flippen</system:String>
+    <system:String x:Key="Property.Localization.Animation.Pulse">Pulse</system:String>
+    <system:String x:Key="Property.Localization.Animation.Shake">Schudden</system:String>
+    <system:String x:Key="Property.Localization.Animation.Bounce">Stuiteren</system:String>
+    <system:String x:Key="Property.Localization.Animation.Wiggle">Wiebelen</system:String>
 </ResourceDictionary>

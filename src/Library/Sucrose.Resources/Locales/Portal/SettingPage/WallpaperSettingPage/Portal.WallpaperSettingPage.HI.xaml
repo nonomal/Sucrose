@@ -19,11 +19,17 @@
     <system:String x:Key="Portal.WallpaperSettingPage.StretchMode">स्ट्रेच मोड</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.StretchMode.Description">समर्थित वॉलपेपरों की स्केलिंग मोड को बदलता है।</system:String>
 
+    <system:String x:Key="Portal.WallpaperSettingPage.StayAwake">जागे रहें</system:String>
+    <system:String x:Key="Portal.WallpaperSettingPage.StayAwake.Description">समर्थित वॉलपेपर के लिए जागे रहने की स्थिति बदलता है।</system:String>
+
     <system:String x:Key="Portal.WallpaperSettingPage.LoopMode">लूप मोड</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.LoopMode.Description">समर्थित वॉलपेपरों की लूप मोड को बदलता है।</system:String>
 
     <system:String x:Key="Portal.WallpaperSettingPage.ShuffleMode">शफल मोड</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.ShuffleMode.Description">समर्थित वॉलपेपरों की शफल मोड को बदलता है।</system:String>
+
+    <system:String x:Key="Portal.WallpaperSettingPage.BackgroundImage">पृष्ठभूमि छवि</system:String>
+    <system:String x:Key="Portal.WallpaperSettingPage.BackgroundImage.Description">लाइव वॉलपेपर को डेस्कटॉप पृष्ठभूमि छवि में बदलता है।</system:String>
 
     <system:String x:Key="Portal.WallpaperSettingPage.HardwareAcceleration">हार्डवेयर एक्सेलेरेशन</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.HardwareAcceleration.Description">समर्थित वॉलपेपर के लिए हार्डवेयर एक्सेलेरेशन की स्थिति बदलता है।</system:String>

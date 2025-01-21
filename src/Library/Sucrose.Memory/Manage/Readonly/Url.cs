@@ -15,11 +15,11 @@ namespace Sucrose.Memory.Manage.Readonly
 
         public static readonly string SoferityStore = $"{Soferity}/{SMMRS.StoreDirectory}";
 
+        public static readonly string OfficialWebPage = "https://taiizor.github.io/Sucrose";
+
         public static readonly string GitHubStore = $"{GitHub}/{SMMRGH.Owner}/{SMMRGH.StoreRepository}";
 
         public static readonly string GitHubSucrose = $"{GitHub}/{SMMRGH.Owner}/{SMMRGH.SucroseRepository}";
-
-        public static readonly string OfficialWebPage = $"{GitHub}/{SMMRGH.Owner}/{SMMRGH.SucroseRepository}";
 
         public static readonly string YouTubePersonalAccessToken = "https://www.youtube.com/watch?v=kRyML8axJxA";
 

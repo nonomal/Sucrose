@@ -13,17 +13,23 @@
 
     <system:String x:Key="Portal.WallpaperSettingPage.InputMode.DesktopIcon">Nascondi per evitare la selezione accidentale delle icone del desktop</system:String>
 
-    <system:String x:Key="Portal.WallpaperSettingPage.ScreenLayout">Layout dello Schermo</system:String>
+    <system:String x:Key="Portal.WallpaperSettingPage.ScreenLayout">Layout Dello Schermo</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.ScreenLayout.Description">Modifica il layout dei tuoi sfondi sullo schermo.</system:String>
 
     <system:String x:Key="Portal.WallpaperSettingPage.StretchMode">Metodo di Ridimensionamento</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.StretchMode.Description">Modifica il modo in cui vengono ridimensionati gli sfondi supportati.</system:String>
+
+    <system:String x:Key="Portal.WallpaperSettingPage.StayAwake">Rimani Sveglio</system:String>
+    <system:String x:Key="Portal.WallpaperSettingPage.StayAwake.Description">Modifica lo stato di restare sveglio per gli sfondi supportati.</system:String>
 
     <system:String x:Key="Portal.WallpaperSettingPage.LoopMode">Modalità di Riproduzione in Loop</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.LoopMode.Description">Modifica la modalità di riproduzione in loop degli sfondi supportati.</system:String>
 
     <system:String x:Key="Portal.WallpaperSettingPage.ShuffleMode">Modalità di Riproduzione Casuale</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.ShuffleMode.Description">Modifica la modalità di riproduzione casuale degli sfondi supportati.</system:String>
+
+    <system:String x:Key="Portal.WallpaperSettingPage.BackgroundImage">Immagine di Sfondo</system:String>
+    <system:String x:Key="Portal.WallpaperSettingPage.BackgroundImage.Description">Cambia lo sfondo animato in un'immagine di sfondo per il desktop.</system:String>
 
     <system:String x:Key="Portal.WallpaperSettingPage.HardwareAcceleration">Accelerazione Hardware</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.HardwareAcceleration.Description">Modifica lo stato di accelerazione hardware per gli sfondi supportati.</system:String>

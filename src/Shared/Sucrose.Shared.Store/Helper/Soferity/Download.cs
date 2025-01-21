@@ -7,6 +7,7 @@ using SMMRS = Sucrose.Memory.Manage.Readonly.Soferity;
 using SMMRU = Sucrose.Memory.Manage.Readonly.Url;
 using SPMI = Sucrose.Portal.Manage.Internal;
 using SSDESST = Sucrose.Shared.Dependency.Enum.StoreServerType;
+using SSSHF = Sucrose.Shared.Space.Helper.Filing;
 using SSSHS = Sucrose.Shared.Store.Helper.Store;
 using SSSIC = Sucrose.Shared.Store.Interface.Contents;
 using SSSID = Sucrose.Shared.Store.Interface.Data;
@@ -32,7 +33,7 @@ namespace Sucrose.Shared.Store.Helper.Soferity
 
                     if (ElapsedDuration >= TimeSpan.FromHours(SMMP.StoreDuration) || !SSSHS.ReadCheck(Store))
                     {
-                        File.Delete(Store);
+                        SSSHF.Delete(Store);
                     }
                     else
                     {
@@ -89,7 +90,7 @@ namespace Sucrose.Shared.Store.Helper.Soferity
 
                     if (ElapsedDuration >= TimeSpan.FromHours(SMMP.StoreDuration) || !SSSHS.ReadCheck(Pattern))
                     {
-                        File.Delete(Pattern);
+                        SSSHF.Delete(Pattern);
                     }
                     else
                     {
@@ -147,8 +148,8 @@ namespace Sucrose.Shared.Store.Helper.Soferity
 
                     if (ElapsedDuration >= TimeSpan.FromHours(SMMP.StoreDuration))
                     {
-                        File.Delete(InfoPath);
-                        File.Delete(CoverPath);
+                        SSSHF.Delete(InfoPath);
+                        SSSHF.Delete(CoverPath);
 
                         SPMI.StoreDownloading[Theme] = false;
                     }
@@ -163,12 +164,12 @@ namespace Sucrose.Shared.Store.Helper.Soferity
                 {
                     if (File.Exists(InfoPath))
                     {
-                        File.Delete(InfoPath);
+                        SSSHF.Delete(InfoPath);
                     }
 
                     if (File.Exists(CoverPath))
                     {
-                        File.Delete(CoverPath);
+                        SSSHF.Delete(CoverPath);
                     }
 
                     SPMI.StoreDownloading[Theme] = false;

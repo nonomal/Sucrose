@@ -5,6 +5,7 @@ using SMMRG = Sucrose.Memory.Manage.Readonly.General;
 using SMMRP = Sucrose.Memory.Manage.Readonly.Path;
 using SSEVMI = Sucrose.Shared.Engine.Vexana.Manage.Internal;
 using SSEVSG = Sucrose.Shared.Engine.Vexana.Struct.Gif;
+using SSSHF = Sucrose.Shared.Space.Helper.Filing;
 
 namespace Sucrose.Shared.Engine.Vexana.Helper
 {
@@ -22,7 +23,7 @@ namespace Sucrose.Shared.Engine.Vexana.Helper
 
                 foreach (string Record in Files)
                 {
-                    File.Delete(Record);
+                    SSSHF.Delete(Record);
                 }
             }
             else
@@ -73,9 +74,9 @@ namespace Sucrose.Shared.Engine.Vexana.Helper
                     Frame.Save(OutputGifImage, ImageFormat.Png);
                 }
 
-                //File.Create(Path.Combine(CachePath, $"min_{Result.Min}"));
-                //File.Create(Path.Combine(CachePath, $"max_{Result.Max}"));
-                //File.Create(Path.Combine(CachePath, $"total_{Result.Total}"));
+                //SSSHF.Create(Path.Combine(CachePath, $"min_{Result.Min}"));
+                //SSSHF.Create(Path.Combine(CachePath, $"max_{Result.Max}"));
+                //SSSHF.Create(Path.Combine(CachePath, $"total_{Result.Total}"));
             }
 
             return Result;

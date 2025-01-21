@@ -1,5 +1,6 @@
 ﻿using CsvHelper;
 using System.Globalization;
+using SSECCE = Skylark.Standard.Extension.Cryptology.CryptologyExtension;
 
 namespace Sucrose.Localizer.Helper
 {
@@ -71,6 +72,9 @@ namespace Sucrose.Localizer.Helper
                 using (StreamWriter writer = new(outputFileName))
                 using (CsvWriter csv = new(writer, CultureInfo.InvariantCulture))
                 {
+                    int count = 0;
+
+                    csv.WriteField("Hash");
                     csv.WriteField("File");
                     csv.WriteField("Key");
                     csv.WriteField("Value");
@@ -81,6 +85,7 @@ namespace Sucrose.Localizer.Helper
 
                         string[] parts = entry.Split('⁞');
 
+                        csv.WriteField(SSECCE.TextToMD5($"{parts[0].Replace(languageCode, "")}.{(string.IsNullOrWhiteSpace(parts[1]) ? count++ : parts[1])}"));
                         csv.WriteField(parts[0]);
                         csv.WriteField(parts[1]);
                         csv.WriteField(parts[2]);
