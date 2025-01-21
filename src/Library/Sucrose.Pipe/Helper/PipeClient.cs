@@ -8,13 +8,18 @@ namespace Sucrose.Pipe.Helper
         private NamedPipeClientStream _pipeClient;
         private StreamWriter _writer;
 
-        public bool IsConnected => _pipeClient.IsConnected;
+        public bool IsConnected => _pipeClient?.IsConnected ?? false;
 
         public void Start(string pipeName)
         {
-            _pipeClient = new(SMMRG.PipeServerName, pipeName, PipeDirection.Out);
+            _pipeClient = new(SMMRG.PipeServerName, pipeName, PipeDirection.Out, PipeOptions.Asynchronous);
 
             _pipeClient.Connect();
+
+            _writer = new(_pipeClient)
+            {
+                AutoFlush = true
+            };
         }
 
         public void Stop()
@@ -39,24 +44,14 @@ namespace Sucrose.Pipe.Helper
 
             if (!string.IsNullOrEmpty(message))
             {
-                _writer = new(_pipeClient);
-
                 _writer.WriteLine(message);
-                _writer.Flush();
             }
         }
 
         public void Dispose()
         {
-            if (_pipeClient != null)
-            {
-                _pipeClient.Dispose();
-            }
-
-            if (_writer != null)
-            {
-                _writer.Dispose();
-            }
+            _pipeClient?.Dispose();
+            _writer?.Dispose();
         }
     }
 }
