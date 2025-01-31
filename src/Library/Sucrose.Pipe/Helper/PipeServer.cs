@@ -5,41 +5,95 @@ namespace Sucrose.Pipe.Helper
 {
     internal class PipeServer : IDisposable
     {
-        private NamedPipeServerStream _pipeServer;
+        private bool _isRunning;
         private StreamReader _reader;
+        private NamedPipeServerStream _pipeServer;
+        private readonly CancellationTokenSource _cancellationTokenSource = new();
 
         public bool IsConnected => _pipeServer?.IsConnected ?? false;
 
-        public void Start(string pipeName, EventHandler<SPEMREA> eventHandler)
+        public async Task Start(string pipeName, EventHandler<SPEMREA> eventHandler)
         {
+            _isRunning = true;
             _pipeServer = new(pipeName, PipeDirection.In, 10, PipeTransmissionMode.Byte, PipeOptions.Asynchronous);
 
-            _pipeServer.WaitForConnection();
-
-            while (IsConnected)
+            while (_isRunning && !_cancellationTokenSource.Token.IsCancellationRequested)
             {
-                _reader = new(_pipeServer);
-                string message = _reader.ReadLine();
-
-                if (!string.IsNullOrEmpty(message))
+                try
                 {
-                    eventHandler?.Invoke(this, new SPEMREA { Message = message });
+                    await _pipeServer.WaitForConnectionAsync(_cancellationTokenSource.Token);
+                    _reader = new(_pipeServer);
+
+                    while (IsConnected && !_cancellationTokenSource.Token.IsCancellationRequested)
+                    {
+                        string message = await _reader.ReadLineAsync();
+
+                        if (!string.IsNullOrWhiteSpace(message))
+                        {
+                            eventHandler?.Invoke(this, new SPEMREA { Message = message });
+                        }
+                    }
+                }
+                catch (OperationCanceledException)
+                {
+                    break;
+                }
+                catch (Exception)
+                {
+                    if (_pipeServer != null)
+                    {
+                        if (_pipeServer.IsConnected)
+                        {
+                            _pipeServer.Disconnect();
+                        }
+
+                        _pipeServer.Dispose();
+                        _pipeServer = new(pipeName, PipeDirection.In, 10, PipeTransmissionMode.Byte, PipeOptions.Asynchronous);
+                    }
                 }
             }
         }
 
-        public void Stop()
+        public async Task Stop()
         {
-            if (_pipeServer != null && IsConnected)
+            _isRunning = false;
+
+#if NET8_0_OR_GREATER
+            await _cancellationTokenSource.CancelAsync();
+#else
+            _cancellationTokenSource.Cancel();
+#endif
+
+            if (_reader != null)
             {
-                _pipeServer.Disconnect();
+                _reader.Dispose();
+                _reader = null;
+            }
+
+            if (_pipeServer != null)
+            {
+                if (_pipeServer.IsConnected)
+                {
+                    _pipeServer.Disconnect();
+                }
+
+#if NET8_0_OR_GREATER
+                await _pipeServer.DisposeAsync();
+#else
+                _pipeServer.Dispose();
+#endif
+
+                _pipeServer = null;
             }
         }
 
         public void Dispose()
         {
-            _pipeServer?.Dispose();
-            _reader?.Dispose();
+            _cancellationTokenSource.Cancel();
+
+            _ = Stop();
+
+            _cancellationTokenSource.Dispose();
         }
     }
 }

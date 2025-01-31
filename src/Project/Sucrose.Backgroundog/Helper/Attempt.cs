@@ -25,7 +25,7 @@ namespace Sucrose.Backgroundog.Helper
             }
 
             SBMI.Exit = false;
-            SBMI.Initialize.Stop();
+            await SBMI.Initialize.Stop();
 
             SMMI.BackgroundogSettingManager.SetSetting(new KeyValuePair<string, bool>[]
             {

@@ -5,16 +5,19 @@ namespace Sucrose.Pipe.Helper
 {
     internal class PipeClient : IDisposable
     {
-        private NamedPipeClientStream _pipeClient;
+        private bool _isConnected;
         private StreamWriter _writer;
+        private NamedPipeClientStream _pipeClient;
+        private readonly CancellationTokenSource _cancellationTokenSource = new();
 
         public bool IsConnected => _pipeClient?.IsConnected ?? false;
 
-        public void Start(string pipeName)
+        public async Task Start(string pipeName)
         {
             _pipeClient = new(SMMRG.PipeServerName, pipeName, PipeDirection.Out, PipeOptions.Asynchronous);
 
-            _pipeClient.Connect();
+            await _pipeClient.ConnectAsync(_cancellationTokenSource.Token);
+            _isConnected = true;
 
             _writer = new(_pipeClient)
             {
@@ -22,36 +25,67 @@ namespace Sucrose.Pipe.Helper
             };
         }
 
-        public void Stop()
+        public async Task Stop()
         {
-            if (_pipeClient != null && IsConnected)
+            _isConnected = false;
+
+#if NET8_0_OR_GREATER
+            await _cancellationTokenSource.CancelAsync();
+#else
+            _cancellationTokenSource.Cancel();
+#endif
+
+            if (_writer != null)
             {
-                _pipeClient.Close();
+                await _writer.FlushAsync();
+
+#if NET8_0_OR_GREATER
+                await _writer.DisposeAsync();
+#else
+                _writer.Dispose();
+#endif
+
+                _writer = null;
+            }
+
+            if (_pipeClient != null)
+            {
+                if (_pipeClient.IsConnected)
+                {
+                    _pipeClient.Close();
+                }
+
+#if NET8_0_OR_GREATER
+                await _pipeClient.DisposeAsync();
+#else
+                _pipeClient.Dispose();
+#endif
+
+                _pipeClient = null;
             }
         }
 
-        public void SendMessage(string message)
+        public async Task SendMessage(string message)
         {
-            if (_pipeClient == null)
+            if (_pipeClient == null || !_isConnected || !IsConnected)
             {
                 return;
             }
 
-            if (!IsConnected)
+            if (!string.IsNullOrWhiteSpace(message))
             {
-                return;
-            }
-
-            if (!string.IsNullOrEmpty(message))
-            {
-                _writer.WriteLine(message);
+                await _writer.WriteLineAsync(message);
+                await _writer.FlushAsync();
             }
         }
 
         public void Dispose()
         {
-            _pipeClient?.Dispose();
-            _writer?.Dispose();
+            _cancellationTokenSource.Cancel();
+
+            _ = Stop();
+
+            _cancellationTokenSource.Dispose();
         }
     }
 }

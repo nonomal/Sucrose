@@ -98,7 +98,7 @@ namespace Sucrose.Shared.Engine.CefSharp.Helper
                         case SSDECT.Pipe:
                             SMMI.BackgroundogSettingManager.SetSetting(SMMCB.PipeRequired, true);
 
-                            _ = Task.Run(() =>
+                            _ = Task.Run(async () =>
                             {
                                 SPMI.BackgroundogManager.MessageReceived += async (s, e) =>
                                 {
@@ -123,7 +123,7 @@ namespace Sucrose.Shared.Engine.CefSharp.Helper
                                     }
                                 };
 
-                                SPMI.BackgroundogManager.StartServer();
+                                await SPMI.BackgroundogManager.StartServer();
                             });
                             break;
                         case SSDECT.Signal:

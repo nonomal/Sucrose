@@ -30,7 +30,7 @@ namespace Sucrose.Backgroundog.Helper
             });
         }
 
-        public void Stop()
+        public async Task Stop()
         {
             SBEW.Stop();
 
@@ -38,7 +38,7 @@ namespace Sucrose.Backgroundog.Helper
 
             SBMI.InitializeTimer.Dispose();
 
-            SPMI.BackgroundogManager.DisposeClient();
+            await SPMI.BackgroundogManager.DisposeClient();
 
             try
             {
