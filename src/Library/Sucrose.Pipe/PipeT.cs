@@ -6,12 +6,6 @@ namespace Sucrose.Pipe
 {
     public class PipeT(string PipeName)
     {
-        private bool ClientStarted;
-        private bool ServerStarted;
-
-        private bool ClientStopped;
-        private bool ServerStopped;
-
         private readonly SPHPC PC = new();
         private readonly SPHPS PS = new();
 
@@ -19,13 +13,7 @@ namespace Sucrose.Pipe
 
         public async Task StartClient()
         {
-            if (!ClientStarted)
-            {
-                await PC.Start(PipeName);
-                ClientStarted = true;
-            }
-
-            if (!ClientStopped && !PC.IsConnected)
+            if (!PC.IsConnected)
             {
                 try
                 {
@@ -39,60 +27,46 @@ namespace Sucrose.Pipe
 
         public async Task StartClient(string message)
         {
-            if (!ClientStarted)
+            if (!PC.IsConnected)
             {
-                await PC.Start(PipeName);
-                ClientStarted = true;
-            }
-
-            if (!ClientStopped)
-            {
-                if (!PC.IsConnected)
+                try
                 {
-                    try
-                    {
-                        await PC.Stop();
-                    }
-                    catch { }
-                    await PC.Start(PipeName);
+                    await PC.Stop();
                 }
+                catch { }
 
-                await PC.SendMessage(message);
+                await PC.Start(PipeName);
             }
+
+            await PC.SendMessage(message);
         }
 
         public async Task StartServer()
         {
-            if (!ServerStarted || ServerStopped)
+            if (!PS.IsConnected)
             {
-                await PS.Start(PipeName, MessageReceived);
+                try
+                {
+                    await PS.Stop();
+                }
+                catch { }
 
-                ServerStopped = false;
-                ServerStarted = true;
+                await PS.Start(PipeName, MessageReceived);
             }
         }
 
         public async Task StopClient()
         {
             await PC.Stop();
-
-            ClientStopped = true;
-            ClientStarted = false;
         }
 
         public async Task StopServer()
         {
             await PS.Stop();
-
-            ServerStopped = true;
-            ServerStarted = false;
         }
 
         public async Task DisposeClient()
         {
-            ClientStarted = false;
-            ClientStopped = true;
-
             await PC.Stop();
 
             PC.Dispose();
@@ -100,9 +74,6 @@ namespace Sucrose.Pipe
 
         public async Task DisposeServer()
         {
-            ServerStarted = false;
-            ServerStopped = true;
-
             await PS.Stop();
 
             PS.Dispose();

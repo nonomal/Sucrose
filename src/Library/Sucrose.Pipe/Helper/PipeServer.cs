@@ -8,7 +8,6 @@ namespace Sucrose.Pipe.Helper
         private bool _isRunning;
         private StreamReader _reader;
         private NamedPipeServerStream _pipeServer;
-        private readonly CancellationTokenSource _cancellationTokenSource = new();
 
         public bool IsConnected => _pipeServer?.IsConnected ?? false;
 
@@ -17,14 +16,14 @@ namespace Sucrose.Pipe.Helper
             _isRunning = true;
             _pipeServer = new(pipeName, PipeDirection.In, 10, PipeTransmissionMode.Byte, PipeOptions.Asynchronous);
 
-            while (_isRunning && !_cancellationTokenSource.Token.IsCancellationRequested)
+            while (_isRunning)
             {
                 try
                 {
-                    await _pipeServer.WaitForConnectionAsync(_cancellationTokenSource.Token);
+                    await _pipeServer.WaitForConnectionAsync();
                     _reader = new(_pipeServer);
 
-                    while (IsConnected && !_cancellationTokenSource.Token.IsCancellationRequested)
+                    while (IsConnected)
                     {
                         string message = await _reader.ReadLineAsync();
 
@@ -58,12 +57,6 @@ namespace Sucrose.Pipe.Helper
         {
             _isRunning = false;
 
-#if NET8_0_OR_GREATER
-            await _cancellationTokenSource.CancelAsync();
-#else
-            _cancellationTokenSource.Cancel();
-#endif
-
             if (_reader != null)
             {
                 _reader.Dispose();
@@ -89,11 +82,7 @@ namespace Sucrose.Pipe.Helper
 
         public void Dispose()
         {
-            _cancellationTokenSource.Cancel();
-
             _ = Stop();
-
-            _cancellationTokenSource.Dispose();
         }
     }
 }

@@ -8,7 +8,6 @@ namespace Sucrose.Pipe.Helper
         private bool _isConnected;
         private StreamWriter _writer;
         private NamedPipeClientStream _pipeClient;
-        private readonly CancellationTokenSource _cancellationTokenSource = new();
 
         public bool IsConnected => _pipeClient?.IsConnected ?? false;
 
@@ -16,7 +15,7 @@ namespace Sucrose.Pipe.Helper
         {
             _pipeClient = new(SMMRG.PipeServerName, pipeName, PipeDirection.Out, PipeOptions.Asynchronous);
 
-            await _pipeClient.ConnectAsync(_cancellationTokenSource.Token);
+            await _pipeClient.ConnectAsync();
             _isConnected = true;
 
             _writer = new(_pipeClient)
@@ -29,16 +28,8 @@ namespace Sucrose.Pipe.Helper
         {
             _isConnected = false;
 
-#if NET8_0_OR_GREATER
-            await _cancellationTokenSource.CancelAsync();
-#else
-            _cancellationTokenSource.Cancel();
-#endif
-
             if (_writer != null)
             {
-                await _writer.FlushAsync();
-
 #if NET8_0_OR_GREATER
                 await _writer.DisposeAsync();
 #else
@@ -75,17 +66,12 @@ namespace Sucrose.Pipe.Helper
             if (!string.IsNullOrWhiteSpace(message))
             {
                 await _writer.WriteLineAsync(message);
-                await _writer.FlushAsync();
             }
         }
 
         public void Dispose()
         {
-            _cancellationTokenSource.Cancel();
-
             _ = Stop();
-
-            _cancellationTokenSource.Dispose();
         }
     }
 }
