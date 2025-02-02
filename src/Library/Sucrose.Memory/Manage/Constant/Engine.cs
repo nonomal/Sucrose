@@ -14,6 +14,8 @@
 
         public const string InputType = "InputType";
 
+        public const string StayAwake = "StayAwake";
+
         public const string ScreenType = "ScreenType";
 
         public const string StoreStart = "StoreStart";
@@ -42,6 +44,8 @@
 
         public const string WallpaperLoop = "WallpaperLoop";
 
+        public const string BackgroundImage = "BackgroundImage";
+
         public const string InputModuleType = "InputModuleType";
 
         public const string WallpaperVolume = "WallpaperVolume";
@@ -51,6 +55,8 @@
         public const string WallpaperShuffle = "WallpaperShuffle";
 
         public const string DisplayScreenType = "DisplayScreenType";
+
+        public const string BackgroundImagePath = "BackgroundImagePath";
 
         public const string DuplicateScreenType = "DuplicateScreenType";
 

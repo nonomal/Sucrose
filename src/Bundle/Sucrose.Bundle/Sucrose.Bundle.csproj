@@ -2,7 +2,7 @@
 
     <PropertyGroup>
         <OutputType>WinExe</OutputType>
-        <TargetFrameworks>net48;net481;net6.0-windows;net7.0-windows;net8.0-windows;net9.0-windows</TargetFrameworks>
+        <TargetFrameworks>net48;net481;net8.0-windows;net9.0-windows</TargetFrameworks>
         <ApplicationIcon>Assets\ICO.ico</ApplicationIcon>
         <StartupObject>Sucrose.Bundle.App</StartupObject>
         <ImplicitUsings>enable</ImplicitUsings>
@@ -38,9 +38,10 @@
     <PropertyGroup>
         <ConcurrentGarbageCollection>true</ConcurrentGarbageCollection>
         <ServerGarbageCollection>true</ServerGarbageCollection>
-        <RetainVMGarbageCollection>true</RetainVMGarbageCollection>
-        <ThreadPoolMinThreads>1</ThreadPoolMinThreads>
-        <ThreadPoolMaxThreads>100</ThreadPoolMaxThreads>
+        <RetainVMGarbageCollection>false</RetainVMGarbageCollection>
+        <ThreadPoolMinThreads>10</ThreadPoolMinThreads>
+        <ThreadPoolMaxThreads>250</ThreadPoolMaxThreads>
+        <UseWindowsThreadPool>true</UseWindowsThreadPool>
         <!-- Supported as of .NET Core SDK 3.0 Preview 1 -->
         <TieredCompilation>true</TieredCompilation>
         <InvariantGlobalization>false</InvariantGlobalization>
@@ -76,10 +77,10 @@
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="SharpCompress" Version="0.38.0" />
-        <PackageReference Include="Skylark.Wing" Version="3.1.7.8" />
+        <PackageReference Include="SharpCompress" Version="0.39.0" />
+        <PackageReference Include="Skylark.Wing" Version="3.1.8.3" />
         <PackageReference Include="Skylark.Standard" Version="3.1.6.8" />
-        <PackageReference Include="Costura.Fody" Version="6.0.0-beta0000" Condition="$(TargetFramework.StartsWith('net48'))">
+        <PackageReference Include="Costura.Fody" Version="6.0.0" Condition="$(TargetFramework.StartsWith('net48'))">
             <PrivateAssets>all</PrivateAssets>
             <IncludeAssets>compile; runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
         </PackageReference>

@@ -4,7 +4,6 @@ using SSECSHE = Sucrose.Shared.Engine.CefSharp.Helper.Evaluate;
 using SSECSHM = Sucrose.Shared.Engine.CefSharp.Helper.Management;
 using SSECSMI = Sucrose.Shared.Engine.CefSharp.Manage.Internal;
 using SSEHD = Sucrose.Shared.Engine.Helper.Data;
-using SSEHS = Sucrose.Shared.Engine.Helper.Source;
 using SSWEW = Sucrose.Shared.Watchdog.Extension.Watch;
 
 namespace Sucrose.Shared.Engine.CefSharp.Helper
@@ -15,13 +14,13 @@ namespace Sucrose.Shared.Engine.CefSharp.Helper
         {
             try
             {
+                SSECSMI.CefEngine.ExecuteScriptAsync("document.getElementsByTagName('video')[0].style = \"position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 9999;\";");
+
                 //SSECSMI.CefEngine.ExecuteScriptAsync("document.getElementsByTagName('video')[0].webkitRequestFullscreen();");
                 //SSECSMI.CefEngine.ExecuteScriptAsync("document.getElementsByTagName('video')[0].requestFullscreen();");
                 SSECSMI.CefEngine.ExecuteScriptAsync("document.getElementsByTagName('video')[0].controls = false;");
                 SSECSMI.CefEngine.ExecuteScriptAsync("document.getElementsByTagName('video')[0].loop = true;");
-                SSECSMI.CefEngine.ExecuteScriptAsync(SSEHS.GetVideoStyle());
-
-                SSECSMI.CefEngine.ExecuteScriptAsync("document.getElementsByTagName('video')[0].style = \"position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 9999;\";");
+                //SSECSMI.CefEngine.ExecuteScriptAsync(SSEHS.GetVideoStyle());
 
                 SetStretch(SSEHD.GetStretch());
                 SetVolume(SSEHD.GetVolume());

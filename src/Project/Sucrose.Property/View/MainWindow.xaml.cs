@@ -1,9 +1,13 @@
-﻿using System.IO;
+﻿using Newtonsoft.Json;
+using System.Collections;
+using System.IO;
 using System.Windows;
 using System.Windows.Input;
 using Wpf.Ui.Appearance;
 using Wpf.Ui.Controls;
+using SELLT = Skylark.Enum.LevelLogType;
 using SEWTT = Skylark.Enum.WindowsThemeType;
+using SMMI = Sucrose.Manager.Manage.Internal;
 using SMML = Sucrose.Manager.Manage.Library;
 using SPCB = Sucrose.Property.Controls.Button;
 using SPCCB = Sucrose.Property.Controls.CheckBox;
@@ -21,6 +25,7 @@ using SRER = Sucrose.Resources.Extension.Resources;
 using SSDMMG = Sucrose.Shared.Dependency.Manage.Manager.General;
 using SSLHK = Sucrose.Shared.Live.Helper.Kill;
 using SSLHR = Sucrose.Shared.Live.Helper.Run;
+using SSSHF = Sucrose.Shared.Space.Helper.Filing;
 using SSSHL = Sucrose.Shared.Space.Helper.Live;
 using SSTHP = Sucrose.Shared.Theme.Helper.Properties;
 using SSTMBM = Sucrose.Shared.Theme.Model.ButtonModel;
@@ -34,6 +39,7 @@ using SSTMNBM = Sucrose.Shared.Theme.Model.NumberBoxModel;
 using SSTMPBM = Sucrose.Shared.Theme.Model.PasswordBoxModel;
 using SSTMSM = Sucrose.Shared.Theme.Model.SliderModel;
 using SSTMTBM = Sucrose.Shared.Theme.Model.TextBoxModel;
+using SSWEW = Sucrose.Shared.Watchdog.Extension.Watch;
 using SWHWT = Skylark.Wing.Helper.WindowsTheme;
 using SWHWTR = Skylark.Wing.Helper.WindowsTaskbar;
 
@@ -95,7 +101,7 @@ namespace Sucrose.Property.View
             }
         }
 
-        private void MainWindow_Calculate()
+        private async void MainWindow_Calculate()
         {
             double ScreenWidth = SystemParameters.PrimaryScreenWidth;
             double ScreenHeight = SystemParameters.PrimaryScreenHeight;
@@ -103,38 +109,58 @@ namespace Sucrose.Property.View
             AnchorStyles Anchor = SWHWTR.GetAnchorStyle(false);
             Rectangle TaskbarCoordinates = SWHWTR.GetCoordonates();
 
-            switch (Anchor)
+            try
             {
-                case AnchorStyles.Top:
-                    MaxHeight = ScreenHeight - TaskbarCoordinates.Height - 20;
+                switch (Anchor)
+                {
+                    case AnchorStyles.Top:
+                        MaxHeight = ScreenHeight - TaskbarCoordinates.Height - 20;
 
-                    Left = ScreenWidth - Width - 10;
-                    Top = ScreenHeight - Height - 10;
-                    break;
-                case AnchorStyles.Bottom:
-                    MaxHeight = ScreenHeight - TaskbarCoordinates.Height - 20;
+                        Left = ScreenWidth - Width - 10;
+                        Top = ScreenHeight - Height - 10;
+                        break;
+                    case AnchorStyles.Bottom:
+                        MaxHeight = ScreenHeight - TaskbarCoordinates.Height - 20;
 
-                    Left = ScreenWidth - Width - 10;
-                    Top = TaskbarCoordinates.Top - Height - 10;
-                    break;
-                case AnchorStyles.Left:
-                    MaxHeight = ScreenHeight - 20;
+                        Left = ScreenWidth - Width - 10;
+                        Top = TaskbarCoordinates.Top - Height - 10;
+                        break;
+                    case AnchorStyles.Left:
+                        MaxHeight = ScreenHeight - 20;
 
-                    Left = ScreenWidth - Width - 10;
-                    Top = ScreenHeight - Height - 10;
-                    break;
-                case AnchorStyles.Right:
-                    MaxHeight = ScreenHeight - 20;
+                        Left = ScreenWidth - Width - 10;
+                        Top = ScreenHeight - Height - 10;
+                        break;
+                    case AnchorStyles.Right:
+                        MaxHeight = ScreenHeight - 20;
 
-                    Left = TaskbarCoordinates.Left - Width - 10;
-                    Top = ScreenHeight - Height - 10;
-                    break;
-                default:
-                    MaxHeight = ScreenHeight - 20;
+                        Left = TaskbarCoordinates.Left - Width - 10;
+                        Top = ScreenHeight - Height - 10;
+                        break;
+                    default:
+                        MaxHeight = ScreenHeight - 20;
 
-                    Left = ScreenWidth - Width - 10;
-                    Top = ScreenHeight - Height - 10;
-                    break;
+                        Left = ScreenWidth - Width - 10;
+                        Top = ScreenHeight - Height - 10;
+                        break;
+                }
+            }
+            catch (Exception Exception)
+            {
+                SMMI.PropertyLogManager.Log(SELLT.Debug, $"Calculate: {JsonConvert.SerializeObject(new Hashtable()
+                {
+                    { "Anchor", $"{Anchor}" },
+                    { "Screen Width", ScreenWidth },
+                    { "Screen Height", ScreenHeight },
+                    { "Taskbar Coordinates", SWHWTR.GetCoordonates() }
+                })}");
+
+                await SSWEW.Watch_CatchException(Exception);
+
+                MaxHeight = ScreenHeight - 48 - 20;
+
+                Top = ScreenHeight - Height - 58;
+                Left = ScreenWidth - Width - 10;
             }
         }
 
@@ -167,11 +193,11 @@ namespace Sucrose.Property.View
 
                 await Task.Delay(250);
 
-                File.Delete(SPMI.PropertiesFile);
+                SSSHF.Delete(SPMI.PropertiesFile);
 
                 await Task.Delay(250);
 
-                File.Copy(SPMI.PropertiesPath, SPMI.PropertiesFile, true);
+                SSSHF.CopyBuffer(SPMI.PropertiesPath, SPMI.PropertiesFile);
 
                 SPMI.Properties = SSTHP.ReadJson(SPMI.PropertiesFile);
 
@@ -242,13 +268,13 @@ namespace Sucrose.Property.View
                 Refresh.IsEnabled = false;
                 Delete.IsEnabled = false;
 
-                File.Copy(SPMI.PropertiesPath, SPMI.PropertiesFile, true);
+                SSSHF.CopyBuffer(SPMI.PropertiesPath, SPMI.PropertiesFile);
 
                 if (SMML.Selected == SPMI.LibrarySelected && SSSHL.Run())
                 {
                     await Task.Delay(250);
 
-                    File.Copy(SPMI.PropertiesPath, SPMI.WatcherFile.Replace("*", $"{Guid.NewGuid()}"), true);
+                    SSSHF.CopyBuffer(SPMI.PropertiesPath, SPMI.WatcherFile.Replace("*", $"{Guid.NewGuid()}"));
                 }
 
                 await Task.Delay(250);

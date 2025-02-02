@@ -7,9 +7,11 @@ namespace Sucrose.Shared.Engine.CefSharp.Manage
     {
         public static int Try = 0;
 
+        public static string CefPath;
+
         public static bool State = true;
 
-        public static CefEngine CefEngine = new();
+        public static CefEngine CefEngine = null;
 
         public static IBrowserHost CefHost = null;
 

@@ -840,7 +840,7 @@ namespace Sucrose.Backgroundog.Helper
                                 TypeNameHandling = TypeNameHandling.None
                             };
 
-                            SPMI.BackgroundogManager.StartClient(JsonConvert.SerializeObject(new SPIB()
+                            await SPMI.BackgroundogManager.StartClient(JsonConvert.SerializeObject(new SPIB()
                             {
                                 Cpu = SBED.GetCpuInfo(),
                                 Bios = SBED.GetBiosInfo(),

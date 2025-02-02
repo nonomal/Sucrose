@@ -7,6 +7,7 @@ using SMMRU = Sucrose.Memory.Manage.Readonly.Url;
 using SPMI = Sucrose.Portal.Manage.Internal;
 using SSHG = Skylark.Standard.Helper.GitHub;
 using SSIIC = Skylark.Standard.Interface.IContents;
+using SSSHF = Sucrose.Shared.Space.Helper.Filing;
 using SSSHS = Sucrose.Shared.Store.Helper.Store;
 using SSSID = Sucrose.Shared.Store.Interface.Data;
 using SSSIW = Sucrose.Shared.Store.Interface.Wallpaper;
@@ -31,7 +32,7 @@ namespace Sucrose.Shared.Store.Helper.GitHub
 
                     if (ElapsedDuration >= TimeSpan.FromHours(SMMP.StoreDuration) || !SSSHS.ReadCheck(Store))
                     {
-                        File.Delete(Store);
+                        SSSHF.Delete(Store);
                     }
                     else
                     {
@@ -97,8 +98,8 @@ namespace Sucrose.Shared.Store.Helper.GitHub
 
                     if (ElapsedDuration >= TimeSpan.FromHours(SMMP.StoreDuration))
                     {
-                        File.Delete(InfoPath);
-                        File.Delete(CoverPath);
+                        SSSHF.Delete(InfoPath);
+                        SSSHF.Delete(CoverPath);
 
                         SPMI.StoreDownloading[Theme] = false;
                     }
@@ -113,12 +114,12 @@ namespace Sucrose.Shared.Store.Helper.GitHub
                 {
                     if (File.Exists(InfoPath))
                     {
-                        File.Delete(InfoPath);
+                        SSSHF.Delete(InfoPath);
                     }
 
                     if (File.Exists(CoverPath))
                     {
-                        File.Delete(CoverPath);
+                        SSSHF.Delete(CoverPath);
                     }
 
                     SPMI.StoreDownloading[Theme] = false;

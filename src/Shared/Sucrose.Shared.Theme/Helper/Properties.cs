@@ -24,7 +24,7 @@ namespace Sucrose.Shared.Theme.Helper
     {
         public static string Read(string Path)
         {
-            string Content = SSSHF.Read(Path);
+            string Content = SSSHF.ReadStream(Path);
 
             return string.IsNullOrWhiteSpace(Content) ? string.Empty : Content;
         }
@@ -75,7 +75,7 @@ namespace Sucrose.Shared.Theme.Helper
 
         public static void Write(string Path, Properties Json)
         {
-            SSSHF.Write(Path, JsonConvert.SerializeObject(Json, Converter.Settings));
+            SSSHF.WriteStream(Path, JsonConvert.SerializeObject(Json, Converter.Settings));
         }
     }
 }

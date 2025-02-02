@@ -165,9 +165,10 @@ namespace Sucrose.Watchdog
                     string User = SSSHUR.GetName();
                     string Model = SSSHUR.GetModel();
                     string Application = Arguments[0];
+                    string RawException = Arguments[1];
                     Guid AppId = SSSHUE.Generate(Application);
                     string Manufacturer = SSSHUR.GetManufacturer();
-                    Exception Exception = SSSEWE.Convert(Arguments[1]);
+                    Exception Exception = SSSEWE.Convert(RawException);
                     CultureInfo Culture = new(SWNM.GetUserDefaultUILanguage());
                     string Message = SSSHE.GetMessage(Exception, SRER.GetValue("Watchdog", "ErrorEmpty"), SMMRG.ExceptionSplit);
 
@@ -201,7 +202,7 @@ namespace Sucrose.Watchdog
                         AppArchitecture = SSCHA.GetText(),
                         OperatingSystem = SSCHOS.GetText(),
                         CultureDisplay = Culture.NativeName,
-                        Exception = JObject.Parse(Arguments[1]),
+                        Exception = JObject.Parse(RawException),
                         IsWorkstation = SSCHOS.GetWorkstation(),
                         OperatingSystemBuild = SSCHV.GetOSText(),
                         CultureCode = SMMG.Culture.ToUpperInvariant(),
@@ -221,11 +222,11 @@ namespace Sucrose.Watchdog
                     switch (SSDMMG.ThemeType)
                     {
                         case SEWTT.Dark:
-                            SWVDEMB DarkMessageBox = new(Message, Log, Source, Text);
+                            SWVDEMB DarkMessageBox = new(RawException, Message, Log, Source, Text);
                             DarkMessageBox.ShowDialog();
                             break;
                         default:
-                            SWVLEMB LightMessageBox = new(Message, Log, Source, Text);
+                            SWVLEMB LightMessageBox = new(RawException, Message, Log, Source, Text);
                             LightMessageBox.ShowDialog();
                             break;
                     }

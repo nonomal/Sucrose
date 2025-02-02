@@ -23,15 +23,35 @@
     <system:String x:Key="Property.FileDropDown.Access.Title">접근 경고</system:String>
     <system:String x:Key="Property.FileDropDown.Access.Message">선택한 파일에 접근할 권한이 없습니다.</system:String>
 
+    <system:String x:Key="Property.Localization.WebView">WebView 전용</system:String>
+    <system:String x:Key="Property.Localization.CefSharp">CefSharp 전용</system:String>
     <system:String x:Key="Property.Localization.MpvPlayer">MpvPlayer 전용</system:String>
 
     <system:String x:Key="Property.Localization.Speed">속도</system:String>
     <system:String x:Key="Property.Localization.Gamma">감마</system:String>
     <system:String x:Key="Property.Localization.Mute">음소거</system:String>
+    <system:String x:Key="Property.Localization.Sepia">세피아</system:String>
     <system:String x:Key="Property.Localization.Hue">색조</system:String>
+    <system:String x:Key="Property.Localization.Mirror">미러링</system:String>
+    <system:String x:Key="Property.Localization.Blur">흐림</system:String>
     <system:String x:Key="Property.Localization.Contrast">대비</system:String>
+    <system:String x:Key="Property.Localization.Invert">반전</system:String>
     <system:String x:Key="Property.Localization.Zoom">확대</system:String>
+    <system:String x:Key="Property.Localization.Animation">애니메이션</system:String>
     <system:String x:Key="Property.Localization.Sharpness">선명도</system:String>
     <system:String x:Key="Property.Localization.Saturation">채도</system:String>
     <system:String x:Key="Property.Localization.Brightness">밝기</system:String>
+    <system:String x:Key="Property.Localization.Grayscale">그레이스케일</system:String>
+
+    <system:String x:Key="Property.Localization.Mirror.Flat">평평한</system:String>
+    <system:String x:Key="Property.Localization.Mirror.Vertical">수직</system:String>
+    <system:String x:Key="Property.Localization.Mirror.Horizontal">수평</system:String>
+    <system:String x:Key="Property.Localization.Mirror.VerticalHorizontal">수직 및 수평</system:String>
+
+    <system:String x:Key="Property.Localization.Animation.Flat">평평한</system:String>
+    <system:String x:Key="Property.Localization.Animation.Flip">뒤집기</system:String>
+    <system:String x:Key="Property.Localization.Animation.Pulse">맥박</system:String>
+    <system:String x:Key="Property.Localization.Animation.Shake">흔들기</system:String>
+    <system:String x:Key="Property.Localization.Animation.Bounce">튕기기</system:String>
+    <system:String x:Key="Property.Localization.Animation.Wiggle">흔들다</system:String>
 </ResourceDictionary>

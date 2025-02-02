@@ -6,13 +6,12 @@ namespace Sucrose.Shared.Engine.WebView.Manage
     {
         public static int Try = 0;
 
+        public static string WebPath;
+
         public static bool State = true;
 
-        public static IntPtr WebHandle = IntPtr.Zero;
+        public static WebEngine WebEngine = null;
 
-        public static WebEngine WebEngine = new()
-        {
-            DefaultBackgroundColor = Color.Black
-        };
+        public static IntPtr WebHandle = IntPtr.Zero;
     }
 }

@@ -3,8 +3,10 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:system="clr-namespace:System;assembly=mscorlib">
     <system:String x:Key="Portal.ThemeCreate.Title">Vytvoření šablony</system:String>
-    <system:String x:Key="Portal.ThemeCreate.Create">Vytvořit</system:String>
+
     <system:String x:Key="Portal.ThemeCreate.Close">Zavřít</system:String>
+    <system:String x:Key="Portal.ThemeCreate.Create">Vytvořit</system:String>
+    <system:String x:Key="Portal.ThemeCreate.Creating">Vytváří Se</system:String>
 
     <system:String x:Key="Portal.ThemeCreate.Gif">Gif Šablona</system:String>
     <system:String x:Key="Portal.ThemeCreate.Gif.Description">Vytvořte svou vlastní šablonu typu Gif.</system:String>

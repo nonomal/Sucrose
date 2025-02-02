@@ -19,11 +19,17 @@
     <system:String x:Key="Portal.WallpaperSettingPage.StretchMode">Метод Розтягнення</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.StretchMode.Description">Змінює метод розтягнення для підтримуваних шпалерів.</system:String>
 
+    <system:String x:Key="Portal.WallpaperSettingPage.StayAwake">Залишатися Бадьорим</system:String>
+    <system:String x:Key="Portal.WallpaperSettingPage.StayAwake.Description">Змінює стан "залишатися бадьорим" для підтримуваних шпалер.</system:String>
+
     <system:String x:Key="Portal.WallpaperSettingPage.LoopMode">Режим Повторення</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.LoopMode.Description">Змінює режим повторення для підтримуваних шпалерів.</system:String>
 
     <system:String x:Key="Portal.WallpaperSettingPage.ShuffleMode">Режим Перемішування</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.ShuffleMode.Description">Змінює режим перемішування для підтримуваних шпалерів.</system:String>
+
+    <system:String x:Key="Portal.WallpaperSettingPage.BackgroundImage">Фонове Зображення</system:String>
+    <system:String x:Key="Portal.WallpaperSettingPage.BackgroundImage.Description">Змінює живі шпалери на фонове зображення робочого столу.</system:String>
 
     <system:String x:Key="Portal.WallpaperSettingPage.HardwareAcceleration">Апаратне Прискорення</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.HardwareAcceleration.Description">Змінює статус апаратного прискорення для підтримуваних шпалер.</system:String>

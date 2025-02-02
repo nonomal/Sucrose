@@ -25,7 +25,6 @@ using SMMRS = Sucrose.Memory.Manage.Readonly.Soferity;
 using SMMRU = Sucrose.Memory.Manage.Readonly.Url;
 using SMMU = Sucrose.Manager.Manage.Update;
 using SRER = Sucrose.Resources.Extension.Resources;
-using SSCEFT = Sucrose.Shared.Core.Enum.FrameworkType;
 using SSCEUCT = Sucrose.Shared.Core.Enum.UpdateChannelType;
 using SSCEUET = Sucrose.Shared.Core.Enum.UpdateExtensionType;
 using SSCHA = Sucrose.Shared.Core.Helper.Architecture;
@@ -44,6 +43,7 @@ using SSHG = Skylark.Standard.Helper.GitHub;
 using SSIIA = Skylark.Standard.Interface.IAssets;
 using SSIIR = Skylark.Standard.Interface.IReleases;
 using SSSHE = Sucrose.Shared.Space.Helper.Extension;
+using SSSHF = Sucrose.Shared.Space.Helper.Filing;
 using SSSHN = Sucrose.Shared.Space.Helper.Network;
 using SSSHP = Sucrose.Shared.Space.Helper.Processor;
 using SSSHS = Sucrose.Shared.Space.Helper.Security;
@@ -205,7 +205,7 @@ namespace Sucrose.Update.View
 
                     foreach (string Record in Files)
                     {
-                        File.Delete(Record);
+                        SSSHF.Delete(Record);
                     }
                 }
                 else
@@ -418,7 +418,7 @@ namespace Sucrose.Update.View
 
                             if (File.Exists(Bundle))
                             {
-                                File.Delete(Bundle);
+                                SSSHF.Delete(Bundle);
                             }
 
                             return true;
@@ -429,7 +429,7 @@ namespace Sucrose.Update.View
                     {
                         foreach (SSIIA Asset in Assets)
                         {
-                            string Name = $"{SMMRG.AppName}_{SMMRG.Bundle}_{SSCHF.GetDescription(SSCEFT.NET_Framework_4_8)}_{SSCHA.Get()}_{Latest}{SSCHU.GetDescription(SUMMU.ExtensionType)}";
+                            string Name = $"{SMMRG.AppName}_{SMMRG.Bundle}_{SSCHF.GetDescription(SUMI.DefaultFrameworkType)}_{SSCHA.Get()}_{Latest}{SSCHU.GetDescription(SUMMU.ExtensionType)}";
 
                             if (Asset.Name.Contains(Name))
                             {
@@ -439,7 +439,7 @@ namespace Sucrose.Update.View
 
                                 if (File.Exists(Bundle))
                                 {
-                                    File.Delete(Bundle);
+                                    SSSHF.Delete(Bundle);
                                 }
 
                                 return true;

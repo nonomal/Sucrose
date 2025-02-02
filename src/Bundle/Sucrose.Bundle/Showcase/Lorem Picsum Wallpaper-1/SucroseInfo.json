@@ -1,0 +1,15 @@
+{
+  "AppVersion": "25.1.27.0",
+  "Version": "1.0.0.0",
+  "Title": "Lorem Picsum Wallpaper",
+  "Thumbnail": "thumbnail.jpg",
+  "Preview": "preview.gif",
+  "Description": "This theme displays random high-quality images from Lorem Picsum as your wallpaper.",
+  "Author": "Taiizor",
+  "License": null,
+  "Contact": "https://github.com/Taiizor",
+  "Type": 2,
+  "Source": "Lorem.html",
+  "Tags": null,
+  "Arguments": null
+}

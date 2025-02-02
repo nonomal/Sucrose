@@ -3,8 +3,10 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:system="clr-namespace:System;assembly=mscorlib">
     <system:String x:Key="Portal.ThemeCreate.Title">थीम बनाएं</system:String>
-    <system:String x:Key="Portal.ThemeCreate.Create">बनाएं</system:String>
+
     <system:String x:Key="Portal.ThemeCreate.Close">बंद करें</system:String>
+    <system:String x:Key="Portal.ThemeCreate.Create">बनाएं</system:String>
+    <system:String x:Key="Portal.ThemeCreate.Creating">बन रहा है</system:String>
 
     <system:String x:Key="Portal.ThemeCreate.Gif">Gif थीम</system:String>
     <system:String x:Key="Portal.ThemeCreate.Gif.Description">Gif प्रकार की अपनी खुद की थीम बनाएं।</system:String>

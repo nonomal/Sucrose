@@ -1,4 +1,5 @@
 ﻿using Microsoft.Web.WebView2.Core;
+using System.Collections;
 using System.Diagnostics;
 using System.Globalization;
 using System.IO;
@@ -25,14 +26,17 @@ using SMMW = Sucrose.Manager.Manage.Warehouse;
 using SRER = Sucrose.Resources.Extension.Resources;
 using SRHR = Sucrose.Resources.Helper.Resources;
 using SSDEDT = Sucrose.Shared.Dependency.Enum.DialogType;
+using SSDEPT = Sucrose.Shared.Dependency.Enum.PropertiesType;
 using SSDEWT = Sucrose.Shared.Dependency.Enum.WallpaperType;
 using SSDMMG = Sucrose.Shared.Dependency.Manage.Manager.General;
+using SSEHA = Sucrose.Shared.Engine.Helper.Awakening;
 using SSEHC = Sucrose.Shared.Engine.Helper.Cycyling;
 using SSEHP = Sucrose.Shared.Engine.Helper.Properties;
 using SSEHR = Sucrose.Shared.Engine.Helper.Run;
 using SSEMI = Sucrose.Shared.Engine.Manage.Internal;
 using SSEVDMB = Sucrose.Shared.Engine.View.DarkMessageBox;
 using SSEVLMB = Sucrose.Shared.Engine.View.LightMessageBox;
+using SSEWVHP = Sucrose.Shared.Engine.WebView.Helper.Properties;
 using SSEWVMI = Sucrose.Shared.Engine.WebView.Manage.Internal;
 using SSEWVVG = Sucrose.Shared.Engine.WebView.View.Gif;
 using SSEWVVU = Sucrose.Shared.Engine.WebView.View.Url;
@@ -41,6 +45,7 @@ using SSEWVVW = Sucrose.Shared.Engine.WebView.View.Web;
 using SSEWVVYT = Sucrose.Shared.Engine.WebView.View.YouTube;
 using SSLHK = Sucrose.Shared.Live.Helper.Kill;
 using SSSHC = Sucrose.Shared.Space.Helper.Cycyling;
+using SSSHF = Sucrose.Shared.Space.Helper.Filing;
 using SSSHI = Sucrose.Shared.Space.Helper.Instance;
 using SSSHS = Sucrose.Shared.Space.Helper.Security;
 using SSSHW = Sucrose.Shared.Space.Helper.Watchdog;
@@ -49,6 +54,7 @@ using SSTHI = Sucrose.Shared.Theme.Helper.Info;
 using SSTHP = Sucrose.Shared.Theme.Helper.Properties;
 using SSTHV = Sucrose.Shared.Theme.Helper.Various;
 using SSWEW = Sucrose.Shared.Watchdog.Extension.Watch;
+using SSWHD = Sucrose.Shared.Watchdog.Helper.Dataset;
 
 namespace Sucrose.Live.WebView
 {
@@ -162,6 +168,13 @@ namespace Sucrose.Live.WebView
 
         protected void Checker()
         {
+            SSWHD.Add("WebView Checker", new Hashtable()
+            {
+                { "Check", Check() },
+                { "WebView Time", SMMW.WebViewTime },
+                { "WebView Time Check", SMMW.WebViewTime > DateTime.Now }
+            });
+
             if (Check() || SMMW.WebViewTime > DateTime.Now)
             {
                 Configure();
@@ -198,6 +211,8 @@ namespace Sucrose.Live.WebView
                         break;
                 }
 
+                SSWHD.Add("WebView Dialog Result", $"{DialogResult}");
+
                 switch (DialogResult)
                 {
                     case SSDEDT.Continue:
@@ -232,6 +247,7 @@ namespace Sucrose.Live.WebView
             if (SMMI.LibrarySettingManager.CheckFile() && !string.IsNullOrEmpty(SSEMI.LibrarySelected))
             {
                 SSEMI.InfoPath = Path.Combine(SSEMI.LibraryLocation, SSEMI.LibrarySelected, SMMRC.SucroseInfo);
+                SSEWVMI.WebPath = Path.Combine(SMMRP.ApplicationData, SMMRG.AppName, SMMRF.Cache, SMMRF.WebView2);
                 SSEMI.CompatiblePath = Path.Combine(SSEMI.LibraryLocation, SSEMI.LibrarySelected, SMMRC.SucroseCompatible);
                 SSEMI.PropertiesPath = Path.Combine(SSEMI.LibraryLocation, SSEMI.LibrarySelected, SMMRC.SucroseProperties);
 
@@ -302,7 +318,12 @@ namespace Sucrose.Live.WebView
                             }
                         }
 
-                        Task<CoreWebView2Environment> Environment = CoreWebView2Environment.CreateAsync(null, Path.Combine(SMMRP.ApplicationData, SMMRG.AppName, SMMRF.Cache, SMMRF.WebView2), Options);
+                        Task<CoreWebView2Environment> Environment = CoreWebView2Environment.CreateAsync(null, SSEWVMI.WebPath, Options);
+
+                        SSEWVMI.WebEngine = new()
+                        {
+                            DefaultBackgroundColor = Color.Black
+                        };
 
                         SSEWVMI.WebEngine.EnsureCoreWebView2Async(Environment.Result);
 
@@ -325,13 +346,24 @@ namespace Sucrose.Live.WebView
                         {
                             SSSHS.Apply();
 
+                            SSEHA.Start();
+
                             SSEHC.Start();
+
+                            if (SSEMI.Info.Type is SSDEWT.Gif or SSDEWT.Video or SSDEWT.YouTube)
+                            {
+                                SSEWVHP.Start();
+                            }
+                            else
+                            {
+                                SSEMI.PropertiesType = SSDEPT.Base;
+                            }
 
                             if (File.Exists(SSEMI.PropertiesPath))
                             {
                                 SSEMI.PropertiesCache = Path.Combine(SMMRP.ApplicationData, SMMRG.AppName, SMMRF.Cache, SMMRF.Properties);
-                                SSEMI.PropertiesFile = Path.Combine(SSEMI.PropertiesCache, $"{SSEMI.LibrarySelected}.json");
-                                SSEMI.WatcherFile = Path.Combine(SSEMI.PropertiesCache, $"*.{SSEMI.LibrarySelected}.json");
+                                SSEMI.PropertiesFile = Path.Combine(SSEMI.PropertiesCache, $"{SSEMI.LibrarySelected}{SSEMI.PropertiesType}");
+                                SSEMI.WatcherFile = Path.Combine(SSEMI.PropertiesCache, $"*.{SSEMI.LibrarySelected}{SSEMI.PropertiesType}");
 
                                 if (!Directory.Exists(SSEMI.PropertiesCache))
                                 {
@@ -340,7 +372,7 @@ namespace Sucrose.Live.WebView
 
                                 if (!File.Exists(SSEMI.PropertiesFile))
                                 {
-                                    File.Copy(SSEMI.PropertiesPath, SSEMI.PropertiesFile, true);
+                                    SSSHF.CopyBuffer(SSEMI.PropertiesPath, SSEMI.PropertiesFile);
                                 }
 
                                 try
@@ -349,13 +381,13 @@ namespace Sucrose.Live.WebView
                                 }
                                 catch (NotSupportedException Ex)
                                 {
-                                    File.Delete(SSEMI.PropertiesFile);
+                                    SSSHF.Delete(SSEMI.PropertiesFile);
 
                                     throw new NotSupportedException(Ex.Message);
                                 }
                                 catch (Exception Ex)
                                 {
-                                    File.Delete(SSEMI.PropertiesFile);
+                                    SSSHF.Delete(SSEMI.PropertiesFile);
 
                                     throw new Exception(Ex.Message, Ex.InnerException);
                                 }

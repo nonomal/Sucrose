@@ -19,11 +19,17 @@
     <system:String x:Key="Portal.WallpaperSettingPage.StretchMode">Режим Pастяжения</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.StretchMode.Description">Измените метод изменения масштаба для поддерживаемых обоев.</system:String>
 
+    <system:String x:Key="Portal.WallpaperSettingPage.StayAwake">Оставаться Бодрым</system:String>
+    <system:String x:Key="Portal.WallpaperSettingPage.StayAwake.Description">Изменяет состояние бодрствования для поддерживаемых обоев.</system:String>
+
     <system:String x:Key="Portal.WallpaperSettingPage.LoopMode">Режим Повтора</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.LoopMode.Description">Измените режим повтора для поддерживаемых обоев.</system:String>
 
     <system:String x:Key="Portal.WallpaperSettingPage.ShuffleMode">Режим Перемешивания</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.ShuffleMode.Description">Измените режим перемешивания для поддерживаемых обоев.</system:String>
+
+    <system:String x:Key="Portal.WallpaperSettingPage.BackgroundImage">Фоновое Изображение</system:String>
+    <system:String x:Key="Portal.WallpaperSettingPage.BackgroundImage.Description">Заменяет живые обои на фоновое изображение рабочего стола.</system:String>
 
     <system:String x:Key="Portal.WallpaperSettingPage.HardwareAcceleration">Аппаратное Yскорение</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.HardwareAcceleration.Description">Изменяет статус аппаратного ускорения для поддерживаемых обоев.</system:String>

@@ -3,8 +3,10 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:system="clr-namespace:System;assembly=mscorlib">
     <system:String x:Key="Portal.ThemeCreate.Title">Δημιουργία Θέματος</system:String>
-    <system:String x:Key="Portal.ThemeCreate.Create">Δημιουργία</system:String>
+
     <system:String x:Key="Portal.ThemeCreate.Close">Κλείσιμο</system:String>
+    <system:String x:Key="Portal.ThemeCreate.Create">Δημιουργία</system:String>
+    <system:String x:Key="Portal.ThemeCreate.Creating">Δημιουργείται</system:String>
 
     <system:String x:Key="Portal.ThemeCreate.Gif">Θέμα Gif</system:String>
     <system:String x:Key="Portal.ThemeCreate.Gif.Description">Δημιουργήστε το δικό σας θέμα τύπου Gif.</system:String>

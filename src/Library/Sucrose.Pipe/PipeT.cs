@@ -6,106 +6,76 @@ namespace Sucrose.Pipe
 {
     public class PipeT(string PipeName)
     {
-        private bool ClientStarted;
-        private bool ServerStarted;
-
-        private bool ClientStopped;
-        private bool ServerStopped;
-
         private readonly SPHPC PC = new();
         private readonly SPHPS PS = new();
 
         public event EventHandler<SPEMREA> MessageReceived;
 
-        public void StartClient()
+        public async Task StartClient()
         {
-            if (!ClientStarted)
+            if (!PC.IsConnected)
             {
-                PC.Start(PipeName);
-
-                ClientStarted = true;
-            }
-
-            if (!ClientStopped)
-            {
-                if (!PC.IsConnected)
+                try
                 {
-                    PC.Dispose();
-
-                    PC.Start(PipeName);
+                    await PC.Stop();
                 }
+                catch { }
+
+                await PC.Start(PipeName);
             }
         }
 
-        public void StartClient(string Message)
+        public async Task StartClient(string message)
         {
-            if (!ClientStarted)
+            if (!PC.IsConnected)
             {
-                PC.Start(PipeName);
-
-                ClientStarted = true;
-            }
-
-            if (!ClientStopped)
-            {
-                if (!PC.IsConnected)
+                try
                 {
-                    PC.Dispose();
-
-                    PC.Start(PipeName);
+                    await PC.Stop();
                 }
+                catch { }
 
-                PC.SendMessage(Message);
+                await PC.Start(PipeName);
             }
+
+            await PC.SendMessage(message);
         }
 
-        public void StartServer()
+        public async Task StartServer()
         {
-            if (!ServerStarted)
+            if (!PS.IsConnected)
             {
-                PS.Start(PipeName, MessageReceived);
-
-                ServerStarted = true;
-            }
-
-            while (!ServerStopped)
-            {
-                if (!PS.IsConnected)
+                try
                 {
-                    PS.Dispose();
-
-                    PS.Start(PipeName, MessageReceived);
+                    await PS.Stop();
                 }
+                catch { }
+
+                await PS.Start(PipeName, MessageReceived);
             }
         }
 
-        public void StopClient()
+        public async Task StopClient()
         {
-            ClientStopped = true;
-
-            PC.Stop();
+            await PC.Stop();
         }
 
-        public void StopServer()
+        public async Task StopServer()
         {
-            ServerStopped = true;
-
-            PS.Stop();
+            await PS.Stop();
         }
 
-        public void DisposeClient()
+        public async Task DisposeClient()
         {
-            ClientStopped = true;
+            await PC.Stop();
 
-            PC.Stop();
             PC.Dispose();
         }
 
-        public void DisposeServer()
+        public async Task DisposeServer()
         {
-            ServerStopped = true;
+            await PS.Stop();
 
-            PS.Stop();
             PS.Dispose();
         }
 

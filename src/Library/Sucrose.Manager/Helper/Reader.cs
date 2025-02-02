@@ -1,4 +1,5 @@
 ﻿using SMHC = Sucrose.Manager.Helper.Cleaner;
+using SMHU = Sucrose.Manager.Helper.Unique;
 
 namespace Sucrose.Manager.Helper
 {
@@ -6,7 +7,27 @@ namespace Sucrose.Manager.Helper
     {
         public static string Read(string filePath)
         {
-            using Mutex Mutex = new(false, Path.GetFileName(filePath));
+            using Mutex Mutex = new(false, SMHU.GenerateText(filePath));
+
+            try
+            {
+                try
+                {
+                    Mutex.WaitOne();
+                }
+                catch { }
+
+                return SMHC.Clean(File.ReadAllText(filePath));
+            }
+            finally
+            {
+                Mutex.ReleaseMutex();
+            }
+        }
+
+        public static string ReadStream(string filePath)
+        {
+            using Mutex Mutex = new(false, SMHU.GenerateText(filePath));
 
             try
             {
@@ -20,26 +41,6 @@ namespace Sucrose.Manager.Helper
                 using StreamReader reader = new(fileStream);
 
                 return SMHC.Clean(reader.ReadToEnd());
-            }
-            finally
-            {
-                Mutex.ReleaseMutex();
-            }
-        }
-
-        public static string ReadBasic(string filePath)
-        {
-            using Mutex Mutex = new(false, Path.GetFileName(filePath));
-
-            try
-            {
-                try
-                {
-                    Mutex.WaitOne();
-                }
-                catch { }
-
-                return SMHC.Clean(File.ReadAllText(filePath));
             }
             finally
             {

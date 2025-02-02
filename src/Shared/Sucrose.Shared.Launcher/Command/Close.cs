@@ -1,11 +1,14 @@
-﻿using SELLT = Skylark.Enum.LevelLogType;
+﻿using System.Diagnostics;
+using SELLT = Skylark.Enum.LevelLogType;
 using SMMG = Sucrose.Manager.Manage.General;
 using SMMI = Sucrose.Manager.Manage.Internal;
 using SMMRA = Sucrose.Memory.Manage.Readonly.App;
 using SSLHK = Sucrose.Shared.Live.Helper.Kill;
+using SSLMI = Sucrose.Shared.Launcher.Manage.Internal;
 using SSSHL = Sucrose.Shared.Space.Helper.Live;
 using SSSHP = Sucrose.Shared.Space.Helper.Processor;
 using WinForms = System.Windows.Forms.Application;
+using WPF = System.Windows.Application;
 
 namespace Sucrose.Shared.Launcher.Command
 {
@@ -13,7 +16,7 @@ namespace Sucrose.Shared.Launcher.Command
     {
         public static void Command()
         {
-            SMMI.LauncherLogManager.Log(SELLT.Info, $"Application has been closed.");
+            SMMI.LauncherLogManager.Log(SELLT.Info, "Application has been closed.");
 
             if (SMMG.AppExit)
             {
@@ -67,6 +70,10 @@ namespace Sucrose.Shared.Launcher.Command
                 }
             }
 
+            SSLMI.TrayIconManager.Release();
+
+            Process.GetCurrentProcess().Kill();
+            WPF.Current.Shutdown();
             WinForms.ExitThread();
             Environment.Exit(0);
             WinForms.Exit();

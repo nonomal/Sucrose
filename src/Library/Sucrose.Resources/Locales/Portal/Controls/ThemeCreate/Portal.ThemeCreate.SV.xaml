@@ -3,8 +3,10 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:system="clr-namespace:System;assembly=mscorlib">
     <system:String x:Key="Portal.ThemeCreate.Title">Skapa Tema</system:String>
-    <system:String x:Key="Portal.ThemeCreate.Create">Skapa</system:String>
+
     <system:String x:Key="Portal.ThemeCreate.Close">Stäng</system:String>
+    <system:String x:Key="Portal.ThemeCreate.Create">Skapa</system:String>
+    <system:String x:Key="Portal.ThemeCreate.Creating">Skapas</system:String>
 
     <system:String x:Key="Portal.ThemeCreate.Gif">Gif-tema</system:String>
     <system:String x:Key="Portal.ThemeCreate.Gif.Description">Skapa ditt eget tema av typen Gif.</system:String>

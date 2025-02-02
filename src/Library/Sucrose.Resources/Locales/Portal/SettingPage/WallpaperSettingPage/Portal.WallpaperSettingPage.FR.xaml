@@ -19,11 +19,17 @@
     <system:String x:Key="Portal.WallpaperSettingPage.StretchMode">Mode d'Étirement</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.StretchMode.Description">Modifiez le mode de mise à l'échelle pour les fonds d'écran pris en charge.</system:String>
 
+    <system:String x:Key="Portal.WallpaperSettingPage.StayAwake">Rester Éveillé</system:String>
+    <system:String x:Key="Portal.WallpaperSettingPage.StayAwake.Description">Modifie l'état de veille pour les fonds d'écran pris en charge.</system:String>
+
     <system:String x:Key="Portal.WallpaperSettingPage.LoopMode">Mode de Boucle</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.LoopMode.Description">Modifiez le comportement de bouclage pour les fonds d'écran pris en charge.</system:String>
 
     <system:String x:Key="Portal.WallpaperSettingPage.ShuffleMode">Mode de Mélange</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.ShuffleMode.Description">Modifiez le comportement de mélange pour les fonds d'écran pris en charge.</system:String>
+
+    <system:String x:Key="Portal.WallpaperSettingPage.BackgroundImage">Image d'Arrière-Plan</system:String>
+    <system:String x:Key="Portal.WallpaperSettingPage.BackgroundImage.Description">Change le fond d'écran animé en une image d'arrière-plan du bureau.</system:String>
 
     <system:String x:Key="Portal.WallpaperSettingPage.HardwareAcceleration">Accélération Matérielle</system:String>
     <system:String x:Key="Portal.WallpaperSettingPage.HardwareAcceleration.Description">Modifie l'état de l'accélération matérielle pour les fonds d'écran pris en charge.</system:String>

@@ -5,6 +5,7 @@ using SMMRC = Sucrose.Memory.Manage.Readonly.Content;
 using SMMRF = Sucrose.Memory.Manage.Readonly.Folder;
 using SMMRG = Sucrose.Memory.Manage.Readonly.General;
 using SMMRP = Sucrose.Memory.Manage.Readonly.Path;
+using SSDEPT = Sucrose.Shared.Dependency.Enum.PropertiesType;
 using SSECCE = Skylark.Standard.Extension.Cryptology.CryptologyExtension;
 using SSEHP = Sucrose.Shared.Engine.Helper.Properties;
 using SSEMI = Sucrose.Shared.Engine.Manage.Internal;
@@ -29,12 +30,12 @@ namespace Sucrose.Shared.Engine.MpvPlayer.Helper
             {
                 SSEMI.PropertiesPath = Path.Combine(SSEMPMI.MpvPath, SMMRC.SucroseProperties);
 
-                SSSHF.Write(SSEMI.PropertiesPath, SSECCE.BaseToText(SSEMI.MpvProperties));
+                SSSHF.WriteStream(SSEMI.PropertiesPath, SSECCE.BaseToText(SSEMI.MpvProperties));
             }
 
             SSEMI.PropertiesCache = Path.Combine(SMMRP.ApplicationData, SMMRG.AppName, SMMRF.Cache, SMMRF.Properties);
-            SSEMI.PropertiesFile = Path.Combine(SSEMI.PropertiesCache, $"{SSEMI.LibrarySelected}.json");
-            SSEMI.WatcherFile = Path.Combine(SSEMI.PropertiesCache, $"*.{SSEMI.LibrarySelected}.json");
+            SSEMI.PropertiesFile = Path.Combine(SSEMI.PropertiesCache, $"{SSEMI.LibrarySelected}{SSDEPT.MpvPlayer}");
+            SSEMI.WatcherFile = Path.Combine(SSEMI.PropertiesCache, $"*.{SSEMI.LibrarySelected}{SSDEPT.MpvPlayer}");
 
             if (!Directory.Exists(SSEMI.PropertiesCache))
             {
@@ -43,7 +44,7 @@ namespace Sucrose.Shared.Engine.MpvPlayer.Helper
 
             if (!File.Exists(SSEMI.PropertiesFile))
             {
-                File.Copy(SSEMI.PropertiesPath, SSEMI.PropertiesFile, true);
+                SSSHF.CopyBuffer(SSEMI.PropertiesPath, SSEMI.PropertiesFile);
             }
 
             try
@@ -52,13 +53,13 @@ namespace Sucrose.Shared.Engine.MpvPlayer.Helper
             }
             catch (NotSupportedException Ex)
             {
-                File.Delete(SSEMI.PropertiesFile);
+                SSSHF.Delete(SSEMI.PropertiesFile);
 
                 throw new NotSupportedException(Ex.Message);
             }
             catch (Exception Ex)
             {
-                File.Delete(SSEMI.PropertiesFile);
+                SSSHF.Delete(SSEMI.PropertiesFile);
 
                 throw new Exception(Ex.Message, Ex.InnerException);
             }

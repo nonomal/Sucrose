@@ -8,7 +8,7 @@ namespace Sucrose.Mpv.NET.API.Interop
 
         private static IDllLoadUtils SelectDllLoadUtils()
         {
-#if NETSTANDARD2_0_OR_GREATER || NET6_0_OR_GREATER
+#if NET8_0_OR_GREATER
             if (RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
             {
                 return new WindowsDllLoadUtils();

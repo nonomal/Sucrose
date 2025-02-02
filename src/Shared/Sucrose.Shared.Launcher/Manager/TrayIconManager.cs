@@ -12,7 +12,9 @@ using SMMRP = Sucrose.Memory.Manage.Readonly.Path;
 using SMMU = Sucrose.Manager.Manage.Update;
 using SRER = Sucrose.Resources.Extension.Resources;
 using SRHR = Sucrose.Resources.Helper.Resources;
+using SSDEET = Sucrose.Shared.Dependency.Enum.EngineType;
 using SSDEWT = Sucrose.Shared.Dependency.Enum.WallpaperType;
+using SSDMME = Sucrose.Shared.Dependency.Manage.Manager.Engine;
 using SSDMMG = Sucrose.Shared.Dependency.Manage.Manager.General;
 using SSLCC = Sucrose.Shared.Launcher.Command.Close;
 using SSLCE = Sucrose.Shared.Launcher.Command.Engine;
@@ -132,17 +134,71 @@ namespace Sucrose.Shared.Launcher.Manager
                     ContextMenu.Items.Add(Change);
                 }
 
-                string PropertiesPath = Path.Combine(SMML.Location, SMML.Selected, SMMRC.SucroseProperties);
+                string InfoPath = Path.Combine(SMML.Location, SMML.Selected, SMMRC.SucroseInfo);
 
-                if (File.Exists(PropertiesPath) || File.Exists(Path.Combine(SMMRP.ApplicationData, SMMRG.AppName, SMMRF.Cache, SMMRF.MpvPlayer, SMMRC.SucroseProperties)))
+                if (File.Exists(InfoPath) && SSTHI.ReadCheck(InfoPath))
                 {
-                    string InfoPath = Path.Combine(SMML.Location, SMML.Selected, SMMRC.SucroseInfo);
+                    SSTHI Info = SSTHI.ReadJson(InfoPath);
 
-                    if (File.Exists(InfoPath) && SSTHI.ReadCheck(InfoPath))
+                    if (Info.Type is SSDEWT.Gif or SSDEWT.Web or SSDEWT.Video or SSDEWT.YouTube)
                     {
-                        SSTHI Info = SSTHI.ReadJson(InfoPath);
+                        bool Properties = false;
 
-                        if (Info.Type is SSDEWT.Gif or SSDEWT.Web or SSDEWT.Video)
+                        string PropertiesPath = Path.Combine(SMML.Location, SMML.Selected, SMMRC.SucroseProperties);
+
+                        if (Info.Type == SSDEWT.Web && File.Exists(PropertiesPath))
+                        {
+                            Properties = true;
+                        }
+                        else if (Info.Type is SSDEWT.Gif or SSDEWT.Video or SSDEWT.YouTube)
+                        {
+                            if (Info.Type is SSDEWT.Gif or SSDEWT.Video)
+                            {
+                                if (Info.Type == SSDEWT.Gif)
+                                {
+                                    if (SSDMME.Gif == SSDEET.MpvPlayerLive && (File.Exists(PropertiesPath) || File.Exists(Path.Combine(SMMRP.ApplicationData, SMMRG.AppName, SMMRF.Cache, SMMRF.MpvPlayer, SMMRC.SucroseProperties))))
+                                    {
+                                        Properties = true;
+                                    }
+                                    else if (SSDMME.Gif == SSDEET.CefSharpLive && File.Exists(Path.Combine(SMMRP.ApplicationData, SMMRG.AppName, SMMRF.Cache, SMMRF.CefSharp, SMMRC.SucroseProperties)))
+                                    {
+                                        Properties = true;
+                                    }
+                                    else if (SSDMME.Gif == SSDEET.WebViewLive && File.Exists(Path.Combine(SMMRP.ApplicationData, SMMRG.AppName, SMMRF.Cache, SMMRF.WebView2, SMMRC.SucroseProperties)))
+                                    {
+                                        Properties = true;
+                                    }
+                                }
+                                else if (Info.Type == SSDEWT.Video)
+                                {
+                                    if (SSDMME.Video == SSDEET.MpvPlayerLive && (File.Exists(PropertiesPath) || File.Exists(Path.Combine(SMMRP.ApplicationData, SMMRG.AppName, SMMRF.Cache, SMMRF.MpvPlayer, SMMRC.SucroseProperties))))
+                                    {
+                                        Properties = true;
+                                    }
+                                    else if (SSDMME.Video == SSDEET.CefSharpLive && File.Exists(Path.Combine(SMMRP.ApplicationData, SMMRG.AppName, SMMRF.Cache, SMMRF.CefSharp, SMMRC.SucroseProperties)))
+                                    {
+                                        Properties = true;
+                                    }
+                                    else if (SSDMME.Video == SSDEET.WebViewLive && File.Exists(Path.Combine(SMMRP.ApplicationData, SMMRG.AppName, SMMRF.Cache, SMMRF.WebView2, SMMRC.SucroseProperties)))
+                                    {
+                                        Properties = true;
+                                    }
+                                }
+                            }
+                            else if (Info.Type == SSDEWT.YouTube)
+                            {
+                                if (SSDMME.YouTube == SSDEET.CefSharpLive && File.Exists(Path.Combine(SMMRP.ApplicationData, SMMRG.AppName, SMMRF.Cache, SMMRF.CefSharp, SMMRC.SucroseProperties)))
+                                {
+                                    Properties = true;
+                                }
+                                else if (SSDMME.YouTube == SSDEET.WebViewLive && File.Exists(Path.Combine(SMMRP.ApplicationData, SMMRG.AppName, SMMRF.Cache, SMMRF.WebView2, SMMRC.SucroseProperties)))
+                                {
+                                    Properties = true;
+                                }
+                            }
+                        }
+
+                        if (Properties)
                         {
                             if (SMMB.PausePerformance && SSSHP.Work(SSSMI.Backgroundog))
                             {
